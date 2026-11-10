@@ -13,5 +13,5 @@ for r in rows:
  co=[Q(str(F(str(v)))) for v in r['coefficients']];P=sum((co[k]*ls[k]/norms[k] for k in range(D+1)),Poly([]));H=sum(((-1)**k*co[k]*ls[k]/norms[k] for k in range(D+1)),Poly([]))
  mats=[[[str(F(float(v)).limit_denominator(10**22)) for v in row] for row in B]for B in r['matrices']]
  obj=(P[0]+Q(mats[0][0][0]))/H[0]
- out={k:r[k]for k in ['dimension','radial_degree','radial_nodes','angular_degree','exclusion_squared','truncation_squared']};out.update(matrices=mats,physical_polynomial=list(map(str,P.coeffs())),fourier_polynomial=list(map(str,H.coeffs())),normalization=str(H[0]),exact_objective=str(obj),subdivisions_per_radial_cell=8,certified_density_upper=str(r['density_candidate']*1.000001),certification_status='UNVERIFIED candidate; must pass both full-domain verifiers')
+ out={k:r[k]for k in ['dimension','radial_degree','radial_nodes','angular_degree','exclusion_squared','truncation_squared']};out.update(matrices=mats,physical_polynomial=list(map(str,P.coeffs())),fourier_polynomial=list(map(str,H.coeffs())),normalization=str(H[0]),exact_objective=str(obj),subdivisions_per_radial_cell=r.get("subdivisions_per_radial_cell",8),certified_density_upper=str(r['density_candidate']*1.000001),certification_status='UNVERIFIED candidate; must pass both full-domain verifiers')
  (dest/f'dim{n}.json').write_text(json.dumps(out,indent=2))

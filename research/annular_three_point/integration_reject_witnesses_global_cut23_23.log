@@ -1,0 +1,16 @@
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 85 seconds 18.451110124588013
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/verify_global.py", line 77, in <module>
+    assert not failed and checked==len(nodes)*(len(nodes)+1)//2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/run_certificate.py", line 8, in <module>
+    subprocess.run([sys.executable,str(root/script),str(witness)],check=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', '/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/verify_global.py', '/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/witnesses_global_cut23/dim23.json']' returned non-zero exit status 1.

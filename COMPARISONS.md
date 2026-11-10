@@ -51,3 +51,9 @@ The earlier radial-degree-four 5D witness strengthens the outward bound to **0.5
 ## Origin-coordinate refinements
 
 The current registered bounds are 4D <0.633428734445, 5D <0.510501094478, 19D <0.009618343139, 20D <0.006979497272, 21D <0.005149549312. They result from exact Schur-complement slack removal in the existing PSD kernels, not new dimensions or a new theorem. Full source-domain replays and independent exact factorization and Arb objective reconstruction passed. Comparators and external mathematical inputs are unchanged; the generated tables recompute percentages from the strict outward decimals. See [proof and replay](verifications/origin_slack/).
+
+## Dimension 18 addition
+
+The certified upper is **<0.013408931**, independently replayed by two full-domain verification paths. Its comparator 0.0134853404450862 is the pinned Cohn indexed-table value attributed to [Afkhami-Jeddi et al.](https://arxiv.org/abs/2006.02560v2). The index was reported as four months old and live Cohn retrieval failed. Refreshed searches found no stronger unrestricted 18D bound, but no worldwide-priority claim is made. The newer arXiv:2512.04829v2 table covers other dimensions, not 18.
+
+The lower density is pi^9/9! * (3/4)^9, from the center density (3/4)^9 of the 18D packing in Bierbrauer–Edel, [Dense sphere packings from new codes](https://doi.org/10.1023/A:1008733715001), whose abstract explicitly states the center density. The pinned Cohn index corroborates the construction (512 spheres per cell). This is a cited lower bound, not an optimality claim. The upper decrease is 0.566611% and the additive-gap decrease 1.044210%; comparison.py verifies the formulas.

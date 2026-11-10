@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_multipoint_20261110/verify_global.py", line 30, in <module>
+    assert all(ldlt(A)[0]for A in As)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/verify_global.py", line 30, in <module>
+    assert all(ldlt(A)[0]for A in As)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/run_certificate.py", line 8, in <module>
+    subprocess.run([sys.executable,str(root/script),str(witness)],check=True)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python', '/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/verify_global.py', '/workspace/scratch/941a2e823e69/research/sphere_global_followup_20261110/research/annular_three_point/witnesses_global_full23/dim22.json']' returned non-zero exit status 1.

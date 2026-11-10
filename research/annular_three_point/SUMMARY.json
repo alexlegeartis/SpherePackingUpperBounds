@@ -1,5 +1,11 @@
 {
-  "new_certified_bounds": [],
+  "new_certified_bounds": [
+    {
+      "dimension": 18,
+      "upper": "0.013408931",
+      "status": "Producer and independent full-domain checks pass; registered in verifications/dim18"
+    }
+  ],
   "target_dimensions": [
     17,
     18,
@@ -9,5 +15,23 @@
   "initial_exact_gate": "all failed PSD",
   "strict_margin_exact_gate": "all passed PSD and Fourier identity, all failed Fourier global sign",
   "valid_reference_regression": "20D, global and annular pass",
-  "registry_action": "Do not add candidate densities to RESULTS.json"
+  "registry_action": "Only independently audited degree31 dimension18 promoted; retain all other experiments as research",
+  "followup": {
+    "certified_noncompetitive": {
+      "17": "0.018783841",
+      "18": "0.013768221"
+    },
+    "global_coarse_22_23": "failed exact PSD",
+    "extended_corner_22_23": "passed PSD and radial signs, failed angular (21 and 85 out of 561 respectively)",
+    "degree31_fine": "completed; 17D and18D pass all local computational gates",
+    "no_improved_certified_bounds": false,
+    "locally_verified_comparator_improvement": {
+      "dimension": 18,
+      "upper": "0.013408931",
+      "pinned_comparator": "0.0134853404450862",
+      "percent_decrease": 0.5666111686045137,
+      "independent_review": "passed; see ../../verifications/dim18/REVIEW.md",
+      "worldwide_priority": "not asserted"
+    }
+  }
 }

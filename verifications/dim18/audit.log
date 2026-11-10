@@ -1,0 +1,1 @@
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 34, 'annular_maxdepth': 6, 'density_interval': '[0.01340893006264654494029079322832899292797624195812881555218302593199193264424321313767445195705346614287668673657061 +/- 8.94e-117]', 'strict_density_upper': '0.013408931'}

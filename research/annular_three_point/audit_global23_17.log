@@ -1,0 +1,10 @@
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 556 seconds 15.870392084121704
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_multipoint_20261110/verify_global.py", line 77, in <module>
+    assert not failed and checked==len(nodes)*(len(nodes)+1)//2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

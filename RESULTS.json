@@ -48,6 +48,22 @@
     "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
+    "dimension": 18,
+    "strict_density_upper_bound": "0.013408931",
+    "package": "verifications/dim18",
+    "known_lower_density": "0.0061678981253312565897",
+    "previous_upper_density": "0.0134853404450862",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "known_lower_source": "https://doi.org/10.1023/A:1008733715001",
+    "known_lower_formula": "pi^9/9! * (3/4)^9",
+    "previous_upper_status": "Pinned Cohn indexed table, reported crawl age four months; live retrieval unavailable; no worldwide-priority assertion",
+    "previous_upper_reviewed": "2026-11-10",
+    "upper_decrease_percent": "0.566611",
+    "gap_decrease_percent": "1.044210",
+    "old_gap": "0.0073174423197549434103",
+    "new_gap": "0.0072410328746687434103"
+  },
+  {
     "dimension": 19,
     "strict_density_upper_bound": "0.009618343139",
     "package": "verifications/origin_slack",

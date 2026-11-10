@@ -11,10 +11,10 @@ def calculate(precision):
   def atan(x):
    return sum(((-1)**k*x**(2*k+1)/D(2*k+1) for k in range(240)),D(0))
   pi=16*atan(D(1)/5)-4*atan(D(1)/239)
-  lows={5:pi*pi/(15*D(2).sqrt()),4:pi*pi/16,21:pi**10*D(4)**11*D(math.factorial(11))/D(math.factorial(22))*D(43)**10*D(43).sqrt()/(D(2)**41*D(3)**11*D(3).sqrt()),19:pi**9*D(4)**10*D(math.factorial(10))/D(math.factorial(20))*D(13)**9*D(13).sqrt()/(D(3)**9*D(5)**10*D(5).sqrt()),20:pi**10/D(math.factorial(10))*D(3)**20/(D(2)**10*D(5)**10*D(5).sqrt()),48:(3*pi/2)**24/D(math.factorial(24))}
+  lows={18:pi**9/D(math.factorial(9))*(D(3)/4)**9,5:pi*pi/(15*D(2).sqrt()),4:pi*pi/16,21:pi**10*D(4)**11*D(math.factorial(11))/D(math.factorial(22))*D(43)**10*D(43).sqrt()/(D(2)**41*D(3)**11*D(3).sqrt()),19:pi**9*D(4)**10*D(math.factorial(10))/D(math.factorial(20))*D(13)**9*D(13).sqrt()/(D(3)**9*D(5)**10*D(5).sqrt()),20:pi**10/D(math.factorial(10))*D(3)**20/(D(2)**10*D(5)**10*D(5).sqrt()),48:(3*pi/2)**24/D(math.factorial(24))}
   rows=json.loads((R/'RESULTS.json').read_text())
   for row in rows:
-   n=row['dimension']; L=lows[n]; U=D({5:'.5122645',4:'.63610277',21:'.0051596603948176',19:'.0098179551395438',20:'.0071270536033763',48:'.0000004529067791'}[n]); N=D(row['strict_density_upper_bound'])
+   n=row['dimension']; L=lows[n]; U=D({18:'.0134853404450862',5:'.5122645',4:'.63610277',21:'.0051596603948176',19:'.0098179551395438',20:'.0071270536033763',48:'.0000004529067791'}[n]); N=D(row['strict_density_upper_bound'])
    assert 0<L<N<U
    row.update(known_lower_density=format(L,'.20g'),previous_upper_density=str(U),upper_decrease_percent=format(100*(U-N)/U,'.6f'),gap_decrease_percent=format(100*(U-N)/(U-L),'.6f'),old_gap=format(U-L,'.20g'),new_gap=format(N-L,'.20g'))
    if n==4:
@@ -28,8 +28,8 @@ def calculate(precision):
   return rows
 rows=calculate(70)
 assert rows==calculate(100), 'Displayed digits must be precision-stable'
-lower_sources={5:'https://cohn.mit.edu/sphere-packing/',4:'https://cohn.mit.edu/sphere-packing/',21:'https://arxiv.org/abs/2505.02394v1',19:'https://arxiv.org/abs/2505.02394v1',20:'https://arxiv.org/abs/2505.02394v1',48:'https://doi.org/10.4153/CJM-1971-081-3'}
-upper_source={5:'https://arxiv.org/html/2512.04829v2#S3.T1',4:'https://arxiv.org/html/2512.04829v2#S3.T1',19:'https://arxiv.org/abs/2006.02560v2',20:'https://arxiv.org/abs/2006.02560v2',21:'https://arxiv.org/abs/2006.02560v2',48:'https://arxiv.org/abs/2006.02560v2'}
+lower_sources={18:'https://doi.org/10.1023/A:1008733715001',5:'https://cohn.mit.edu/sphere-packing/',4:'https://cohn.mit.edu/sphere-packing/',21:'https://arxiv.org/abs/2505.02394v1',19:'https://arxiv.org/abs/2505.02394v1',20:'https://arxiv.org/abs/2505.02394v1',48:'https://doi.org/10.4153/CJM-1971-081-3'}
+upper_source={18:'https://arxiv.org/abs/2006.02560v2',5:'https://arxiv.org/html/2512.04829v2#S3.T1',4:'https://arxiv.org/html/2512.04829v2#S3.T1',19:'https://arxiv.org/abs/2006.02560v2',20:'https://arxiv.org/abs/2006.02560v2',21:'https://arxiv.org/abs/2006.02560v2',48:'https://arxiv.org/abs/2006.02560v2'}
 header='| Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |\n| --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):
  return '≈' + format(D(value), '.5g')
