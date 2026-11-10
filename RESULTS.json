@@ -1,19 +1,20 @@
 [
   {
     "dimension": 4,
-    "strict_density_upper_bound": "0.635766243",
-    "package": "verifications/dim4",
+    "strict_density_upper_bound": "0.634526023",
+    "package": "verifications/dim4/refinement_p4",
     "known_lower_density": "0.61685027506808491368",
     "previous_upper_density": "0.63610277",
-    "upper_decrease_percent": "0.052905",
-    "gap_decrease_percent": "1.747966",
+    "upper_decrease_percent": "0.247876",
+    "gap_decrease_percent": "8.189832",
     "old_gap": "0.019252494931915086323",
-    "new_gap": "0.018915967931915086323",
+    "new_gap": "0.017675747931915086323",
     "previous_upper_status": "Paper-reported value printed to 8 decimal places; no independent replay",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_reviewed": "2026-11-10",
     "historical_upper_density": "0.6361073321551329",
-    "historical_upper_source": "https://arxiv.org/abs/2206.15373"
+    "historical_upper_source": "https://arxiv.org/abs/2206.15373",
+    "earlier_repository_upper_density": "0.635766243"
   },
   {
     "dimension": 5,

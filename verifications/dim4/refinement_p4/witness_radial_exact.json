@@ -1,0 +1,7 @@
+{
+  "fourier_positive_roots": 0,
+  "fourier_origin_positive": true,
+  "tail_roots_after_conservative_threshold": 0,
+  "tail_start_negative": true,
+  "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"
+}
