@@ -1,0 +1,20 @@
+dim20 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 2.717254400253296
+Density enclosure: [0.00697950190417318581318448850239932436503950767230416847431912053614315849425 +/- 4.45e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 100 depth 7 seconds 0.1473236083984375 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.006979502.
+dim20 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 52, 'annular_maxdepth': 7, 'density_upper_float': 0.006979501904173186, 'strict_density_upper': '0.006979502'}
+dim48 continuum_three_point/independent_cyclic40_angular.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+dim48 continuum_three_point/independent_cyclic40_domain.py
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+dim48 continuum_three_point/independent_cyclic40_radial.py
+{'pass': True, 'all112_Fourier_coefficients_match': True, 'precision': 512, 'Machin_terms': 110, 'cap_intervals': 33, 'max_depth': 20, 'objective_float': 17.834291498319086, 'strict_upper': '17835/1000', 'density_upper_float': 4.1338573931310067e-07}
+PASS: all registered proof replays

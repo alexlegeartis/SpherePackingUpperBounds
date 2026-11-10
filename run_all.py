@@ -1,0 +1,14 @@
+"""Replay both independent proof packages. Never run with python -O."""
+import subprocess,sys
+from pathlib import Path
+assert __debug__, 'Assertions are required'
+r=Path(__file__).resolve().parent
+jobs=[('dim20','verify.py'),('dim20','independent_verify.py')]+[('dim48','continuum_three_point/independent_cyclic40_'+x+'.py') for x in ['angular','domain','radial']]
+for directory,script in jobs:
+ print(directory,script,flush=True)
+ subprocess.run([sys.executable,script],cwd=r/'verifications'/directory,check=True)
+from fractions import Fraction
+import json
+a=json.loads((r/'verifications/dim48/continuum_three_point/independent_cyclic40_radial.json').read_text())
+assert Fraction(a['density_upper']) < Fraction('4.13385739314e-7')
+print('PASS: all registered proof replays and strict decimal rounding')
