@@ -1,8 +1,8 @@
 # Density bounds and pinned comparisons
 
-| Dimension | Known lower density L | Older upper U | New strict upper N | Upper decrease | Additive gap decrease |
-| --- | --- | --- | --- | --- | --- |
-| 20 | 0.0040241650630681997943 | 0.0071270536033763 | 0.006979502 | 2.070303% | 4.755298% |
-| 48 | 2.3178295310541237588e-8 | 4.529067791E-7 | 4.13385739314e-7 | 8.726087% | 9.196747% |
+| Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |
+| --- | --- | --- | --- | --- | --- | --- |
+| 20 | [≈0.0040242](https://arxiv.org/abs/2505.02394v1) | [≈0.0071271](https://arxiv.org/abs/2006.02560v2) | ≈0.0069795 | 2.07% | 4.76% | [20D proof](verifications/dim20/) · [Sources & formulas](COMPARISONS.md) |
+| 48 | [≈2.3178e-8](https://doi.org/10.4153/CJM-1971-081-3) | [≈4.5291e-7](https://arxiv.org/abs/2006.02560v2) | ≈4.1339e-7 | 8.73% | 9.20% | [48D proof](verifications/dim48/) · [Sources & formulas](COMPARISONS.md) |
 
-Lower densities are approximate evaluations of exact formulas; U is the upward-rounded table entry and N the repository’s safely rounded strict bound. Percentages use N, not a tighter internal objective. See [sources and conventions](COMPARISONS.md).
+Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. See [sources and conventions](COMPARISONS.md).
