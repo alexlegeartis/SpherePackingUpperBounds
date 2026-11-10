@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "checked": 135,
+  "passed": 55,
+  "excluded": 13,
+  "max_depth": 13,
+  "seconds": 13.143387079238892,
+  "failure": null,
+  "source": "witness_psd_exact.json",
+  "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"
+}

@@ -1,6 +1,6 @@
 # Comparison sources and conventions
 
-Reviewed 10 November 2026. Except for the updated 4D row below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
+Reviewed 10 November 2026. Except for the updated 4D and 5D rows below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
 
 ## Lower bounds
 
@@ -40,6 +40,10 @@ The new5D certificate uses the rigorous neighbor-count results in [de Laat–de 
 
 ## Four-dimensional refinement
 
-The current 4D repository witness has outward upper 0.634526023. The earlier audited repository certificate 0.635766243 is preserved in the parent package. Relative to the updated paper-reported 0.63610277 baseline and D4 lower pi²/16, the conservative rounded comparison removes 8.189832% of the additive gap and lowers the upper by 0.247876%. The same four externally published neighbor-count inputs are required; audit consists of source review, isolated replay and independent objective reconstruction, not a clean-room implementation or formal verification.
+The previous p4 repository witness has outward upper 0.634526023. The earlier audited repository certificate 0.635766243 is preserved in the parent package. Relative to the updated paper-reported 0.63610277 baseline and D4 lower pi²/16, the conservative rounded comparison removes 8.189832% of the additive gap and lowers the upper by 0.247876%. The same four externally published neighbor-count inputs are required; audit consists of source review, isolated replay and independent objective reconstruction, not a clean-room implementation or formal verification.
 
-The 5D refinement uses the same external neighbor-count inputs and yields the outward-rounded bound0.510584101, closing3.5747932% of the gap to the D5 lower density relative to the pinned paper-reported0.5122645. Audit scope and benchmark caveats above remain unchanged.
+The earlier 5D refinement uses the same external neighbor-count inputs and yields the outward-rounded bound0.510584101, closing3.5747932% of the gap to the D5 lower density relative to the pinned paper-reported0.5122645. Audit scope and benchmark caveats above remain unchanged.
+
+The current radial-degree-six 4D witness strengthens the outward bound to **0.633430327**. Using this rounded value and the same updated paper-reported baseline, the additive-gap decrease is 13.881022%. Previous p3 and p4 certificates are preserved. The external count assumptions and audit scope are unchanged; the new far cosine cap 1/2 is proved by a radial-corner convexity argument in the refinement proof.
+
+The current radial-degree-four 5D witness strengthens the outward bound to **0.510522525**, removing 3.705787% of the additive gap against the same paper-reported 0.5122645 baseline. Both previous 5D certificates are preserved. Neither the current 4D nor 5D result reaches a 20% gap decrease.
