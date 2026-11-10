@@ -4,10 +4,12 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Registered results
 
-| Dimension | Strict density upper bound | Method and proof package |
-| --- | --- | --- |
-| 20 | 0.006979502 | [Continuum three-point certificate](verifications/dim20/) |
-| 48 | 4.13385739314e-7 | [Cyclic continuum three-point certificate](verifications/dim48/) |
+| Dimension | Known lower density L | Older upper U | New strict upper N | Upper decrease | Additive gap decrease |
+| --- | --- | --- | --- | --- | --- |
+| 20 | 0.0040241650630681997943 | 0.0071270536033763 | 0.006979502 | 2.070303% | 4.755298% |
+| 48 | 2.3178295310541237588e-8 | 4.529067791E-7 | 4.13385739314e-7 | 8.726087% | 9.196747% |
+
+[References, exact lower-bound formulas and comparison conventions](COMPARISONS.md). [20D proof](verifications/dim20/) · [48D proof](verifications/dim48/).
 
 Both use the existing [Cohn–de Laat–Salmon continuum framework](https://arxiv.org/abs/2206.15373). Proof notes state the analytic hypotheses and normalization; exact rational witnesses and independent interval verifiers check the computational conditions over full domains. Historical numerical comparisons in package notes are pinned comparisons, not current best-known claims.
 

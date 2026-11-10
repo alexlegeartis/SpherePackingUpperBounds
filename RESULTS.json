@@ -1,1 +1,24 @@
-[{"dimension":20,"strict_density_upper_bound":"0.006979502","package":"verifications/dim20"},{"dimension":48,"strict_density_upper_bound":"4.13385739314e-7","package":"verifications/dim48"}]
+[
+  {
+    "dimension": 20,
+    "strict_density_upper_bound": "0.006979502",
+    "package": "verifications/dim20",
+    "known_lower_density": "0.0040241650630681997943",
+    "previous_upper_density": "0.0071270536033763",
+    "upper_decrease_percent": "2.070303",
+    "gap_decrease_percent": "4.755298",
+    "old_gap": "0.0031028885403081002057",
+    "new_gap": "0.0029553369369318002057"
+  },
+  {
+    "dimension": 48,
+    "strict_density_upper_bound": "4.13385739314e-7",
+    "package": "verifications/dim48",
+    "known_lower_density": "2.3178295310541237588e-8",
+    "previous_upper_density": "4.529067791E-7",
+    "upper_decrease_percent": "8.726087",
+    "gap_decrease_percent": "9.196747",
+    "old_gap": "4.2972848378945876241e-7",
+    "new_gap": "3.9020744400345876241e-7"
+  }
+]
