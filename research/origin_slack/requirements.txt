@@ -1,0 +1,2 @@
+sympy
+python-flint>=0.9

@@ -1,0 +1,13 @@
+{
+  "new_certified_bounds": [],
+  "target_dimensions": [
+    17,
+    18,
+    22,
+    23
+  ],
+  "initial_exact_gate": "all failed PSD",
+  "strict_margin_exact_gate": "all passed PSD and Fourier identity, all failed Fourier global sign",
+  "valid_reference_regression": "20D, global and annular pass",
+  "registry_action": "Do not add candidate densities to RESULTS.json"
+}

@@ -1,0 +1,10 @@
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 1.1781888008117676
+Density enclosure: [0.00697950190417318581318448850239932436503950767230416847431912053614315849425 +/- 4.45e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 100 depth 7 seconds 0.04697775840759277 failure []
+Full annular inequality: PASS
+All eight rejected witnesses rejected again at expected PSD or Fourier gate.

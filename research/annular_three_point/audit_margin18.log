@@ -1,0 +1,7 @@
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_multipoint_20261110/verify_global.py", line 41, in <module>
+    assert roots_pos(H)==0 and H[0]>0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

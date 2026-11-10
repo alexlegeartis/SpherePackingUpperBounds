@@ -41,3 +41,10 @@ Never disable assertions (`python -O`). No optimization solver or network is nee
 The referenced continuum theorem and standard positive-definite Gegenbauer addition theorem are mathematical inputs, not independently formalized theorems in this repository.
 
 The stronger independently audited [5D refinement](verifications/dim5/refinement_p4/README.md) proves density <0.510522525. The initial witness remains available.
+
+## Research tools
+
+- [Dimension-generic annular three-point search](research/annular_three_point/): sampled SDP discovery, exact candidate export, and full-domain rejection checks. The 17D, 18D, 22D and 23D candidates all failed certification; the existing 20D witness passes regression. No new bound is registered from these searches.
+- [Origin-coordinate slack research](research/origin_slack/): exact Schur-complement postprocessing and independent 5D audit. Source continuum replays are inherited, not rerun by these scripts; conditional research only, not a registered result.
+
+Research dependencies are separate from the verification-only root requirements. See each package for reproducibility commands, tested versions, scope and checksums.
