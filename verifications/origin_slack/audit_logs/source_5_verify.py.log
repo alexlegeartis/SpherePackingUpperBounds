@@ -1,0 +1,14 @@
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 1.9751853601993075e-08}, {"block": 1, "positive_definite": true, "min_pivot": 4.2449755136687974e-08}, {"block": 2, "positive_definite": true, "min_pivot": 7.103108674300546e-08}, {"block": 3, "positive_definite": true, "min_pivot": 3.205316187860055e-08}, {"block": 4, "positive_definite": true, "min_pivot": 3.1649258079459986e-08}, {"block": 5, "positive_definite": true, "min_pivot": 2.9671290573859764e-08}, {"block": 6, "positive_definite": true, "min_pivot": 2.184450054587781e-08}, {"block": 7, "positive_definite": true, "min_pivot": 2.1320464997105114e-08}, {"block": 8, "positive_definite": true, "min_pivot": 2.4455269896981186e-08}, {"block": 9, "positive_definite": true, "min_pivot": 2.510967483117317e-08}, {"block": 10, "positive_definite": true, "min_pivot": 2.343605663947983e-08}, {"block": 11, "positive_definite": true, "min_pivot": 2.0049421892223682e-08}, {"block": 12, "positive_definite": true, "min_pivot": 1.996610012562414e-08}]
+{"verified": true, "checked": 127, "max_depth": 8, "seconds": 0.08043670654296875, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004341842551391469 0.010948853423173149
+{"verified": true, "checked": 5373, "passed": 1523, "excluded": 1164, "max_depth": 33, "seconds": 0.4415864944458008, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.10027050971984863
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.17110157012939453
+TRANSFORM 1 seconds 0.2520453929901123
+TRANSFORM 2 seconds 0.36501193046569824
+INITIAL (37, 37, 37) -3.710681950569521 0.27186161309250145
+{"verified": true, "checked": 85, "passed": 39, "excluded": 4, "max_depth": 11, "seconds": 1.6012670993804932, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.510522524815414906767892985279306236886437252639757552804225922293658166514 +/- 1.08e-76]", "below_0.510522525": true, "normalization_exact": "500000000000013867843581/500000000000000000000000", "numerator_exact": "19397529933890261448094669/6250000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.510522525, using the cited external neighbor-count theorem

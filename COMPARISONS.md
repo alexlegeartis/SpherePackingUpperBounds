@@ -44,6 +44,10 @@ The previous p4 repository witness has outward upper 0.634526023. The earlier au
 
 The earlier 5D refinement uses the same external neighbor-count inputs and yields the outward-rounded bound0.510584101, closing3.5747932% of the gap to the D5 lower density relative to the pinned paper-reported0.5122645. Audit scope and benchmark caveats above remain unchanged.
 
-The current radial-degree-six 4D witness strengthens the outward bound to **0.633430327**. Using this rounded value and the same updated paper-reported baseline, the additive-gap decrease is 13.881022%. Previous p3 and p4 certificates are preserved. The external count assumptions and audit scope are unchanged; the new far cosine cap 1/2 is proved by a radial-corner convexity argument in the refinement proof.
+The earlier radial-degree-six 4D witness strengthens the outward bound to **0.633430327**. Using this rounded value and the same updated paper-reported baseline, the additive-gap decrease is 13.881022%. Previous p3 and p4 certificates are preserved. The external count assumptions and audit scope are unchanged; the new far cosine cap 1/2 is proved by a radial-corner convexity argument in the refinement proof.
 
-The current radial-degree-four 5D witness strengthens the outward bound to **0.510522525**, removing 3.705787% of the additive gap against the same paper-reported 0.5122645 baseline. Both previous 5D certificates are preserved. Neither the current 4D nor 5D result reaches a 20% gap decrease.
+The earlier radial-degree-four 5D witness strengthens the outward bound to **0.510522525**, removing 3.705787% of the additive gap against the same paper-reported 0.5122645 baseline. Both previous 5D certificates are preserved. Neither the current 4D nor 5D result reaches a 20% gap decrease.
+
+## Origin-coordinate refinements
+
+The current registered bounds are 4D <0.633428734445, 5D <0.510501094478, 19D <0.009618343139, 20D <0.006979497272, 21D <0.005149549312. They result from exact Schur-complement slack removal in the existing PSD kernels, not new dimensions or a new theorem. Full source-domain replays and independent exact factorization and Arb objective reconstruction passed. Comparators and external mathematical inputs are unchanged; the generated tables recompute percentages from the strict outward decimals. See [proof and replay](verifications/origin_slack/).

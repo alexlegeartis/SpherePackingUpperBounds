@@ -12,4 +12,5 @@ from fractions import Fraction
 import json
 a=json.loads((r/'verifications/dim48/continuum_three_point/independent_cyclic40_radial.json').read_text())
 assert Fraction(a['density_upper']) < Fraction('4.13385739314e-7')
+subprocess.run([sys.executable,str(r/'verifications/origin_slack/verify_algebra.py')],check=True)
 print('PASS: all registered proof replays and strict decimal rounding')

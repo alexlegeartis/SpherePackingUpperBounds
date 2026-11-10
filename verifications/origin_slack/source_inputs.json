@@ -1,0 +1,9 @@
+{
+  "verifications/dim4/refinement_p6/witness.json": "a52e391a675438608101ddf3cd5f6d2c25fd610d0e4884112132adb4f0a3e08c",
+  "verifications/dim4/refinement_p6/witness_psd_exact.json": "96950b312f918ba983f96f6a59b3501b755def1c386a023b6bd64d548d39b32b",
+  "verifications/dim5/refinement_p4/witness.json": "697ca6dbfd55b3eeb2b2c55c5ec1c4b11a7f9f63e9c60d2d03b7e460514b881d",
+  "verifications/dim5/refinement_p4/witness_psd_exact.json": "5d41cb688d99359f93401ebb7a529b676991a7b9a80b36e5c14a52cf1ee89919",
+  "verifications/dim19/certificate.json": "aa175b47889541a59de8bda589b65f046313c88b3ecdeeb5a1805aa362de08db",
+  "verifications/dim20/certificate.json": "27dfd7d0333e1551eddd4942c18ed37f3b6567ce10e20fc5a65e4d5d2e5eff21",
+  "verifications/dim21/certificate.json": "eff146c24ac78d77a3eb86c68038f3ef9140e5cb6faf13bccae460597725ee5a"
+}

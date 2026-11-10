@@ -1,0 +1,50 @@
+[
+  {
+    "dimension": 4,
+    "script": "verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_4_verify.py.log"
+  },
+  {
+    "dimension": 5,
+    "script": "verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_5_verify.py.log"
+  },
+  {
+    "dimension": 19,
+    "script": "verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_19_verify.py.log"
+  },
+  {
+    "dimension": 19,
+    "script": "independent_verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_19_independent_verify.py.log"
+  },
+  {
+    "dimension": 20,
+    "script": "verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_20_verify.py.log"
+  },
+  {
+    "dimension": 20,
+    "script": "independent_verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_20_independent_verify.py.log"
+  },
+  {
+    "dimension": 21,
+    "script": "verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_21_verify.py.log"
+  },
+  {
+    "dimension": 21,
+    "script": "independent_verify.py",
+    "returncode": 0,
+    "log": "audit_logs/source_21_independent_verify.py.log"
+  }
+]

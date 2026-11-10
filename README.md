@@ -6,11 +6,11 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 | Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |
 | --- | --- | --- | --- | --- | --- | --- |
-| 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.88% | [4D proof](verifications/dim4/refinement_p6/) · [Sources & formulas](COMPARISONS.md) |
-| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51052 | 0.34% | 3.71% | [5D proof](verifications/dim5/refinement_p4/) · [Sources & formulas](COMPARISONS.md) |
-| 19 | [≈0.0041474](https://arxiv.org/abs/2505.02394v1) | [≈0.0098180](https://arxiv.org/abs/2006.02560v2) | ≈0.0096184 | 2.03% | 3.52% | [19D proof](verifications/dim19/) · [Sources & formulas](COMPARISONS.md) |
-| 20 | [≈0.0040242](https://arxiv.org/abs/2505.02394v1) | [≈0.0071271](https://arxiv.org/abs/2006.02560v2) | ≈0.0069795 | 2.07% | 4.76% | [20D proof](verifications/dim20/) · [Sources & formulas](COMPARISONS.md) |
-| 21 | [≈0.0029298](https://arxiv.org/abs/2505.02394v1) | [≈0.0051597](https://arxiv.org/abs/2006.02560v2) | ≈0.0051496 | 0.20% | 0.45% | [21D proof](verifications/dim21/) · [Sources & formulas](COMPARISONS.md) |
+| 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [4D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51050 | 0.34% | 3.75% | [5D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 19 | [≈0.0041474](https://arxiv.org/abs/2505.02394v1) | [≈0.0098180](https://arxiv.org/abs/2006.02560v2) | ≈0.0096183 | 2.03% | 3.52% | [19D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 20 | [≈0.0040242](https://arxiv.org/abs/2505.02394v1) | [≈0.0071271](https://arxiv.org/abs/2006.02560v2) | ≈0.0069795 | 2.07% | 4.76% | [20D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 21 | [≈0.0029298](https://arxiv.org/abs/2505.02394v1) | [≈0.0051597](https://arxiv.org/abs/2006.02560v2) | ≈0.0051495 | 0.20% | 0.45% | [21D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 48 | [≈2.3178e-8](https://doi.org/10.4153/CJM-1971-081-3) | [≈4.5291e-7](https://arxiv.org/abs/2006.02560v2) | ≈4.1339e-7 | 8.73% | 9.20% | [48D proof](verifications/dim48/) · [Sources & formulas](COMPARISONS.md) |
 
 Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D and 5D baselines are newer paper-reported values (8 and 7 decimal places), not independently replayed here. 
@@ -40,11 +40,11 @@ Never disable assertions (`python -O`). No optimization solver or network is nee
 
 The referenced continuum theorem and standard positive-definite Gegenbauer addition theorem are mathematical inputs, not independently formalized theorems in this repository.
 
-The stronger independently audited [5D refinement](verifications/dim5/refinement_p4/README.md) proves density <0.510522525. The initial witness remains available.
+The [origin-coordinate refinements](verifications/origin_slack/) tighten the existing 4D, 5D, 19D, 20D and 21D certificates. All earlier witnesses remain available; full source replays and independent exact Schur/Arb audits passed. No new dimensions are registered.
 
 ## Research tools
 
 - [Dimension-generic annular three-point search](research/annular_three_point/): sampled SDP discovery, exact candidate export, and full-domain rejection checks. The 17D, 18D, 22D and 23D candidates all failed certification; the existing 20D witness passes regression. No new bound is registered from these searches.
-- [Origin-coordinate slack research](research/origin_slack/): exact Schur-complement postprocessing and independent 5D audit. Source continuum replays are inherited, not rerun by these scripts; conditional research only, not a registered result.
+- [Origin-coordinate slack research](research/origin_slack/): exact Schur-complement postprocessing and independent 5D audit. This preserves the initial research snapshot; the subsequent fully replayed refinements are registered in [verifications/origin_slack](verifications/origin_slack/).
 
 Research dependencies are separate from the verification-only root requirements. See each package for reproducibility commands, tested versions, scope and checksums.

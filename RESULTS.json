@@ -1,14 +1,14 @@
 [
   {
     "dimension": 4,
-    "strict_density_upper_bound": "0.633430327",
-    "package": "verifications/dim4/refinement_p6",
+    "strict_density_upper_bound": "0.633428734445",
+    "package": "verifications/origin_slack",
     "known_lower_density": "0.61685027506808491368",
     "previous_upper_density": "0.63610277",
-    "upper_decrease_percent": "0.420128",
-    "gap_decrease_percent": "13.881022",
+    "upper_decrease_percent": "0.420378",
+    "gap_decrease_percent": "13.889294",
     "old_gap": "0.019252494931915086323",
-    "new_gap": "0.016580051931915086323",
+    "new_gap": "0.016578459376915086323",
     "previous_upper_status": "Paper-reported value printed to 8 decimal places; no independent replay",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_reviewed": "2026-11-10",
@@ -17,19 +17,22 @@
     "earlier_repository_upper_density": "0.635766243",
     "earlier_repository_upper_densities": [
       "0.635766243",
-      "0.634526023"
-    ]
+      "0.634526023",
+      "0.633430327"
+    ],
+    "source_package": "verifications/dim4/refinement_p6",
+    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
     "dimension": 5,
-    "strict_density_upper_bound": "0.510522525",
-    "package": "verifications/dim5/refinement_p4",
+    "strict_density_upper_bound": "0.510501094478",
+    "package": "verifications/origin_slack",
     "known_lower_density": "0.46525761330925863561",
     "previous_upper_density": "0.5122645",
-    "upper_decrease_percent": "0.340054",
-    "gap_decrease_percent": "3.705787",
+    "upper_decrease_percent": "0.344237",
+    "gap_decrease_percent": "3.751377",
     "old_gap": "0.047006886690741364389",
-    "new_gap": "0.045264911690741364389",
+    "new_gap": "0.045243481168741364389",
     "previous_upper_status": "Paper-reported value printed to 7 decimal places; no independent replay",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_reviewed": "2026-11-10",
@@ -38,41 +41,59 @@
     "external_neighbor_count_source": "https://arxiv.org/html/1206.2608#S6.T2",
     "earlier_repository_upper_densities": [
       "0.511534153",
-      "0.510584101"
-    ]
+      "0.510584101",
+      "0.510522525"
+    ],
+    "source_package": "verifications/dim5/refinement_p4",
+    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
     "dimension": 19,
-    "strict_density_upper_bound": "0.009618351",
-    "package": "verifications/dim19",
+    "strict_density_upper_bound": "0.009618343139",
+    "package": "verifications/origin_slack",
     "known_lower_density": "0.0041473691458627257748",
     "previous_upper_density": "0.0098179551395438",
-    "upper_decrease_percent": "2.033052",
-    "gap_decrease_percent": "3.519991",
+    "upper_decrease_percent": "2.033132",
+    "gap_decrease_percent": "3.520130",
     "old_gap": "0.0056705859936810742252",
-    "new_gap": "0.0054709818541372742252"
+    "new_gap": "0.0054709739931372742252",
+    "earlier_repository_upper_densities": [
+      "0.009618351"
+    ],
+    "source_package": "verifications/dim19",
+    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
     "dimension": 20,
-    "strict_density_upper_bound": "0.006979502",
-    "package": "verifications/dim20",
+    "strict_density_upper_bound": "0.006979497272",
+    "package": "verifications/origin_slack",
     "known_lower_density": "0.0040241650630681997943",
     "previous_upper_density": "0.0071270536033763",
-    "upper_decrease_percent": "2.070303",
-    "gap_decrease_percent": "4.755298",
+    "upper_decrease_percent": "2.070369",
+    "gap_decrease_percent": "4.755451",
     "old_gap": "0.0031028885403081002057",
-    "new_gap": "0.0029553369369318002057"
+    "new_gap": "0.0029553322089318002057",
+    "earlier_repository_upper_densities": [
+      "0.006979502"
+    ],
+    "source_package": "verifications/dim20",
+    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
     "dimension": 21,
-    "strict_density_upper_bound": "0.005149554",
-    "package": "verifications/dim21",
+    "strict_density_upper_bound": "0.005149549312",
+    "package": "verifications/origin_slack",
     "known_lower_density": "0.0029298291067157025989",
     "previous_upper_density": "0.0051596603948176",
-    "upper_decrease_percent": "0.195873",
-    "gap_decrease_percent": "0.453236",
+    "upper_decrease_percent": "0.195964",
+    "gap_decrease_percent": "0.453446",
     "old_gap": "0.0022298312881018974011",
-    "new_gap": "0.0022197248932842974011"
+    "new_gap": "0.0022197202052842974011",
+    "earlier_repository_upper_densities": [
+      "0.005149554"
+    ],
+    "source_package": "verifications/dim21",
+    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
     "dimension": 48,
