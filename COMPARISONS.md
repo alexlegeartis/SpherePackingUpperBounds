@@ -1,6 +1,6 @@
 # Comparison sources and conventions
 
-Reviewed 10 November 2026. The numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
+Reviewed 10 November 2026. Except for the updated 4D row below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
 
 ## Lower bounds
 
@@ -15,7 +15,9 @@ Reviewed 10 November 2026. The numerical baseline is [Henry Cohn's sphere-packin
 
 ## Previous upper bounds
 
-**4D:** Cohn–de Laat–Salmon, [Three-point bounds for sphere packing](https://arxiv.org/abs/2206.15373), supplies the pinned upper 0.6361073321551329 from Cohn's table. The new package also assumes four published near-neighbor average-degree bounds from [de Laat–de Oliveira Filho–Vallentin, Table 2](https://arxiv.org/pdf/1206.2608). See the 4D proof for exact thresholds and the limits of its independent computational audit.
+**4D current comparison:** [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), version dated 8 December 2025, reports 0.63610277 for unrestricted packing density. Checked directly on 10 November 2026. This is the paper’s printed value at eight decimal places; no additional digits, directed-rounding guarantee or independent certificate replay are asserted. Percentages therefore compare against that reported decimal, not a newly certified exact baseline. The repository bound <0.635766243 remains smaller. This paper reports dimensions 4–7 and 9–16 in Table 1, with a separate 8D case study; it provides no replacement comparison for our 19D, 20D, 21D or 48D rows.
+
+**4D historical comparison:** Cohn–de Laat–Salmon, [Three-point bounds for sphere packing](https://arxiv.org/abs/2206.15373), supplies the earlier upper 0.6361073321551329 from Cohn's table. The new package also assumes four published near-neighbor average-degree bounds from [de Laat–de Oliveira Filho–Vallentin, Table 2](https://arxiv.org/pdf/1206.2608). See the 4D proof for exact thresholds and the limits of its independent computational audit.
 
 For dimensions 19, 20, 21 and 48, Cohn's table attributes its upper bounds to Afkhami-Jeddi, Cohn, Hartman, de Laat and Tajdini, [High-dimensional sphere packing and the modular bootstrap](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066, [DOI](https://doi.org/10.1007/JHEP12(2020)066). The table's upward-rounded entries are 0.0098179551395438 (19D), 0.0071270536033763 (20D), 0.0051596603948176 (21D), and 0.0000004529067791 (48D). These concern unrestricted packing density, not a lattice-only bound. We use these published-table decimals, not the unknown exact optimum of the Cohn–Elkies optimization problem.
 
