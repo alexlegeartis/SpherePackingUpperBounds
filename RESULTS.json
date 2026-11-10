@@ -1,5 +1,16 @@
 [
   {
+    "dimension": 4,
+    "strict_density_upper_bound": "0.635766243",
+    "package": "verifications/dim4",
+    "known_lower_density": "0.61685027506808491368",
+    "previous_upper_density": "0.6361073321551329",
+    "upper_decrease_percent": "0.053621",
+    "gap_decrease_percent": "1.771242",
+    "old_gap": "0.019257057087047986323",
+    "new_gap": "0.018915967931915086323"
+  },
+  {
     "dimension": 19,
     "strict_density_upper_bound": "0.009618351",
     "package": "verifications/dim19",

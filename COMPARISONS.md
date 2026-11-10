@@ -4,6 +4,8 @@ Reviewed 10 November 2026. The numerical baseline is [Henry Cohn's sphere-packin
 
 ## Lower bounds
 
+- **4D:** the D4 lattice has density pi^2/16, as tabulated by [Cohn](https://cohn.mit.edu/sphere-packing/). This is the known construction, not an optimality claim for unrestricted packings.
+
 - **21D:** Chen, Hu, Li, Wang and Wu, [New Sphere Packings from the Antipode Construction](https://arxiv.org/abs/2505.02394v1), 2025. Center density 2^(-41)*3^(-23/2)*43^(21/2), as listed in Cohn's general-packing table. Multiply by 4^11*11!*pi^10/22! for density L.
 
 - **19D:** Chen, Hu, Li, Wang and Wu, [New Sphere Packings from the Antipode Construction](https://arxiv.org/abs/2505.02394v1), 2025. Center density 3^(-9) * 5^(-21/2) * 13^(19/2), as listed in Cohn's general-packing table. Multiply by the unit-ball volume 4^10*10!*pi^9/20! for the density L. This is a cited construction, not a new lower bound.
@@ -13,7 +15,9 @@ Reviewed 10 November 2026. The numerical baseline is [Henry Cohn's sphere-packin
 
 ## Previous upper bounds
 
-For all four rows, Cohn's table attributes its upper bounds to Afkhami-Jeddi, Cohn, Hartman, de Laat and Tajdini, [High-dimensional sphere packing and the modular bootstrap](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066, [DOI](https://doi.org/10.1007/JHEP12(2020)066). The table's upward-rounded entries are 0.0098179551395438 (19D), 0.0071270536033763 (20D), 0.0051596603948176 (21D), and 0.0000004529067791 (48D). These concern unrestricted packing density, not a lattice-only bound. We use these published-table decimals, not the unknown exact optimum of the Cohn–Elkies optimization problem.
+**4D:** Cohn–de Laat–Salmon, [Three-point bounds for sphere packing](https://arxiv.org/abs/2206.15373), supplies the pinned upper 0.6361073321551329 from Cohn's table. The new package also assumes four published near-neighbor average-degree bounds from [de Laat–de Oliveira Filho–Vallentin, Table 2](https://arxiv.org/pdf/1206.2608). See the 4D proof for exact thresholds and the limits of its independent computational audit.
+
+For dimensions 19, 20, 21 and 48, Cohn's table attributes its upper bounds to Afkhami-Jeddi, Cohn, Hartman, de Laat and Tajdini, [High-dimensional sphere packing and the modular bootstrap](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066, [DOI](https://doi.org/10.1007/JHEP12(2020)066). The table's upward-rounded entries are 0.0098179551395438 (19D), 0.0071270536033763 (20D), 0.0051596603948176 (21D), and 0.0000004529067791 (48D). These concern unrestricted packing density, not a lattice-only bound. We use these published-table decimals, not the unknown exact optimum of the Cohn–Elkies optimization problem.
 
 ## Arithmetic and interpretation
 

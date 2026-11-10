@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "checked": 34009,
+  "passed": 8439,
+  "excluded": 8566,
+  "max_depth": 29,
+  "seconds": 4.762671232223511,
+  "failure": null,
+  "source": "witness_psd_exact.json",
+  "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"
+}
