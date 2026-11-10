@@ -41,3 +41,5 @@ The new5D certificate uses the rigorous neighbor-count results in [de Laat–de 
 ## Four-dimensional refinement
 
 The current 4D repository witness has outward upper 0.634526023. The earlier audited repository certificate 0.635766243 is preserved in the parent package. Relative to the updated paper-reported 0.63610277 baseline and D4 lower pi²/16, the conservative rounded comparison removes 8.189832% of the additive gap and lowers the upper by 0.247876%. The same four externally published neighbor-count inputs are required; audit consists of source review, isolated replay and independent objective reconstruction, not a clean-room implementation or formal verification.
+
+The 5D refinement uses the same external neighbor-count inputs and yields the outward-rounded bound0.510584101, closing3.5747932% of the gap to the D5 lower density relative to the pinned paper-reported0.5122645. Audit scope and benchmark caveats above remain unchanged.
