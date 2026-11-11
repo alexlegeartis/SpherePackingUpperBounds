@@ -1,0 +1,15 @@
+{
+  "unrepaired_source_pair": {
+    "passed": true,
+    "x_exact": "6858771052618467/562949953421312",
+    "positive_residual_interval": "[9.2125273322526590983879067038203218952138857545452934433102537732274542831090937184967509960882245899088062227022e-13 +/- 9.12e-126]"
+  },
+  "deleted_first_interval": {
+    "passed": true,
+    "corruption_rejected": true
+  },
+  "incorrect_closed_count_endpoint": {
+    "passed": true,
+    "corruption_rejected": true
+  }
+}

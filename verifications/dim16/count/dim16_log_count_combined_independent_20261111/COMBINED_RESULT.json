@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "dimension": 16,
+  "strict_density_upper": "0.024920988",
+  "underlying_expression": "[0.02492098791465854077789224103237950543265565191638922478824388862385173193633461323036169523221724858358947604104066 +/- 6.88e-117]",
+  "count_integer": 7802,
+  "count_real_exact": "312088606685148928640783897809857712791224631688228314148078721891240232195723036582293440658378605906991137671407840467703756634245161066607635889/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "spherical_cap": "5003/10000",
+  "minimum_separation_squared": "2",
+  "shell_threshold_squared": "10000/4997",
+  "geometry_rectangles": 31138,
+  "geometry_exclusions": 327,
+  "count_proof_events": 2155,
+  "independent_pair_intervals": 59,
+  "radial_rays": "exact rational Sturm,31 variations at both endpoints on each ray",
+  "negative_controls": 10,
+  "published_displayed_comparator": "0.02492121",
+  "comparator_source": "https://arxiv.org/html/2512.04829v2#S5",
+  "proof_input_sha256": {
+    "density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954",
+    "density_kissing16_independent_cyclic_20261111/polynomial.json": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7",
+    "density_kissing16_independent_cyclic_20261111/proof_events.json": "d1d5333e9768677e53f924a0897358567e4164b7a09a6361046072572a669ca5",
+    "dim16_log_count_radial_independent_20261111/candidate_exact.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95"
+  },
+  "math_scope": "Direct periodic cyclic summation plus pointwise positive-width spherical count; all finite and infinite domains covered; no optimizer status used"
+}

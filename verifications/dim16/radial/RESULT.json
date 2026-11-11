@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "certified_bound": false,
+  "count_conditional": true,
+  "scope": "Full conditional radial pair inequality and both rays only. Spherical average-count theorem remains external.",
+  "finite_pair_domain_v": [
+    "1",
+    "7/4"
+  ],
+  "finite_pair_domain_X": [
+    "2*pi",
+    "7*pi/2"
+  ],
+  "stronger_physical_negative_ray_X": "21/2",
+  "tail_overlap_proved": true,
+  "profile_kinks_below_endpoint": [
+    "51/50",
+    "21/20",
+    "11/10",
+    "6/5",
+    "7/5",
+    "3/2",
+    "8/5",
+    "33/20",
+    "7/4"
+  ],
+  "later_kinks_covered_by_physical_negative_ray": [
+    "2"
+  ],
+  "count_threshold_v_exact": "5000/4997",
+  "half_open_count_handling": "Left closure proved with count; right closure proved without count, including the threshold.",
+  "count_U": 7802,
+  "control_count_U": 7803,
+  "nodes": 62,
+  "accepted_intervals": 36,
+  "max_depth": 6,
+  "exact_total_width": "3/4",
+  "density_expression_interval": "[0.02492098791465854077789224103237950543265565191638922478824388862385173193633461323036169523221724858358947604104066 +/- 6.88e-117]",
+  "conservative_expression_upper": "0.024920988",
+  "comparator_headroom_interval": "[2.2208534145922210775896762049456734434808361077521175611137614826806366538676963830476778275141641052395895934e-7 +/- 7.70e-117]",
+  "source_hashes": {
+    "conditional_refit_exact.json": "2bf270567dc8b03aa8278afc2394f37afa1a993ead4399a101da8a422e330d7c",
+    "inputs/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "inputs/angular_dim16.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b"
+  }
+}

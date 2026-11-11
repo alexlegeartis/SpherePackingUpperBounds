@@ -1,0 +1,15 @@
+{
+  "status": "PASS for audited construction and interval enclosures; global search completion is not checked here",
+  "independent_factor_form_matches_exact_cyclic_polynomial": true,
+  "exact_permutation_symmetry": true,
+  "terms": 2673,
+  "degree_each_axis": 16,
+  "exact_initial_bernstein_coefficients_checked": 4913,
+  "all_initial_binary64_intervals_contain_exact_coefficients": true,
+  "all_first_subdivision_intervals_contain_exact_child_coefficients_on_all_axes": true,
+  "exact_cyclic_bernstein_sha256": "6fdfbae356d5550750b6f972b02d23f3f4353cb884b90a602fe99c666260aa23",
+  "polynomial_sha256": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7",
+  "bernstein_initial_npz_sha256": "1fca4ab34344eb02d73556a7170960f03acf2f0d7e2f28eaf7861f6b96007f4a",
+  "audited_script_sha256": "25c15d93c3fa1a0202eb4db8387d3ae4f1d38cd53f3cb5cc487b12df30b4d78d",
+  "runtime_seconds": 4.631631917996856
+}

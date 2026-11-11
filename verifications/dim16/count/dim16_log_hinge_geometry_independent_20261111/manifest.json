@@ -1,0 +1,14 @@
+{
+  "scope": "Immutable independent audit code, mathematical inputs and documentation; generated reports/logs are not source inputs",
+  "tested_python": "3.12.14",
+  "files": {
+    "README.md": "a23acf92563e464302f9e428cf7f2b9d21ed84388dc814e6a94bd38e1f3e9e76",
+    "RESULT_GEOMETRY.json": "62814fb086afb0100651f8ab8d6eb3581167454d66db73cefb31440c4eb58e6e",
+    "angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "negative_controls.py": "8bc62c11211a99c4a64b59a1fd7f33f1800051a81b18d4db29450ae04a2c2c9d",
+    "partition.json": "980cc8b3169cd44fa4f249ea274b18fc5fc14f583be36d6b95f89258ae285ec0",
+    "requirements.txt": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d",
+    "verify.py": "1a31228049a6d63dd7a85d616dc79efa22d73065fa0b5584e4e38059429935f7"
+  }
+}

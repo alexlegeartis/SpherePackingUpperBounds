@@ -1,0 +1,26 @@
+INTEGER_REPLAY 500 seconds 3.585470168000029
+INTEGER_REPLAY 1500 seconds 9.73676152400003
+{
+  "status": "PASS: completed full-domain covering independently verified with integer upper arithmetic",
+  "arithmetic": "Exact integer upper bounds on a fixed 2^-80 grid; exact integer dyadic multiplier acceptance; exact rational box geometry",
+  "fixed_point_bits": 80,
+  "exact_cyclic_bernstein_sha256": "6fdfbae356d5550750b6f972b02d23f3f4353cb884b90a602fe99c666260aa23",
+  "all_4913_gram_initial_intervals_verified_exactly": true,
+  "checked": 2155,
+  "passed_direct": 641,
+  "passed_gram_multiplier": 259,
+  "excluded_symmetry": 71,
+  "excluded_gram": 107,
+  "max_depth": 46,
+  "full_unit_cube_covered_exact": "1",
+  "matches_original_partition_transcript": true,
+  "partition_transcript_sha256": "9989c48afc1068a38a21c04597604cfa6b3927b015dcd364957c12c317769576",
+  "leaves_file": "gram_replayed_leaves.json",
+  "leaves_sha256": "141b06cdd8feea5e50748ad54af6c14b5e1d5f6d9155b196c90a14bc5c3e99ca",
+  "rigorous_uniform_cyclic_negative_margin_exact": "1804896546625092345704439846467/340282366920938463463374607431768211456",
+  "safe_strict_uniform_cyclic_upper_bound_exact": "-1/200000000",
+  "margin_approximation_for_orientation_only": 5.304114235941129e-09,
+  "cyclic_gram_script_sha256": "1c70b0e5c1d0befd93cc0fd9ae3341f28cda944a9fcf1a54c662f782f8268c4a",
+  "not_a_complete_count_or_density_theorem_by_itself": true,
+  "runtime_seconds": 13.708183324997663
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "controls": {
+    "missing_geometry_rectangle": {
+      "rejected": true
+    },
+    "invalid_sorted_domain_exclusion": {
+      "rejected": true
+    },
+    "negative_profile_coefficient": {
+      "rejected": true
+    },
+    "python_optimization_disabled": {
+      "rejected": true
+    }
+  }
+}

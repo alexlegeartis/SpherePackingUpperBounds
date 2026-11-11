@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "scope": "Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted",
+  "exact_Gegenbauer_closed_form": true,
+  "exact_cap_and_one_transition": true,
+  "all_scale_hypotheses": true,
+  "rigorous_tail": true,
+  "exact_binary_cover": {
+    "accepted": 31138,
+    "discarded": 327,
+    "tested_tree_nodes": 62929,
+    "area": "9/2"
+  },
+  "independent_analytic_gradient_checks": 31138,
+  "additional_refinements": 0,
+  "maximum_extra_depth": 0,
+  "seconds": 19.19821366600081,
+  "input_hashes": {
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "partition.json": "980cc8b3169cd44fa4f249ea274b18fc5fc14f583be36d6b95f89258ae285ec0"
+  }
+}

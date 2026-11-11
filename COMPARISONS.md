@@ -208,3 +208,7 @@ The pinned newer upper .03372585 is the paper-reported15D entry of [2512.04829v2
 ## Dimensions 11–14
 
 The newer pinned upper values from [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1) are .10672201, .0797066, .06012103 and .04501031 respectively. The table was read on 2026-11-11; those external certificates are not replayed. The [Cohn indexed table](https://cohn.mit.edu/sphere-packing/), crawled four months earlier (live fetch returned 502), gives center densities9/256,1/27,9/256 and1/(16sqrt3). Multiplying unit-ball volumes gives L11=144*pi^5*6!/12!, L12=pi^6/(27*6!), L13=576*pi^6*7!/14!, L14=pi^7/(16*sqrt3*7!). References:11/13 [Leech–Sloane1971](https://doi.org/10.4153/CJM-1971-081-3),12 [Coxeter–Todd1953](https://doi.org/10.4153/cjm-1953-043-4),14 [Leech1964](https://doi.org/10.4153/CJM-1964-065-1). These are sourced construction densities, not lower bounds on an optimization relaxation.
+
+## Dimension 16: displayed comparator precision
+
+The strict certified bound is 0.024920988. The paper reports 0.02492121 in [Table 1](https://arxiv.org/html/2512.04829v2#S3.T1); the difference of the displayed values is 0.000000222. We do not reconstruct its unrounded certificate or claim worldwide priority. Percentages use these displayed values. The achieved Barnes–Wall lower density is pi^8/645120, from center density 1/16; see [BW16](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/BW16.html). All new spherical-count, geometry and radial proofs are replayed, rather than imported as unverified count constants.

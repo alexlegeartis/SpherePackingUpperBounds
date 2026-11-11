@@ -174,6 +174,23 @@
     "new_gap": "0.016814032343237302352"
   },
   {
+    "dimension": 16,
+    "strict_density_upper_bound": "0.024920988",
+    "package": "verifications/dim16",
+    "source_package": "verifications/dim16",
+    "method": "Log-hinge radial profile with independently certified positive-width spherical count",
+    "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_status": "Comparison to displayed 0.02492121 only; source upper certificate not replayed; no worldwide-priority assertion",
+    "external_neighbor_counts_required": false,
+    "count_certificate_replayed": true,
+    "known_lower_density": "0.014708164397430825284",
+    "previous_upper_density": "0.02492121",
+    "upper_decrease_percent": "0.000891",
+    "gap_decrease_percent": "0.002174",
+    "old_gap": "0.010213045602569174716",
+    "new_gap": "0.010212823602569174716"
+  },
+  {
     "dimension": 17,
     "strict_density_upper_bound": "0.018204096",
     "package": "verifications/dim17/refinement_repaired",

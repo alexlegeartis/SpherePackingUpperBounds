@@ -1,0 +1,11 @@
+EXACT_REPLAY 200 seconds 2.9892813350015786
+EXACT_REPLAY 400 seconds 5.616511575004552
+EXACT_REPLAY 600 seconds 8.420429776000674
+EXACT_REPLAY 800 seconds 10.518214080999314
+EXACT_REPLAY 1000 seconds 12.058651077997638
+EXACT_REPLAY 1200 seconds 13.934939564998785
+EXACT_REPLAY 1400 seconds 17.051967762003187
+EXACT_REPLAY 1600 seconds 19.469721298999502
+EXACT_REPLAY 1800 seconds 21.228487017004227
+EXACT_REPLAY 2000 seconds 22.74107695800194
+{"verified": true, "arithmetic": "Exact FLINT rational initialization and arbitrary-size integer dyadic subdivision. Every leaf inequality checked by integer signs. No floating point or interval arithmetic in replay acceptance.", "events": 2155, "counts": {"H": 641, "M": 259, "G": 107, "S": 71, "split": 1077}, "max_depth": 46, "covered_unit_cube_volume_exact": "1", "common_initial_denominator_decimal_digits": 302, "proof_events_sha256": "d1d5333e9768677e53f924a0897358567e4164b7a09a6361046072572a669ca5", "polynomial_sha256": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7", "input_sha256": {"candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573", "factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"}, "seconds": 23.83881801800453}

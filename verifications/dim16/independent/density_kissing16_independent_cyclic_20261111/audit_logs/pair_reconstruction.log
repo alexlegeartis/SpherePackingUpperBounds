@@ -1,0 +1,13 @@
+Exact reconstruction complete: 32 {'lower': '7802.215167128723216019597445', 'upper': '7802.215167128723216019597446', 'digits': 24}
+Strict pair negativity proved.
+{
+  "status": "PASS: exact PSD, nonnegative coefficients, origin/objective, and entire pair interval",
+  "objective_enclosure": {
+    "lower": "7802.215167128723216019597445",
+    "upper": "7802.215167128723216019597446",
+    "digits": 24
+  },
+  "pair_polynomial_degree": 32,
+  "strict_uniform_pair_upper_bound_exact": "-9/10000000",
+  "runtime_seconds": 0.4938983920001192
+}

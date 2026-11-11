@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "method": "Independent first-derivative mean-value, centered polynomial derivative range, endpoint-monotone profile range",
+  "checks": 82,
+  "leaves": 59,
+  "max_refinement": 4,
+  "coverage": [
+    "1",
+    "7/4"
+  ],
+  "total_width": "3/4",
+  "count_threshold": "5000/4997",
+  "right_limit_without_count": true,
+  "tail": "X>=7pi/2>21/2; P<0 and both allowances>=0"
+}

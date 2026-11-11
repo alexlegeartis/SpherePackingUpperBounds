@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "degree": 63,
+  "source_laguerre_closed_form": true,
+  "direct_monomial_fourier_identity": true,
+  "normalization": "1",
+  "C_exact": "504172777487964645097472000000/23248550205546069733475454693",
+  "lambda_exact": "4633482445403008000000000/302231152672098906535180911009",
+  "exact_repair": "epsilon=1e-6, degree1 normalized Laguerre, renormalized by1-epsilon"
+}

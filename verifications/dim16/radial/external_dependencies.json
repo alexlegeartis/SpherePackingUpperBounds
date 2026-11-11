@@ -1,0 +1,10 @@
+{
+  "scope": "Provenance links to separately replayed theorem components, not imported by this radial verifier.",
+  "reports_sha256": {
+    "research/density_kissing16_independent_cyclic_20261111/CERTIFIED_COUNT.json": "63865c46e0e5b5ff4d3ab4f3ad85bc6c422e6af29b8a8a1b75b89356cc211851",
+    "research/density_log_hinge_geometry16_20261111/RESULT_GEOMETRY.json": "62814fb086afb0100651f8ab8d6eb3581167454d66db73cefb31440c4eb58e6e",
+    "research/density_log_hinge_geometry16_20261111/RESULT.json": "e387d94a51e57825f55b38c95bc78712e819da702582deef74a551ae0c4d2310"
+  },
+  "same_profile_hash": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+  "same_angular_hash": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b"
+}

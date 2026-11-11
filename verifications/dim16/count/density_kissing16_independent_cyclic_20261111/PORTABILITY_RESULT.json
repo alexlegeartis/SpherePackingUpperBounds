@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "test": "Complete audit rerun from a different working directory after relocating only the three dependency directories under a parent not named research",
+  "both_complete_audits_pass": true,
+  "normal_stage_count_each": 6,
+  "explicit_O_rejections_each": 11,
+  "explicit_OO_rejection_each": true,
+  "source_scripts_identical_across_locations": true,
+  "mathematical_polynomial_and_events_identical": true,
+  "relocated_audit_result_sha256": "525887ca89104467e4844a8fe25e1f80f93ed85184511e5a55c0687b79a42412",
+  "original_audit_seconds": 47.86396453100315,
+  "relocated_audit_seconds": 42.97701926900481,
+  "source_directory_dependencies": [
+    "density_kissing16_reweight_frozen_20261111",
+    "density_kissing16_independent_pair_20261111",
+    "density_kissing16_independent_cyclic_20261111"
+  ]
+}

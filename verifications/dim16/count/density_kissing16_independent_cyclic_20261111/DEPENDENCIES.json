@@ -1,0 +1,25 @@
+{
+  "top_level_entrypoint": "density_kissing16_independent_cyclic_20261111/audit_count.py",
+  "layout": "Preserve the following three sibling directories under any parent directory. No enclosing directory name is required; no fixed workspace path is used.",
+  "source_directories": [
+    "density_kissing16_reweight_frozen_20261111",
+    "density_kissing16_independent_pair_20261111",
+    "density_kissing16_independent_cyclic_20261111"
+  ],
+  "frozen_inputs": [
+    "density_kissing16_reweight_frozen_20261111/candidate.json",
+    "density_kissing16_reweight_frozen_20261111/factors.json"
+  ],
+  "mathematical_artifacts_required_unchanged": [
+    "density_kissing16_independent_cyclic_20261111/polynomial.json",
+    "density_kissing16_independent_cyclic_20261111/proof_events.json"
+  ],
+  "python_packages": {
+    "numpy": "tested with 2.3.5",
+    "python-flint": "tested with 0.9.0"
+  },
+  "python": "Python >=3.11; tested with Python 3.12.14",
+  "not_required": ["scipy", "sympy", "original SDP source archive", "discovery directory", "network", "fixed workspace", "saved logs"],
+  "optimization_mode": "Every Python entrypoint explicitly rejects -O and -OO before executing assertion-dependent verification.",
+  "writes": "Normal replay regenerates certificates, JSON audit results, logs and manifests inside the two independent audit directories. Frozen source inputs, the exact cyclic polynomial, and mathematical proof events are required to retain their published hashes."
+}

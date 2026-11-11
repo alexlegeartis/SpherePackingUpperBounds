@@ -1,0 +1,35 @@
+{
+  "verified": false,
+  "source_sha256": {
+    "candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"
+  },
+  "checked": 100002,
+  "passed": 16109,
+  "excluded_symmetry": 92,
+  "excluded_gram": 33788,
+  "max_depth": 70,
+  "peak_stack": 29,
+  "seconds": 91.740923956997,
+  "failure": {
+    "box": [
+      [
+        "56449/1048576",
+        "112899/2097152"
+      ],
+      [
+        "278455/2097152",
+        "34807/262144"
+      ],
+      [
+        "2097151/2097152",
+        "4194303/4194304"
+      ]
+    ],
+    "depth": 64,
+    "upper": 5.887546756441031e-06,
+    "remaining": 23,
+    "reason": "bounded work limit"
+  },
+  "method": "Exact rational cyclic polynomial and exact rational tensor-Bernstein initialization on [-1,5003/10000]^3. Outward double dyadic de Casteljau subdivision. Exact rational Gram determinant interval exclusion. Exact polynomial permutation symmetry; restrict to u<=v<=t. No samples used for acceptance."
+}

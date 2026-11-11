@@ -1,0 +1,7 @@
+{
+  "fresh_primary_complete": "PASS",
+  "fresh_independent_complete": "PASS",
+  "independent_negative_controls": 10,
+  "historical_proofs": "Preserved; previous audits reused, no fresh historical aggregate claimed",
+  "runtime_generated_reports": "Excluded from immutable source gates; exact inputs and all verifier code pinned"
+}

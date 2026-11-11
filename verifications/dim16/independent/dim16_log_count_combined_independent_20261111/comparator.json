@@ -1,0 +1,12 @@
+{
+  "dimension": 16,
+  "displayed_published_upper": "0.02492121",
+  "source": "https://arxiv.org/html/2512.04829v2#S5",
+  "location": "Table 1, dimension 16, AI-Based Bound column",
+  "source_checked_date": "2026-11-11",
+  "precision_note": "Eight decimal places are displayed; no hidden precision is assumed.",
+  "older_value_not_used": "0.02499441",
+  "new_strict_upper": "0.024920988",
+  "improvement_using_displayed_values": "0.000000222",
+  "live_Cohn_page": "Fetch failed with 502; no live table update claim."
+}

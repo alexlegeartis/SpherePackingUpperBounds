@@ -1,0 +1,14 @@
+{
+  "dimension": 16,
+  "source_sha256": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+  "exact_gegenbauer_psd": true,
+  "exact_Q_cap_margin": "1/20000",
+  "exact_one_sign_transition": true,
+  "nonnegative_kink_coefficients": true,
+  "u_ge4_tail_pass": true,
+  "tail_case1_upper": "[6.109756397841098270014368605519936154041305022939286346966653256501195276735e-59 +/- 3.66e-135]",
+  "tail_case2_upper": "[3.116089914168748345810999969950542018480282454619247450892631155817589798073e-9 +/- 2.02e-85]",
+  "compact_cyclic_gate": "NOT PROVED",
+  "radial_gates": "SEPARATE",
+  "packing_certificate": false
+}

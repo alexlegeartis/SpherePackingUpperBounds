@@ -1,0 +1,55 @@
+EXACT_POLYNOMIAL 2673 axisdegree 16 totaldegree 32 seconds 0.2666624249977758
+TRANSFORM 0 seconds 0.3631923569992068
+TRANSFORM 1 seconds 0.4405615579962614
+TRANSFORM 2 seconds 0.5092354719963623
+INITIAL_BOUNDS -598107433.0254177 63727899.73054168 maxwidth 2.384185791015625e-07
+PROGRESS 1000 passed 237 gram 226 sym 32 stack 11 depth 31 seconds 1.88676841299457
+PROGRESS 3000 passed 450 gram 1011 sym 32 stack 15 depth 49 seconds 4.472221502997854
+PROGRESS 5000 passed 704 gram 1757 sym 32 stack 15 depth 52 seconds 7.081983960997604
+PROGRESS 7000 passed 1014 gram 2446 sym 32 stack 17 depth 52 seconds 9.705188343999907
+PROGRESS 8000 passed 1188 gram 2773 sym 32 stack 15 depth 52 seconds 11.002180381998187
+PROGRESS 12000 passed 1918 gram 4042 sym 32 stack 17 depth 52 seconds 16.23514089499804
+PROGRESS 13000 passed 2046 gram 4394 sym 54 stack 13 depth 52 seconds 17.518079793000652
+PROGRESS 19000 passed 2912 gram 6491 sym 90 stack 15 depth 52 seconds 25.342009050000343
+PROGRESS 21000 passed 3241 gram 7161 sym 90 stack 17 depth 52 seconds 27.222892478996073
+PROGRESS 23000 passed 3494 gram 7908 sym 90 stack 17 depth 52 seconds 28.850202772999182
+PROGRESS 24000 passed 3652 gram 8250 sym 90 stack 17 depth 52 seconds 29.633178234995285
+PROGRESS 26000 passed 3977 gram 8923 sym 90 stack 21 depth 52 seconds 31.20734092299972
+PROGRESS 28000 passed 4320 gram 9581 sym 90 stack 19 depth 52 seconds 32.76246644299681
+PROGRESS 31000 passed 4879 gram 10521 sym 90 stack 21 depth 52 seconds 35.10383331799676
+PROGRESS 32000 passed 5032 gram 10870 sym 90 stack 17 depth 52 seconds 35.87933578999946
+PROGRESS 36000 passed 5701 gram 12199 sym 92 stack 17 depth 52 seconds 39.10743454600015
+PROGRESS 38000 passed 6006 gram 12894 sym 92 stack 17 depth 52 seconds 40.67861714599712
+PROGRESS 39000 passed 6160 gram 13240 sym 92 stack 17 depth 52 seconds 41.483606074994896
+PROGRESS 42000 passed 6720 gram 14180 sym 92 stack 17 depth 52 seconds 43.84315715999401
+PROGRESS 44000 passed 6919 gram 14981 sym 92 stack 17 depth 54 seconds 45.478531553999346
+PROGRESS 45000 passed 7038 gram 15362 sym 92 stack 17 depth 63 seconds 46.27292024799681
+PROGRESS 46000 passed 7181 gram 15717 sym 92 stack 21 depth 63 seconds 47.08624042500014
+PROGRESS 50000 passed 7861 gram 17037 sym 92 stack 21 depth 64 seconds 50.400721107995196
+PROGRESS 51000 passed 8012 gram 17386 sym 92 stack 21 depth 64 seconds 51.197999926997
+PROGRESS 52000 passed 8145 gram 17753 sym 92 stack 21 depth 64 seconds 51.976753552000446
+PROGRESS 53000 passed 8330 gram 18068 sym 92 stack 21 depth 64 seconds 52.76456552299351
+PROGRESS 56000 passed 8879 gram 19020 sym 92 stack 19 depth 64 seconds 55.385207653998805
+PROGRESS 57000 passed 9018 gram 19379 sym 92 stack 23 depth 64 seconds 56.179646898999636
+PROGRESS 58000 passed 9206 gram 19692 sym 92 stack 21 depth 64 seconds 57.03245842999604
+PROGRESS 60000 passed 9485 gram 20414 sym 92 stack 19 depth 67 seconds 58.68615413999942
+PROGRESS 62000 passed 9747 gram 21152 sym 92 stack 19 depth 67 seconds 60.404199833996245
+PROGRESS 63000 passed 9925 gram 21473 sym 92 stack 21 depth 67 seconds 61.197434712994436
+PROGRESS 66000 passed 10428 gram 22470 sym 92 stack 21 depth 67 seconds 63.63711323199823
+PROGRESS 68000 passed 10777 gram 23122 sym 92 stack 19 depth 67 seconds 65.232782700994
+PROGRESS 69000 passed 10875 gram 23524 sym 92 stack 19 depth 70 seconds 66.04091502299707
+PROGRESS 72000 passed 11317 gram 24581 sym 92 stack 21 depth 70 seconds 68.40855868799554
+PROGRESS 73000 passed 11496 gram 24899 sym 92 stack 27 depth 70 seconds 69.22826943700056
+PROGRESS 74000 passed 11691 gram 25205 sym 92 stack 25 depth 70 seconds 70.02005737799482
+PROGRESS 75000 passed 11824 gram 25574 sym 92 stack 21 depth 70 seconds 70.81861327899969
+PROGRESS 77000 passed 12076 gram 26322 sym 92 stack 21 depth 70 seconds 72.72264149900002
+PROGRESS 78000 passed 12283 gram 26615 sym 92 stack 21 depth 70 seconds 73.53900701100065
+PROGRESS 80000 passed 12659 gram 27237 sym 92 stack 25 depth 70 seconds 75.15611623899895
+PROGRESS 81000 passed 12809 gram 27589 sym 92 stack 21 depth 70 seconds 75.94394641999679
+PROGRESS 82000 passed 12959 gram 27937 sym 92 stack 25 depth 70 seconds 76.76143731199409
+PROGRESS 86000 passed 13720 gram 29179 sym 92 stack 19 depth 70 seconds 79.92779327599419
+PROGRESS 87000 passed 13913 gram 29483 sym 92 stack 25 depth 70 seconds 80.79860112199822
+PROGRESS 91000 passed 14604 gram 30793 sym 92 stack 23 depth 70 seconds 84.10509808599454
+PROGRESS 92000 passed 14715 gram 31182 sym 92 stack 23 depth 70 seconds 84.97374214499723
+PROGRESS 98000 passed 15773 gram 33123 sym 92 stack 25 depth 70 seconds 90.07095191499684
+{"verified": false, "source_sha256": {"candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573", "factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"}, "checked": 100002, "passed": 16109, "excluded_symmetry": 92, "excluded_gram": 33788, "max_depth": 70, "peak_stack": 29, "seconds": 91.740923956997, "failure": {"box": [["56449/1048576", "112899/2097152"], ["278455/2097152", "34807/262144"], ["2097151/2097152", "4194303/4194304"]], "depth": 64, "upper": 5.887546756441031e-06, "remaining": 23, "reason": "bounded work limit"}, "method": "Exact rational cyclic polynomial and exact rational tensor-Bernstein initialization on [-1,5003/10000]^3. Outward double dyadic de Casteljau subdivision. Exact rational Gram determinant interval exclusion. Exact polynomial permutation symmetry; restrict to u<=v<=t. No samples used for acceptance."}

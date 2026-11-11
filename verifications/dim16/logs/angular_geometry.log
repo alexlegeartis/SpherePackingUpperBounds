@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "Exact angular structure, all-scale ratio hypothesis, and u>=4 cyclic tail only. Compact cyclic, radial signs, pair and density rounding are NOT proved.",
+  "dimension": 16,
+  "coefficients_nonnegative": true,
+  "one_sign_transition": true,
+  "cap_margin": "1/20000",
+  "exact_final_linear_slope": "17500000000000027962866674646759/2500000000000000000000000000000",
+  "tail_case1": "[2.28900781596938660451269012786436769753356864732452577642696873106589174786e-39 +/- 5.59e-114]",
+  "tail_case2": "[6.31425885786102657697348145093691420972533418370333397976969124455791330895e-6 +/- 1.80e-81]",
+  "hashes": {
+    "angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa"
+  }
+}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 31138, 'discarded': 327, 'tested': 62929, 'maxdepth': 46, 'exact_area': '9/2', 'seconds': 63.38183291500172, 'input_hashes': {'fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'angular.json': 'e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b'}}

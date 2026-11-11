@@ -1,0 +1,30 @@
+{
+  "certified": false,
+  "dense_rows": 299542,
+  "random_rows": 240000,
+  "knot_fibers": [
+    "u2",
+    "w2"
+  ],
+  "all_knots": [
+    1.02,
+    1.05,
+    1.1,
+    1.2,
+    1.4,
+    1.5,
+    1.6,
+    1.65,
+    1.75,
+    2.0
+  ],
+  "dense_maximum": -2.0000000020004016e-07,
+  "random_maximum": -0.00010031107560593,
+  "local_runs": 150,
+  "separated_maximum": -1.997179621777631e-07,
+  "worst_tu": [
+    0.18104462280212674,
+    1.0
+  ],
+  "sampled_feasible": true
+}

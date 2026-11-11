@@ -1,0 +1,16 @@
+{
+  "scope": "Immutable independent audit code, mathematical inputs and documentation; generated reports/logs are not source inputs",
+  "tested_python": "3.12.14",
+  "files": {
+    "README.md": "09944c75b96ea9eff6838a851503467e2cbf32083ccee40a4c4c6259774322ad",
+    "candidate_exact.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95",
+    "conditional_refit.json": "bb4cd7d60a552cac6d9d9db1c719838afd8308b8356bdb2efe925eb32ab5ddf3",
+    "conditional_refit_exact.json": "2bf270567dc8b03aa8278afc2394f37afa1a993ead4399a101da8a422e330d7c",
+    "inputs/angular_dim16.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "inputs/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "negative_controls.py": "133559b0f734007ea354c6b6a5431b7725dd60c993f4a2ba9061d89dcc0a9e80",
+    "partition.json": "9553f88517f010aaab9b16dddae76987bf8f606bdc0f53ec9a44d76c1bbadd16",
+    "requirements.txt": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d",
+    "verify.py": "dcfcbffcd553de4ae647b1bb1ce87664f4434c3af9bf80cf397247aba674f80d"
+  }
+}

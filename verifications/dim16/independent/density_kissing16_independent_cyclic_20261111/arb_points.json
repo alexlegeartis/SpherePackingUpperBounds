@@ -1,0 +1,53 @@
+{
+  "arithmetic": "Arb 192 bits",
+  "scope": "Point checks only. No continuum certificate. The exactly Gram-invalid optimizer point is not used as proof acceptance.",
+  "points": [
+    {
+      "name": "interior_high",
+      "exact_decimal_point": [
+        "0.18403018856546585",
+        "0.18405988347694224",
+        "0.18402197292619207"
+      ],
+      "gram_determinant": "[0.91085735865395353747856223466144020153021480948656000000 +/- 1.29e-57]",
+      "exact_gram_feasible": true,
+      "cyclic_enclosure": "[-9.672687869856918302458570107566042229538594718e-7 +/- 4.95e-53]",
+      "strictly_negative": true
+    },
+    {
+      "name": "rounding_invalid",
+      "exact_decimal_point": [
+        "-0.9202415586238045",
+        "-0.7992488031068492",
+        "0.5003"
+      ],
+      "gram_determinant": "[-8.26331117269986191242116000000000000000000000e-12 +/- 2.53e-57]",
+      "exact_gram_feasible": false,
+      "cyclic_enclosure": "[-6.0339951064154455528178156702568082482050e-7 +/- 8.90e-48]",
+      "strictly_negative": true
+    },
+    {
+      "name": "other_interior",
+      "exact_decimal_point": [
+        "0.18994652549234142",
+        "-0.23645627418311882",
+        "-0.053502856410066246"
+      ],
+      "gram_determinant": "[0.90995225189984328111063995889417866989731277604280480000 +/- 1.34e-57]",
+      "exact_gram_feasible": true,
+      "cyclic_enclosure": "[-9.716290643899569968274765599904534371012679771e-7 +/- 2.34e-53]",
+      "strictly_negative": true
+    },
+    {
+      "name": "projected_exact_gram_boundary",
+      "u_exact": "-0.9202415586238045",
+      "t_exact": "5003/10000",
+      "v_definition": "u*t-sqrt((1-u^2)*(1-t^2))",
+      "v_enclosure": "[-0.79924880309465610041701210081392272589365862105376768807 +/- 5.10e-57]",
+      "gram_feasible_by_algebraic_identity": true,
+      "coordinates_in_cap": true,
+      "cyclic_enclosure": "[-6.035786145587495438932582675113789949143e-7 +/- 4.99e-47]",
+      "strictly_negative": true
+    }
+  ]
+}

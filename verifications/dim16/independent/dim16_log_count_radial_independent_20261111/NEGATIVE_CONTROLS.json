@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "controls": {
+    "missing_pair_interval": {
+      "rejected": true
+    },
+    "count_allowance_wrongly_retained_on_right": {
+      "rejected": true
+    },
+    "wrong_fourier_repair_sign": {
+      "rejected": true
+    },
+    "unrepaired_source_rejected_by_positive_pair_point": {
+      "rejected": true,
+      "X_exact": "6858771052618467/562949953421312",
+      "physical_residual_interval": "[9.21252733225265909838790670382032189521388575454529344331025377322745428310909371849675099609e-13 +/- 3.40e-106]"
+    },
+    "overstated_decimal_bound": {
+      "rejected": true
+    },
+    "python_optimization_disabled": {
+      "rejected": true
+    }
+  }
+}

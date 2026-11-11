@@ -1,0 +1,12 @@
+{
+  "scope": "Immutable independent audit code, mathematical inputs and documentation; generated reports/logs are not source inputs",
+  "tested_python": "3.12.14",
+  "files": {
+    "AUDIT.md": "c32885e5a1d2c3ceb58dbd90d5dd58c41a87adbacd5635b41b9e5f8bca9a9f10",
+    "README.md": "aef8c4bb037bd611104e72c7e47e912175127cc55ab89a97d25b3f5cedb0fc54",
+    "comparator.json": "989ff5f3b952c59422b35e158bab05dc292a545fd02b58c45761d1362e73aafc",
+    "external_dependencies.json": "933fbd9e768e989fd5e3ea89b83d7ffe03d28b246642bbb110bd57527706569f",
+    "requirements.txt": "5496e7271d505d7b19a846478e75ad44b1df45ab58c7981dbb1fc16c5d6143ef",
+    "run_all.py": "c6a4f5f1b08530821bd526fe9a10e9d05a178124a0eadd7a0571a1cff9a03740"
+  }
+}

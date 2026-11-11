@@ -1,0 +1,14 @@
+{
+  "scope": "Hardened count source/code used by the final independent replay; sibling directory layout is required",
+  "sha256": {
+    "density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954",
+    "density_kissing16_independent_pair_20261111/verify.py": "18739b6c60eb62dc7773a7c58d5d6005134a2ed5ff4191f271f2936e2a509daa",
+    "density_kissing16_independent_pair_20261111/audit_cyclic.py": "f1029ace4023a597c7b9dc2701ded6b38a58f5066316f0cee4b46cc4f7c73ace",
+    "density_kissing16_independent_cyclic_20261111/replay_exact.py": "3438e07ee751e61cf8cd96f091ad8c6976225a9508f33e061c03749685537c99",
+    "density_kissing16_independent_cyclic_20261111/bernstein.py": "25c15d93c3fa1a0202eb4db8387d3ae4f1d38cd53f3cb5cc487b12df30b4d78d",
+    "density_kissing16_independent_cyclic_20261111/polynomial.json": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7",
+    "density_kissing16_independent_cyclic_20261111/proof_events.json": "d1d5333e9768677e53f924a0897358567e4164b7a09a6361046072572a669ca5",
+    "density_kissing16_independent_cyclic_20261111/bernstein_initial.npz": "1fca4ab34344eb02d73556a7170960f03acf2f0d7e2f28eaf7861f6b96007f4a"
+  }
+}

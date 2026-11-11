@@ -1,0 +1,8 @@
+PASS pair_reconstruction
+PASS pair_integer_replay
+PASS cyclic_construction
+PASS cyclic_independent_construction_audit
+PASS cyclic_exact_integer_replay
+PASS cyclic_independent_integer_replay
+PASS optimized-mode rejection for 11 entrypoints and top-level -OO
+PASS complete count certificate: 7802 points at cap 5003/10000

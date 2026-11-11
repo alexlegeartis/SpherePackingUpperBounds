@@ -1,0 +1,71 @@
+{
+  "certified": false,
+  "status": "bounded experiment completed; no promotion",
+  "source_sha256": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+  "source_Q_unchanged": true,
+  "old_seven_feature_arrays_exactly_preserved": true,
+  "analytic_jacobian_max_absolute_error": 1.577823288689828e-11,
+  "nonnegative_parameters": true,
+  "final_linear_slope_exact_decimal": "17500000000000027962866674646759/2500000000000000000000000000000",
+  "Gaussian_tail_floor": 7,
+  "sampled_expression": 0.024928107558941075,
+  "old_cone_matched_expression": 0.024933331750103187,
+  "quadratic_matched_expression": 0.024942111160788455,
+  "improvement_over_old_cone": 5.224191162112035e-06,
+  "comparator": 0.02492121,
+  "gap_to_comparator": 6.897558941076215e-06,
+  "candidate_dual_rows": [
+    {
+      "v": 1.6367887965428631,
+      "isosceles_lower_obstacle": 10.690578848111349,
+      "phi": 10.691347587087263,
+      "slack": 0.0007687389759141183,
+      "old_control_phi": 10.816294841353317,
+      "old_control_slack": 0.12571599324196825,
+      "current_pair_tangent_weight": 0.014781517295528753
+    },
+    {
+      "v": 1.6403662616919805,
+      "isosceles_lower_obstacle": 10.854343815716943,
+      "phi": 10.85865740983553,
+      "slack": 0.004313594118587005,
+      "old_control_phi": 10.911576577761762,
+      "old_control_slack": 0.057232762044819196,
+      "current_pair_tangent_weight": 0.013362776882870978
+    },
+    {
+      "v": 1.940873334217826,
+      "isosceles_lower_obstacle": 8.785772935709044,
+      "phi": 23.74965709180961,
+      "slack": 14.963884156100566,
+      "old_control_phi": 18.915242436070894,
+      "old_control_slack": 10.12946950036185,
+      "current_pair_tangent_weight": 3.177021340252464e-08
+    }
+  ],
+  "old_primary_dual_rows": [
+    {
+      "v": 1.61532400564816,
+      "isosceles_lower_obstacle": 9.615414699876535,
+      "phi": 9.679744343995848,
+      "slack": 0.0643296441193133,
+      "old_control_phi": 10.244604422902665,
+      "old_control_slack": 0.6291897230261299
+    },
+    {
+      "v": 1.7298028904199105,
+      "isosceles_lower_obstacle": 9.281447107968173,
+      "phi": 14.926915985133183,
+      "slack": 5.64546887716501,
+      "old_control_phi": 13.293619987972809,
+      "old_control_slack": 4.012172880004636
+    }
+  ],
+  "full_proof_attempted": false,
+  "compact_cyclic_gate": "NUMERICAL ONLY",
+  "Fourier_sign_gate": "NOT RUN",
+  "physical_tail_sign_gate": "NOT RUN",
+  "annular_radial_gate": "NOT RUN",
+  "denied_actions": [],
+  "blockers": []
+}

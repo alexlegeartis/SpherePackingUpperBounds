@@ -1,0 +1,60 @@
+{
+  "status": "PASS: complete positive-width spherical counting witness",
+  "dimension": 16,
+  "cap_exact": "5003/10000",
+  "spherical_count_integer_upper_bound": 7802,
+  "real_upper_bound_exact": "312088606685148928640783897809857712791224631688228314148078721891240232195723036582293440658378605906991137671407840467703756634245161066607635889/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "real_upper_bound_enclosure": {
+    "lower": "7802.215167128723216019597445",
+    "upper": "7802.215167128723216019597446",
+    "digits": 24
+  },
+  "input_sha256": {
+    "candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"
+  },
+  "psd_and_nonnegative_coefficients_pass": true,
+  "pair_uniform_upper_bound_exact": "-9/10000000",
+  "pair_proof": "Exact rational Sturm chains, independently replayed with Python integers/Fraction",
+  "cyclic_uniform_upper_bound_exact": "-1804896546625092345704439846467/340282366920938463463374607431768211456",
+  "cyclic_proof": "Complete Bernstein covering; independent exact polynomial reconstruction; two full integer acceptance replays",
+  "covered_normalized_cube_volume_exact": "1",
+  "cyclic_checked": 2155,
+  "cyclic_counts": {
+    "H": 641,
+    "M": 259,
+    "G": 107,
+    "S": 71,
+    "split": 1077
+  },
+  "source_contact_SOS_replay_needed": false,
+  "source_contact_SOS_replay_performed": false,
+  "density_claim": false,
+  "density_scope": "Only the spherical counting gate is certified here. Density radial/profile/geometric gates require separate verification.",
+  "portable_top_level_audit": "audit_count.py",
+  "source_directory_dependencies": [
+    "density_kissing16_reweight_frozen_20261111",
+    "density_kissing16_independent_pair_20261111",
+    "density_kissing16_independent_cyclic_20261111"
+  ],
+  "artifacts_sha256": {
+    "density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954",
+    "density_kissing16_independent_pair_20261111/verify.py": "18739b6c60eb62dc7773a7c58d5d6005134a2ed5ff4191f271f2936e2a509daa",
+    "density_kissing16_independent_pair_20261111/replay_chain.py": "e8a59bedd10ed6d88f99e703917bd92c97f7e24614960018754a2c7ff1066f48",
+    "density_kissing16_independent_pair_20261111/audit_cyclic.py": "f1029ace4023a597c7b9dc2701ded6b38a58f5066316f0cee4b46cc4f7c73ace",
+    "density_kissing16_independent_pair_20261111/replay_gram_integer.py": "73eae2ba0998d597f7f62ffbd206fd19339599ca86243ac0092457f259910c48",
+    "density_kissing16_independent_pair_20261111/result.json": "0be6ce5305559dc8a595a120cb2014f884ffdb3b56e7c2522fbccc3361161288",
+    "density_kissing16_independent_pair_20261111/replay_result.json": "f618bdd0bf4d4db6dd37c46e79d6a2734852238ab3b1e4bbd9de7936cff44677",
+    "density_kissing16_independent_pair_20261111/cyclic_audit_result.json": "43dd89b83fb08b3f8f20aec316d17f76396285c527b74eb07b23508f55763f62",
+    "density_kissing16_independent_pair_20261111/gram_integer_replay_result.json": "8714763e4013771415eb70ec7d6c4455760ba7698d9fd105e3c64ee8912736d6",
+    "density_kissing16_independent_pair_20261111/gram_replayed_leaves.json": "141b06cdd8feea5e50748ad54af6c14b5e1d5f6d9155b196c90a14bc5c3e99ca",
+    "density_kissing16_independent_cyclic_20261111/bernstein.py": "25c15d93c3fa1a0202eb4db8387d3ae4f1d38cd53f3cb5cc487b12df30b4d78d",
+    "density_kissing16_independent_cyclic_20261111/bernstein_gram.py": "143f0f164b2c306711ba75bc528bf11cfbe5023b904a1dc0951159764e0127b2",
+    "density_kissing16_independent_cyclic_20261111/polynomial.json": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7",
+    "density_kissing16_independent_cyclic_20261111/proof_events.json": "d1d5333e9768677e53f924a0897358567e4164b7a09a6361046072572a669ca5",
+    "density_kissing16_independent_cyclic_20261111/replay_exact.py": "3438e07ee751e61cf8cd96f091ad8c6976225a9508f33e061c03749685537c99",
+    "density_kissing16_independent_cyclic_20261111/exact_replay_result.json": "b330bab102fba30f135b2c57c3d08ed82852a427b4f026070e09bb7f5760bac0",
+    "density_kissing16_independent_cyclic_20261111/audit_count.py": "08f566ee31ca20f197575c6e2b9e2fbc27bcf834e65c8bc5661cb474e7ab78f0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "Deterministic export from frozen search snapshots, not a new optimization or proof replay.",
+  "output": "/tmp/packing16_exact_export_b5p7znmv",
+  "sha256": {
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954",
+    "count_candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "radial_candidate.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95"
+  }
+}

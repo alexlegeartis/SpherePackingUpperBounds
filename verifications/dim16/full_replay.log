@@ -1,0 +1,47 @@
+PASS spherical_count
+PASS angular_geometry
+PASS radial_pair
+{
+  "status": "PASS",
+  "dimension": 16,
+  "strict_density_upper_exact": "6230247/250000000",
+  "density_enclosure": "[0.02492098791465854077789224103237950543265565191638922478824388862385173193633 +/- 5.53e-78]",
+  "complete_density_claim": true,
+  "spherical_count": 7802,
+  "spherical_cap_exact": "5003/10000",
+  "minimum_squared_distance": "2",
+  "half_open_shell_threshold_squared_exact": "10000/4997",
+  "same_profile_and_angular_inputs": true,
+  "all_component_gates_replayed": true,
+  "comparator_exact": "2492121/100000000",
+  "achieved_lower_formula": "pi^8/645120",
+  "achieved_lower_enclosure": "[0.01470816439743082528386745954846658884656680845678491240716470023416869559436 +/- 4.67e-78]",
+  "upper_reduction_percent": "[0.00089080746881872910665252610126073332715385809918539268358157569395707512 +/- 4.19e-75]",
+  "gap_closure_percent": "[0.00217369048018501056899331477832743677243501484453957896955112210423909499 +/- 7.65e-75]",
+  "stages": [
+    {
+      "stage": "spherical_count",
+      "status": "PASS",
+      "seconds": 38.19422379900061
+    },
+    {
+      "stage": "angular_geometry",
+      "status": "PASS",
+      "seconds": 75.67181209999399
+    },
+    {
+      "stage": "radial_pair",
+      "status": "PASS",
+      "seconds": 0.26826490800158354
+    }
+  ],
+  "seconds": 114.13628430500103,
+  "input_sha256": {
+    "geometry/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "geometry/angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "radial/candidate_exact.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95",
+    "count/density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "count/density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"
+  },
+  "scope": "Complete combined density certificate. Separate independent radial/geometry audit is distributed alongside this primary package."
+}
