@@ -1,0 +1,9 @@
+{
+  "verified": true,
+  "checked": 249,
+  "max_depth": 10,
+  "seconds": 0.23537111282348633,
+  "failure": null,
+  "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/witness_psd_exact.json",
+  "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"
+}

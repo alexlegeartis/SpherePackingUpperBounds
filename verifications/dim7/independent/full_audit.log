@@ -1,0 +1,12 @@
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '9606260987533818877389/50000000000000000000000', 'guarded_normalization': '10000000000000002193967/10000000000000000000000', 'density_interval': '[0.3205847715830073938695391744713529466970446527646514319059435920441989479862831315082043475569821562950856094394234 +/- 6.93e-116]', 'strict_upper': '.320584772', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 2727, 'maxdepth': 15, 'thresholds_checked_with_smaller_allowance': ['1001/1000', '200401/200000', '250753/250000', '1004023/1000000', '251259/250000'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+INITIAL -0.19202519970767826 0.17295074143748657
+{"verified": true, "checked": 6487, "passed": 2021, "excluded": 1223, "max_depth": 35, "seconds": 0.6592450141906738, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/dim7_count_independent_20261111/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.1256120204925537
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.2423875331878662
+TRANSFORM 1 seconds 0.3919031620025635
+TRANSFORM 2 seconds 0.5562925338745117
+INITIAL (37, 37, 37) -0.4263326170842554 0.047499952978378314
+{"verified": true, "checked": 81, "passed": 39, "excluded": 2, "max_depth": 15, "seconds": 2.006096601486206, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/dim7_count_independent_20261111/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PASS complete independently reviewed frozen seven-dimensional patch5 follow-on

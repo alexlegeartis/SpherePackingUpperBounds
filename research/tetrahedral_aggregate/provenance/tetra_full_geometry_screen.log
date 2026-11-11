@@ -1,0 +1,11 @@
+6 1.05 [{'round': 0, 'B_numerical': 25.897123805069374, 'worst_local_tetra': -0.05355747612102679, 'added': 0}]
+6 1.1 [{'round': 0, 'B_numerical': 26.85935694900732, 'worst_local_tetra': -0.04909607944318317, 'added': 0}]
+6 1.2 [{'round': 0, 'B_numerical': 31.262591149927086, 'worst_local_tetra': -1.0000000050247593e-08, 'added': 0}]
+16 1.05 [{'round': 0, 'B_numerical': 657.8890294840379, 'worst_local_tetra': -0.14918030754425837, 'added': 0}]
+16 1.1 [{'round': 0, 'B_numerical': 836.8174622851534, 'worst_local_tetra': -9.999997718779241e-09, 'added': 0}]
+16 1.2 [{'round': 0, 'B_numerical': 2225.204208876553, 'worst_local_tetra': -9.99999949513608e-09, 'added': 0}]
+22 1.05 [{'round': 0, 'B_numerical': 3341.149160813859, 'worst_local_tetra': -0.161666827646882, 'added': 0}]
+22 1.1 [{'round': 0, 'B_numerical': 5086.980837404819, 'worst_local_tetra': -9.999997718779241e-09, 'added': 0}]
+22 1.2 [{'round': 0, 'B_numerical': 30060.265854710102, 'worst_local_tetra': -9.99999860695766e-09, 'added': 0}]
+seconds 3.3640875816345215
+PROCESS_EXIT=0

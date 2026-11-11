@@ -1,0 +1,7 @@
+{
+  "dimension": 5,
+  "verified": true,
+  "strict_upper": "0.510129239",
+  "density_enclosure": "[0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]",
+  "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."
+}

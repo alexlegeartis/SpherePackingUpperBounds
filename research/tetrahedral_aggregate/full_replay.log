@@ -1,0 +1,33 @@
+Hashes, exact witness agreement, outward rounding and both affine contradictions PASS
+RUN primary/verify_tetra_envelopes.py
+PASS n=22, q=21/20: aggregate 3 T <= B E, B <=3846.43267004; affine_baselines.json
+PASS n=22, q=11/10: aggregate 3 T <= B E, B <=8042.25959581; affine_baselines.json
+ALL 2 exact auxiliary certificates PASS. No density claim.
+RUN primary/verify_tetra_separation.py
+No affine slope exists: a >= 7034984040475208405061/65536000000000000000 but a <= 1191611909750310730113443859/15728334578000000000000000
+PASS: strict feasible-cone separation, conditional on the separately verified tetrahedron signs.
+RUN primary/verify_tetra_full_geometry.py
+Exact far sign PASS; B 3341.1491608138585
+processed 1000 leaves 497 pending 7 depth 17 seconds 0.9082150459289551
+processed 2000 leaves 997 pending 7 depth 17 seconds 1.8166558742523193
+processed 3000 leaves 1498 pending 5 depth 17 seconds 2.7113564014434814
+{'dimension': 22, 'q': '21/20', 'coefficients': ['1', '2528848125806983/125000000000000', '10923666941926639/100000000000000', '8341906841166317/20000000000000', '4052420780810577/5000000000000', '3083121133367893/2500000000000', '187463438705137/250000000000', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], 'B_exact': '208821822550866169/62500000000000', 'polynomial': ['-5160693754461/5500000000000000', '-6401018640045397/22000000000000000', '-327875969018220819/5500000000000000', '-972618702552814799/4400000000000000', '59873534791319067/176000000000000', '83244270600933111/44000000000000', '48927957502040757/35200000000000'], 'exact_far_sign': True, 'full_tetra_interval_pass': True, 'processed': 6179, 'verified_leaves': 3090, 'pending_boxes': 0, 'maximum_depth': 17, 'seconds': 5.589149236679077, 'warning': 'Auxiliary aggregate constant only; no density claim.'}
+RUN primary/verify_tetra_full_geometry_monotone.py
+Exact far sign PASS; B 5086.980837404819
+processed 3000 leaves 1465 pending 7 depth 19 seconds 2.9506046772003174
+processed 4000 leaves 1961 pending 7 depth 19 seconds 3.944098949432373
+processed 7000 leaves 3414 pending 10 depth 19 seconds 6.903303384780884
+processed 8000 leaves 3913 pending 8 depth 19 seconds 7.880516767501831
+processed 12000 leaves 5879 pending 8 depth 19 seconds 11.822241067886353
+processed 15000 leaves 7361 pending 5 depth 19 seconds 14.939781188964844
+processed 19000 leaves 9343 pending 6 depth 19 seconds 18.97188901901245
+processed 20000 leaves 9843 pending 6 depth 19 seconds 20.003528356552124
+{'dimension': 22, 'q': '11/10', 'coefficients': ['1', '4160148281873977/250000000000000', '5274523781435223/50000000000000', '392507452969953/1000000000000', '9303812039511059/10000000000000', '1467142291853533/1000000000000', '7297823312268639/5000000000000', '3571270787101493/5000000000000', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0'], 'B_exact': '1271745209351204667/250000000000000', 'polynomial': ['-374953202352059/88000000000000000', '59728303834098029/88000000000000000', '-2247782570454532611/88000000000000000', '-670444235322514079/3520000000000000', '-129255439521248837/704000000000000', '20038706695942107867/17600000000000000', '1904731884502114779/704000000000000', '28895151938438179863/17600000000000000'], 'exact_far_sign': True, 'full_tetra_interval_pass': True, 'processed': 20216, 'verified_leaves': 9954, 'monotonic_face_reductions': 309, 'pending_boxes': 0, 'maximum_depth': 19, 'seconds': 20.220116138458252, 'warning': 'Auxiliary aggregate constant only; no density claim.'}
+RUN independent_q21_20/verify.py
+{'pass': True, 'dimension': 22, 'q': '21/20', 'B_exact': '208821822550866169/62500000000000', 'strict_upper': '3341.14916082', 'processed': 6179, 'leaves': 3090, 'depth': 17, 'exclusions': 0, 'seconds': 13.376719236373901, 'scope': 'Auxiliary 3T <= B E only, not a density bound'}
+RUN independent_q21_20/verify_vertex.py
+{'pass': True, 'dimension': 22, 'q': '21/20', 'B_exact': '208821822550866169/62500000000000', 'strict_upper': '3341.14916082', 'processed': 43469, 'leaves': 21735, 'depth': 21, 'exclusions': 0, 'seconds': 71.96914839744568, 'scope': 'Auxiliary 3T <= B E only, not a density bound'}
+RUN independent_q11_10/verify.py
+{'pass': True, 'dimension': 22, 'q': '11/10', 'B_exact': '1271745209351204667/250000000000000', 'strict_upper': '5086.98083741', 'processed': 20314, 'leaves': 9954, 'depth': 22, 'exclusions': 0, 'monotonic_face_reductions': 407, 'seconds': 47.29733753204346, 'scope': 'Auxiliary 3T <= B E only, not a density bound'}
+ALL COMPLETE REPLAYS PASS in 159.26 seconds. Auxiliary inequalities only; no density claim.
+PROCESS_EXIT=0

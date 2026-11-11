@@ -1,0 +1,11 @@
+{
+  "dimension": 5,
+  "status": "PASS",
+  "exact_source_reproduction": true,
+  "canonical_export_json_match": true,
+  "full_producer_replay": true,
+  "independent_full_audit": true,
+  "compilation_and_cli_smoke": true,
+  "optimized_mode_refused": true,
+  "optimizer_rerun": "Not part of packaging tests; frozen bounded warm-start stages are supplied."
+}

@@ -1,0 +1,900 @@
+PASS: ordering, independent rational percentages, gap identities, 70/100-digit agreement and generated tables
+dim44 verify.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5909371683357733212471428953217979489459773800904457202909/23834912373396958767965029028626836771989077622784'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 6004, 'discarded_rectangles': 418, 'max_depth': 15, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 44, 'strict_upper': '0.000001842868599', 'density_interval': '[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 332, 'coupling_depth': 13, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000019017703144', 'fractional_improvement_lower': '26773507/864441052'}
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5909371683357733212471428953217979489459773800904457202909/23834912373396958767965029028626836771989077622784'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 6004, 'discarded_rectangles': 418, 'max_depth': 15, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 44, 'strict_upper': '0.000001842868599', 'density_interval': '[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 332, 'coupling_depth': 13, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000019017703144', 'fractional_improvement_lower': '26773507/864441052'}
+
+Independent exact eigenbasis Fourier identity PASS
+Independent44D angular orthogonality PSD PASS
+{'source_sha256': '4ca48c456c914770630100c4f3865967a5a6e039c7a29d78ebadaca2b77c5c55', 'dimension': 44, 'independent_eigenbasis_fourier': True, 'independent_orthogonality_PSD': True, 'origin_rank_one': True, 'mean_value_pair_pass': True, 'pair_processed': 33, 'pair_leaves': 17, 'pair_depth': 6, 'coupling_seconds': 0.6507577896118164, 'exact_rational_rounding': True, 'strict_upper': '0.000001842868599', 'density_interval': '[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]', 'scope': 'Global radial roots and complete cyclic domains additionally replayed in complete_replay.log'}
+
+{
+  "pass": true,
+  "dimension": 44,
+  "strict_upper": "0.000001842868599",
+  "primary": {
+    "pass": true,
+    "dimension": 44,
+    "strict_upper": "0.000001842868599",
+    "density_interval": "[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]",
+    "radial_Fourier_identity": true,
+    "global_Fourier_and_physical_signs": true,
+    "coupling_intervals": 332,
+    "coupling_depth": 13,
+    "angular_dimension_specific_PSD": true,
+    "origin_rank_one_Gram": true,
+    "new_complete_cyclic_domain": true,
+    "exact_rational_rounding": true,
+    "pinned_comparator": "0.0000019017703144",
+    "fractional_improvement_lower": "26773507/864441052"
+  },
+  "independent": {
+    "source_sha256": "4ca48c456c914770630100c4f3865967a5a6e039c7a29d78ebadaca2b77c5c55",
+    "dimension": 44,
+    "independent_eigenbasis_fourier": true,
+    "independent_orthogonality_PSD": true,
+    "origin_rank_one": true,
+    "mean_value_pair_pass": true,
+    "pair_processed": 33,
+    "pair_leaves": 17,
+    "pair_depth": 6,
+    "coupling_seconds": 0.6507577896118164,
+    "exact_rational_rounding": true,
+    "strict_upper": "0.000001842868599",
+    "density_interval": "[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]",
+    "scope": "Global radial roots and complete cyclic domains additionally replayed in complete_replay.log"
+  }
+}
+PASS registered44D complete primary and independent chains
+dim6 refinement_patch5/verify.py
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.4091285329176186823329127475902823329974333183903733542684807075086836562255 +/- 5.43e-77]
+{"verified": true, "checked": 249, "max_depth": 10, "seconds": 0.23537111282348633, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.016653417614409752 0.01587554651796216
+{"verified": true, "checked": 4457, "passed": 1313, "excluded": 916, "max_depth": 31, "seconds": 0.6695041656494141, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.11833715438842773
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.2016611099243164
+TRANSFORM 1 seconds 0.39327263832092285
+TRANSFORM 2 seconds 0.6396746635437012
+INITIAL (37, 37, 37) -0.16616230536527624 0.013429902856011016
+{"verified": true, "checked": 83, "passed": 38, "excluded": 4, "max_depth": 12, "seconds": 2.4598355293273926, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 6, "verified": true, "strict_upper": "0.409128533", "density_enclosure": "[0.4091285329176186823329127475902823329974333183903733542684807075086836562255 +/- 5.43e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '535528321037864901/2500000000000000000', 'guarded_normalization': '100000000000000039922001/100000000000000000000000', 'density_interval': '[0.409128532917618682332912747590282332997433318390373354268480707508683656225482605709462523483709564533108876618501 +/- 2.95e-115]', 'strict_upper': '.409128533', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 1866, 'maxdepth': 14, 'thresholds_checked_with_smaller_allowance': ['200401/200000', '1004023/1000000', '1006053/1000000', '31503/31250'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+INITIAL -0.016653417614409752 0.01587554651796216
+{"verified": true, "checked": 4457, "passed": 1313, "excluded": 916, "max_depth": 31, "seconds": 0.7207033634185791, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/independent/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.10985016822814941
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.1821579933166504
+TRANSFORM 1 seconds 0.3396596908569336
+TRANSFORM 2 seconds 0.5700013637542725
+INITIAL (37, 37, 37) -0.16616230536527624 0.013429902856011016
+{"verified": true, "checked": 83, "passed": 38, "excluded": 4, "max_depth": 12, "seconds": 2.4253439903259277, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_patch5/independent/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PASS complete independently reviewed frozen six-dimensional patch5 follow-on
+PASS improved6D complete primary and independent proof chains, no Gaussian repair
+dim6 refinement_mixture99/verify.py
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.4091353980508900600594412074029310240928937752092733306302830174062684616768 +/- 7.41e-77]
+{"verified": true, "checked": 213, "max_depth": 10, "seconds": 0.18095183372497559, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_mixture99/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.016492493653339657 0.015764844597560997
+{"verified": true, "checked": 4359, "passed": 1321, "excluded": 859, "max_depth": 31, "seconds": 0.747708797454834, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_mixture99/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.12671732902526855
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.23048734664916992
+TRANSFORM 1 seconds 0.5148377418518066
+TRANSFORM 2 seconds 0.7607593536376953
+INITIAL (37, 37, 37) -0.16593015975284692 0.017479986011649906
+{"verified": true, "checked": 87, "passed": 40, "excluded": 4, "max_depth": 12, "seconds": 2.625187873840332, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_mixture99/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 6, "verified": true, "strict_upper": "0.409135399", "density_enclosure": "[0.4091353980508900600594412074029310240928937752092733306302830174062684616768 +/- 7.41e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '107120082040023426323/500000000000000000000', 'guarded_normalization': '500000000000001068179563/500000000000000000000000', 'density_interval': '[0.4091353980508900600594412074029310240928937752092733306302830174062684616768589755434278958556042087570472399115958 +/- 7.56e-116]', 'strict_upper': '.409135399', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 1672, 'maxdepth': 14, 'thresholds_checked_with_smaller_allowance': ['200401/200000', '1004023/1000000', '1006053/1000000', '31503/31250'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+INITIAL -0.016492493653339657 0.015764844597560997
+{"verified": true, "checked": 4359, "passed": 1321, "excluded": 859, "max_depth": 31, "seconds": 0.7362172603607178, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_mixture99/independent/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.12949466705322266
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.20366191864013672
+TRANSFORM 1 seconds 0.31171727180480957
+TRANSFORM 2 seconds 0.5246307849884033
+INITIAL (37, 37, 37) -0.16593015975284692 0.017479986011649906
+{"verified": true, "checked": 87, "passed": 40, "excluded": 4, "max_depth": 12, "seconds": 2.4408602714538574, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/refinement_mixture99/independent/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PASS complete independently reviewed frozen six-dimensional mixture
+PASS improved6D complete primary and independent proof chains, no Gaussian repair
+dim6 verify.py
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 5 0
+Exact Schur factorization and outward objective: PASS [0.4101899868311988677407604362994285017515171298713618040883764151908393153314 +/- 4.46e-77]
+{"verified": true, "checked": 197, "max_depth": 11, "seconds": 0.28500962257385254, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004543624814819387 0.009899069108999793
+{"verified": true, "checked": 3097, "passed": 1135, "excluded": 414, "max_depth": 42, "seconds": 0.41295528411865234, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.16065049171447754
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.27728986740112305
+TRANSFORM 1 seconds 0.6357381343841553
+TRANSFORM 2 seconds 0.8009324073791504
+INITIAL (37, 37, 37) -0.11217786306888362 0.03492280626679114
+PROGRESS 100 stack 5 seconds 2.6398723125457764
+{"verified": true, "checked": 153, "passed": 70, "excluded": 7, "max_depth": 14, "seconds": 3.491915702819824, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim6/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 6, "verified": true, "strict_upper": "0.410189987", "density_enclosure": "[0.4101899868311988677407604362994285017515171298713618040883764151908393153314 +/- 4.46e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{
+  "fourier_polynomial_identity": true,
+  "origin_and_gaussian_arithmetic": true,
+  "antipodal_boundary_8x8_bernstein": true,
+  "antipodal_max_coefficient": "-95091611845759/100000000000000000000000",
+  "antipodal_max_coefficient_float": -9.5091611845759e-10,
+  "location": [
+    7,
+    7,
+    4,
+    4
+  ],
+  "saturated_density": "[0.4101899868311988677407604362994285017515171298713618040883764151908393153314 +/- 4.46e-77]",
+  "scope": "Only algebra and antipodal boundary; not a complete density certificate"
+}
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '2104457387603726647/10000000000000000000', 'guarded_normalization': '99999979586577411313161/100000000000000000000000', 'density_interval': '[0.410189986831198867740760436299428501751517129871361804088376415190839315331435110827884942755393531824506321066346 +/- 4.05e-115]', 'strict_upper': '.410189987', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 1372, 'maxdepth': 15, 'thresholds_checked_with_smaller_allowance': ['200401/200000', '1004023/1000000', '1006053/1000000', '31503/31250'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+PASS registered 6D full producer and independent audit chains
+dim45 verify.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '20363931982187770366463147105512313913930792855297175393/58358336945945667633085759128839612412375072768'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 6374, 'discarded_rectangles': 420, 'max_depth': 15, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 45, 'strict_upper': '0.000001311423575', 'density_interval': '[1.31142357458920838673180174230383870790282477601649408459057062169615871317630153434557563753711344822992790154575779308003074412056047300807789439711439e-6 +/- 8.46e-159]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 41, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000013300905665', 'fractional_improvement_lower': '37333983/2660181133'}
+{'pass': True, 'dimension': 45, 'angular_Sturm_signs': True, 'compact_triangles_passed': 6374, 'exact_sorting_exclusions': 420, 'max_depth': 15, 'analytic_tail_exponential_bound': True, 'scale_lemma_requires_single_root_verified': True}
+Independent exact Sturm start Fourier
+Independent exact Sturm PASS Fourier 55 55
+Independent exact Sturm start physical
+Independent exact Sturm PASS physical 55 55
+{'pass': True, 'dimension': 45, 'Fourier_identity': True, 'global_exact_Sturm_signs': True, 'Gegenbauer_PSD': True, 'origin_Gram_PSD': True, 'pair_leaves': 12, 'pair_depth': 8, 'density_interval': '[1.31142357458920838673180174230383870790282477601649408459057062169615871317630153434557563753711344822992790154575779308003074412056047300807789439711439e-6 +/- 3.45e-159]', 'strict_upper': '52456943/40000000000000', 'strict_upper_decimal': '0.000001311423575', 'inherited_dependency': 'New45D angular and global cyclic verification remains required'}
+PASS complete independent45D new-angular and radial certificate
+PASS registered 45D full producer and independent audit chains
+dim46 verify.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 46, 'strict_upper': '0.000000914882847', 'density_interval': '[9.1488284600262300906264110774671012774815093433564050608912408891658744426658146413084020013286703491110482354621588645003319793508420592842195065235930e-7 +/- 4.10e-159]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 35, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'inherited_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000009295151556', 'fractional_improvement_lower': '24387181/1549191926'}
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+Independent exact Sturm start Fourier
+Independent exact Sturm PASS Fourier 55 55
+Independent exact Sturm start physical
+Independent exact Sturm PASS physical 55 55
+{'pass': True, 'dimension': 46, 'Fourier_identity': True, 'global_exact_Sturm_signs': True, 'Gegenbauer_PSD': True, 'origin_Gram_PSD': True, 'pair_leaves': 10, 'pair_depth': 8, 'density_interval': '[9.1488284600262300906264110774671012774815093433564050608912408891658744426658146413084020013286703491110482354621588645003319793508420592842195065235930e-7 +/- 4.00e-159]', 'strict_upper': '914882847/1000000000000000', 'strict_upper_decimal': '0.000000914882847', 'inherited_dependency': 'Source48 angular and global cyclic verification remains required'}
+PASS independent46D radial and inherited angular/cyclic proof chain
+PASS registered46D complete primary and independent proof chains
+dim47 verify.py
+Replaying source48 angular
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+
+Replaying source48 radial
+{'pass': True, 'all112_Fourier_coefficients_match': True, 'precision': 512, 'Machin_terms': 110, 'cap_intervals': 33, 'max_depth': 20, 'objective_float': 17.834291498319086, 'strict_upper': '17835/1000', 'density_upper_float': 4.1338573931310067e-07}
+
+Replaying source48 domain
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+
+25 [0.052367968603660813492383323121113603794996060283341890263685931063745215650502598458708948547186933615454754031017537323174908474978832191781856589133055 +/- 3.24e-154] b0 507.44215757542304
+26 [0.032370915811527107244020368552681397249975019938832039732374149751291304400977136891455853876973334886304298514741845156149435386319264565441415088963960 +/- 4.22e-154] b0 378.0204104552788
+27 [0.0197871264271217987837679011431695612184821575434748902208533417189483733733823022947429593916006772882733463930942153031656881805733581224815283634308457 +/- 9.18e-155] b0 283.2880987016104
+28 [0.0119707697852019754742998225214254734179397392199838644626849345747502230195643346004325206376213821301744441501420453316964704834293650082111463220175141 +/- 5.44e-155] b0 213.4495588358944
+29 [0.0071737837983756737030286248364971514470641366949817849728230530664605131080326428567426421392251266913751875349513649205937960247074416537607763506081073 +/- 5.89e-155] b0 161.6214070555254
+30 [0.0042623197892636837300926152334854124308748540666914301934822080297346543794624298379121489773442434364377548065316433104789223607607055296243868772115142 +/- 2.44e-155] b0 122.92279719576398
+31 [0.0025131440523250952696221482959727231241316240658894298696673238313914226961637237960559560147156486860593497332538656387747507725272368467271951234703491 +/- 1.44e-155] b0 93.86349806381601
+32 [0.00147194098953759494725044884863211676772621979409522851634613488267622312553306664510623637069741353496824123212758091159134492036521020340781165160109196 +/- 8.52e-156] b0 71.92790441484652
+33 [0.00085729121341755851466535556850018165823520094614095929699733273099925791638636787080222835924961527878539992905101796206377510155712241993256699774418818 +/- 6.30e-156] b0 55.28941862663155
+34 [0.00049709509775033422555717683442472043732092723589640096472786627851732497324427430916032813474250080570520568234252031113452579515573987995676378818906322 +/- 3.46e-156] b0 42.612504946969224
+35 [0.00028733359175305341956600439507022411968653405466274429482662283900448579678464984067578777334995013326323563535487253225638559224366368570180748768977410 +/- 5.22e-156] b0 32.9142941340284
+36 [0.00016580406006075191405228109823734089543468513701434742055631296351183348420364722524715782825702737340814669018811741541212691067704121109342009783246388 +/- 1.99e-156] b0 25.46701912664607
+37 [9.5666995211584460393641631019549107006474826361469816870530716505700416506249489969306756122204679740865952254939791337149221175395072437182303082675827e-5 +/- 5.63e-157] b0 19.72869621304904
+38 [5.5291437930812477459741886598379947120426694382403004743950049168631556119617941688916424687969402141394660363881371121239473946448663489136560450301803e-5 +/- 6.16e-157] b0 15.293509914466064
+39 [3.2072030845002959288074950040387467957825422952379912417365523157578743703591177286737768698722951795065578028836309086150074828589970644636110678331014e-5 +/- 2.67e-157] b0 11.856052344605907
+40 [1.8710232676006230805334250940593618943863838264587582200490482197973981938884246466105516909742806422005152140259605880595020748910469572463476299285190e-5 +/- 3.43e-157] b0 9.185377630338383
+41 [1.10022937219683025816124755052084697586019080579482975633290213815456618342326124282940345107333236032097841300976990858791024012784190161575755828031243e-5 +/- 6.04e-158] b0 7.10605939188135
+42 [6.5365330482588679511124188190208291128166158704957206126594771613880543657319328983670312987098182528916787351897107885427175568772887867177522664841425e-6 +/- 3.23e-158] b0 5.484278794374122
+43 [3.9328870801311419532573557365863249642365142657123548406448270593467096587886145348285337765612585179732320672353499882387387485328538786141684434194381e-6 +/- 1.82e-158] b0 4.217549529817437
+44 [2.4024162429546240821673468086477076228592967605762387679508710599891218513472977509920424538931903741326330584175510236056099799495570648854518284856301e-6 +/- 1.99e-158] b0 3.227088275758458
+45 [1.49381244667667723742150367218477999253511867153404990581661507946108008408741074844008410132760569513519268706852900591198075511345785650010144022948401e-6 +/- 6.80e-159] b0 2.452120666841217
+46 [9.4829393276302739073690530098383404469617392723224670332642349080761561809452874509487090534816919040510565608056647977560707515131093372165194688253246e-7 +/- 6.54e-159] b0 1.8456112044750994
+47 [6.1687989093412065475544357585842309681792844038065763031987165432183814511319767474205840514692697459229260992961213371795782539452384696219647263669872e-7 +/- 6.46e-159] b0 1.3710462822361538
+48 [4.1336847500231472048187295291609665546446705527342524891669246623103527274677765575675288442628826740029613233179630472936122308416811056160474374322614e-7 +/- 5.87e-159] b0 1.0
+TRANSFER_ALGEBRA_PASS
+FULL_PROOF_CHAIN_PASS
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+{'pass': True, 'all112_Fourier_coefficients_match': True, 'precision': 512, 'Machin_terms': 110, 'cap_intervals': 33, 'max_depth': 20, 'objective_float': 17.834291498319086, 'strict_upper': '17835/1000', 'density_upper_float': 4.1338573931310067e-07}
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+{'pass': True, 'dimension': 47, 'Fourier_marginal_and_direct_identity': True, 'angular_PSD_coefficients': 20, 'origin_Gram_determinant': '0', 'density_interval': '[6.16879890934120654755443575858423096817928440380657630319871654321838145113197674742058405146926974592292609929612e-7 +/- 4.23e-121]', 'strict_upper': '0.000000616879891', 'unsaturated_density_interval': '[7.82168080513491411564295859041452812877194405363047673389725250816773553165568189128063311957473034730140180668905e-7 +/- 6.53e-121]', 'negative_control_above_pinned_comparator': True, 'source_dependency': 'All three source48 continuum replays must pass.'}
+PASS independent47D restriction/Gram audit and full inherited source proofs
+PASS registered47D complete primary and independent proof chains
+dim17 refinement_repaired/verify.py
+Exact rational PSD: PASS
+Repaired global Fourier positivity: PASS; origin loss [4.656857088000000000000000000000000000000000000000000000000000000000000000000e-8 +/- 7.66e-85]
+Tail repair interval 2113/50 423/10 PASS; upper [15.0658546699334332251383023699599168925734234957665596256180 +/- 3.54e-59] allowance [26.9299126190093252205798419044707777298363856077335077915958144963564117232 +/- 3.27e-74]
+Tail repair interval 6109/100 1223/20 PASS; upper [52662470.3980869054604371197194832504138110170454030049312737016 +/- 9.15e-56] allowance [55974382.9045992908647929822395107605631324566856209910198826275034186387676 +/- 5.71e-68]
+Repaired entire physical tail: PASS
+Exact Fourier identity and repaired global signs: PASS
+Global solid-harmonic pair inequality: PASS 42 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.4903271198272705
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.9705908298492432
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.6251616477966309
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.282564163208008
+CYCLIC 0 0 4 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 4} seconds 2.97467303276062
+CYCLIC 0 0 5 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 3.685171365737915
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.185723304748535
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.922504663467407
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.826617479324341
+CYCLIC 0 1 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.747380256652832
+CYCLIC 0 1 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.737959146499634
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.441773414611816
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.435035228729248
+CYCLIC 0 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.640435695648193
+CYCLIC 0 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 11.916762351989746
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 12.845181226730347
+CYCLIC 0 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 15.416983366012573
+CYCLIC 0 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 17.674203634262085
+CYCLIC 0 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 18.590715885162354
+CYCLIC 0 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 19.771799087524414
+CYCLIC 0 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 20.705411672592163
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 21.143009901046753
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 21.706627130508423
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 22.378482341766357
+CYCLIC 1 1 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 23.086191177368164
+CYCLIC 1 1 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 23.78313159942627
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 24.34974503517151
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 25.174184799194336
+CYCLIC 1 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 26.170630931854248
+CYCLIC 1 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 27.216458320617676
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 28.013031005859375
+CYCLIC 1 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 29.149223804473877
+CYCLIC 1 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 30.761716604232788
+CYCLIC 1 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 31.642496347427368
+CYCLIC 1 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 32.861522912979126
+CYCLIC 1 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 33.803035259246826
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 34.29970717430115
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 34.9090461730957
+CYCLIC 2 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 35.941002368927
+CYCLIC 2 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 37.14242362976074
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 37.80367040634155
+CYCLIC 2 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 38.6683406829834
+CYCLIC 2 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 39.96346616744995
+CYCLIC 2 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 40.86326575279236
+CYCLIC 2 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 42.01689577102661
+CYCLIC 2 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 42.9376699924469
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 43.46941137313843
+CYCLIC 3 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 44.3908166885376
+CYCLIC 3 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 45.60602402687073
+CYCLIC 3 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 46.557971239089966
+CYCLIC 3 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 47.8334846496582
+CYCLIC 3 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 48.867613077163696
+CYCLIC 4 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 49.43188500404358
+CYCLIC 4 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 52.90544509887695
+CYCLIC 4 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 53.90217208862305
+CYCLIC 5 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 55.5493540763855
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 31, 'passed': 15, 'excluded': 1, 'depth': 8} seconds 56.90079879760742
+FAR 0 1 {'checked': 11, 'passed': 5, 'excluded': 1, 'depth': 4} seconds 57.36813831329346
+FAR 0 2 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 5} seconds 58.31089782714844
+FAR 0 3 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 6} seconds 59.522852182388306
+FAR 0 4 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 5} seconds 60.22269058227539
+FAR 0 5 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 4} seconds 60.72121453285217
+FAR 1 1 {'checked': 11, 'passed': 5, 'excluded': 1, 'depth': 4} seconds 61.08684515953064
+FAR 1 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 61.60128116607666
+FAR 1 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 62.076884269714355
+FAR 1 4 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 62.602534770965576
+FAR 1 5 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 63.16255593299866
+FAR 2 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 63.582300901412964
+FAR 2 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 64.04429197311401
+FAR 2 4 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 64.56174087524414
+FAR 2 5 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 65.05680346488953
+FAR 3 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 65.44658756256104
+FAR 3 4 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 65.94442200660706
+FAR 3 5 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 66.44701933860779
+FAR 4 4 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 66.85009121894836
+FAR 4 5 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 67.39539003372192
+FAR 5 5 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 67.87850403785706
+Entire far domain: PASS
+Density enclosure: [0.01825091405434677552501772408911594661720864933457687712605626978655699664777 +/- 5.68e-78]
+PASS: complete slow-Gaussian-repaired solid-harmonic cyclic certificate.
+{'pass': True, 'positive_pivots': 120, 'pair_leaves': 29, 'pair_depth': 6, 'repair_intervals': [{'interval': ['2113/50', '423/10'], 'polynomial_upper': '[2.720520600549613602198764542756719717927837097885978695312175810065327548896294063057378030956927050132044120217185 +/- 1.75e-115]', 'allowance_lower': '[26.9299126190093252205798419044707777298363856077335077915958144963564117232232858646176702434230360075772259111657 +/- 5.04e-113]'}, {'interval': ['6109/100', '1223/20'], 'polynomial_upper': '[15927807.09618185088706287227858217096592474841092838268180837653051796570900548429665055057490660570375415289619470 +/- 4.33e-108]', 'allowance_lower': '[55974382.904599290864792982239510760563132456685620991019882627503418638767573804088922868583932167718477709020890 +/- 2.89e-106]'}], 'density_interval': '[0.01825091405434677552501772408911594661720864933457687712605626978655699664776788134828907211528887095298163696142377 +/- 9.50e-117]', 'strict_upper': '.018250915', 'corrected_normalization': '499999976715716832939/500000000000000000000', 'alpha_exact': '80067092047863977016850610949546704337311929548039915886737500136599805713878891217657102183223290101860441422497627627740653973596712984858725917039031685430037166114946417545479683613451797128049494959755703366724401531627434547127021086962596248895530793317063806597779914731073899857532686737909907545290784547503623129432374675425135973746124453489191059672566800107049012724872525584972487417640735112027314226378185460202889905514136661915755391247620196459678372681896415059717676344636826914337268269927476317479947227308712308979231084377893127188087374886828023914297377065686200002025894452836335130714592883484624715380391630975704354125773357418235133964312317011771064474279980844334613609404369552621594165634464808390103582181686966292807769005508622866932824162767034339462620281643526729544633447978415144976627408629913823571919491270396691332152973244148071739075125203759654656271255880355666438653672215993682482437509969434100208912625586298591423481/1114913551942571699331763278071221874080368269849713511548279910063053710889067541212929294662304606839342180215989678507986587626086168451116134929506282404717047755636852322038366464996107951817678118893895681458410738297938458453657448180751731402311684463693210413281747419946245345730120330166040889712749641864575719660749177502707367845692862293146601252637883447767748147906477024395497493430487465484850230839613480056477952888878444197141190905245657556342858128062932748600315997449821450003740535478419036854797273674931184015667266451047769527975907403531037703134262936413942115280470366770629090843508302655790530130919519255186084016838486013856070157566338425638306288290442590866818423351941776774207992944721766135739398894513901595915734251923280396293260855030717047993638490154937202006409824605807373911935897690933629249326036282251100278670164427739283555581908281299801467012805709977033581508806506401476347505402297419536024280230765640242721456128', 'schur_density_interval': '[0.01820409584345106969660176457955375800073008402490479718223880953900950715779919142174730669776257801285864963631007 +/- 7.01e-117]', 'schur_strict_upper': '.018204096'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 0, 4, {'nodes': 9, 'depth': 4, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 0, 5, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 1, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 1, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 2, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 2, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 3, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 3, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 4, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 4, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 0, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 1, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 1, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 2, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 2, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 3, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 3, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 4, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 4, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 1, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 2, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 2, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 3, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 3, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 4, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 4, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 2, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 3, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 3, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 4, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 4, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 3, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 4, 4, 4, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 4, 4, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 4, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['cyclic', 5, 5, 5, {'nodes': 1, 'depth': 0, 'exact_geometry_exclusions': 0}]
+['far', 0, 0, {'nodes': 31, 'depth': 8, 'exact_geometry_exclusions': 1}]
+['far', 0, 1, {'nodes': 11, 'depth': 4, 'exact_geometry_exclusions': 1}]
+['far', 0, 2, {'nodes': 11, 'depth': 5, 'exact_geometry_exclusions': 0}]
+['far', 0, 3, {'nodes': 15, 'depth': 6, 'exact_geometry_exclusions': 0}]
+['far', 0, 4, {'nodes': 15, 'depth': 5, 'exact_geometry_exclusions': 0}]
+['far', 0, 5, {'nodes': 15, 'depth': 4, 'exact_geometry_exclusions': 0}]
+['far', 1, 1, {'nodes': 11, 'depth': 4, 'exact_geometry_exclusions': 1}]
+['far', 1, 2, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 1, 3, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 1, 4, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 1, 5, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 2, 2, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 2, 3, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 2, 4, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 2, 5, {'nodes': 9, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 3, 3, {'nodes': 7, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 3, 4, {'nodes': 9, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 3, 5, {'nodes': 9, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 4, 4, {'nodes': 11, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 4, 5, {'nodes': 11, 'depth': 3, 'exact_geometry_exclusions': 0}]
+['far', 5, 5, {'nodes': 11, 'depth': 3, 'exact_geometry_exclusions': 0}]
+PASS all cyclic and far domains, fully exact rational arithmetic, only exact rational infeasible-triangle exclusions
+PASS independent full cyclic certificate: density <0.018250915, Schur tightened <0.018204096
+PASS mixed-Gaussian source, cyclic geometry and exact Schur saturation: 17D <0.018204096
+dim19 refinement_cyclic/verify.py
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 26 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.3808321952819824
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.8025951385498047
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.3717000484466553
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.9712352752685547
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.3410282135009766
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.9353277683258057
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.792525053024292
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.364656686782837
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.218667507171631
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.849161386489868
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.07125186920166
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.430251121520996
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.934669256210327
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.322544097900391
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.96147084236145
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.524014711380005
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.778287410736084
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.165656089782715
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.606252670288086
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.90286922454834
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 25, 'passed': 13, 'excluded': 0, 'depth': 8} seconds 10.155766487121582
+FAR 0 1 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 5} seconds 10.448566198348999
+FAR 0 2 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 4} seconds 10.761956930160522
+FAR 0 3 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 3} seconds 11.095652341842651
+FAR 1 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 11.297826290130615
+FAR 1 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.58777141571045
+FAR 1 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.908451318740845
+FAR 2 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 12.131478071212769
+FAR 2 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 12.44343090057373
+FAR 3 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 12.694628238677979
+Entire far domain: PASS
+Density enclosure: [0.00955749071723961053311040089623003976576655784428912332212152422727976367995 +/- 4.21e-78]
+PASS: complete solid-harmonic cyclic certificate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'annular_leaves': 16, 'annular_maxdepth': 6, 'density_interval': '[0.00955749071723961053311040089623003976576655784428912332212152422727976367995353599658258903444380692526710978417950 +/- 8.06e-117]', 'strict_density_upper': '0.009557491'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0}]
+['far', 0, 0, {'nodes': 25, 'depth': 8}]
+['far', 0, 1, {'nodes': 11, 'depth': 5}]
+['far', 0, 2, {'nodes': 13, 'depth': 4}]
+['far', 0, 3, {'nodes': 13, 'depth': 3}]
+['far', 1, 1, {'nodes': 7, 'depth': 3}]
+['far', 1, 2, {'nodes': 9, 'depth': 3}]
+['far', 1, 3, {'nodes': 9, 'depth': 3}]
+['far', 2, 2, {'nodes': 9, 'depth': 3}]
+['far', 2, 3, {'nodes': 9, 'depth': 3}]
+['far', 3, 3, {'nodes': 11, 'depth': 3}]
+PASS all cyclic and far domains, fully exact rational arithmetic, no geometry exclusions
+PASS independent full cyclic certificate: density <0.009557491
+PASS both full-domain cyclic verification paths in 19D
+dim20 refinement_cyclic/verify.py
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 26 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.32684969902038574
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.7147114276885986
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.2691552639007568
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.8494668006896973
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.240295648574829
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.8152220249176025
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.606297731399536
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.148309707641602
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.9811646938323975
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.573794841766357
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.778899431228638
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.117716550827026
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.5924272537231445
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.963318824768066
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.55326509475708
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.111077547073364
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.351042747497559
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.728052616119385
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.163178205490112
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.463130474090576
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 19, 'passed': 10, 'excluded': 0, 'depth': 5} seconds 9.691357612609863
+FAR 0 1 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 9.984447956085205
+FAR 0 2 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 3} seconds 10.286114692687988
+FAR 0 3 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 4} seconds 10.583878755569458
+FAR 1 1 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 10.770400285720825
+FAR 1 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.032687664031982
+FAR 1 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.332265377044678
+FAR 2 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.550856590270996
+FAR 2 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.846766471862793
+FAR 3 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 12.100542783737183
+Entire far domain: PASS
+Density enclosure: [0.00697770162755537123555216263623502973315245883428172144901608211093138178049 +/- 3.11e-78]
+PASS: complete solid-harmonic cyclic certificate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'annular_leaves': 17, 'annular_maxdepth': 6, 'density_interval': '[0.00697770162755537123555216263623502973315245883428172144901608211093138178049278926950918579081080681694184739839625 +/- 6.15e-117]', 'strict_density_upper': '0.006977702'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0}]
+['far', 0, 0, {'nodes': 19, 'depth': 5}]
+['far', 0, 1, {'nodes': 11, 'depth': 3}]
+['far', 0, 2, {'nodes': 13, 'depth': 3}]
+['far', 0, 3, {'nodes': 15, 'depth': 4}]
+['far', 1, 1, {'nodes': 9, 'depth': 3}]
+['far', 1, 2, {'nodes': 9, 'depth': 3}]
+['far', 1, 3, {'nodes': 9, 'depth': 3}]
+['far', 2, 2, {'nodes': 9, 'depth': 3}]
+['far', 2, 3, {'nodes': 9, 'depth': 3}]
+['far', 3, 3, {'nodes': 11, 'depth': 3}]
+PASS all cyclic and far domains, fully exact rational arithmetic, no geometry exclusions
+PASS independent full cyclic certificate: density <0.006977702
+PASS both full-domain cyclic verification paths in 20D
+dim17 verify.py
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 24 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.2994081974029541
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.6241805553436279
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.0700526237487793
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.51177978515625
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.8541975021362305
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.3020498752593994
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.9573445320129395
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.3913426399230957
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.074605703353882
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.531753063201904
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.67876410484314
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.929620742797852
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.3031580448150635
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.572490692138672
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.072726726531982
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.544015645980835
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.72755241394043
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.043628931045532
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.390584707260132
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.619089126586914
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 19, 'passed': 10, 'excluded': 0, 'depth': 5} seconds 7.846410274505615
+FAR 0 1 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 5} seconds 8.117502450942993
+FAR 0 2 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 4} seconds 8.439325332641602
+FAR 0 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 4} seconds 8.743887901306152
+FAR 1 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 8.890355110168457
+FAR 1 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 9.151290893554688
+FAR 1 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 9.439081192016602
+FAR 2 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 9.598729610443115
+FAR 2 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 9.92811107635498
+FAR 3 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 2} seconds 10.148027181625366
+Entire far domain: PASS
+Density enclosure: [0.01833555157029049139332536094236693008327772532524438023943130167025927979684 +/- 3.20e-78]
+PASS: complete solid-harmonic cyclic certificate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'annular_leaves': 14, 'annular_maxdepth': 5, 'density_interval': '[0.01833555157029049139332536094236693008327772532524438023943130167025927979684206224099336131303752154313179742348101 +/- 7.41e-117]', 'strict_density_upper': '0.018335552'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0}]
+['far', 0, 0, {'nodes': 19, 'depth': 5}]
+['far', 0, 1, {'nodes': 13, 'depth': 5}]
+['far', 0, 2, {'nodes': 11, 'depth': 4}]
+['far', 0, 3, {'nodes': 11, 'depth': 4}]
+['far', 1, 1, {'nodes': 7, 'depth': 3}]
+['far', 1, 2, {'nodes': 7, 'depth': 3}]
+['far', 1, 3, {'nodes': 7, 'depth': 3}]
+['far', 2, 2, {'nodes': 7, 'depth': 3}]
+['far', 2, 3, {'nodes': 7, 'depth': 3}]
+['far', 3, 3, {'nodes': 7, 'depth': 2}]
+PASS all cyclic and far domains, fully exact rational arithmetic, no geometry exclusions
+PASS independent full cyclic certificate: density <0.018335552
+PASS both full-domain cyclic verification paths in 17D
+dim18 refinement_cyclic/verify.py
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 24 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.4704020023345947
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.0123872756958008
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.754180669784546
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.5495150089263916
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.0696513652801514
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.8748397827148438
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.915670394897461
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.629336357116699
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.70415735244751
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.551875352859497
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.923943996429443
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.440177917480469
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.208935260772705
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.803906679153442
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.674785375595093
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 11.630500793457031
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 12.065829038619995
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 12.672864437103271
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 13.391027688980103
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 13.96071481704712
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 21, 'passed': 11, 'excluded': 0, 'depth': 8} seconds 14.377346277236938
+FAR 0 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 14.85447645187378
+FAR 0 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 15.385097742080688
+FAR 0 3 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 3} seconds 15.886919021606445
+FAR 1 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 16.199005365371704
+FAR 1 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 16.604310512542725
+FAR 1 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 17.072404146194458
+FAR 2 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 17.41784644126892
+FAR 2 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 17.864060163497925
+FAR 3 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 18.261507749557495
+Entire far domain: PASS
+Density enclosure: [0.01328472704022940068952086716325760124601533840031853772476992896674363378012 +/- 1.97e-78]
+PASS: complete solid-harmonic cyclic certificate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'annular_leaves': 16, 'annular_maxdepth': 6, 'density_interval': '[0.01328472704022940068952086716325760124601533840031853772476992896674363378012149103489871385717865691637676166429868 +/- 7.53e-117]', 'strict_density_upper': '0.013284728'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0}]
+['far', 0, 0, {'nodes': 21, 'depth': 8}]
+['far', 0, 1, {'nodes': 7, 'depth': 3}]
+['far', 0, 2, {'nodes': 9, 'depth': 3}]
+['far', 0, 3, {'nodes': 13, 'depth': 3}]
+['far', 1, 1, {'nodes': 7, 'depth': 3}]
+['far', 1, 2, {'nodes': 7, 'depth': 3}]
+['far', 1, 3, {'nodes': 9, 'depth': 3}]
+['far', 2, 2, {'nodes': 9, 'depth': 3}]
+['far', 2, 3, {'nodes': 9, 'depth': 3}]
+['far', 3, 3, {'nodes': 11, 'depth': 3}]
+PASS all cyclic and far domains, fully exact rational arithmetic, no geometry exclusions
+PASS independent full cyclic certificate: density <0.013284728
+PASS both full-domain cyclic verification paths in 18D
+dim18 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 26.464058876037598
+Density enclosure: [0.01340893006264654494029079322832899292797624195812881555218302593199193264424 +/- 3.74e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 64 depth 6 seconds 0.032877445220947266 failure []
+Full annular inequality: PASS
+ALL COMPUTATIONAL CONDITIONS PASS. Literature comparison and independent review remain separate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 34, 'annular_maxdepth': 6, 'density_interval': '[0.01340893006264654494029079322832899292797624195812881555218302593199193264424321313767445195705346614287668673657061 +/- 8.94e-117]', 'strict_density_upper': '0.013408931'}
+PASS: both 18D verification paths
+dim5 refinement_p4/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 1.9751853601993075e-08}, {"block": 1, "positive_definite": true, "min_pivot": 4.2449755136687974e-08}, {"block": 2, "positive_definite": true, "min_pivot": 7.103108674300546e-08}, {"block": 3, "positive_definite": true, "min_pivot": 3.205316187860055e-08}, {"block": 4, "positive_definite": true, "min_pivot": 3.1649258079459986e-08}, {"block": 5, "positive_definite": true, "min_pivot": 2.9671290573859764e-08}, {"block": 6, "positive_definite": true, "min_pivot": 2.184450054587781e-08}, {"block": 7, "positive_definite": true, "min_pivot": 2.1320464997105114e-08}, {"block": 8, "positive_definite": true, "min_pivot": 2.4455269896981186e-08}, {"block": 9, "positive_definite": true, "min_pivot": 2.510967483117317e-08}, {"block": 10, "positive_definite": true, "min_pivot": 2.343605663947983e-08}, {"block": 11, "positive_definite": true, "min_pivot": 2.0049421892223682e-08}, {"block": 12, "positive_definite": true, "min_pivot": 1.996610012562414e-08}]
+{"verified": true, "checked": 127, "max_depth": 8, "seconds": 0.08864235877990723, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004341842551391469 0.010948853423173149
+{"verified": true, "checked": 5373, "passed": 1523, "excluded": 1164, "max_depth": 33, "seconds": 0.4859793186187744, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.12931323051452637
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.252277135848999
+TRANSFORM 1 seconds 0.4633522033691406
+TRANSFORM 2 seconds 0.6910181045532227
+INITIAL (37, 37, 37) -3.710681950569521 0.27186161309250145
+{"verified": true, "checked": 85, "passed": 39, "excluded": 4, "max_depth": 11, "seconds": 2.464045763015747, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.510522524815414906767892985279306236886437252639757552804225922293658166514 +/- 1.08e-76]", "below_0.510522525": true, "normalization_exact": "500000000000013867843581/500000000000000000000000", "numerator_exact": "19397529933890261448094669/6250000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.510522525, using the cited external neighbor-count theorem
+dim4 refinement_p6/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 8.873087728341943e-10}, {"block": 1, "positive_definite": true, "min_pivot": 2.3166811479540613e-09}, {"block": 2, "positive_definite": true, "min_pivot": 1.1490820478278419e-09}, {"block": 3, "positive_definite": true, "min_pivot": 1.0934079874524e-09}, {"block": 4, "positive_definite": true, "min_pivot": 2.5468946238345705e-08}, {"block": 5, "positive_definite": true, "min_pivot": 1.3359103578239287e-09}, {"block": 6, "positive_definite": true, "min_pivot": 1.0606199273251652e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.1717054568549997e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.0102279440966207e-09}, {"block": 9, "positive_definite": true, "min_pivot": 1.236358336606089e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.060786797754623e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.0177482621423215e-09}, {"block": 12, "positive_definite": true, "min_pivot": 1.0775137995213076e-09}, {"block": 13, "positive_definite": true, "min_pivot": 1.0187165917456734e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.3760175639462153e-09}, {"block": 15, "positive_definite": true, "min_pivot": 1.2903585755713008e-09}, {"block": 16, "positive_definite": true, "min_pivot": 1.205113369364339e-09}]
+{"verified": true, "checked": 215, "max_depth": 8, "seconds": 0.16119146347045898, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -1.261408967416441 1.0036508028627191
+PROGRESS 10000 stack 19 seconds 1.5289928913116455
+{"angular_top": "1/2", "verified": true, "checked": 17723, "passed": 4973, "excluded": 3889, "max_depth": 37, "seconds": 2.7048499584198, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 10557 seconds 0.8566372394561768
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 1.508110761642456
+TRANSFORM 1 seconds 2.497814655303955
+TRANSFORM 2 seconds 3.7642722129821777
+INITIAL (49, 49, 49) -63675.08585126197 1112.973470149147
+PROGRESS 100 stack 3 seconds 9.926923751831055
+{"verified": true, "checked": 135, "passed": 55, "excluded": 13, "max_depth": 13, "seconds": 11.52713918685913, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6334303260113454414754145742596239771574365762937475831059441425951904455187 +/- 9.42e-77]", "below_0.633430327": true, "normalization_exact": "399999999999996070879/400000000000000000000", "numerator_exact": "8215028529461860492858846879/4000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.633430327, using the cited external neighbor-count theorem
+dim5 refinement_pd2/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 2.2011556105229834e-08}, {"block": 1, "positive_definite": true, "min_pivot": 2.777994972424823e-08}, {"block": 2, "positive_definite": true, "min_pivot": 1.6591049227884726e-07}, {"block": 3, "positive_definite": true, "min_pivot": 2.3467533799405594e-08}, {"block": 4, "positive_definite": true, "min_pivot": 1.8004916787189275e-07}, {"block": 5, "positive_definite": true, "min_pivot": 2.33647474668687e-08}, {"block": 6, "positive_definite": true, "min_pivot": 2.1887900418888774e-08}, {"block": 7, "positive_definite": true, "min_pivot": 2.3899280485927907e-08}, {"block": 8, "positive_definite": true, "min_pivot": 2.292291851701192e-08}, {"block": 9, "positive_definite": true, "min_pivot": 7.91971080585101e-08}, {"block": 10, "positive_definite": true, "min_pivot": 2.3321903568371642e-08}, {"block": 11, "positive_definite": true, "min_pivot": 2.109015437916295e-08}, {"block": 12, "positive_definite": true, "min_pivot": 1.997697193311586e-08}]
+{"verified": true, "checked": 123, "max_depth": 9, "seconds": 0.08775115013122559, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004433326284160627 0.011027811828310276
+PROGRESS 10000 stack 23 seconds 0.8131418228149414
+PROGRESS 20000 stack 25 seconds 1.64970064163208
+{"verified": true, "checked": 26211, "passed": 6971, "excluded": 6135, "max_depth": 45, "seconds": 2.16597580909729, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 3212 seconds 0.0743863582611084
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.1515483856201172
+TRANSFORM 1 seconds 0.25914978981018066
+TRANSFORM 2 seconds 0.42062926292419434
+INITIAL (37, 37, 37) -0.6558596121215086 0.04364086124172338
+{"verified": true, "checked": 63, "passed": 28, "excluded": 4, "max_depth": 15, "seconds": 1.8812339305877686, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.5105840999607987727021021850536941337926838178193477371147900754213375490648 +/- 7.18e-77]", "below_0.510584101": true, "normalization_exact": "500000000000006218545861/500000000000000000000000", "numerator_exact": "15519895607095944475952251483/5000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.510584101, using the cited external neighbor-count theorem
+dim4 refinement_p4/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 9.900320832491374e-10}, {"block": 1, "positive_definite": true, "min_pivot": 2.1355842635269903e-09}, {"block": 2, "positive_definite": true, "min_pivot": 1.3478536682333054e-09}, {"block": 3, "positive_definite": true, "min_pivot": 1.3107793874169417e-07}, {"block": 4, "positive_definite": true, "min_pivot": 1.2535334154055006e-09}, {"block": 5, "positive_definite": true, "min_pivot": 1.3397633118585313e-09}, {"block": 6, "positive_definite": true, "min_pivot": 1.8772640872543816e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.0715742580362362e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.0575395472906676e-09}, {"block": 9, "positive_definite": true, "min_pivot": 2.873861371622943e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.020473622216066e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.3275091064213938e-09}, {"block": 12, "positive_definite": true, "min_pivot": 1.1394890296050853e-09}, {"block": 13, "positive_definite": true, "min_pivot": 1.0650682647723807e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.0876400486794008e-09}, {"block": 15, "positive_definite": true, "min_pivot": 1.3352107862780785e-09}, {"block": 16, "positive_definite": true, "min_pivot": 1.0736234397507695e-09}]
+{"verified": true, "checked": 231, "max_depth": 8, "seconds": 0.18363356590270996, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -1.6717312787373841 1.6804626754216208
+PROGRESS 10000 stack 15 seconds 1.1089072227478027
+PROGRESS 50000 stack 19 seconds 5.816102743148804
+PROGRESS 60000 stack 19 seconds 6.959785223007202
+PROGRESS 80000 stack 17 seconds 9.192671775817871
+PROGRESS 110000 stack 17 seconds 13.034150838851929
+PROGRESS 130000 stack 13 seconds 15.416271686553955
+{"verified": true, "checked": 135399, "passed": 33933, "excluded": 33767, "max_depth": 36, "seconds": 16.053812265396118, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 7064 seconds 0.40404558181762695
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.9559652805328369
+TRANSFORM 1 seconds 1.6997432708740234
+TRANSFORM 2 seconds 2.8348405361175537
+INITIAL (49, 49, 49) -63675.84768615536 481.7687162408582
+PROGRESS 100 stack 5 seconds 8.30362582206726
+{"verified": true, "checked": 127, "passed": 56, "excluded": 8, "max_depth": 10, "seconds": 9.386691570281982, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6345260220720713322566555674163184830382171356283089733216206914541048187119 +/- 6.44e-77]", "below_0.634526023": true, "normalization_exact": "9999999999999148229243/10000000000000000000000", "numerator_exact": "205730968346242987111509968901/100000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.634526023, using the cited external neighbor-count theorem
+dim5 verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 1.0609844839916216e-07}, {"block": 1, "positive_definite": true, "min_pivot": 1.1815078269958635e-07}, {"block": 2, "positive_definite": true, "min_pivot": 1.231856454299799e-07}, {"block": 3, "positive_definite": true, "min_pivot": 1.2060544528976586e-07}, {"block": 4, "positive_definite": true, "min_pivot": 2.3360968830076093e-07}, {"block": 5, "positive_definite": true, "min_pivot": 1.8167204178706432e-07}, {"block": 6, "positive_definite": true, "min_pivot": 1.0906852344684094e-07}, {"block": 7, "positive_definite": true, "min_pivot": 1.1321351498079404e-07}, {"block": 8, "positive_definite": true, "min_pivot": 1.0869852280185769e-07}, {"block": 9, "positive_definite": true, "min_pivot": 1.1129199548154491e-07}, {"block": 10, "positive_definite": true, "min_pivot": 1.1510454053803327e-07}, {"block": 11, "positive_definite": true, "min_pivot": 1.0001726508828932e-07}, {"block": 12, "positive_definite": true, "min_pivot": 1.0000491026051282e-07}]
+{"verified": true, "checked": 129, "max_depth": 9, "seconds": 0.09299659729003906, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004673089988522918 0.010933530742306503
+{"verified": true, "checked": 1925, "passed": 745, "excluded": 218, "max_depth": 33, "seconds": 0.17035746574401855, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 3212 seconds 0.08035445213317871
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.1617450714111328
+TRANSFORM 1 seconds 0.2726409435272217
+TRANSFORM 2 seconds 0.4370288848876953
+INITIAL (37, 37, 37) -0.8304421209736315 0.008377306161940953
+{"verified": true, "checked": 51, "passed": 22, "excluded": 4, "max_depth": 13, "seconds": 1.4335618019104004, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.511534152201692455253167068983680226259979393361438295300089894838921770366 +/- 4.98e-76]", "below_0.511534153": true, "normalization_exact": "500000000000000874280347/500000000000000000000000", "numerator_exact": "3109754746473319928260607520391/1000000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.511534153, using the cited external neighbor-count theorem
+dim4 verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 9.92481593359753e-10}, {"block": 1, "positive_definite": true, "min_pivot": 3.490609287221922e-08}, {"block": 2, "positive_definite": true, "min_pivot": 3.129787261674594e-08}, {"block": 3, "positive_definite": true, "min_pivot": 1.4173827384652666e-09}, {"block": 4, "positive_definite": true, "min_pivot": 1.2272353149665402e-09}, {"block": 5, "positive_definite": true, "min_pivot": 9.754998771592353e-09}, {"block": 6, "positive_definite": true, "min_pivot": 9.900269635520645e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.7295199905638568e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.535353073072033e-09}, {"block": 9, "positive_definite": true, "min_pivot": 1.6271611458061624e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.227720687748758e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.1188914003425015e-09}, {"block": 12, "positive_definite": true, "min_pivot": 3.0628835123967904e-09}, {"block": 13, "positive_definite": true, "min_pivot": 2.1252271775443265e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.3117618814053312e-09}, {"block": 15, "positive_definite": true, "min_pivot": 3.193717326718556e-09}, {"block": 16, "positive_definite": true, "min_pivot": 4.057119807929296e-09}]
+{"verified": true, "checked": 115, "max_depth": 8, "seconds": 0.09622454643249512, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.16775548787820385 0.1464442588674942
+PROGRESS 30000 stack 9 seconds 2.9855217933654785
+{"verified": true, "checked": 34009, "passed": 8439, "excluded": 8566, "max_depth": 29, "seconds": 3.3974061012268066, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 5453 seconds 0.22918295860290527
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.6819939613342285
+TRANSFORM 1 seconds 1.417529582977295
+TRANSFORM 2 seconds 2.561910390853882
+INITIAL (49, 49, 49) -63662.87867199025 835.0325897029555
+{"verified": true, "checked": 83, "passed": 38, "excluded": 4, "max_depth": 11, "seconds": 7.232763290405273, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6357662426387588618572394093758579880966147479317909183832447245178820105673 +/- 7.28e-77]", "below_0.635766243": true, "normalization_exact": "249999999999726593313/250000000000000000000", "numerator_exact": "20613308231657700251853282901/10000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.635766243, using the cited external neighbor-count theorem
+dim21 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 1.5004777908325195
+Density enclosure: [0.005149553143708725491955701751845274605644496031041628668361509288739817780620 +/- 8.38e-79]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 96 depth 7 seconds 0.05496072769165039 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.005149554.
+dim21 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 50, 'annular_maxdepth': 7, 'density_upper_float': 0.005149553143708726, 'strict_density_upper': '0.005149554'}
+dim19 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 1.483841896057129
+Density enclosure: [0.00961835093382645272416598000387883519167140758549870892621568166245471883098 +/- 4.35e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 40 depth 7 seconds 0.023564815521240234 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.009618351.
+dim19 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 22, 'annular_maxdepth': 7, 'density_upper_float': 0.009618350933826453, 'strict_density_upper': '0.009618351'}
+dim20 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 1.4771885871887207
+Density enclosure: [0.00697950190417318581318448850239932436503950767230416847431912053614315849425 +/- 4.45e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 100 depth 7 seconds 0.0808858871459961 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.006979502.
+dim20 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 52, 'annular_maxdepth': 7, 'density_upper_float': 0.006979501904173186, 'strict_density_upper': '0.006979502'}
+dim48 continuum_three_point/independent_cyclic40_angular.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+dim48 continuum_three_point/independent_cyclic40_domain.py
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+dim48 continuum_three_point/independent_cyclic40_radial.py
+{'pass': True, 'all112_Fourier_coefficients_match': True, 'precision': 512, 'Machin_terms': 110, 'cap_intervals': 33, 'max_depth': 20, 'objective_float': 17.834291498319086, 'strict_upper': '17835/1000', 'density_upper_float': 4.1338573931310067e-07}
+dim7 verify.py
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]
+{"verified": true, "checked": 212, "max_depth": 11, "seconds": 0.16257405281066895, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim7/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.19202519970767826 0.17295074143748657
+{"verified": true, "checked": 6487, "passed": 2021, "excluded": 1223, "max_depth": 35, "seconds": 0.6956822872161865, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim7/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.12656688690185547
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.24027752876281738
+TRANSFORM 1 seconds 0.37505578994750977
+TRANSFORM 2 seconds 0.5155527591705322
+INITIAL (37, 37, 37) -0.4263326170842554 0.047499952978378314
+{"verified": true, "checked": 81, "passed": 39, "excluded": 2, "max_depth": 15, "seconds": 2.0683553218841553, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim7/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 7, "verified": true, "strict_upper": "0.320584772", "density_enclosure": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{
+  "fourier_polynomial_identity": true,
+  "origin_and_gaussian_arithmetic": true,
+  "antipodal_boundary_8x8_bernstein": true,
+  "antipodal_max_coefficient": "-122955476132629227/40960000000000000000000000",
+  "antipodal_max_coefficient_float": -3.001842679019268e-09,
+  "location": [
+    6,
+    6,
+    3,
+    3
+  ],
+  "saturated_density": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 6.06e-77]",
+  "scope": "Only algebra and antipodal boundary; not a complete density certificate"
+}
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '9606260987533818877389/50000000000000000000000', 'guarded_normalization': '10000000000000002193967/10000000000000000000000', 'density_interval': '[0.3205847715830073938695391744713529466970446527646514319059435920441989479862831315082043475569821562950856094394234 +/- 6.93e-116]', 'strict_upper': '.320584772', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 2727, 'maxdepth': 15, 'thresholds_checked_with_smaller_allowance': ['1001/1000', '200401/200000', '250753/250000', '1004023/1000000', '251259/250000'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+INITIAL -0.19202519970767826 0.17295074143748657
+{"verified": true, "checked": 6487, "passed": 2021, "excluded": 1223, "max_depth": 35, "seconds": 0.6682295799255371, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim7/independent/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.10935521125793457
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.17938709259033203
+TRANSFORM 1 seconds 0.29955577850341797
+TRANSFORM 2 seconds 0.4468843936920166
+INITIAL (37, 37, 37) -0.4263326170842554 0.047499952978378314
+{"verified": true, "checked": 81, "passed": 39, "excluded": 2, "max_depth": 15, "seconds": 1.7937359809875488, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_44_six_integration_20261111/verifications/dim7/independent/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PASS complete independently reviewed frozen seven-dimensional count certificate
+PASS registered 7D full primary and independent audit chains
+{"dimension": 4, "density_interval": "[0.6334287344446830668557872505090180477650483209107776824200296037551488417484 +/- 4.97e-77]", "decrease_interval": "[1.591566662374619627323750605929392388255382969900685914538840041603770366518e-6 +/- 5.73e-82]", "producer_upper_verified": "0.633428736191", "sharper_upper_verified": "0.633428734445"}
+{"dimension": 5, "density_interval": "[0.5105010944773112949251787689101431575651822699455262362160455187049259669282 +/- 4.80e-77]", "decrease_interval": "[2.143033810361184271421636916307932125498269423131658818040358873219958573586e-5 +/- 4.89e-81]", "producer_upper_verified": "0.510501104860", "sharper_upper_verified": "0.510501094478"}
+{"dimension": 19, "density_interval": "[0.00961834313846843598990420419281836751281489730353440844306621839310901086262 +/- 5.64e-78]", "decrease_interval": "[7.79535801673426177581106046767885651028196430048314946326934570796836100580e-9 +/- 3.21e-84]", "producer_upper_verified": "0.009618343222", "sharper_upper_verified": "0.009618343139"}
+{"dimension": 20, "density_interval": "[0.00697949727169374086520055023266170044186650021762759418859952280434877352258 +/- 5.11e-78]", "decrease_interval": "[4.63247944494798393826973762392317300745467657428571959773179438497167068701e-9 +/- 1.01e-84]", "producer_upper_verified": "0.006979497379", "sharper_upper_verified": "0.006979497272"}
+{"dimension": 21, "density_interval": "[0.00514954931188585397024250649017034442459247463341020657197646361151668189422 +/- 4.51e-78]", "decrease_interval": "[3.831822871521713195261674930181052021397631422096385045677223135886396439230e-9 +/- 7.54e-85]", "producer_upper_verified": "0.005149550178", "sharper_upper_verified": "0.005149549312"}
+PASS independent Fraction algebra and Arb enclosures in all five dimensions
+18 [0.01322447288774302040905385888932159187725188582658951521676592103334242722902327258767349156549047265392131879037166 +/- 7.77e-117] 0.013224473
+19 [0.00952099907117089313776375311585054974717756686835864181785848045238642065819670859920057208259960121444785006925025 +/- 6.35e-117] 0.009521000
+20 [0.00693604190021278090214856931557095353231376324847042979770019160389996030008865171281657550905283099461207272276280 +/- 5.95e-117] 0.006936042
+PASS 18D: exact Schur PSD factorization and rational Machin density <0.013224473
+PASS 19D: exact Schur PSD factorization and rational Machin density <0.009521000
+PASS 20D: exact Schur PSD factorization and rational Machin density <0.006936042
+PASS all three independent rational saturation checks
+PASS exact origin saturation, independent rational rounding and all three strict outward thresholds
+PASS: all registered proof replays and strict decimal rounding

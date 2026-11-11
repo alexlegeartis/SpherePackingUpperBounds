@@ -1,0 +1,7 @@
+Fixed Schur center norm 633.7312992440594
+/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/search_tetra_full_center.py:105: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  p.solve(solver='CLARABEL',max_iter=300,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10)
+{'round': 0, 'objective': 31.938005754661308, 'density_candidate': 0.0038176877457789258, 'status': 'optimal_inaccurate', 'added': 13, 'worst_sampled': {'far': 1.8852566921597966e-07, 'cyclic': 4.2441122735050905e-06}, 'seconds': 19.626519680023193, 'edge_weights': [1.1179419576610838e-09, 4.817718537146445e-10]}
+{'round': 1, 'objective': 32.38587845955229, 'density_candidate': 0.003871223904243723, 'status': 'optimal_inaccurate', 'added': 3, 'worst_sampled': {'far': -1.0459384394028749e-07, 'cyclic': -9.911423424949688e-07}, 'seconds': 56.18880653381348, 'edge_weights': [1.6285779888601827e-09, 6.801717913212324e-10]}
+{'round': 2, 'objective': 32.405109254570235, 'density_candidate': 0.0038735226442165806, 'status': 'optimal', 'added': 0, 'worst_sampled': {'far': -5.406789878102089e-07, 'cyclic': -9.999387895309939e-07}, 'seconds': 85.6304669380188, 'edge_weights': [2.612410620714612e-10, 1.0895879049772487e-10]}
+PROCESS_EXIT=0

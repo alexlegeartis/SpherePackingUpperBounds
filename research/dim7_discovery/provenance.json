@@ -1,0 +1,15 @@
+{
+  "dimension": 7,
+  "strict_upper": "0.320584772",
+  "source": "patch_dim7_exact.json",
+  "source_sha256": "1cf76290693c7461ad4da8e5389db283ea5bce02c152ea7ab0115bbf88948bf1",
+  "selected_numerical_checkpoint": "candidate_patch_dim7.json",
+  "warm_start": "seed_patch_dim7.json",
+  "gaussian_weights": {
+    "eta": "0",
+    "zeta": "0"
+  },
+  "kernel_guard_weight": "0",
+  "exact_source_reproduction": "Required hash comparison by reproduce_exact.py",
+  "search_scope": "Final bounded warm-start stage; earlier exploratory chain is not rerun here."
+}

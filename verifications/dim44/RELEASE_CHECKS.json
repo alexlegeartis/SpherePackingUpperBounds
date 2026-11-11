@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "complete_registered_proof_suite": true,
+  "aggregate_log": "registry_replay.log",
+  "additional_late_added_guarded5_job": "../dim5/refinement_guarded/integrated_full_replay.log",
+  "note": "Guarded5 was added after the aggregate process started and executed separately. The final run_all.py includes this same job. Current comparison.py, all registered proof jobs, source reproduction and integrated exports passed.",
+  "research_only_tetrahedral_replay": "../../research/tetrahedral_aggregate/integrated_replay.log",
+  "python_optimized_mode_rejected": true
+}

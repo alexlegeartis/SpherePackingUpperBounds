@@ -1,0 +1,15 @@
+{
+  "dimension": 5,
+  "strict_upper": "0.510129239",
+  "source": "patch_dim5_guarded_1e8.json",
+  "source_sha256": "79881d16bc8d837d13222c0d3c5ca6d47264e031e09cd46738275198d4da85b1",
+  "selected_numerical_checkpoint": "candidate_patch_dim5.json",
+  "warm_start": "seed_patch_dim5.json",
+  "gaussian_weights": {
+    "eta": "0",
+    "zeta": "0"
+  },
+  "kernel_guard_weight": "1/100000000",
+  "exact_source_reproduction": "Required hash comparison by reproduce_exact.py",
+  "search_scope": "Final bounded warm-start stage; earlier exploratory chain is not rerun here."
+}

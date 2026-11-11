@@ -1,0 +1,15 @@
+{
+  "fourier_polynomial_identity": true,
+  "origin_and_gaussian_arithmetic": true,
+  "antipodal_boundary_8x8_bernstein": true,
+  "antipodal_max_coefficient": "-122955476132629227/40960000000000000000000000",
+  "antipodal_max_coefficient_float": -3.001842679019268e-09,
+  "location": [
+    6,
+    6,
+    3,
+    3
+  ],
+  "saturated_density": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 6.06e-77]",
+  "scope": "Only algebra and antipodal boundary; not a complete density certificate"
+}

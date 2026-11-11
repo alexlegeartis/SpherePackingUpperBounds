@@ -163,3 +163,15 @@ See the complete [6D](verifications/dim6/), [45D](verifications/dim45/) and [46D
 ## Six-dimensional continuation refinement
 
 A separately verified continuation witness improves 6D to <0.409135399. Unlike the earlier repaired witness, both Gaussian guard weights vanish; exact Sturm checks establish global polynomial signs directly. The search mixed a warm-start continuation endpoint with a near-feasible joint radial/kernel result, but no numerical convex-feasibility assumption is used in the proof. The final exact matrices, Fourier pair, origin Schur operation, count costs and every continuous domain are checked anew. This preserves the external count-theorem assumptions rather than claiming a count-free improvement.
+
+## Dimension 44 and the small six-dimensional follow-on
+
+The new 44D Gaussian-damped cyclic witness changes both angular and radial data, with exact minimum squared separation 23/4 and radial decay parameter 51/23. It gives <1.842868599e-6 after fresh angular, cyclic-domain, global radial-sign, coupled pair and normalization proofs. No old 48D coefficients or signs are substituted for these checks.
+
+The separately audited small 6D follow-on gives <0.409128533. Its final coefficients pass global polynomial signs without Gaussian repair; the existing count assumptions, Schur operation and full-domain conditions remain required. Both previous 6D certificates are preserved.
+
+## Guarded 5D, count-enhanced 7D and tetrahedral research
+
+The guarded 5D result <0.510129239 needs an explicit exact PSD kernel correction: the unguarded numerical checkpoint is invalid. This correction is separate from Gaussian guards. The 7D result <0.320584772 uses the count-enhanced cyclic family with full exact/interval verification. Both retain their cited external count hypotheses.
+
+The research-only [22D tetrahedral package](research/tetrahedral_aggregate/) proves 3T <= BE for squared shell widths q=21/20 and q=11/10, with strict B bounds 3341.14916082 and 5086.98083741. The latter is about 36.75% below the stored affine certificate, a comparison of valid witnesses rather than proved optima. Exact endpoint contradictions separate both new polynomials from the affine-envelope family; a harmonic reduction theorem explains why adding unweighted higher normal harmonics does not fix that restriction. These auxiliary four-point results do not establish a new density bound. Density activation material remains isolated as negative/provisional research and is never a proof input or registry entry.

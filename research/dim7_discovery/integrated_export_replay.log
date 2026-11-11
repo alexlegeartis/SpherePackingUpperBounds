@@ -1,0 +1,48 @@
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+{
+  "scope": "Unverified until complete pair/far/cyclic checks pass",
+  "dimension": 7,
+  "guards": {
+    "gaussian_guard_family": "reciprocal_gaussians",
+    "dimension": 7,
+    "reciprocal_gaussian_guards": {
+      "c": "157/50",
+      "eta": "0",
+      "zeta": "0",
+      "physical_intervals": [],
+      "fourier_intervals": [],
+      "corrected_normalization": "10000000000000002193967/10000000000000000000000"
+    }
+  },
+  "raw_density": "[0.3205847715830443061036823885348919961400474710153582168892465641723268747283 +/- 7.03e-77]",
+  "saturated_density": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 6.06e-77]",
+  "origin_slack": "1/1000000000000",
+  "raw_objective": "583523058794603681807551982037615435104491428353368525677892005848527803829671180761660156124778/67187033457112861057588052574423475966830576795434691582482455970441215064356372836542804112245",
+  "saturated_objective": "583523058794536494774094869191298460475197154886953082751983498586054328356371734859310156124778/67187033457112861057588052574423475966830576795434691582482455970441215064356372836542804112245"
+}
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]
+{"verified": true, "checked": 212, "max_depth": 11, "seconds": 0.1799602508544922, "failure": null, "source": "/tmp/dim7_export_integrated/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.19202519970767826 0.17295074143748657
+{"verified": true, "checked": 6487, "passed": 2021, "excluded": 1223, "max_depth": 35, "seconds": 0.7766051292419434, "failure": null, "source": "/tmp/dim7_export_integrated/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.11315202713012695
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.20718050003051758
+TRANSFORM 1 seconds 0.3355743885040283
+TRANSFORM 2 seconds 0.5065903663635254
+INITIAL (37, 37, 37) -0.4263326170842554 0.047499952978378314
+{"verified": true, "checked": 81, "passed": 39, "excluded": 2, "max_depth": 15, "seconds": 1.9758658409118652, "failure": null, "source": "/tmp/dim7_export_integrated/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 7, "verified": true, "strict_upper": "0.320584772", "density_enclosure": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{
+  "candidate_sha256": "1cf76290693c7461ad4da8e5389db283ea5bce02c152ea7ab0115bbf88948bf1",
+  "prerequisite_export_passed": true,
+  "complete_verification_passed": true,
+  "result": {
+    "dimension": 7,
+    "verified": true,
+    "strict_upper": "0.320584772",
+    "density_enclosure": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]",
+    "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."
+  }
+}

@@ -1,0 +1,14 @@
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]
+{"verified": true, "checked": 121, "max_depth": 11, "seconds": 0.09435868263244629, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim5_verification_package/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.06562682537338345 0.05474102254184312
+{"verified": true, "checked": 2187, "passed": 746, "excluded": 348, "max_depth": 22, "seconds": 0.21195459365844727, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim5_verification_package/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.11072206497192383
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.2103407382965088
+TRANSFORM 1 seconds 0.34691810607910156
+TRANSFORM 2 seconds 0.4988117218017578
+INITIAL (37, 37, 37) -1.471397640096776 0.0589298998087534
+{"verified": true, "checked": 57, "passed": 23, "excluded": 6, "max_depth": 9, "seconds": 1.514981985092163, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim5_verification_package/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 5, "verified": true, "strict_upper": "0.510129239", "density_enclosure": "[0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}

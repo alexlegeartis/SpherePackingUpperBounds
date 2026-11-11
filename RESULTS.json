@@ -25,14 +25,14 @@
   },
   {
     "dimension": 5,
-    "strict_density_upper_bound": "0.510501094478",
-    "package": "verifications/origin_slack",
+    "strict_density_upper_bound": "0.510129239",
+    "package": "verifications/dim5/refinement_guarded",
     "known_lower_density": "0.46525761330925863561",
     "previous_upper_density": "0.5122645",
-    "upper_decrease_percent": "0.344237",
-    "gap_decrease_percent": "3.751377",
+    "upper_decrease_percent": "0.416828",
+    "gap_decrease_percent": "4.542443",
     "old_gap": "0.047006886690741364389",
-    "new_gap": "0.045243481168741364389",
+    "new_gap": "0.044871625690741364389",
     "previous_upper_status": "Paper-reported value printed to 7 decimal places; no independent replay",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_reviewed": "2026-11-10",
@@ -42,30 +42,49 @@
     "earlier_repository_upper_densities": [
       "0.511534153",
       "0.510584101",
-      "0.510522525"
+      "0.510522525",
+      "0.510501094478"
     ],
-    "source_package": "verifications/dim5/refinement_p4",
-    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+    "source_package": "verifications/dim5/refinement_guarded",
+    "method": "Guarded count-enhanced cyclic Chebyshev kernel and exact origin Schur saturation",
+    "previous_repository_package": "verifications/origin_slack"
   },
   {
     "dimension": 6,
-    "strict_density_upper_bound": "0.409135399",
-    "package": "verifications/dim6/refinement_mixture99",
+    "strict_density_upper_bound": "0.409128533",
+    "package": "verifications/dim6/refinement_patch5",
     "method": "Count-enhanced cyclic Chebyshev kernel and exact origin Schur saturation; global polynomial signs without Gaussian repair",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.37294754558206493956",
     "previous_upper_density": "0.4102905",
-    "upper_decrease_percent": "0.281532",
-    "gap_decrease_percent": "3.093223",
+    "upper_decrease_percent": "0.283206",
+    "gap_decrease_percent": "3.111610",
     "old_gap": "0.037342954417935060437",
-    "new_gap": "0.036187853417935060437",
+    "new_gap": "0.036180987417935060437",
     "previous_upper_status": "Paper-reported value; no independent replay",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "external_neighbor_count_source": "https://arxiv.org/html/1206.2608#S6.T2",
     "earlier_repository_upper_densities": [
-      "0.410189987"
+      "0.410189987",
+      "0.409135399"
     ],
-    "previous_repository_package": "verifications/dim6"
+    "previous_repository_package": "verifications/dim6/refinement_mixture99"
+  },
+  {
+    "dimension": 7,
+    "strict_density_upper_bound": "0.320584772",
+    "package": "verifications/dim7",
+    "method": "Count-enhanced cyclic Chebyshev certificate and exact origin Schur saturation",
+    "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_status": "Paper-reported value; no independent replay",
+    "previous_upper_reviewed": "2026-11-11",
+    "external_neighbor_count_source": "https://arxiv.org/html/1206.2608#S6.T2",
+    "known_lower_density": "0.29529787314571257310",
+    "previous_upper_density": "0.32111475",
+    "upper_decrease_percent": "0.165043",
+    "gap_decrease_percent": "2.052835",
+    "old_gap": "0.025816876854287426900",
+    "new_gap": "0.025286898854287426900"
   },
   {
     "dimension": 17,
@@ -166,6 +185,21 @@
     ],
     "source_package": "verifications/dim21",
     "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+  },
+  {
+    "dimension": 44,
+    "strict_density_upper_bound": "0.000001842868599",
+    "package": "verifications/dim44",
+    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
+    "previous_upper_reviewed": "2026-11-11",
+    "known_lower_density": "3.9244265335277118067e-8",
+    "previous_upper_density": "0.0000019017703144",
+    "upper_decrease_percent": "3.097204",
+    "gap_decrease_percent": "3.162464",
+    "old_gap": "0.0000018625260490647228819",
+    "new_gap": "0.0000018036243336647228819"
   },
   {
     "dimension": 45,

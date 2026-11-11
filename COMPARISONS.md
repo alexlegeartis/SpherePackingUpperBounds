@@ -113,3 +113,21 @@ The count-enhanced cyclic proof uses published near-neighbor count inputs, cited
 The current 6D strict upper is **0.409135399**, replacing the earlier registered 0.410189987 while preserving its proof. The benchmark remains the paper-reported 0.4102905 and the E6 lower remains pi^3/(48*sqrt(3)). Using the outward rounded current bound, the upper decreases **0.281532%**, and the additive gap decreases **3.093223%**.
 
 The new frozen witness needs no Gaussian sign repair: eta = zeta = 0, and exact Sturm tests prove both full polynomial sign conditions. Exact origin Schur saturation, the cyclic continuum argument and the same external published near-neighbor count bounds remain required. The final witness arose from a 99/100 continuation mixture, but its proof checks the resulting exact coefficients directly; numerical feasibility of its parents is not assumed. The independent full replay checks 1,672 pair leaves, 4,359 far boxes and 87 compact cyclic boxes. The cited external count SDP certificates are not reconstructed. See [the new proof](verifications/dim6/refinement_mixture99/PROOF.md).
+
+## Dimension 44 and small 6D follow-on
+
+The strict 44D upper is **0.000001842868599**, compared with the pinned indexed-table upper 0.0000019017703144. The exact known lower from [Chen, Hu, Li, Wang and Wu (2025), Dimension 44](https://arxiv.org/html/2505.02394v1) has center density 157^22 * 2^-22 * 5^(-43/2) * 11^-23, hence ordinary density (157*pi)^22 / (22! * 2^22 * 5^21 * sqrt(5) * 11^23), approximately 3.9244265335277118067e-8. This was checked against the primary construction and the indexed Cohn row. The outward upper decreases the pinned upper by **3.097204%** and the additive gap by **3.162464%**. The upper comparison retains the table freshness and no-worldwide-priority caveats.
+
+The current 6D follow-on upper is **0.409128533**, a small further gain over 0.409135399. Relative to the unchanged paper-reported 0.4102905 and E6 lower, the upper decrease is **0.283206%**, and the additive-gap decrease is **3.111610%**. Both Gaussian guard weights remain zero, and the external near-neighbor count dependencies remain unchanged. Earlier witnesses are preserved and replayed.
+
+## Dimension 7
+
+The strict upper is **0.320584772**, versus the printed value 0.32111475 in [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1). The standard E7 lattice lower is pi^3/105, approximately 0.29529787314571257310. The upper decreases **0.165043%**, and the additive gap decreases **2.052835%**. This is a comparison against a paper-reported decimal, not an independently reconstructed literature witness or exhaustive priority claim.
+
+The new count-enhanced cyclic certificate is independently audited over full domains. Its published near-neighbor count inputs remain external mathematical dependencies, not newly replayed spherical SDP certificates.
+
+## Guarded five-dimensional refinement
+
+The current strict 5D upper is **0.510129239**, versus the same paper-reported 0.5122645 and D5 lower pi^2/(15*sqrt(2)). It lowers the pinned upper by **0.416828%** and closes **4.542443%** of the additive gap. Earlier 5D proofs and their original outward bounds remain preserved.
+
+Only the guarded exact witness is certified. Its unguarded numerical checkpoint fails a far-domain condition and is not a valid bound. The exact positive-semidefinite kernel correction is explained and checked in the package; this is not a Gaussian sign repair. Published near-neighbor count inputs remain external dependencies.

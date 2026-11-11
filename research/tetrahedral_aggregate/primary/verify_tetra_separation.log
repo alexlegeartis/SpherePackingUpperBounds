@@ -1,0 +1,2 @@
+No affine slope exists: a >= 7034984040475208405061/65536000000000000000 but a <= 1191611909750310730113443859/15728334578000000000000000
+PASS: strict feasible-cone separation, conditional on the separately verified tetrahedron signs.

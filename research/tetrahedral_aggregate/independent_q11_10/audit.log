@@ -1,0 +1,1 @@
+{'pass': True, 'dimension': 22, 'q': '11/10', 'B_exact': '1271745209351204667/250000000000000', 'strict_upper': '5086.98083741', 'processed': 20314, 'leaves': 9954, 'depth': 22, 'exclusions': 0, 'monotonic_face_reductions': 407, 'seconds': 43.72300362586975, 'scope': 'Auxiliary 3T <= B E only, not a density bound'}

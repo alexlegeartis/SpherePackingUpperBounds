@@ -1,0 +1,16 @@
+{
+  "source_sha256": "4ca48c456c914770630100c4f3865967a5a6e039c7a29d78ebadaca2b77c5c55",
+  "dimension": 44,
+  "independent_eigenbasis_fourier": true,
+  "independent_orthogonality_PSD": true,
+  "origin_rank_one": true,
+  "mean_value_pair_pass": true,
+  "pair_processed": 33,
+  "pair_leaves": 17,
+  "pair_depth": 6,
+  "coupling_seconds": 0.6507577896118164,
+  "exact_rational_rounding": true,
+  "strict_upper": "0.000001842868599",
+  "density_interval": "[1.8428685980689728749847153538789270688874740498325860280633221295411415419001698155391739524361615350977790956266403697981038487072882265827373653111156e-6 +/- 1.46e-158]",
+  "scope": "Global radial roots and complete cyclic domains additionally replayed in complete_replay.log"
+}

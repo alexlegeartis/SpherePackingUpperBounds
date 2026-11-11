@@ -5,7 +5,7 @@ import hashlib,json,subprocess,sys
 if not __debug__:raise RuntimeError('Assertions must remain enabled')
 p=Path(__file__).resolve().parent;r=p.parents[2]
 row=next(x for x in json.loads((r/'RESULTS.json').read_text()) if x['dimension']==6)
-assert Fraction(row['strict_density_upper_bound'])==Fraction('0.409135399') and row['package']=='verifications/dim6/refinement_mixture99'
+assert Fraction(row['strict_density_upper_bound'])<=Fraction('0.409135399') and row['package'] in ['verifications/dim6/refinement_mixture99','verifications/dim6/refinement_patch5']
 for f,h in json.loads((p/'source_hashes.json').read_text()).items():
  assert hashlib.sha256((p/f).read_bytes()).hexdigest()==h,f
 pre=json.loads((p/'prerequisites.json').read_text())

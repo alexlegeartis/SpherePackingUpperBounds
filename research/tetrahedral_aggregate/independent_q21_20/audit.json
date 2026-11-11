@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "dimension": 22,
+  "q": "21/20",
+  "B_exact": "208821822550866169/62500000000000",
+  "strict_upper": "3341.14916082",
+  "processed": 6179,
+  "leaves": 3090,
+  "depth": 17,
+  "exclusions": 0,
+  "seconds": 11.02190899848938,
+  "scope": "Auxiliary 3T <= B E only, not a density bound"
+}

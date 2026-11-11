@@ -1,0 +1,8 @@
+{
+  "independent_radial.py": "1813c7b0325bcd2bfb394576359ad6d889ab7dcbb155f0e77e68ba3426434833",
+  "frozen_package/verify.py": "f20b07d04ea56cf2762faf1ae62cd259ccc84586262b493438c56680e442bdce",
+  "frozen_package/certificate.json": "4ca48c456c914770630100c4f3865967a5a6e039c7a29d78ebadaca2b77c5c55",
+  "frozen_package/continuum_three_point/cyclic_angular40_exact.json": "2515f35922ff1c78dcc913b7f98ebadf10c924b1c795deb9fce0c80aab0c0b7e",
+  "frozen_package/continuum_three_point/independent_cyclic40_angular.py": "6e17fb2cfa2866293e8748804057f1b552996067a342be3847d4f1b4c7de5570",
+  "frozen_package/continuum_three_point/independent_cyclic40_domain.py": "3379f348525063f908d207a7037f0af9260ed244a6a44b5dfc7a17bea12a21f6"
+}

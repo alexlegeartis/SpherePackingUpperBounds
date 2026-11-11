@@ -1,0 +1,48 @@
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+{
+  "scope": "Unverified until complete pair/far/cyclic checks pass",
+  "dimension": 5,
+  "guards": {
+    "gaussian_guard_family": "reciprocal_gaussians",
+    "dimension": 5,
+    "reciprocal_gaussian_guards": {
+      "c": "157/50",
+      "eta": "0",
+      "zeta": "0",
+      "physical_intervals": [],
+      "fourier_intervals": [],
+      "corrected_normalization": "19999999999999998358193/20000000000000000000000"
+    }
+  },
+  "raw_density": "[0.5101363794665822403402607563227410284214506904728658420977049062418714350397 +/- 5.67e-77]",
+  "saturated_density": "[0.5101292386566609905645356651355475179736476519821396988966199837323083554957 +/- 8.67e-77]",
+  "origin_slack": "96848086873371560888866606137168419965018066227456201057820003126811106182145005791589503288896788233358737073242741305538170910288316423632757334456988574876362872173815321/2230961461850582555218345181328625071849380809698148851008872987402919585571527358084264412626913797460960870731877537544406342487232001405000000000000000000000000000000000000000",
+  "raw_objective": "4265206798582598244227915454090755735615947103998092595199585729524870952927871272433606510770212195041147781/1375315356351835540999887513961487755212614453891593671295390548058892648934262274147027453250000000000000000",
+  "saturated_objective": "50306198179147408162348745710994836798005268754770511528938733900826670613802581624957167001477251/16221453876356295035058684774430004921770278860478711869093266879958168295084055298294054906500000"
+}
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]
+{"verified": true, "checked": 121, "max_depth": 11, "seconds": 0.09629607200622559, "failure": null, "source": "/tmp/guarded5_export_integrated/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.06562682537338345 0.05474102254184312
+{"verified": true, "checked": 2187, "passed": 746, "excluded": 348, "max_depth": 22, "seconds": 0.22132635116577148, "failure": null, "source": "/tmp/guarded5_export_integrated/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.12436866760253906
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.20024347305297852
+TRANSFORM 1 seconds 0.2913246154785156
+TRANSFORM 2 seconds 0.4180471897125244
+INITIAL (37, 37, 37) -1.471397640096776 0.0589298998087534
+{"verified": true, "checked": 57, "passed": 23, "excluded": 6, "max_depth": 9, "seconds": 1.6113569736480713, "failure": null, "source": "/tmp/guarded5_export_integrated/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 5, "verified": true, "strict_upper": "0.510129239", "density_enclosure": "[0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}
+{
+  "candidate_sha256": "79881d16bc8d837d13222c0d3c5ca6d47264e031e09cd46738275198d4da85b1",
+  "prerequisite_export_passed": true,
+  "complete_verification_passed": true,
+  "result": {
+    "dimension": 5,
+    "verified": true,
+    "strict_upper": "0.510129239",
+    "density_enclosure": "[0.5101292386566609905645356651355475179736476519821396988966199837323083554956 +/- 7.85e-77]",
+    "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."
+  }
+}

@@ -1,0 +1,14 @@
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]
+{"verified": true, "checked": 212, "max_depth": 11, "seconds": 0.2875351905822754, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim7_verification_package/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.19202519970767826 0.17295074143748657
+{"verified": true, "checked": 6487, "passed": 2021, "excluded": 1223, "max_depth": 35, "seconds": 0.8100979328155518, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim7_verification_package/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.18404674530029297
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.2912783622741699
+TRANSFORM 1 seconds 0.4408879280090332
+TRANSFORM 2 seconds 0.6048948764801025
+INITIAL (37, 37, 37) -0.4263326170842554 0.047499952978378314
+{"verified": true, "checked": 81, "passed": 39, "excluded": 2, "max_depth": 15, "seconds": 2.2203967571258545, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_structural_20261111/dim7_verification_package/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 7, "verified": true, "strict_upper": "0.320584772", "density_enclosure": "[0.3205847715830073938695391744713529466970446527646514319059435920441989479863 +/- 5.22e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}

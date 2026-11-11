@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "closed_interval_leaves": 2727,
+  "maxdepth": 15,
+  "thresholds_checked_with_smaller_allowance": [
+    "1001/1000",
+    "200401/200000",
+    "250753/250000",
+    "1004023/1000000",
+    "251259/250000"
+  ],
+  "scope": "Base pair passes; Gaussian guard is nonpositive for every r>=1"
+}
