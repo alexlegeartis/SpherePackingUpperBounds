@@ -32,6 +32,36 @@ rows=calculate(70)
 assert rows==calculate(100), 'Displayed digits must be precision-stable'
 lower_sources={25:'https://cohn.mit.edu/sphere-packing/',28:'https://cohn.mit.edu/sphere-packing/',32:'https://cohn.mit.edu/sphere-packing/',34:'https://cohn.mit.edu/sphere-packing/',36:'https://doi.org/10.1109/18.119683',38:'https://arxiv.org/html/2607.20359v4',39:'https://arxiv.org/html/2607.20359v4',40:'https://arxiv.org/html/2607.20359v4',41:'https://arxiv.org/html/2607.20359v4',42:'https://arxiv.org/html/2607.20359v4',43:'https://arxiv.org/html/2607.20359v4',7:'https://cohn.mit.edu/sphere-packing/',44:'https://arxiv.org/abs/2505.02394v1',6:'https://cohn.mit.edu/sphere-packing/',45:'https://arxiv.org/abs/2505.02394v1',46:'https://doi.org/10.1007/BF01232378',47:'https://arxiv.org/abs/2505.02394v1',17:'https://doi.org/10.4153/CJM-1964-065-1',18:'https://doi.org/10.1023/A:1008733715001',5:'https://cohn.mit.edu/sphere-packing/',4:'https://cohn.mit.edu/sphere-packing/',21:'https://arxiv.org/abs/2505.02394v1',19:'https://arxiv.org/abs/2505.02394v1',20:'https://arxiv.org/abs/2505.02394v1',48:'https://doi.org/10.4153/CJM-1971-081-3'}
 upper_source={25:"https://arxiv.org/abs/2006.02560v2",28:"https://arxiv.org/abs/2006.02560v2",32:"https://arxiv.org/abs/2006.02560v2",34:"https://arxiv.org/abs/2006.02560v2",36:"https://arxiv.org/abs/2006.02560v2",38:"https://arxiv.org/abs/2006.02560v2",39:"https://arxiv.org/abs/2006.02560v2",40:"https://arxiv.org/abs/2006.02560v2",41:'https://arxiv.org/abs/2006.02560v2',42:'https://arxiv.org/abs/2006.02560v2',43:'https://arxiv.org/abs/2006.02560v2',7:'https://arxiv.org/html/2512.04829v2#S3.T1',44:'https://arxiv.org/abs/2006.02560v2',6:'https://arxiv.org/html/2512.04829v2#S3.T1',45:'https://arxiv.org/abs/2006.02560v2',46:'https://arxiv.org/abs/2006.02560v2',47:'https://arxiv.org/abs/2006.02560v2',17:'https://arxiv.org/abs/2006.02560v2',18:'https://arxiv.org/abs/2006.02560v2',5:'https://arxiv.org/html/2512.04829v2#S3.T1',4:'https://arxiv.org/html/2512.04829v2#S3.T1',19:'https://arxiv.org/abs/2006.02560v2',20:'https://arxiv.org/abs/2006.02560v2',21:'https://arxiv.org/abs/2006.02560v2',48:'https://arxiv.org/abs/2006.02560v2'}
+# Central mathematical mechanisms, not just verification-package labels.
+# Shared labels deliberately identify the same method across dimensions.
+proof_ideas = {
+ 4: 'Neighbor-count cuts + Schur origin tightening',
+ 5: 'Spherical lens caps + long-edge PSD accounting',
+ 6: 'Neighbor-count cuts + Schur-saturated cyclic kernel',
+ 7: 'Neighbor-count cuts + Schur-saturated cyclic kernel',
+ 17: 'Mixed-Gaussian tail repair + cyclic origin saturation',
+ 18: 'Solid-harmonic cyclic kernel + Schur origin saturation',
+ 19: 'Solid-harmonic cyclic kernel + Schur origin saturation',
+ 20: 'Solid-harmonic cyclic kernel + Schur origin saturation',
+ 21: 'Annular three-point kernel + Schur origin tightening',
+ 25: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 28: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 32: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 34: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 36: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 38: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 39: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 40: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 41: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 42: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 43: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 44: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 45: 'Dimension-specific angular kernel + Gaussian radial optimization',
+ 46: 'New radial Fourier pair + inherited cyclic kernel',
+ 47: '48D restriction + angular-origin saturation',
+ 48: 'Gaussian cyclic kernel + coupled radial optimization',
+}
+assert set(proof_ideas) == {row["dimension"] for row in rows}
 header='| Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |\n| --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):
  return '≈' + format(D(value), '.5g')
@@ -39,7 +69,7 @@ def display_percent(value):
  return format(D(value), '.2f') + '%'
 assert display_density('0.006979502') == '≈0.0069795'
 assert display_percent('4.755298') == '4.76%'
-table=header+''.join(f"| {x['dimension']} | [{display_density(x['known_lower_density'])}]({lower_sources[x['dimension']]}) | [{display_density(x['previous_upper_density'])}]({upper_source[x['dimension']]}) | {display_density(x['strict_density_upper_bound'])} | {display_percent(x['upper_decrease_percent'])} | {display_percent(x['gap_decrease_percent'])} | [{x['dimension']}D proof]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
+table=header+''.join(f"| {x['dimension']} | [{display_density(x['known_lower_density'])}]({lower_sources[x['dimension']]}) | [{display_density(x['previous_upper_density'])}]({upper_source[x['dimension']]}) | {display_density(x['strict_density_upper_bound'])} | {display_percent(x['upper_decrease_percent'])} | {display_percent(x['gap_decrease_percent'])} | [{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
 display_note='Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D, 5D, 6D and 7D baselines are pinned paper-reported decimal values, not independently replayed here. '
 text='# Density bounds and pinned comparisons\n\n'+table+'\n'+display_note+'See [sources and conventions](COMPARISONS.md).\n'
 outputs={'RESULTS.json':json.dumps(rows,indent=2)+'\n','RESULTS.md':text}
