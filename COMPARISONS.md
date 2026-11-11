@@ -155,3 +155,16 @@ Strict upper 0.000003677844262 is compared with pinned 0.0000038780970907. The n
 ## New 41D cyclic bound
 
 Strict upper 0.000005243057366 is compared with pinned 0.0000055306464395. The newer lower from arXiv:2607.20359v4 is 2^21*pi^20*3^17*21!/42!, approximately 8.6368303579508264e-8. Upper reduction 5.199918%; additive-gap reduction 5.282410%. Both comparisons use full decimals, not displayed approximations.
+
+## Certified midrange continuation
+
+The new25,28,32,34,36,38,39,40D entries use the pinned Cohn indexed upper table citing arXiv:2006.02560v2. Lower constructions are cited individually below; these are published inputs, not independently reconstructed packing constructions. Gap percentages use the full formulas and outward upper thresholds.
+
+- 25D: L = 2^26*pi^12*13!/(26!*sqrt(2)); source https://cohn.mit.edu/sphere-packing/. New strict upper 0.001375214329.
+- 28D: L = pi^14/14!; source https://cohn.mit.edu/sphere-packing/. New strict upper 0.0004827696028.
+- 32D: L = pi^16*3^16/(16!*2^24); source https://cohn.mit.edu/sphere-packing/. New strict upper 0.0001249158969.
+- 34D: L = pi^17*3^16*sqrt(3)/(17!*2^25); source https://cohn.mit.edu/sphere-packing/. New strict upper 0.00006394047941.
+- 36D: L = 2^18*pi^18/(3^10*18!); source https://doi.org/10.1109/18.119683. New strict upper 0.00003121945691.
+- 38D: L = pi^19*3^15*sqrt(3)/(19!*2^19*5); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001511771069.
+- 39D: L = 2^20*pi^19*3^16*20!/(sqrt(5)*40!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001064953048.
+- 40D: L = pi^20*3^16/(2^20*20!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.000007516663425.

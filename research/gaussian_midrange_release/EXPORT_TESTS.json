@@ -1,0 +1,58 @@
+[
+  {
+    "dimension": 25,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 28,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 32,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 34,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 36,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 38,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 39,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 40,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  }
+]

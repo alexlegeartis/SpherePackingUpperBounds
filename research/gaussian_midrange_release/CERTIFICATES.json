@@ -1,0 +1,90 @@
+[
+  {
+    "dimension": 25,
+    "strict_upper": "0.001375214329",
+    "proof": "verifications/dim25",
+    "discovery": "research/dim25_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "b3b25bedd1e755ad3c798511d7da963a4ddf7e8b1168ebbd637031246a8f575f",
+    "pinned_comparator": "0.0013841907222857",
+    "lower_formula": "2^26*pi^12*13!/(26!*sqrt(2))",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/"
+  },
+  {
+    "dimension": 28,
+    "strict_upper": "0.0004827696028",
+    "proof": "verifications/dim28",
+    "discovery": "research/dim28_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "bf7d3cd1b83f6f1f3a07a29125b113f1ba7069fa36f8c08846fd361d4f9d0a39",
+    "pinned_comparator": "0.0005052542161057",
+    "lower_formula": "pi^14/14!",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/"
+  },
+  {
+    "dimension": 32,
+    "strict_upper": "0.0001249158969",
+    "proof": "verifications/dim32",
+    "discovery": "research/dim32_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "01ad27c8fe4236c84c18557a4fd2fb228d17df7314c7c9e06a403095b4fdb43f",
+    "pinned_comparator": "0.0001288432887595",
+    "lower_formula": "pi^16*3^16/(16!*2^24)",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/"
+  },
+  {
+    "dimension": 34,
+    "strict_upper": "0.00006394047941",
+    "proof": "verifications/dim34",
+    "discovery": "research/dim34_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "dc4e3eea351c80ea399eb54d520742c02af9ea6d36cea2f470880a83cc19ac9b",
+    "pinned_comparator": "6.45221967438e-05",
+    "lower_formula": "pi^17*3^16*sqrt(3)/(17!*2^25)",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/"
+  },
+  {
+    "dimension": 36,
+    "strict_upper": "0.00003121945691",
+    "proof": "verifications/dim36",
+    "discovery": "research/dim36_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "6a7184461d0371e6b8090ce82d03489ea1df3218f2fb9cf89fcb2ca95468a1a7",
+    "pinned_comparator": "0.0000321530553313",
+    "lower_formula": "2^18*pi^18/(3^10*18!)",
+    "lower_source": "https://doi.org/10.1109/18.119683"
+  },
+  {
+    "dimension": 38,
+    "strict_upper": "0.00001511771069",
+    "proof": "verifications/dim38",
+    "discovery": "research/dim38_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "dda160b71ab713fd814e369dd666b70c4ba55aa57139355990bb0f463f662b8e",
+    "pinned_comparator": "1.59506499105e-05",
+    "lower_formula": "pi^19*3^15*sqrt(3)/(19!*2^19*5)",
+    "lower_source": "https://arxiv.org/html/2607.20359v4"
+  },
+  {
+    "dimension": 39,
+    "strict_upper": "0.00001064953048",
+    "proof": "verifications/dim39",
+    "discovery": "research/dim39_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "a37f1b0dc1ff32f97eac45e8f72089b3a6988ffb8ad000dde5b38111ba9573e5",
+    "pinned_comparator": "1.12168687009e-05",
+    "lower_formula": "2^20*pi^19*3^16*20!/(sqrt(5)*40!)",
+    "lower_source": "https://arxiv.org/html/2607.20359v4"
+  },
+  {
+    "dimension": 40,
+    "strict_upper": "0.000007516663425",
+    "proof": "verifications/dim40",
+    "discovery": "research/dim40_gaussian_discovery",
+    "independent_audit": "PASS",
+    "source_certificate_sha256": "c41e1a438ea21d0ace872b36135718b03b316ccad7d79bf54cb92115a3d415c2",
+    "pinned_comparator": "0.0000078801051697",
+    "lower_formula": "pi^20*3^16/(2^20*20!)",
+    "lower_source": "https://arxiv.org/html/2607.20359v4"
+  }
+]

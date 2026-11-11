@@ -1,0 +1,6 @@
+{
+  "certificate.json": "01ad27c8fe4236c84c18557a4fd2fb228d17df7314c7c9e06a403095b4fdb43f",
+  "continuum_three_point/cyclic_angular40_exact.json": "526b0a1e3bb819177ae0c4960dd537caf17f42347a89635c2b3caa48d96066fb",
+  "independent/certificate.json": "01ad27c8fe4236c84c18557a4fd2fb228d17df7314c7c9e06a403095b4fdb43f",
+  "independent/angular.json": "526b0a1e3bb819177ae0c4960dd537caf17f42347a89635c2b3caa48d96066fb"
+}

@@ -1,0 +1,13 @@
+{
+  "dimension": 34,
+  "upper_old": "6.45221967438e-05",
+  "upper_new": "0.00006394047941",
+  "lower_formula": "pi^17*3^16*sqrt(3)/(17!*2^25)",
+  "lower_density": "[1.766973889154063266233146292413824721789458545713814925373042404669197424829e-6 +/- 3.98e-82]",
+  "lower_source": "https://cohn.mit.edu/sphere-packing/",
+  "upper_decrease_percent": "[0.90157707449087709280207416334399463565587243805468246268194567117909021226 +/- 3.59e-75]",
+  "gap_decrease_percent": "[0.92696242215150370121113881907181804529467370584873162014465260648978917792 +/- 5.21e-75]",
+  "status": "Published lower and pinned upper; no exhaustive worldwide priority claim",
+  "construction_reference": "https://doi.org/10.1007/978-1-4757-6568-7",
+  "construction_note": "Elkies construction, cited by Cohn via Sphere Packings, Lattices and Groups, third edition,p.xx; construction not independently reconstructed."
+}

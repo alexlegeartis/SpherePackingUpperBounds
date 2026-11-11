@@ -1,0 +1,85 @@
+{
+  "commit": "52fa554550baeda541745ba1cc1ee46d96755858",
+  "tree": "2ca5f8ee8d43de9e1c8f112ea61c0165e51af557",
+  "proof_subtrees": [
+    {
+      "path": "verifications/cyclic_origin_slack",
+      "git_tree_sha": "bb3ec4a1195dc3bd65a5d01d32a69745700dec4a"
+    },
+    {
+      "path": "verifications/dim17",
+      "git_tree_sha": "c7f01a9d0f95b484319ae4066a3ddc6aad1d503a"
+    },
+    {
+      "path": "verifications/dim18",
+      "git_tree_sha": "b71ba6bb16802b6658fa652a6f96d83de90f5dac"
+    },
+    {
+      "path": "verifications/dim19",
+      "git_tree_sha": "74b780e7bdd8de54abca7a44efdbe9b022e1b233"
+    },
+    {
+      "path": "verifications/dim20",
+      "git_tree_sha": "5b6eccf428b616d3e84e1c3b139bdfda481c5c11"
+    },
+    {
+      "path": "verifications/dim21",
+      "git_tree_sha": "5332cb3865330f8b5b95dd40319c8aa8ef0a4442"
+    },
+    {
+      "path": "verifications/dim4",
+      "git_tree_sha": "5d573f9bb7355bfcb91df44011fc102a7b2bfdef"
+    },
+    {
+      "path": "verifications/dim41",
+      "git_tree_sha": "2573049bf11fcf977bc08fd2e23cab8c516c82a4"
+    },
+    {
+      "path": "verifications/dim42",
+      "git_tree_sha": "7a45111fd8202fc7a20bf989c242416527ef4525"
+    },
+    {
+      "path": "verifications/dim43",
+      "git_tree_sha": "31c02195b8394b25ee7cea62b119a2037ff3ca26"
+    },
+    {
+      "path": "verifications/dim44",
+      "git_tree_sha": "ffd980af8e9bac79dfd97581185e19b0a75bcae6"
+    },
+    {
+      "path": "verifications/dim45",
+      "git_tree_sha": "fb8712b51f65d646dc3d0cbf0d5d02c49c57840b"
+    },
+    {
+      "path": "verifications/dim46",
+      "git_tree_sha": "2aea3c7fbde4a1af2a3d6089821e611753eb46c4"
+    },
+    {
+      "path": "verifications/dim47",
+      "git_tree_sha": "c507f229bcc393779babeed52a96fc5730d86818"
+    },
+    {
+      "path": "verifications/dim48",
+      "git_tree_sha": "16a4063e2dad5d26e09ad1c8c5f5bdf323dc01a9"
+    },
+    {
+      "path": "verifications/dim5",
+      "git_tree_sha": "cc401681e00a093cbd8a9491b8e1839250da9d93"
+    },
+    {
+      "path": "verifications/dim6",
+      "git_tree_sha": "1107babf2dc70cc03e56dfafabf0e2981d1b4b1b"
+    },
+    {
+      "path": "verifications/dim7",
+      "git_tree_sha": "6aa541d3869798880548a110dccd64ea08fb38b5"
+    },
+    {
+      "path": "verifications/origin_slack",
+      "git_tree_sha": "d3a33434bfc6a8d4245e259e91ede91075f038f4"
+    }
+  ],
+  "requirements_blob": "e4ee3b447e9c752d03a9301c852a75dc1754577d",
+  "prior_release_coverage_file": "verifications/dim43/RELEASE_CHECKS.json",
+  "prior_release_coverage_blob": "ef7c805a9ebf0f4a2b2e33a3f2ce45cf7d8e7b34"
+}

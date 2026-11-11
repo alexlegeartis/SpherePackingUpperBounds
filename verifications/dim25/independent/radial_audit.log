@@ -1,0 +1,5 @@
+Independent exact Sturm start Fourier
+Independent exact Sturm PASS Fourier 55 55
+Independent exact Sturm start physical
+Independent exact Sturm PASS physical 55 55
+{'pass': True, 'dimension': 25, 'Fourier_identity': True, 'global_exact_Sturm_signs': True, 'Gegenbauer_PSD': True, 'origin_Gram_PSD': True, 'pair_leaves': 86, 'pair_depth': 11, 'density_interval': '[0.00137521432814808996100344954976180633388851247994692205214716711635201435671148836202388867415399520007390772656622984366130374396852925236014858959750410 +/- 3.95e-156]', 'strict_upper': '1375214329/1000000000000', 'strict_upper_decimal': '0.001375214329', 'inherited_dependency': 'New25D angular and global cyclic verification remains required'}

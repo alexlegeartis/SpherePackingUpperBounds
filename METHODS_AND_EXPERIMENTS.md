@@ -193,3 +193,9 @@ The angular polynomial has nonnegative normalized Gegenbauer coefficients, a cer
 The first sampled candidates were not valid certificates. Exact angular separation and root-guided radial cuts were essential. Discovery scripts and frozen checkpoints are separate from the self-contained proof packages at [41D discovery](research/dim41_gaussian_discovery/), [42D discovery](research/dim42_gaussian_discovery/) and [43D discovery](research/dim43_gaussian_discovery/). Their numerical feasibility is never used as proof.
 
 Gap comparisons now use the newer lower constructions in arXiv:2607.20359v4, rather than the older indexed table. See [comparison conventions](COMPARISONS.md) for the formulas and pinned upper references. A finite successful continuation does not establish a universally improving method in all dimensions.
+
+## Further midrange continuation
+
+The independently audited 25,28,32,34,36,38,39,40D certificates use the same Gaussian cyclic mechanism, but each has freshly optimized angular and radial data and complete dimension-specific proofs. The frozen release inventory is [here](research/gaussian_midrange_release/CERTIFICATES.json). Each discovery companion exactly reconstructs the frozen rational certificate; no fresh optimizer replay is claimed. Other numerical or primary-only candidates are not registered.
+
+`python run_all.py --jobs 4` runs up to four different dimension chains concurrently. Within a dimension all proofs stay sequential; shared final origin checks wait until every chain succeeds. The default remains serial.

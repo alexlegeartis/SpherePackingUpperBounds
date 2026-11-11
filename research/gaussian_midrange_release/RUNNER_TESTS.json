@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "same_full_command_inventory": true,
+  "serial_call_count": 46,
+  "parallel_peak": 4,
+  "same_dimension_overlap": false,
+  "failure_prevents_final_shared_checks": true,
+  "note": "Runner behavior test with mocked subprocesses; not a mathematical proof replay."
+}

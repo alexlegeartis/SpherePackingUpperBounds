@@ -1,0 +1,11 @@
+{
+  "dimension": 38,
+  "upper_old": "1.59506499105e-05",
+  "upper_new": "0.00001511771069",
+  "lower_formula": "pi^19*3^15*sqrt(3)/(19!*2^19*5)",
+  "lower_density": "[2.175667308912894917825935149131191030630532306351231390774169092636423488393e-7 +/- 7.59e-83]",
+  "lower_source": "https://arxiv.org/html/2607.20359v4",
+  "upper_decrease_percent": "[5.22197669169387541614930110969536973839533759353899149073797860407250394589 +/- 2.78e-75]",
+  "gap_decrease_percent": "[5.29418939054204890284105119776337629840521079690676454444035271434410225974 +/- 4.48e-75]",
+  "status": "Published lower and pinned upper; no exhaustive worldwide priority claim"
+}

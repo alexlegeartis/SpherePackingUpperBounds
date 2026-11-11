@@ -1,0 +1,12 @@
+{
+  "dimension": 25,
+  "upper_old": "0.0013841907222857",
+  "upper_new": "0.001375214329",
+  "lower_formula": "2^26*pi^12*13!/(26!*sqrt(2))",
+  "lower_density": "[0.000677212009773180511347147326915474877665013763674524361575316471428953843934 +/- 1.12e-79]",
+  "lower_source": "https://cohn.mit.edu/sphere-packing/",
+  "upper_decrease_percent": "[0.648493964103254027197344792222728532970159915672679470605724429388238978908 +/- 8.98e-76]",
+  "gap_decrease_percent": "[1.26968367318995366449705665411097256873540357598367501353007970797300846795 +/- 2.84e-75]",
+  "status": "Published lower and pinned upper; no exhaustive worldwide priority claim",
+  "construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07"
+}

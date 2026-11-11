@@ -1,0 +1,31 @@
+{
+  "release_gates": "PASS using bound completed proof evidence and changed-integration checks",
+  "dimensions": [
+    25,
+    28,
+    32,
+    34,
+    36,
+    38,
+    39,
+    40
+  ],
+  "fresh_aggregate": {
+    "status": "INTERRUPTED; NOT PASSED",
+    "last_observed_scope": "Primary and independent angular checks for25/28/32/34 completed; log stopped after the four independent Fourier-Sturm starts. No final exit status or aggregate PASS was obtained.",
+    "log_sha256": "a183f1245630e86d3478870566fa1d26dd8d8f3fd92bfed3d3ecc5b09311a8da"
+  },
+  "completed_mathematical_evidence": {
+    "new_dimensions": "All eight full primary and independent exact/interval audits previously passed. AUDIT_EQUIVALENCE.json binds the unchanged scripts, exact inputs, requirements and complete results to packaged bytes. No incomplete audit is counted as a pass.",
+    "historical": "The full prior regression plus added41/42 chains passed for52fa554. HISTORICAL_BINDING.json identifies preserved old proof subtrees and dependencies; prior registration rows are unchanged."
+  },
+  "fresh_changed_integration_checks": [
+    "All eight portable exact exports reproduced both frozen JSON witnesses, from an unrelated working directory.",
+    "All new registration and source-hash gates passed; incorrect bounds/packages/hashes were rejected.",
+    "New wrappers and proof entrypoints reject optimized mode.",
+    "Parallel/serial runner command inventories agree, dimension chains never overlap internally, and a simulated failure prevents final shared checks. These runner tests mock proof subprocesses and are not mathematical replays.",
+    "70/100-digit comparison agreement and exact rational percentage/gap identities passed."
+  ],
+  "dependency_scope": "Pinned requirement files are byte-identical and current python-flint0.9.0 matches the completed audit requirement. Original runtime binary hashes were not recorded, so none are claimed.",
+  "priority_scope": "Pinned published upper comparisons, using newer lower constructions where cited; no exhaustive worldwide priority assertion."
+}
