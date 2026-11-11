@@ -1,0 +1,88 @@
+Exact rational PSD: PASS
+Repaired global Fourier positivity: PASS; origin loss [4.656857088000000000000000000000000000000000000000000000000000000000000000000e-8 +/- 7.66e-85]
+Tail repair interval 2113/50 423/10 PASS; upper [15.0658546699334332251383023699599168925734234957665596256180 +/- 3.54e-59] allowance [26.9299126190093252205798419044707777298363856077335077915958144963564117232 +/- 3.27e-74]
+Tail repair interval 6109/100 1223/20 PASS; upper [52662470.3980869054604371197194832504138110170454030049312737016 +/- 9.15e-56] allowance [55974382.9045992908647929822395107605631324566856209910198826275034186387676 +/- 5.71e-68]
+Repaired entire physical tail: PASS
+Exact Fourier identity and repaired global signs: PASS
+Global solid-harmonic pair inequality: PASS 42 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.6689364910125732
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.2341225147247314
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.923018455505371
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.6546030044555664
+CYCLIC 0 0 4 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 4} seconds 3.4194278717041016
+CYCLIC 0 0 5 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 4.236364364624023
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.824673414230347
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.672597169876099
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.837655782699585
+CYCLIC 0 1 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.941802024841309
+CYCLIC 0 1 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.947023630142212
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.74410104751587
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.787854671478271
+CYCLIC 0 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 12.022547245025635
+CYCLIC 0 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 13.325537204742432
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 14.144099235534668
+CYCLIC 0 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 15.24021291732788
+CYCLIC 0 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 16.647138357162476
+CYCLIC 0 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 17.553513526916504
+CYCLIC 0 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 18.856323957443237
+CYCLIC 0 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 19.77034831047058
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 20.161738395690918
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 20.664446592330933
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 21.290632963180542
+CYCLIC 1 1 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 21.908302783966064
+CYCLIC 1 1 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 22.550840616226196
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 23.076151847839355
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 23.816392421722412
+CYCLIC 1 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 24.73275876045227
+CYCLIC 1 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 25.682162284851074
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 26.38479208946228
+CYCLIC 1 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 27.34402632713318
+CYCLIC 1 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 28.513000011444092
+CYCLIC 1 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 29.23418688774109
+CYCLIC 1 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 30.271151781082153
+CYCLIC 1 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 31.117225170135498
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 31.548603296279907
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 32.1376748085022
+CYCLIC 2 2 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 32.85133171081543
+CYCLIC 2 2 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 33.58617544174194
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 34.14464855194092
+CYCLIC 2 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 34.98935341835022
+CYCLIC 2 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 35.97806406021118
+CYCLIC 2 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 36.70987844467163
+CYCLIC 2 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 37.76105713844299
+CYCLIC 2 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 38.61102867126465
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 39.04778218269348
+CYCLIC 3 3 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 39.63693404197693
+CYCLIC 3 3 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 40.411782026290894
+CYCLIC 3 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 41.013592004776
+CYCLIC 3 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 42.019110441207886
+CYCLIC 3 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 42.93189764022827
+CYCLIC 4 4 4 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 43.39199423789978
+CYCLIC 4 4 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 44.04956364631653
+CYCLIC 4 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 44.75955319404602
+CYCLIC 5 5 5 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 45.29215431213379
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 31, 'passed': 15, 'excluded': 1, 'depth': 8} seconds 45.62130045890808
+FAR 0 1 {'checked': 11, 'passed': 5, 'excluded': 1, 'depth': 4} seconds 45.97881007194519
+FAR 0 2 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 5} seconds 46.40542483329773
+FAR 0 3 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 6} seconds 46.849241495132446
+FAR 0 4 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 5} seconds 47.2962806224823
+FAR 0 5 {'checked': 15, 'passed': 8, 'excluded': 0, 'depth': 4} seconds 47.96180081367493
+FAR 1 1 {'checked': 11, 'passed': 5, 'excluded': 1, 'depth': 4} seconds 48.27464008331299
+FAR 1 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 48.692965507507324
+FAR 1 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 49.12251591682434
+FAR 1 4 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 49.55526518821716
+FAR 1 5 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 50.00770378112793
+FAR 2 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 50.394307374954224
+FAR 2 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 50.90901327133179
+FAR 2 4 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 51.397658586502075
+FAR 2 5 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 51.85350704193115
+FAR 3 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 52.22890496253967
+FAR 3 4 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 52.70359969139099
+FAR 3 5 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 53.19301795959473
+FAR 4 4 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 53.57950973510742
+FAR 4 5 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 54.11285161972046
+FAR 5 5 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 54.61885666847229
+Entire far domain: PASS
+Density enclosure: [0.01825091405434677552501772408911594661720864933457687712605626978655699664777 +/- 5.68e-78]
+PASS: complete slow-Gaussian-repaired solid-harmonic cyclic certificate.

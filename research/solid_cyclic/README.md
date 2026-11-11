@@ -51,3 +51,9 @@ search_balanced.py tests a diagonal congruence of the same solid basis for
 conditioning at larger supports. Its outputs remain unverified unless separately
 certified. The .venv directory is an execution dependency cache and must not be
 included in a source archive or publication.
+
+## Mixed-Gaussian repaired 17D follow-up
+
+The registered repaired and origin-saturated 17D bound is <0.018204096; see ../../verifications/dim17/refinement_repaired/. The retained PD source certificate17_repaired.json first proves <0.018250915. It requires verify_repaired.py and slow_gaussian.py, not the polynomial-only verify.py. The independent registered verifier separately derives singular Schur saturation without editing the source matrix. The stricter 18D-20D saturated results are in ../../verifications/cyclic_origin_slack/.
+
+The repaired source JSON retains historical discovery-status metadata. Current completed audit and the separate saturated certificate are recorded in the registered proof package; the source mathematical data is unchanged.

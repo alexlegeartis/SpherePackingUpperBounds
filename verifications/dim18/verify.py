@@ -7,7 +7,7 @@ assert hashlib.sha256((p/'certificate.json').read_bytes()).hexdigest()=='286d466
 r=next(r for r in json.loads((p.parent.parent/'RESULTS.json').read_text()) if r['dimension']==18)
 from fractions import Fraction
 assert Fraction(r['strict_density_upper_bound']) <= Fraction('0.013408931')
-assert r['package'] in ['verifications/dim18','verifications/dim18/refinement_cyclic']
+assert r['package'] in ['verifications/dim18','verifications/dim18/refinement_cyclic','verifications/cyclic_origin_slack']
 subprocess.run([sys.executable,str(p/'run_certificate.py'),str(p/'certificate.json')],check=True)
 subprocess.run([sys.executable,str(p/'independent_verify.py')],check=True)
 print('PASS: both 18D verification paths')

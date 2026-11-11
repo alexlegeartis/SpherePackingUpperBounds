@@ -1,0 +1,4 @@
+PASS 18D: exact Schur PSD factorization and rational Machin density <0.013224473
+PASS 19D: exact Schur PSD factorization and rational Machin density <0.009521000
+PASS 20D: exact Schur PSD factorization and rational Machin density <0.006936042
+PASS all three independent rational saturation checks

@@ -55,7 +55,7 @@ for n in [4,5,19,20,21]:
  assert density<ar(F(sharp))
  assert json.loads((P/'certified_bounds.json').read_text())[str(n)]==sharp
  assert F(registry[n]['strict_density_upper_bound']) <= F(sharp)
- assert registry[n]['package'] in ['verifications/origin_slack',f'verifications/dim{n}/refinement_cyclic']
+ assert registry[n]['package'] in ['verifications/origin_slack',f'verifications/dim{n}/refinement_cyclic','verifications/cyclic_origin_slack']
  assert decrease>ar(F(record['density_decrease_lower_exact']))
  item={'dimension':n,'density_interval':str(density),'decrease_interval':str(decrease),'producer_upper_verified':record['conditional_outward_upper'],'sharper_upper_verified':sharp};out.append(item);print(json.dumps(item),flush=True)
 (P/'independent_all_results.json').write_text(json.dumps(out,indent=2)+'\n')
