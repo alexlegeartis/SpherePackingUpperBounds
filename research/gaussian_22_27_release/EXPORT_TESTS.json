@@ -1,0 +1,16 @@
+[
+  {
+    "dimension": 26,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 27,
+    "deterministic_export_replay": "PASS",
+    "export_inputs_match_registered_witness": true,
+    "unrelated_working_directory": true,
+    "fresh_optimizer_run": false
+  }
+]

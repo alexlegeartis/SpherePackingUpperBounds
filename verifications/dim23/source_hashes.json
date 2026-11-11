@@ -1,0 +1,10 @@
+{
+  "certificate.json": "4aa8ca9cdaf8542ed1ca1c523c21a5836cf06349abedb95bd285c9e4484e0217",
+  "continuum_three_point/cyclic_angular40_exact.json": "0af8e76e0d89a7d0b8e448cacfa1a2fa46cca681f07f63c3661aeb567a50b9cb",
+  "../dim22_23_independent/verify_all.py": "f8d08bab0c3fab205dd9a7689fe07a5982d1445d0f613bfb325820596298bee7",
+  "../dim22_23_independent/verify_angular.py": "b5c1bfa674fa8c06fcb393c7d9e3845de89c157df5eece51de37b65989a19d91",
+  "../dim22_23_independent/verify_radial.py": "e5da452b0a669394e392eecbef61251b2d63e8f4230af0a2921c47e4f804b87d",
+  "../dim22_23_independent/certificate23.json": "4aa8ca9cdaf8542ed1ca1c523c21a5836cf06349abedb95bd285c9e4484e0217",
+  "../dim22_23_independent/angular23.json": "0af8e76e0d89a7d0b8e448cacfa1a2fa46cca681f07f63c3661aeb567a50b9cb",
+  "../dim22_23_independent/comparators23.json": "a35ef127e9e48464ac367b8f43badb39ac9494c53990796813fd8b38c21c5df3"
+}

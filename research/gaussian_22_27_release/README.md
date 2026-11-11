@@ -1,0 +1,11 @@
+# Release verification: 22D, 23D, 26D and 27D
+
+This release adds four Gaussian cyclic density certificates and their discovery code. All four primary proof chains passed freshly in the staged copy. The complete independent 22/23 audit and independent 26 and 27 chains also passed freshly; see FRESH_REPLAY_RESULTS.json and the seven logs. The proof interpreter used python-flint 0.9.0. No optimizer result substitutes for a proof.
+
+The 22/23 independent audit independently reconstructs Fourier and harmonic identities, uses a different triangle parameterization and Taylor pair enclosures, but shares the certified FLINT root-isolation backend with the primary. Its exploratory rational Sturm computations were not completed and are not claimed as passed. The 26/27 independent audits completed rational Sturm global-sign checks.
+
+Historical proof files are unchanged and their completed audits are reused. This release does **not** claim a fresh full historical aggregate. In particular, the prior eight-dimension interrupted aggregate remains **NOT PASSED**; its explicitly hash-bound completed audits and historical regression remain documented in ../gaussian_midrange_release/. HISTORICAL_FILES.json records local equality; publication additionally checks that every remote file outside the explicit additive release and root-document/runner allowlist is preserved.
+
+The changed comparison generator passes 70/100-digit agreement and exact rational percentage/gap identities. test_registration.py checks actual registry and hash gates, expected subprocess commands and malformed-bound/package/hash rejection with mocked proof subprocesses. test_parallel_runner.py checks serial/parallel command equivalence, ordering and failure propagation with mocked subprocesses. These tests are integration checks, not mathematical replays. Descriptive proof-idea links and all prior numerical rows are preserved.
+
+Deterministic export replays reconstruct frozen proof inputs. For 26/27 no fresh numerical optimizer run is claimed. The separate 22/23 companion records fresh bounded searches that reproduced all four exact inputs, as well as deterministic frozen export replays. Known lower constructions and pinned upper comparisons are sourced externally, not independently reconstructed packing configurations or exhaustive worldwide-priority assertions.

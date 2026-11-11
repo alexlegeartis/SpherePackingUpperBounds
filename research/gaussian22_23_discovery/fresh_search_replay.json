@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "rows": [
+    {
+      "dimension": 22,
+      "pass": true,
+      "radial_solves": 7,
+      "fresh_inputs_no_archived_checkpoints": true,
+      "exports": {
+        "dim22/cyclic_angular40_exact.json": {
+          "sha256": "1a5d8dd03dc10dfbb47535e01dcff8dac2f8a0e896b14f62185157a14b0caa9d",
+          "matches_frozen": true
+        },
+        "dim22/radial_scaled22_degree31_r2p75_certificate.json": {
+          "sha256": "1f8cd14dfeb4b1a09ffe14c2216cd5bbc2f374f8120ead4ea515eaf02ba85502",
+          "matches_frozen": true
+        }
+      }
+    },
+    {
+      "dimension": 23,
+      "pass": true,
+      "radial_solves": 7,
+      "fresh_inputs_no_archived_checkpoints": true,
+      "exports": {
+        "dim23/cyclic_angular40_exact.json": {
+          "sha256": "0af8e76e0d89a7d0b8e448cacfa1a2fa46cca681f07f63c3661aeb567a50b9cb",
+          "matches_frozen": true
+        },
+        "dim23/radial_scaled23_degree31_r2p875_certificate.json": {
+          "sha256": "4aa8ca9cdaf8542ed1ca1c523c21a5836cf06349abedb95bd285c9e4484e0217",
+          "matches_frozen": true
+        }
+      }
+    }
+  ],
+  "scope": "Fresh bounded searches passed all checks. Byte comparisons recorded, not presumed portable across optimizer versions."
+}

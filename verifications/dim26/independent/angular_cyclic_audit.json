@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "dimension": 26,
+  "angular_Sturm_signs": true,
+  "compact_triangles_passed": 3139,
+  "exact_sorting_exclusions": 338,
+  "max_depth": 15,
+  "analytic_tail_exponential_bound": true,
+  "scale_lemma_requires_single_root_verified": true
+}

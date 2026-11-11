@@ -1,0 +1,22 @@
+[
+  {
+    "dimension": 22,
+    "pass": true,
+    "scope": "Registry/hash rejection and exact subprocess invocation; proof subprocesses mocked."
+  },
+  {
+    "dimension": 23,
+    "pass": true,
+    "scope": "Registry/hash rejection and exact subprocess invocation; proof subprocesses mocked."
+  },
+  {
+    "dimension": 26,
+    "pass": true,
+    "scope": "Registry/hash rejection and exact subprocess invocation; proof subprocesses mocked."
+  },
+  {
+    "dimension": 27,
+    "pass": true,
+    "scope": "Registry/hash rejection and exact subprocess invocation; proof subprocesses mocked."
+  }
+]

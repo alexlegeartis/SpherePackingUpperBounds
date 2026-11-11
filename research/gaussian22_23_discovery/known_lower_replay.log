@@ -1,0 +1,43 @@
+{
+  "pass": true,
+  "precision_bits": 256,
+  "center_density_convention": "Number of unit-radius spheres per unit volume; multiply by unit-ball volume for packing density.",
+  "rows": [
+    {
+      "dimension": 22,
+      "source_url": "https://cohn.mit.edu/sphere-packing/",
+      "retrieved": "2026-11-11",
+      "source_status": "Search-indexed Cohn table, crawled four months before retrieval; direct page returned502.",
+      "center_density_formula": "2^(-23) * 3^(-21/2) * 11^11",
+      "packing_density_formula": "pi^(22/2)/Gamma(22/2+1) * (2^(-23) * 3^(-21/2) * 11^11)",
+      "center_density_interval": "[0.3325496245977819742592078311951119061787410246465459874232281041146433430930 +/- 1.40e-77]",
+      "known_packing_density_interval": "[0.002451034044121182524251902984049552992730545621500205084142204398519901378554 +/- 7.58e-79]",
+      "displayed_density_prefix": "0.0024510340441211",
+      "periodic_centers_per_cell": 3,
+      "table_reference_indices": "[10,1]",
+      "pinned_old_upper": "0.0037259419689206",
+      "new_strict_upper": "0.003653383161",
+      "upper_reduction_percent_interval": "[1.947395008452592237265500960259019207565271160851158852327144769031902035687 +/- 4.67e-76]",
+      "pinned_gap_closure_percent_interval": "[5.69129789761215493155915124833397749721133050882297954945045818857510179428 +/- 4.35e-75]",
+      "scope": "Formula sourced from published table; arithmetic independently checked. Packing coordinates/construction not replayed; no exhaustive current-best claim."
+    },
+    {
+      "dimension": 23,
+      "source_url": "https://cohn.mit.edu/sphere-packing/",
+      "retrieved": "2026-11-11",
+      "source_status": "Search-indexed Cohn table, crawled four months before retrieval; direct page returned502.",
+      "center_density_formula": "2^(-34) * 3^(-12) * 23^(23/2)",
+      "packing_density_formula": "pi^(23/2)/Gamma(23/2+1) * (2^(-34) * 3^(-12) * 23^(23/2))",
+      "center_density_interval": "[0.5004897700630400027542014590632464819365052751878954327038230655295505546975 +/- 2.91e-77]",
+      "known_packing_density_interval": "[0.001907194538844874825261792062440023693200789560005915082534767197306762683036 +/- 6.26e-79]",
+      "displayed_density_prefix": "0.0019071945388448",
+      "periodic_centers_per_cell": 2,
+      "table_reference_indices": "[6,1]",
+      "pinned_old_upper": "0.0026842798864291",
+      "new_strict_upper": "0.002642540089",
+      "upper_reduction_percent_interval": "[1.554971880545083205998476418306721152737716395256796963830212309991751693878 +/- 3.88e-76]",
+      "pinned_gap_closure_percent_interval": "[5.37132730128796955532984604506682660918037010614061740695416568149899008850 +/- 5.24e-75]",
+      "scope": "Formula sourced from published table; arithmetic independently checked. Packing coordinates/construction not replayed; no exhaustive current-best claim."
+    }
+  ]
+}

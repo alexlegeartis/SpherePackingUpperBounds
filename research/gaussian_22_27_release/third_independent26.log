@@ -1,0 +1,7 @@
+{'pass': True, 'dimension': 26, 'angular_Sturm_signs': True, 'compact_triangles_passed': 3139, 'exact_sorting_exclusions': 338, 'max_depth': 15, 'analytic_tail_exponential_bound': True, 'scale_lemma_requires_single_root_verified': True}
+Independent exact Sturm start Fourier
+Independent exact Sturm PASS Fourier 55 55
+Independent exact Sturm start physical
+Independent exact Sturm PASS physical 55 55
+{'pass': True, 'dimension': 26, 'Fourier_identity': True, 'global_exact_Sturm_signs': True, 'Gegenbauer_PSD': True, 'origin_Gram_PSD': True, 'pair_leaves': 86, 'pair_depth': 11, 'density_interval': '[0.00097462927669219441155139839595433062420980657239407779856255343527564429411489563011957240119209166894590351737104952495535279677811079422875305173348708 +/- 3.54e-156]', 'strict_upper': '9746292767/10000000000000', 'strict_upper_decimal': '0.0009746292767', 'inherited_dependency': 'New26D angular and global cyclic verification remains required'}
+PASS complete26D exact angular/cyclic/radial/origin/rounding audit

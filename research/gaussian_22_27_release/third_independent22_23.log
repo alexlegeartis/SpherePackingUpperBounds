@@ -1,0 +1,33 @@
+{'pass': True, 'dimension': 22, 'angular_degree': 14, 'exact_Sturm_variations': [7, 7, 6], 'cap_margin': '1/100000', 'domain': '1<=u<=5, 0<=v=2ut<=1', 'interval_precision_bits': 320, 'certified_rectangles': 1368, 'excluded_rectangles': 0, 'max_depth': 15, 'partition_sha256': '9c5112205402c6d24b08225f1129788912bdb4d353a324b5591f9d543cba45f4', 'analytic_exponential_tail_bound': True, 'single_sign_change_for_scale_lemma': True}
+22 independent Laguerre Fourier recurrence PASS
+22 certified root isolation start Fourier
+22 global signs PASS Fourier {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.6454809319984633
+22 certified root isolation start physical
+22 global signs PASS physical {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.7659818809988792
+{'pass': True, 'dimension': 22, 'Fourier_identity_bidirectional_Laguerre_recurrence': True, 'global_sign_proof': {'Fourier': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}, 'physical': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}}, 'actual_angular_degree': 14, 'harmonic_PSD_and_origin_Gram': True, 'pair_method': 'second-derivative Taylor bound', 'pair_intervals': 95, 'pair_max_depth': 11, 'pair_partition_sha256': '7762dbf9c97bf014da4937207175af2c2bafe1780842733efb70135621912b73', 'exact_outward_rounding': True, 'strict_upper': '0.003653383161', 'density_interval': '[0.0036533831609501341267126396728558645797789028984200797508912659434683062291395926515097012982093770455911300489588974235826541277608986328834876355392171 +/- 1.35e-155]'}
+{'pass': True, 'dimension': 23, 'angular_degree': 14, 'exact_Sturm_variations': [7, 7, 6], 'cap_margin': '1/100000', 'domain': '1<=u<=5, 0<=v=2ut<=1', 'interval_precision_bits': 320, 'certified_rectangles': 1415, 'excluded_rectangles': 0, 'max_depth': 15, 'partition_sha256': '4c696f2fb8a9741663dc272b9dce5a9bf866a5a90cfe98cdab2500f6a7cb5975', 'analytic_exponential_tail_bound': True, 'single_sign_change_for_scale_lemma': True}
+23 independent Laguerre Fourier recurrence PASS
+23 certified root isolation start Fourier
+23 global signs PASS Fourier {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.6347519480041228
+23 certified root isolation start physical
+23 global signs PASS physical {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.5972603960035485
+{'pass': True, 'dimension': 23, 'Fourier_identity_bidirectional_Laguerre_recurrence': True, 'global_sign_proof': {'Fourier': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}, 'physical': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}}, 'actual_angular_degree': 14, 'harmonic_PSD_and_origin_Gram': True, 'pair_method': 'second-derivative Taylor bound', 'pair_intervals': 93, 'pair_max_depth': 11, 'pair_partition_sha256': 'b38267eb7db719a9a956fdd284a60e6154a904eff11c542a12df10c00623faa3', 'exact_outward_rounding': True, 'strict_upper': '0.002642540089', 'density_interval': '[0.0026425400886950499942451512462104388238255318170127583254042683850849101237724667012987099872032873227080428651095802012157561823618979201124984639649760 +/- 5.30e-155]'}
+{
+  "pass": true,
+  "python_flint": "0.9.0",
+  "source_byte_comparison": {},
+  "bounds": {
+    "22": {
+      "strict_upper": "0.003653383161",
+      "pinned_comparator": "0.0037259419689206",
+      "relative_decrease_lower_exact": "362794039603/18629709844603",
+      "relative_decrease_lower_percent_approx": 1.9473950084525922
+    },
+    "23": {
+      "strict_upper": "0.002642540089",
+      "pinned_comparator": "0.0026842798864291",
+      "relative_decrease_lower_exact": "417397974291/26842798864291",
+      "relative_decrease_lower_percent_approx": 1.5549718805450832
+    }
+  }
+}

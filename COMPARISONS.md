@@ -168,3 +168,12 @@ The new25,28,32,34,36,38,39,40D entries use the pinned Cohn indexed upper table 
 - 38D: L = pi^19*3^15*sqrt(3)/(19!*2^19*5); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001511771069.
 - 39D: L = 2^20*pi^19*3^16*20!/(sqrt(5)*40!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001064953048.
 - 40D: L = pi^20*3^16/(2^20*20!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.000007516663425.
+
+## Gaussian cyclic continuation in 22, 23, 26 and 27 dimensions
+
+These four entries improve the pinned Cohn upper table citing arXiv:2006.02560v2. The known lower constructions below are cited from https://cohn.mit.edu/sphere-packing/; the indexed snapshot was four months old and direct retrieval returned 502. They are comparison inputs, not independently reconstructed packing constructions or exhaustive current-record claims.
+
+- 22D: known lower pi^(22/2)/Gamma(22/2+1) * (2^(-23) * 3^(-21/2) * 11^11); strict new upper 0.003653383161.
+- 23D: known lower pi^(23/2)/Gamma(23/2+1) * (2^(-34) * 3^(-12) * 23^(23/2)); strict new upper 0.002642540089.
+- 26D: known lower pi^13/(13!*sqrt(3)); strict new upper 0.0009746292767.
+- 27D: known lower 2^28*pi^13*14!/(28!*sqrt(2)); strict new upper 0.0006864321082.

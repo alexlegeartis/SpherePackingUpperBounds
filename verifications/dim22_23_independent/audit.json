@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "python_flint": "0.9.0",
+  "source_byte_comparison": {},
+  "bounds": {
+    "22": {
+      "strict_upper": "0.003653383161",
+      "pinned_comparator": "0.0037259419689206",
+      "relative_decrease_lower_exact": "362794039603/18629709844603",
+      "relative_decrease_lower_percent_approx": 1.9473950084525922
+    },
+    "23": {
+      "strict_upper": "0.002642540089",
+      "pinned_comparator": "0.0026842798864291",
+      "relative_decrease_lower_exact": "417397974291/26842798864291",
+      "relative_decrease_lower_percent_approx": 1.5549718805450832
+    }
+  }
+}

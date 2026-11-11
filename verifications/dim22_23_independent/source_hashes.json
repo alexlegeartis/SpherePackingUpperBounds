@@ -1,0 +1,26 @@
+{
+  "certificate22.json": {
+    "sha256": "1f8cd14dfeb4b1a09ffe14c2216cd5bbc2f374f8120ead4ea515eaf02ba85502",
+    "source": "research/dim22_gaussian_ready_20261111/certificate.json"
+  },
+  "angular22.json": {
+    "sha256": "1a5d8dd03dc10dfbb47535e01dcff8dac2f8a0e896b14f62185157a14b0caa9d",
+    "source": "research/dim22_gaussian_ready_20261111/continuum_three_point/cyclic_angular40_exact.json"
+  },
+  "comparators22.json": {
+    "sha256": "22e7d740353c6be1d4d6043893d221d1d2c4dcaff3a5e7587f91e02867fb38ff",
+    "source": "research/dim22_gaussian_ready_20261111/COMPARATORS.json"
+  },
+  "certificate23.json": {
+    "sha256": "4aa8ca9cdaf8542ed1ca1c523c21a5836cf06349abedb95bd285c9e4484e0217",
+    "source": "research/dim23_gaussian_ready_20261111/certificate.json"
+  },
+  "angular23.json": {
+    "sha256": "0af8e76e0d89a7d0b8e448cacfa1a2fa46cca681f07f63c3661aeb567a50b9cb",
+    "source": "research/dim23_gaussian_ready_20261111/continuum_three_point/cyclic_angular40_exact.json"
+  },
+  "comparators23.json": {
+    "sha256": "a35ef127e9e48464ac367b8f43badb39ac9494c53990796813fd8b38c21c5df3",
+    "source": "research/dim23_gaussian_ready_20261111/COMPARATORS.json"
+  }
+}

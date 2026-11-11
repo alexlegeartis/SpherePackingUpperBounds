@@ -1,0 +1,6 @@
+22 independent Laguerre Fourier recurrence PASS
+22 certified root isolation start Fourier
+22 global signs PASS Fourier {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.4222678869991796
+22 certified root isolation start physical
+22 global signs PASS physical {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111} seconds 0.4812634990012157
+{'pass': True, 'dimension': 22, 'Fourier_identity_bidirectional_Laguerre_recurrence': True, 'global_sign_proof': {'Fourier': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}, 'physical': {'method': 'complete FLINT complex root isolation', 'total_multiplicity': 111, 'root_disks': 111}}, 'actual_angular_degree': 14, 'harmonic_PSD_and_origin_Gram': True, 'pair_method': 'second-derivative Taylor bound', 'pair_intervals': 95, 'pair_max_depth': 11, 'pair_partition_sha256': '7762dbf9c97bf014da4937207175af2c2bafe1780842733efb70135621912b73', 'exact_outward_rounding': True, 'strict_upper': '0.003653383161', 'density_interval': '[0.0036533831609501341267126396728558645797789028984200797508912659434683062291395926515097012982093770455911300489588974235826541277608986328834876355392171 +/- 1.35e-155]'}
