@@ -1,0 +1,15 @@
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 5 0
+Exact Schur factorization and outward objective: PASS [0.4101899868311988677407604362994285017515171298713618040883764151908393153314 +/- 4.46e-77]
+{"verified": true, "checked": 197, "max_depth": 11, "seconds": 0.1463909149169922, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_dimensions_20261111/verification_package/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004543624814819387 0.009899069108999793
+{"verified": true, "checked": 3097, "passed": 1135, "excluded": 414, "max_depth": 42, "seconds": 0.33504652976989746, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_dimensions_20261111/verification_package/witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.11078596115112305
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.21864867210388184
+TRANSFORM 1 seconds 0.3591346740722656
+TRANSFORM 2 seconds 0.5207901000976562
+INITIAL (37, 37, 37) -0.11217786306888362 0.03492280626679114
+PROGRESS 100 stack 5 seconds 2.289666175842285
+{"verified": true, "checked": 153, "passed": 70, "excluded": 7, "max_depth": 14, "seconds": 2.98376727104187, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/density_low_dimensions_20261111/verification_package/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+COMPLETE_CERTIFICATE_PASS {"dimension": 6, "verified": true, "strict_upper": "0.410189987", "density_enclosure": "[0.4101899868311988677407604362994285017515171298713618040883764151908393153314 +/- 4.46e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs."}

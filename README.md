@@ -8,14 +8,18 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [4D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51050 | 0.34% | 3.75% | [5D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.41019 | 0.02% | 0.27% | [6D proof](verifications/dim6/) · [Sources & formulas](COMPARISONS.md) |
 | 17 | [≈0.0088113](https://doi.org/10.4153/CJM-1964-065-1) | [≈0.018464](https://arxiv.org/abs/2006.02560v2) | ≈0.018204 | 1.41% | 2.69% | [17D proof](verifications/dim17/refinement_repaired/) · [Sources & formulas](COMPARISONS.md) |
 | 18 | [≈0.0061679](https://doi.org/10.1023/A:1008733715001) | [≈0.013485](https://arxiv.org/abs/2006.02560v2) | ≈0.013224 | 1.93% | 3.57% | [18D proof](verifications/cyclic_origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 19 | [≈0.0041474](https://arxiv.org/abs/2505.02394v1) | [≈0.0098180](https://arxiv.org/abs/2006.02560v2) | ≈0.0095210 | 3.02% | 5.24% | [19D proof](verifications/cyclic_origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 20 | [≈0.0040242](https://arxiv.org/abs/2505.02394v1) | [≈0.0071271](https://arxiv.org/abs/2006.02560v2) | ≈0.0069360 | 2.68% | 6.16% | [20D proof](verifications/cyclic_origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 21 | [≈0.0029298](https://arxiv.org/abs/2505.02394v1) | [≈0.0051597](https://arxiv.org/abs/2006.02560v2) | ≈0.0051495 | 0.20% | 0.45% | [21D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 45 | [≈3.5582e-8](https://arxiv.org/abs/2505.02394v1) | [≈0.0000013301](https://arxiv.org/abs/2006.02560v2) | ≈0.0000013114 | 1.40% | 1.44% | [45D proof](verifications/dim45/) · [Sources & formulas](COMPARISONS.md) |
+| 46 | [≈2.8610e-8](https://doi.org/10.1007/BF01232378) | [≈9.2952e-7](https://arxiv.org/abs/2006.02560v2) | ≈9.1488e-7 | 1.57% | 1.62% | [46D proof](verifications/dim46/) · [Sources & formulas](COMPARISONS.md) |
+| 47 | [≈2.2670e-8](https://arxiv.org/abs/2505.02394v1) | [≈6.4908e-7](https://arxiv.org/abs/2006.02560v2) | ≈6.1688e-7 | 4.96% | 5.14% | [47D proof](verifications/dim47/) · [Sources & formulas](COMPARISONS.md) |
 | 48 | [≈2.3178e-8](https://doi.org/10.4153/CJM-1971-081-3) | [≈4.5291e-7](https://arxiv.org/abs/2006.02560v2) | ≈4.1339e-7 | 8.73% | 9.20% | [48D proof](verifications/dim48/) · [Sources & formulas](COMPARISONS.md) |
 
-Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D and 5D baselines are newer paper-reported values (8 and 7 decimal places), not independently replayed here. 
+Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D, 5D and 6D baselines are pinned paper-reported decimal values, not independently replayed here. 
 
 These certificates use the existing [Cohn–de Laat–Salmon continuum framework](https://arxiv.org/abs/2206.15373). Proof notes state the analytic hypotheses and normalization; exact rational witnesses and independent interval verifiers check the computational conditions over full domains. Historical numerical comparisons in package notes are pinned comparisons, not current best-known claims.
 
@@ -62,3 +66,9 @@ The [18D cyclic refinement](verifications/dim18/refinement_cyclic/) strengthens 
 The [19D cyclic refinement](verifications/dim19/refinement_cyclic/) proves density <0.009557491 and the [20D cyclic refinement](verifications/dim20/refinement_cyclic/) proves <0.006977702. Both use the explicitly proved cyclic generalization and independently reconstructed exact-domain checks. All older witnesses and Schur certificates remain replayable.
 
 The current 17D bound <0.018204096 uses a [mixed-Gaussian repaired cyclic witness and separate saturation](verifications/dim17/refinement_repaired/). The [common cyclic origin saturation](verifications/cyclic_origin_slack/) sharpens 18D, 19D and 20D to <0.013224473, <0.009521000 and <0.006936042. All prior witnesses remain preserved and replayed. See [methods and experiments](METHODS_AND_EXPERIMENTS.md) for the systematic distinction between valid proof transformations and unverified search directions.
+
+The [47D restriction and origin-Gram certificate](verifications/dim47/) gives <6.16879891e-7 by transferring the fully replayed 48D witness. The pinned upper decreases 4.96%, and the additive gap to the cited 2025 antipode construction decreases 5.14%. The proof and independent verifier explicitly preserve the cyclic theorem and Fourier restriction hypotheses.
+
+The [6D count-enhanced certificate](verifications/dim6/) gives <0.410189987, using externally published near-neighbor bounds. The [45D](verifications/dim45/) and [46D](verifications/dim46/) exact radial/angular certificates give <1.311423575e-6 and <9.14882847e-7. All new proof chains and preserved historical packages are included in the aggregate replay.
+
+The [portable 6D discovery/export package](research/dim6_discovery/) reproduces the successful bounded warm-start search and exports its frozen candidate for full exact verification.

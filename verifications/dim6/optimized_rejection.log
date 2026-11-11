@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_low_dimensions_20261111/verification_package/verify.py", line 4, in <module>
+    if not __debug__: raise RuntimeError('Verification must not run under python -O.')
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Verification must not run under python -O.

@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "working_directory_portability": "Search and export/full replay tested from a different working directory.",
+  "fresh_search": {
+    "rounds": 2,
+    "duration_seconds": 138.88839626312256,
+    "mathematical_output_matches_frozen_exactly": true,
+    "exactly_matching_fields": [
+      "coefficients",
+      "matrices",
+      "count_weights",
+      "count_squared_radii",
+      "count_bounds",
+      "objective",
+      "density_candidate",
+      "separation_cuts"
+    ],
+    "solver_status": "optimal_inaccurate",
+    "solver_warning": "optimal_inaccurate; numerical status is not certification"
+  },
+  "frozen_export": {
+    "canonical_json_match": [
+      "witness.json",
+      "witness_psd_exact.json",
+      "prerequisites.json"
+    ],
+    "full_verification_passed": true,
+    "strict_upper": "0.410189987",
+    "pair_boxes": 197,
+    "far_boxes": 3097,
+    "cyclic_boxes": 153
+  },
+  "optimized_mode_refused": [
+    "export_and_check.py",
+    "export_cheb.py",
+    "gaussian_guards.py"
+  ],
+  "frozen_output_overwrite_refused": true,
+  "source_verification_package_unchanged": true
+}

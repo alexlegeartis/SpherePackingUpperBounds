@@ -1,0 +1,12 @@
+{
+  "source_url": "https://cohn.mit.edu/sphere-packing/",
+  "underlying_reference": "https://arxiv.org/abs/2006.02560v2",
+  "retrieved_date": "2026-11-11",
+  "retrieval_method": "Search index result for site:cohn.mit.edu/sphere-packing/ \"25\" \"47\"; direct page returned HTTP 502.",
+  "index_age_reported": "4 months",
+  "scope": "Pinned published comparators, not exhaustive current worldwide-best verification.",
+  "dimension47_upper": "0.0000006490757338",
+  "dimension47_lower_density_display": "0.0000000226696032...",
+  "table_row_references": "[6, 1]",
+  "dimension46_upper": "0.0000009295151556"
+}

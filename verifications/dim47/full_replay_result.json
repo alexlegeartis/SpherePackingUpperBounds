@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "source48_full_replay": true,
+  "exact_transfer_replay": true,
+  "dimension": 47,
+  "strict_upper": "0.000000616879891",
+  "mathematical_inputs": [
+    "Cohn-de Laat-Salmon cyclic continuum theorem",
+    "Gegenbauer addition theorem",
+    "Fourier restriction identity for Schwartz functions"
+  ]
+}

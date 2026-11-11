@@ -145,3 +145,17 @@ Keep discovery, proof, and registration separate:
 3. Run the independent audit, recompute the outward objective, update [RESULTS.json](RESULTS.json), and run the complete repository replay. Keep superseded witnesses and their provenance.
 
 The 17D–20D comparisons are pinned to [Afkhami-Jeddi et al.](https://arxiv.org/abs/2006.02560v2) and [Cohn's general-packing table](https://cohn.mit.edu/sphere-packing/). [The newer 2512.04829 paper](https://arxiv.org/html/2512.04829v2) reports the ranges 4–7 and 9–16, not 17–20. Indexed freshness and unreplayed external comparison data do not establish worldwide priority. Percentages describe reductions of upper bounds, not improvements in the unknown optimum.
+
+## Exact transfer to dimension 47
+
+A further verified route restricts the Gaussian-damped 48D physical function to dimension 47. Fourier positivity follows from its exact one-coordinate marginal, independently reconstructed coefficient by coefficient. The same angular polynomial has nonnegative dimension-47 Gegenbauer coefficients and a larger constant term. An exact rank-one origin Gram saturation lowers its origin cost while leaving every required nonorigin and cross value unchanged. All inherited continuum and tail proofs remain required.
+
+This gives density <6.16879891e-7, about 4.96% below the pinned published comparator. The same direct-transfer screen is noncompetitive in dimensions 25–46; that screen is not an impossibility theorem. Numerical Gaussian and integration perturbation screens are research only. See [the full transfer proof and reproducible code](verifications/dim47/PROOF47.md).
+
+## Subsequent verified branches: 6D, 45D and 46D
+
+The 6D count-enhanced Chebyshev branch gives <0.410189987 after exact Gaussian guards and origin Schur saturation. It retains external published near-neighbor count hypotheses, which are not newly reconstructed. All new continuous-domain conditions are checked. This small improvement is distinct from the noncompetitive low-dimensional solid-harmonic trials.
+
+For 46D, a new degree-111 radial Fourier pair combined with the inherited angular polynomial gives <9.14882847e-7. For 45D, changing both the angular polynomial and radial pair gives <1.311423575e-6. Both require fresh global radial signs and coupled pair bounds; 45D additionally requires a fresh angular/cyclic proof. Exact dimension-specific origin Gram saturation remains essential. These results supersede the earlier noncompetitive direct-transfer screen only for these newly constructed witnesses, not by reclassifying the old experiments.
+
+See the complete [6D](verifications/dim6/), [45D](verifications/dim45/) and [46D](verifications/dim46/) packages, and the pinned source comparisons in [COMPARISONS.md](COMPARISONS.md).

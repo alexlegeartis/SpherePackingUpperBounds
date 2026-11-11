@@ -1,0 +1,58 @@
+{
+  "scope": "Numerical discovery and deterministic prerequisite export. This is not a proof package.",
+  "seed_original": "candidate_exact_cut_v2_6.json",
+  "candidate_original": "candidate_certificate_v2_6.json",
+  "search_original": "search_exact_guided_v2.py",
+  "seed_sha256": "5b5eed05e3ebabb712b90665aa4b646f53213a543c95b855fd491be822a21f76",
+  "candidate_sha256": "797128e7ada65976ce25926ee84f626a9607208013bfb420243215df2f871606",
+  "successful_search_history": [
+    {
+      "round": 0,
+      "objective": 5.081600701347449,
+      "density_candidate": 0.41031645136655515,
+      "status": "optimal_inaccurate",
+      "added": 20,
+      "worst_sampled": {
+        "far": 6.64872186103107e-08,
+        "cyclic": 2.4471916652053486e-07,
+        "pair": -6.920611274330302e-07
+      },
+      "seconds": 93.6882529258728
+    },
+    {
+      "round": 1,
+      "objective": 5.081600707936398,
+      "density_candidate": 0.4103164518985832,
+      "status": "optimal_inaccurate",
+      "added": 0,
+      "worst_sampled": {
+        "far": -4.430424316936762e-07,
+        "cyclic": -8.843004705649858e-07,
+        "pair": -7.065878059875352e-07
+      },
+      "seconds": 198.56630873680115
+    }
+  ],
+  "parameters": {
+    "dimension": 6,
+    "degree": 31,
+    "nodes": 5,
+    "angular": 12,
+    "ratio": 2.25,
+    "subdivisions": 2,
+    "rounds": 5,
+    "pairwise": false,
+    "exclusion": 1.0,
+    "counts": true
+  },
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "cvxpy": "1.9.3",
+    "clarabel": "0.11.1",
+    "python-flint": "0.9.0"
+  },
+  "published_count_source": "https://arxiv.org/html/1206.2608",
+  "comparison_source": "https://arxiv.org/html/2512.04829v2#S3.T1"
+}
