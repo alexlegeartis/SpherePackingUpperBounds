@@ -4,7 +4,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [4D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51050 | 0.34% | 3.75% | [5D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
-| 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.41019 | 0.02% | 0.27% | [6D proof](verifications/dim6/) · [Sources & formulas](COMPARISONS.md) |
+| 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.40914 | 0.28% | 3.09% | [6D proof](verifications/dim6/refinement_mixture99/) · [Sources & formulas](COMPARISONS.md) |
 | 17 | [≈0.0088113](https://doi.org/10.4153/CJM-1964-065-1) | [≈0.018464](https://arxiv.org/abs/2006.02560v2) | ≈0.018204 | 1.41% | 2.69% | [17D proof](verifications/dim17/refinement_repaired/) · [Sources & formulas](COMPARISONS.md) |
 | 18 | [≈0.0061679](https://doi.org/10.1023/A:1008733715001) | [≈0.013485](https://arxiv.org/abs/2006.02560v2) | ≈0.013224 | 1.93% | 3.57% | [18D proof](verifications/cyclic_origin_slack/) · [Sources & formulas](COMPARISONS.md) |
 | 19 | [≈0.0041474](https://arxiv.org/abs/2505.02394v1) | [≈0.0098180](https://arxiv.org/abs/2006.02560v2) | ≈0.0095210 | 3.02% | 5.24% | [19D proof](verifications/cyclic_origin_slack/) · [Sources & formulas](COMPARISONS.md) |

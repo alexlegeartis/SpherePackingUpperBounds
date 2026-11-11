@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "checked": 4359,
+  "passed": 1321,
+  "excluded": 859,
+  "max_depth": 31,
+  "seconds": 0.39899587631225586,
+  "failure": null,
+  "source": "/workspace/scratch/941a2e823e69/research/sphere_six_refinement_20261111/verifications/dim6/refinement_mixture99/independent/witness_psd_exact.json",
+  "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"
+}

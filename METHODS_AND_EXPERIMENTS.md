@@ -159,3 +159,7 @@ The 6D count-enhanced Chebyshev branch gives <0.410189987 after exact Gaussian g
 For 46D, a new degree-111 radial Fourier pair combined with the inherited angular polynomial gives <9.14882847e-7. For 45D, changing both the angular polynomial and radial pair gives <1.311423575e-6. Both require fresh global radial signs and coupled pair bounds; 45D additionally requires a fresh angular/cyclic proof. Exact dimension-specific origin Gram saturation remains essential. These results supersede the earlier noncompetitive direct-transfer screen only for these newly constructed witnesses, not by reclassifying the old experiments.
 
 See the complete [6D](verifications/dim6/), [45D](verifications/dim45/) and [46D](verifications/dim46/) packages, and the pinned source comparisons in [COMPARISONS.md](COMPARISONS.md).
+
+## Six-dimensional continuation refinement
+
+A separately verified continuation witness improves 6D to <0.409135399. Unlike the earlier repaired witness, both Gaussian guard weights vanish; exact Sturm checks establish global polynomial signs directly. The search mixed a warm-start continuation endpoint with a near-feasible joint radial/kernel result, but no numerical convex-feasibility assumption is used in the proof. The final exact matrices, Fourier pair, origin Schur operation, count costs and every continuous domain are checked anew. This preserves the external count-theorem assumptions rather than claiming a count-free improvement.

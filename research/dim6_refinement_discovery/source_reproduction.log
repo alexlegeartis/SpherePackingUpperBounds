@@ -1,0 +1,62 @@
+{
+  "source": "continue5_round3_snapshot.json",
+  "symmetrization": "Exact average of the two finite-decimal matrix entries",
+  "origin_replacement": "Exact Schur value plus 1/10^12",
+  "repairs": [
+    {
+      "block": 0,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 1,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 2,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 3,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 4,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 5,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 6,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 7,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 8,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 9,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 10,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 11,
+      "off_origin_diagonal_shift": "0"
+    },
+    {
+      "block": 12,
+      "off_origin_diagonal_shift": "0"
+    }
+  ],
+  "warning": "No complete geometric condition was certified by this operation."
+}
+FROZEN_SOURCE_REPRODUCED 41c60fae103355323abdfab8740c64b1089732bc0e0903fd27da845ed4259810
+Run export_and_check.py with the proof package for complete verification.

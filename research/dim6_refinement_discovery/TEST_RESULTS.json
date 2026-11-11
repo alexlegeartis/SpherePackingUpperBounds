@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "exact_source_byte_reproduction": true,
+  "source_sha256": "41c60fae103355323abdfab8740c64b1089732bc0e0903fd27da845ed4259810",
+  "canonical_export_json_match": true,
+  "full_portable_producer_replay": true,
+  "independent_full_audit": true,
+  "optimized_mode_rejected": true,
+  "search_smoke_checks": [
+    "Python compilation",
+    "CLI help"
+  ],
+  "numerical_rerun_scope": "The frozen numerical stages are preserved; fresh optimizer reproduction was not part of this packaging test."
+}

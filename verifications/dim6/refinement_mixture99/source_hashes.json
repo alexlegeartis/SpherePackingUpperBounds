@@ -1,0 +1,9 @@
+{
+  "witness.json": "2d6dd59a8ac8632d8ff43d14766b7ed5c4cf60d451bd197728849ada94d7d5c7",
+  "witness_psd_exact.json": "3176cf9c6d341c6391f63379d9c8e71576dd7dbdac575ea20eac8416fad3f937",
+  "prerequisites.json": "81d071cc54981a1d997d09ca55bee963360d93a7cb409bcc9ed7f43d0b1663d7",
+  "discovery_snapshot.json": "41c60fae103355323abdfab8740c64b1089732bc0e0903fd27da845ed4259810",
+  "independent/witness.json": "2d6dd59a8ac8632d8ff43d14766b7ed5c4cf60d451bd197728849ada94d7d5c7",
+  "independent/witness_psd_exact.json": "3176cf9c6d341c6391f63379d9c8e71576dd7dbdac575ea20eac8416fad3f937",
+  "independent/prerequisites.json": "81d071cc54981a1d997d09ca55bee963360d93a7cb409bcc9ed7f43d0b1663d7"
+}

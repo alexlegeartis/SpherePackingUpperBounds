@@ -1,0 +1,46 @@
+{
+  "scope": "Portable successful discovery stages and deterministic rational export; numerical checkpoints are not bounds.",
+  "final_source": "mix_continue_99hundredths.json",
+  "source_sha256": "41c60fae103355323abdfab8740c64b1089732bc0e0903fd27da845ed4259810",
+  "strict_upper": "0.409135399",
+  "joint_stage": {
+    "seed": "candidate_certificate_v2_6.json",
+    "output": "seed_feasible5.json",
+    "rounds": 3,
+    "joint": true,
+    "schur": true,
+    "floor": 1e-08,
+    "margin": 1,
+    "ridge": 0.0001
+  },
+  "refinement_stage": {
+    "seed": "seed_feasible5.json",
+    "selected_output": "continue5_round3_snapshot.json",
+    "selected_rounds": 4,
+    "joint": false,
+    "schur": true,
+    "floor": 1e-08,
+    "margin": 3,
+    "ridge": 0.01
+  },
+  "exact_stages": [
+    "Exact matrix symmetrization; no off-origin PSD diagonal shifts required.",
+    "Replace isolated origin entry with its exact Schur value plus 1e-12.",
+    "Mix 99/100 of the new exact source with 1/100 of the old source.",
+    "Recompute exact PSD, Gaussian signs, Schur objective and complete pair/far/cyclic verification."
+  ],
+  "final_gaussian_guard_weights": {
+    "eta": "0",
+    "zeta": "0"
+  },
+  "other_fixed_parameters": {
+    "dimension": 6,
+    "degree": 31,
+    "nodes": 5,
+    "angular": 12,
+    "ratio": 2.25,
+    "subdivisions": 2,
+    "counts": true,
+    "exclusion": 1.0
+  }
+}

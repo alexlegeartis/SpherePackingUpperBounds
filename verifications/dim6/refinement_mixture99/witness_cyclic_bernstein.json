@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "checked": 87,
+  "passed": 40,
+  "excluded": 4,
+  "max_depth": 12,
+  "seconds": 2.7917044162750244,
+  "failure": null,
+  "source": "/workspace/scratch/941a2e823e69/research/sphere_six_refinement_20261111/verifications/dim6/refinement_mixture99/witness_psd_exact.json",
+  "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"
+}
