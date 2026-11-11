@@ -1,0 +1,68 @@
+[
+  {
+    "round": 1,
+    "density_candidate": 8.776520043284729e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 14,
+      "physical": 2
+    }
+  },
+  {
+    "round": 2,
+    "density_candidate": 8.776536873451e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 8,
+      "physical": 0
+    }
+  },
+  {
+    "round": 3,
+    "density_candidate": 8.776544929557707e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 4,
+      "physical": 0
+    }
+  },
+  {
+    "round": 4,
+    "density_candidate": 8.776548810255618e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 4,
+      "physical": 0
+    }
+  },
+  {
+    "round": 5,
+    "density_candidate": 8.776550129763219e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 4,
+      "physical": 0
+    }
+  },
+  {
+    "round": 6,
+    "density_candidate": 8.776550305849943e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 2,
+      "physical": 0
+    }
+  },
+  {
+    "round": 7,
+    "density_candidate": 8.776550363528301e-07,
+    "radial_audit_returncode": 1,
+    "unexpected_failure": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_relaxed_pair_tail46_degree47_20261111/audit_radial.py\", line 42, in <module>\n    print('COUPLING_FAILURE',float(l),float(u),flush=True);raise RuntimeError('coupling')\n                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: coupling\n"
+  },
+  {
+    "round": 8,
+    "density_candidate": 8.776550611037718e-07,
+    "radial_audit_returncode": 0,
+    "radial_audit_pass": true
+  }
+]

@@ -1,0 +1,10 @@
+Root audit fourier
+fourier []
+Root audit physical
+physical []
+COUPLING_FAILURE 31.015662460396324 31.015662465320794
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_relaxed_pair_tail46_degree47_20261111/audit_radial.py", line 42, in <module>
+    print('COUPLING_FAILURE',float(l),float(u),flush=True);raise RuntimeError('coupling')
+                                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: coupling

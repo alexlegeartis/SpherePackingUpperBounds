@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "dimension": 46,
+  "precision_bits": 256,
+  "alpha": 40,
+  "compact_domain": "0<=t<=1/2, 1<=u<=5, 2tu<=1",
+  "certified_rectangles": 4212,
+  "discarded_rectangles": 247,
+  "processed_rectangles": 8917,
+  "max_axis_depth": 15,
+  "changed_geometry_radicand": "exact monotone rational endpoint bounds",
+  "gap_clipping": "nonnegative on the sorted-triangle feasible domain",
+  "signed_secondary_terms": true,
+  "tails_exact": true,
+  "tail_first_gap_if_positive_exact": "4001/1000",
+  "tail_second_gap_lower_exact": "24",
+  "scale_extension": "single-sign-transition lemma; see AUDIT.md",
+  "seconds": 1.2173104286193848
+}

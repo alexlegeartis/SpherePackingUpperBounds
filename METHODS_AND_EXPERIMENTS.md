@@ -223,3 +223,7 @@ After replacing the angular polynomial, a second optimization reweights the degr
 ## Degree47 radial enrichment in dimensions46 and47
 
 The new certificates retain the rebuilt angular kernels and extend the Laguerre correction from degree31 to47. Exact coefficient reconstruction proves the witnesses lie outside the older radial span. Global signs, coupling and normalization are replayed; numerical margin effects are documented in discovery. This is a family enlargement, not a convex combination of bounds.
+
+## 46D extended coupling
+
+Instead of imposing physical negativity from 7π onward, the new certificate verifies the coupled inequality through X=40 and negativity thereafter. An exact positive value beyond 7π proves this escapes the old sign template. The angular kernel and its global cyclic proof remain unchanged.

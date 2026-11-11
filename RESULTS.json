@@ -591,25 +591,26 @@
   },
   {
     "dimension": 46,
-    "strict_density_upper_bound": "0.0000008803541044",
-    "package": "verifications/dim46/refinement_degree47",
-    "method": "Rebuilt angular kernel and degree47 radial Fourier correction beyond prior degree31 span",
+    "strict_density_upper_bound": "0.0000008777229084",
+    "package": "verifications/dim46/refinement_extended_pair",
+    "method": "Degree47 radial correction with extended coupling through X=40, allowing a positive physical tail beyond7pi",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.8609574721360648103e-8",
     "previous_upper_density": "9.295151556E-7",
-    "upper_decrease_percent": "5.288892",
-    "gap_decrease_percent": "5.456848",
+    "upper_decrease_percent": "5.571964",
+    "gap_decrease_percent": "5.748910",
     "old_gap": "9.0090558087863935190e-7",
-    "new_gap": "8.5174452967863935190e-7",
+    "new_gap": "8.4911333367863935190e-7",
     "earlier_repository_upper_densities": [
       "0.000000914882847",
       "0.000000897267583",
-      "0.0000008868492132"
+      "0.0000008868492132",
+      "0.0000008803541044"
     ],
-    "previous_repository_package": "verifications/dim46/refinement_joint",
-    "source_package": "verifications/dim46/refinement_degree47"
+    "previous_repository_package": "verifications/dim46/refinement_degree47",
+    "source_package": "verifications/dim46/refinement_extended_pair"
   },
   {
     "dimension": 47,
