@@ -1,0 +1,9 @@
+Exact rational PSD: PASS
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/verify.py", line 202, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('path');ap.add_argument('--only',choices=['pair','cyclic','far']);args=ap.parse_args();verify(args.path,args.only)
+                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/verify.py", line 138, in verify
+    assert roots(-P(X+R2*pi_lo))==0 and P(R2*pi_lo)<0
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

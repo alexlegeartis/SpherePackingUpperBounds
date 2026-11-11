@@ -1,13 +1,53 @@
-# Solid-harmonic cyclic search
+# Solid-harmonic cyclic packing-density certificates
 
-The final 17D and 18D cyclic witnesses have been independently audited and registered in ../../verifications/dim17/ and ../../verifications/dim18/refinement_cyclic/. Earlier rejected and numerical-control witnesses are retained for reproducibility and are not certified results. In particular, 16D, 22D and 23D numerical outputs here are not new registered bounds.
+This package extends the prior annular search structurally: solid spherical
+harmonics turn the full three-sided cyclic condition into polynomials in squared
+edge lengths. Exact domain certification then replaces the stronger condition
+of individual negativity at every compact triangle vertex.
 
-Install requirements.txt for discovery. The root verification dependencies are sufficient for exact replay. Run:
+All four certificates passed primary and independently implemented audits:
 
-    python search.py --dimension 17 --degree 31 --rounds 5 --output candidate.json
+- 17D: density <0.018335552.
+- 18D: density <0.013284728.
+- 19D: density <0.009557491.
+- 20D: density <0.006977702.
 
-Search parameters and round histories are retained in candidate17_v2.json. The exact final witness certificate17.json, rather than a solver status, defines the proof. This research snapshot preserves its original status metadata; the registered package reconciles it with the completed independent audit.
+17D adds a previously unregistered dimension; the others tighten registered
+bounds. SUMMARY.json has pinned comparisons. No optimality, external peer-review
+or worldwide-priority claim is made. The existing mathematical framework is
+Cohn-de Laat-Salmon, https://arxiv.org/abs/2206.15373. PROOF17.md supplies the
+complete periodic cyclic summation, and each dimension has an exact parameter
+note. In 18D the stored upper squared radius is 2.6999999999999997, not 27/10.
 
-The far-domain failure of the first candidate is preserved in rejected17_before_full_separation.json. It motivated adding all real angular stationary points to numerical separation. Full compact, far and pair interval checks remain mandatory. The cyclic method and solid-harmonic factors are explained in PROOF17.md; it must not be described as satisfying the original pointwise-sign Theorem 1.1 without proof.
+## Genuine use of cyclic relaxation
 
-For candidate export, use the dimension-generic rationalizer: `python ../annular_three_point/rationalize.py candidate.json witness`. Then test with `python verify.py witness/dim17.json`. Export is unverified; the wrapper may reject it, and numerical reruns can vary. The retained registered exact certificates are the reproducible proof inputs.
+At squared sides (187/80,187/80,17/8), the exact 17D witness has positive individual
+unnormalized kernel value 1.50660346262744226547e-6, but its cyclic sum is negative,
+approximately -2.43693368692587691746e-8. Both signs were independently checked over
+the rationals. This witness is infeasible for the previous pointwise-negative
+annular cone. No claim is made that any finite numerical program was optimized
+exactly or globally over its parameters.
+
+## Reproduce
+
+Install verification dependencies in requirements.txt, then run:
+
+python run_certificates.py
+
+Never use Python -O. Only NumPy and python-flint are required for verification.
+Search also uses requirements-search.txt. An example discovery/replay sequence:
+
+python search.py --dimension 17 --output candidate17.json
+python export.py candidate17.json exported
+python verify.py exported/dim17.json
+
+Exact rational witnesses define the functions. Optimizer status is never proof.
+The first 17D candidate was rejected by a far-domain positive value; its witness
+and logs are retained. Discovery was repaired by checking every real angular
+stationary point on each radial grid fiber, then the final full-domain checks
+passed. Noncompetitive/rejected 15D,16D,21D,22D,23D experiments are not bounds.
+
+search_balanced.py tests a diagonal congruence of the same solid basis for
+conditioning at larger supports. Its outputs remain unverified unless separately
+certified. The .venv directory is an execution dependency cache and must not be
+included in a source archive or publication.

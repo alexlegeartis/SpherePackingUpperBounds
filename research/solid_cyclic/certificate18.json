@@ -721,7 +721,7 @@
   "exact_objective": "770023450706403900239330650473/26843545600078586937539035136",
   "subdivisions_per_radial_cell": 8,
   "certified_density_upper": "0.013284728",
-  "certification_status": "Primary exact and interval replay passed; independent review pending.",
+  "certification_status": "Primary exact/interval replay and independently implemented audit passed; not external peer review.",
   "kernel_family": "solid_harmonic_cyclic",
   "solid_harmonic_scale_squared": "9/4"
 }

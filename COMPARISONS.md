@@ -69,3 +69,9 @@ The new proof uses a cyclic generalization: see [PROOF.md](verifications/dim17/P
 ## Dimension 18 cyclic refinement
 
 The current bound is **<0.013284728**, using the same lower construction and pinned published comparator as the original 18D entry. It lowers that comparator by 1.487634% and closes 2.741565% of the additive gap. The prior <0.013408931 certificate remains preserved. The cyclic generalization and all exact-domain checks are documented in [the refinement](verifications/dim18/refinement_cyclic/); no worldwide-priority claim is made.
+
+## Dimensions 19 and 20 cyclic refinements
+
+The current strict bounds are **19D <0.009557491** and **20D <0.006977702**, compared with the same cited lower constructions and pinned published upper values already documented above. Earlier repository bounds <0.009618343139 and <0.006979497272 are preserved in the origin-slack package. comparison.py recomputes every percentage and additive gap from the unshortened source inputs.
+
+These improvements use the explicit cyclic generalization, not the pointwise-sign hypothesis of the printed Theorem 1.1. Full producer and independent exact-domain checks must pass. They add no neighbor-count assumption and make no worldwide-priority or optimality claim.

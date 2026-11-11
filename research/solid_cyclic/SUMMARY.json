@@ -1,0 +1,63 @@
+{
+  "verified_candidates": [
+    {
+      "dimension": 17,
+      "strict_density_upper": "0.018335552",
+      "primary_full_verification": "passed",
+      "independent_review": "passed",
+      "pinned_published_upper": "0.0184640903350649",
+      "upper_decrease_percent": "0.6961530881420928481706097640",
+      "source": "https://arxiv.org/abs/2006.02560v2",
+      "certificate": "certificate17.json",
+      "proof": "PROOF17.md"
+    },
+    {
+      "dimension": 18,
+      "strict_density_upper": "0.013284728",
+      "primary_full_verification": "passed",
+      "independent_review": "passed",
+      "pinned_published_upper": "0.0134853404450862",
+      "upper_decrease_percent": "1.487633522513696241382456206",
+      "source": "https://arxiv.org/abs/2006.02560v2",
+      "certificate": "certificate18.json",
+      "proof": "PROOF18.md",
+      "prior_registered_upper": "0.013408931",
+      "registered_decrease_percent": "0.9262707071876199527016732355"
+    },
+    {
+      "dimension": 19,
+      "strict_density_upper": "0.009557491",
+      "primary_full_verification": "passed",
+      "independent_review": "passed",
+      "pinned_published_upper": "0.0098179551395438",
+      "upper_decrease_percent": "2.652936745399538436193269206",
+      "source": "https://arxiv.org/abs/2006.02560v2",
+      "certificate": "certificate19.json",
+      "proof": "PROOF19.md",
+      "prior_registered_upper": "0.009618343139",
+      "registered_decrease_percent": "0.6326675823537594836062128143"
+    },
+    {
+      "dimension": 20,
+      "strict_density_upper": "0.006977702",
+      "primary_full_verification": "passed",
+      "independent_review": "passed",
+      "pinned_published_upper": "0.0071270536033763",
+      "upper_decrease_percent": "2.095558861877335202676678783",
+      "source": "https://arxiv.org/abs/2006.02560v2",
+      "certificate": "certificate20.json",
+      "proof": "PROOF20.md",
+      "prior_registered_upper": "0.006979497272",
+      "registered_decrease_percent": "0.02572208183535199467587097583"
+    }
+  ],
+  "unregistered_experiments": {
+    "15": "Numerical0.033970452; noncompetitive, not a bound.",
+    "16": "Numerical0.025280985; exact exterior sign rejected and noncompetitive.",
+    "21": "Numerical0.005199286; noncompetitive, not a bound.",
+    "22": "Numerical0.003967664; noncompetitive, not a bound.",
+    "23": "Numerical0.002987075; noncompetitive, not a bound.",
+    "17_wide": "Numerical0.018250913; exact exterior sign rejected, with forbidden real root pairs near42.27 and61.12 in polynomial coordinate. Not a bound.",
+    "25_wide": "Interrupted before a saved candidate. No result."
+  }
+}

@@ -87,35 +87,41 @@
   },
   {
     "dimension": 19,
-    "strict_density_upper_bound": "0.009618343139",
-    "package": "verifications/origin_slack",
+    "strict_density_upper_bound": "0.009557491",
+    "package": "verifications/dim19/refinement_cyclic",
     "known_lower_density": "0.0041473691458627257748",
     "previous_upper_density": "0.0098179551395438",
-    "upper_decrease_percent": "2.033132",
-    "gap_decrease_percent": "3.520130",
+    "upper_decrease_percent": "2.652937",
+    "gap_decrease_percent": "4.593249",
     "old_gap": "0.0056705859936810742252",
-    "new_gap": "0.0054709739931372742252",
+    "new_gap": "0.0054101218541372742252",
     "earlier_repository_upper_densities": [
-      "0.009618351"
+      "0.009618351",
+      "0.009618343139"
     ],
-    "source_package": "verifications/dim19",
-    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+    "method": "Solid-harmonic cyclic generalization with explicit finite-sum proof",
+    "previous_repository_package": "verifications/origin_slack",
+    "previous_upper_reviewed": "2026-11-11",
+    "earlier_source_package": "verifications/dim19"
   },
   {
     "dimension": 20,
-    "strict_density_upper_bound": "0.006979497272",
-    "package": "verifications/origin_slack",
+    "strict_density_upper_bound": "0.006977702",
+    "package": "verifications/dim20/refinement_cyclic",
     "known_lower_density": "0.0040241650630681997943",
     "previous_upper_density": "0.0071270536033763",
-    "upper_decrease_percent": "2.070369",
-    "gap_decrease_percent": "4.755451",
+    "upper_decrease_percent": "2.095559",
+    "gap_decrease_percent": "4.813309",
     "old_gap": "0.0031028885403081002057",
-    "new_gap": "0.0029553322089318002057",
+    "new_gap": "0.0029535369369318002057",
     "earlier_repository_upper_densities": [
-      "0.006979502"
+      "0.006979502",
+      "0.006979497272"
     ],
-    "source_package": "verifications/dim20",
-    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+    "method": "Solid-harmonic cyclic generalization with explicit finite-sum proof",
+    "previous_repository_package": "verifications/origin_slack",
+    "previous_upper_reviewed": "2026-11-11",
+    "earlier_source_package": "verifications/dim20"
   },
   {
     "dimension": 21,
