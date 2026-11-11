@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "dimension": 21,
+  "physical_degree": 111,
+  "fourier_degree": 111,
+  "actual_angular_degree": 13,
+  "kappa_times_minimum_separation_squared": "51/4",
+  "producer_and_independent_density_intervals_overlap": true
+}

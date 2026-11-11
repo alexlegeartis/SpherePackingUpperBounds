@@ -207,3 +207,7 @@ All four use freshly optimized dimension-specific angular kernels and radial Fou
 ## Completing the 25–40D Gaussian family
 
 Dimensions29,30,31,33,35,37 use freshly optimized dimension-specific angular kernels and radial Fourier pairs within the same Gaussian cyclic family. The rank-one origin Gram and cyclic rather than individual sign condition are the common ideas; each frozen witness has separate full-domain checks and rational-Sturm independent auditing. Deterministic exporters reproduce the exact inputs, without claiming a fresh optimizer replay. See [release scope](research/gaussian_remaining_release/).
+
+## 21D Gaussian continuation
+
+A fresh Gaussian-damped angular kernel and radial Fourier pair replace the earlier compact annular certificate as the registered21D bound. The summed cyclic triangle argument and rank-one origin Gram are the same general mechanism as22/23; dimension-specific angular degree13, minimum squared separation21/8 and kappa34/7 are verified independently. The old compact-kernel and origin-Schur witnesses remain separate historical proofs. No new external neighbor-count assumption is introduced.

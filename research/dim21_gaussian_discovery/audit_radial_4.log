@@ -1,0 +1,9 @@
+Root audit fourier
+fourier [(15.791855765447009, 1), (15.801984475844355, 1), (24.448357897384152, 1), (24.457505444872172, 1), (33.2966476727931, 1), (33.29877287606438, 1)]
+Root audit physical
+physical []
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_gaussian21_20261111/dim21/audit_radial.py", line 29, in <module>
+    (Path(args.candidate).with_name(Path(args.candidate).stem+'_rejection.json')).write_text(json.dumps({'global_sign_roots':bad},indent=2));raise RuntimeError('Forbidden sign roots')
+                                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Forbidden sign roots

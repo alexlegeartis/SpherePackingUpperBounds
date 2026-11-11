@@ -1,0 +1,17 @@
+{
+  "inputs/angular_scaling48.json": {
+    "original_path": "research/density_highrange_20261111/continuum_three_point/cyclic_angular40_exact.json",
+    "sha256": "66d252e87f1dc06d613656f065c85c52f5cf655bee322dc33fd120b36edf5485",
+    "purpose": "Discovery input only; not an assumed proof dependency."
+  },
+  "inputs/source44/certificate.json": {
+    "original_path": "research/dim44_gaussian_ready_20261111/certificate.json",
+    "sha256": "4ca48c456c914770630100c4f3865967a5a6e039c7a29d78ebadaca2b77c5c55",
+    "purpose": "Discovery input only; not an assumed proof dependency."
+  },
+  "inputs/source44/continuum_three_point/cyclic_angular40_exact.json": {
+    "original_path": "research/dim44_gaussian_ready_20261111/continuum_three_point/cyclic_angular40_exact.json",
+    "sha256": "2515f35922ff1c78dcc913b7f98ebadf10c924b1c795deb9fce0c80aab0c0b7e",
+    "purpose": "Discovery input only; not an assumed proof dependency."
+  }
+}

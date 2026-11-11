@@ -1,0 +1,11 @@
+B 57102.127025284295
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [7, 7], 'B': '1327809438829275203498959927225621708198784632271399806474373890038527666232749726640583/23253239555180378302803333626989890274305027428501850269297037049568557882417348608'}]
+{'pass': True, 'precision': 192, 'certified_rectangles': 2676, 'discarded_rectangles': 321, 'max_depth': 15, 'tails_exponential_check': True}
+Root audit fourier
+fourier []
+Root audit physical
+physical []
+RADIAL_PASS [0.0049859769994553889505185909634013223992827372603166420761369879153668833655338469862615298524143489249865558759038399677715979942914967326533992522480858 +/- 5.88e-155] 258 15
+BYTE_IDENTICAL dim21/cyclic_angular40_exact.json
+BYTE_IDENTICAL dim21/radial_scaled21_degree31_r2p625_certificate.json
+{'pass': True, 'scope': 'Frozen checkpoint export and full angular/radial replay; no optimizer rerun.', 'both_exports_byte_identical': True, 'input_hashes_match': True, 'runs': [{'command': ['export_angular_n.py', '21'], 'pass': True}, {'command': ['dim21/independent_cyclic40_angular.py'], 'pass': True}, {'command': ['dim21/independent_cyclic40_domain.py'], 'pass': True}, {'command': ['dim21/audit_radial.py', 'radial_scaled21_degree31_r2p625.json'], 'pass': True}], 'seconds': 4.1112091450049775}

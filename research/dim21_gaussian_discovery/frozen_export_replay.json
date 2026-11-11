@@ -1,0 +1,35 @@
+{
+  "pass": true,
+  "scope": "Frozen checkpoint export and full angular/radial replay; no optimizer rerun.",
+  "both_exports_byte_identical": true,
+  "input_hashes_match": true,
+  "runs": [
+    {
+      "command": [
+        "export_angular_n.py",
+        "21"
+      ],
+      "pass": true
+    },
+    {
+      "command": [
+        "dim21/independent_cyclic40_angular.py"
+      ],
+      "pass": true
+    },
+    {
+      "command": [
+        "dim21/independent_cyclic40_domain.py"
+      ],
+      "pass": true
+    },
+    {
+      "command": [
+        "dim21/audit_radial.py",
+        "radial_scaled21_degree31_r2p625.json"
+      ],
+      "pass": true
+    }
+  ],
+  "seconds": 4.1112091450049775
+}

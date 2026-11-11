@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "dimension": 21,
+  "input_matches": [
+    {
+      "producer_file": "research/dim21_gaussian_ready_20261111/certificate.json",
+      "audit_file": "certificate.json",
+      "sha256": "a3379c700f45d7a9302d67dab3d949f03daba4d8930fee3620d8ed3708dbc074"
+    },
+    {
+      "producer_file": "research/dim21_gaussian_ready_20261111/continuum_three_point/cyclic_angular40_exact.json",
+      "audit_file": "angular.json",
+      "sha256": "13d69489eb277d91b11bf3891e2a6eb55e71b5813b3422ba37083c0dcfa930b1"
+    }
+  ],
+  "frozen_producer_checksum_entries_passed": 15,
+  "pinned_upper_matches": true,
+  "previous_repository_value_matches": true,
+  "previous_repository_evidence": {
+    "path": "research/sphere_fourth_release_20261111/verifications/origin_slack/certified_bounds.json",
+    "sha256": "db7db8a6c89f75af554b9592f2bfab9626e00e84648b0e60e93bef266165229d",
+    "registry_path": "research/sphere_fourth_release_20261111/RESULTS.json",
+    "registry_sha256": "26aba6ce15d0e3e24a248b4df626a49f836e580f92c892114396739b4a226bcf",
+    "registry_entry": {
+      "dimension": 21,
+      "strict_density_upper_bound": "0.005149549312",
+      "package": "verifications/origin_slack",
+      "known_lower_density": "0.0029298291067157025989",
+      "previous_upper_density": "0.0051596603948176",
+      "upper_decrease_percent": "0.195964",
+      "gap_decrease_percent": "0.453446",
+      "old_gap": "0.0022298312881018974011",
+      "new_gap": "0.0022197202052842974011",
+      "earlier_repository_upper_densities": [
+        "0.005149554"
+      ],
+      "source_package": "verifications/dim21",
+      "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+    }
+  }
+}

@@ -188,3 +188,7 @@ The 29,30,31,33,35,37D upper comparisons are pinned Cohn-table values associated
 - 33D: lower 2^9*pi^16*3^16*sqrt(3)*17!/34!; strict new upper 0.00009009682341.
 - 35D: lower 2^37*sqrt(2)*pi^17*18!/36!; strict new upper 0.00004463661144.
 - 37D: lower 2^40*sqrt(2)*pi^18*19!/38!; strict new upper 0.00002171160843.
+
+## 21D Gaussian refinement
+
+Strict new upper0.004985977000 improves the prior repository upper0.005149549312 by3.176439% and closes7.369051% of its gap to the same known lower. Against the pinned published0.0051596603948176, the reductions are3.366179% and7.789082%. The existing lower formula/source is unchanged. See the [independent comparison](verifications/dim21/refinement_gaussian/independent/comparison.json); source-freshness caveats remain.

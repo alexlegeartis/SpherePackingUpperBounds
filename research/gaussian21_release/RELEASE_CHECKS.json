@@ -1,0 +1,9 @@
+{
+  "dimension": 21,
+  "new_registered_upper": "0.004985977000",
+  "fresh_complete_registered_chain": "PASS exit0",
+  "fresh_origin_schur_compatibility": "PASS exit0",
+  "deterministic_export": "PASS byte-identical",
+  "historical_full_aggregate": "NOT RUN; unchanged historical artifacts and completed audits reused",
+  "prior_interrupted_eight_dimension_aggregate": "NOT PASSED, no change to prior disclosure"
+}

@@ -43,7 +43,7 @@ proof_ideas = {37:"Dimension-specific angular kernel + Gaussian radial optimizat
  18: 'Solid-harmonic cyclic kernel + Schur origin saturation',
  19: 'Solid-harmonic cyclic kernel + Schur origin saturation',
  20: 'Solid-harmonic cyclic kernel + Schur origin saturation',
- 21: 'Annular three-point kernel + Schur origin tightening',
+ 21: 'Dimension-specific angular kernel + Gaussian radial optimization',
  25: 'Dimension-specific angular kernel + Gaussian radial optimization',
  28: 'Dimension-specific angular kernel + Gaussian radial optimization',
  32: 'Dimension-specific angular kernel + Gaussian radial optimization',

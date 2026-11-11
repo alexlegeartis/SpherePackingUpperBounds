@@ -1,0 +1,10 @@
+{
+  "source_url": "https://cohn.mit.edu/sphere-packing/",
+  "underlying_reference": "https://arxiv.org/abs/2006.02560v2",
+  "retrieved": "2026-11-11",
+  "source_note": "Pinned indexed Cohn table; no exhaustive worldwide-priority claim.",
+  "dimension": 21,
+  "upper": "0.0051596603948176",
+  "previous_repository_upper": "0.005149549312",
+  "previous_repository_package": "verifications/origin_slack"
+}

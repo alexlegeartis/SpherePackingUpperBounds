@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "dimension": 21,
+  "checks": {
+    "verify_all.py_rejects_optimized_python": true,
+    "verify_radial.py_rejects_optimized_python": true,
+    "verify_angular_cyclic.py_rejects_optimized_python": true,
+    "verify_comparison.py_rejects_optimized_python": true,
+    "altered_certificate_rejected_before_proof_execution": true
+  }
+}

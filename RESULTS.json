@@ -174,19 +174,21 @@
   },
   {
     "dimension": 21,
-    "strict_density_upper_bound": "0.005149549312",
-    "package": "verifications/origin_slack",
+    "strict_density_upper_bound": "0.004985977000",
+    "package": "verifications/dim21/refinement_gaussian",
     "known_lower_density": "0.0029298291067157025989",
     "previous_upper_density": "0.0051596603948176",
-    "upper_decrease_percent": "0.195964",
-    "gap_decrease_percent": "0.453446",
+    "upper_decrease_percent": "3.366179",
+    "gap_decrease_percent": "7.789082",
     "old_gap": "0.0022298312881018974011",
-    "new_gap": "0.0022197202052842974011",
+    "new_gap": "0.0020561478932842974011",
     "earlier_repository_upper_densities": [
-      "0.005149554"
+      "0.005149554",
+      "0.005149549312"
     ],
-    "source_package": "verifications/dim21",
-    "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
+    "source_package": "verifications/dim21/refinement_gaussian",
+    "method": "Dimension-specific Gaussian cyclic angular kernel and optimized radial Fourier pair with rank-one origin Gram",
+    "previous_repository_package": "verifications/origin_slack"
   },
   {
     "dimension": 22,
