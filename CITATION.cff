@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these bounds or this verification code, please cite this repository."
+title: "Sphere-packing density: new upper bounds in dimensions 4 through 48, with verification packages"
+type: software
+authors:
+  - family-names: Kravatskiy
+    given-names: Alexey
+    affiliation: >-
+      MIRIAI (Moscow Independent Research Institute of Artificial
+      Intelligence), Moscow, Russia
+repository-code: "https://github.com/alexlegeartis/SpherePackingUpperBounds"
+url: "https://github.com/alexlegeartis/SpherePackingUpperBounds"
+preferred-citation:
+  type: generic
+  title: "Sphere-packing density: new upper bounds in dimensions 4 through 48, with verification packages"
+  authors:
+    - family-names: Kravatskiy
+      given-names: Alexey
+  year: 2026
+  url: "https://github.com/alexlegeartis/SpherePackingUpperBounds"
+keywords:
+  - sphere packing
+  - density upper bounds
+  - exact verification
+  - proof certificates
