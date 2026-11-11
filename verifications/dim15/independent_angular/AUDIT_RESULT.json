@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "angular_input_sha256": "ebeb0fd1b0532445cf274f01f6f01f1996f608fc9794eb09e3cb43f3932f6354",
+  "checker_sha256": "922d210a7a14dc80caa0b5ca5dde48ba1c2c3fa8d8031e372432feff4b5fe528",
+  "profile": "h(u)=exp[-12(u/s-1)-16(u/s-1)^2], s=15/8",
+  "dimension": 15,
+  "covers_all_squared_triangle_sides_at_least_s": true,
+  "PSD_angular_and_rank_one_origin_linkage": true,
+  "cap_and_single_sign_transition": true,
+  "full_cyclic_geometry_and_dilation_lemma": true,
+  "radial_certificate_audited_here": false,
+  "density_claim_made_here": false,
+  "details": "independent_result.json; AUDIT.md"
+}

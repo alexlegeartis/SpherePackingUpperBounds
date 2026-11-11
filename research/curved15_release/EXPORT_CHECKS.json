@@ -1,0 +1,11 @@
+{
+  "pass": true,
+  "temporary_copy": true,
+  "radial_exact_fields_match": true,
+  "different_metadata_fields": [
+    "strict_density_upper",
+    "scope"
+  ],
+  "angular_exact_export": "Replayed and bound by verify_primary.py/verify_angular.py",
+  "fresh_optimizer_run": false
+}

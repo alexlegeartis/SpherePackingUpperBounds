@@ -34,7 +34,7 @@ The second percentage is the fraction of the earlier uncertainty interval remove
 
 ## Dimension5 addition
 
-The lower density is pi²/(15sqrt(2)), from the standard D5 lattice, tabulated by [Cohn](https://cohn.mit.edu/sphere-packing/). The current comparison uses the paper-reported0.5122645 from [arXiv:2512.04829v2 Table1](https://arxiv.org/html/2512.04829v2#S3.T1), not the older0.5126451306253027 three-point benchmark. We have not independently replayed the newer paper's own numerical certificates. The decimal is a pinned reported comparison, not an exact optimum claim.
+The lower density is pi²/(15sqrt(2)), from the standard D5 lattice, tabulated by [Cohn](https://cohn.mit.edu/sphere-packing/). The current comparison uses the paper-reported0.5122645 from [arXiv:2512.04829v2 Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), not the older0.5126451306253027 three-point benchmark. We have not independently replayed the newer paper's own numerical certificates. The decimal is a pinned reported comparison, not an exact optimum claim.
 
 The new5D certificate uses the rigorous neighbor-count results in [de Laat–de Oliveira Filho–Vallentin, Table2](https://arxiv.org/html/1206.2608#S6.T2) as external mathematical inputs. Their use is audited; those original spherical SDP certificates are not reconstructed here. The new witness is verified over complete continuous domains. Its audit is source review plus independent reruns and objective reconstruction, not a clean-room implementation or formal proof.
 
@@ -200,3 +200,7 @@ The radial data are unchanged; new target-dimensional angular kernels reduce the
 ## Joint angular/radial refits in 46D and47D
 
 The new strict bounds are0.0000008868492132 and0.0000006010083731. They improve the pinned published uppers by4.590129% and7.405509%, closing4.735895% and7.673514% of the corresponding additive gaps. Lower formulas and citations are unchanged. [Release comparisons](research/angular_radial_refit_release/COMPARISONS.json) also distinguish gains over the immediately preceding angular-only certificates.
+
+## 15D curved-profile comparison
+
+The pinned newer upper .03372585 is the paper-reported15D entry of [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), checked 2026-11-11; its external certificate is not replayed here. The known lower uses center density2^(-9/2), from the [Cohn table](https://cohn.mit.edu/sphere-packing/) indexed four months earlier, giving ordinary density L=2^12*pi^7*8!/(sqrt(2)*16!)=.0168575706567626... . Multiplication by unit-ball volume is recomputed independently at 70 and100 decimal digits. This is a pinned comparison, not exhaustive worldwide priority verification.

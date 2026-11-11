@@ -227,3 +227,7 @@ The new certificates retain the rebuilt angular kernels and extend the Laguerre 
 ## 46D extended coupling
 
 Instead of imposing physical negativity from 7π onward, the new certificate verifies the coupled inequality through X=40 and negativity thereafter. An exact positive value beyond 7π proves this escapes the old sign template. The angular kernel and its global cyclic proof remain unchanged.
+
+## 15D curved radial profile
+
+Replace the scalar Gaussian damping by h(u)=exp(-12(u/s-1)-16(u/s-1)^2), s=15/8. Nonnegative Gegenbauer coefficients give PSD. An exact one-sign-transition property and decreasing dilation ratios extend the minimum-side triangle proof to every scale. The degree63 radial Fourier pair is coupled through X=12, with physical negativity afterward. Separate angular and radial implementations replay these gates. No external neighbor-count input is needed.

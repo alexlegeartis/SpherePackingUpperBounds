@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "scope": "Independent radial audit and PSD/theorem linkage; not a standalone complete angular/cyclic certificate.",
+  "dimension": 15,
+  "strict_density_expression_upper": "0.033671603",
+  "density_interval": "[0.0336716025337934690284942002842102922656652523924343590239489291717046249604551321481660001565748511622425177388392198059876768483078707102915740810427031 +/- 7.32e-155]",
+  "exact_export_and_M_guard": true,
+  "independent_Fourier_identity": true,
+  "both_complete_sign_rays": true,
+  "pair_intervals": 67,
+  "pair_depth": 12,
+  "pair_domain": "[pi*(15/8),12]",
+  "origin_PSD_exact": true,
+  "normalization_exact": true,
+  "rational_odd_dimensional_rounding": true,
+  "input_sha256": {
+    "inputs/angular_exact.json": "ebeb0fd1b0532445cf274f01f6f01f1996f608fc9794eb09e3cb43f3932f6354",
+    "inputs/certificate.json": "25ead1a73f05106192623c3e7cdefa8885cbd607e903523d0ec8716319b4c7b9",
+    "inputs/discovery_candidate.json": "f7240f69bd06f78d4ba08e3885fe205fef7e2db9f9aacece6a9311915c1f27a2"
+  },
+  "angular_proof_dependency": "ANGULAR_DEPENDENCY.json and AUDIT.md",
+  "full_angular_geometry_replayed_here": false,
+  "formal_proof_assistant_verification": false
+}

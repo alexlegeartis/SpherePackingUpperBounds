@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "audit_folder": "research/density_curved_profile15_angular_independent_20261111",
+  "entrypoint": "verify_all.py",
+  "shared_angular_sha256": "ebeb0fd1b0532445cf274f01f6f01f1996f608fc9794eb09e3cb43f3932f6354",
+  "reported_status": "PASS",
+  "scope": "Dimension 15, h(u)=exp[-12(u/s-1)-16(u/s-1)^2], s=15/8, every triangle with side lengths at least sqrt(s), all dilations and tails.",
+  "reported_accepted_rectangles": 10744,
+  "reported_sorting_exclusions": 1041,
+  "radial_audit_replays_angular_geometry": false,
+  "composition_contract": "Run both standalone audits on byte-identical angular data. The present package proves all radial and exact rounding gates; the separate package proves complete angular/cyclic geometry. No copied PASS flag is used as a substitute for either replay.",
+  "independent_geometry_entrypoint": "independent_check.py",
+  "frozen_external_artifact_sha256": {
+    "manifest.json": "7b0a271f2ff1603e4b1e83daa309cd24989aada1084550049eb93e7674472175",
+    "SHA256SUMS": "d57bb32fdf5e7fd491491987013022790437281b91efd2db5dcc4f59af483d61",
+    "AUDIT_RESULT.json": "f24a1dc54760de502b8cdeb9fdac1d530376409a25461d72f8730eecaca4078f",
+    "independent_result.json": "2fa962392b48d4e189e0dc5becad81a4c73fc60ba384b3f77f41cfbc6645cb97"
+  },
+  "external_hashes_checked": true
+}

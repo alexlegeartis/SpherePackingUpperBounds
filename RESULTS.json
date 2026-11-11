@@ -89,6 +89,23 @@
     "new_gap": "0.025286898854287426900"
   },
   {
+    "dimension": 15,
+    "strict_density_upper_bound": "0.033671603",
+    "package": "verifications/dim15",
+    "source_package": "verifications/dim15",
+    "method": "Quartic radial damping with exact sign-transition and all-dilation cyclic reduction",
+    "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_status": "Paper-reported value printed to8 decimal places; no independent replay or exhaustive priority assertion",
+    "previous_upper_reviewed": "2026-11-11",
+    "external_neighbor_counts_required": false,
+    "known_lower_density": "0.016857570656762697648",
+    "previous_upper_density": "0.03372585",
+    "upper_decrease_percent": "0.160847",
+    "gap_decrease_percent": "0.321592",
+    "old_gap": "0.016868279343237302352",
+    "new_gap": "0.016814032343237302352"
+  },
+  {
     "dimension": 17,
     "strict_density_upper_bound": "0.018204096",
     "package": "verifications/dim17/refinement_repaired",

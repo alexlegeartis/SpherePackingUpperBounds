@@ -1,0 +1,47 @@
+{
+  "pass": true,
+  "tests": [
+    {
+      "script": "verify_all.py",
+      "flag": "-O",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/verify_all.py\", line 3, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    },
+    {
+      "script": "verify_all.py",
+      "flag": "-OO",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/verify_all.py\", line 3, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    },
+    {
+      "script": "independent_check.py",
+      "flag": "-O",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/independent_check.py\", line 5, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    },
+    {
+      "script": "independent_check.py",
+      "flag": "-OO",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/independent_check.py\", line 5, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    },
+    {
+      "script": "primary_replay/verify_angular.py",
+      "flag": "-O",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/primary_replay/verify_angular.py\", line 6, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    },
+    {
+      "script": "primary_replay/verify_angular.py",
+      "flag": "-OO",
+      "returncode": 1,
+      "rejected_as_expected": true,
+      "stderr": "Traceback (most recent call last):\n  File \"/workspace/scratch/941a2e823e69/research/density_curved_profile15_angular_independent_20261111/primary_replay/verify_angular.py\", line 6, in <module>\n    raise RuntimeError('Assertions are required; do not run this verifier with -O or -OO.')\nRuntimeError: Assertions are required; do not run this verifier with -O or -OO.\n"
+    }
+  ]
+}

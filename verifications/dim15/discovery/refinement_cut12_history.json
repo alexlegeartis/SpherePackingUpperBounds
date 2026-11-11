@@ -1,0 +1,32 @@
+[
+  {
+    "round": 1,
+    "density_candidate": 0.033671576742202454,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 2,
+    "density_candidate": 0.03367157841105244,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 3,
+    "density_candidate": 0.033671578988797975,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 4,
+    "density_candidate": 0.03367157932513978,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 5,
+    "density_candidate": 0.03367157968496484,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 6,
+    "density_candidate": 0.03367157975743624,
+    "radial_audit_pass": true
+  }
+]
