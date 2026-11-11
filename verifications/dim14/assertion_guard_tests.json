@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "tests": [
+    {
+      "script": "verify.py",
+      "mode": "-O",
+      "rejected_before_verification": true,
+      "returncode": 1
+    },
+    {
+      "script": "verify.py",
+      "mode": "-OO",
+      "rejected_before_verification": true,
+      "returncode": 1
+    },
+    {
+      "script": "verify_angular.py",
+      "mode": "-O",
+      "rejected_before_verification": true,
+      "returncode": 1
+    },
+    {
+      "script": "verify_angular.py",
+      "mode": "-OO",
+      "rejected_before_verification": true,
+      "returncode": 1
+    }
+  ]
+}

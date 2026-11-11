@@ -1,0 +1,41 @@
+{
+  "pass": true,
+  "controls": [
+    {
+      "control": "disabled_angular_assertions",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "RuntimeError: Assertions are required; do not run this verifier with -O or -OO."
+    },
+    {
+      "control": "disabled_radial_assertions",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "RuntimeError: Do not use Python -O"
+    },
+    {
+      "control": "physical_coefficient",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "AssertionError"
+    },
+    {
+      "control": "normalization",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "AssertionError"
+    },
+    {
+      "control": "origin_amplitude",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "AssertionError"
+    },
+    {
+      "control": "negative_harmonic",
+      "rejected": true,
+      "returncode": 1,
+      "last_error": "AssertionError"
+    }
+  ]
+}

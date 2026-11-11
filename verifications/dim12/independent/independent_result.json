@@ -1,0 +1,22 @@
+{
+  "pass": true,
+  "scope": "Angular PSD, exact cap/sign transition, full cyclic geometry and all-scale theorem only. No radial or density claim.",
+  "angular_sha256": "ac0ec1476d2e6e9148befce45cc6ab2dc281587c308357edeb4ed9f7b2b6758b",
+  "precision_bits": 320,
+  "closed_Gegenbauer_reconstruction_pass": true,
+  "exact_Bernstein_cap_leaves": 23,
+  "one_sign_transition_root": "Unique real root in (1/2,1), exact Sturm",
+  "all_eight_symbolic_partials_match": true,
+  "denominator_lower_bound_squared_exact": "1",
+  "independent_AD_interval_cyclic_pass": true,
+  "accepted_rectangles": 13914,
+  "discarded_sorting_rectangles": 934,
+  "tested": 29695,
+  "max_binary_depth": 27,
+  "exact_partition_area": "9/2",
+  "tail_case_t_ge_minus_one_quarter_upper_positive_part": "[3.5223454437432462630647121076476877225995805561442524422860532070254499174412196614050826154166e-1626 +/- 3.19e-1721]",
+  "tail_case_t_le_minus_one_quarter_upper_positive_part": "[1.3252707902868854231745521938682809839391672476314662645986350351443985245866395787762418695955e-10 +/- 3.37e-105]",
+  "all_scale_ratio_log_derivative_bracket_lower_bound": "42",
+  "all_scale_extension_pass": true,
+  "seconds": 7.056936502456665
+}

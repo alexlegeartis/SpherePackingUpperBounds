@@ -1,0 +1,11 @@
+{
+  "dimension": 12,
+  "source": "https://arxiv.org/html/2512.04829v2#S5",
+  "source_location": "Table 1, AI-Based Bound column",
+  "checked_date_UTC": "2026-11-11",
+  "published_upper": "0.0797066",
+  "new_strict_upper": "0.079503107",
+  "percentage_reduction_exact": "203493/797066",
+  "percentage_reduction_decimal": 0.2553025721834829,
+  "scope": "Comparison with the pinned published bound, not an exhaustive proof that no other result exists. The Cohn page returned HTTP502 during this audit; no newer relevant primary bound was found in targeted searches."
+}

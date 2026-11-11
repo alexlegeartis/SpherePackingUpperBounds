@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "dimension": 12,
+  "precision_bits": 256,
+  "cap_margin_exact": "1/20000",
+  "single_sign_transition": true,
+  "certified_rectangles": 7309,
+  "discarded_sorting_rectangles": 567,
+  "max_depth": 14,
+  "tested": 15751,
+  "all_u_ge4_tail_pass": true,
+  "seconds": 5.288748264312744,
+  "angular_sha256": "ac0ec1476d2e6e9148befce45cc6ab2dc281587c308357edeb4ed9f7b2b6758b"
+}

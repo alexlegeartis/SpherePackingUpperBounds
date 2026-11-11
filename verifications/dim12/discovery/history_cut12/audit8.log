@@ -1,0 +1,8 @@
+Root check fourier 63
+fourier [] seconds 0.07606077194213867
+Root check physical 63
+physical [] seconds 0.17499971389770508
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_curved_profile12_verify_20261111/audit_radial.py", line 43, in <module>
+    raise RuntimeError(f'Positive pair point X={xm}: {f0}')
+RuntimeError: Positive pair point X=[8.55724430591903683462837461425018484408747172404449332162592204081382742169085000452096461927624384517045527859004 +/- 1.56e-114]: [1.72952890362519596650800938142194544381589588559143165713340308212210499874118617921921250417999e-11 +/- 6.27e-107]

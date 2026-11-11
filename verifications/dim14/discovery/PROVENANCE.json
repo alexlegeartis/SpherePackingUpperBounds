@@ -1,0 +1,27 @@
+{
+  "dimension": 14,
+  "s_exact": "7/4",
+  "angular_degree": 19,
+  "radial_degree": 63,
+  "profiles_initial": [
+    [
+      12,
+      16
+    ],
+    [
+      14,
+      8
+    ]
+  ],
+  "Gaussian_control": [
+    16,
+    0
+  ],
+  "angular_rounds": 2,
+  "comparator": "0.04501031",
+  "comparator_source": "https://arxiv.org/html/2512.04829v2",
+  "angular_reoptimized_dimension": 14,
+  "source15_use": "Code and positive numerical column scales only. All Gegenbauer recurrence/evaluation and optimization constraints are recomputed in n=14.",
+  "source_folders_unchanged": true,
+  "certified": false
+}

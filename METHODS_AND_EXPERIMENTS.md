@@ -231,3 +231,7 @@ Instead of imposing physical negativity from 7π onward, the new certificate ver
 ## 15D curved radial profile
 
 Replace the scalar Gaussian damping by h(u)=exp(-12(u/s-1)-16(u/s-1)^2), s=15/8. Nonnegative Gegenbauer coefficients give PSD. An exact one-sign-transition property and decreasing dilation ratios extend the minimum-side triangle proof to every scale. The degree63 radial Fourier pair is coupled through X=12, with physical negativity afterward. Separate angular and radial implementations replay these gates. No external neighbor-count input is needed.
+
+## Curved-profile extensions to 11–14D
+
+The quartic radial profile is retuned by dimension. Positive Gegenbauer weights provide PSD; exact sign-transition and dilation-ratio inequalities reduce all-scale cyclic geometry to a compact minimum-side cover plus rigorous tails. A separate degree63 Fourier pair is coupled through X=12. This extends the15D mechanism without importing external neighbor counts.

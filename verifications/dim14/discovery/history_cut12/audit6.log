@@ -1,0 +1,9 @@
+Root check fourier 63
+fourier [(13.748962594778954, 1), (13.749533567319913, 1)] seconds 0.08048391342163086
+Root check physical 63
+physical [] seconds 0.16524219512939453
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_curved_profile14_20261111/a14_b8_proof/audit_radial.py", line 21, in <module>
+    if any(reject.values()):raise RuntimeError('Forbidden radial roots; add cuts before claiming a bound')
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Forbidden radial roots; add cuts before claiming a bound

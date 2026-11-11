@@ -1,0 +1,14 @@
+{
+  "review_date": "2026-11-11",
+  "upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+  "upper_status": "Live Table1 read, paper-reported decimals; source certificates not replayed",
+  "lower_source": "https://cohn.mit.edu/sphere-packing/",
+  "lower_status": "Indexed four months earlier; live fetch502; no exhaustive current priority claim",
+  "center_density": {
+    "11": "9/256",
+    "12": "1/27",
+    "13": "9/256",
+    "14": "1/(16*sqrt3)"
+  },
+  "conversion": "Multiply by pi^(n/2)/Gamma(n/2+1)"
+}

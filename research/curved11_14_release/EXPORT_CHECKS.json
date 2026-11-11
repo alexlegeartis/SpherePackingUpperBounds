@@ -1,0 +1,50 @@
+[
+  {
+    "dimension": 11,
+    "pass": true,
+    "temporary_copy": true,
+    "radial_exact_fields_match": true,
+    "different_metadata_fields": [
+      "strict_density_upper",
+      "scope"
+    ],
+    "angular_exact_export": "Replayed and bound by primary angular verifier",
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 12,
+    "pass": true,
+    "temporary_copy": true,
+    "radial_exact_fields_match": true,
+    "different_metadata_fields": [
+      "strict_density_upper",
+      "scope"
+    ],
+    "angular_exact_export": "Replayed and bound by primary angular verifier",
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 13,
+    "pass": true,
+    "temporary_copy": true,
+    "radial_exact_fields_match": true,
+    "different_metadata_fields": [
+      "strict_density_upper",
+      "scope"
+    ],
+    "angular_exact_export": "Replayed and bound by primary angular verifier",
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 14,
+    "pass": true,
+    "temporary_copy": true,
+    "radial_exact_fields_match": true,
+    "different_metadata_fields": [
+      "strict_density_upper",
+      "scope"
+    ],
+    "angular_exact_export": "Replayed and bound by primary angular verifier",
+    "fresh_optimizer_run": false
+  }
+]

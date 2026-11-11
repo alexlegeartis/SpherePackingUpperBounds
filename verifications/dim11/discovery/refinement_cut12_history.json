@@ -1,0 +1,62 @@
+[
+  {
+    "round": 1,
+    "density_candidate": 0.10663875270218863,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 2,
+    "density_candidate": 0.10663888524683904,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 3,
+    "density_candidate": 0.10663891236197694,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 4,
+    "density_candidate": 0.10663892195333981,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 5,
+    "density_candidate": 0.106638922417059,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 6,
+    "density_candidate": 0.10663892266678505,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 7,
+    "density_candidate": 0.10663892283260487,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 8,
+    "density_candidate": 0.1066389229787721,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 9,
+    "density_candidate": 0.10663892625880499,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 10,
+    "density_candidate": 0.10663892681802407,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 11,
+    "density_candidate": 0.10663892750521178,
+    "radial_audit_pass": false
+  },
+  {
+    "round": 12,
+    "density_candidate": 0.10663892898366822,
+    "radial_audit_pass": true
+  }
+]
