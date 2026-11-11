@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "dimension": 47,
+  "degree": 19,
+  "b0_exact": "1",
+  "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688",
+  "B_float": 654320266.7878339,
+  "harmonic_expansion_exact": true,
+  "constant_coefficient_spherical_moment_exact": true,
+  "all_harmonic_coefficients_nonnegative": true,
+  "sturm_variations_minus_one_cut_one": [
+    10,
+    10,
+    9
+  ],
+  "strict_cap_margin_exact": "1/100000",
+  "unique_root_bracket_exact": [
+    "99055017696872891561836114339283/198070406285660843983859875840000",
+    "396220070787491566247344457362131/792281625142643375935439503360000"
+  ],
+  "unique_root_bracket_float": [
+    0.5001000379330464,
+    0.5001000379330464
+  ],
+  "tail_exponential_majorant_exact": true
+}

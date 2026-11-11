@@ -211,3 +211,7 @@ Dimensions29,30,31,33,35,37 use freshly optimized dimension-specific angular ker
 ## 21D Gaussian continuation
 
 A fresh Gaussian-damped angular kernel and radial Fourier pair replace the earlier compact annular certificate as the registered21D bound. The summed cyclic triangle argument and rank-one origin Gram are the same general mechanism as22/23; dimension-specific angular degree13, minimum squared separation21/8 and kappa34/7 are verified independently. The old compact-kernel and origin-Schur witnesses remain separate historical proofs. No new external neighbor-count assumption is introduced.
+
+## Angular replacement with a fixed radial witness
+
+The46D and47D refinements use newly optimized target-dimensional angular PSD polynomials while keeping each preceding physical/Fourier pair and radial allowance M exactly unchanged. The angular cyclic inequality is completely reverified; reducing B/b0 reduces the origin Gram cost M B/b0 without changing the pair allowance. This combines compatible components, not a convex mixture of final density bounds. Earlier radial/transfer proof packages remain available, and discovery checkpoints export to the new exact angular inputs.

@@ -192,3 +192,7 @@ The 29,30,31,33,35,37D upper comparisons are pinned Cohn-table values associated
 ## 21D Gaussian refinement
 
 Strict new upper0.004985977000 improves the prior repository upper0.005149549312 by3.176439% and closes7.369051% of its gap to the same known lower. Against the pinned published0.0051596603948176, the reductions are3.366179% and7.789082%. The existing lower formula/source is unchanged. See the [independent comparison](verifications/dim21/refinement_gaussian/independent/comparison.json); source-freshness caveats remain.
+
+## Rebuilt angular kernels in 46D and47D
+
+The radial data are unchanged; new target-dimensional angular kernels reduce the origin cost. Known lower formulas and pinned published upper references remain unchanged. Exact new upper bounds and comparison arithmetic are recorded in [release comparisons](research/angular_border_release/COMPARISONS.json). These are pinned-reference improvements, not exhaustive current-priority claims.

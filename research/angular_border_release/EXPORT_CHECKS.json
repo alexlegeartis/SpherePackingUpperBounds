@@ -1,0 +1,14 @@
+[
+  {
+    "dimension": 46,
+    "deterministic_angular_export": "PASS byte-identical",
+    "fresh_optimizer": false,
+    "unrelated_cwd": true
+  },
+  {
+    "dimension": 47,
+    "deterministic_angular_export": "PASS byte-identical",
+    "fresh_optimizer": false,
+    "unrelated_cwd": true
+  }
+]

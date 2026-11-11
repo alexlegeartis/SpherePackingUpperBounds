@@ -1,0 +1,32 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 7771, 'discarded_rectangles': 432, 'max_depth': 16, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 47, 'strict_upper': '0.0000006117584752', 'density_interval': '[6.1175847516131160009888892627056047388644491389730877895442236214498733399560517560699327822704351260638803523947521919509350086577234653728351736132042e-7 +/- 4.26e-159]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 33, 'coupling_depth': 20, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000006490757338', 'fractional_improvement_lower': '186586293/3245378669'}
+ANGULAR_PASS {"pass": true, "dimension": 47, "degree": 19, "b0_exact": "1", "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688", "B_float": 654320266.7878339, "harmonic_expansion_exact": true, "constant_coefficient_spherical_moment_exact": true, "all_harmonic_coefficients_nonnegative": true, "sturm_variations_minus_one_cut_one": [10, 10, 9], "strict_cap_margin_exact": "1/100000", "unique_root_bracket_exact": ["99055017696872891561836114339283/198070406285660843983859875840000", "396220070787491566247344457362131/792281625142643375935439503360000"], "unique_root_bracket_float": [0.5001000379330464, 0.5001000379330464], "tail_exponential_majorant_exact": true}
+CYCLIC_PROGRESS 10000 4755 243 5
+CYCLIC_PASS {"pass": true, "dimension": 47, "precision_bits": 256, "alpha": 40, "compact_domain": "0<=t<=1/2, 1<=u<=5, 2tu<=1", "certified_rectangles": 4860, "discarded_rectangles": 251, "processed_rectangles": 10221, "max_axis_depth": 16, "changed_geometry_radicand": "exact monotone rational endpoint bounds", "gap_clipping": "nonnegative on the sorted-triangle feasible domain", "signed_secondary_terms": true, "tails_exact": true, "tail_first_gap_if_positive_exact": "4001/1000", "tail_second_gap_lower_exact": "24", "scale_extension": "single-sign-transition lemma; see AUDIT.md", "seconds": 1.7724170684814453}
+RADIAL_HASH_AND_FOURIER_PASS 942f9cf4152a8a5f84519e8d5025360490ffb69e35919404b1b8550ff2fbb476
+FOURIER_RAY_PASS
+PHYSICAL_RAY_PASS
+COUPLING_PASS 33 depth 20 seconds 0.06874632835388184
+RADIAL_SUBSTITUTION_PASS {"pass": true, "dimension": 47, "precision_bits": 512, "unchanged_radial_fields": {"physical_polynomial": true, "fourier_polynomial": true, "M_exact": true}, "radial_canonical_sha256": "942f9cf4152a8a5f84519e8d5025360490ffb69e35919404b1b8550ff2fbb476", "source_radial_file_sha256": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c", "source_transfer_file_sha256": "116f4457e00b2751295370ad62163f1facadf0a70ed87b73b9d9a186b7b4135d", "new_certificate_file_sha256": "411ddeccc5425a85e555706e93867b180518318c6c238a47239d87802c85e6cd", "angular_file_sha256": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f", "Fourier_identity_by_Laguerre_recurrence": true, "coupling_intervals": 33, "coupling_depth": 20, "coupling_interval_union_checked": true, "coupling_full_signed_expression": true, "b0_exact": "1", "M_exact": "695342450745971209215805000/45314951383275907625416828907438427", "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688", "origin_cost_exact": "2475441399248102260894608898083080764255588231623912744497943554403078356859026875/246550025624420485201423517328833873663354920813308380140207692236552206886633472", "origin_PSD_rank_one_identity": true, "objective_matches_primary_exact": true, "damping_lower_exceeds_40_exact": true, "strict_density_upper": "0.0000006117584752", "density_interval": "[6.1175847516131160009888892627056047388644491389730877895442236214498733399560517560699327822704351260638803523947521919509350086577234653728351736132042e-7 +/- 4.26e-159]", "rational_rounding_strict": true, "odd_dimensional_squared_volume_identity_exact": true, "pinned_comparator": "0.0000006490757338", "fractional_improvement_lower": "186586293/3245378669", "scope": "Radial, exact substitution and rounding. Angular/cyclic result files also required."}
+{
+  "pass": true,
+  "dimension": 47,
+  "strict_upper": "0.0000006117584752",
+  "density_interval": "[6.1175847516131160009888892627056047388644491389730877895442236214498733399560517560699327822704351260638803523947521919509350086577234653728351736132042e-7 +/- 4.26e-159]",
+  "cyclic_rectangles": 4860,
+  "pair_intervals": 33,
+  "input_sha256": {
+    "angular47.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+    "new_complete_certificate.json": "411ddeccc5425a85e555706e93867b180518318c6c238a47239d87802c85e6cd",
+    "old_transfer47.json": "116f4457e00b2751295370ad62163f1facadf0a70ed87b73b9d9a186b7b4135d",
+    "source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c"
+  },
+  "independent_computer_assisted_audit": true,
+  "formal_proof_assistant_verification": false
+}
+PASS registered 47D complete primary and independent chains

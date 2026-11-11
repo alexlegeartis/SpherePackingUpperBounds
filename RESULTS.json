@@ -591,34 +591,43 @@
   },
   {
     "dimension": 46,
-    "strict_density_upper_bound": "0.000000914882847",
-    "package": "verifications/dim46",
-    "method": "Exact radial Fourier perturbation, inherited angular cyclic proof and rank-one origin saturation",
+    "strict_density_upper_bound": "0.000000897267583",
+    "package": "verifications/dim46/refinement_angular",
+    "method": "Rebuilt dimension-specific angular PSD kernel with unchanged radial witness and reduced origin cost",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.8609574721360648103e-8",
     "previous_upper_density": "9.295151556E-7",
-    "upper_decrease_percent": "1.574187",
-    "gap_decrease_percent": "1.624178",
+    "upper_decrease_percent": "3.469290",
+    "gap_decrease_percent": "3.579462",
     "old_gap": "9.0090558087863935190e-7",
-    "new_gap": "8.8627327227863935190e-7"
+    "new_gap": "8.6865800827863935190e-7",
+    "earlier_repository_upper_densities": [
+      "0.000000914882847"
+    ],
+    "previous_repository_package": "verifications/dim46",
+    "source_package": "verifications/dim46/refinement_angular"
   },
   {
     "dimension": 47,
-    "strict_density_upper_bound": "0.000000616879891",
-    "package": "verifications/dim47",
-    "method": "Fourier restriction of the 48D source and exact Gegenbauer origin Gram saturation",
-    "source_package": "verifications/dim48/continuum_three_point",
+    "strict_density_upper_bound": "0.0000006117584752",
+    "package": "verifications/dim47/refinement_angular",
+    "method": "Rebuilt dimension-specific angular PSD kernel with unchanged radial witness and reduced origin cost",
+    "source_package": "verifications/dim47/refinement_angular",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table, four-month-old crawl; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.2669603229310984383e-8",
     "previous_upper_density": "6.490757338E-7",
-    "upper_decrease_percent": "4.960260",
-    "gap_decrease_percent": "5.139771",
+    "upper_decrease_percent": "5.749292",
+    "gap_decrease_percent": "5.957358",
     "old_gap": "6.2640613057068901562e-7",
-    "new_gap": "5.9421028777068901562e-7"
+    "new_gap": "5.8908887197068901562e-7",
+    "earlier_repository_upper_densities": [
+      "0.000000616879891"
+    ],
+    "previous_repository_package": "verifications/dim47"
   },
   {
     "dimension": 48,

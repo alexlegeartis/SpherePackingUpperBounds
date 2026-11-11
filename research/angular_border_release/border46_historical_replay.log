@@ -1,0 +1,16 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 46, 'strict_upper': '0.000000914882847', 'density_interval': '[9.1488284600262300906264110774671012774815093433564050608912408891658744426658146413084020013286703491110482354621588645003319793508420592842195065235930e-7 +/- 4.10e-159]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 35, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'inherited_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000009295151556', 'fractional_improvement_lower': '24387181/1549191926'}
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+Independent exact Sturm start Fourier
+Independent exact Sturm PASS Fourier 55 55
+Independent exact Sturm start physical
+Independent exact Sturm PASS physical 55 55
+{'pass': True, 'dimension': 46, 'Fourier_identity': True, 'global_exact_Sturm_signs': True, 'Gegenbauer_PSD': True, 'origin_Gram_PSD': True, 'pair_leaves': 10, 'pair_depth': 8, 'density_interval': '[9.1488284600262300906264110774671012774815093433564050608912408891658744426658146413084020013286703491110482354621588645003319793508420592842195065235930e-7 +/- 4.00e-159]', 'strict_upper': '914882847/1000000000000000', 'strict_upper_decimal': '0.000000914882847', 'inherited_dependency': 'Source48 angular and global cyclic verification remains required'}
+PASS independent46D radial and inherited angular/cyclic proof chain
+PASS registered46D complete primary and independent proof chains

@@ -1,0 +1,11 @@
+{
+  "dimensions": [
+    46,
+    47
+  ],
+  "fresh_new_primary_independent": "PASS exit0 both dimensions",
+  "fresh_historical_46_47_primary_independent": "PASS exit0 both dimensions",
+  "deterministic_angular_exports": "PASS byte-identical",
+  "historical_other_proofs": "unchanged; completed audits reused, not a fresh aggregate",
+  "previous_interrupted_aggregate": "NOT PASSED, preserved disclosure"
+}
