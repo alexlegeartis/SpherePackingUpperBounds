@@ -1,0 +1,4 @@
+-r requirements.txt
+scipy
+cvxpy>=1.6
+clarabel
