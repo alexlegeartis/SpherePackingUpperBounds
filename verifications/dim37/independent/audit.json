@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "dimension": 37,
+  "Fourier_identity": true,
+  "global_exact_Sturm_signs": true,
+  "Gegenbauer_PSD": true,
+  "origin_Gram_PSD": true,
+  "pair_leaves": 44,
+  "pair_depth": 11,
+  "density_interval": "[2.17116084253162246816772575768163949657296876913677324927124729694745227244942376541217894064602822106393499594990726791024020109253298301061008593018799e-5 +/- 8.72e-158]",
+  "strict_upper": "2171160843/100000000000000",
+  "strict_upper_decimal": "0.00002171160843",
+  "inherited_dependency": "New37D angular and global cyclic verification remains required"
+}

@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "dimension": 37,
+  "input_matches": [
+    {
+      "producer_file": "research/dim37_gaussian_ready_20261111/certificate.json",
+      "audit_file": "certificate.json",
+      "sha256": "a07e75849bf3fd3dca216c267107be8c92e7d4124567330837cb8aaf0430df1d"
+    },
+    {
+      "producer_file": "research/dim37_gaussian_ready_20261111/continuum_three_point/cyclic_angular40_exact.json",
+      "audit_file": "angular.json",
+      "sha256": "ce59f1355e13956b7d83d9c75b663c527cf04eed56d0dd55ccda32bb90c757ce"
+    }
+  ],
+  "frozen_producer_checksum_entries_passed": 9,
+  "pinned_upper_matches": true
+}

@@ -203,3 +203,7 @@ The independently audited 25,28,32,34,36,38,39,40D certificates use the same Gau
 ## 22D, 23D, 26D and 27D Gaussian cyclic continuation
 
 All four use freshly optimized dimension-specific angular kernels and radial Fourier pairs, with rank-one origin Gram normalization and the summed cyclic triangle condition. Full primary and independent replays pass. The 22/23 independent audit uses a different triangle parameterization and Taylor pair enclosure but shares FLINT root isolation with the primary proof; its unfinished rational-Sturm experiments are not claimed as passed. The 26/27 independent audits instead complete rational Sturm proofs. Earlier noncompetitive compact-kernel 22D diagnostics remain as historical research, not current bounds.
+
+## Completing the 25–40D Gaussian family
+
+Dimensions29,30,31,33,35,37 use freshly optimized dimension-specific angular kernels and radial Fourier pairs within the same Gaussian cyclic family. The rank-one origin Gram and cyclic rather than individual sign condition are the common ideas; each frozen witness has separate full-domain checks and rational-Sturm independent auditing. Deterministic exporters reproduce the exact inputs, without claiming a fresh optimizer replay. See [release scope](research/gaussian_remaining_release/).

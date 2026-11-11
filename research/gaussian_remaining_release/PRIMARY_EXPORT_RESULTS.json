@@ -1,0 +1,44 @@
+[
+  {
+    "dimension": 29,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 30,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 31,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 33,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 35,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  },
+  {
+    "dimension": 37,
+    "primary_pass": true,
+    "export_pass": true,
+    "export_equals_proof": true,
+    "fresh_optimizer_run": false
+  }
+]

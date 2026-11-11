@@ -177,3 +177,14 @@ These four entries improve the pinned Cohn upper table citing arXiv:2006.02560v2
 - 23D: known lower pi^(23/2)/Gamma(23/2+1) * (2^(-34) * 3^(-12) * 23^(23/2)); strict new upper 0.002642540089.
 - 26D: known lower pi^13/(13!*sqrt(3)); strict new upper 0.0009746292767.
 - 27D: known lower 2^28*pi^13*14!/(28!*sqrt(2)); strict new upper 0.0006864321082.
+
+## Remaining 25–40D Gaussian cyclic certificates
+
+The 29,30,31,33,35,37D upper comparisons are pinned Cohn-table values associated with arXiv:2006.02560v2. The following lower formulas are published construction inputs from https://cohn.mit.edu/sphere-packing/, not independently rebuilt packings. Individual independent audits record source review and scope.
+
+- 29D: lower 2^30*pi^14*15!/(30!*sqrt(2)); strict new upper 0.0003420173821.
+- 30D: lower pi^15/15!; strict new upper 0.0002454113168.
+- 31D: lower 2^8*sqrt(2)*pi^15*3^15*16!/32!; strict new upper 0.0001763894399.
+- 33D: lower 2^9*pi^16*3^16*sqrt(3)*17!/34!; strict new upper 0.00009009682341.
+- 35D: lower 2^37*sqrt(2)*pi^17*18!/36!; strict new upper 0.00004463661144.
+- 37D: lower 2^40*sqrt(2)*pi^18*19!/38!; strict new upper 0.00002171160843.

@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "precision": 192,
+  "certified_rectangles": 3494,
+  "discarded_rectangles": 354,
+  "max_depth": 15,
+  "tails_exponential_check": true
+}

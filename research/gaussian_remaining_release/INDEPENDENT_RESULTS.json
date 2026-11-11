@@ -1,0 +1,38 @@
+[
+  {
+    "dimension": 29,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim29/independent/AUDIT.md",
+    "exit_code": 0
+  },
+  {
+    "dimension": 30,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim30/independent/AUDIT.md",
+    "exit_code": 0
+  },
+  {
+    "dimension": 31,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim31/independent/AUDIT.md",
+    "exit_code": 0
+  },
+  {
+    "dimension": 33,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim33/independent/AUDIT.md",
+    "exit_code": 0
+  },
+  {
+    "dimension": 35,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim35/independent/AUDIT.md",
+    "exit_code": 0
+  },
+  {
+    "dimension": 37,
+    "independent_full_chain_pass": true,
+    "audit": "verifications/dim37/independent/AUDIT.md",
+    "exit_code": 0
+  }
+]
