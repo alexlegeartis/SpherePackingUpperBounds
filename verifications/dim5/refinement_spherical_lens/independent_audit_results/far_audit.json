@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "processed": 2879,
+  "passed": 1011,
+  "geometric_exclusions": 430,
+  "relaxed_leaves": 113,
+  "maxdepth": 22,
+  "scope": "Complete far domain; exact initialization, outward Bernstein subdivision, independently derived distance extrema and conservative closed bin intersections"
+}

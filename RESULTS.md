@@ -3,7 +3,7 @@
 | Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [4D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
-| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51013 | 0.42% | 4.54% | [5D proof](verifications/dim5/refinement_guarded/) · [Sources & formulas](COMPARISONS.md) |
+| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.50995 | 0.45% | 4.92% | [5D proof](verifications/dim5/refinement_spherical_lens/) · [Sources & formulas](COMPARISONS.md) |
 | 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.40913 | 0.28% | 3.11% | [6D proof](verifications/dim6/refinement_patch5/) · [Sources & formulas](COMPARISONS.md) |
 | 7 | [≈0.29530](https://cohn.mit.edu/sphere-packing/) | [≈0.32111](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.32058 | 0.17% | 2.05% | [7D proof](verifications/dim7/) · [Sources & formulas](COMPARISONS.md) |
 | 17 | [≈0.0088113](https://doi.org/10.4153/CJM-1964-065-1) | [≈0.018464](https://arxiv.org/abs/2006.02560v2) | ≈0.018204 | 1.41% | 2.69% | [17D proof](verifications/dim17/refinement_repaired/) · [Sources & formulas](COMPARISONS.md) |

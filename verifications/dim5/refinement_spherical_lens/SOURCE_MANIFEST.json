@@ -1,0 +1,186 @@
+{
+  "source_exact_sha256": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+  "strict_upper": "0.509953498",
+  "files": {
+    "certify_count_pair_arb.py": {
+      "packaged_sha256": "c3489bbf1e1cf97ecb96deb659751773923948727ff87e7a0675899e0143c539",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/certify_count_pair_arb.py",
+      "source_sha256": "c3489bbf1e1cf97ecb96deb659751773923948727ff87e7a0675899e0143c539",
+      "byte_identical_to_source": true
+    },
+    "certify_general_lens_far.py": {
+      "packaged_sha256": "7ae3e416f364d23601369aabb7b9adbfabc8b0cb3e017f634091bc3d85ba27f0",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/certify_general_lens_far.py",
+      "source_sha256": "6151e43ab5a0652d0e8d48cddd7f286ecae533f77e7005867f183ab44bb83819",
+      "byte_identical_to_source": false
+    },
+    "RANKIN_AND_SPHERICAL_PROOF.md": {
+      "packaged_sha256": "e26f6950fd5b5d69b26f530ff96b8d2a9f8647cbdd0033f10c268598a7195a9f",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/RANKIN_AND_SPHERICAL_PROOF.md",
+      "source_sha256": "e26f6950fd5b5d69b26f530ff96b8d2a9f8647cbdd0033f10c268598a7195a9f",
+      "byte_identical_to_source": true
+    },
+    "prerequisites.json": {
+      "packaged_sha256": "08efd154b5e4e0742adbe0a08516d8ae8a66a1b7cfeba9d20378ebc8789f0bea",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/prerequisites.json",
+      "source_sha256": "08efd154b5e4e0742adbe0a08516d8ae8a66a1b7cfeba9d20378ebc8789f0bea",
+      "byte_identical_to_source": true
+    },
+    "audit_algebra_exact.py": {
+      "packaged_sha256": "5e7aad6e82cbad749ccd41c706661937517126145befa2276a7150d503975e01",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/audit_algebra_exact.py",
+      "source_sha256": "88475011b23634707e04f9f54d9c89d30186944f630a872a1a7f6773d60526cd",
+      "byte_identical_to_source": false
+    },
+    "step_allowance_query.py": {
+      "packaged_sha256": "d51f5c51932e1646a4ac6da0745c38acd248bcd7f62ed22edc808f40dc159858",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/step_allowance_query.py",
+      "source_sha256": "80c9a51d691b59b91aa3009ef197b485858b9cf2f1dc2defe93c95f8c3057c1c",
+      "byte_identical_to_source": false
+    },
+    "requirements.txt": {
+      "packaged_sha256": "5a75190ff24aae5e1ad06b651da9f394081c0c2a82c3eba4c3dacbe83d298203",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/requirements.txt",
+      "source_sha256": "5a75190ff24aae5e1ad06b651da9f394081c0c2a82c3eba4c3dacbe83d298203",
+      "byte_identical_to_source": true
+    },
+    "construct_step_allowances.py": {
+      "packaged_sha256": "05b162191ea15021710e4410536311dffe01c43f122cd52b06980fae305e5b0f",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/construct_step_allowances.py",
+      "source_sha256": "05b162191ea15021710e4410536311dffe01c43f122cd52b06980fae305e5b0f",
+      "byte_identical_to_source": true
+    },
+    "TEST_RESULTS.json": {
+      "packaged_sha256": "44082ad65f15b42fc1be975f6120691a41362eec5f071a1917079468ec59ad78",
+      "source_path": "Generated for this portable spherical package",
+      "source_sha256": null,
+      "byte_identical_to_source": null
+    },
+    "gaussian_guards.py": {
+      "packaged_sha256": "8852da12f3930c7baa94c86d8ee1f748b999c1627e8cec7d97ae76117a42adf9",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/gaussian_guards.py",
+      "source_sha256": "8852da12f3930c7baa94c86d8ee1f748b999c1627e8cec7d97ae76117a42adf9",
+      "byte_identical_to_source": true
+    },
+    "README.md": {
+      "packaged_sha256": "41d806f96905690250cde0711b5a282c9fe46276df02642d526f0dabf9997a0b",
+      "source_path": "Generated for this portable spherical package",
+      "source_sha256": null,
+      "byte_identical_to_source": null
+    },
+    "witness_psd_exact.json": {
+      "packaged_sha256": "5a1d95d683e8f537d8c7404f3b6b57bc44ad0d053805cb18274afab02257c3ae",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/witness_psd_exact.json",
+      "source_sha256": "5a1d95d683e8f537d8c7404f3b6b57bc44ad0d053805cb18274afab02257c3ae",
+      "byte_identical_to_source": true
+    },
+    "HISTORICAL_LENS_THEOREM.md": {
+      "packaged_sha256": "585736baf8f9f43f9180d0e29ce67253f00afb16c310a26e3ad11aa501710e53",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/PROOF.md",
+      "source_sha256": "585736baf8f9f43f9180d0e29ce67253f00afb16c310a26e3ad11aa501710e53",
+      "byte_identical_to_source": true
+    },
+    "certify_cyclic_bernstein.py": {
+      "packaged_sha256": "fc62a7c1ba88b3310f5d9b292eaf3292429c848217363983994adcdfd6770f48",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/certify_cyclic_bernstein.py",
+      "source_sha256": "fc62a7c1ba88b3310f5d9b292eaf3292429c848217363983994adcdfd6770f48",
+      "byte_identical_to_source": true
+    },
+    "step_allowances_spherical_005.json": {
+      "packaged_sha256": "605a15c07f305a590bb1e0e2c80a9a88f3991023129bcbb5a88c103aa4552046",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/step_allowances_spherical_005.json",
+      "source_sha256": "605a15c07f305a590bb1e0e2c80a9a88f3991023129bcbb5a88c103aa4552046",
+      "byte_identical_to_source": true
+    },
+    "verify.py": {
+      "packaged_sha256": "ab1990bedec83941063d76c87af2887519ab96d69c07afed3db2068cf3f81920",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/verify.py",
+      "source_sha256": "27a9a1f772c0b8004ad7ff5ee6d51e56ef7da96c4492028dc5adea2546675a06",
+      "byte_identical_to_source": false
+    },
+    "source_exact.json": {
+      "packaged_sha256": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/source_exact.json",
+      "source_sha256": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+      "byte_identical_to_source": true
+    },
+    "PROOF.md": {
+      "packaged_sha256": "3f2901eda62afcae096e70a4a6b0ff2beed8811a87513d0cfdfb962378ce2b10",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/PROOF.md",
+      "source_sha256": "f1a14d84e74c97e6c7530ecbddb83f27c64a044fb81afc0d593b0a1caae51b37",
+      "byte_identical_to_source": false
+    },
+    "INDEPENDENT_AUDIT.md": {
+      "packaged_sha256": "5da23c1b13d76f4dfb20c6d83c1d1525264dc7bce0c81d1700e4288e52841297",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/AUDIT.md",
+      "source_sha256": "5da23c1b13d76f4dfb20c6d83c1d1525264dc7bce0c81d1700e4288e52841297",
+      "byte_identical_to_source": true
+    },
+    "spherical_lens_caps.py": {
+      "packaged_sha256": "0933a774c0ec6fad329b05216f5a5e1ed220a63b6344fb6724ebd3fa827936e2",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/frozen_inputs/spherical_lens_caps.py",
+      "source_sha256": "0933a774c0ec6fad329b05216f5a5e1ed220a63b6344fb6724ebd3fa827936e2",
+      "byte_identical_to_source": true
+    },
+    "witness.json": {
+      "packaged_sha256": "b9e51e080a9729e96a6407ba4ae4ca2424ea81bd9051f91b0767076a9b1f7c04",
+      "source_path": "research/density_shell_features_20261111/wedge5_spherical_proof/witness.json",
+      "source_sha256": "b3e7738e2a5d616d04571a53aa6199ac467b8e8fe40f1e1188594adeb09fc8ff",
+      "byte_identical_to_source": false
+    },
+    "verify_count_endpoints.py": {
+      "packaged_sha256": "990f8149a66e29e8a78fc5d2b23232d8cc29690679a76992ca82186f960fc20c",
+      "source_path": "research/density_shell_features_20261111/lens_verification_package/verify_count_endpoints.py",
+      "source_sha256": "990f8149a66e29e8a78fc5d2b23232d8cc29690679a76992ca82186f960fc20c",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/cap_audit.json": {
+      "packaged_sha256": "2dbc10bbbe8fa099493aa9e21bc089e0a0102686336cdbfbfee656b9d5c0f0ed",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/cap_audit.json",
+      "source_sha256": "2dbc10bbbe8fa099493aa9e21bc089e0a0102686336cdbfbfee656b9d5c0f0ed",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/far_audit.json": {
+      "packaged_sha256": "9a9cb4261fc84c8dff8c4fd8f77bf4d4497902115b1f84c5531bd52d88f1b676",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/far_audit.json",
+      "source_sha256": "9a9cb4261fc84c8dff8c4fd8f77bf4d4497902115b1f84c5531bd52d88f1b676",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/algebra_guards_audit.json": {
+      "packaged_sha256": "ba960bd7cfc1a95a1b436383cff5505cdd2268d154f52a4846776d8ff98ce132",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/algebra_guards_audit.json",
+      "source_sha256": "ba960bd7cfc1a95a1b436383cff5505cdd2268d154f52a4846776d8ff98ce132",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/pair_audit.json": {
+      "packaged_sha256": "766d1ce1b55aad0a15be562452c8792980e569c6304c0f17140a5bb4c0d08517",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/pair_audit.json",
+      "source_sha256": "766d1ce1b55aad0a15be562452c8792980e569c6304c0f17140a5bb4c0d08517",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/source_hashes.json": {
+      "packaged_sha256": "393353d8af8c687f04cc7cf7fb69ad0ac64b3a7e7c7c44c28a2ca0e008d78caa",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/source_hashes.json",
+      "source_sha256": "393353d8af8c687f04cc7cf7fb69ad0ac64b3a7e7c7c44c28a2ca0e008d78caa",
+      "byte_identical_to_source": true
+    },
+    "independent_audit_results/budget_audit.json": {
+      "packaged_sha256": "7662ba0eac654c58c2c12c8998ea10a44f6ef6fd8ad9d23a9b3447e66b380df4",
+      "source_path": "research/dim5_spherical_lens_independent_20261111/budget_audit.json",
+      "source_sha256": "7662ba0eac654c58c2c12c8998ea10a44f6ef6fd8ad9d23a9b3447e66b380df4",
+      "byte_identical_to_source": true
+    }
+  },
+  "runtime_generated_outputs_excluded": [
+    "algebra_guards_audit.json",
+    "count_endpoint_result.json",
+    "radial_exact.json",
+    "step_allowances_spherical_005_replay.json",
+    "verification_result.json",
+    "witness_count_pair_arb.json",
+    "witness_cyclic_bernstein.json",
+    "witness_cyclic_bernstein_initial.npz",
+    "witness_wedge_far.json"
+  ],
+  "note": "SHA256SUMS includes this manifest and provenance. Paths document provenance only; replay requires no source-tree access."
+}

@@ -1,0 +1,65 @@
+Frozen source, exact payload, table and boundary conventions: PASS
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.5099534974153451580358966431758354258465687576453685354517475202369317522156 +/- 7.46e-77]
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '1117834832561765221/10000000000000000000', 'guarded_normalization': '19999999999999998358193/20000000000000000000000', 'density_interval': '[0.509953497415345158035896643175835425846568757645368535451747520236931752215657945308689001441897743162707534570006 +/- 2.86e-115]', 'strict_upper': '.509953498', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{
+  "verified": true,
+  "source": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/step_allowances_spherical_005.json",
+  "results": [
+    {
+      "dimension": 5,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 162,
+      "max_depth": 6
+    },
+    {
+      "dimension": 6,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 182,
+      "max_depth": 7
+    },
+    {
+      "dimension": 7,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 168,
+      "max_depth": 5
+    }
+  ],
+  "candidate_binding": {
+    "candidate": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/source_exact.json",
+    "dimension": 5,
+    "physical_function_sha256": "769676c6e255d3b7d7a058eab272590716b52fdae2046d4c809cc62746b52c85",
+    "verified": true
+  }
+}
+Explicit half-open count endpoints: PASS
+{"verified": true, "checked": 123, "max_depth": 11, "seconds": 0.12249279022216797, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+POLYNOMIAL 4163 seconds 0.18412184715270996
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.33153271675109863
+TRANSFORM 1 seconds 0.49581265449523926
+TRANSFORM 2 seconds 0.6984052658081055
+INITIAL (37, 37, 37) -0.9998108167457352 0.1275259694324622
+{"verified": true, "checked": 99, "passed": 44, "excluded": 6, "max_depth": 12, "seconds": 3.0332868099212646, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PROGRESS 1000 relaxed 0 stack 9
+PROGRESS 2000 relaxed 0 stack 11
+{"verified": true, "checked": 2879, "passed": 1011, "relaxed_boxes": 113, "excluded": 430, "max_depth": 22, "failure": null, "seconds": 0.5683140754699707, "witness": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/witness_psd_exact.json", "budget": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/step_allowances_spherical_005.json", "scope": "Far domain only; step budgets must also be replayed and all other density hypotheses verified."}
+COMPLETE_CERTIFICATE_PASS {"dimension": 5, "verified": true, "strict_upper": "0.509953498", "density_enclosure": "[0.5099534974153451580358966431758354258465687576453685354517475202369317522156 +/- 7.46e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Conservative transverse projection, exact spherical LP caps, Rankin and centroid caps, and tail budgets are replayed."}
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '1117834832561765221/10000000000000000000', 'guarded_normalization': '19999999999999998358193/20000000000000000000000', 'density_interval': '[0.509953497415345158035896643175835425846568757645368535451747520236931752215657945308689001441897743162707534570006 +/- 2.86e-115]', 'strict_upper': '.509953498', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 1042, 'maxdepth': 15, 'thresholds_checked_with_smaller_allowance': ['250753/250000', '31503/31250', '506629/500000', '203489/200000'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+PASS exact transverse spherical10/9/8, Rankin5 and centroid caps
+{'pass': True, 'closed_bins': 132, 'leaves': 145, 'maxdepth': 4, 'caps': 'independently verified spherical, Rankin and centroid bounds', 'boundary_rule': 'minimum adjacent allowances, zero at support endpoints'}
+POLYNOMIAL 4163 seconds 0.15523600578308105
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.26476335525512695
+TRANSFORM 1 seconds 0.44693541526794434
+TRANSFORM 2 seconds 0.618633508682251
+INITIAL (37, 37, 37) -0.9998108167457352 0.1275259694324622
+{"verified": true, "checked": 99, "passed": 44, "excluded": 6, "max_depth": 12, "seconds": 2.4150331020355225, "failure": null, "source": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/independent/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{'pass': True, 'processed': 2879, 'passed': 1011, 'geometric_exclusions': 430, 'relaxed_leaves': 113, 'maxdepth': 22, 'scope': 'Complete far domain; exact initialization, outward Bernstein subdivision, independently derived distance extrema and conservative closed bin intersections'}
+PASS complete independently audited tail-funded lens density <0.509953498
+PASS registered5D spherical lens full producer and independent chains

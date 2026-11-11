@@ -1,0 +1,33 @@
+{
+  "verified": true,
+  "source": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_lens/step_allowances_005.json",
+  "results": [
+    {
+      "dimension": 5,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 122,
+      "max_depth": 2
+    },
+    {
+      "dimension": 6,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 140,
+      "max_depth": 3
+    },
+    {
+      "dimension": 7,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 130,
+      "max_depth": 2
+    }
+  ],
+  "candidate_binding": {
+    "candidate": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_lens/source_exact.json",
+    "dimension": 5,
+    "physical_function_sha256": "769676c6e255d3b7d7a058eab272590716b52fdae2046d4c809cc62746b52c85",
+    "verified": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "closed_bins": 104,
+  "leaves": 113,
+  "maxdepth": 2,
+  "caps": "elementary centroid integer bounds",
+  "boundary_rule": "minimum adjacent allowances, zero at support endpoints"
+}

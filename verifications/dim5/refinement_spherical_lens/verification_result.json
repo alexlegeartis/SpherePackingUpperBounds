@@ -1,0 +1,7 @@
+{
+  "dimension": 5,
+  "verified": true,
+  "strict_upper": "0.509953498",
+  "density_enclosure": "[0.5099534974153451580358966431758354258465687576453685354517475202369317522156 +/- 7.46e-77]",
+  "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Conservative transverse projection, exact spherical LP caps, Rankin and centroid caps, and tail budgets are replayed."
+}

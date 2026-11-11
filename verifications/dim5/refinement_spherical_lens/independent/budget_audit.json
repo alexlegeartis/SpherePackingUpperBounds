@@ -1,0 +1,8 @@
+{
+  "pass": true,
+  "closed_bins": 132,
+  "leaves": 145,
+  "maxdepth": 4,
+  "caps": "independently verified spherical, Rankin and centroid bounds",
+  "boundary_rule": "minimum adjacent allowances, zero at support endpoints"
+}

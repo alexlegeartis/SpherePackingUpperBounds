@@ -1,0 +1,20 @@
+{
+  "source_exact_sha256": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+  "frozen_producer_source": "research/density_shell_features_20261111/wedge5_spherical_proof",
+  "independent_audit": "research/dim5_spherical_lens_independent_20261111",
+  "frozen_budget_sha256": "605a15c07f305a590bb1e0e2c80a9a88f3991023129bcbb5a88c103aa4552046",
+  "frozen_witness_sha256": "b3e7738e2a5d616d04571a53aa6199ac467b8e8fe40f1e1188594adeb09fc8ff",
+  "portable_witness_sha256": "b9e51e080a9729e96a6407ba4ae4ca2424ea81bd9051f91b0767076a9b1f7c04",
+  "witness_change": "Only lens_budget metadata changed from an absolute source-machine path to step_allowances_spherical_005.json.",
+  "mathematical_payload_changes": false,
+  "additional_validation": "Portable verifier fixes exact source and strict upper. Far checker binds canonical physical payload/hash, 5D geometry and parameters before full adjacent budget replayer. Spherical polynomials and geometry are reconstructed, not accepted via booleans. Pair/cyclic bytes unchanged.",
+  "tested_environment": {
+    "Python": "3.12.14",
+    "python-flint": "0.9.0",
+    "NumPy": "2.3.5"
+  },
+  "external_inputs": [
+    "Published average near-neighbor counts 45,46,47,48 from de Laat, de Oliveira Filho and Vallentin Table 2; original spherical SDP certificates not rerun."
+  ],
+  "scope": "Unrestricted 5D sphere packings, density strictly below 0.509953498. Conservative transverse projection and locally replayed spherical LP caps, then Rankin and centroid caps. No Gaussian corrections."
+}

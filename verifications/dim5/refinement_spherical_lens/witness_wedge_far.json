@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "checked": 2879,
+  "passed": 1011,
+  "relaxed_boxes": 113,
+  "excluded": 430,
+  "max_depth": 22,
+  "failure": null,
+  "seconds": 0.5683140754699707,
+  "witness": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/witness_psd_exact.json",
+  "budget": "/workspace/scratch/941a2e823e69/research/sphere_lens5_integration_20261111/verifications/dim5/refinement_spherical_lens/step_allowances_spherical_005.json",
+  "scope": "Far domain only; step budgets must also be replayed and all other density hypotheses verified."
+}

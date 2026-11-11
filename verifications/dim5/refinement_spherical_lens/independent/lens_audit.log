@@ -1,0 +1,2 @@
+{'pass': True, 'closed_bins': 132, 'leaves': 145, 'maxdepth': 4, 'caps': 'independently verified spherical, Rankin and centroid bounds', 'boundary_rule': 'minimum adjacent allowances, zero at support endpoints'}
+{'pass': True, 'processed': 2879, 'passed': 1011, 'geometric_exclusions': 430, 'relaxed_leaves': 113, 'maxdepth': 22, 'scope': 'Complete far domain; exact initialization, outward Bernstein subdivision, independently derived distance extrema and conservative closed bin intersections'}

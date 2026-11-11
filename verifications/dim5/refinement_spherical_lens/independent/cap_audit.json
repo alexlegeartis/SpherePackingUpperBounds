@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "table": [
+    {
+      "lower_base": "3/2",
+      "cap": 10
+    },
+    {
+      "lower_base": "31/20",
+      "cap": 9
+    },
+    {
+      "lower_base": "8/5",
+      "cap": 8
+    },
+    {
+      "lower_base": "41/25",
+      "cap": 5
+    },
+    {
+      "lower_base": "17/10",
+      "cap": 5
+    },
+    {
+      "lower_base": "7/4",
+      "cap": 5
+    },
+    {
+      "lower_base": "9/5",
+      "cap": 3
+    },
+    {
+      "lower_base": "46/25",
+      "cap": 2
+    },
+    {
+      "lower_base": "48/25",
+      "cap": 1
+    }
+  ],
+  "scope": "Explicit spherical polynomials/global Sturm signs, rational projection/monotonicity margins, elementary Rankin and centroid caps"
+}

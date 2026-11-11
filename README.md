@@ -7,7 +7,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 | Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |
 | --- | --- | --- | --- | --- | --- | --- |
 | 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [4D proof](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
-| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.51013 | 0.42% | 4.54% | [5D proof](verifications/dim5/refinement_guarded/) · [Sources & formulas](COMPARISONS.md) |
+| 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.50995 | 0.45% | 4.92% | [5D proof](verifications/dim5/refinement_spherical_lens/) · [Sources & formulas](COMPARISONS.md) |
 | 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.40913 | 0.28% | 3.11% | [6D proof](verifications/dim6/refinement_patch5/) · [Sources & formulas](COMPARISONS.md) |
 | 7 | [≈0.29530](https://cohn.mit.edu/sphere-packing/) | [≈0.32111](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.32058 | 0.17% | 2.05% | [7D proof](verifications/dim7/) · [Sources & formulas](COMPARISONS.md) |
 | 17 | [≈0.0088113](https://doi.org/10.4153/CJM-1964-065-1) | [≈0.018464](https://arxiv.org/abs/2006.02560v2) | ≈0.018204 | 1.41% | 2.69% | [17D proof](verifications/dim17/refinement_repaired/) · [Sources & formulas](COMPARISONS.md) |
@@ -86,3 +86,7 @@ The [7D count-enhanced certificate](verifications/dim7/) gives <0.320584772, clo
 The [guarded 5D refinement](verifications/dim5/refinement_guarded/) gives <0.510129239; its unguarded checkpoint is invalid. The [22D tetrahedral aggregate research](research/tetrahedral_aggregate/) proves stronger auxiliary edge/triangle inequalities but makes no density-record claim.
 
 Portable exact-source reconstruction and export companions are available for [guarded 5D](research/dim5_guarded_discovery/), [7D](research/dim7_discovery/) and the [small 6D follow-on](research/dim6_patch5_discovery/). Numerical checkpoints remain distinct from certified witnesses.
+
+The [5D long-edge lens extension](verifications/dim5/refinement_lens/) gives <0.509996147, closing 4.83% of the pinned additive gap. It uses newly audited long-edge PSD accounting, not the old pointwise far-sign condition. Earlier proof packages remain preserved.
+
+The [stronger 5D spherical-lens follow-on](verifications/dim5/refinement_spherical_lens/) gives <0.509953498, closing 4.92% of the pinned additive gap. Its exact transverse spherical-cap proofs and new tail budgets are replayed; the centroid-only version remains available. Portable search/export companions are included for [centroid](research/dim5_lens_discovery/) and [spherical](research/dim5_spherical_lens_discovery/) lenses.

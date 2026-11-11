@@ -131,3 +131,15 @@ The new count-enhanced cyclic certificate is independently audited over full dom
 The current strict 5D upper is **0.510129239**, versus the same paper-reported 0.5122645 and D5 lower pi^2/(15*sqrt(2)). It lowers the pinned upper by **0.416828%** and closes **4.542443%** of the additive gap. Earlier 5D proofs and their original outward bounds remain preserved.
 
 Only the guarded exact witness is certified. Its unguarded numerical checkpoint fails a far-domain condition and is not a valid bound. The exact positive-semidefinite kernel correction is explained and checked in the package; this is not a Gaussian sign repair. Published near-neighbor count inputs remain external dependencies.
+
+## Five-dimensional lens extension
+
+The current strict upper is **0.509996147**, compared with the same paper-reported 0.5122645 and D5 lower pi^2/(15*sqrt(2)). This reduces the pinned upper by **0.442809%**, and the additive gap by **4.825576%**. Prior 5D witnesses remain available and replayed.
+
+This witness genuinely violates the former pointwise far-sign condition. A new long-edge lens budget is therefore essential: elementary centroid caps bound common neighbors, a verified physical-tail allowance pays the positive far contribution, and exact pair/triangle incidence accounting preserves the PSD density inequality. The independent audit treats step endpoints and periodic translation orbits explicitly. No new external spherical-code bound is used for the elementary lens caps; the existing near-neighbor count theorems remain external dependencies and their original SDP certificates are not reconstructed. No exhaustive literature-priority claim is made.
+
+## Stronger five-dimensional spherical-lens follow-on
+
+The current strict 5D upper is **0.509953498**. Relative to the unchanged paper-reported 0.5122645 and D5 lower, it decreases the upper by **0.451135%** and closes **4.916305%** of the additive gap. The earlier centroid-only lens bound 0.509996147 remains preserved.
+
+This version strengthens the internal lens caps through conservative transverse projection and exact spherical LP certificates, combined with Rankin and centroid arguments. Those new cap certificates are included and replayed; they are not additional unverified external spherical-code inputs. The previously cited near-neighbor count theorems remain external dependencies. Both full primary and separate independent proofs check the changed physical-tail budgets, all boundary conventions and the relaxed far domain. The comparison remains pinned rather than an exhaustive current-worldwide-priority claim.

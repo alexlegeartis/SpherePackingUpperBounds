@@ -1,0 +1,10 @@
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '558911779947936488022187/5000000000000000000000000', 'guarded_normalization': '19999999999999998358193/20000000000000000000000', 'density_interval': '[0.509996146405708227801189161260425467393448829426584838558811653019445113902227639581328304406372639760404759668067 +/- 2.24e-115]', 'strict_upper': '.509996147', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{'pass': True, 'closed_interval_leaves': 1074, 'maxdepth': 15, 'thresholds_checked_with_smaller_allowance': ['250753/250000', '31503/31250', '506629/500000', '203489/200000'], 'scope': 'Base pair passes; Gaussian guard is nonpositive for every r>=1'}
+POLYNOMIAL 4163 seconds 0.11847090721130371
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.2188720703125
+TRANSFORM 1 seconds 0.3995828628540039
+TRANSFORM 2 seconds 0.6158566474914551
+INITIAL (37, 37, 37) -1.2415980878427662 0.15969923409843065
+PROGRESS 100 stack 3 seconds 2.549941062927246
+{"verified": true, "checked": 115, "passed": 52, "excluded": 6, "max_depth": 14, "seconds": 2.7561099529266357, "failure": null, "source": "research/dim5_lens_independent_20261111/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}

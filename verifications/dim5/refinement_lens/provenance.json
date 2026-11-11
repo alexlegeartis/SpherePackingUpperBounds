@@ -1,0 +1,26 @@
+{
+  "source_exact_sha256": "235920216afbd10b38be5efd3672e9d94b5ec5af8fc54aca3a63d77d9997721f",
+  "frozen_producer_source": "research/density_shell_features_20261111/wedge5_step_proof",
+  "independent_audit": "research/dim5_lens_independent_20261111",
+  "frozen_budget_sha256": "cd4af8aaac2b6d2b1f0559a843953ee0a9132543fb371a3fad4ab9d14e0a44e2",
+  "frozen_witness_sha256": "64162eae11116786d57a26a593b78b39d67409e46c2bc258d82f1c8a1bc86f6b",
+  "portable_witness_sha256": "2dbaeee75264b0170953f89d55a3fbb59c9d723a20648ac550e5fc0709461867",
+  "witness_change": "Only lens_budget metadata changed from an absolute source-machine path to step_allowances_005.json.",
+  "mathematical_payload_changes": false,
+  "additional_validation": "Far checker now independently validates full canonical physical payload/hash, dimension and six centroid thresholds. Query helper and independent algebra checker reject Python optimization flags explicitly. Pair and compact cyclic checker bytes are unchanged.",
+  "frozen_original_scripts_sha256": {
+    "step_allowance_query.py": "703a879a4feabff2ea92ed381c6b2dda60ae9264d282a149b111c91d9b1f6c10",
+    "construct_step_allowances.py": "c7cefa53fd0ccc1df3dde1ffc178266ba49d59f39a5e715e67bf0564b42df2ee",
+    "certify_wedge_far.py": "58d13722b987bbdf702667775af360d8ca42cfe8ca285f224cd0dc4e06a05a7d",
+    "verify_wedge_candidate.py": "79c29e6051cc5827443f7a23ea63edd63043cbca76fc36d71ab90db0a0b593db"
+  },
+  "tested_environment": {
+    "Python": "3.12.14",
+    "python-flint": "0.9.0",
+    "NumPy": "2.3.5"
+  },
+  "external_inputs": [
+    "Published average near-neighbor counts 45,46,47,48 from de Laat, de Oliveira Filho and Vallentin Table 2; source spherical SDP certificates not rerun."
+  ],
+  "scope": "Unrestricted 5D sphere packings, strict density below 0.509996147. Elementary centroid lens caps only, no Gaussian corrections."
+}

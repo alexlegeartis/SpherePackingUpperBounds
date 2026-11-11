@@ -1,0 +1,112 @@
+{
+  "source_sha256": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+  "source_frozen": true,
+  "only_witness_metadata_changed": true,
+  "budget_frozen": true,
+  "pair_and_cyclic_unchanged": true,
+  "compiled": [
+    "audit_algebra_exact.py",
+    "certify_count_pair_arb.py",
+    "certify_cyclic_bernstein.py",
+    "certify_general_lens_far.py",
+    "construct_step_allowances.py",
+    "gaussian_guards.py",
+    "spherical_lens_caps.py",
+    "step_allowance_query.py",
+    "verify.py",
+    "verify_count_endpoints.py"
+  ],
+  "optimization_rejections": [
+    "audit_algebra_exact.py:-O",
+    "audit_algebra_exact.py:-OO",
+    "certify_count_pair_arb.py:-O",
+    "certify_count_pair_arb.py:-OO",
+    "certify_cyclic_bernstein.py:-O",
+    "certify_cyclic_bernstein.py:-OO",
+    "certify_general_lens_far.py:-O",
+    "certify_general_lens_far.py:-OO",
+    "construct_step_allowances.py:-O",
+    "construct_step_allowances.py:-OO",
+    "gaussian_guards.py:-O",
+    "gaussian_guards.py:-OO",
+    "spherical_lens_caps.py:-O",
+    "spherical_lens_caps.py:-OO",
+    "step_allowance_query.py:-O",
+    "step_allowance_query.py:-OO",
+    "verify.py:-O",
+    "verify.py:-OO",
+    "verify_count_endpoints.py:-O",
+    "verify_count_endpoints.py:-OO"
+  ],
+  "negative_tests": [
+    {
+      "test": "frozen exact source coefficient",
+      "rejected": true
+    },
+    {
+      "test": "witness physical dimension",
+      "rejected": true
+    },
+    {
+      "test": "count threshold endpoint",
+      "rejected": true
+    },
+    {
+      "test": "support boundary nonzero",
+      "rejected": true
+    },
+    {
+      "test": "spherical coefficient negative",
+      "rejected": true
+    },
+    {
+      "test": "spherical geometry cosine changed",
+      "rejected": true
+    },
+    {
+      "test": "standalone far physical payload dimension",
+      "rejected": true
+    },
+    {
+      "test": "tail allowance too large",
+      "rejected": true
+    }
+  ],
+  "fresh_isolated_replay": {
+    "dimension": 5,
+    "verified": true,
+    "strict_upper": "0.509953498",
+    "density_enclosure": "[0.5099534974153451580358966431758354258465687576453685354517475202369317522156 +/- 7.46e-77]",
+    "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Conservative transverse projection, exact spherical LP caps, Rankin and centroid caps, and tail budgets are replayed."
+  },
+  "tail_budget_replay": [
+    {
+      "dimension": 5,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 162,
+      "max_depth": 6
+    },
+    {
+      "dimension": 6,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 182,
+      "max_depth": 7
+    },
+    {
+      "dimension": 7,
+      "verified": true,
+      "bins": 132,
+      "checked_cells": 168,
+      "max_depth": 5
+    }
+  ],
+  "producer_counts": {
+    "pair": 123,
+    "cyclic": 99,
+    "far": 2879
+  },
+  "passed": true,
+  "budget_replay_without_numpy_or_scipy": true
+}

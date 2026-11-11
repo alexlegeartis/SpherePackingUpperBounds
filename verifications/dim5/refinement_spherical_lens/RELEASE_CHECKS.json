@@ -1,0 +1,7 @@
+{
+  "pass": true,
+  "complete_registered_proof_suite": true,
+  "aggregate_log": "../refinement_lens/registry_replay.log",
+  "added_spherical_lens_replay": "integrated_dual_replay.log",
+  "note": "Spherical follow-on was added after the aggregate process started; both primary and independent full chains were run separately. The final run_all.py includes both lens jobs. Current comparison, all proof jobs, both portable export replays and fourteen smoke/negative tests pass."
+}

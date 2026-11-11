@@ -1,0 +1,9 @@
+{
+  "source_exact.json": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+  "witness.json": "b9e51e080a9729e96a6407ba4ae4ca2424ea81bd9051f91b0767076a9b1f7c04",
+  "witness_psd_exact.json": "5a1d95d683e8f537d8c7404f3b6b57bc44ad0d053805cb18274afab02257c3ae",
+  "prerequisites.json": "08efd154b5e4e0742adbe0a08516d8ae8a66a1b7cfeba9d20378ebc8789f0bea",
+  "step_allowances_spherical_005.json": "605a15c07f305a590bb1e0e2c80a9a88f3991023129bcbb5a88c103aa4552046",
+  "independent/source_exact.json": "28585450c46b4fbdc6f9eefec55b7e6d29f18fc527b654d00359ed425cb1f949",
+  "independent/budget.json": "605a15c07f305a590bb1e0e2c80a9a88f3991023129bcbb5a88c103aa4552046"
+}

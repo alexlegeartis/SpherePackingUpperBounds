@@ -1,0 +1,102 @@
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+{
+  "scope": "Unverified until complete pair/far/cyclic checks pass",
+  "dimension": 5,
+  "guards": {
+    "gaussian_guard_family": "reciprocal_gaussians",
+    "dimension": 5,
+    "reciprocal_gaussian_guards": {
+      "c": "157/50",
+      "eta": "0",
+      "zeta": "0",
+      "physical_intervals": [],
+      "fourier_intervals": [],
+      "corrected_normalization": "19999999999999998358193/20000000000000000000000"
+    }
+  },
+  "raw_density": "[0.5099961464058727212078739839175760302375628635589264401192488346990870613820 +/- 5.26e-77]",
+  "saturated_density": "[0.5099961464057082278011891612604254673934488294265848385588116530194451139022 +/- 5.40e-77]",
+  "origin_slack": "1/1000000000000",
+  "raw_objective": "5289054577818797660075005346059523989885189416624451498173336698306244646219103905463899/1705923881540435108175634091498602904898729156753153880717906464585635826626604550652750",
+  "saturated_objective": "5289054577817091736193464910811308467284677945041203643307686663141656197084103905463899/1705923881540435108175634091498602904898729156753153880717906464585635826626604550652750"
+}
+Frozen source, exact payload, table and boundary conventions: PASS
+Exact rational positive definiteness: PASS
+Reciprocal Gaussian identities and both global signs: PASS 0 0
+Exact Schur factorization and outward objective: PASS [0.5099961464057082278011891612604254673934488294265848385588116530194451139022 +/- 3.91e-77]
+{'pass': True, 'positive_PSD_pivots': 66, 'direct_Fourier_identity': True, 'exact_count_cost': '558911779947936488022187/5000000000000000000000000', 'guarded_normalization': '19999999999999998358193/20000000000000000000000', 'density_interval': '[0.509996146405708227801189161260425467393448829426584838558811653019445113902227639581328304406372639760404759668067 +/- 2.24e-115]', 'strict_upper': '.509996147', 'scope': 'Independent exact radial/PSD/count arithmetic; full pair and cyclic/far replays and published count bounds remain dependencies'}
+{
+  "verified": true,
+  "source": "/tmp/lens_integrated_export/step_allowances_005.json",
+  "results": [
+    {
+      "dimension": 5,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 122,
+      "max_depth": 2
+    },
+    {
+      "dimension": 6,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 140,
+      "max_depth": 3
+    },
+    {
+      "dimension": 7,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 130,
+      "max_depth": 2
+    }
+  ],
+  "candidate_binding": {
+    "candidate": "/tmp/lens_integrated_export/source_exact.json",
+    "dimension": 5,
+    "physical_function_sha256": "769676c6e255d3b7d7a058eab272590716b52fdae2046d4c809cc62746b52c85",
+    "verified": true
+  }
+}
+Explicit half-open count endpoints: PASS
+{"verified": true, "checked": 121, "max_depth": 11, "seconds": 0.08752703666687012, "failure": null, "source": "/tmp/lens_integrated_export/witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+POLYNOMIAL 4163 seconds 0.3086416721343994
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.5378415584564209
+TRANSFORM 1 seconds 0.8537390232086182
+TRANSFORM 2 seconds 1.2544364929199219
+INITIAL (37, 37, 37) -1.2415980878427662 0.15969923409843065
+PROGRESS 100 stack 3 seconds 3.8392879962921143
+{"verified": true, "checked": 115, "passed": 52, "excluded": 6, "max_depth": 14, "seconds": 4.049402952194214, "failure": null, "source": "/tmp/lens_integrated_export/witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+PROGRESS 1000 relaxed 0 stack 11
+{"verified": true, "checked": 2879, "passed": 915, "relaxed_boxes": 11, "excluded": 526, "max_depth": 22, "failure": null, "seconds": 0.5614311695098877, "witness": "/tmp/lens_integrated_export/witness_psd_exact.json", "budget": "/tmp/lens_integrated_export/step_allowances_005.json", "scope": "Far domain only; step budgets must also be replayed and all other density hypotheses verified."}
+COMPLETE_CERTIFICATE_PASS {"dimension": 5, "verified": true, "strict_upper": "0.509996147", "density_enclosure": "[0.5099961464057082278011891612604254673934488294265848385588116530194451139022 +/- 3.91e-77]", "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Elementary centroid lens caps and tail budgets are replayed."}
+{
+  "source_sha256": "235920216afbd10b38be5efd3672e9d94b5ec5af8fc54aca3a63d77d9997721f",
+  "centroid_budget_sha256": "cd4af8aaac2b6d2b1f0559a843953ee0a9132543fb371a3fad4ab9d14e0a44e2",
+  "canonical_export_equality": {
+    "witness.json": true,
+    "witness_psd_exact.json": true,
+    "prerequisites.json": true
+  },
+  "complete_verification_passed": true,
+  "verifier_script_sha256": {
+    "verify.py": "27a9a1f772c0b8004ad7ff5ee6d51e56ef7da96c4492028dc5adea2546675a06",
+    "gaussian_guards.py": "8852da12f3930c7baa94c86d8ee1f748b999c1627e8cec7d97ae76117a42adf9",
+    "audit_algebra_exact.py": "88475011b23634707e04f9f54d9c89d30186944f630a872a1a7f6773d60526cd",
+    "construct_step_allowances.py": "c7cefa53fd0ccc1df3dde1ffc178266ba49d59f39a5e715e67bf0564b42df2ee",
+    "step_allowance_query.py": "80c9a51d691b59b91aa3009ef197b485858b9cf2f1dc2defe93c95f8c3057c1c",
+    "verify_count_endpoints.py": "990f8149a66e29e8a78fc5d2b23232d8cc29690679a76992ca82186f960fc20c",
+    "certify_count_pair_arb.py": "c3489bbf1e1cf97ecb96deb659751773923948727ff87e7a0675899e0143c539",
+    "certify_cyclic_bernstein.py": "fc62a7c1ba88b3310f5d9b292eaf3292429c848217363983994adcdfd6770f48",
+    "certify_wedge_far.py": "be92104ed54149ced424969be097e21ef597503f6a61b7214c521c9cb28446a6"
+  },
+  "result": {
+    "dimension": 5,
+    "verified": true,
+    "strict_upper": "0.509996147",
+    "density_enclosure": "[0.5099961464057082278011891612604254673934488294265848385588116530194451139022 +/- 3.91e-77]",
+    "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Elementary centroid lens caps and tail budgets are replayed."
+  }
+}
+FROZEN_EXPORT_AND_COMPLETE_VERIFICATION_PASS

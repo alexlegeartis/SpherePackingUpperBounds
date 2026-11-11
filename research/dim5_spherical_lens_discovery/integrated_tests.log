@@ -1,0 +1,12 @@
+test_compile_and_cli_help (__main__.DiscoveryTests.test_compile_and_cli_help) ... ok
+test_exact_reproduction_and_no_overwrite (__main__.DiscoveryTests.test_exact_reproduction_and_no_overwrite) ... ok
+test_final_search_parameters_and_local_paths (__main__.DiscoveryTests.test_final_search_parameters_and_local_paths) ... ok
+test_fresh_candidate_is_not_automatically_certified (__main__.DiscoveryTests.test_fresh_candidate_is_not_automatically_certified) ... ok
+test_off_origin_shift_is_forbidden (__main__.DiscoveryTests.test_off_origin_shift_is_forbidden) ... ok
+test_portable_canonical_export_without_optimization (__main__.DiscoveryTests.test_portable_canonical_export_without_optimization) ... ok
+test_python_O_rejected (__main__.DiscoveryTests.test_python_O_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 3.479s
+
+OK

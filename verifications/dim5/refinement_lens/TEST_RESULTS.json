@@ -1,0 +1,95 @@
+{
+  "source_sha256": "235920216afbd10b38be5efd3672e9d94b5ec5af8fc54aca3a63d77d9997721f",
+  "source_frozen": true,
+  "only_witness_metadata_changed": true,
+  "budget_frozen": true,
+  "pair_and_cyclic_unchanged": true,
+  "compiled": [
+    "audit_algebra_exact.py",
+    "certify_count_pair_arb.py",
+    "certify_cyclic_bernstein.py",
+    "certify_wedge_far.py",
+    "construct_step_allowances.py",
+    "gaussian_guards.py",
+    "step_allowance_query.py",
+    "verify.py",
+    "verify_count_endpoints.py"
+  ],
+  "optimization_rejections": [
+    "audit_algebra_exact.py:-O",
+    "audit_algebra_exact.py:-OO",
+    "certify_count_pair_arb.py:-O",
+    "certify_count_pair_arb.py:-OO",
+    "certify_cyclic_bernstein.py:-O",
+    "certify_cyclic_bernstein.py:-OO",
+    "certify_wedge_far.py:-O",
+    "certify_wedge_far.py:-OO",
+    "construct_step_allowances.py:-O",
+    "construct_step_allowances.py:-OO",
+    "gaussian_guards.py:-O",
+    "gaussian_guards.py:-OO",
+    "step_allowance_query.py:-O",
+    "step_allowance_query.py:-OO",
+    "verify.py:-O",
+    "verify.py:-OO",
+    "verify_count_endpoints.py:-O",
+    "verify_count_endpoints.py:-OO"
+  ],
+  "negative_tests": [
+    {
+      "file": "witness.json",
+      "rejected": true
+    },
+    {
+      "file": "witness.json",
+      "rejected": true
+    },
+    {
+      "file": "step_allowances_005.json",
+      "rejected": true
+    },
+    {
+      "file": "step_allowances_005.json",
+      "rejected": true
+    },
+    {
+      "standalone_far_payload_rejected": true
+    }
+  ],
+  "fresh_isolated_replay": {
+    "dimension": 5,
+    "verified": true,
+    "strict_upper": "0.509996147",
+    "density_enclosure": "[0.5099961464057082278011891612604254673934488294265848385588116530194451139022 +/- 3.91e-77]",
+    "scope": "Unrestricted sphere packings; published near-neighbor count bounds are external mathematical inputs. Elementary centroid lens caps and tail budgets are replayed."
+  },
+  "producer_counts": {
+    "pair": 121,
+    "cyclic": 115,
+    "far": 2879
+  },
+  "tail_budget_replay": [
+    {
+      "dimension": 5,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 122,
+      "max_depth": 2
+    },
+    {
+      "dimension": 6,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 140,
+      "max_depth": 3
+    },
+    {
+      "dimension": 7,
+      "verified": true,
+      "bins": 104,
+      "checked_cells": 130,
+      "max_depth": 2
+    }
+  ],
+  "passed": true
+}
