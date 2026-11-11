@@ -196,3 +196,7 @@ Strict new upper0.004985977000 improves the prior repository upper0.005149549312
 ## Rebuilt angular kernels in 46D and47D
 
 The radial data are unchanged; new target-dimensional angular kernels reduce the origin cost. Known lower formulas and pinned published upper references remain unchanged. Exact new upper bounds and comparison arithmetic are recorded in [release comparisons](research/angular_border_release/COMPARISONS.json). These are pinned-reference improvements, not exhaustive current-priority claims.
+
+## Joint angular/radial refits in 46D and47D
+
+The new strict bounds are0.0000008868492132 and0.0000006010083731. They improve the pinned published uppers by4.590129% and7.405509%, closing4.735895% and7.673514% of the corresponding additive gaps. Lower formulas and citations are unchanged. [Release comparisons](research/angular_radial_refit_release/COMPARISONS.json) also distinguish gains over the immediately preceding angular-only certificates.

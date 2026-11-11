@@ -1,0 +1,7 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '1153618388872687865313041135709176932237889/2413832882791589326344197467275264'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 6952, 'discarded_rectangles': 425, 'max_depth': 15, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 46, 'strict_upper': '0.0000008868492132', 'density_interval': '[8.8684921311232248183999695589503179949042156609887543326668351949153706106687611717288988458817184855575261751733887508671091572714418906175291213867318e-7 +/- 4.48e-159]', 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 40, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'pinned_comparator': '0.0000009295151556', 'fractional_improvement_lower': '35554952/774595963'}

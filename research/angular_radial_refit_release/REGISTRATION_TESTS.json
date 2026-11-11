@@ -1,0 +1,18 @@
+[
+  {
+    "dimension": 46,
+    "registry_and_sourcehash_gates": "PASS",
+    "both_complete_chains_invoked": "PASS",
+    "incorrect_bound_package_and_hash_rejected": "PASS",
+    "optimized_mode_rejected": "PASS",
+    "scope": "Changed registration behavior tested with mocked proof subprocesses; completed mathematical audits are separately hash-bound."
+  },
+  {
+    "dimension": 47,
+    "registry_and_sourcehash_gates": "PASS",
+    "both_complete_chains_invoked": "PASS",
+    "incorrect_bound_package_and_hash_rejected": "PASS",
+    "optimized_mode_rejected": "PASS",
+    "scope": "Changed registration behavior tested with mocked proof subprocesses; completed mathematical audits are separately hash-bound."
+  }
+]

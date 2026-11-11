@@ -1,0 +1,62 @@
+[
+  {
+    "round": 1,
+    "density_candidate": 8.867961758698032e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 18,
+      "physical": 10
+    }
+  },
+  {
+    "round": 2,
+    "density_candidate": 8.868365655456439e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 10,
+      "physical": 10
+    }
+  },
+  {
+    "round": 3,
+    "density_candidate": 8.868466197564407e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 14,
+      "physical": 8
+    }
+  },
+  {
+    "round": 4,
+    "density_candidate": 8.868479920772933e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 8,
+      "physical": 2
+    }
+  },
+  {
+    "round": 5,
+    "density_candidate": 8.868483992979864e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 8,
+      "physical": 0
+    }
+  },
+  {
+    "round": 6,
+    "density_candidate": 8.868485347688465e-07,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 4,
+      "physical": 0
+    }
+  },
+  {
+    "round": 7,
+    "density_candidate": 8.86848566948795e-07,
+    "radial_audit_returncode": 0,
+    "radial_audit_pass": true
+  }
+]

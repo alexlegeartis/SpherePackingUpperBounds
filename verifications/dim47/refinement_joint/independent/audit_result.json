@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "dimension": 47,
+  "strict_upper": "0.0000006010083731",
+  "density_interval": "[6.0100837308047445823438356222849146527290685350507421641901294348040047873053150756777359922141040506105163785348080508090308952443260697902230327048885e-7 +/- 7.75e-159]",
+  "cyclic_rectangles": 4860,
+  "pair_intervals": 38,
+  "input_sha256": {
+    "angular47.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+    "certificate.json": "4193d1f8e84fc03138ebea625e1960de4251d0b5ccc3e443094ce8915a3144fa",
+    "discovery_candidate.json": "0f5b78e05a9c7bac368540b2bad29a3810a1e66ff08822b5d6eef8130814877c",
+    "source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c"
+  },
+  "independent_computer_assisted_audit": true,
+  "formal_proof_assistant_verification": false
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "dimension": 46,
+    "angular_export": "PASS byte-identical",
+    "radial_export": "PASS exact mathematical fields; scope/interval report may differ",
+    "radial_differing_report_fields": [
+      "scope"
+    ],
+    "fresh_optimizer_run": false,
+    "temporary_copy": true
+  },
+  {
+    "dimension": 47,
+    "angular_export": "PASS byte-identical",
+    "radial_export": "PASS exact mathematical fields; scope/interval report may differ",
+    "radial_differing_report_fields": [
+      "scope"
+    ],
+    "fresh_optimizer_run": false,
+    "temporary_copy": true
+  }
+]

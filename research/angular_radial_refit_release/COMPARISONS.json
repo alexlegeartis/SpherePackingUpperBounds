@@ -1,0 +1,20 @@
+[
+  {
+    "dimension": 46,
+    "new": "8.868492132E-7",
+    "prior_repository": "8.97267583E-7",
+    "prior_repository_upper_reduction_percent": "1.161121832259485518491087625",
+    "prior_repository_gap_reduction_percent": "1.199363811846433866961362562",
+    "pinned_upper_reduction_percent": "4.590129",
+    "pinned_gap_reduction_percent": "4.735895"
+  },
+  {
+    "dimension": 47,
+    "new": "6.010083731E-7",
+    "prior_repository": "6.117584752E-7",
+    "prior_repository_upper_reduction_percent": "1.757246125030880487587562890",
+    "prior_repository_gap_reduction_percent": "1.824869321336439565571539414",
+    "pinned_upper_reduction_percent": "7.405509",
+    "pinned_gap_reduction_percent": "7.673514"
+  }
+]

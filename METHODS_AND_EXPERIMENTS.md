@@ -215,3 +215,7 @@ A fresh Gaussian-damped angular kernel and radial Fourier pair replace the earli
 ## Angular replacement with a fixed radial witness
 
 The46D and47D refinements use newly optimized target-dimensional angular PSD polynomials while keeping each preceding physical/Fourier pair and radial allowance M exactly unchanged. The angular cyclic inequality is completely reverified; reducing B/b0 reduces the origin Gram cost M B/b0 without changing the pair allowance. This combines compatible components, not a convex mixture of final density bounds. Earlier radial/transfer proof packages remain available, and discovery checkpoints export to the new exact angular inputs.
+
+## Radial response to the improved angular cost
+
+After replacing the angular polynomial, a second optimization reweights the degree-111 radial source and adds a target-dimensional degree-31 Laguerre correction. Exact root-isolation counterexamples repair sampled sign failures. All global signs, cyclic domains, pair coupling and normalization are reverified for the final46D/47D certificates. These are distinct from the unchanged-radial angular-only step, which remains preserved.
