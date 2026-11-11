@@ -1,0 +1,20 @@
+{
+  "dimension": 46,
+  "B_exact": "473143566",
+  "tag": "allrate",
+  "objective_float": 7.457921136813856,
+  "density_float": 8.803784198528747e-07,
+  "active_count": 33,
+  "minimum_active_y": 0.0253416678551258,
+  "stationarity_residual_float": 4.6854760071823875e-09,
+  "nonnegative_variable_reduced_costs_float": [
+    0.0,
+    0.0
+  ],
+  "primal_t_C_float": [
+    0.8852793893356701,
+    5.437167505369433
+  ],
+  "row_count": 6379,
+  "certified": false
+}

@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "dimension": 46,
+  "source48_degree": 111,
+  "correction_degree": 47,
+  "source_t_nonnegative": true,
+  "exact_physical_export_match": true,
+  "exact_Fourier_span_match": true,
+  "exact_M_export_match": true,
+  "nonzero_added_Laguerre_degrees": [
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47
+  ],
+  "degree31_span_embedding": "Pad sixteen zero coefficients; basis polynomials do not depend on the maximum included degree.",
+  "outside_degree31_span": true,
+  "reason": "The source has degree111 and every normalized Laguerre polynomial has its distinct degree. Nonzero degrees32..47 cannot be absorbed by changing source t or lower coefficients."
+}

@@ -1,0 +1,2 @@
+{'round': 5, 'repair_number': 5, 'degree': 47, 'dimension': 46, 'density_candidate': 8.803534355135891e-07, 'relative_numerical_gain_vs_degree31': 0.0073238337155489, 'radial_audit_returncode': 0, 'radial_audit_pass': True, 'density_interval': '[8.8035410433677451788636029568914238956347799263056263331622198543257885428331533324292230706859348980158314303416208869967529605502631889283056162606709e-7 +/- 4.06e-159]', 'complete_package_audit_pass': False}
+{'dimension': 46, 'seconds': 5.352573871612549, 'completed_solve_attempts': 6, 'complete_package_audit_pass': False}

@@ -1,0 +1,38 @@
+[
+  {
+    "script": "verifications/dim46/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  },
+  {
+    "script": "verifications/dim46/refinement_angular/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  },
+  {
+    "script": "verifications/dim46/refinement_joint/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  },
+  {
+    "script": "verifications/dim47/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  },
+  {
+    "script": "verifications/dim47/refinement_angular/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  },
+  {
+    "script": "verifications/dim47/refinement_joint/verify.py",
+    "accepts_stronger_bound": true,
+    "rejects_unknown_package": true,
+    "both_historical_chains_invoked": true
+  }
+]

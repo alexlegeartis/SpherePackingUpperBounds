@@ -1,0 +1,20 @@
+{
+  "inputs/angular46.json": "d1577cd3b71b0d80ec39cc1589c66bd73c2c99867d420434334721eb6d55070e",
+  "inputs/angular46_lower_certificate.json": "4f345f28a5738aafb6dca3c5fc13b8e25715440a81eead84bab01c99488f6b45",
+  "inputs/angular46_lower_verified.json": "7a3ed16aaa34147a09e268f853194ce45346e27fbb29edd5dc4f0cedc1fcfaf1",
+  "inputs/angular47.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "inputs/angular47_lower_certificate.json": "6b96cfe7ef6ac626a7d8c566c4feed400d17ca5049d89835df52ca36e94a8a79",
+  "inputs/angular47_lower_verified.json": "ddb2d9b4ff95127eb50d2591c4e588e870e6ec40e518042244ce43e326b27566",
+  "inputs/extra46.json": "d1d298c2d9377cdeccdbdac283e5c32fa1b3cb5d58d5a6ea59b3de10f8fa48e8",
+  "inputs/extra47.json": "4d8c64f4c60943a26d5edeab6cf72f7f6ab44080c56b52b8fc5c62077fad9a63",
+  "inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "dual46_fixed_selected.json": "cd9544fa1a047ab6f22586fa3cf89ff917a78a0442f1d165616321d584403acb",
+  "dual46_joint_selected.json": "8ee4d4f0feed4990fa7da114b5ada1dba43f6592bcf693a3a6ebda62330a9811",
+  "dual47_fixed_selected.json": "6e6bb3ba1f5c0fed8fad84a888286fcc027c51619a4339573fc9e13478c1f2c6",
+  "dual47_joint_selected.json": "84648d300f65e19029190e680f20e5a8457c481d7a151c8a5ae7d43d1f38a9cc",
+  "verify_angular_certificate.py": "802385efbd83ff5c5437e2318f7a59f56cfe85ac88c9debc60411c65838ea71c",
+  "inputs/angular46_caponly_certificate.json": "99b65a54ed50c3bef2634ac37f7297cd1a2903a529e1dccc788b878bcdf93b9a",
+  "inputs/angular47_caponly_certificate.json": "22ea2ccda17c2d121cfecab1d59d6f00a8688993f09d5e281fa8490935f43d0b",
+  "dual46_allrate_selected.json": "8e970247608cce0bbc5070960496cf9096596b9b39c74e88e1f773c42727ba32",
+  "dual47_allrate_selected.json": "c2be31e81e4df7bbdd973bc81f92066fe30db051c414e7ee952a2743f809f017"
+}

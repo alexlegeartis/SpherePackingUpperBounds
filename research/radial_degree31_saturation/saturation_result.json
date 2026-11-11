@@ -1,0 +1,82 @@
+{
+  "pass": true,
+  "results": [
+    {
+      "dimension": 46,
+      "scope": "fixed",
+      "B_exact": "1153618388872687865313041135709176932237889/2413832882791589326344197467275264",
+      "certified_family_density_lower": "0.0000008868479138",
+      "comparison_upper": "2217123033/2500000000000000",
+      "remaining_fractional_improvement_upper_exact": "6497/4434246066",
+      "remaining_improvement_ppm_upper": 1.4651870697515774,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": false,
+      "every_positive_scalar_Gaussian_rate": false
+    },
+    {
+      "dimension": 46,
+      "scope": "joint",
+      "B_exact": "475115741",
+      "certified_family_density_lower": "0.0000008830531394",
+      "comparison_upper": "2217123033/2500000000000000",
+      "remaining_fractional_improvement_upper_exact": "18980369/4434246066",
+      "remaining_improvement_ppm_upper": 4280.404992752606,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": true,
+      "every_positive_scalar_Gaussian_rate": false
+    },
+    {
+      "dimension": 46,
+      "scope": "allrate",
+      "B_exact": "473143566",
+      "certified_family_density_lower": "0.0000008803784166",
+      "comparison_upper": "2217123033/2500000000000000",
+      "remaining_fractional_improvement_upper_exact": "10784661/1478082022",
+      "remaining_improvement_ppm_upper": 7296.388725036532,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": true,
+      "every_positive_scalar_Gaussian_rate": true
+    },
+    {
+      "dimension": 47,
+      "scope": "fixed",
+      "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688",
+      "certified_family_density_lower": "0.0000006010075028",
+      "comparison_upper": "6010083731/10000000000000000",
+      "remaining_fractional_improvement_upper_exact": "8703/6010083731",
+      "remaining_improvement_ppm_upper": 1.4480663480793026,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": false,
+      "every_positive_scalar_Gaussian_rate": false
+    },
+    {
+      "dimension": 47,
+      "scope": "joint",
+      "B_exact": "650216751",
+      "certified_family_density_lower": "0.0000005981706612",
+      "comparison_upper": "6010083731/10000000000000000",
+      "remaining_fractional_improvement_upper_exact": "28377119/6010083731",
+      "remaining_improvement_ppm_upper": 4721.584635107641,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": true,
+      "every_positive_scalar_Gaussian_rate": false
+    },
+    {
+      "dimension": 47,
+      "scope": "allrate",
+      "B_exact": "646517390",
+      "certified_family_density_lower": "0.0000005956056153",
+      "comparison_upper": "6010083731/10000000000000000",
+      "remaining_fractional_improvement_upper_exact": "54027578/6010083731",
+      "remaining_improvement_ppm_upper": 8989.488402853001,
+      "radial_dual_pass": true,
+      "all_degree_angular_replay_pass": true,
+      "every_positive_scalar_Gaussian_rate": true
+    }
+  ],
+  "joint_bridge": "B>=L_B and M>=0 imply f0+BM>=f0+L_B*M; radial feasible cone in(f,M) is independent ofB",
+  "radial_restrictions": "degree111 source plus Laguerre degrees0..31, t>=0, M>=0, H(0)=1; physical P<=0 beyond7pi; pair coupling on squared radii[6,7]",
+  "angular_restrictions": "scalar separable Gaussian kernel; all finite harmonic degrees; alpha=51pi/4 for joint and every positive alpha for allrate",
+  "scope_warning": "These are LOWER bounds on the best certificate objective in the specified family, not lower bounds on packing density or unrestricted-method saturation.",
+  "comparison_upper_source": "Previously independently verified dim46/47_border_refit packages; this replay verifies the lower certificates, not those separate upper packages."
+}

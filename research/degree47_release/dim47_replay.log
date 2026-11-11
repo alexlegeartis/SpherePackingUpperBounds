@@ -1,0 +1,181 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 7771, 'discarded_rectangles': 432, 'max_depth': 16, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 47, 'source48_degree': 111, 'correction_degree': 47, 'source_t_nonnegative': True, 'exact_physical_export_match': True, 'exact_Fourier_span_match': True, 'exact_M_export_match': True, 'nonzero_added_Laguerre_degrees': [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47], 'degree31_span_embedding': 'Pad sixteen zero coefficients; basis polynomials do not depend on the maximum included degree.', 'outside_degree31_span': True, 'reason': 'The source has degree111 and every normalized Laguerre polynomial has its distinct degree. Nonzero degrees32..47 cannot be absorbed by changing source t or lower coefficients.'}
+
+{'pass': True, 'dimension': 47, 'strict_upper': '0.0000005998306274', 'density_interval': '[5.9983062737840734250171293632305640050087199010020248267702815779264609829536918178881332430781567343330788614183392179091807256795991241068992028066194e-7 +/- 5.87e-159]', 'degree47_span_membership_exact': True, 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 39, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'degree31_certified_comparator': '0.0000006010083731', 'fractional_improvement_lower': '11777457/6010083731'}
+ANGULAR_PASS {"pass": true, "dimension": 47, "degree": 19, "b0_exact": "1", "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688", "B_float": 654320266.7878339, "harmonic_expansion_exact": true, "constant_coefficient_spherical_moment_exact": true, "all_harmonic_coefficients_nonnegative": true, "sturm_variations_minus_one_cut_one": [10, 10, 9], "strict_cap_margin_exact": "1/100000", "unique_root_bracket_exact": ["99055017696872891561836114339283/198070406285660843983859875840000", "396220070787491566247344457362131/792281625142643375935439503360000"], "unique_root_bracket_float": [0.5001000379330464, 0.5001000379330464], "tail_exponential_majorant_exact": true}
+CYCLIC_PROGRESS 10000 4755 243 5
+CYCLIC_PASS {"pass": true, "dimension": 47, "precision_bits": 256, "alpha": 40, "compact_domain": "0<=t<=1/2, 1<=u<=5, 2tu<=1", "certified_rectangles": 4860, "discarded_rectangles": 251, "processed_rectangles": 10221, "max_axis_depth": 16, "changed_geometry_radicand": "exact monotone rational endpoint bounds", "gap_clipping": "nonnegative on the sorted-triangle feasible domain", "signed_secondary_terms": true, "tails_exact": true, "tail_first_gap_if_positive_exact": "4001/1000", "tail_second_gap_lower_exact": "24", "scale_extension": "single-sign-transition lemma; see AUDIT.md", "seconds": 1.7898738384246826}
+REFIT_RECONSTRUCTION_AND_M_GUARD_PASS
+RADIAL_FOURIER_IDENTITY_PASS
+FOURIER_RAY_PASS
+PHYSICAL_RAY_PASS
+COUPLING_PASS 39 depth 22 seconds 0.06303811073303223
+RADIAL_REFIT_PASS {"pass": true, "dimension": 47, "precision_bits": 512, "new_radial_refit_reconstructed_exact": true, "correction_degree": 47, "exact_Fourier_span_membership": true, "source_t_nonnegative": true, "nonzero_added_Laguerre_degrees": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47], "outside_degree31_span_exact": true, "M_guard_exact": "1000001/1000000", "source_radial_file_sha256": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c", "discovery_candidate_sha256": "01a1139c49b9aea7bd3041eed78f94e73c9d2eeabcf2258c3525a388d48adcbd", "new_certificate_file_sha256": "acc01c95e77c0c876dc8f224766ac1e86d9fdffe466f98d84c29098e7352feb7", "angular_file_sha256": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f", "Fourier_identity_by_Laguerre_recurrence": true, "coupling_intervals": 39, "coupling_depth": 22, "coupling_interval_union_checked": true, "coupling_full_signed_expression": true, "b0_exact": "1", "M_exact": "1562856036043747826249808993443880911140620710793995812563/116655129689752792640666621852879694886698731997032396238848000000", "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688", "origin_cost_exact": "616858149048591191059/70368744177664000000", "origin_PSD_rank_one_identity": true, "objective_matches_primary_exact": true, "damping_lower_exceeds_40_exact": true, "strict_density_upper": "0.0000005998306274", "density_interval": "[5.9983062737840734250171293632305640050087199010020248267702815779264609829536918178881332430781567343330788614183392179091807256795991241068992028066194e-7 +/- 5.87e-159]", "rational_rounding_strict": true, "odd_dimensional_squared_volume_identity_exact": true, "pinned_comparator": "0.0000006490757338", "fractional_improvement_lower": "246225532/3245378669", "scope": "New radial refit, exact origin cost and rounding. Angular/cyclic result files also required."}
+{
+  "pass": true,
+  "dimension": 47,
+  "lower_bound_B_exact": "650216751",
+  "dual_value_interval": "[650216751.453967425737082176783839191127333155646826285095799388024926895069 +/- 1.42e-67]",
+  "finite_degrees_checked": [
+    1,
+    99
+  ],
+  "all_degrees_from": 100,
+  "tail_error_bound_exact": "1248091279096331010199308497714665093262552196465442042635697047665646761808143134015323783104428116099834228515625/204499194639736285591757616548014802504958307504992269658269561212196919226207000491387444304540752067870947440328704",
+  "tail_error_bound_float": 0.006103159874517247,
+  "all_harmonic_degrees_certified": true,
+  "rows": 16
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "lower_bound_B_exact": "646517390",
+  "dual_value_interval": "[646517390.533771490504157653442161096308563647141126988123290424513860780472 +/- 5.13e-67]",
+  "finite_degrees_checked": [
+    1,
+    99
+  ],
+  "all_degrees_from": 100,
+  "tail_error_bound_exact": "593532291334266423988174336427186038927715330277143848585918540754810348091840637832230310835615462412720585925851541782620805720377877400144921732803419195533139683754100533488132879659702305394687468469476065277408923992385664838204289704628203270983192836537268841785150349326416525894517192677911141791807739828185774679542234297212377057271729774624813677950950383371616765887415925434750098448265143627767117081029295940883093017412924510050320839887708358842729985083556340918541293074928606222489980194298100313450192709083966624517203332987189399798770575451359662794222939929217540822101466074933465958936723026084170306924395915039346712695541077089775590531128039993694738429255385513648660734416043144493839200542892978810253033/103969546768117079228268050561523952410702647181792846232434018689006396725439485511693541996250481486869303120725691411315103337806720477970927052568887341803823899168111910959461152681204488815305656871756243391503915356981288287999596546288788623674151045595037854238729671031399350192188027744105057449161094379591144681677180691190414009345406981599190162419937822249693357240271054926588792499022447247925962452199612023114719959117278269361262221804718612731544668734632005474467701172341102790426725756201628984825235915476120036232791453466950790648035879770757004363043577880796108968238192040011383812819879435896313369936341022497340864547524818223447346516264057985286169642682278490409544982225507372839715938370584576000000000000",
+  "tail_error_bound_float": 0.005708712885495399,
+  "all_harmonic_degrees_certified": true,
+  "rows": 16
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688",
+  "precision_bits": 1024,
+  "family": "t>=0 times normalized degree111 source plus free normalized Laguerre degrees0..31; C=BM>=0; H(0)=1; Fourier H>=0; physical P<=0 for X>=7pi; pair coupling on squared radii[6,7]",
+  "necessary_rows_only": true,
+  "genuine_pi_and_exponential_rows": true,
+  "selected_row_count": 33,
+  "all_true_dual_weights_strictly_positive": true,
+  "all_32_Laguerre_Fourier_eigenidentities_exact": true,
+  "all_pair_rows_at_contact": true,
+  "active_matrix_determinant_interval": "[3.09389757113260828955310921629176618602203025954323950394439272064333629007691447813770183386518916821631479296187211724346041135378548146938783472231984558414346703257478894581207944720411575270766380825130606419523177127745679e-48 +/- 3.41e-276]",
+  "minimum_weight_interval": "[0.074377181679975906871578947711283397732399437045534862604945360331971978405194803411546639506949811157246697995988839485900002984394317864938285190423437183390841803763080134655922606085933912896442241146565194549767901873612638059378141426199757507870488 +/- 1.77e-256]",
+  "objective_lower_interval": "[11.43014026950652755214145932424170762342995464555006652701626044386640407775050925984141565051893663040367399112289324429156610039610814976587536541383157154753814688369635946200025780891673579966052570736846789832993066918728726589540131362654907615926518 +/- 4.73e-255]",
+  "density_lower_interval": "[6.01007502945220541783099863241514324208467569079462381234348041477490105612102197435176709795521764492629094575436906442626644635898679672163279069759435147058024587614555661174795609633634847179992788453442885599055920632325543224379810331998557756845886e-7 +/- 4.41e-262]",
+  "safe_density_lower_exact": "1502518757/2500000000000000",
+  "safe_density_lower_decimal": "0.0000006010075028",
+  "dual_definition": "unique exact solution Atilde_active^T y=-c; verified nonsingular Arb solve encloses true weights",
+  "nonnegative_variable_reduced_costs_exact": "0 for t and C",
+  "scope": "Lower bound for this fixed finite-dimensional radial family at the specified B. Not an unrestricted packing-density lower or upper bound."
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "B_exact": "650216751",
+  "precision_bits": 1024,
+  "family": "t>=0 times normalized degree111 source plus free normalized Laguerre degrees0..31; C=BM>=0; H(0)=1; Fourier H>=0; physical P<=0 for X>=7pi; pair coupling on squared radii[6,7]",
+  "necessary_rows_only": true,
+  "genuine_pi_and_exponential_rows": true,
+  "selected_row_count": 33,
+  "all_true_dual_weights_strictly_positive": true,
+  "all_32_Laguerre_Fourier_eigenidentities_exact": true,
+  "all_pair_rows_at_contact": true,
+  "active_matrix_determinant_interval": "[7.104173429231696329909541006510743577539466519080150980151966201739836073049799878631215281490765835863350960939858675089241896340702420982360012612525447809384614325306518818158199567420852156110964725793742662145549883103521415256273206e-46 +/- 6.15e-284]",
+  "minimum_weight_interval": "[0.035737448997097974321992183497850770324017918629283298079753904028018148277762076797467805673397927341670026038148561552926904359828423979611655446002869445136720258823358711546803382792995836181590167066917244926988528535130372713762024785971352039328883 +/- 2.61e-256]",
+  "objective_lower_interval": "[11.376188368485202453326182032320912876782018181417237949913877541840335908524486298141568836327875785605505106766793451820209088913450106608273923896341366807417993787829437460735275908367454720286913727349580668800071732347887241168997032949240844393041722 +/- 7.94e-256]",
+  "density_lower_interval": "[5.981706613538291008234020951749071749858852023614061539499602083891934682258685676807088365436321015279116163914869061574582538651334003254740894417856940072560907339018958810974843354867591304970360278091545593986172590802986927610102759859431552747229179e-7 +/- 4.18e-263]",
+  "safe_density_lower_exact": "1495426653/2500000000000000",
+  "safe_density_lower_decimal": "0.0000005981706612",
+  "dual_definition": "unique exact solution Atilde_active^T y=-c; verified nonsingular Arb solve encloses true weights",
+  "nonnegative_variable_reduced_costs_exact": "0 for t and C",
+  "scope": "Lower bound for this fixed finite-dimensional radial family at the specified B. Not an unrestricted packing-density lower or upper bound."
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "B_exact": "646517390",
+  "precision_bits": 1024,
+  "family": "t>=0 times normalized degree111 source plus free normalized Laguerre degrees0..31; C=BM>=0; H(0)=1; Fourier H>=0; physical P<=0 for X>=7pi; pair coupling on squared radii[6,7]",
+  "necessary_rows_only": true,
+  "genuine_pi_and_exponential_rows": true,
+  "selected_row_count": 33,
+  "all_true_dual_weights_strictly_positive": true,
+  "all_32_Laguerre_Fourier_eigenidentities_exact": true,
+  "all_pair_rows_at_contact": true,
+  "active_matrix_determinant_interval": "[3.91546229690871607084534300293998011796110975441912558021522539076967193032694384280061781486236450885925448327080754302550009557504454481130761560733058573880702254018801710485893315237200439651804538130182257947576282014960433100356336e-42 +/- 4.74e-279]",
+  "minimum_weight_interval": "[0.07741320693575710757460416259719835324190334078017076058720328381837944602848429711566230107026663933332450274176892001979164846687278818472764483647283076401417796781937377532744366017331858230147237232468990122683438468047074662294405977555421406341095813 +/- 7.77e-258]",
+  "objective_lower_interval": "[11.327405559972591252096553256120276488262098714043684650075229935266419935096903708142091334874199107363460119272155500576576453624250979590493743346934405124388161318132949625162992315014452871040792371736059686190812046579198947935969788599492636464149888 +/- 4.54e-256]",
+  "density_lower_interval": "[5.9560561549791458843766584953847083034379643460648338669997321413843762608596787193649576748868852768562768275151204226598037772114140105882718439637566457035059909164701611058273448068473676549765263066213062086202816303669652084098295535650709264307238565e-7 +/- 7.67e-264]",
+  "safe_density_lower_exact": "5956056153/10000000000000000",
+  "safe_density_lower_decimal": "0.0000005956056153",
+  "dual_definition": "unique exact solution Atilde_active^T y=-c; verified nonsingular Arb solve encloses true weights",
+  "nonnegative_variable_reduced_costs_exact": "0 for t and C",
+  "scope": "Lower bound for this fixed finite-dimensional radial family at the specified B. Not an unrestricted packing-density lower or upper bound."
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "new_degree47_strict_upper": "0.0000005998306274",
+  "all_embedded_lower_proofs_replayed": true,
+  "degree31_floors": {
+    "fixed": {
+      "lower_exact": "1502518757/2500000000000000",
+      "lower_decimal": "0.0000006010075028",
+      "new_upper_below_floor": true,
+      "floor_minus_new_upper_exact": "5884377/5000000000000000"
+    },
+    "joint": {
+      "lower_exact": "1495426653/2500000000000000",
+      "lower_decimal": "0.0000005981706612",
+      "new_upper_below_floor": false,
+      "floor_minus_new_upper_exact": "-8299831/5000000000000000"
+    },
+    "allrate": {
+      "lower_exact": "5956056153/10000000000000000",
+      "lower_decimal": "0.0000005956056153",
+      "new_upper_below_floor": false,
+      "floor_minus_new_upper_exact": "-42250121/10000000000000000"
+    }
+  },
+  "outside_degree31_span_exact": true,
+  "free_scalar_amplitude_extension": "For B>0,C,D>=0, CD>=B*A^2 and contact f<=2A-D imply f<=C/B; D=0 is handled separately.",
+  "scope": "Degree31 lower floors retain the normalized source span and physical negativity beyond7pi; allrate permits every positive scalar Gaussian rate and all finite angular degrees. Harmonic-dependent radial matrices are excluded."
+}
+{
+  "pass": true,
+  "dimension": 47,
+  "strict_upper": "0.0000005998306274",
+  "density_interval": "[5.9983062737840734250171293632305640050087199010020248267702815779264609829536918178881332430781567343330788614183392179091807256795991241068992028066194e-7 +/- 5.87e-159]",
+  "correction_degree": 47,
+  "source_t_nonnegative": true,
+  "exact_physical_and_Fourier_span_membership": true,
+  "outside_degree31_span_exact": true,
+  "cyclic_rectangles": 4860,
+  "pair_intervals": 39,
+  "pair_depth": 22,
+  "all_embedded_lower_proofs_replayed": true,
+  "degree31_floors": {
+    "fixed": {
+      "lower_exact": "1502518757/2500000000000000",
+      "lower_decimal": "0.0000006010075028",
+      "new_upper_below_floor": true,
+      "floor_minus_new_upper_exact": "5884377/5000000000000000"
+    },
+    "joint": {
+      "lower_exact": "1495426653/2500000000000000",
+      "lower_decimal": "0.0000005981706612",
+      "new_upper_below_floor": false,
+      "floor_minus_new_upper_exact": "-8299831/5000000000000000"
+    },
+    "allrate": {
+      "lower_exact": "5956056153/10000000000000000",
+      "lower_decimal": "0.0000005956056153",
+      "new_upper_below_floor": false,
+      "floor_minus_new_upper_exact": "-42250121/10000000000000000"
+    }
+  },
+  "free_scalar_amplitude_extension": "SATURATION_EXTENSION.md",
+  "independent_computer_assisted_audit": true,
+  "formal_proof_assistant_verification": false
+}
+PASS registered 47D complete primary and independent chains

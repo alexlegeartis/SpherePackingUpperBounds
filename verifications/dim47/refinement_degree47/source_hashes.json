@@ -1,0 +1,8 @@
+{
+  "certificate.json": "acc01c95e77c0c876dc8f224766ac1e86d9fdffe466f98d84c29098e7352feb7",
+  "continuum_three_point/cyclic_angular40_exact.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "independent/inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "independent/inputs/discovery_candidate.json": "01a1139c49b9aea7bd3041eed78f94e73c9d2eeabcf2258c3525a388d48adcbd",
+  "independent/inputs/angular47.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "independent/inputs/certificate.json": "acc01c95e77c0c876dc8f224766ac1e86d9fdffe466f98d84c29098e7352feb7"
+}

@@ -1,0 +1,15 @@
+{
+  "inputs/angular46.json": "d1577cd3b71b0d80ec39cc1589c66bd73c2c99867d420434334721eb6d55070e",
+  "inputs/certificate.json": "72184ecebee6e044b2a71048fd7ec8934fb8d76f7e929618f13a306ca5b18b89",
+  "inputs/discovery_candidate.json": "5f44293cb8550f91f619570281f2cb43c5ced6fb11857e0c929137ca2785ec21",
+  "inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "lower_comparison/dual46_allrate_selected.json": "8e970247608cce0bbc5070960496cf9096596b9b39c74e88e1f773c42727ba32",
+  "lower_comparison/dual46_fixed_selected.json": "cd9544fa1a047ab6f22586fa3cf89ff917a78a0442f1d165616321d584403acb",
+  "lower_comparison/dual46_joint_selected.json": "8ee4d4f0feed4990fa7da114b5ada1dba43f6592bcf693a3a6ebda62330a9811",
+  "lower_comparison/inputs/angular46_caponly_certificate.json": "99b65a54ed50c3bef2634ac37f7297cd1a2903a529e1dccc788b878bcdf93b9a",
+  "lower_comparison/inputs/angular46_lower_certificate.json": "4f345f28a5738aafb6dca3c5fc13b8e25715440a81eead84bab01c99488f6b45",
+  "lower_comparison/inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "lower_comparison/radial_model.py": "81d93209d0d3bc86d01882356747703bfb74305eba37c05fcc683e72aafe4e45",
+  "lower_comparison/verify_angular_certificate.py": "802385efbd83ff5c5437e2318f7a59f56cfe85ac88c9debc60411c65838ea71c",
+  "lower_comparison/verify_dual.py": "b008eb2e5cee60cee7d562b5e8c6de2de3680259c1dce62297bd528af3b014d4"
+}

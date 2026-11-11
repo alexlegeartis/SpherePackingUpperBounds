@@ -1,0 +1,29 @@
+{
+  "pass": true,
+  "dimension": 46,
+  "new_degree47_strict_upper": "0.0000008803541044",
+  "all_embedded_lower_proofs_replayed": true,
+  "degree31_floors": {
+    "fixed": {
+      "lower_exact": "4434239569/5000000000000000",
+      "lower_decimal": "0.0000008868479138",
+      "new_upper_below_floor": true,
+      "floor_minus_new_upper_exact": "32469047/5000000000000000"
+    },
+    "joint": {
+      "lower_exact": "4415265697/5000000000000000",
+      "lower_decimal": "0.0000008830531394",
+      "new_upper_below_floor": true,
+      "floor_minus_new_upper_exact": "539807/200000000000000"
+    },
+    "allrate": {
+      "lower_exact": "4401892083/5000000000000000",
+      "lower_decimal": "0.0000008803784166",
+      "new_upper_below_floor": true,
+      "floor_minus_new_upper_exact": "121561/5000000000000000"
+    }
+  },
+  "outside_degree31_span_exact": true,
+  "free_scalar_amplitude_extension": "For B>0,C,D>=0, CD>=B*A^2 and contact f<=2A-D imply f<=C/B; D=0 is handled separately.",
+  "scope": "Degree31 lower floors retain the normalized source span and physical negativity beyond7pi; allrate permits every positive scalar Gaussian rate and all finite angular degrees. Harmonic-dependent radial matrices are excluded."
+}

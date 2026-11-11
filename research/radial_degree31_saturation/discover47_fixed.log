@@ -1,0 +1,20 @@
+{
+  "dimension": 47,
+  "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688",
+  "tag": "fixed",
+  "objective_float": 11.43014027308142,
+  "density_float": 6.010075031331912e-07,
+  "active_count": 33,
+  "minimum_active_y": 0.07442995659354834,
+  "stationarity_residual_float": 8.074965585080918e-09,
+  "nonnegative_variable_reduced_costs_float": [
+    0.0,
+    0.0
+  ],
+  "primal_t_C_float": [
+    0.9656058293737206,
+    8.597162359485104
+  ],
+  "row_count": 6410,
+  "certified": false
+}

@@ -1,0 +1,45 @@
+{
+  "pass": true,
+  "tests": [
+    {
+      "test": "unknown_row_kind",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "pair_below_separation",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "negative_multiplier",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "physical_point_outside_tail",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "negative_fourier_radius",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "singular_duplicate_row",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "nonpositive_B",
+      "rejected": true,
+      "last_error": "AssertionError"
+    },
+    {
+      "test": "optimized_python_disallowed",
+      "rejected": true,
+      "last_error": "RuntimeError: Proof checks require assertions; do not use Python -O"
+    }
+  ]
+}

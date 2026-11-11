@@ -1,0 +1,79 @@
+[
+  {
+    "round": 0,
+    "repair_number": 0,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803267243589132e-07,
+    "relative_numerical_gain_vs_degree31": 0.007353952898993987,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 20,
+      "physical": 18
+    }
+  },
+  {
+    "round": 1,
+    "repair_number": 1,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803459142283859e-07,
+    "relative_numerical_gain_vs_degree31": 0.007332314628168635,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 22,
+      "physical": 12
+    }
+  },
+  {
+    "round": 2,
+    "repair_number": 2,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803514203773617e-07,
+    "relative_numerical_gain_vs_degree31": 0.007326105959427509,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 18,
+      "physical": 8
+    }
+  },
+  {
+    "round": 3,
+    "repair_number": 3,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803531664750061e-07,
+    "relative_numerical_gain_vs_degree31": 0.0073241370802867856,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 16,
+      "physical": 6
+    }
+  },
+  {
+    "round": 4,
+    "repair_number": 4,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803533819767347e-07,
+    "relative_numerical_gain_vs_degree31": 0.007323894083075544,
+    "radial_audit_returncode": 1,
+    "forbidden_root_counts": {
+      "fourier": 8,
+      "physical": 2
+    }
+  },
+  {
+    "round": 5,
+    "repair_number": 5,
+    "degree": 47,
+    "dimension": 46,
+    "density_candidate": 8.803534355135891e-07,
+    "relative_numerical_gain_vs_degree31": 0.0073238337155489,
+    "radial_audit_returncode": 0,
+    "radial_audit_pass": true,
+    "density_interval": "[8.8035410433677451788636029568914238956347799263056263331622198543257885428331533324292230706859348980158314303416208869967529605502631889283056162606709e-7 +/- 4.06e-159]",
+    "complete_package_audit_pass": false
+  }
+]

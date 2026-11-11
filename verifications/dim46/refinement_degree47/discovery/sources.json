@@ -1,0 +1,9 @@
+{
+  "source_directory": "research/density_border_radial46_20261111",
+  "initial_cut_counts": {
+    "physical": 56,
+    "fourier": 118
+  },
+  "angular_sha256": "d1577cd3b71b0d80ec39cc1589c66bd73c2c99867d420434334721eb6d55070e",
+  "baseline_candidate_sha256": "15a2ee9bf08a0b8764428f716ba7cd3c166c9b59ebecf88ab62e32616f9b3a3d"
+}

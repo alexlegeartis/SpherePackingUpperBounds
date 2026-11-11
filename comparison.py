@@ -57,8 +57,8 @@ proof_ideas = {37:"Dimension-specific angular kernel + Gaussian radial optimizat
  43: 'Dimension-specific angular kernel + Gaussian radial optimization',
  44: 'Dimension-specific angular kernel + Gaussian radial optimization',
  45: 'Dimension-specific angular kernel + Gaussian radial optimization',
- 46: 'Rebuilt angular kernel + radial Fourier refit',
- 47: 'Rebuilt angular kernel + radial Fourier refit',
+ 46: 'Rebuilt angular kernel + degree47 radial correction',
+ 47: 'Rebuilt angular kernel + degree47 radial correction',
  48: 'Gaussian cyclic kernel + coupled radial optimization',
 }
 assert set(proof_ideas) == {row["dimension"] for row in rows}

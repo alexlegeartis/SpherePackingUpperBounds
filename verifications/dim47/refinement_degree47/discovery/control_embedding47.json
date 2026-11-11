@@ -1,0 +1,15 @@
+{
+  "dimension": 47,
+  "enriched_degree": 47,
+  "reference_row_scaling_degree": 31,
+  "padded_control_max_lhs": -7.020804515533996e-08,
+  "padded_control_normalization_residual": -2.646771690706373e-13,
+  "padded_control_objective": 11.430148220828894,
+  "saved_control_objective": 11.430148220828894,
+  "same_objective": true,
+  "numerical_margin_pass": false,
+  "control_safe_margin": true,
+  "relaxed_margin_rows": 30,
+  "least_negative_rhs": -7.020704515533996e-08,
+  "control_max_constraint_residual": -1.000000000001134e-12
+}

@@ -1,0 +1,9 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 7771, 'discarded_rectangles': 432, 'max_depth': 16, 'tails_exponential_check': True}
+
+fourier global sign root isolation PASS
+physical global sign root isolation PASS
+{'pass': True, 'dimension': 47, 'source48_degree': 111, 'correction_degree': 47, 'source_t_nonnegative': True, 'exact_physical_export_match': True, 'exact_Fourier_span_match': True, 'exact_M_export_match': True, 'nonzero_added_Laguerre_degrees': [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47], 'degree31_span_embedding': 'Pad sixteen zero coefficients; basis polynomials do not depend on the maximum included degree.', 'outside_degree31_span': True, 'reason': 'The source has degree111 and every normalized Laguerre polynomial has its distinct degree. Nonzero degrees32..47 cannot be absorbed by changing source t or lower coefficients.'}
+
+{'pass': True, 'dimension': 47, 'strict_upper': '0.0000005998306274', 'density_interval': '[5.9983062737840734250171293632305640050087199010020248267702815779264609829536918178881332430781567343330788614183392179091807256795991241068992028066194e-7 +/- 5.87e-159]', 'degree47_span_membership_exact': True, 'radial_Fourier_identity': True, 'global_Fourier_and_physical_signs': True, 'coupling_intervals': 39, 'coupling_depth': 22, 'angular_dimension_specific_PSD': True, 'origin_rank_one_Gram': True, 'new_complete_cyclic_domain': True, 'exact_rational_rounding': True, 'degree31_certified_comparator': '0.0000006010083731', 'fractional_improvement_lower': '11777457/6010083731'}

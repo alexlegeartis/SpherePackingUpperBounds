@@ -219,3 +219,7 @@ The46D and47D refinements use newly optimized target-dimensional angular PSD pol
 ## Radial response to the improved angular cost
 
 After replacing the angular polynomial, a second optimization reweights the degree-111 radial source and adds a target-dimensional degree-31 Laguerre correction. Exact root-isolation counterexamples repair sampled sign failures. All global signs, cyclic domains, pair coupling and normalization are reverified for the final46D/47D certificates. These are distinct from the unchanged-radial angular-only step, which remains preserved.
+
+## Degree47 radial enrichment in dimensions46 and47
+
+The new certificates retain the rebuilt angular kernels and extend the Laguerre correction from degree31 to47. Exact coefficient reconstruction proves the witnesses lie outside the older radial span. Global signs, coupling and normalization are replayed; numerical margin effects are documented in discovery. This is a family enlargement, not a convex combination of bounds.

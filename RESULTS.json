@@ -591,45 +591,47 @@
   },
   {
     "dimension": 46,
-    "strict_density_upper_bound": "0.0000008868492132",
-    "package": "verifications/dim46/refinement_joint",
-    "method": "Rebuilt angular kernel and reoptimized radial Fourier pair with exact root-guided repairs",
+    "strict_density_upper_bound": "0.0000008803541044",
+    "package": "verifications/dim46/refinement_degree47",
+    "method": "Rebuilt angular kernel and degree47 radial Fourier correction beyond prior degree31 span",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.8609574721360648103e-8",
     "previous_upper_density": "9.295151556E-7",
-    "upper_decrease_percent": "4.590129",
-    "gap_decrease_percent": "4.735895",
+    "upper_decrease_percent": "5.288892",
+    "gap_decrease_percent": "5.456848",
     "old_gap": "9.0090558087863935190e-7",
-    "new_gap": "8.5823963847863935190e-7",
+    "new_gap": "8.5174452967863935190e-7",
     "earlier_repository_upper_densities": [
       "0.000000914882847",
-      "0.000000897267583"
+      "0.000000897267583",
+      "0.0000008868492132"
     ],
-    "previous_repository_package": "verifications/dim46/refinement_angular",
-    "source_package": "verifications/dim46/refinement_joint"
+    "previous_repository_package": "verifications/dim46/refinement_joint",
+    "source_package": "verifications/dim46/refinement_degree47"
   },
   {
     "dimension": 47,
-    "strict_density_upper_bound": "0.0000006010083731",
-    "package": "verifications/dim47/refinement_joint",
-    "method": "Rebuilt angular kernel and reoptimized radial Fourier pair with exact root-guided repairs",
-    "source_package": "verifications/dim47/refinement_joint",
+    "strict_density_upper_bound": "0.0000005998306274",
+    "package": "verifications/dim47/refinement_degree47",
+    "method": "Rebuilt angular kernel and degree47 radial Fourier correction beyond prior degree31 span",
+    "source_package": "verifications/dim47/refinement_degree47",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table, four-month-old crawl; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.2669603229310984383e-8",
     "previous_upper_density": "6.490757338E-7",
-    "upper_decrease_percent": "7.405509",
-    "gap_decrease_percent": "7.673514",
+    "upper_decrease_percent": "7.586958",
+    "gap_decrease_percent": "7.861530",
     "old_gap": "6.2640613057068901562e-7",
-    "new_gap": "5.7833876987068901562e-7",
+    "new_gap": "5.7716102417068901562e-7",
     "earlier_repository_upper_densities": [
       "0.000000616879891",
-      "0.0000006117584752"
+      "0.0000006117584752",
+      "0.0000006010083731"
     ],
-    "previous_repository_package": "verifications/dim47/refinement_angular"
+    "previous_repository_package": "verifications/dim47/refinement_joint"
   },
   {
     "dimension": 48,

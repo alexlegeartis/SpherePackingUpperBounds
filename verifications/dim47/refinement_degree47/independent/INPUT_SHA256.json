@@ -1,0 +1,15 @@
+{
+  "inputs/angular47.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "inputs/certificate.json": "acc01c95e77c0c876dc8f224766ac1e86d9fdffe466f98d84c29098e7352feb7",
+  "inputs/discovery_candidate.json": "01a1139c49b9aea7bd3041eed78f94e73c9d2eeabcf2258c3525a388d48adcbd",
+  "inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "lower_comparison/dual47_allrate_selected.json": "c2be31e81e4df7bbdd973bc81f92066fe30db051c414e7ee952a2743f809f017",
+  "lower_comparison/dual47_fixed_selected.json": "6e6bb3ba1f5c0fed8fad84a888286fcc027c51619a4339573fc9e13478c1f2c6",
+  "lower_comparison/dual47_joint_selected.json": "84648d300f65e19029190e680f20e5a8457c481d7a151c8a5ae7d43d1f38a9cc",
+  "lower_comparison/inputs/angular47_caponly_certificate.json": "22ea2ccda17c2d121cfecab1d59d6f00a8688993f09d5e281fa8490935f43d0b",
+  "lower_comparison/inputs/angular47_lower_certificate.json": "6b96cfe7ef6ac626a7d8c566c4feed400d17ca5049d89835df52ca36e94a8a79",
+  "lower_comparison/inputs/source48_radial.json": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "lower_comparison/radial_model.py": "81d93209d0d3bc86d01882356747703bfb74305eba37c05fcc683e72aafe4e45",
+  "lower_comparison/verify_angular_certificate.py": "802385efbd83ff5c5437e2318f7a59f56cfe85ac88c9debc60411c65838ea71c",
+  "lower_comparison/verify_dual.py": "b008eb2e5cee60cee7d562b5e8c6de2de3680259c1dce62297bd528af3b014d4"
+}
