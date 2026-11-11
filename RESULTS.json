@@ -48,9 +48,26 @@
     "method": "Exact origin-coordinate Schur-complement tightening; all source continuum checks replayed"
   },
   {
+    "dimension": 17,
+    "strict_density_upper_bound": "0.018335552",
+    "package": "verifications/dim17",
+    "known_lower_density": "0.0088113191823211898698",
+    "previous_upper_density": "0.0184640903350649",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "known_lower_source": "https://doi.org/10.4153/CJM-1964-065-1",
+    "known_lower_formula": "pi^(17/2)/(16 Gamma(19/2))",
+    "previous_upper_status": "Pinned Cohn indexed-table value; index four months old, no worldwide-priority assertion",
+    "previous_upper_reviewed": "2026-11-11",
+    "method": "Solid-harmonic cyclic generalization with explicit finite-sum proof, not literal Theorem 1.1",
+    "upper_decrease_percent": "0.696153",
+    "gap_decrease_percent": "1.331621",
+    "old_gap": "0.0096527711527437101302",
+    "new_gap": "0.0095242328176788101302"
+  },
+  {
     "dimension": 18,
-    "strict_density_upper_bound": "0.013408931",
-    "package": "verifications/dim18",
+    "strict_density_upper_bound": "0.013284728",
+    "package": "verifications/dim18/refinement_cyclic",
     "known_lower_density": "0.0061678981253312565897",
     "previous_upper_density": "0.0134853404450862",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
@@ -58,10 +75,15 @@
     "known_lower_formula": "pi^9/9! * (3/4)^9",
     "previous_upper_status": "Pinned Cohn indexed table, reported crawl age four months; live retrieval unavailable; no worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-10",
-    "upper_decrease_percent": "0.566611",
-    "gap_decrease_percent": "1.044210",
+    "upper_decrease_percent": "1.487634",
+    "gap_decrease_percent": "2.741565",
     "old_gap": "0.0073174423197549434103",
-    "new_gap": "0.0072410328746687434103"
+    "new_gap": "0.0071168298746687434103",
+    "earlier_repository_upper_densities": [
+      "0.013408931"
+    ],
+    "source_package": "verifications/dim18",
+    "method": "Solid-harmonic cyclic generalization with explicit finite-sum proof"
   },
   {
     "dimension": 19,

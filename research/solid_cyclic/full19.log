@@ -1,0 +1,37 @@
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 26 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.38053274154663086
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.8108541965484619
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.4013798236846924
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.9655818939208984
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.3315658569335938
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.9370524883270264
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.7294600009918213
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.245640516281128
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.069688081741333
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.651779890060425
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.869675159454346
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.224313259124756
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.704610109329224
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.082420825958252
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.662834882736206
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.300005912780762
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.601976871490479
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.985385417938232
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.382479667663574
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.667940616607666
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 25, 'passed': 13, 'excluded': 0, 'depth': 8} seconds 9.899964570999146
+FAR 0 1 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 5} seconds 10.162574768066406
+FAR 0 2 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 4} seconds 10.498819589614868
+FAR 0 3 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 3} seconds 10.814160585403442
+FAR 1 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 11.012908935546875
+FAR 1 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.284204959869385
+FAR 1 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.599019050598145
+FAR 2 2 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 11.810384750366211
+FAR 2 3 {'checked': 9, 'passed': 5, 'excluded': 0, 'depth': 3} seconds 12.12384295463562
+FAR 3 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 3} seconds 12.364477634429932
+Entire far domain: PASS
+Density enclosure: [0.00955749071723961053311040089623003976576655784428912332212152422727976367995 +/- 4.21e-78]
+PASS: complete solid-harmonic cyclic certificate.

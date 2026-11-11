@@ -1,0 +1,12 @@
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/verify.py", line 202, in <module>
+    ap=argparse.ArgumentParser();ap.add_argument('path');ap.add_argument('--only',choices=['pair','cyclic','far']);args=ap.parse_args();verify(args.path,args.only)
+                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/verify.py", line 190, in verify
+    out=verify_box(kernel(i,j),[intervals[i],intervals[j],(R2,4*R2)],far=True)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/verify.py", line 94, in verify_box
+    raise AssertionError(('POSITIVE_CORNER',unit,idx,float(l[idx]),list(map(str,coords))))
+AssertionError: ('POSITIVE_CORNER', ((0.0, 0.25), (0.0, 0.25), (0.71875, 0.734375)), (0, 0, -1), 1.9029115235117286e-08, ['2.125000000000000000000000000000000000000000000000000000000000000000000000000', '2.125000000000000000000000000000000000000000000000000000000000000000000000000', '[8.167968750000000000000000000000000000000000000000000000000000000000000000000 +/- 4.31e-76]'])

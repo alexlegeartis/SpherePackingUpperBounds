@@ -57,3 +57,15 @@ The current registered bounds are 4D <0.633428734445, 5D <0.510501094478, 19D <0
 The certified upper is **<0.013408931**, independently replayed by two full-domain verification paths. Its comparator 0.0134853404450862 is the pinned Cohn indexed-table value attributed to [Afkhami-Jeddi et al.](https://arxiv.org/abs/2006.02560v2). The index was reported as four months old and live Cohn retrieval failed. Refreshed searches found no stronger unrestricted 18D bound, but no worldwide-priority claim is made. The newer arXiv:2512.04829v2 table covers other dimensions, not 18.
 
 The lower density is pi^9/9! * (3/4)^9, from the center density (3/4)^9 of the 18D packing in Bierbrauer–Edel, [Dense sphere packings from new codes](https://doi.org/10.1023/A:1008733715001), whose abstract explicitly states the center density. The pinned Cohn index corroborates the construction (512 spheres per cell). This is a cited lower bound, not an optimality claim. The upper decrease is 0.566611% and the additive-gap decrease 1.044210%; comparison.py verifies the formulas.
+
+## Dimension 17 cyclic addition
+
+The strict upper **<0.018335552** is compared against the pinned Cohn indexed-table value 0.0184640903350649 attributed to [Afkhami-Jeddi et al.](https://arxiv.org/abs/2006.02560v2). Fresh searches on 11 November 2026 found no stronger finite unrestricted 17D bound, but the index was four months old and this is not worldwide-priority certification. The newer 2512.04829 table does not cover 17D.
+
+The lower density is pi^(17/2)/(16 Gamma(19/2)), from the Lambda17 lattice's center density 1/16. This is tabulated by [Cohn](https://cohn.mit.edu/sphere-packing/) and [NumberDB](https://numberdb.org/Densities_of_the_densest_known_lattice_sphere_packings), with primary reference John Leech, [Some Sphere Packings in Higher Space](https://doi.org/10.4153/CJM-1964-065-1), Canadian Journal of Mathematics 16 (1964), 657–682. The construction is a lower bound, not an optimality claim. The generated table uses the same lower value on both sides.
+
+The new proof uses a cyclic generalization: see [PROOF.md](verifications/dim17/PROOF.md) and [independent review](verifications/dim17/REVIEW.md), rather than claiming the literal individual-kernel-sign condition of Theorem 1.1. No neighbor-count input is used.
+
+## Dimension 18 cyclic refinement
+
+The current bound is **<0.013284728**, using the same lower construction and pinned published comparator as the original 18D entry. It lowers that comparator by 1.487634% and closes 2.741565% of the additive gap. The prior <0.013408931 certificate remains preserved. The cyclic generalization and all exact-domain checks are documented in [the refinement](verifications/dim18/refinement_cyclic/); no worldwide-priority claim is made.

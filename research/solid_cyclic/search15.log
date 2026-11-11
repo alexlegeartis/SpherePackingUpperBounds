@@ -1,0 +1,2 @@
+{'round': 0, 'objective': 26.09674286332944, 'density_candidate': 0.03389033650341158, 'status': 'optimal', 'added': 10, 'worst_sampled': {'far': 2.0814744949160106e-06, 'cyclic': -9.999998460161023e-07}, 'seconds': 7.200327396392822}
+{'round': 1, 'objective': 26.158434601455607, 'density_candidate': 0.03397045200960812, 'status': 'optimal', 'added': 0, 'worst_sampled': {'far': -2.700714567312884e-07, 'cyclic': -9.999961070998077e-07}, 'seconds': 14.297237396240234}

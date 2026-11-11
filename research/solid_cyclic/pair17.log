@@ -1,0 +1,4 @@
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 24 5
+Density enclosure: [0.01831609954696538114162732355107930470581323199276791756567343293369532017796 +/- 7.07e-78]

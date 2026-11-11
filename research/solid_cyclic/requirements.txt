@@ -1,0 +1,5 @@
+numpy
+scipy
+cvxpy>=1.6
+clarabel
+python-flint>=0.9

@@ -1,0 +1,6 @@
+{'round': 0, 'objective': 29.613455593471585, 'density_candidate': 0.006950642566004947, 'status': 'optimal', 'added': 20, 'worst_sampled': {'far': 5.393564672918905e-06, 'cyclic': 2.8225310269331273e-06}, 'seconds': 17.124478101730347}
+/workspace/scratch/941a2e823e69/research/density_solid_cyclic_20261111/search.py:88: UserWarning: Solution may be inaccurate. Try another solver, adjusting the solver settings, or solve with verbose=True for more information.
+  p.solve(solver='CLARABEL',max_iter=300,tol_gap_abs=1e-10,tol_feas=1e-10,tol_gap_rel=1e-10)
+{'round': 1, 'objective': 29.496213716258698, 'density_candidate': 0.006923124454189118, 'status': 'optimal_inaccurate', 'added': 7, 'worst_sampled': {'far': 5.522375723897299e-08, 'cyclic': -1.0072552241162814e-06}, 'seconds': 27.563382148742676}
+{'round': 2, 'objective': 29.660202602506374, 'density_candidate': 0.006961614664475692, 'status': 'optimal_inaccurate', 'added': 2, 'worst_sampled': {'far': 2.3163723700606043e-07, 'cyclic': -1.0017706964463718e-06}, 'seconds': 40.72280430793762}
+{'round': 3, 'objective': 29.728741671284485, 'density_candidate': 0.006977701627625933, 'status': 'optimal_inaccurate', 'added': 0, 'worst_sampled': {'far': -6.442259393736583e-07, 'cyclic': -1.0297809580044753e-06}, 'seconds': 55.5944664478302}

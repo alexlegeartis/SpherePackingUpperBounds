@@ -1,0 +1,240 @@
+PASS: ordering, independent rational percentages, gap identities, 70/100-digit agreement and generated tables
+dim17 verify.py
+Exact rational PSD: PASS
+Exact Fourier identity and global signs: PASS
+Global solid-harmonic pair inequality: PASS 24 5
+CYCLIC 0 0 0 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 0.5161924362182617
+CYCLIC 0 0 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.072645664215088
+CYCLIC 0 0 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 1.8078083992004395
+CYCLIC 0 0 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.4955790042877197
+CYCLIC 0 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 2.9298856258392334
+CYCLIC 0 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 3.5950112342834473
+CYCLIC 0 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 4.590705394744873
+CYCLIC 0 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 5.189249515533447
+CYCLIC 0 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.259653091430664
+CYCLIC 0 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 6.943549156188965
+CYCLIC 1 1 1 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.186730861663818
+CYCLIC 1 1 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 7.585806369781494
+CYCLIC 1 1 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.210225105285645
+CYCLIC 1 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 8.531407833099365
+CYCLIC 1 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.03131651878357
+CYCLIC 1 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.503782510757446
+CYCLIC 2 2 2 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 9.691774368286133
+CYCLIC 2 2 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.020162582397461
+CYCLIC 2 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.37129831314087
+CYCLIC 3 3 3 {'checked': 1, 'passed': 1, 'excluded': 0, 'depth': 0} seconds 10.629202365875244
+Entire compact cyclic domain: PASS
+FAR 0 0 {'checked': 19, 'passed': 10, 'excluded': 0, 'depth': 5} seconds 10.83861780166626
+FAR 0 1 {'checked': 13, 'passed': 7, 'excluded': 0, 'depth': 5} seconds 11.097489595413208
+FAR 0 2 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 4} seconds 11.406248092651367
+FAR 0 3 {'checked': 11, 'passed': 6, 'excluded': 0, 'depth': 4} seconds 11.70516848564148
+FAR 1 1 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 11.86266541481018
+FAR 1 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 12.105801820755005
+FAR 1 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 12.39910101890564
+FAR 2 2 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 12.571210384368896
+FAR 2 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 3} seconds 12.845470666885376
+FAR 3 3 {'checked': 7, 'passed': 4, 'excluded': 0, 'depth': 2} seconds 13.054137468338013
+Entire far domain: PASS
+Density enclosure: [0.01833555157029049139332536094236693008327772532524438023943130167025927979684 +/- 3.20e-78]
+PASS: complete solid-harmonic cyclic certificate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'annular_leaves': 14, 'annular_maxdepth': 5, 'density_interval': '[0.01833555157029049139332536094236693008327772532524438023943130167025927979684206224099336131303752154313179742348101 +/- 7.41e-117]', 'strict_density_upper': '0.018335552'}
+['cyclic', 0, 0, 0, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 0, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 0, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 1, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 1, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 1, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 2, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 2, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 2, 3, 3, {'nodes': 1, 'depth': 0}]
+['cyclic', 3, 3, 3, {'nodes': 1, 'depth': 0}]
+['far', 0, 0, {'nodes': 19, 'depth': 5}]
+['far', 0, 1, {'nodes': 13, 'depth': 5}]
+['far', 0, 2, {'nodes': 11, 'depth': 4}]
+['far', 0, 3, {'nodes': 11, 'depth': 4}]
+['far', 1, 1, {'nodes': 7, 'depth': 3}]
+['far', 1, 2, {'nodes': 7, 'depth': 3}]
+['far', 1, 3, {'nodes': 7, 'depth': 3}]
+['far', 2, 2, {'nodes': 7, 'depth': 3}]
+['far', 2, 3, {'nodes': 7, 'depth': 3}]
+['far', 3, 3, {'nodes': 7, 'depth': 2}]
+PASS all cyclic and far domains, fully exact rational arithmetic, no geometry exclusions
+PASS independent full cyclic certificate: density <0.018335552
+PASS both full-domain cyclic verification paths in 17D
+dim18 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 25.087969303131104
+Density enclosure: [0.01340893006264654494029079322832899292797624195812881555218302593199193264424 +/- 3.74e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 64 depth 6 seconds 0.03304243087768555 failure []
+Full annular inequality: PASS
+ALL COMPUTATIONAL CONDITIONS PASS. Literature comparison and independent review remain separate.
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 34, 'annular_maxdepth': 6, 'density_interval': '[0.01340893006264654494029079322832899292797624195812881555218302593199193264424321313767445195705346614287668673657061 +/- 8.94e-117]', 'strict_density_upper': '0.013408931'}
+PASS: both 18D verification paths
+dim5 refinement_p4/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 1.9751853601993075e-08}, {"block": 1, "positive_definite": true, "min_pivot": 4.2449755136687974e-08}, {"block": 2, "positive_definite": true, "min_pivot": 7.103108674300546e-08}, {"block": 3, "positive_definite": true, "min_pivot": 3.205316187860055e-08}, {"block": 4, "positive_definite": true, "min_pivot": 3.1649258079459986e-08}, {"block": 5, "positive_definite": true, "min_pivot": 2.9671290573859764e-08}, {"block": 6, "positive_definite": true, "min_pivot": 2.184450054587781e-08}, {"block": 7, "positive_definite": true, "min_pivot": 2.1320464997105114e-08}, {"block": 8, "positive_definite": true, "min_pivot": 2.4455269896981186e-08}, {"block": 9, "positive_definite": true, "min_pivot": 2.510967483117317e-08}, {"block": 10, "positive_definite": true, "min_pivot": 2.343605663947983e-08}, {"block": 11, "positive_definite": true, "min_pivot": 2.0049421892223682e-08}, {"block": 12, "positive_definite": true, "min_pivot": 1.996610012562414e-08}]
+{"verified": true, "checked": 127, "max_depth": 8, "seconds": 0.09731721878051758, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004341842551391469 0.010948853423173149
+{"verified": true, "checked": 5373, "passed": 1523, "excluded": 1164, "max_depth": 33, "seconds": 0.7313225269317627, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 4163 seconds 0.136155366897583
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.25563955307006836
+TRANSFORM 1 seconds 0.4269421100616455
+TRANSFORM 2 seconds 0.6279816627502441
+INITIAL (37, 37, 37) -3.710681950569521 0.27186161309250145
+{"verified": true, "checked": 85, "passed": 39, "excluded": 4, "max_depth": 11, "seconds": 2.3782451152801514, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.510522524815414906767892985279306236886437252639757552804225922293658166514 +/- 1.08e-76]", "below_0.510522525": true, "normalization_exact": "500000000000013867843581/500000000000000000000000", "numerator_exact": "19397529933890261448094669/6250000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.510522525, using the cited external neighbor-count theorem
+dim4 refinement_p6/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 8.873087728341943e-10}, {"block": 1, "positive_definite": true, "min_pivot": 2.3166811479540613e-09}, {"block": 2, "positive_definite": true, "min_pivot": 1.1490820478278419e-09}, {"block": 3, "positive_definite": true, "min_pivot": 1.0934079874524e-09}, {"block": 4, "positive_definite": true, "min_pivot": 2.5468946238345705e-08}, {"block": 5, "positive_definite": true, "min_pivot": 1.3359103578239287e-09}, {"block": 6, "positive_definite": true, "min_pivot": 1.0606199273251652e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.1717054568549997e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.0102279440966207e-09}, {"block": 9, "positive_definite": true, "min_pivot": 1.236358336606089e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.060786797754623e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.0177482621423215e-09}, {"block": 12, "positive_definite": true, "min_pivot": 1.0775137995213076e-09}, {"block": 13, "positive_definite": true, "min_pivot": 1.0187165917456734e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.3760175639462153e-09}, {"block": 15, "positive_definite": true, "min_pivot": 1.2903585755713008e-09}, {"block": 16, "positive_definite": true, "min_pivot": 1.205113369364339e-09}]
+{"verified": true, "checked": 215, "max_depth": 8, "seconds": 0.22899198532104492, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -1.261408967416441 1.0036508028627191
+PROGRESS 10000 stack 19 seconds 1.611985683441162
+{"angular_top": "1/2", "verified": true, "checked": 17723, "passed": 4973, "excluded": 3889, "max_depth": 37, "seconds": 2.83783221244812, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 10557 seconds 1.2156140804290771
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 2.1688642501831055
+TRANSFORM 1 seconds 3.453969717025757
+TRANSFORM 2 seconds 4.923136949539185
+INITIAL (49, 49, 49) -63675.08585126197 1112.973470149147
+PROGRESS 100 stack 3 seconds 10.33965539932251
+{"verified": true, "checked": 135, "passed": 55, "excluded": 13, "max_depth": 13, "seconds": 11.788366079330444, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6334303260113454414754145742596239771574365762937475831059441425951904455187 +/- 9.42e-77]", "below_0.633430327": true, "normalization_exact": "399999999999996070879/400000000000000000000", "numerator_exact": "8215028529461860492858846879/4000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.633430327, using the cited external neighbor-count theorem
+dim5 refinement_pd2/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 2.2011556105229834e-08}, {"block": 1, "positive_definite": true, "min_pivot": 2.777994972424823e-08}, {"block": 2, "positive_definite": true, "min_pivot": 1.6591049227884726e-07}, {"block": 3, "positive_definite": true, "min_pivot": 2.3467533799405594e-08}, {"block": 4, "positive_definite": true, "min_pivot": 1.8004916787189275e-07}, {"block": 5, "positive_definite": true, "min_pivot": 2.33647474668687e-08}, {"block": 6, "positive_definite": true, "min_pivot": 2.1887900418888774e-08}, {"block": 7, "positive_definite": true, "min_pivot": 2.3899280485927907e-08}, {"block": 8, "positive_definite": true, "min_pivot": 2.292291851701192e-08}, {"block": 9, "positive_definite": true, "min_pivot": 7.91971080585101e-08}, {"block": 10, "positive_definite": true, "min_pivot": 2.3321903568371642e-08}, {"block": 11, "positive_definite": true, "min_pivot": 2.109015437916295e-08}, {"block": 12, "positive_definite": true, "min_pivot": 1.997697193311586e-08}]
+{"verified": true, "checked": 123, "max_depth": 9, "seconds": 0.08442473411560059, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004433326284160627 0.011027811828310276
+PROGRESS 10000 stack 23 seconds 1.3017466068267822
+PROGRESS 20000 stack 25 seconds 2.638702154159546
+{"verified": true, "checked": 26211, "passed": 6971, "excluded": 6135, "max_depth": 45, "seconds": 3.469463586807251, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 3212 seconds 0.07449555397033691
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.16058349609375
+TRANSFORM 1 seconds 0.30642199516296387
+TRANSFORM 2 seconds 0.47677063941955566
+INITIAL (37, 37, 37) -0.6558596121215086 0.04364086124172338
+{"verified": true, "checked": 63, "passed": 28, "excluded": 4, "max_depth": 15, "seconds": 1.5864901542663574, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.5105840999607987727021021850536941337926838178193477371147900754213375490648 +/- 7.18e-77]", "below_0.510584101": true, "normalization_exact": "500000000000006218545861/500000000000000000000000", "numerator_exact": "15519895607095944475952251483/5000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.510584101, using the cited external neighbor-count theorem
+dim4 refinement_p4/verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 9.900320832491374e-10}, {"block": 1, "positive_definite": true, "min_pivot": 2.1355842635269903e-09}, {"block": 2, "positive_definite": true, "min_pivot": 1.3478536682333054e-09}, {"block": 3, "positive_definite": true, "min_pivot": 1.3107793874169417e-07}, {"block": 4, "positive_definite": true, "min_pivot": 1.2535334154055006e-09}, {"block": 5, "positive_definite": true, "min_pivot": 1.3397633118585313e-09}, {"block": 6, "positive_definite": true, "min_pivot": 1.8772640872543816e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.0715742580362362e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.0575395472906676e-09}, {"block": 9, "positive_definite": true, "min_pivot": 2.873861371622943e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.020473622216066e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.3275091064213938e-09}, {"block": 12, "positive_definite": true, "min_pivot": 1.1394890296050853e-09}, {"block": 13, "positive_definite": true, "min_pivot": 1.0650682647723807e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.0876400486794008e-09}, {"block": 15, "positive_definite": true, "min_pivot": 1.3352107862780785e-09}, {"block": 16, "positive_definite": true, "min_pivot": 1.0736234397507695e-09}]
+{"verified": true, "checked": 231, "max_depth": 8, "seconds": 0.15918779373168945, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -1.6717312787373841 1.6804626754216208
+PROGRESS 10000 stack 15 seconds 1.09521484375
+PROGRESS 50000 stack 19 seconds 5.560922861099243
+PROGRESS 60000 stack 19 seconds 6.671209812164307
+PROGRESS 80000 stack 17 seconds 9.077196598052979
+PROGRESS 110000 stack 17 seconds 12.621798038482666
+PROGRESS 130000 stack 13 seconds 14.955538988113403
+{"verified": true, "checked": 135399, "passed": 33933, "excluded": 33767, "max_depth": 36, "seconds": 15.603588342666626, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 7064 seconds 0.3783378601074219
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.9398703575134277
+TRANSFORM 1 seconds 1.811516523361206
+TRANSFORM 2 seconds 2.9666526317596436
+INITIAL (49, 49, 49) -63675.84768615536 481.7687162408582
+PROGRESS 100 stack 5 seconds 8.394094467163086
+{"verified": true, "checked": 127, "passed": 56, "excluded": 8, "max_depth": 10, "seconds": 9.361319780349731, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6345260220720713322566555674163184830382171356283089733216206914541048187119 +/- 6.44e-77]", "below_0.634526023": true, "normalization_exact": "9999999999999148229243/10000000000000000000000", "numerator_exact": "205730968346242987111509968901/100000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.634526023, using the cited external neighbor-count theorem
+dim5 verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 1.0609844839916216e-07}, {"block": 1, "positive_definite": true, "min_pivot": 1.1815078269958635e-07}, {"block": 2, "positive_definite": true, "min_pivot": 1.231856454299799e-07}, {"block": 3, "positive_definite": true, "min_pivot": 1.2060544528976586e-07}, {"block": 4, "positive_definite": true, "min_pivot": 2.3360968830076093e-07}, {"block": 5, "positive_definite": true, "min_pivot": 1.8167204178706432e-07}, {"block": 6, "positive_definite": true, "min_pivot": 1.0906852344684094e-07}, {"block": 7, "positive_definite": true, "min_pivot": 1.1321351498079404e-07}, {"block": 8, "positive_definite": true, "min_pivot": 1.0869852280185769e-07}, {"block": 9, "positive_definite": true, "min_pivot": 1.1129199548154491e-07}, {"block": 10, "positive_definite": true, "min_pivot": 1.1510454053803327e-07}, {"block": 11, "positive_definite": true, "min_pivot": 1.0001726508828932e-07}, {"block": 12, "positive_definite": true, "min_pivot": 1.0000491026051282e-07}]
+{"verified": true, "checked": 129, "max_depth": 9, "seconds": 0.09010648727416992, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.004673089988522918 0.010933530742306503
+{"verified": true, "checked": 1925, "passed": 745, "excluded": 218, "max_depth": 33, "seconds": 0.1305677890777588, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 3212 seconds 0.0768575668334961
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.1629183292388916
+TRANSFORM 1 seconds 0.2669229507446289
+TRANSFORM 2 seconds 0.42721033096313477
+INITIAL (37, 37, 37) -0.8304421209736315 0.008377306161940953
+{"verified": true, "checked": 51, "passed": 22, "excluded": 4, "max_depth": 13, "seconds": 1.353050947189331, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.511534152201692455253167068983680226259979393361438295300089894838921770366 +/- 4.98e-76]", "below_0.511534153": true, "normalization_exact": "500000000000000874280347/500000000000000000000000", "numerator_exact": "3109754746473319928260607520391/1000000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 5 density < 0.511534153, using the cited external neighbor-count theorem
+dim4 verify.py
+{"fourier_positive_roots": 0, "fourier_origin_positive": true, "tail_roots_after_conservative_threshold": 0, "tail_start_negative": true, "scope": "Exact rationalized coefficient polynomials; root counts must be zero plus signs correct to certify"}
+[{"block": 0, "positive_definite": true, "min_pivot": 9.92481593359753e-10}, {"block": 1, "positive_definite": true, "min_pivot": 3.490609287221922e-08}, {"block": 2, "positive_definite": true, "min_pivot": 3.129787261674594e-08}, {"block": 3, "positive_definite": true, "min_pivot": 1.4173827384652666e-09}, {"block": 4, "positive_definite": true, "min_pivot": 1.2272353149665402e-09}, {"block": 5, "positive_definite": true, "min_pivot": 9.754998771592353e-09}, {"block": 6, "positive_definite": true, "min_pivot": 9.900269635520645e-09}, {"block": 7, "positive_definite": true, "min_pivot": 1.7295199905638568e-09}, {"block": 8, "positive_definite": true, "min_pivot": 1.535353073072033e-09}, {"block": 9, "positive_definite": true, "min_pivot": 1.6271611458061624e-09}, {"block": 10, "positive_definite": true, "min_pivot": 1.227720687748758e-09}, {"block": 11, "positive_definite": true, "min_pivot": 1.1188914003425015e-09}, {"block": 12, "positive_definite": true, "min_pivot": 3.0628835123967904e-09}, {"block": 13, "positive_definite": true, "min_pivot": 2.1252271775443265e-09}, {"block": 14, "positive_definite": true, "min_pivot": 1.3117618814053312e-09}, {"block": 15, "positive_definite": true, "min_pivot": 3.193717326718556e-09}, {"block": 16, "positive_definite": true, "min_pivot": 4.057119807929296e-09}]
+{"verified": true, "checked": 115, "max_depth": 8, "seconds": 0.07635331153869629, "failure": null, "source": "witness_psd_exact.json", "method": "256-bit Arb second-order Taylor bounds on exact rational radial subdivisions"}
+INITIAL -0.16775548787820385 0.1464442588674942
+PROGRESS 30000 stack 9 seconds 4.968240022659302
+{"verified": true, "checked": 34009, "passed": 8439, "excluded": 8566, "max_depth": 29, "seconds": 5.641873359680176, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational initial tensor Bernstein coefficients, outward-rounded float64 dyadic subdivision, Arb domain exclusion"}
+POLYNOMIAL 5453 seconds 0.26115942001342773
+EXACT_IDENTITY_TEST_PASS
+TRANSFORM 0 seconds 0.7315645217895508
+TRANSFORM 1 seconds 1.5195953845977783
+TRANSFORM 2 seconds 2.8831210136413574
+INITIAL (49, 49, 49) -63662.87867199025 835.0325897029555
+{"verified": true, "checked": 83, "passed": 38, "excluded": 4, "max_depth": 11, "seconds": 7.8078577518463135, "failure": null, "source": "witness_psd_exact.json", "method": "Exact rational numerator (abc)^K times cyclic sum; exact rational Bernstein initialization; outward-rounded dyadic subdivision; permutation symmetry"}
+{"density_enclosure": "[0.6357662426387588618572394093758579880966147479317909183832447245178820105673 +/- 7.28e-77]", "below_0.635766243": true, "normalization_exact": "249999999999726593313/250000000000000000000", "numerator_exact": "20613308231657700251853282901/10000000000000000000000000000", "all_count_weights_nonnegative": true}
+PASS: dimension 4 density < 0.635766243, using the cited external neighbor-count theorem
+dim21 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 3.425208806991577
+Density enclosure: [0.005149553143708725491955701751845274605644496031041628668361509288739817780620 +/- 8.38e-79]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 96 depth 7 seconds 0.052831411361694336 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.005149554.
+dim21 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 50, 'annular_maxdepth': 7, 'density_upper_float': 0.005149553143708726, 'strict_density_upper': '0.005149554'}
+dim19 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 2.4818811416625977
+Density enclosure: [0.00961835093382645272416598000387883519167140758549870892621568166245471883098 +/- 4.35e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 40 depth 7 seconds 0.02231884002685547 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.009618351.
+dim19 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 22, 'annular_maxdepth': 7, 'density_upper_float': 0.009618350933826453, 'strict_density_upper': '0.009618351'}
+dim20 verify.py
+All 17 rational PSD blocks: PASS
+Exact Fourier transform identity: PASS
+Fourier sign: PASS
+Exterior physical sign: PASS
+EXACT_ANGULAR 561 failures 0 seconds 1.6415483951568604
+Density enclosure: [0.00697950190417318581318448850239932436503950767230416847431912053614315849425 +/- 4.45e-78]
+Global algebraic and angular checks: PASS
+ANNULAR True boxes 100 depth 7 seconds 0.05861473083496094 failure []
+Full annular inequality: PASS
+ALL CERTIFICATE CHECKS PASSED. Density < 0.006979502.
+dim20 independent_verify.py
+{'pass': True, 'PSD_blocks': 17, 'positive_pivots': 86, 'Fourier_coefficients_match': True, 'angular_node_pairs': 561, 'annular_leaves': 52, 'annular_maxdepth': 7, 'density_upper_float': 0.006979501904173186, 'strict_density_upper': '0.006979502'}
+dim48 continuum_three_point/independent_cyclic40_angular.py
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '5499674981494692543917/6060000000000'}]
+dim48 continuum_three_point/independent_cyclic40_domain.py
+{'pass': True, 'precision': 192, 'certified_rectangles': 11932, 'discarded_rectangles': 445, 'max_depth': 19, 'tails_exponential_check': True}
+dim48 continuum_three_point/independent_cyclic40_radial.py
+{'pass': True, 'all112_Fourier_coefficients_match': True, 'precision': 512, 'Machin_terms': 110, 'cap_intervals': 33, 'max_depth': 20, 'objective_float': 17.834291498319086, 'strict_upper': '17835/1000', 'density_upper_float': 4.1338573931310067e-07}
+{"dimension": 4, "density_interval": "[0.6334287344446830668557872505090180477650483209107776824200296037551488417484 +/- 4.97e-77]", "decrease_interval": "[1.591566662374619627323750605929392388255382969900685914538840041603770366518e-6 +/- 5.73e-82]", "producer_upper_verified": "0.633428736191", "sharper_upper_verified": "0.633428734445"}
+{"dimension": 5, "density_interval": "[0.5105010944773112949251787689101431575651822699455262362160455187049259669282 +/- 4.80e-77]", "decrease_interval": "[2.143033810361184271421636916307932125498269423131658818040358873219958573586e-5 +/- 4.89e-81]", "producer_upper_verified": "0.510501104860", "sharper_upper_verified": "0.510501094478"}
+{"dimension": 19, "density_interval": "[0.00961834313846843598990420419281836751281489730353440844306621839310901086262 +/- 5.64e-78]", "decrease_interval": "[7.79535801673426177581106046767885651028196430048314946326934570796836100580e-9 +/- 3.21e-84]", "producer_upper_verified": "0.009618343222", "sharper_upper_verified": "0.009618343139"}
+{"dimension": 20, "density_interval": "[0.00697949727169374086520055023266170044186650021762759418859952280434877352258 +/- 5.11e-78]", "decrease_interval": "[4.63247944494798393826973762392317300745467657428571959773179438497167068701e-9 +/- 1.01e-84]", "producer_upper_verified": "0.006979497379", "sharper_upper_verified": "0.006979497272"}
+{"dimension": 21, "density_interval": "[0.00514954931188585397024250649017034442459247463341020657197646361151668189422 +/- 4.51e-78]", "decrease_interval": "[3.831822871521713195261674930181052021397631422096385045677223135886396439230e-9 +/- 7.54e-85]", "producer_upper_verified": "0.005149550178", "sharper_upper_verified": "0.005149549312"}
+PASS independent Fraction algebra and Arb enclosures in all five dimensions
+PASS: all registered proof replays and strict decimal rounding
