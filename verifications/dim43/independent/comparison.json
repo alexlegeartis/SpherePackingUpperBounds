@@ -1,0 +1,10 @@
+{
+  "upper_old": "0.0000027169074727",
+  "upper_new": "0.000002629078004",
+  "lower_formula": "pi^21 * 137^21 * sqrt(137) * 22! / (2^67 * sqrt(2) * 3^21 * 44!)",
+  "lower_source": "https://arxiv.org/html/2607.20359v4",
+  "lower_density": "4.64232679388410840588823802085953247505262488210857117031003004811215346397e-8",
+  "upper_decrease_percent": "3.23270003055043678668740996024571757216912600823441358412072948618821766031",
+  "gap_decrease_percent": "3.28889676798725857636137241505455489012343944629490600095823295837435178459",
+  "status": "Pinned older upper; newer published lower construction, no exhaustive priority claim"
+}

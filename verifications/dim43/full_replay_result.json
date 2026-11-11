@@ -1,0 +1,16 @@
+{
+  "pass": true,
+  "dimension": 43,
+  "strict_upper": "0.000002629078004",
+  "density_interval": "[2.6290780032176082704528729445259003699178293105289184816249407259363700460502239426148920006756941629548498655879655427812265093499165784295794244792037e-6 +/- 6.02e-158]",
+  "radial_Fourier_identity": true,
+  "global_Fourier_and_physical_signs": true,
+  "coupling_intervals": 321,
+  "coupling_depth": 13,
+  "angular_dimension_specific_PSD": true,
+  "origin_rank_one_Gram": true,
+  "new_complete_cyclic_domain": true,
+  "exact_rational_rounding": true,
+  "pinned_comparator": "0.0000027169074727",
+  "fractional_improvement_lower": "878294687/27169074727"
+}

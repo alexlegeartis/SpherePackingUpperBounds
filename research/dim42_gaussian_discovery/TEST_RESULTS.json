@@ -1,0 +1,7 @@
+{
+  "source_export_exactly_matches_certificate": true,
+  "angular_export_exactly_matches_certificate": true,
+  "complete_radial_export_replay": true,
+  "fresh_optimizer_run_during_packaging": false,
+  "command_cwd": "unrelated temporary directory"
+}

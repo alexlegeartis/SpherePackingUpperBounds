@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "dimensions_added": [
+    41,
+    42,
+    43
+  ],
+  "historical_aggregate": "Full historical proof suite plus43D primary and independent chains passed.",
+  "additional_full_gates": "41D and42D were added after the aggregate process captured its job list; each complete primary and independent chain was then replayed separately and passed. The final run_all.py explicitly includes all three.",
+  "registry_arithmetic": "70/100-digit Decimal agreement and independent rational percentage/gap identities passed.",
+  "portable_exports": "All three frozen angular and radial exact JSONs reproduced identically from the included discovery checkpoints; complete radial replay passed from unrelated working directory. No fresh optimizer rerun was claimed.",
+  "preservation": "Every previous repository blob is preserved except the explicitly updated root registry, generated tables, comparison code, documentation and aggregate entrypoint.",
+  "new_independent_audits": "All three separate audits passed explicit Fourier identities, harmonic PSD, origin Gram, global rational Sturm signs, full radial coupling, complete cyclic domains/tails and rational outward rounding.",
+  "optimized_mode": "New registration wrappers reject python -O."
+}

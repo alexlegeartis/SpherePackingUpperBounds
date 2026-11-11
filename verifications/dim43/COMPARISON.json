@@ -1,0 +1,11 @@
+{
+  "dimension": 43,
+  "strict_upper": "0.000002629078004",
+  "pinned_previous_upper": "0.0000027169074727",
+  "upper_reduction_percent": "3.232700030550436787",
+  "known_lower_formula": "pi^21*137^21*sqrt(137)*22!/(2^67*sqrt(2)*3^21*44!)",
+  "known_lower_decimal": "0.00000004642326793884108405888238020859532",
+  "known_lower_source": "https://arxiv.org/html/2607.20359v4",
+  "additive_gap_reduction_percent": "3.288896767987258576",
+  "priority_scope": "Pinned upper comparison, not exhaustive current-worldwide priority verification."
+}

@@ -143,3 +143,15 @@ This witness genuinely violates the former pointwise far-sign condition. A new l
 The current strict 5D upper is **0.509953498**. Relative to the unchanged paper-reported 0.5122645 and D5 lower, it decreases the upper by **0.451135%** and closes **4.916305%** of the additive gap. The earlier centroid-only lens bound 0.509996147 remains preserved.
 
 This version strengthens the internal lens caps through conservative transverse projection and exact spherical LP certificates, combined with Rankin and centroid arguments. Those new cap certificates are included and replayed; they are not additional unverified external spherical-code inputs. The previously cited near-neighbor count theorems remain external dependencies. Both full primary and separate independent proofs check the changed physical-tail budgets, all boundary conventions and the relaxed far domain. The comparison remains pinned rather than an exhaustive current-worldwide-priority claim.
+
+## New 43D cyclic bound
+
+Strict upper 0.000002629078004 is compared with pinned 0.0000027169074727 (Cohn indexed table, citing 2006.02560v2). The newer lower from 2607.20359v4 is pi^21*137^21*sqrt137*22!/(2^67*sqrt2*3^21*44!), approximately 4.6423267938841084e-8. Upper reduction 3.232700%; additive-gap reduction 3.288897%. The lower is the new six-translate antipode construction, not the older table lower. No exhaustive current-worldwide priority claim is made.
+
+## New 42D cyclic bound
+
+Strict upper 0.000003677844262 is compared with pinned 0.0000038780970907. The newer lower from arXiv:2607.20359v4 is pi^21*3^17*sqrt3/(2^21*21!), approximately 5.7516899055409684e-8. Upper reduction 5.163688%; additive-gap reduction 5.241425%. Both comparisons use full decimals, not displayed approximations.
+
+## New 41D cyclic bound
+
+Strict upper 0.000005243057366 is compared with pinned 0.0000055306464395. The newer lower from arXiv:2607.20359v4 is 2^21*pi^20*3^17*21!/42!, approximately 8.6368303579508264e-8. Upper reduction 5.199918%; additive-gap reduction 5.282410%. Both comparisons use full decimals, not displayed approximations.

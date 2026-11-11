@@ -1,0 +1,5 @@
+# 42D Gaussian cyclic discovery
+
+Numerical search and exact export history, distinct from the registered proof. Run angular_search.py --dimension 42 --rounds 5, then radial_search.py --dimension 42 --r2 11/2 --angular-candidate angular42_a40_scaled_candidate.json. The stored exact-root cuts give a bounded warm-start stage, not an optimizer-independent guarantee of identical results. Frozen 42 candidate and rational export produce the registered certificate; verification itself is self-contained in ../../verifications/dim42. Initial sampled candidates failed global signs; eight repair rounds were required. Saved rejection metadata is historical, not a claim the final certificate fails. No optimizer rerun was part of packaging. Source 44 and reference 48 angular inputs are included. Search scripts accept other dimensions experimentally but no other result is registered by this package.
+
+Use angular_exact_cut_search.py for42D; its first purely sampled angular candidate failed the cyclic proof.
