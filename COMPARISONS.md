@@ -212,3 +212,33 @@ The newer pinned upper values from [2512.04829v2, Table 1](https://arxiv.org/htm
 ## Dimension 16: displayed comparator precision
 
 The strict certified bound is 0.024920988. The paper reports 0.02492121 in [Table 1](https://arxiv.org/html/2512.04829v2#S3.T1); the difference of the displayed values is 0.000000222. We do not reconstruct its unrounded certificate or claim worldwide priority. Percentages use these displayed values. The achieved Barnes–Wall lower density is pi^8/645120, from center density 1/16; see [BW16](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/BW16.html). All new spherical-count, geometry and radial proofs are replayed, rather than imported as unverified count constants.
+
+## Dimension 10: fresh reconstruction
+
+The independently checked strict bound is **0.143330282**. The comparison
+0.14340271 was read from [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1)
+on 2026-11-12; its external certificate is not replayed. The indexed
+[Cohn table](https://cohn.mit.edu/sphere-packing/) gives achieved center density
+5/128, hence ordinary density L10 = pi^5/3072 = 0.0996157828077088... .
+The live Cohn page returned 502; the indexed value and the
+[Nebe–Sloane density table](https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/density.html)
+both identify the nonlattice P10c construction. This is not the weaker
+Lambda10 lattice density. `comparison.py` recomputes percentages from
+unshortened values at 70 and 100 digits. No worldwide-priority assertion
+is made. The proof needs no external near-neighbor count.
+
+The previously reported 0.143376013 package was not recoverable; its value
+is not used as a proof input. This fresh construction is stronger and has
+primary and separate independent full-domain checks.
+
+## Reconstructed 16D angular-diagonal transfer
+
+The current strict bound is **0.024920883**. The original 0.024920988
+certificate remains as an unchanged mathematical dependency, with its
+registry wrapper updated to recognize its preserved historical entry.
+The new kernel lowers B=Q(1); replacing C by C*B_new/B_old leaves C/B,
+the complete radial pair function and the count allowance unchanged.
+Primary and independent geometry, exact transfer and original-base replays
+are required. The much stronger previously reported but unavailable
+0.024899515 package is not assumed or registered by this reconstruction.
+The published comparator and Barnes–Wall lower formula remain unchanged.

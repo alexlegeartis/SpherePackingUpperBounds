@@ -235,3 +235,27 @@ Replace the scalar Gaussian damping by h(u)=exp(-12(u/s-1)-16(u/s-1)^2), s=15/8.
 ## Curved-profile extensions to 11–14D
 
 The quartic radial profile is retuned by dimension. Positive Gegenbauer weights provide PSD; exact sign-transition and dilation-ratio inequalities reduce all-scale cyclic geometry to a compact minimum-side cover plus rigorous tails. A separate degree63 Fourier pair is coupled through X=12. This extends the15D mechanism without importing external neighbor counts.
+
+## Reconstructed 10D log-hinge certificate (2026-11-12)
+
+A fixed nonnegative Gegenbauer expansion is combined with nonnegative linear
+and logarithmic radial hinges. Monotonicity of v*phi'(v) propagates the
+signed cyclic condition from minimum-side-normalized triangles to all
+dilations. Exact interval checks cover the compact triangles and an analytic
+Gaussian estimate covers the infinite tail. The radial polynomial uses
+root-cut refinement followed by rational export and a degree-one Laguerre
+repair; exact checks reject numerical sign defects. The
+[complete 10D package](verifications/dim10/) checks both primary and independent
+Fourier, global-ray, pair and cyclic conditions. It proves <0.143330282, not
+an optimality or saturation claim. Five mathematical mutation controls and
+five optimized-Python rejection controls accompany the proof.
+
+## Reconstructed 16D angular-diagonal transfer (2026-11-12)
+
+The [new angular refinement](verifications/dim16_reconstruction_minB/)
+keeps the published log-hinge profile and optimizes the angular diagonal
+B. Rescaling C proportionally to B leaves C/B exactly fixed, so the entire
+old pair function and pointwise count 7802 remain valid. This is a small
+verified gain to <0.024920883, not recovery of the unavailable nested-shell
+bound. The dependency chain explicitly reruns the preserved primary and
+independent count/radial proofs, plus both new full-domain geometry checks.

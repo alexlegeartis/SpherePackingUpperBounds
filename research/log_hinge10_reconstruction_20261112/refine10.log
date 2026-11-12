@@ -1,0 +1,9 @@
+Optimization terminated successfully    (Exit mode 0)
+            Current function value: -1.228954811544052
+            Iterations: 39
+            Function evaluations: 191
+            Gradient evaluations: 38
+PROFILE {'dimension': 10, 'parameters': [6.689145705807132, 0.12239726701746641, 0.1230368378574648, 0.3209489478104199, 1.0134639362207465, 0.055170716530608135, 9.600000000000001, 2.1963494627276266e-17, 7.211230308097701e-17, 2.381448487588187, 3.4031747263789, 22.370397522641156, 17.4440700643769, 8.024117306573343], 'success': True, 'certified': False, 'train_max': -9.999980741970393e-06}
+AUDIT {'certified': False, 'dense_rows': 299542, 'random_rows': 240000, 'knot_fibers': ['u2', 'w2'], 'all_knots': [1.02, 1.05, 1.1, 1.2, 1.4, 1.5, 1.6, 1.65, 1.75, 2.0], 'dense_maximum': -9.999980741970393e-06, 'random_maximum': -6.715334663247027e-05, 'local_runs': 150, 'separated_maximum': -9.714360143970902e-06, 'worst_tu': [0.08077633479796753, 1.0], 'sampled_feasible': True}
+RADIAL {'index': 'quadratic', 'success': True, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'objective': 18.939870634740263, 'density_expression': 0.14394455257845976, 'C': 11.267116665364021, 'max_scaled_residual': 5.4797391515505324e-11, 'normalization_residual': -1.3322676295501878e-15}
+RADIAL {'index': 'log', 'success': True, 'message': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)', 'objective': 18.859000861056245, 'density_expression': 0.14332993574107147, 'C': 13.184394661593533, 'max_scaled_residual': -9.670507372137549e-11, 'normalization_residual': 0.0}

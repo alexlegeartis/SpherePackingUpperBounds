@@ -1,0 +1,12 @@
+{
+  "geometry/angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2",
+  "geometry/fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9",
+  "radial/angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2",
+  "radial/fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9",
+  "radial/certificate.json": "d0327516bc87a1265279e741e4dc2e7ff04140eb625f8e4255eaa0cbbb9daea2",
+  "independent/angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2",
+  "independent/fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9",
+  "independent/certificate.json": "d0327516bc87a1265279e741e4dc2e7ff04140eb625f8e4255eaa0cbbb9daea2",
+  "independent/partition.json": "72386e85011069a418a923379c4fbd1221afb4e98dad582fa0dca3256e66680b",
+  "independent/RESULT_GEOMETRY.json": "a48d08fc3189271a943d52ad32bbf19080016768dd4be4d8c57fa00c74f8e726"
+}

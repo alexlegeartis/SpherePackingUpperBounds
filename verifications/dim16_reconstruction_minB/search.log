@@ -1,0 +1,8 @@
+0 8327.29981952378 -0.0001999999999497959 0
+Traceback (most recent call last):
+  File "/workspace/scratch/941a2e823e69/research/reconstruct16_20261112/search_angular.py", line 37, in <module>
+    cc=[fmpq(str(z)) for z in c];X=fmpq_poly([0,1]);gg=[fmpq_poly([1]),X]
+        ^^^^^^^^^^^^
+  File "flint/types/fmpq.pyx", line 85, in flint.types.fmpq.fmpq.__init__
+  File "flint/types/fmpz.pyx", line 105, in flint.types.fmpz.fmpz.__init__
+ValueError: invalid string for fmpz

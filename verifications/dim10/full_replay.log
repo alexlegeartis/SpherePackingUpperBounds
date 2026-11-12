@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "scope": "Exact angular structure, all-scale ratio hypothesis, and u>=4 cyclic tail only. Compact cyclic, radial signs, pair and density rounding are NOT proved.",
+  "dimension": 10,
+  "coefficients_nonnegative": true,
+  "one_sign_transition": true,
+  "cap_margin": "1/20000",
+  "exact_final_linear_slope": "3584832682248767749/200000000000000000",
+  "tail_case1": "[6.2237957710195447888767235954463190748623451958151083474929438905535430524e-107 +/- 6.86e-181]",
+  "tail_case2": "[2.64285427896229869471694297695620236824336042118907174010961306684265436940e-21 +/- 4.98e-96]",
+  "hashes": {
+    "angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2",
+    "fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9"
+  }
+}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 15220, 'discarded': 341, 'tested': 31121, 'maxdepth': 40, 'exact_area': '9/2', 'seconds': 24.495336385999963, 'input_hashes': {'fit.json': 'c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9', 'angular.json': '67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2'}}
+PAIR 1 51/50 leaves 4
+PAIR 51/50 21/20 leaves 5
+PAIR 21/20 11/10 leaves 6
+PAIR 11/10 6/5 leaves 7
+PAIR 6/5 7/5 leaves 8
+PAIR 7/5 3/2 leaves 9
+PAIR 3/2 8/5 leaves 10
+PAIR 8/5 33/20 leaves 12
+PAIR 33/20 7/4 leaves 26
+PAIR 7/4 2 leaves 31
+{"status": "PASS", "scope": "Exact radial Fourier, signs, pair and objective; angular proof separate", "dimension": 10, "density_interval": "[0.1433302815657679507809602858299324911633728674201268096796591687042888797247925494588279142582534533572382030668092 +/- 4.43e-116]", "strict_bound": "0.143330282", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 52, "leaves": 31, "elapsed": 0.1587090939999598, "inputs": {"certificate.json": "d0327516bc87a1265279e741e4dc2e7ff04140eb625f8e4255eaa0cbbb9daea2", "fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9", "angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2"}}
+EXACT STRUCTURE AND COVER PASS 15220 341
+{'status': 'PASS', 'scope': 'Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted', 'exact_Gegenbauer_closed_form': True, 'exact_cap_and_one_transition': True, 'all_scale_hypotheses': True, 'rigorous_tail': True, 'exact_binary_cover': {'accepted': 15220, 'discarded': 341, 'tested_tree_nodes': 31121, 'area': '9/2'}, 'independent_analytic_gradient_checks': 15220, 'additional_refinements': 0, 'maximum_extra_depth': 0, 'seconds': 9.101579970999865, 'input_hashes': {'fit.json': 'c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9', 'angular.json': '67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2', 'partition.json': '72386e85011069a418a923379c4fbd1221afb4e98dad582fa0dca3256e66680b'}}
+CLOSED FORM FOURIER AND STURM RAYS PASS
+PAIR 1 51/50 8
+PAIR 51/50 21/20 9
+PAIR 21/20 11/10 10
+PAIR 11/10 6/5 11
+PAIR 6/5 7/5 13
+PAIR 7/5 3/2 14
+PAIR 3/2 8/5 16
+PAIR 8/5 33/20 17
+PAIR 33/20 7/4 39
+PAIR 7/4 2 45
+{
+  "status": "PASS",
+  "dimension": 10,
+  "strict_density_upper_bound": "0.143330282",
+  "density_interval": "[0.1433302815657679507809602858299324911633728674201268096796591687042888797247925494588279142582534533572382030668092 +/- 4.24e-116]",
+  "independent_fourier_closed_form": true,
+  "sturm_rays": {
+    "fourier": {
+      "start": "0",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    },
+    "physical": {
+      "start": "7",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    }
+  },
+  "pair_intervals": 45,
+  "pair_checks": 80,
+  "no_neighbor_count_assumed": true,
+  "seconds": 0.34210410400010005,
+  "sha256": {
+    "certificate.json": "d0327516bc87a1265279e741e4dc2e7ff04140eb625f8e4255eaa0cbbb9daea2",
+    "fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9",
+    "angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2"
+  }
+}
+PASS rejected negative_angular
+PASS rejected negative_profile
+PASS rejected wrong_fourier
+PASS rejected zero_C
+PASS rejected missing_cover_leaf
+PASS: 5 mathematical mutation controls and 5 optimized-Python rejection controls
+PASS: complete reconstructed 10D certificate, density < 0.143330282

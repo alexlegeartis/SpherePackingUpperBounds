@@ -89,6 +89,24 @@
     "new_gap": "0.025286898854287426900"
   },
   {
+    "dimension": 10,
+    "strict_density_upper_bound": "0.143330282",
+    "package": "verifications/dim10",
+    "source_package": "verifications/dim10",
+    "method": "Piecewise log-hinge cyclic PSD kernel with exact Fourier and continuum verification",
+    "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_status": "Pinned paper-reported decimal; source certificate not replayed; no exhaustive priority assertion",
+    "previous_upper_reviewed": "2026-11-12",
+    "external_neighbor_counts_required": false,
+    "reconstruction_status": "Fresh independently audited reconstruction; unavailable earlier certificate not assumed",
+    "known_lower_density": "0.099615782807708806401",
+    "previous_upper_density": "0.14340271",
+    "upper_decrease_percent": "0.050507",
+    "gap_decrease_percent": "0.165410",
+    "old_gap": "0.043786927192291193599",
+    "new_gap": "0.043714499192291193599"
+  },
+  {
     "dimension": 11,
     "strict_density_upper_bound": "0.106638997",
     "package": "verifications/dim11",
@@ -175,20 +193,24 @@
   },
   {
     "dimension": 16,
-    "strict_density_upper_bound": "0.024920988",
-    "package": "verifications/dim16",
-    "source_package": "verifications/dim16",
-    "method": "Log-hinge radial profile with independently certified positive-width spherical count",
+    "strict_density_upper_bound": "0.024920883",
+    "package": "verifications/dim16_reconstruction_minB",
+    "source_package": "verifications/dim16_reconstruction_minB",
+    "method": "Minimum-diagonal angular reconstruction with exact C/B-preserving transfer of the published radial/count certificate",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_status": "Comparison to displayed 0.02492121 only; source upper certificate not replayed; no worldwide-priority assertion",
     "external_neighbor_counts_required": false,
     "count_certificate_replayed": true,
     "known_lower_density": "0.014708164397430825284",
     "previous_upper_density": "0.02492121",
-    "upper_decrease_percent": "0.000891",
-    "gap_decrease_percent": "0.002174",
+    "upper_decrease_percent": "0.001312",
+    "gap_decrease_percent": "0.003202",
     "old_gap": "0.010213045602569174716",
-    "new_gap": "0.010212823602569174716"
+    "new_gap": "0.010212718602569174716",
+    "earlier_repository_upper_densities": [
+      "0.024920988"
+    ],
+    "previous_repository_package": "verifications/dim16"
   },
   {
     "dimension": 17,

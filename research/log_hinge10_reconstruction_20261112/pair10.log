@@ -1,0 +1,11 @@
+PAIR 1 51/50 leaves 4
+PAIR 51/50 21/20 leaves 5
+PAIR 21/20 11/10 leaves 6
+PAIR 11/10 6/5 leaves 7
+PAIR 6/5 7/5 leaves 8
+PAIR 7/5 3/2 leaves 9
+PAIR 3/2 8/5 leaves 10
+PAIR 8/5 33/20 leaves 12
+PAIR 33/20 7/4 leaves 26
+PAIR 7/4 2 leaves 31
+{"status": "PASS", "scope": "Exact radial Fourier, signs, pair and objective; angular proof separate", "dimension": 10, "density_interval": "[0.1433302815657679507809602858299324911633728674201268096796591687042888797247925494588279142582534533572382030668092 +/- 4.43e-116]", "strict_bound": "0.143330282", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 52, "leaves": 31, "elapsed": 0.13059361499995248, "inputs": {"certificate.json": "d0327516bc87a1265279e741e4dc2e7ff04140eb625f8e4255eaa0cbbb9daea2", "fit.json": "c8660cd6ca78a534687a9d211c8ecddb900840e95f8168ec4c4ad559d149d4f9", "angular.json": "67bc1e6fbfe247ce8800a05ce07ea1cb5e4a4adabd12b5e2f34c3d371e464dc2"}}

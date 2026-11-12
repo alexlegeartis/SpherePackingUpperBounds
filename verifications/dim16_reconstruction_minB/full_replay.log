@@ -1,0 +1,113 @@
+PASS spherical_count
+PASS angular_geometry
+PASS radial_pair
+{
+  "status": "PASS",
+  "dimension": 16,
+  "strict_density_upper_exact": "6230247/250000000",
+  "strict_density_upper_decimal": "0.024920988",
+  "density_enclosure": "[0.02492098791465854077789224103237950543265565191638922478824388862385173193633 +/- 5.53e-78]",
+  "complete_density_claim": true,
+  "spherical_count": 7802,
+  "spherical_cap_exact": "5003/10000",
+  "minimum_squared_distance": "2",
+  "half_open_shell_threshold_squared_exact": "10000/4997",
+  "same_profile_and_angular_inputs": true,
+  "all_component_gates_replayed": true,
+  "comparator_exact": "2492121/100000000",
+  "achieved_lower_formula": "pi^8/645120",
+  "achieved_lower_enclosure": "[0.01470816439743082528386745954846658884656680845678491240716470023416869559436 +/- 4.67e-78]",
+  "upper_reduction_percent": "[0.00089080746881872910665252610126073332715385809918539268358157569395707512 +/- 4.19e-75]",
+  "gap_closure_percent": "[0.00217369048018501056899331477832743677243501484453957896955112210423909499 +/- 7.65e-75]",
+  "stages": [
+    {
+      "stage": "spherical_count",
+      "status": "PASS",
+      "seconds": 108.42850133899992
+    },
+    {
+      "stage": "angular_geometry",
+      "status": "PASS",
+      "seconds": 78.72062723599993
+    },
+    {
+      "stage": "radial_pair",
+      "status": "PASS",
+      "seconds": 0.2444208179999805
+    }
+  ],
+  "seconds": 187.3987697489997,
+  "input_sha256": {
+    "geometry/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+    "geometry/angular.json": "e6f6d85ca4fb160536f3ebc74d94f9ab7ea659793cad94258c8a089447a3f40b",
+    "radial/candidate_exact.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95",
+    "count/density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "count/density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954"
+  },
+  "scope": "Complete combined density certificate. Separate independent radial/geometry audit is distributed alongside this primary package."
+}
+PASS verify.py count_pair.log
+PASS audit_cyclic.py count_reconstruction.log
+PASS replay_exact.py count_integer_replay.log
+PASS verify.py geometry.log
+PASS negative_controls.py geometry_negative.log
+PASS negative_controls.py radial_and_negative.log
+{
+  "status": "PASS",
+  "dimension": 16,
+  "strict_density_upper": "0.024920988",
+  "underlying_expression": "[0.02492098791465854077789224103237950543265565191638922478824388862385173193633461323036169523221724858358947604104066 +/- 6.88e-117]",
+  "count_integer": 7802,
+  "count_real_exact": "312088606685148928640783897809857712791224631688228314148078721891240232195723036582293440658378605906991137671407840467703756634245161066607635889/40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "spherical_cap": "5003/10000",
+  "minimum_separation_squared": "2",
+  "shell_threshold_squared": "10000/4997",
+  "geometry_rectangles": 31138,
+  "geometry_exclusions": 327,
+  "count_proof_events": 2155,
+  "independent_pair_intervals": 59,
+  "radial_rays": "exact rational Sturm,31 variations at both endpoints on each ray",
+  "negative_controls": 10,
+  "published_displayed_comparator": "0.02492121",
+  "comparator_source": "https://arxiv.org/html/2512.04829v2#S5",
+  "proof_input_sha256": {
+    "density_kissing16_reweight_frozen_20261111/candidate.json": "b3225ad4cce819395ce3bd47613f15697af4646fb722ded1916020b5e52ba573",
+    "density_kissing16_reweight_frozen_20261111/factors.json": "6860eca2c82fdb1b1ebb5d3a4108a216d46c900d6fac7bdeb0d880272e027954",
+    "density_kissing16_independent_cyclic_20261111/polynomial.json": "24085cd076fe5a8d9a4a5bda3b51a199e04b7ea9e82d7e922ce91a0d138bd3e7",
+    "density_kissing16_independent_cyclic_20261111/proof_events.json": "d1d5333e9768677e53f924a0897358567e4164b7a09a6361046072572a669ca5",
+    "dim16_log_count_radial_independent_20261111/candidate_exact.json": "3c6d8b01a559b52c4418cccca0e93dde7d34118e4cda4a8f398346f91a22be95"
+  },
+  "math_scope": "Direct periodic cyclic summation plus pointwise positive-width spherical count; all finite and infinite domains covered; no optimizer status used"
+}
+PASS preserved16D base complete primary and independent chains
+{
+  "status": "PASS",
+  "scope": "Exact angular structure, all-scale ratio hypothesis, and u>=4 cyclic tail only. Compact cyclic, radial signs, pair and density rounding are NOT proved.",
+  "dimension": 16,
+  "coefficients_nonnegative": true,
+  "one_sign_transition": true,
+  "cap_margin": "1/20000",
+  "exact_final_linear_slope": "17500000000000027962866674646759/2500000000000000000000000000000",
+  "tail_case1": "[2.28899569002768202507126965512055686384937764977997681800775348282544811409e-39 +/- 3.50e-114]",
+  "tail_case2": "[6.31422540828768572684396604699083006995390173242767261173331218322167409050e-6 +/- 3.53e-81]",
+  "hashes": {
+    "angular.json": "bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4",
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa"
+  }
+}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 17637, 'discarded': 326, 'tested': 35925, 'maxdepth': 28, 'exact_area': '9/2', 'seconds': 27.20685679999997, 'input_hashes': {'fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'angular.json': 'bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4'}}
+{
+  "status": "PASS_CONDITIONAL_ON_ORIGINAL_RADIAL_COUNT_REPLAY",
+  "density_interval": "[0.02492088230826528474512883425098428875480667127315628375741218822254555665357 +/- 2.95e-78]",
+  "strict_upper": "24920883/1000000000",
+  "C_exact": "1456984112135344098961888195064535897048520319668584448/67185197680111236158572287364874212211249501335546875",
+  "old_B_exact": "732407670564567405917/87952134129057792",
+  "new_B_exact": "208182495488094497/25000000000000",
+  "pair_function_unchanged": true,
+  "original_dependency": "043b11949c629d2fe977db14f29ce174653c4068/verifications/dim16",
+  "scope": "New exact angular geometry and algebraic radial transfer. Original radial and count certificates must also be replayed."
+}
+EXACT STRUCTURE AND COVER PASS 17637 326
+{'status': 'PASS', 'scope': 'Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted', 'exact_Gegenbauer_closed_form': True, 'exact_cap_and_one_transition': True, 'all_scale_hypotheses': True, 'rigorous_tail': True, 'exact_binary_cover': {'accepted': 17637, 'discarded': 326, 'tested_tree_nodes': 35925, 'area': '9/2'}, 'independent_analytic_gradient_checks': 17637, 'additional_refinements': 0, 'maximum_extra_depth': 0, 'seconds': 11.698370233999867, 'input_hashes': {'fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'angular.json': 'bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4', 'partition.json': '2f5e8e912968f47c33ce1011002803cf69cdafce9b709a75d29b141c4ac45b47'}}
+PASS 0.024920882308265283
+PASS: full primary and independent reconstructed 16D transfer, including published base replays

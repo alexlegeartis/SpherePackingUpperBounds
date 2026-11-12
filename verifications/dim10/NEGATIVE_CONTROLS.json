@@ -1,0 +1,18 @@
+{
+  "fourier_mismatch": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "negative_profile": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "angular_negative": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "component_mismatch": {
+    "rejected": true,
+    "returncode": 1
+  }
+}

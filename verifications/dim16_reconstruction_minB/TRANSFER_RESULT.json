@@ -1,0 +1,11 @@
+{
+  "status": "PASS_CONDITIONAL_ON_ORIGINAL_RADIAL_COUNT_REPLAY",
+  "density_interval": "[0.02492088230826528474512883425098428875480667127315628375741218822254555665357 +/- 2.95e-78]",
+  "strict_upper": "24920883/1000000000",
+  "C_exact": "1456984112135344098961888195064535897048520319668584448/67185197680111236158572287364874212211249501335546875",
+  "old_B_exact": "732407670564567405917/87952134129057792",
+  "new_B_exact": "208182495488094497/25000000000000",
+  "pair_function_unchanged": true,
+  "original_dependency": "043b11949c629d2fe977db14f29ce174653c4068/verifications/dim16",
+  "scope": "New exact angular geometry and algebraic radial transfer. Original radial and count certificates must also be replayed."
+}
