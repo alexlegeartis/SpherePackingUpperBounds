@@ -1,0 +1,53 @@
+CLOSED FORM FOURIER AND STURM RAYS PASS
+PAIR 1 1003/1000 5
+PAIR 1003/1000 503/500 6
+PAIR 503/500 62877067009/62500000000 7
+PAIR 62877067009/62500000000 101/100 13
+PAIR 101/100 203/200 14
+PAIR 203/200 51/50 15
+PAIR 51/50 103/100 16
+PAIR 103/100 21/20 17
+PAIR 21/20 43/40 18
+PAIR 43/40 11/10 19
+PAIR 11/10 23/20 20
+PAIR 23/20 6/5 21
+PAIR 6/5 13/10 22
+PAIR 13/10 7/5 23
+PAIR 7/5 29/20 24
+PAIR 29/20 3/2 25
+PAIR 3/2 31/20 26
+PAIR 31/20 8/5 27
+PAIR 8/5 33/20 28
+PAIR 33/20 17/10 29
+PAIR 17/10 7/4 30
+PAIR 7/4 9/5 34
+PAIR 9/5 19/10 102
+PAIR 19/10 2 115
+{
+  "status": "PASS",
+  "dimension": 9,
+  "strict_density_upper_bound": "0.190941549",
+  "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.14e-115]",
+  "independent_fourier_closed_form": true,
+  "sturm_rays": {
+    "fourier": {
+      "start": "0",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    },
+    "physical": {
+      "start": "7",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    }
+  },
+  "pair_intervals": 115,
+  "pair_checks": 206,
+  "average_neighbor_count_external": 373,
+  "seconds": 0.6141245210001216,
+  "sha256": {
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+  }
+}

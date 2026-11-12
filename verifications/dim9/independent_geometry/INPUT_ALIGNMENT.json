@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256": {
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9",
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89"
+  }
+}

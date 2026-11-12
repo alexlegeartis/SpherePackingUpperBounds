@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "scope": "Exact angular structure, all-scale ratio hypothesis, and u>=4 cyclic tail only. Compact cyclic, radial signs, pair and density rounding are NOT proved.",
+  "dimension": 9,
+  "angular_coefficients_nonnegative": true,
+  "profile_g_monotone": true,
+  "one_sign_transition": true,
+  "cap_margin": "1/1000000",
+  "exact_final_linear_slope": "20623813397771825907/1000000000000000000",
+  "tail_case1": "[4.11156792073478533182487979864508712581033536374557291522595069730315087e-188 +/- 3.42e-260]",
+  "tail_case2": "[5.1306254576058294796160952141547261656235871471417595237127233542809594784e-25 +/- 1.37e-99]",
+  "hashes": {
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9",
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970"
+  }
+}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 20362, 'discarded': 351, 'tested': 41425, 'maxdepth': 29, 'exact_area': '9/2', 'seconds': 55.16419768000014, 'input_hashes': {'fit.json': '8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970', 'angular.json': 'f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9'}}
+PAIR 1 1003/1000 leaves 1
+PAIR 1003/1000 503/500 leaves 2
+PAIR 503/500 62877067009/62500000000 leaves 3
+PAIR 62877067009/62500000000 101/100 leaves 5
+PAIR 101/100 203/200 leaves 6
+PAIR 203/200 51/50 leaves 7
+PAIR 51/50 103/100 leaves 8
+PAIR 103/100 21/20 leaves 9
+PAIR 21/20 43/40 leaves 10
+PAIR 43/40 11/10 leaves 11
+PAIR 11/10 23/20 leaves 12
+PAIR 23/20 6/5 leaves 13
+PAIR 6/5 13/10 leaves 14
+PAIR 13/10 7/5 leaves 15
+PAIR 7/5 29/20 leaves 16
+PAIR 29/20 3/2 leaves 17
+PAIR 3/2 31/20 leaves 18
+PAIR 31/20 8/5 leaves 19
+PAIR 8/5 33/20 leaves 20
+PAIR 33/20 17/10 leaves 21
+PAIR 17/10 7/4 leaves 22
+PAIR 7/4 9/5 leaves 24
+PAIR 9/5 19/10 leaves 43
+PAIR 19/10 2 leaves 51
+{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.10e-115]", "strict_bound": "0.190941549", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 78, "leaves": 51, "elapsed": 0.16312615399988317, "inputs": {"certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89", "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970", "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"}}
+CLOSED FORM FOURIER AND STURM RAYS PASS
+PAIR 1 1003/1000 5
+PAIR 1003/1000 503/500 6
+PAIR 503/500 62877067009/62500000000 7
+PAIR 62877067009/62500000000 101/100 13
+PAIR 101/100 203/200 14
+PAIR 203/200 51/50 15
+PAIR 51/50 103/100 16
+PAIR 103/100 21/20 17
+PAIR 21/20 43/40 18
+PAIR 43/40 11/10 19
+PAIR 11/10 23/20 20
+PAIR 23/20 6/5 21
+PAIR 6/5 13/10 22
+PAIR 13/10 7/5 23
+PAIR 7/5 29/20 24
+PAIR 29/20 3/2 25
+PAIR 3/2 31/20 26
+PAIR 31/20 8/5 27
+PAIR 8/5 33/20 28
+PAIR 33/20 17/10 29
+PAIR 17/10 7/4 30
+PAIR 7/4 9/5 34
+PAIR 9/5 19/10 102
+PAIR 19/10 2 115
+{
+  "status": "PASS",
+  "dimension": 9,
+  "strict_density_upper_bound": "0.190941549",
+  "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.14e-115]",
+  "independent_fourier_closed_form": true,
+  "sturm_rays": {
+    "fourier": {
+      "start": "0",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    },
+    "physical": {
+      "start": "7",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    }
+  },
+  "pair_intervals": 115,
+  "pair_checks": 206,
+  "average_neighbor_count_external": 373,
+  "seconds": 0.46989711200012607,
+  "sha256": {
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+  }
+}
+{
+  "status": "PASS",
+  "strict_density_upper_bound": "0.190941549",
+  "objective_interval": "[0.1909415484587314729196429410024476108893943932422276388936995031290445237522454559761875476100751070351659750016510 +/- 9.37e-116]",
+  "s_exact": "9/8",
+  "sphere_radius_squared": "9/32",
+  "average_count_external": 373,
+  "no_integer_rounding": true,
+  "threshold_in_published_shell": true,
+  "cross_component_byte_linkage": true,
+  "scope": "Normalization, coefficient linkage and density rounding; complete geometry and radial validity are separately audited",
+  "input_hashes": {
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
+    "geometry/fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "geometry/angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+  }
+}
+PASS primary geometry, radial and separate radial audit; published count373 remains external

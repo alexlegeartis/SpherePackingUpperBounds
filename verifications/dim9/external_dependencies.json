@@ -1,0 +1,8 @@
+{
+  "dimension": 9,
+  "average_ordered_neighbor_bound": 373,
+  "used_radius_ratio": "1.003012",
+  "published_radius_ratio": "1.003013",
+  "source": "https://arxiv.org/html/1206.2608#S6.T2",
+  "original_sdp_replayed_here": false
+}

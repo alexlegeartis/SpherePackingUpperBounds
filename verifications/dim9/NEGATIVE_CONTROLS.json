@@ -1,0 +1,30 @@
+{
+  "fourier_mismatch": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "negative_g": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "angular_negative": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "component_mismatch": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "count_bound": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "negative_count_coefficient": {
+    "rejected": true,
+    "returncode": 1
+  },
+  "optimized_execution": {
+    "rejected": true,
+    "returncode": 1
+  }
+}

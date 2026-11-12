@@ -250,3 +250,9 @@ The new strict upper is **0.024900975**. It uses a fully replayed pointwise sphe
 The comparator remains the printed 0.02492121 from [arXiv:2512.04829v2 Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), not an independently replayed certificate. The lower density remains the achieved Barnes–Wall density pi^8/645120. Percentages use the new outward bound, unchanged comparator, and unchanged lower formula. The complete new count is proved within the package and is not an assumed unpublished external result.
 
 The lost, unpushed value 0.024899515 has not been recovered or established by this package. This is a fresh reconstruction with a different exact certificate.
+
+## Reconstructed signed-profile 9D certificate (12 November 2026)
+
+The new strict bound is **0.190941549**. The comparison is the displayed 0.19099063 from [arXiv:2512.04829v2 Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), whose original upper certificate is not independently replayed here. The lower formula is sqrt(2)*pi^4/945, obtained from the center density 2^(-9/2) listed in [Cohn's general sphere-packing table](https://cohn.mit.edu/sphere-packing/) times the 9D unit-ball volume 32*pi^4/945. This is an existing achieved density, not a new lower bound or optimality claim.
+
+The proof explicitly uses the rigorously checked published average ordered-neighbor count 373 from [de Laat–de Oliveira Filho–Vallentin, §6/Table 2](https://arxiv.org/html/1206.2608#S6.T2). The used half-open shell [1,1.003012) is strictly contained in the published [1,1.003013) shell. The source's original SDP is not replayed, no integer floor is applied, and there is no factor of one half. All new angular, radial, cyclic, normalization, and rounding gates are independently checked. See the package's external-dependency statement and proof.

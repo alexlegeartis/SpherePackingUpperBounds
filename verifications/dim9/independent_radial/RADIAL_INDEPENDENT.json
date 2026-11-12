@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "dimension": 9,
+  "strict_density_upper_bound": "0.190941549",
+  "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.14e-115]",
+  "independent_fourier_closed_form": true,
+  "sturm_rays": {
+    "fourier": {
+      "start": "0",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    },
+    "physical": {
+      "start": "7",
+      "variations_at_start": 31,
+      "variations_at_infinity": 31
+    }
+  },
+  "pair_intervals": 115,
+  "pair_checks": 206,
+  "average_neighbor_count_external": 373,
+  "seconds": 0.4939215240001431,
+  "sha256": {
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+  }
+}

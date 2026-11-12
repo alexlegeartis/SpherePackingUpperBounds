@@ -1,0 +1,25 @@
+PAIR 1 1003/1000 leaves 1
+PAIR 1003/1000 503/500 leaves 2
+PAIR 503/500 62877067009/62500000000 leaves 3
+PAIR 62877067009/62500000000 101/100 leaves 5
+PAIR 101/100 203/200 leaves 6
+PAIR 203/200 51/50 leaves 7
+PAIR 51/50 103/100 leaves 8
+PAIR 103/100 21/20 leaves 9
+PAIR 21/20 43/40 leaves 10
+PAIR 43/40 11/10 leaves 11
+PAIR 11/10 23/20 leaves 12
+PAIR 23/20 6/5 leaves 13
+PAIR 6/5 13/10 leaves 14
+PAIR 13/10 7/5 leaves 15
+PAIR 7/5 29/20 leaves 16
+PAIR 29/20 3/2 leaves 17
+PAIR 3/2 31/20 leaves 18
+PAIR 31/20 8/5 leaves 19
+PAIR 8/5 33/20 leaves 20
+PAIR 33/20 17/10 leaves 21
+PAIR 17/10 7/4 leaves 22
+PAIR 7/4 9/5 leaves 24
+PAIR 9/5 19/10 leaves 43
+PAIR 19/10 2 leaves 51
+{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.10e-115]", "strict_bound": "0.190941549", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 78, "leaves": 51, "elapsed": 0.19109809599990513, "inputs": {"certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89", "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970", "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"}}

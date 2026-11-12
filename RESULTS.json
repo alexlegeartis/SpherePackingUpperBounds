@@ -89,6 +89,25 @@
     "new_gap": "0.025286898854287426900"
   },
   {
+    "dimension": 9,
+    "strict_density_upper_bound": "0.190941549",
+    "package": "verifications/dim9",
+    "source_package": "verifications/dim9",
+    "method": "Signed-hinge profile with monotone v*phi-prime, joint angular/radial optimization and published average-neighbor count373",
+    "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_status": "Comparison to displayed 0.19099063 only; source upper certificate not replayed; no worldwide-priority assertion",
+    "external_neighbor_counts_required": true,
+    "count_certificate_replayed": false,
+    "external_neighbor_count_source": "https://arxiv.org/html/1206.2608#S6.T2",
+    "external_count_scope": "Average ordered-neighbor degree373 in normalized half-open shell [1,1.003013); use conservative [1,1.003012), without floor or factor1/2",
+    "known_lower_density": "0.14577487580817111053",
+    "previous_upper_density": "0.19099063",
+    "upper_decrease_percent": "0.025698",
+    "gap_decrease_percent": "0.108548",
+    "old_gap": "0.045215754191828889467",
+    "new_gap": "0.045166673191828889467"
+  },
+  {
     "dimension": 10,
     "strict_density_upper_bound": "0.143330282",
     "package": "verifications/dim10",

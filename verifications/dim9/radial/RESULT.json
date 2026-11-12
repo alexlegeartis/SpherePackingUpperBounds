@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate",
+  "dimension": 9,
+  "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.10e-115]",
+  "strict_bound": "0.190941549",
+  "gates": {
+    "fourier": {
+      "start": "0",
+      "sign": 1,
+      "degree": 63,
+      "root_count": 63
+    },
+    "physical": {
+      "start": "7",
+      "sign": -1,
+      "degree": 63,
+      "root_count": 63
+    }
+  },
+  "nodes": 78,
+  "leaves": 51,
+  "elapsed": 0.1264433410001402,
+  "inputs": {
+    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
+    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
+    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+  }
+}
