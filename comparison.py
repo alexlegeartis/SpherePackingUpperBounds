@@ -69,7 +69,16 @@ def display_percent(value):
  return format(D(value), '.2f') + '%'
 assert display_density('0.006979502') == '≈0.0069795'
 assert display_percent('4.755298') == '4.76%'
-table=header+''.join(f"| {x['dimension']} | [{display_density(x['known_lower_density'])}]({lower_sources[x['dimension']]}) | [{display_density(x['previous_upper_density'])}]({upper_source[x['dimension']]}) | {display_density(x['strict_density_upper_bound'])} | {display_percent(x['upper_decrease_percent'])} | {display_percent(x['gap_decrease_percent'])} | [{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
+# Only verified lower-bound constructions originating in this repository.
+this_work_lower_dimensions = {36}
+def display_lower(row):
+ label = display_density(row['known_lower_density'])
+ if row['dimension'] in this_work_lower_dimensions:
+  label += ' (this work)'
+ return label
+assert display_lower({'dimension': 36, 'known_lower_density': '7.33034778317e-7'}) == '≈7.3303e-7 (this work)'
+assert display_lower({'dimension': 16, 'known_lower_density': '0.014708'}) == '≈0.014708'
+table=header+''.join(f"| {x['dimension']} | [{display_lower(x)}]({lower_sources[x['dimension']]}) | [{display_density(x['previous_upper_density'])}]({upper_source[x['dimension']]}) | {display_density(x['strict_density_upper_bound'])} | {display_percent(x['upper_decrease_percent'])} | {display_percent(x['gap_decrease_percent'])} | [{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
 display_note='The 16D strict bound is 0.024900975, compared with the paper’s displayed 0.02492121. The full widened-shell count certificate is included and independently replayed. No worldwide-priority claim is made. Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D, 5D, 6D, 7D and 9–16D baselines are pinned paper-reported decimal values, not independently replayed here.'
 text='# Density bounds and pinned comparisons\n\n'+table+'\n'+display_note+' See [sources and conventions](COMPARISONS.md).\n'
 outputs={'RESULTS.json':json.dumps(rows,indent=2)+'\n','RESULTS.md':text}
