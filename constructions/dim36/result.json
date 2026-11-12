@@ -1,0 +1,14 @@
+{
+  "dimension": 36,
+  "bound_type": "packing_density_lower",
+  "gram": "data/Q_original.txt",
+  "gram_divisor": 20,
+  "minimum_squared": "8",
+  "gram_determinant": "10090298369529/4096",
+  "center_density": "16777216/3176523",
+  "density_formula": "(16777216/3176523)*pi^18/18!",
+  "baseline_center_density": "262144/59049",
+  "baseline": "KP36",
+  "density_ratio": "139968/117649",
+  "verification": "Complete interval enumeration; independent source audit and rerun of same implementation; see README arithmetic assumptions"
+}

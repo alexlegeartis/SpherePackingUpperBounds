@@ -1,0 +1,8 @@
+{
+  "scale": 1099511627776,
+  "dimension": 36,
+  "bound": 159,
+  "even_integral": true,
+  "unimodular": true,
+  "exact_ldl_identity": true
+}

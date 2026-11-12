@@ -164,7 +164,7 @@ The new25,28,32,34,36,38,39,40D entries use the pinned Cohn indexed upper table 
 - 28D: L = pi^14/14!; source https://cohn.mit.edu/sphere-packing/. New strict upper 0.0004827696028.
 - 32D: L = pi^16*3^16/(16!*2^24); source https://cohn.mit.edu/sphere-packing/. New strict upper 0.0001249158969.
 - 34D: L = pi^17*3^16*sqrt(3)/(17!*2^25); source https://cohn.mit.edu/sphere-packing/. New strict upper 0.00006394047941.
-- 36D: L = 2^18*pi^18/(3^10*18!); source https://doi.org/10.1109/18.119683. New strict upper 0.00003121945691.
+- 36D (updated 12 November 2026): L = (16777216/3176523)*pi^18/18!, from the [explicit deformed lattice](constructions/dim36/). The prior KP36 lower bound was 2^18*pi^18/(3^10*18!), source https://doi.org/10.1109/18.119683 and https://arxiv.org/abs/2607.11319. Exact lower-bound ratio 139968/117649 (+18.97%). The upper bound remains 0.00003121945691. The upper-table gap percentage uses the new lower bound on both sides, so it measures only the upper-bound reduction, not the combined progress.
 - 38D: L = pi^19*3^15*sqrt(3)/(19!*2^19*5); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001511771069.
 - 39D: L = 2^20*pi^19*3^16*20!/(sqrt(5)*40!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.00001064953048.
 - 40D: L = pi^20*3^16/(2^20*20!); source https://arxiv.org/html/2607.20359v4. New strict upper 0.000007516663425.

@@ -1,0 +1,8 @@
+detG 94585080322265625/16777216 expected 94585080322265625/16777216
+trace 0 traceA2 128/5
+A2 scalar identity? False
+charpoly lambda**12*(15*lambda**2 - 16)**12/129746337890625
+V shape / q range / r range (35864, 36) 32 32 0 0
+rank D 24
+SPD exact LDL confirmed; cubic confirmed
+ratio if min8 at t1/5 2187000000000000/2140753641621841 1.02160283999009

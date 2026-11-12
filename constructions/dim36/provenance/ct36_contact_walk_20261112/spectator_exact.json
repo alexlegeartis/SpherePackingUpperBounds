@@ -1,0 +1,13 @@
+{
+  "exact": true,
+  "bound": 16,
+  "nodes": 76995,
+  "seconds": 1.1697075366973877,
+  "histogram": {
+    "0": 1,
+    "8": 378,
+    "12": 2016,
+    "16": 1701
+  },
+  "scope": "all4096 half-integral spectatorcosets;normnumeratorsdividedby4"
+}

@@ -1,0 +1,3 @@
+import numpy as np,sympy as sp
+from pathlib import Path
+P=Path(__file__).resolve().parent;j=np.load(P/'glue4096.npz');G4=j['G4'][:12,:12];assert not(G4%4).any();G=G4//4;B=np.rint(np.linalg.cholesky(G)*1e6).astype(np.int64);_,U=sp.Matrix(B).lll_transform(delta=sp.Rational(99,100));Ui=U.inv();assert all(x.q==1 for x in Ui);U=np.array(U,dtype=np.int64);Ui=np.array(Ui,dtype=np.int64);H=U@G@U.T;C=j['glue_twice'][:,:12]@Ui%2;np.savez(P/'spectator_reduced.npz',G=H,U=U,labels=C);np.savetxt(P/'spectator_G.txt',H,fmt='%d');np.savetxt(P/'spectator_R.txt',np.linalg.cholesky(H).T);print('spectator diag',H.diagonal(), 'evenentries',not(H%2).any(),flush=True)

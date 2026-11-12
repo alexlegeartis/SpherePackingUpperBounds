@@ -1,0 +1,3 @@
+#include<bits/stdc++.h>
+using namespace std; const int N=36;double R[N][N],z[N];long long nodes=0,cnt=0;ofstream out; double bound; void go(int k,double q){nodes++;if(k<0){if(q>1e-6){cnt++;for(auto v:z)out<<(int)v<<' ';out<<'\n';}return;}double a=0;for(int j=k+1;j<N;j++)a-=R[k][j]*z[j]/R[k][k];double r=sqrt(max(0.,bound-q))/R[k][k];for(int x=ceil(a-r-1e-9);x<=floor(a+r+1e-9);x++){z[k]=x;double v=R[k][k]*(x-a);if(q+v*v<=bound+1e-8)go(k-1,q+v*v);}}
+int main(int argc,char**argv){bound=argc>1?atof(argv[1]):6.00000001;ifstream f("/tmp/ct36/R.txt");for(auto&a:R)for(auto&v:a)f>>v;out.open("/tmp/ct36/vectors.txt");go(N-1,0);cout<<nodes<<" nodes "<<cnt<<" vecs"<<endl;}

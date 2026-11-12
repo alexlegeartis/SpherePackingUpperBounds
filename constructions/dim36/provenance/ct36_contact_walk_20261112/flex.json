@@ -1,0 +1,10 @@
+{
+  "sample_rank": 665,
+  "constraints_verified": 35864,
+  "direction_denominator": 4,
+  "trace_float": 9.547918011776346e-15,
+  "eigen_range": [
+    -1.0327955589886502,
+    1.0327955589886475
+  ]
+}

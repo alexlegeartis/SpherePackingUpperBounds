@@ -1,6 +1,24 @@
-# Sphere-packing density upper bounds
+# Sphere-packing density bounds and constructions
 
-Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. These are upper bounds on density, not packing constructions, kissing-number results, or optimality claims. No worldwide-priority claim is made.
+Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
+
+> [!IMPORTANT]
+> **New advances — 12 November 2026.** This repository now includes both density upper bounds and an explicit packing-density lower bound.
+>
+> - **36D lower bound:** **≈7.3303e-7**, **18.97% above KP36**. A [contact-preserving off-diagonal deformation of the Coxeter–Todd/Turyn seed](constructions/dim36/) has squared minimum **8** and center density **16777216/3176523 ≈5.2816**. Exact reconstruction, full minimum enumeration and an independent audit/rerun are included. This is a construction, not an upper bound or an optimality claim.
+> - **9D upper bound:** **<0.190926892**. [Signed-hinge cyclic profile and average-neighbor count](verifications/dim9/), with the external average-neighbor bound **373** explicitly retained as an input.
+> - **10D upper bound:** **<0.143330282**. [Log-hinge cyclic profile and root-cut radial repair](verifications/dim10/).
+> - **16D upper bound:** **<0.024900975**. [Widened shell count and coupled log-hinge radial kernel](verifications/dim16/widened_reconstruction/), including the independently replayed shell-count certificate.
+>
+> Upper comparisons use the cited paper's displayed values, not an independently replayed baseline. The 36D minimum proof uses outward-rounded binary64 enumeration under its documented arithmetic/compiler assumptions; the independent rerun uses the same audited implementation. See each package for proof dependencies and exact reproduction commands.
+
+## Packing constructions: lower bounds
+
+| Dimension | Prior density | Constructed density | Increase | Idea, proof and details |
+| --- | --- | --- | --- | --- |
+| 36 | [≈6.1615e-7 (KP36)](https://arxiv.org/abs/2607.11319) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
+
+The exact new density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review.
 
 ## Registered results
 
@@ -36,7 +54,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 | 33 | [≈0.0000041407](https://cohn.mit.edu/sphere-packing/) | [≈0.000091236](https://arxiv.org/abs/2006.02560v2) | ≈0.000090097 | 1.25% | 1.31% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim33/) · [Sources & formulas](COMPARISONS.md) |
 | 34 | [≈0.0000017670](https://cohn.mit.edu/sphere-packing/) | [≈0.000064522](https://arxiv.org/abs/2006.02560v2) | ≈0.000063940 | 0.90% | 0.93% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim34/) · [Sources & formulas](COMPARISONS.md) |
 | 35 | [≈9.4619e-7](https://cohn.mit.edu/sphere-packing/) | [≈0.000045574](https://arxiv.org/abs/2006.02560v2) | ≈0.000044637 | 2.06% | 2.10% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim35/) · [Sources & formulas](COMPARISONS.md) |
-| 36 | [≈6.1615e-7](https://doi.org/10.1109/18.119683) | [≈0.000032153](https://arxiv.org/abs/2006.02560v2) | ≈0.000031219 | 2.90% | 2.96% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim36/) · [Sources & formulas](COMPARISONS.md) |
+| 36 | [≈7.3303e-7](constructions/dim36/) | [≈0.000032153](https://arxiv.org/abs/2006.02560v2) | ≈0.000031219 | 2.90% | 2.97% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim36/) · [Sources & formulas](COMPARISONS.md) |
 | 37 | [≈3.2136e-7](https://cohn.mit.edu/sphere-packing/) | [≈0.000022659](https://arxiv.org/abs/2006.02560v2) | ≈0.000021712 | 4.18% | 4.24% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim37/) · [Sources & formulas](COMPARISONS.md) |
 | 38 | [≈2.1757e-7](https://arxiv.org/html/2607.20359v4) | [≈0.000015951](https://arxiv.org/abs/2006.02560v2) | ≈0.000015118 | 5.22% | 5.29% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim38/) · [Sources & formulas](COMPARISONS.md) |
 | 39 | [≈1.6803e-7](https://arxiv.org/html/2607.20359v4) | [≈0.000011217](https://arxiv.org/abs/2006.02560v2) | ≈0.000010650 | 5.06% | 5.13% | [Dimension-specific angular kernel + Gaussian radial optimization](verifications/dim39/) · [Sources & formulas](COMPARISONS.md) |
@@ -56,12 +74,14 @@ These certificates use the existing [Cohn–de Laat–Salmon continuum framework
 
 ## Reproduce
 
-Python 3.11 or newer is required. Install dependencies and run:
+For the upper-bound suite, Python 3.11 or newer is required. Install dependencies and run:
 
     python -m pip install -r requirements.txt
     python run_all.py
 
 Never disable assertions (`python -O`). No optimization solver or network is needed after dependency installation. The 48D compact triangle replay may take several minutes. Logs record the original audits; fresh replay is recommended. No GitHub Actions workflow is installed.
+
+The separate 36D lower-bound replay is `python constructions/dim36/verify_all.py`; it requires SymPy and a C++17 compiler and performs the complete minimum enumeration. It is not silently included in the historical upper-bound suite.
 
 ## Layout
 

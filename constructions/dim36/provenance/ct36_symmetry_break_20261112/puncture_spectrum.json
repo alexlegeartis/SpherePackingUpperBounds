@@ -1,0 +1,416 @@
+[
+  {
+    "deleted": [
+      0
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      1
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      2
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      3
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      4
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      5
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      6
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      7
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      8
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      9
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      10
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      11
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      12
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      13
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      14
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      15
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      16
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      17
+    ],
+    "length": 17,
+    "degree": 1224,
+    "eigen_min": -408,
+    "independence_upper": "65536"
+  },
+  {
+    "deleted": [
+      4,
+      6
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      14,
+      15
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      8,
+      11
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      5,
+      11
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      6,
+      14
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      10,
+      12
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      0,
+      13
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      13,
+      16
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      0,
+      15
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      7,
+      13
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      14,
+      17
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      1,
+      15
+    ],
+    "length": 16,
+    "degree": 1944,
+    "eigen_min": -424,
+    "independence_upper": "1736704/37"
+  },
+  {
+    "deleted": [
+      3,
+      16,
+      17
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      3,
+      4,
+      9
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      8,
+      13,
+      16
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      2,
+      15,
+      17
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -535,
+    "independence_upper": "8765440/349"
+  },
+  {
+    "deleted": [
+      2,
+      9,
+      10
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      7,
+      9,
+      15
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -535,
+    "independence_upper": "8765440/349"
+  },
+  {
+    "deleted": [
+      6,
+      10,
+      17
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      3,
+      12,
+      17
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      4,
+      12,
+      17
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      1,
+      5,
+      12
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      0,
+      6,
+      11
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  },
+  {
+    "deleted": [
+      9,
+      12,
+      14
+    ],
+    "length": 15,
+    "degree": 5049,
+    "eigen_min": -471,
+    "independence_upper": "2572288/115"
+  }
+]

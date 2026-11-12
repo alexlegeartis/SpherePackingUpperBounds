@@ -1,0 +1,11 @@
+{
+  "dimension": 36,
+  "Gram_divisor": 20,
+  "minimum_witness": 160,
+  "determinant": "10090298369529/4096",
+  "center_density": "16777216/3176523",
+  "KP36_ratio": "139968/117649",
+  "percent_gain": "18.970836981190",
+  "sympy_version": "1.14.0",
+  "exact_checks": "PASS"
+}
