@@ -242,3 +242,11 @@ Primary and independent geometry, exact transfer and original-base replays
 are required. The much stronger previously reported but unavailable
 0.024899515 package is not assumed or registered by this reconstruction.
 The published comparator and Barnes–Wall lower formula remain unchanged.
+
+## Reconstructed widened-shell 16D certificate (12 November 2026)
+
+The new strict upper is **0.024900975**. It uses a fully replayed pointwise spherical count of 7724 at inner-product cap 501/1000, coupled to a degree-63 radial polynomial and the log-hinge cyclic kernel. This replaces the earlier reconstructed 0.024920883 in the registry; both earlier certificates remain preserved. The bound is not an optimality or worldwide-priority claim.
+
+The comparator remains the printed 0.02492121 from [arXiv:2512.04829v2 Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), not an independently replayed certificate. The lower density remains the achieved Barnes–Wall density pi^8/645120. Percentages use the new outward bound, unchanged comparator, and unchanged lower formula. The complete new count is proved within the package and is not an assumed unpublished external result.
+
+The lost, unpushed value 0.024899515 has not been recovered or established by this package. This is a fresh reconstruction with a different exact certificate.

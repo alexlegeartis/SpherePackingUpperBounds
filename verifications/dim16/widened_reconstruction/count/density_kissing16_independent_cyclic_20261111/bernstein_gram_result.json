@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "source_sha256": {
+    "candidate.json": "ec45e2946fc318362649b92d519c915f26c73e524fc284b1ece0940e8bcdd257",
+    "factors.json": "a190925c6f7e781b5905064f9aebfdfc938d8a25a82a27ace93e7ea74aafd062"
+  },
+  "checked": 2343,
+  "passed_direct": 762,
+  "passed_gram_multiplier": 236,
+  "excluded_symmetry": 91,
+  "excluded_gram": 83,
+  "max_depth": 38,
+  "peak_stack": 21,
+  "minimum_acceptance_margin": 9.665935689751318e-09,
+  "largest_nonnegative_multiplier": 48.53714902463184,
+  "covered_unit_cube_volume_exact": "1",
+  "accepted_volume_exact": "208760407/536870912",
+  "excluded_volume_exact": "328110505/536870912",
+  "partition_transcript_sha256": "be9b347b2d42898f632701cb8c36f26775a379f124af04b53487f8c58fcd57d2",
+  "seconds": 2.958420462999925,
+  "failure": null,
+  "method": "Exact rational cyclic polynomial and tensor-Bernstein initialization, coordinate degree16. Exact rational degree-elevated Gram polynomial G. Outward binary64 dyadic de Casteljau subdivision. Accept H<0 or H+lambda*G<0 for exactly nonnegative dyadic lambda, which implies H<0 wherever G>=0. Exclude only strictly Gram-negative boxes or boxes strictly outside sorted chamber. Exact permutation symmetry extends to full cube. No samples used for acceptance."
+}

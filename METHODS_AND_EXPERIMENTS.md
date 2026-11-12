@@ -259,3 +259,9 @@ old pair function and pointwise count 7802 remain valid. This is a small
 verified gain to <0.024920883, not recovery of the unavailable nested-shell
 bound. The dependency chain explicitly reruns the preserved primary and
 independent count/radial proofs, plus both new full-domain geometry checks.
+
+## Widened-shell 16D reconstruction (12 November 2026)
+
+The [new 16D package](verifications/dim16/widened_reconstruction/) proves density <0.024900975. Per-factor nonnegative reweighting preserves local PSD and yields a spherical count objective below 7725 at cap 501/1000. Exact pair Sturm chains, an independently reconstructed cyclic polynomial, and a complete integer Bernstein covering turn this into the pointwise integer count 7724. With minimum squared separation 2, the shell threshold is exactly 1000/499. A nonnegative multiplier on that count is optimized jointly with the Fourier-positive radial function and log-hinge cyclic kernel.
+
+The proof replays independent angular geometry, radial Fourier/sign/pair checks, the complete new count, normalization, and final rounding. Numerical grids are discovery tools only. The full package rejects corrupted inputs and an invalid smaller count. Discovery scripts are preserved for provenance; the frozen proof requires neither an optimizer nor archival discovery paths.

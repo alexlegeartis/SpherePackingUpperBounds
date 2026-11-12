@@ -1,6 +1,8 @@
 # Dimension 16: log-hinge cyclic kernel plus a widened spherical count
 
-Strict upper target: **0.024920988**.
+The current registered refinement is **0.024900975**, with the complete portable proof in [widened_reconstruction/](widened_reconstruction/). Run `python widened_reconstruction/verify_all.py`.
+
+The original certificate preserved below has strict upper target **0.024920988**.
 
 The exact density expression begins 0.0249209879146585408. It is a small
 improvement over the pinned published 0.02492121: about 0.000890807% of

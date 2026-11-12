@@ -1,0 +1,9 @@
+{
+  "geometry/angular.json": "bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4",
+  "geometry/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa",
+  "radial/conditional_refit.json": "f044a5196174168cdd0c238f1ce0fd06ad7dac5b35bfa500bdeff1813cc3cdd3",
+  "radial/conditional_refit_exact.json": "5f5ec1c5df1a0767e1d79bba99377c8748afac014146c88b98f774d78faa365e",
+  "radial/candidate_exact.json": "8e47f1948dde8765ee8849c3c73dbb39eb55fd49b3ca065a1677ab04e8cb3be8",
+  "count/density_kissing16_reweight_frozen_20261111/candidate.json": "ec45e2946fc318362649b92d519c915f26c73e524fc284b1ece0940e8bcdd257",
+  "count/density_kissing16_reweight_frozen_20261111/factors.json": "a190925c6f7e781b5905064f9aebfdfc938d8a25a82a27ace93e7ea74aafd062"
+}

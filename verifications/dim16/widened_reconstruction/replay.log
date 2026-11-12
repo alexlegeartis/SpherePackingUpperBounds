@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "scope": "Exact angular structure, all-scale ratio hypothesis, and u>=4 cyclic tail only. Compact cyclic, radial signs, pair and density rounding are NOT proved.",
+  "dimension": 16,
+  "coefficients_nonnegative": true,
+  "one_sign_transition": true,
+  "cap_margin": "1/20000",
+  "exact_final_linear_slope": "17500000000000027962866674646759/2500000000000000000000000000000",
+  "tail_case1": "[2.28899569002768202507126965512055686384937764977997681800775348282544811409e-39 +/- 3.50e-114]",
+  "tail_case2": "[6.31422540828768572684396604699083006995390173242767261173331218322167409050e-6 +/- 3.53e-81]",
+  "hashes": {
+    "angular.json": "bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4",
+    "fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa"
+  }
+}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 17637, 'discarded': 326, 'tested': 35925, 'maxdepth': 28, 'exact_area': '9/2', 'seconds': 24.82184705499992, 'input_hashes': {'fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'angular.json': 'bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4'}}
+EXACT STRUCTURE AND COVER PASS 17637 326
+{'status': 'PASS', 'scope': 'Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted', 'exact_Gegenbauer_closed_form': True, 'exact_cap_and_one_transition': True, 'all_scale_hypotheses': True, 'rigorous_tail': True, 'exact_binary_cover': {'accepted': 17637, 'discarded': 326, 'tested_tree_nodes': 35925, 'area': '9/2'}, 'independent_analytic_gradient_checks': 17637, 'additional_refinements': 0, 'maximum_extra_depth': 0, 'seconds': 9.00624115200003, 'input_hashes': {'fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'angular.json': 'bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4', 'partition.json': '2f5e8e912968f47c33ce1011002803cf69cdafce9b709a75d29b141c4ac45b47'}}
+REPAIRED RAYS PASS [0.02490840020810496493179386187270535855437953065980845185763617060272706358486878635805006179758531760928210593686809 +/- 6.35e-117]
+PAIR PIECE PASS 1 500/499 count True leaves 3
+PAIR PIECE PASS 500/499 51/50 count False leaves 9
+PAIR PIECE PASS 51/50 21/20 count False leaves 10
+PAIR PIECE PASS 21/20 11/10 count False leaves 11
+PAIR PIECE PASS 11/10 6/5 count False leaves 12
+PAIR PIECE PASS 6/5 7/5 count False leaves 16
+PAIR PIECE PASS 7/5 3/2 count False leaves 18
+PAIR PIECE PASS 3/2 8/5 count False leaves 21
+PAIR PIECE PASS 8/5 33/20 count False leaves 34
+PAIR PIECE PASS 33/20 7/4 count False leaves 38
+FULL CONDITIONAL RADIAL PASS {"status": "PASS", "certified_bound": false, "count_conditional": true, "scope": "Full conditional radial pair inequality and both rays only. Spherical average-count theorem remains external.", "finite_pair_domain_v": ["1", "7/4"], "finite_pair_domain_X": ["2*pi", "7*pi/2"], "stronger_physical_negative_ray_X": "21/2", "tail_overlap_proved": true, "profile_kinks_below_endpoint": ["51/50", "21/20", "11/10", "6/5", "7/5", "3/2", "8/5", "33/20", "7/4"], "later_kinks_covered_by_physical_negative_ray": ["2"], "count_threshold_v_exact": "500/499", "half_open_count_handling": "Left closure proved with count; right closure proved without count, including the threshold.", "count_U": 7886, "control_count_U": 7887, "nodes": 66, "accepted_intervals": 38, "max_depth": 6, "exact_total_width": "3/4", "density_expression_interval": "[0.02490840020810496493179386187270535855437953065980845185763617060272706358486878635805006179758531760928210593686809 +/- 6.35e-117]", "conservative_expression_upper": "0.024908401", "comparator_headroom_interval": "[1.280979189503506820613812729464144562046934019154814236382939727293641513121364194993820241468239071789406313191e-5 +/- 7.12e-117]", "source_hashes": {"conditional_refit_exact.json": "5f5ec1c5df1a0767e1d79bba99377c8748afac014146c88b98f774d78faa365e", "inputs/fit.json": "438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa", "inputs/angular_dim16.json": "bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4"}}
+ALGEBRA PASS
+fourier STURM 10 0.018563502000006338
+fourier STURM 20 0.024253597999972953
+fourier STURM 30 0.03564691099995798
+fourier STURM 40 0.0512213019999308
+fourier STURM 50 0.06952236999995876
+fourier STURM 60 0.08521532999998271
+fourier FULL RAY PASS
+physical STURM 10 0.11109180500000093
+physical STURM 20 0.11555781200002002
+physical STURM 30 0.12538701500000116
+physical STURM 40 0.1401707399999168
+physical STURM 50 0.15723595099996146
+physical STURM 60 0.1733687009999585
+physical FULL RAY PASS
+FULL PAIR PASS {'status': 'PASS', 'method': 'Independent first-derivative mean-value, centered polynomial derivative range, endpoint-monotone profile range', 'checks': 86, 'leaves': 62, 'max_refinement': 4, 'coverage': ['1', '7/4'], 'total_width': '3/4', 'count_threshold': '500/499', 'right_limit_without_count': True, 'tail': 'X>=7pi/2>21/2; P<0 and both allowances>=0'}
+FULL RADIAL PASS {'status': 'PASS', 'scope': 'Complete independent frozen radial witness audit; density additionally uses independently audited angular geometry and spherical count', 'algebra': {'status': 'PASS', 'degree': 63, 'source_laguerre_closed_form': True, 'direct_monomial_fourier_identity': True, 'normalization': '1', 'C_exact': '323168280046550355279872000000/15111557633609528600159217567', 'lambda_exact': '753482844846806425600000/15111557633609528600159217567', 'exact_repair': 'epsilon=1e-6, degree1 normalized Laguerre, renormalized by1-epsilon'}, 'rays': {'fourier': {'status': 'PASS', 'ray_start': '0', 'sign': 1, 'degrees': [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0], 'endpoint_variations': 31, 'positive_infinity_variations': 31}, 'physical': {'status': 'PASS', 'ray_start': '21/2', 'sign': -1, 'degrees': [63, 62, 61, 60, 59, 58, 57, 56, 55, 54, 53, 52, 51, 50, 49, 48, 47, 46, 45, 44, 43, 42, 41, 40, 39, 38, 37, 36, 35, 34, 33, 32, 31, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0], 'endpoint_variations': 31, 'positive_infinity_variations': 31}}, 'pair': {'status': 'PASS', 'method': 'Independent first-derivative mean-value, centered polynomial derivative range, endpoint-monotone profile range', 'checks': 86, 'leaves': 62, 'max_refinement': 4, 'coverage': ['1', '7/4'], 'total_width': '3/4', 'count_threshold': '500/499', 'right_limit_without_count': True, 'tail': 'X>=7pi/2>21/2; P<0 and both allowances>=0'}, 'strict_density_upper': '0.024908401', 'seconds': 0.22778093499994156, 'input_sha256': {'candidate_exact.json': 'f8bacc1c38179f6150e719a195917c979668ad08a9ebefecdb44571e165feac7', 'conditional_refit.json': 'f044a5196174168cdd0c238f1ce0fd06ad7dac5b35bfa500bdeff1813cc3cdd3', 'conditional_refit_exact.json': '5f5ec1c5df1a0767e1d79bba99377c8748afac014146c88b98f774d78faa365e', 'partition.json': 'ba6d47cc2df8664cb61daa2f2c00e630d55942194bb8c9017f7139ed9efaf100', 'inputs/fit.json': '438c5f0a7d55eca26e6b4c5adbba0c3ec542f0bb18cda15314596456ff2cd4aa', 'inputs/angular_dim16.json': 'bbe0a3d60b7f808c21c81631eb584bf665f38402110639eba0250bae0c4adee4'}}
+CONDITIONAL COMPONENTS PASS; count proof still required

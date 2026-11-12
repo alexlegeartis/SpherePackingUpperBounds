@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "arithmetic": "Python standard-library integers and Fraction; no polynomial libraries",
+  "certificates": [
+    {
+      "certificate": "pair_sturm",
+      "left_variations": 16,
+      "right_variations": 16,
+      "roots": 0,
+      "all_remainder_identities_verified": true
+    },
+    {
+      "certificate": "pair_with_margin_sturm",
+      "left_variations": 16,
+      "right_variations": 16,
+      "roots": 0,
+      "all_remainder_identities_verified": true
+    }
+  ],
+  "runtime_seconds": 1.1284137559998726
+}

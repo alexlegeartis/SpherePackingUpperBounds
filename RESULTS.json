@@ -193,24 +193,27 @@
   },
   {
     "dimension": 16,
-    "strict_density_upper_bound": "0.024920883",
-    "package": "verifications/dim16_reconstruction_minB",
-    "source_package": "verifications/dim16_reconstruction_minB",
-    "method": "Minimum-diagonal angular reconstruction with exact C/B-preserving transfer of the published radial/count certificate",
+    "strict_density_upper_bound": "0.024900975",
+    "package": "verifications/dim16/widened_reconstruction",
+    "source_package": "verifications/dim16/widened_reconstruction",
+    "method": "Widened spherical shell count at cap 501/1000, per-factor PSD reweighting, and coupled log-hinge radial certificate",
     "previous_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
     "previous_upper_status": "Comparison to displayed 0.02492121 only; source upper certificate not replayed; no worldwide-priority assertion",
     "external_neighbor_counts_required": false,
     "count_certificate_replayed": true,
     "known_lower_density": "0.014708164397430825284",
     "previous_upper_density": "0.02492121",
-    "upper_decrease_percent": "0.001312",
-    "gap_decrease_percent": "0.003202",
+    "upper_decrease_percent": "0.081196",
+    "gap_decrease_percent": "0.198129",
     "old_gap": "0.010213045602569174716",
-    "new_gap": "0.010212718602569174716",
+    "new_gap": "0.010192810602569174716",
     "earlier_repository_upper_densities": [
-      "0.024920988"
+      "0.024920988",
+      "0.024920883"
     ],
-    "previous_repository_package": "verifications/dim16"
+    "previous_repository_package": "verifications/dim16_reconstruction_minB",
+    "count_cap_exact": "501/1000",
+    "count_integer_bound": 7724
   },
   {
     "dimension": 17,

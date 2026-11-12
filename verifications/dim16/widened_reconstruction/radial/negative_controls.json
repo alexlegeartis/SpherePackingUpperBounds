@@ -1,0 +1,10 @@
+{
+  "deleted_first_interval": {
+    "passed": true,
+    "corruption_rejected": true
+  },
+  "incorrect_closed_count_endpoint": {
+    "passed": true,
+    "corruption_rejected": true
+  }
+}

@@ -1,0 +1,17 @@
+Independent factor-form cyclic polynomial equality PASS: 2673 terms
+All exact rational Bernstein coefficients contained in saved binary64 intervals: 4913
+{
+  "status": "PASS for audited construction and interval enclosures; global search completion is not checked here",
+  "independent_factor_form_matches_exact_cyclic_polynomial": true,
+  "exact_permutation_symmetry": true,
+  "terms": 2673,
+  "degree_each_axis": 16,
+  "exact_initial_bernstein_coefficients_checked": 4913,
+  "all_initial_binary64_intervals_contain_exact_coefficients": true,
+  "all_first_subdivision_intervals_contain_exact_child_coefficients_on_all_axes": true,
+  "exact_cyclic_bernstein_sha256": "861f31e9fd1b9599a20effb909565d2b4d450b6f7ace6f642ab856db537ef77e",
+  "polynomial_sha256": "315f35ab9095becbe64e8ff806826ef7933f6e2aa8c8944692d622cf0ec5dd55",
+  "bernstein_initial_npz_sha256": "29726ca6810a82daa87348abe317c70afa30c15f5eb349c56b337f99634fe25d",
+  "audited_script_sha256": "22c1b70932c2553d57a11bf420f1e329a15b1d30b2f09135897fe0d5778aa193",
+  "runtime_seconds": 1.7921921060000159
+}

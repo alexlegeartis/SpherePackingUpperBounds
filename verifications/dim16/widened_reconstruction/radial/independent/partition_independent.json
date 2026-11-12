@@ -1,0 +1,436 @@
+[
+  {
+    "lo": "1",
+    "hi": "15969/15968",
+    "active": true,
+    "upper": "[+/- 1.41e-6]",
+    "refinement": 3
+  },
+  {
+    "lo": "15969/15968",
+    "hi": "7985/7984",
+    "active": true,
+    "upper": "[-0.00087 +/- 4.28e-6]",
+    "refinement": 3
+  },
+  {
+    "lo": "7985/7984",
+    "hi": "3993/3992",
+    "active": true,
+    "upper": "[-0.00173 +/- 3.76e-6]",
+    "refinement": 2
+  },
+  {
+    "lo": "3993/3992",
+    "hi": "1997/1996",
+    "active": true,
+    "upper": "[-0.0035 +/- 5.28e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "1997/1996",
+    "hi": "999/998",
+    "active": true,
+    "upper": "[-0.0069 +/- 4.31e-5]",
+    "refinement": 0
+  },
+  {
+    "lo": "999/998",
+    "hi": "500/499",
+    "active": true,
+    "upper": "[-0.014 +/- 4.35e-4]",
+    "refinement": 0
+  },
+  {
+    "lo": "500/499",
+    "hi": "12800449/12774400",
+    "active": false,
+    "upper": "[+/- 8.36e-7]",
+    "refinement": 4
+  },
+  {
+    "lo": "12800449/12774400",
+    "hi": "6400449/6387200",
+    "active": false,
+    "upper": "[-0.000457 +/- 3.02e-7]",
+    "refinement": 4
+  },
+  {
+    "lo": "6400449/6387200",
+    "hi": "3200449/3193600",
+    "active": false,
+    "upper": "[-0.000913 +/- 8.95e-7]",
+    "refinement": 3
+  },
+  {
+    "lo": "3200449/3193600",
+    "hi": "1600449/1596800",
+    "active": false,
+    "upper": "[-0.00182 +/- 7.22e-6]",
+    "refinement": 2
+  },
+  {
+    "lo": "1600449/1596800",
+    "hi": "800449/798400",
+    "active": false,
+    "upper": "[-0.0036 +/- 5.54e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "800449/798400",
+    "hi": "400449/399200",
+    "active": false,
+    "upper": "[-0.0073 +/- 8.64e-5]",
+    "refinement": 0
+  },
+  {
+    "lo": "400449/399200",
+    "hi": "200449/199600",
+    "active": false,
+    "upper": "[-0.014 +/- 6.55e-4]",
+    "refinement": 0
+  },
+  {
+    "lo": "200449/199600",
+    "hi": "100449/99800",
+    "active": false,
+    "upper": "[-0.03 +/- 2.23e-3]",
+    "refinement": 0
+  },
+  {
+    "lo": "100449/99800",
+    "hi": "50449/49900",
+    "active": false,
+    "upper": "[-0.06 +/- 7.30e-3]",
+    "refinement": 0
+  },
+  {
+    "lo": "50449/49900",
+    "hi": "51/50",
+    "active": false,
+    "upper": "[-0.1 +/- 0.0192]",
+    "refinement": 0
+  },
+  {
+    "lo": "51/50",
+    "hi": "21/20",
+    "active": false,
+    "upper": "[+/- 0.337]",
+    "refinement": 0
+  },
+  {
+    "lo": "21/20",
+    "hi": "11/10",
+    "active": false,
+    "upper": "[+/- 0.695]",
+    "refinement": 0
+  },
+  {
+    "lo": "11/10",
+    "hi": "23/20",
+    "active": false,
+    "upper": "[+/- 0.691]",
+    "refinement": 1
+  },
+  {
+    "lo": "23/20",
+    "hi": "6/5",
+    "active": false,
+    "upper": "[+/- 0.635]",
+    "refinement": 1
+  },
+  {
+    "lo": "6/5",
+    "hi": "49/40",
+    "active": false,
+    "upper": "[-0.3 +/- 0.0977]",
+    "refinement": 1
+  },
+  {
+    "lo": "49/40",
+    "hi": "5/4",
+    "active": false,
+    "upper": "[+/- 0.297]",
+    "refinement": 1
+  },
+  {
+    "lo": "5/4",
+    "hi": "51/40",
+    "active": false,
+    "upper": "[-0.2 +/- 0.0598]",
+    "refinement": 1
+  },
+  {
+    "lo": "51/40",
+    "hi": "13/10",
+    "active": false,
+    "upper": "[-0.1 +/- 0.0718]",
+    "refinement": 1
+  },
+  {
+    "lo": "13/10",
+    "hi": "53/40",
+    "active": false,
+    "upper": "[-0.1 +/- 0.0363]",
+    "refinement": 1
+  },
+  {
+    "lo": "53/40",
+    "hi": "27/20",
+    "active": false,
+    "upper": "[+/- 0.113]",
+    "refinement": 1
+  },
+  {
+    "lo": "27/20",
+    "hi": "11/8",
+    "active": false,
+    "upper": "[+/- 0.0963]",
+    "refinement": 1
+  },
+  {
+    "lo": "11/8",
+    "hi": "7/5",
+    "active": false,
+    "upper": "[+/- 0.0858]",
+    "refinement": 1
+  },
+  {
+    "lo": "7/5",
+    "hi": "57/40",
+    "active": false,
+    "upper": "[+/- 0.0723]",
+    "refinement": 1
+  },
+  {
+    "lo": "57/40",
+    "hi": "29/20",
+    "active": false,
+    "upper": "[+/- 0.0615]",
+    "refinement": 1
+  },
+  {
+    "lo": "29/20",
+    "hi": "3/2",
+    "active": false,
+    "upper": "[+/- 0.0746]",
+    "refinement": 0
+  },
+  {
+    "lo": "3/2",
+    "hi": "61/40",
+    "active": false,
+    "upper": "[+/- 0.0322]",
+    "refinement": 0
+  },
+  {
+    "lo": "61/40",
+    "hi": "31/20",
+    "active": false,
+    "upper": "[-0.01 +/- 8.52e-3]",
+    "refinement": 0
+  },
+  {
+    "lo": "31/20",
+    "hi": "63/40",
+    "active": false,
+    "upper": "[+/- 0.0118]",
+    "refinement": 1
+  },
+  {
+    "lo": "63/40",
+    "hi": "8/5",
+    "active": false,
+    "upper": "[+/- 8.47e-3]",
+    "refinement": 1
+  },
+  {
+    "lo": "8/5",
+    "hi": "257/160",
+    "active": false,
+    "upper": "[-0.003 +/- 7.25e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "257/160",
+    "hi": "129/80",
+    "active": false,
+    "upper": "[-0.002 +/- 4.77e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "129/80",
+    "hi": "259/160",
+    "active": false,
+    "upper": "[+/- 1.17e-3]",
+    "refinement": 0
+  },
+  {
+    "lo": "259/160",
+    "hi": "13/8",
+    "active": false,
+    "upper": "[+/- 5.56e-4]",
+    "refinement": 0
+  },
+  {
+    "lo": "13/8",
+    "hi": "521/320",
+    "active": false,
+    "upper": "[-0.0002 +/- 5.75e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "521/320",
+    "hi": "261/160",
+    "active": false,
+    "upper": "[+/- 1.35e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "261/160",
+    "hi": "209/128",
+    "active": false,
+    "upper": "[+/- 7.07e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "209/128",
+    "hi": "523/320",
+    "active": false,
+    "upper": "[+/- 4.05e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "523/320",
+    "hi": "1047/640",
+    "active": false,
+    "upper": "[+/- 2.05e-5]",
+    "refinement": 0
+  },
+  {
+    "lo": "1047/640",
+    "hi": "419/256",
+    "active": false,
+    "upper": "[+/- 9.41e-6]",
+    "refinement": 1
+  },
+  {
+    "lo": "419/256",
+    "hi": "131/80",
+    "active": false,
+    "upper": "[+/- 5.27e-6]",
+    "refinement": 1
+  },
+  {
+    "lo": "131/80",
+    "hi": "4193/2560",
+    "active": false,
+    "upper": "[-2e-6 +/- 9.02e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "4193/2560",
+    "hi": "2097/1280",
+    "active": false,
+    "upper": "[-2e-6 +/- 6.86e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "2097/1280",
+    "hi": "839/512",
+    "active": false,
+    "upper": "[-2e-6 +/- 9.16e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "839/512",
+    "hi": "1049/640",
+    "active": false,
+    "upper": "[-2e-6 +/- 9.07e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "1049/640",
+    "hi": "4197/2560",
+    "active": false,
+    "upper": "[-2e-6 +/- 6.47e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "4197/2560",
+    "hi": "2099/1280",
+    "active": false,
+    "upper": "[-2e-6 +/- 8.90e-7]",
+    "refinement": 1
+  },
+  {
+    "lo": "2099/1280",
+    "hi": "105/64",
+    "active": false,
+    "upper": "[+/- 5.10e-6]",
+    "refinement": 0
+  },
+  {
+    "lo": "105/64",
+    "hi": "1051/640",
+    "active": false,
+    "upper": "[+/- 1.28e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "1051/640",
+    "hi": "263/160",
+    "active": false,
+    "upper": "[-2e-5 +/- 6.35e-6]",
+    "refinement": 1
+  },
+  {
+    "lo": "263/160",
+    "hi": "527/320",
+    "active": false,
+    "upper": "[+/- 5.79e-5]",
+    "refinement": 1
+  },
+  {
+    "lo": "527/320",
+    "hi": "33/20",
+    "active": false,
+    "upper": "[+/- 1.11e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "33/20",
+    "hi": "53/32",
+    "active": false,
+    "upper": "[+/- 2.28e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "53/32",
+    "hi": "133/80",
+    "active": false,
+    "upper": "[+/- 4.00e-4]",
+    "refinement": 1
+  },
+  {
+    "lo": "133/80",
+    "hi": "67/40",
+    "active": false,
+    "upper": "[+/- 7.36e-4]",
+    "refinement": 0
+  },
+  {
+    "lo": "67/40",
+    "hi": "17/10",
+    "active": false,
+    "upper": "[-0.001 +/- 5.10e-4]",
+    "refinement": 0
+  },
+  {
+    "lo": "17/10",
+    "hi": "7/4",
+    "active": false,
+    "upper": "[-0.002 +/- 8.35e-4]",
+    "refinement": 0
+  }
+]

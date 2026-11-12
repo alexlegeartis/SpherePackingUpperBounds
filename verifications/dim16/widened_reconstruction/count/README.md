@@ -1,0 +1,1 @@
+Complete frozen count certificate at cap501/1000. Pair/PSD, independent Sturm, reconstructed cyclic polynomial and exact integer full-domain covering are all required. Exact objective7724.885513367348... gives integer7724. See ../PROOF.md.
