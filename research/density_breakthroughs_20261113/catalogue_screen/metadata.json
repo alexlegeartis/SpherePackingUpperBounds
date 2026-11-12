@@ -1,0 +1,200 @@
+{
+  "Beis17": {
+    "DIMENSION": "34",
+    "DET": "",
+    "DIVISORS": "1^17*3^17",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 3",
+    "NOTES": "unimodular lattice over the Eisenstein integers"
+  },
+  "Beis16": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "1^16*3^16",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 3",
+    "NOTES": "unimodular lattice over the Eisenstein integers"
+  },
+  "Bhurw8": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "1^16*2^16",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 2",
+    "NOTES": ""
+  },
+  "Bhurw10": {
+    "DIMENSION": "40",
+    "DET": "",
+    "DIVISORS": "1^20*2^20",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 2",
+    "NOTES": "unimodular lattice over the Hurwitz order"
+  },
+  "Bhurw11": {
+    "DIMENSION": "44",
+    "DET": "",
+    "DIVISORS": "1^22*2^22",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 2",
+    "NOTES": "unimodular lattice over the Hurwitz order"
+  },
+  "Bhurw12": {
+    "DIMENSION": "48",
+    "DET": "",
+    "DIVISORS": "1^24*2^24",
+    "MINIMAL_NORM": "8",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "INTEGRAL = 1 MODULAR = 2",
+    "NOTES": ""
+  },
+  "dim482mod": {
+    "DIMENSION": "48",
+    "DET": "2^24",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "",
+    "NOTES": "Constructed by Gabriele Nebe from the structure of P48n over sqrt{5},sqrt{13} using a totally positive generator Z2 of one of the prime ideals diving 2 This lattice is invariant under the derived subgroup of the (subgroup of the) automorphism group of P48n"
+  },
+  "oleech2": {
+    "DIMENSION": "48",
+    "DET": "",
+    "DIVISORS": "2^24",
+    "MINIMAL_NORM": "8",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "MODULAR = 2",
+    "NOTES": "Sublattice of index 2^12 in Leech + Leech, = { (a,b) in Leech + Leech : a+(1+i)Leech = b+(1+i)Leech }, where i is an automorphism of Leech i^2=-1."
+  },
+  "L_56a": {
+    "DIMENSION": "56",
+    "DET": "",
+    "DIVISORS": "29^28",
+    "MINIMAL_NORM": "28",
+    "KISSING_NUMBER": "107880",
+    "PROPERTIES": "Modular=1",
+    "NOTES": "CycloQuaternionic lattice of type Delta2 The first two generators belong to the subgroup SL2(29) circ SL2(3) which fixes a 2-dimensional space of forms."
+  },
+  "L_56b": {
+    "DIMENSION": "56",
+    "DET": "",
+    "DIVISORS": "1",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "15590400",
+    "PROPERTIES": "Unimodular=1",
+    "NOTES": "CycloQuaternionic lattice of type Delta2 The first two generators are the same as for L_56,2^(7)(M)"
+  },
+  "L_56c": {
+    "DIMENSION": "56",
+    "DET": "",
+    "DIVISORS": "1",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "15590400",
+    "PROPERTIES": "Unimodular=1",
+    "NOTES": "CycloQuaternionic lattice of type Delta2 The automorphism group contains the group SL_2(29) \\circ tilde(S)_3"
+  },
+  "L_32.2": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "1",
+    "MINIMAL_NORM": "4",
+    "KISSING_NUMBER": "146880",
+    "PROPERTIES": "Unimodular=1",
+    "NOTES": "CycloQuaternionic lattice of type Delta2 The first 4 generators generate the automorphism group of ^((5+sqrt(17))/2)L_32,2 (see file DL_32.2)."
+  },
+  "L_32.6": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "17^4",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "233376",
+    "PROPERTIES": "",
+    "NOTES": "CycloQuaternionic lattice of type Delta6"
+  },
+  "DL_32.2": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "2^16",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "261120",
+    "PROPERTIES": "Modular=1",
+    "NOTES": "CycloQuaternionic lattice of type Delta2 Official name is ^((5+sqrt(17))/2)L_32,2"
+  },
+  "U33": {
+    "DIMENSION": "33",
+    "DET": "1",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "3",
+    "KISSING_NUMBER": "704",
+    "PROPERTIES": "INTEGRAL =1 UNIMODULAR =1",
+    "NOTES": "odd unimodular lattices of norm 3 constructed from self-dual Z4-code by M. Shi, J.L. Kim and S. Tao."
+  },
+  "U34": {
+    "DIMENSION": "34",
+    "DET": "1",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "3",
+    "KISSING_NUMBER": "544",
+    "PROPERTIES": "INTEGRAL =1 UNIMODULAR =1",
+    "NOTES": "odd unimodular lattices of norm 3 constructed from self-dual Z4-code by M. Shi, J.L. Kim and S. Tao."
+  },
+  "33MIN3": {
+    "DIMENSION": "",
+    "DET": "1",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "3",
+    "KISSING_NUMBER": "704",
+    "PROPERTIES": "",
+    "NOTES": "Found by EMR and NJAS using random walk on nbr graph."
+  },
+  "34MIN3": {
+    "DIMENSION": "34",
+    "DET": "1",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "3",
+    "KISSING_NUMBER": "",
+    "PROPERTIES": "",
+    "NOTES": "Found by EMR and NJAS using random walk on nbr graph."
+  },
+  "35MIN3": {
+    "DIMENSION": "",
+    "DET": "1",
+    "DIVISORS": "",
+    "MINIMAL_NORM": "3",
+    "KISSING_NUMBER": "456",
+    "PROPERTIES": "",
+    "NOTES": "Found by EMR and NJAS using random walk on nbr graph."
+  },
+  "Q32": {
+    "DIMENSION": "32",
+    "DET": "",
+    "DIVISORS": "2^16",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "261120",
+    "PROPERTIES": "INTEGRAL=1 MODULAR=2",
+    "NOTES": ""
+  },
+  "Q30": {
+    "DIMENSION": "30",
+    "DET": "",
+    "DIVISORS": "2^12*6*18",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "2*40155",
+    "PROPERTIES": "",
+    "NOTES": ""
+  },
+  "Q31": {
+    "DIMENSION": "31",
+    "DET": "",
+    "DIVISORS": "2^14*12",
+    "MINIMAL_NORM": "6",
+    "KISSING_NUMBER": "2*67860",
+    "PROPERTIES": "",
+    "NOTES": ""
+  }
+}

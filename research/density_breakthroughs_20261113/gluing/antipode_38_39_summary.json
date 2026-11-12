@@ -1,0 +1,15 @@
+{
+  "steps": 9685,
+  "evaluations": 9687,
+  "best_ratios": {
+    "9": 1.0,
+    "10": 1.0
+  },
+  "best_screened_ratios": {
+    "9": 1.0,
+    "10": 1.0
+  },
+  "seconds": 480.035676240921,
+  "new_verified_candidates": [],
+  "complete": false
+}

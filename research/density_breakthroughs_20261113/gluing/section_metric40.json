@@ -1,0 +1,14 @@
+{
+  "dimension": 40,
+  "seed_Gram_determinant": "6561",
+  "seed_minimum": 6,
+  "seed_center_density": 41.052552223205566,
+  "exact_contact_count": 42599,
+  "numerical_contact_rank": 820,
+  "symmetric_dimension": 820,
+  "LP_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "LP_trace": 0.0,
+  "negative_sampled_constraints": 0,
+  "seconds": 64.88834357261658,
+  "scope": "numerical contact cone screening; no record or global minimum claim"
+}

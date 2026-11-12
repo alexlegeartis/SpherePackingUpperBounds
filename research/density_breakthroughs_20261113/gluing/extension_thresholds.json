@@ -1,0 +1,12 @@
+{
+  "dimension36_center_density": "16777216/3176523",
+  "dimension37_reference_center_density_squared": "32",
+  "necessary_extension_height_squared_upper": "17592186044416/10090298369529",
+  "necessary_nearest_layer_hole_squared_lower": "63130200911816/10090298369529",
+  "height_squared_upper_decimal": 1.7434753066907749,
+  "hole_squared_lower_decimal": 6.256524693309225,
+  "order_two_extension_center_density_upper": "16777216/3176523",
+  "order_two_can_beat_reference37": false,
+  "scope": "Exact restrictions for stacking copies of the fixed 36D lattice; not a general 37D obstruction.",
+  "saved_best_torsion_candidates_have_exact_rejection_witnesses": true
+}

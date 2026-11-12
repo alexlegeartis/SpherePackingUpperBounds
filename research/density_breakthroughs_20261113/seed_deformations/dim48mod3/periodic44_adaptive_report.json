@@ -1,0 +1,46 @@
+{
+  "history": [
+    {
+      "stage": 0,
+      "contacts_used": 10000,
+      "contacts_in_pool": 70570,
+      "fista_iterations": 2500,
+      "transformed_residual": 0.04048325760648712,
+      "trace": -0.46314432395489247,
+      "minimum_derivative_sample": -9.837645949528628e-07,
+      "minimum_derivative_pool": -0.8366921321329203,
+      "negative_pool_derivatives": 6916,
+      "trace_after_uniform_repair": 5.985247267642773,
+      "seconds": 19.59292721748352
+    },
+    {
+      "stage": 1,
+      "contacts_used": 12000,
+      "contacts_in_pool": 70570,
+      "fista_iterations": 5000,
+      "transformed_residual": 0.002485833026279888,
+      "trace": -0.04095666343341191,
+      "minimum_derivative_sample": -9.11099871044041e-06,
+      "minimum_derivative_pool": -0.2105994807474481,
+      "negative_pool_derivatives": 3363,
+      "trace_after_uniform_repair": 1.582134876085137,
+      "seconds": 45.163777112960815
+    },
+    {
+      "stage": 2,
+      "contacts_used": 14000,
+      "contacts_in_pool": 70570,
+      "fista_iterations": 500,
+      "transformed_residual": 7.1649399489893335e-12,
+      "trace": 0,
+      "minimum_derivative_sample": 0,
+      "minimum_derivative_pool": 0,
+      "negative_pool_derivatives": 0,
+      "trace_after_uniform_repair": 0,
+      "seconds": 7.478795051574707,
+      "outcome": "numerical nonnegative eutaxy; no descent direction",
+      "note": "near-zero residual is not normalized into a direction"
+    }
+  ],
+  "scope": "sampled numerical cone only"
+}

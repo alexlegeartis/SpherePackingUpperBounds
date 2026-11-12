@@ -1,0 +1,53 @@
+[
+  {
+    "normal_rank": 9,
+    "dimension": 39,
+    "primitive_determinant": 21870,
+    "raw_determinant": 21870,
+    "saturation_index": 1,
+    "center_density": 18.359259484189554,
+    "comparison_determinant": 21870,
+    "density_ratio_to_comparison": 1.0,
+    "new_record_candidate": false,
+    "pool_indices": [
+      141347,
+      251132,
+      141048,
+      270686,
+      205577,
+      61230,
+      122334,
+      58038,
+      70826
+    ],
+    "seconds": 0.0878603458404541,
+    "reason": "known_E8_extension_control",
+    "minimum_dependency": "published extremal P48n minimum6, not re-enumerated here"
+  },
+  {
+    "normal_rank": 10,
+    "dimension": 38,
+    "primitive_determinant": 54675,
+    "raw_determinant": 54675,
+    "saturation_index": 1,
+    "center_density": 9.480680830795562,
+    "comparison_determinant": 54675,
+    "density_ratio_to_comparison": 1.0,
+    "new_record_candidate": false,
+    "pool_indices": [
+      141347,
+      251132,
+      141048,
+      270686,
+      205577,
+      61230,
+      122334,
+      58038,
+      140785,
+      126150
+    ],
+    "seconds": 0.12688422203063965,
+    "reason": "known_E8_extension_control",
+    "minimum_dependency": "published extremal P48n minimum6, not re-enumerated here"
+  }
+]

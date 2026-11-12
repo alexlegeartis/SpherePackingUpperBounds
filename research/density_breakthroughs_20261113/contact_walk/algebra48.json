@@ -1,0 +1,17 @@
+{
+  "probes": [
+    {
+      "vector": 0,
+      "cyclic_dimension": 16
+    },
+    {
+      "vector": 1,
+      "cyclic_dimension": 32
+    },
+    {
+      "vector": 2,
+      "cyclic_dimension": 32
+    }
+  ],
+  "elapsed": 4.039399862289429
+}

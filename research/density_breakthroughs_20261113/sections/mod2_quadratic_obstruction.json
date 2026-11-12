@@ -1,0 +1,31 @@
+{
+  "degree": 2,
+  "rank": 52,
+  "processed": 79,
+  "contradiction_contact_indices": [
+    4,
+    5,
+    9,
+    13,
+    16,
+    22,
+    29,
+    32,
+    33,
+    38,
+    47,
+    53,
+    55,
+    57,
+    59,
+    64,
+    65,
+    68,
+    69,
+    71,
+    74,
+    77,
+    78
+  ],
+  "interpretation": "Any F2-linear map to F2^2 avoiding zero on all contacts induces a degree-at-most-two polynomial equal to1 there. A contradiction witness excludes such a map."
+}

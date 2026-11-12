@@ -1,0 +1,38 @@
+{
+  "rank2_length17": {
+    "status": "exact impossibility for this outer code and all nonzero ternary rank<=2 parity columns",
+    "codewords": 262144,
+    "weight7_words": 1224,
+    "supports": 408,
+    "design": [
+      17,
+      7,
+      63
+    ],
+    "allowed_sorted_color_counts": [
+      0,
+      0,
+      1,
+      6
+    ],
+    "required_total_monochromatic_coordinate_pairs": "680/7"
+  },
+  "n18k11": {
+    "status": "search did not produce a packing",
+    "exact_remaining_bad_supports": 384,
+    "total_bad_supports": 1757,
+    "nonexistence_proved": false
+  },
+  "n19k12": {
+    "status": "search did not produce a packing",
+    "exact_remaining_bad_supports": 619,
+    "total_bad_supports": 2716,
+    "nonexistence_proved": false
+  },
+  "n20k13": {
+    "status": "search did not produce a packing",
+    "exact_remaining_bad_supports": 979,
+    "total_bad_supports": 4100,
+    "nonexistence_proved": false
+  }
+}

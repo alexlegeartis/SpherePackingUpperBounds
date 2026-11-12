@@ -1,0 +1,29 @@
+# Reproducible discovery caches and the separately versioned reference clone.
+__pycache__/
+external_sphere_packing/
+*/shell*.txt
+*/contacts.npy
+*/candidate*_bad.*
+*/candidate_*.npz
+*/bad.txt
+*/descent_*
+*/periodic44_raw*.txt
+*/periodic44_shell*.npy
+*/periodic44_adaptive_state.npz
+*/periodic44_tangent.npz
+*/periodic44_full_cone.npz
+*/periodic44_full_direction.npz
+*/periodic44_initial.npz
+*/Qsample.txt
+*/Rsample.txt
+*/Qcand.txt
+*/Rcand.txt
+# Unfinished independent minimum exclusion for the recovered 48D endpoint.
+dim48mod3/P_norm4_test*.txt
+dim48mod3/P_reduced40.npz
+dim48mod3/P_Q40.txt
+dim48mod3/P_R40.txt
+dim48mod3/P_Qexact.txt
+dim48mod3/P_ldl_bounds.txt
+dim48mod3/P_minimum_setup.json
+P48_interval_enum.cpp

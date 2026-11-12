@@ -1,0 +1,56 @@
+[
+  {
+    "deleted_coordinate": 20,
+    "contacts_up_to_sign": 52257,
+    "constraint_rank": 630,
+    "minimum_weight": 0.00012680346006295527,
+    "maximum_weight": 0.00239752453110695,
+    "equality_error": 1.9984014443252818e-15,
+    "condition": 316.5033847601874
+  },
+  {
+    "deleted_coordinate": 29,
+    "contacts_up_to_sign": 52257,
+    "constraint_rank": 630,
+    "minimum_weight": 0.000126803460063139,
+    "maximum_weight": 0.002397524531106718,
+    "equality_error": 7.216449660063518e-15,
+    "condition": 316.5033847601866
+  },
+  {
+    "deleted_coordinate": 30,
+    "contacts_up_to_sign": 52257,
+    "constraint_rank": 630,
+    "minimum_weight": 0.00012680346006310652,
+    "maximum_weight": 0.0023975245311070566,
+    "equality_error": 2.4424906541753444e-15,
+    "condition": 316.5033847601874
+  },
+  {
+    "deleted_coordinate": 33,
+    "contacts_up_to_sign": 52257,
+    "constraint_rank": 630,
+    "minimum_weight": 0.00012680346006315428,
+    "maximum_weight": 0.002397524531106828,
+    "equality_error": 1.9984014443252818e-15,
+    "condition": 316.503384760187
+  },
+  {
+    "deleted_coordinate": 34,
+    "contacts_up_to_sign": 52257,
+    "constraint_rank": 630,
+    "minimum_weight": 0.00012680346006315932,
+    "maximum_weight": 0.002397524531106629,
+    "equality_error": 4.440892098500626e-15,
+    "condition": 316.50338476018584
+  },
+  {
+    "deleted_coordinate": 35,
+    "contacts_up_to_sign": 52569,
+    "constraint_rank": 630,
+    "minimum_weight": 0.0002090957246790316,
+    "maximum_weight": 0.0022478190294631406,
+    "equality_error": 3.1086244689504383e-15,
+    "condition": 264.91835651035575
+  }
+]

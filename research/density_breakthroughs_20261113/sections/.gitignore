@@ -1,0 +1,8 @@
+# Regenerable discovery pools and duplicate full-shell arrays.
+P48p_pool.npz
+P48p_enumeration/pool.npz
+P48p_enumeration/vectors.txt
+full_contacts.npz
+normal_contact_coordinates.npz
+eutaxy_*.npz
+__pycache__/

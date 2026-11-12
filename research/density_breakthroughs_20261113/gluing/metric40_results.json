@@ -1,0 +1,14 @@
+{
+  "dimension": 40,
+  "known_minimum": 6,
+  "known_Gram_determinant": 6561,
+  "center_density": 41.052552223205566,
+  "sampled_exact_contacts": 42599,
+  "sampled_contact_rank": 820,
+  "symmetric_space_dimension": 820,
+  "LP_status": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Infeasible)",
+  "LP_trace": null,
+  "negative_sampled_constraints": null,
+  "seconds": 57.52538514137268,
+  "scope": "numerical metric screening over exact contact vectors, not global extremality or minimum certificate"
+}

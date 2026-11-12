@@ -1,0 +1,25 @@
+{
+  "contacts": 25269,
+  "unique_derivative_constraints": 8460,
+  "success": true,
+  "objective_improvement": -0.0,
+  "direction": [
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0,
+    -0.0
+  ],
+  "gradient": [
+    0.46674757281544,
+    2.5721756398941107,
+    1.6932259488084354,
+    0.279346866725497,
+    3.931509267431727,
+    1.2128420123565997,
+    3.853503184713376
+  ],
+  "scope": "floating tangent-cone screen on sampled exact contacts"
+}

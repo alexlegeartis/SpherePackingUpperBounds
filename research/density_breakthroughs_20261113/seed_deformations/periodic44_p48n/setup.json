@@ -1,0 +1,34 @@
+{
+  "source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ48a.html",
+  "mother_name": "P48n",
+  "published_minimum": 6,
+  "catalogue_gram_identity_exact": true,
+  "source_vectors": 300457,
+  "active_contact_vectors": 55964,
+  "normal_gram": [
+    [
+      6,
+      -1,
+      -1,
+      -2
+    ],
+    [
+      -1,
+      6,
+      -2,
+      -2
+    ],
+    [
+      -1,
+      -2,
+      6,
+      -1
+    ],
+    [
+      -2,
+      -2,
+      -1,
+      6
+    ]
+  ]
+}

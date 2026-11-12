@@ -1,0 +1,18 @@
+{
+  "dimension": 56,
+  "determinant": "(29-t^2)^28",
+  "positive_definite_domain": "|t|<sqrt(29)",
+  "fundamental_parameter_interval": "0<=t<=5, by an integral Pell unit and reflection",
+  "minimum_upper_witnesses": [
+    "28",
+    "32-4t"
+  ],
+  "entire_pencil_center_density_upper": "22876792454961/268435456",
+  "entire_pencil_center_density_upper_decimal": 85222.69299239293,
+  "record_center_density": "37252902984619140625/189859297755136",
+  "record_center_density_decimal": 196213.21381197087,
+  "ratio_to_record": "16180320644337271041/37252902984619140625",
+  "ratio_to_record_decimal": 0.4343371750388889,
+  "new_record_in_pencil": false,
+  "verification": "exact rational and integer matrix arithmetic; global in this one-parameter family"
+}

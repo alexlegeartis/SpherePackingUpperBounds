@@ -1,0 +1,18 @@
+{
+  "history": [
+    {
+      "stage": 0,
+      "contacts_used": 10000,
+      "contacts_in_pool": 55964,
+      "fista_iterations": 800,
+      "transformed_residual": 7.93137812571501e-11,
+      "trace": 0.0,
+      "minimum_derivative_sample": 0.0,
+      "minimum_derivative_pool": 0.0,
+      "negative_pool_derivatives": 0,
+      "trace_after_uniform_repair": 0.0,
+      "seconds": 7.21934962272644
+    }
+  ],
+  "scope": "sampled numerical cone only"
+}

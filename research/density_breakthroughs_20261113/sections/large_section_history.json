@@ -1,0 +1,101 @@
+[
+  {
+    "rank": 13,
+    "dimension": 35,
+    "determinant": 548370,
+    "saturation_index": 1,
+    "center_density": 1.629521855502481,
+    "ratio": 0.5761229770587448,
+    "elapsed": 1.3973388671875
+  },
+  {
+    "rank": 12,
+    "dimension": 36,
+    "determinant": 285525,
+    "saturation_index": 1,
+    "center_density": 2.765798857556493,
+    "ratio": 0.5236639788390354,
+    "elapsed": 4.165955305099487
+  },
+  {
+    "rank": 14,
+    "dimension": 34,
+    "determinant": 1257876,
+    "saturation_index": 1,
+    "center_density": 0.8784812337540243,
+    "ratio": 0.39534993997218854,
+    "elapsed": 7.972325086593628
+  },
+  {
+    "rank": 14,
+    "dimension": 34,
+    "determinant": 1115532,
+    "saturation_index": 1,
+    "center_density": 0.9328469318963746,
+    "ratio": 0.4198165701872427,
+    "elapsed": 13.734439373016357
+  },
+  {
+    "rank": 14,
+    "dimension": 34,
+    "determinant": 915372,
+    "saturation_index": 1,
+    "center_density": 1.0297992994299403,
+    "ratio": 0.4634488200427806,
+    "elapsed": 13.873777151107788
+  },
+  {
+    "rank": 14,
+    "dimension": 34,
+    "determinant": 809676,
+    "saturation_index": 1,
+    "center_density": 1.0949537386033248,
+    "ratio": 0.492770793724613,
+    "elapsed": 13.913541555404663
+  },
+  {
+    "rank": 12,
+    "dimension": 36,
+    "determinant": 281880,
+    "saturation_index": 1,
+    "center_density": 2.7836237393043053,
+    "ratio": 0.5270388621834594,
+    "elapsed": 23.111007928848267
+  },
+  {
+    "rank": 12,
+    "dimension": 36,
+    "determinant": 278964,
+    "saturation_index": 1,
+    "center_density": 2.7981344739743594,
+    "ratio": 0.5297862597508701,
+    "elapsed": 52.02797770500183
+  },
+  {
+    "rank": 12,
+    "dimension": 36,
+    "determinant": 264384,
+    "saturation_index": 1,
+    "center_density": 2.874253563833727,
+    "ratio": 0.5441983075946453,
+    "elapsed": 113.49237298965454
+  },
+  {
+    "rank": 12,
+    "dimension": 36,
+    "determinant": 254016,
+    "saturation_index": 1,
+    "center_density": 2.932325158800398,
+    "ratio": 0.5551933235173295,
+    "elapsed": 113.520836353302
+  },
+  {
+    "rank": 13,
+    "dimension": 35,
+    "determinant": 471744,
+    "saturation_index": 1,
+    "center_density": 1.7568870468273026,
+    "ratio": 0.6211533722951965,
+    "elapsed": 200.3971025943756
+  }
+]

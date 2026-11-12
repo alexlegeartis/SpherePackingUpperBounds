@@ -1,0 +1,11 @@
+[
+  {
+    "iteration": 0,
+    "rows": 2500,
+    "elapsed": 9.177881479263306,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "objective": 0.0,
+    "worst_contact_slope": 0.0,
+    "negative_contact_count": 0
+  }
+]

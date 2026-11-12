@@ -1,0 +1,29 @@
+[
+  {
+    "seed": 3,
+    "nodes": 300000001,
+    "leaves": 27967,
+    "capped": true,
+    "found": false,
+    "seconds": 26.5493,
+    "integer_vectors_saved": 27967
+  },
+  {
+    "seed": 4,
+    "nodes": 300000001,
+    "leaves": 27186,
+    "capped": true,
+    "found": false,
+    "seconds": 26.6181,
+    "integer_vectors_saved": 27186
+  },
+  {
+    "seed": 5,
+    "nodes": 300000001,
+    "leaves": 22708,
+    "capped": true,
+    "found": false,
+    "seconds": 25.1101,
+    "integer_vectors_saved": 22708
+  }
+]

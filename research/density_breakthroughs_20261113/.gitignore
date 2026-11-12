@@ -1,0 +1,15 @@
+# Rebuildable binaries, raw discovery output, and external checkout.
+bin/
+**/__pycache__/
+*.log
+seed_deformations/external_sphere_packing/
+contact_walk/contacts_reduced.txt
+contact_walk/Q.txt
+contact_walk/R.txt
+contact_walk/U.npy
+contact_walk/cone_0.npz
+catalogue_screen/L56a_orbit.npz
+catalogue_screen/L56a_flex.npz
+catalogue_screen/test56_*/Q.txt
+catalogue_screen/test56_*/R.txt
+catalogue_screen/test56_*/reduction.npz

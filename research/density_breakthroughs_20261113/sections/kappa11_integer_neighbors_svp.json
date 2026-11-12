@@ -1,0 +1,17 @@
+[
+  {
+    "width": 1,
+    "stdout": "{\"nodes\":438,\"leaves\":0,\"capped\":false,\"found\":false,\"seconds\":9.301e-05}\n",
+    "stderr": ""
+  },
+  {
+    "width": 2,
+    "stdout": "{\"nodes\":500,\"leaves\":0,\"capped\":false,\"found\":false,\"seconds\":0.00011268}\n",
+    "stderr": ""
+  },
+  {
+    "width": 3,
+    "stdout": "{\"nodes\":444,\"leaves\":0,\"capped\":false,\"found\":false,\"seconds\":9.7517e-05}\n",
+    "stderr": ""
+  }
+]

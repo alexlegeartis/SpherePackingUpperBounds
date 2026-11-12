@@ -1,0 +1,12 @@
+{
+  "dimension": 56,
+  "contact_vectors_up_to_sign": 53940,
+  "reconstruction_scale": 2,
+  "D_max_abs": 2,
+  "exact_all_contact_slopes_zero": true,
+  "exact_operator_trace": "0",
+  "exact_operator_square_scalar": true,
+  "operator_square_scalar": "1/29",
+  "determinant_if_scalar_square": "29^28 * (1 - (1/29) * t^2)^28",
+  "scope": "exact contact null direction; other lattice vectors are not yet constrained"
+}

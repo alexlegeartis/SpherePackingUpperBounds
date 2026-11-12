@@ -1,0 +1,12 @@
+{
+  "vectors": 600454,
+  "norm_histogram": {
+    "6": 300457,
+    "8": 149997,
+    "10": 120000,
+    "12": 30000
+  },
+  "seconds": 9.98410415649414,
+  "exact_lattice_vectors": true,
+  "complete": false
+}
