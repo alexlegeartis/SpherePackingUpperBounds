@@ -1,14 +1,14 @@
 {
   "status": "PASS",
   "scope": "Angular kernel geometry only, not radial or density proof",
-  "accepted": 20362,
-  "discarded": 351,
-  "tested": 41425,
+  "accepted": 21079,
+  "discarded": 371,
+  "tested": 42899,
   "maxdepth": 29,
   "exact_area": "9/2",
-  "seconds": 51.823017747999984,
+  "seconds": 55.60500245100002,
   "input_hashes": {
-    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
-    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+    "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220",
+    "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"
   }
 }

@@ -1,4 +1,4 @@
-# Independent analytic audit of step11 signed-profile construction
+# Independent analytic audit of live2 signed-profile construction
 
 The signed profile is continuous and locally absolutely continuous. Its g(v)=v phi'(v) has affine slope A_i between knots, and jump k*b_k+d_k. Nonnegative interval slopes and jumps with g(1)>=0 imply phi>=0 and monotonic radial ratios h(xv)/h(x) for x,v>=1. Derivative jumps are harmless: integrate the almost-everywhere derivative over each interval.
 

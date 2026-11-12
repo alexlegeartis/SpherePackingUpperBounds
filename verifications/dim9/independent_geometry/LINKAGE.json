@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "strict_density_upper_bound": "0.190926892",
+  "objective_interval": "[0.1909268917747941502970794362470129400961873895935076875791534667237936011244851597473248970842674468980179387267882 +/- 8.74e-116]",
+  "s_exact": "9/8",
+  "sphere_radius_squared": "9/32",
+  "average_count_external": 373,
+  "no_integer_rounding": true,
+  "threshold_in_published_shell": true,
+  "cross_component_byte_linkage": true,
+  "scope": "Normalization, coefficient linkage and density rounding; complete geometry and radial validity are separately audited",
+  "input_hashes": {
+    "certificate.json": "b98937660d4a025375ab9a7f0f67b6cf2e20f5b5dd476e3e8fe377c53fcba177",
+    "geometry/fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220",
+    "geometry/angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"
+  }
+}

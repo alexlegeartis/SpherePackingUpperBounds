@@ -90,7 +90,7 @@
   },
   {
     "dimension": 9,
-    "strict_density_upper_bound": "0.190941549",
+    "strict_density_upper_bound": "0.190926892",
     "package": "verifications/dim9",
     "source_package": "verifications/dim9",
     "method": "Signed-hinge profile with monotone v*phi-prime, joint angular/radial optimization and published average-neighbor count373",
@@ -102,10 +102,13 @@
     "external_count_scope": "Average ordered-neighbor degree373 in normalized half-open shell [1,1.003013); use conservative [1,1.003012), without floor or factor1/2",
     "known_lower_density": "0.14577487580817111053",
     "previous_upper_density": "0.19099063",
-    "upper_decrease_percent": "0.025698",
-    "gap_decrease_percent": "0.108548",
+    "upper_decrease_percent": "0.033372",
+    "gap_decrease_percent": "0.140964",
     "old_gap": "0.045215754191828889467",
-    "new_gap": "0.045166673191828889467"
+    "new_gap": "0.045152016191828889467",
+    "earlier_repository_upper_densities": [
+      "0.190941549"
+    ]
   },
   {
     "dimension": 10,

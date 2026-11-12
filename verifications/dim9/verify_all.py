@@ -16,4 +16,4 @@ for script in ['geometry/verify_geometry.py','radial/verify.py','independent_rad
  subprocess.run([sys.executable,str(D/script)],check=True)
 for name in ['geometry/RESULT_GEOMETRY.json','radial/RESULT.json','independent_radial/RADIAL_INDEPENDENT.json','independent_geometry/VERIFIED.json']:
  assert json.loads((D/name).read_text())['status']=='PASS'
-print('PASS: density9 <0.190941549; published average-count373 external')
+print('PASS: density9 <0.190926892; published average-count373 external')

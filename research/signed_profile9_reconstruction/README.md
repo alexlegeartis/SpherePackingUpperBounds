@@ -1,11 +1,11 @@
 # Signed-profile 9D discovery checkpoint
 
-Numerical discovery, not a density proof. The corresponding fully verified
-strict bound is 0.190941549; see ../../verifications/dim9/.
+Numerical discovery, not a density proof. This historical step-11 checkpoint proved strict bound 0.190941549.
+It is superseded by the live-objective refinement in ../../verifications/dim9/.
 
 This directory preserves the frozen step-11 angular/profile/radial inputs,
 radial constraint rows, sensitivity data, and joint optimizer. The frozen
-fit9.json and refit9.json agree exactly with the verification package inputs.
+fit9.json and refit9.json match the earlier step-11 certificate, not the current refined inputs.
 The monotone basis uses nonnegative initial value, jumps and interval slopes
 of g(v)=v*phi'(v). It spans the admissible signed-hinge profiles.
 

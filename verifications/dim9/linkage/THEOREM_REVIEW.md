@@ -1,6 +1,6 @@
 # Independent analytic linkage review
 
-Reviewed the frozen step11 construction; this review does not replace independent exhaustive geometry or radial sign checks.
+Reviewed the frozen live2 construction; this review does not replace independent exhaustive geometry or radial sign checks.
 
 The signed hinge condition is sufficient. On each interval g(v)=v phi'(v)=Av+B; A>=0, nonnegative jumps and g(1)>=0 imply g>=0 and nondecreasing. Thus phi is continuous, nonnegative and locally Lipschitz. For z>=y>=1, phi(xz)-phi(xy) increases with x, because its derivative is (g(xz)-g(xy))/x>=0.
 
@@ -14,4 +14,4 @@ I directly checked arXiv:1206.2608 Table2 contains dimension9 (epsilon,U)=(0.003
 
 The Gaussian polynomial is Schwartz. The profile has positive final linear slope and logarithmic correction, so rooted sums converge absolutely. Standard periodic approximation and Poisson summation are analytical inputs rather than code-formalized results.
 
-Independent normalization check uses min squared separation9/8, sphere radius squared9/32, unit9-ball volume32*pi^4/945. It verifies the coefficient linkage and objective enclosure below0.190941549, not the geometry or Fourier inequalities themselves. See verify_linkage.py and LINKAGE.json.
+Independent normalization check uses min squared separation9/8, sphere radius squared9/32, unit9-ball volume32*pi^4/945. It verifies the coefficient linkage and objective enclosure below0.190926892, not the geometry or Fourier inequalities themselves. See verify_linkage.py and LINKAGE.json.

@@ -6,18 +6,18 @@
   "all_scale_hypotheses": true,
   "rigorous_tail": true,
   "exact_binary_cover": {
-    "accepted": 20362,
-    "discarded": 351,
-    "tested_tree_nodes": 41425,
+    "accepted": 21079,
+    "discarded": 371,
+    "tested_tree_nodes": 42899,
     "area": "9/2"
   },
-  "independent_analytic_gradient_checks": 20502,
-  "additional_refinements": 70,
-  "maximum_extra_depth": 6,
-  "seconds": 29.357985807000205,
+  "independent_analytic_gradient_checks": 21149,
+  "additional_refinements": 35,
+  "maximum_extra_depth": 4,
+  "seconds": 32.40753903699988,
   "input_hashes": {
-    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
-    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9",
-    "partition.json": "0efdcaf298e1fbab64f4e4b46c1719db88a5534724835745b62a533be2de6896"
+    "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220",
+    "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890",
+    "partition.json": "85ebee691fd6b0b33672d74804a0f640d05791eb7acfcff0391eca20319041c4"
   }
 }

@@ -6,15 +6,15 @@
   "profile_g_monotone": true,
   "one_sign_transition": true,
   "cap_margin": "1/1000000",
-  "exact_final_linear_slope": "20623813397771825907/1000000000000000000",
-  "tail_case1": "[4.11156792073478533182487979864508712581033536374557291522595069730315087e-188 +/- 3.42e-260]",
-  "tail_case2": "[5.1306254576058294796160952141547261656235871471417595237127233542809594784e-25 +/- 1.37e-99]",
+  "exact_final_linear_slope": "20623813417765451061/1000000000000000000",
+  "tail_case1": "[1.79590297216164591816277099535642193545480636591193492309783306624247628e-235 +/- 6.09e-307]",
+  "tail_case2": "[5.12857037806607195164221004518781435264381520936000388159163566496399665603e-25 +/- 9.15e-100]",
   "hashes": {
-    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9",
-    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970"
+    "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890",
+    "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220"
   }
 }
-{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 20362, 'discarded': 351, 'tested': 41425, 'maxdepth': 29, 'exact_area': '9/2', 'seconds': 55.847446351999906, 'input_hashes': {'fit.json': '8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970', 'angular.json': 'f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9'}}
+{'status': 'PASS', 'scope': 'Angular kernel geometry only, not radial or density proof', 'accepted': 21079, 'discarded': 371, 'tested': 42899, 'maxdepth': 29, 'exact_area': '9/2', 'seconds': 55.60500245100002, 'input_hashes': {'fit.json': 'dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220', 'angular.json': 'e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890'}}
 PAIR 1 1003/1000 leaves 1
 PAIR 1003/1000 503/500 leaves 2
 PAIR 503/500 62877067009/62500000000 leaves 3
@@ -33,13 +33,13 @@ PAIR 7/5 29/20 leaves 16
 PAIR 29/20 3/2 leaves 17
 PAIR 3/2 31/20 leaves 18
 PAIR 31/20 8/5 leaves 19
-PAIR 8/5 33/20 leaves 20
-PAIR 33/20 17/10 leaves 21
-PAIR 17/10 7/4 leaves 22
-PAIR 7/4 9/5 leaves 24
-PAIR 9/5 19/10 leaves 43
-PAIR 19/10 2 leaves 51
-{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.10e-115]", "strict_bound": "0.190941549", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 78, "leaves": 51, "elapsed": 0.1313130580001598, "inputs": {"certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89", "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970", "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"}}
+PAIR 8/5 33/20 leaves 21
+PAIR 33/20 17/10 leaves 33
+PAIR 17/10 7/4 leaves 36
+PAIR 7/4 9/5 leaves 37
+PAIR 9/5 19/10 leaves 64
+PAIR 19/10 2 leaves 83
+{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.1909268917747941502970794362470129400961873895935076875791534667237936011244851597473248970842674468980179387267882 +/- 6.54e-116]", "strict_bound": "0.190926892", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 142, "leaves": 83, "elapsed": 0.14993836099984037, "inputs": {"certificate.json": "b98937660d4a025375ab9a7f0f67b6cf2e20f5b5dd476e3e8fe377c53fcba177", "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220", "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"}}
 CLOSED FORM FOURIER AND STURM RAYS PASS
 PAIR 1 1003/1000 5
 PAIR 1003/1000 503/500 6
@@ -58,18 +58,18 @@ PAIR 13/10 7/5 23
 PAIR 7/5 29/20 24
 PAIR 29/20 3/2 25
 PAIR 3/2 31/20 26
-PAIR 31/20 8/5 27
-PAIR 8/5 33/20 28
-PAIR 33/20 17/10 29
-PAIR 17/10 7/4 30
-PAIR 7/4 9/5 34
-PAIR 9/5 19/10 102
-PAIR 19/10 2 115
+PAIR 31/20 8/5 28
+PAIR 8/5 33/20 31
+PAIR 33/20 17/10 53
+PAIR 17/10 7/4 58
+PAIR 7/4 9/5 60
+PAIR 9/5 19/10 145
+PAIR 19/10 2 181
 {
   "status": "PASS",
   "dimension": 9,
-  "strict_density_upper_bound": "0.190941549",
-  "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.14e-115]",
+  "strict_density_upper_bound": "0.190926892",
+  "density_interval": "[0.1909268917747941502970794362470129400961873895935076875791534667237936011244851597473248970842674468980179387267882 +/- 6.31e-116]",
   "independent_fourier_closed_form": true,
   "sturm_rays": {
     "fourier": {
@@ -83,22 +83,22 @@ PAIR 19/10 2 115
       "variations_at_infinity": 31
     }
   },
-  "pair_intervals": 115,
-  "pair_checks": 206,
+  "pair_intervals": 181,
+  "pair_checks": 338,
   "average_neighbor_count_external": 373,
-  "seconds": 0.5577274140000554,
+  "seconds": 0.6365827810000155,
   "sha256": {
-    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
-    "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
-    "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+    "certificate.json": "b98937660d4a025375ab9a7f0f67b6cf2e20f5b5dd476e3e8fe377c53fcba177",
+    "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220",
+    "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"
   }
 }
-EXACT STRUCTURE AND COVER PASS 20362 351
-{'status': 'PASS', 'scope': 'Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted', 'exact_Gegenbauer_closed_form': True, 'exact_cap_and_one_transition': True, 'all_scale_hypotheses': True, 'rigorous_tail': True, 'exact_binary_cover': {'accepted': 20362, 'discarded': 351, 'tested_tree_nodes': 41425, 'area': '9/2'}, 'independent_analytic_gradient_checks': 20502, 'additional_refinements': 70, 'maximum_extra_depth': 6, 'seconds': 30.41994723799985, 'input_hashes': {'fit.json': '8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970', 'angular.json': 'f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9', 'partition.json': '0efdcaf298e1fbab64f4e4b46c1719db88a5534724835745b62a533be2de6896'}}
+EXACT STRUCTURE AND COVER PASS 21079 371
+{'status': 'PASS', 'scope': 'Independent frozen log-hinge angular geometry and theorem checks only; no radial or density bound asserted', 'exact_Gegenbauer_closed_form': True, 'exact_cap_and_one_transition': True, 'all_scale_hypotheses': True, 'rigorous_tail': True, 'exact_binary_cover': {'accepted': 21079, 'discarded': 371, 'tested_tree_nodes': 42899, 'area': '9/2'}, 'independent_analytic_gradient_checks': 21149, 'additional_refinements': 35, 'maximum_extra_depth': 4, 'seconds': 32.40753903699988, 'input_hashes': {'fit.json': 'dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220', 'angular.json': 'e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890', 'partition.json': '85ebee691fd6b0b33672d74804a0f640d05791eb7acfcff0391eca20319041c4'}}
 {
   "status": "PASS",
-  "strict_density_upper_bound": "0.190941549",
-  "objective_interval": "[0.1909415484587314729196429410024476108893943932422276388936995031290445237522454559761875476100751070351659750016510 +/- 9.37e-116]",
+  "strict_density_upper_bound": "0.190926892",
+  "objective_interval": "[0.1909268917747941502970794362470129400961873895935076875791534667237936011244851597473248970842674468980179387267882 +/- 8.74e-116]",
   "s_exact": "9/8",
   "sphere_radius_squared": "9/32",
   "average_count_external": 373,
@@ -107,9 +107,10 @@ EXACT STRUCTURE AND COVER PASS 20362 351
   "cross_component_byte_linkage": true,
   "scope": "Normalization, coefficient linkage and density rounding; complete geometry and radial validity are separately audited",
   "input_hashes": {
-    "certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89",
-    "geometry/fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970",
-    "geometry/angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"
+    "certificate.json": "b98937660d4a025375ab9a7f0f67b6cf2e20f5b5dd476e3e8fe377c53fcba177",
+    "geometry/fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220",
+    "geometry/angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"
   }
 }
-PASS: density9 <0.190941549; published average-count373 external
+PASS: density9 <0.190926892; published average-count373 external
+{'fourier_mismatch': {'rejected': True, 'returncode': 1}, 'negative_g': {'rejected': True, 'returncode': 1}, 'angular_negative': {'rejected': True, 'returncode': 1}, 'component_mismatch': {'rejected': True, 'returncode': 1}, 'count_bound': {'rejected': True, 'returncode': 1}, 'negative_count_coefficient': {'rejected': True, 'returncode': 1}, 'optimized_execution': {'rejected': True, 'returncode': 1}}

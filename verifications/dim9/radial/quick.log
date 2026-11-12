@@ -16,10 +16,10 @@ PAIR 7/5 29/20 leaves 16
 PAIR 29/20 3/2 leaves 17
 PAIR 3/2 31/20 leaves 18
 PAIR 31/20 8/5 leaves 19
-PAIR 8/5 33/20 leaves 20
-PAIR 33/20 17/10 leaves 21
-PAIR 17/10 7/4 leaves 22
-PAIR 7/4 9/5 leaves 24
-PAIR 9/5 19/10 leaves 43
-PAIR 19/10 2 leaves 51
-{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.190941548458731472919642941002447610889394393242227638893699503129044523752245455976187547610075107035165975001651 +/- 1.10e-115]", "strict_bound": "0.190941549", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 78, "leaves": 51, "elapsed": 0.19109809599990513, "inputs": {"certificate.json": "932a5f4cf117a3be69194e660c32835a188941e37958d7bf391c173a83e1ed89", "fit.json": "8ca90d266fda85ee5f7086c1502de590a0cf43463a30d9ff646880ed1bf23970", "angular.json": "f4ab82c82086067a7f43c8a812e58ca634e18eaa46a3aa2bc01b7078e235b0c9"}}
+PAIR 8/5 33/20 leaves 21
+PAIR 33/20 17/10 leaves 33
+PAIR 17/10 7/4 leaves 36
+PAIR 7/4 9/5 leaves 37
+PAIR 9/5 19/10 leaves 64
+PAIR 19/10 2 leaves 83
+{"status": "PASS", "scope": "Exact conditional radial Fourier, signs, pair and objective; angular proof and published average count373 separate", "dimension": 9, "density_interval": "[0.1909268917747941502970794362470129400961873895935076875791534667237936011244851597473248970842674468980179387267882 +/- 6.54e-116]", "strict_bound": "0.190926892", "gates": {"fourier": {"start": "0", "sign": 1, "degree": 63, "root_count": 63}, "physical": {"start": "7", "sign": -1, "degree": 63, "root_count": 63}}, "nodes": 142, "leaves": 83, "elapsed": 0.14830800199979421, "inputs": {"certificate.json": "b98937660d4a025375ab9a7f0f67b6cf2e20f5b5dd476e3e8fe377c53fcba177", "fit.json": "dc1f3b1e2079145eae72b01866b0bc6872dde98f53c1702ab48314fe1c55a220", "angular.json": "e90c9b5a45af599459f2e05b67796b229bb60ec9633c8854bc232211aa7d2890"}}

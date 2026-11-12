@@ -72,6 +72,6 @@ for lo,hi in zip(knots,knots[1:]):
 leaves.sort();assert leaves[0][0]==1 and leaves[-1][1]==2 and all(x[1]==y[0] for x,y in zip(leaves,leaves[1:]));assert scale*2>7
 # Beyond v=2, P is negative; phi>=0 gives 2h-h^2>=0.
 value=a(p[0]+C+373*lam)*arb.pi()**a(F(9,2))/a(F(11,2)).gamma()*a(F(9,32))**a(F(9,2))
-assert value<a('0.190941549')
-out=dict(status='PASS',dimension=9,strict_density_upper_bound='0.190941549',density_interval=str(value),independent_fourier_closed_form=True,sturm_rays=rays,pair_intervals=len(leaves),pair_checks=checks,average_neighbor_count_external=373,seconds=time.monotonic()-start,sha256={f:hashlib.sha256((D/f).read_bytes()).hexdigest() for f in ['certificate.json','fit.json','angular.json']})
+assert value<a('0.190926892')
+out=dict(status='PASS',dimension=9,strict_density_upper_bound='0.190926892',density_interval=str(value),independent_fourier_closed_form=True,sturm_rays=rays,pair_intervals=len(leaves),pair_checks=checks,average_neighbor_count_external=373,seconds=time.monotonic()-start,sha256={f:hashlib.sha256((D/f).read_bytes()).hexdigest() for f in ['certificate.json','fit.json','angular.json']})
 (D/'RADIAL_INDEPENDENT.json').write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2),flush=True)

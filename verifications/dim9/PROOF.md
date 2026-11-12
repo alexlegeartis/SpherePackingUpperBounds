@@ -1,6 +1,6 @@
 # 9D signed-profile density bound: proof and ideas
 
-The included exact primary checks and separate audits establish density <0.190941549, conditional on the explicitly cited published average-count theorem. This is a fresh reconstruction, not byte-identical recovery.
+The included exact primary checks and separate audits establish density <0.190926892, conditional on the explicitly cited published average-count theorem. This is a fresh reconstruction, not byte-identical recovery.
 Use minimum squared separation s=9/8, v=r²/s and h(r)=exp(-phi(v)).
 For the linear/log hinge profile, check exactly that g(v)=v phi'(v) is
 nonnegative and nondecreasing: g(1)>=0, each cumulative linear slope>=0,
@@ -57,11 +57,11 @@ The scripts are not a formalization of those analytic theorems.
 
 ## Certificate and audit results
 
-The exact objective enclosure is 0.19094154845873147291964..., strictly
-below0.190941549. Full compact primary geometry accepts20,362 boxes and
-discards351, partitioning exact area9/2. Separate analytic-gradient replay
-checks20,502 boxes after70 refinements of that partition. The degree63
-radial proof uses51 intervals; a separate monomial Fourier/Sturm auditor
+The exact objective enclosure is 0.19092689177479415029708..., strictly
+below0.190926892. Full compact primary geometry accepts21,079 boxes and
+discards371, partitioning exact area9/2. Separate analytic-gradient replay
+checks21,149 boxes after35 refinements of that partition. The degree63
+radial proof uses83 intervals; a separate monomial Fourier/Sturm auditor
 rechecks the full pair range using first-derivative bounds.
 
 For signed profiles, the primary phi enclosure is obtained from endpoint
@@ -74,3 +74,8 @@ independently calculated analytic derivatives, with adaptive refinement.
 Compared with the pinned paper-reported0.19099063 in arXiv:2512.04829v2
 Table1, the bound is smaller. This does not independently certify that
 paper's own rounding or establish worldwide priority or saturation.
+
+The live2 numerical discovery step optimizes the actual inner radial LP
+objective jointly with angular/profile parameters, rather than a frozen
+first-order surrogate. This handles changes of active LP constraints.
+The final proof is independent of the optimizer's convergence status.
