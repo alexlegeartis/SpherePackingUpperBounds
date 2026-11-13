@@ -1,0 +1,45 @@
+{
+  "all_passed": true,
+  "ambient_minimum_input": 12,
+  "minimum_scope": "Inherits published Ne64 minimum12. No new ambient minimum proof.",
+  "source_gram_identity_verified": true,
+  "global_record_status": "Not established by this verification.",
+  "sections": [
+    {
+      "name": "D5",
+      "dimension": 59,
+      "normal_gram_determinant": 128,
+      "section_period_determinant": "237186584173035648",
+      "section_kernel_complete": true,
+      "guaranteed_squared_minimum": 12,
+      "center_density_squared": "7625597484987/128",
+      "center_density": 244079.86469895655,
+      "source_certificate_sha256": "39f9b24be1e09cf0608e9704c81f897cae69c30dddfdd6202a3fa44ed718cce8",
+      "period_file": "ne64_section_D5_period.npz"
+    },
+    {
+      "name": "E6",
+      "dimension": 58,
+      "normal_gram_determinant": 192,
+      "section_period_determinant": "355779876259553472",
+      "section_kernel_complete": true,
+      "guaranteed_squared_minimum": 12,
+      "center_density_squared": "847288609443/64",
+      "center_density": 115060.35165315146,
+      "source_certificate_sha256": "550a4acbca3910d20b12987cd01e5dddac1c9f9cedd81f2bcad6eedb39ba2cf4",
+      "period_file": "ne64_section_E6_period.npz"
+    },
+    {
+      "name": "E7",
+      "dimension": 57,
+      "normal_gram_determinant": 256,
+      "section_period_determinant": "474373168346071296",
+      "section_kernel_complete": true,
+      "guaranteed_squared_minimum": 12,
+      "center_density_squared": "847288609443/256",
+      "center_density": 57530.17582657573,
+      "source_certificate_sha256": "7582e0b5ad5c6865e6d8fe3c01c3a38be22aa592d1a5f028681ae4404c81bb3e",
+      "period_file": "ne64_section_E7_period.npz"
+    }
+  ]
+}

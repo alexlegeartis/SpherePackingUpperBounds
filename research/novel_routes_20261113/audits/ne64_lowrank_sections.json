@@ -1,0 +1,59 @@
+[
+  {
+    "name": "D5",
+    "dimension": 59,
+    "normal_rank": 5,
+    "normal_det": "128",
+    "center_density_squared": "7625597484987/128",
+    "center_density": 244079.86469895655,
+    "saturation_diagonal": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "ambient_minimum_input": 12,
+    "source_pool_size": 16223,
+    "scope": "Exact construction. Global record status not asserted."
+  },
+  {
+    "name": "E6",
+    "dimension": 58,
+    "normal_rank": 6,
+    "normal_det": "192",
+    "center_density_squared": "847288609443/64",
+    "center_density": 115060.35165315146,
+    "saturation_diagonal": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "ambient_minimum_input": 12,
+    "source_pool_size": 16223,
+    "scope": "Exact construction. Global record status not asserted."
+  },
+  {
+    "name": "E7",
+    "dimension": 57,
+    "normal_rank": 7,
+    "normal_det": "256",
+    "center_density_squared": "847288609443/256",
+    "center_density": 57530.17582657573,
+    "saturation_diagonal": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "ambient_minimum_input": 12,
+    "source_pool_size": 16223,
+    "scope": "Exact construction. Global record status not asserted."
+  }
+]

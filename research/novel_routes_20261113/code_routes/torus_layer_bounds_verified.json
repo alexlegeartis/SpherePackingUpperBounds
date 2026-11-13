@@ -1,0 +1,48 @@
+{
+  "parent_dimension": 56,
+  "parent_center_density_exact": "37252902984619140625/189859297755136",
+  "parent_center_density_approx": 196213.21381197087,
+  "primary_table": "https://cohn.mit.edu/sphere-packing/",
+  "original_construction": "Schuett-Shioda, Mordell-Weil Lattices (2019), p400",
+  "exact_algebraic_bounds": [
+    {
+      "dimension": 57,
+      "colors": 2,
+      "torus_separation_squared": "2327/1000",
+      "vertical_minimum_squared": "1673/1000",
+      "union_volume_upper_bound_exact": "754476629218634141738095057977539959205367941149647108824363421256122706379073313323988061320285013733961089372648647532800961264725822752587289/756070272466840679016828275721312522655511142452764535157271189760526407626307985335186902220292303125804482560000000000000000000000000000000000",
+      "union_volume_upper_bound_approx": 0.9978922022115657,
+      "same_color_squared_minimum_ratio": 4,
+      "center_density_squared_exact": "173472347597680709441192448139190673828125/7538235384429347635445131902976",
+      "center_density_approx": 151698.14869354383,
+      "certified_from_published_parent": true,
+      "historical_priority_established": false
+    },
+    {
+      "dimension": 58,
+      "colors": 3,
+      "torus_separation_squared": "227/100",
+      "vertical_minimum_squared": "173/100",
+      "union_volume_upper_bound_exact": "6367335965515142162196013913707648832801436562189140255539423155638290552563236092528124618911333930847976170270511441/6388793802344803737692198929845090816439069153725860322078941553476448144442302476082329323761469961413047877632000000",
+      "union_volume_upper_bound_approx": 0.9966413320740158,
+      "same_color_squared_minimum_ratio": 3,
+      "center_density_squared_exact": "867361737988403547205962240695953369140625/50570497643586210112351468781568",
+      "center_density_approx": 130963.87492821153,
+      "certified_from_published_parent": true,
+      "historical_priority_established": false
+    }
+  ],
+  "limiting_formula_approximations": [
+    {
+      "dimension": 57,
+      "R2": 2.3271755621429273,
+      "center_density_approx": 151706.1088095999
+    },
+    {
+      "dimension": 58,
+      "R2": 2.2702729594664666,
+      "center_density_approx": 130984.54167422933
+    }
+  ],
+  "scope": "Derived comparison bounds; no claim these dimension-specific consequences were separately published."
+}

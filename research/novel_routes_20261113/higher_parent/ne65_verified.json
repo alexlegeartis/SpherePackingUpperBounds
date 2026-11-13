@@ -1,0 +1,30 @@
+{
+  "status": "verified_minimum_12_lattice",
+  "dimension": 65,
+  "parent": "Ne64",
+  "parent_gram_matches_archived_catalogue": true,
+  "parent_minimum_assumption": "Published Ne64 minimum12 theorem; not re-enumerated here",
+  "dual_coset_numerator_norm": 78,
+  "dual_coset_norm": "26/3",
+  "coset_minimum_certified": true,
+  "coset_minimum_if_certified": "26/3",
+  "height_squared": "10/3",
+  "gram_even_integral": true,
+  "gram_positive_definite": true,
+  "determinant": "6176733962839470",
+  "determinant_formula": "10*3^31",
+  "minimum": 12,
+  "layer_bounds": {
+    "zero_layer": "12 from published parent minimum",
+    "nonzero_mod3": "26/3+10/3=12",
+    "nonzero_divisible_by3": "9*(10/3)=30"
+  },
+  "center_density_formula": "3^17/sqrt(10)",
+  "center_density_squared": "16677181699666569/10",
+  "center_density_approx": 40837705.24854031,
+  "world_record_status": "priority not established",
+  "independent_CVP_certificate": {
+    "path": "/workspace/scratch/5bba088ede14/SpherePackingUpperBounds/research/novel_routes_20261113/ne64_hole_certificate/summary.json",
+    "sha256": "f412e07a38277c73e4299c932e6fc1c429a7d035d2b5d677fa0528cc13619a41"
+  }
+}

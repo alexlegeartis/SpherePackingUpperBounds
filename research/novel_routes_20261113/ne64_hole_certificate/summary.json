@@ -1,0 +1,89 @@
+{
+  "status": "complete_outward_interval_enumeration",
+  "certified_empty": true,
+  "dimension": 64,
+  "class_id": 4,
+  "inclusive_integer_norm_bound": 60,
+  "congruence_modulus": 3,
+  "residue_norm_mod_18": 6,
+  "certified_coset_minimum_lower_bound": "26/3",
+  "method": "Exact rational LDL enclosed in dyadic intervals; exhaustive IEEE-754 outward-rounded recursion; exact integer leaves",
+  "arithmetic_assumptions": [
+    "IEEE-754 binary64 round-to-nearest, with nextafter outward bounds",
+    "Compilation without unsafe fast-math or floating-point contraction",
+    "Signed 128-bit integer operations stay within the checked input and coordinate caps"
+  ],
+  "shard_count": 4,
+  "all_shards_complete": true,
+  "total_nodes_including_repeated_upper_tree": 4880529145,
+  "total_exact_leaves": 0,
+  "shared_prefix_count": 42255279,
+  "sum_assigned_prefixes": 42255279,
+  "shards": [
+    {
+      "status": "COMPLETE",
+      "found": false,
+      "shard_id": 0,
+      "shard_count": 4,
+      "split_depth": 47,
+      "nodes": 1218700383,
+      "leaves": 0,
+      "prefixes": 42255279,
+      "assigned_prefixes": 10563820,
+      "seconds": 192.414,
+      "norm": -1,
+      "witness": []
+    },
+    {
+      "status": "COMPLETE",
+      "found": false,
+      "shard_id": 1,
+      "shard_count": 4,
+      "split_depth": 47,
+      "nodes": 1216139957,
+      "leaves": 0,
+      "prefixes": 42255279,
+      "assigned_prefixes": 10563820,
+      "seconds": 188.376,
+      "norm": -1,
+      "witness": []
+    },
+    {
+      "status": "COMPLETE",
+      "found": false,
+      "shard_id": 2,
+      "shard_count": 4,
+      "split_depth": 47,
+      "nodes": 1219964465,
+      "leaves": 0,
+      "prefixes": 42255279,
+      "assigned_prefixes": 10563820,
+      "seconds": 183.344,
+      "norm": -1,
+      "witness": []
+    },
+    {
+      "status": "COMPLETE",
+      "found": false,
+      "shard_id": 3,
+      "shard_count": 4,
+      "split_depth": 47,
+      "nodes": 1225724340,
+      "leaves": 0,
+      "prefixes": 42255279,
+      "assigned_prefixes": 10563819,
+      "seconds": 181.414,
+      "norm": -1,
+      "witness": []
+    }
+  ],
+  "input_sha256": {
+    "ldl_bounds.txt": "ecf16617b657b7e171559ed8ac7583984ff5a07d56dc4c0a94a0a0d5f6131191",
+    "gram.txt": "fef356fc8c5894615113317a04f68a02c19f27bebe8a0d4b1dd2017093a90e07",
+    "coset.txt": "a7834a793cfb28bef99da05938cced1ffb8d6f7db62ef3242f6542b5c7a1ef10"
+  },
+  "proof_source_sha256": "2167c3317fce1a688e17b9e5322f18417e2d9d9daf3c557c937bb78e4ed33fb3",
+  "prepare_source_sha256": "327271a4a7fe8c76f5bab5c217c7e1d57e18624ccdce555a77ca1a27a7b8057c",
+  "run_manifest_sha256": "1516f082344ad1ece0e295f9f0cb5fd8c3b0c01616e6d5c3ac6c656184fb0654",
+  "scope": "The coset computation is exhaustive. The parent Ne64 minimum 12 is inherited from the published theorem. Global sphere-packing priority is not asserted."
+}

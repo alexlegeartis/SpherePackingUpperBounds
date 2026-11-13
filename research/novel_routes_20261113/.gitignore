@@ -1,0 +1,13 @@
+# Reproducible executables, transient logs, and discovery-only workspaces.
+__pycache__/
+verification_logs/
+*.log
+ne64_hole_certificate/interval_enum
+low_contact_seeds/float_shell
+low_contact_seeds/*/shell.txt
+low_contact_seeds/*/Q.txt
+low_contact_seeds/*/R.txt
+nonlinear_periodic/
+dual64/short_raw.txt
+dual64/Q.txt
+dual64/R.txt

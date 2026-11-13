@@ -1,0 +1,12 @@
+{
+  "all_exact_comparisons_passed": true,
+  "norm10_normal_checked": true,
+  "normal_primitive_checked": true,
+  "center_density_squared": "538918983089556384732998345947093492005719991394361448967414415844680348075221071214409623842682480243819910823712744984804892633061679/1393796574908163946345982392040522594123776000000000000000000000000000000000000000000000000000000000000000000000000",
+  "center_density_approx": 19663555319.937195,
+  "ratio_to_norm8_two_coset_approx": 1.0009485779840894,
+  "ratio_to_bare_norm8_section_approx": 1.1445695604161124,
+  "rank1_antipode_minimum8_formula_optimum": true,
+  "world_record_established": false,
+  "scope": "Formula using only the parent minimum8, all primitive rank-one normals in an even unimodular72D lattice, all finite distinct dual-label sets. Does not optimize exact glue-fiber minima or arbitrary71D packings."
+}

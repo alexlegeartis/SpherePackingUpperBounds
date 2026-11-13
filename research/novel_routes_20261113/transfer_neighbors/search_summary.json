@@ -1,0 +1,69 @@
+{
+  "scope": "Discovery only. Capped high scores are rejected separately. No global covering-radius bound.",
+  "parents": [
+    {
+      "index": 0,
+      "half_cvp_calls": 2767,
+      "half_capped_calls": 0,
+      "best_half_upper_witness_norm": 16,
+      "voronoi_best_float": 3.8673469387755137,
+      "voronoi_calls": 380,
+      "voronoi_restarts": 14
+    },
+    {
+      "index": 1,
+      "half_cvp_calls": 3769,
+      "half_capped_calls": 0,
+      "best_half_upper_witness_norm": 16,
+      "voronoi_best_float": 3.9999999999999574,
+      "voronoi_calls": 433,
+      "voronoi_restarts": 14
+    },
+    {
+      "index": 2,
+      "half_cvp_calls": 2163,
+      "half_capped_calls": 102,
+      "best_half_upper_witness_norm": 16,
+      "voronoi_best_float": 3.863257684573398,
+      "voronoi_calls": 435,
+      "voronoi_restarts": 16
+    },
+    {
+      "index": 3,
+      "half_cvp_calls": 4894,
+      "half_capped_calls": 0,
+      "best_half_upper_witness_norm": 16,
+      "voronoi_best_float": 3.999999999999991,
+      "voronoi_calls": 417,
+      "voronoi_restarts": 16
+    },
+    {
+      "index": 4,
+      "half_cvp_calls": 767,
+      "half_capped_calls": 767,
+      "best_half_upper_witness_norm": 20,
+      "voronoi_best_float": 3.8672000000000137,
+      "voronoi_calls": 416,
+      "voronoi_restarts": 14
+    },
+    {
+      "index": 5,
+      "half_cvp_calls": 2263,
+      "half_capped_calls": 106,
+      "best_half_upper_witness_norm": 16,
+      "voronoi_best_float": 3.999999999999895,
+      "voronoi_calls": 414,
+      "voronoi_restarts": 16
+    },
+    {
+      "index": 6,
+      "half_cvp_calls": 884,
+      "half_capped_calls": 573,
+      "best_half_upper_witness_norm": 18,
+      "voronoi_best_float": 3.853305785123971,
+      "voronoi_calls": 419,
+      "voronoi_restarts": 17
+    }
+  ],
+  "new_density_record": false
+}

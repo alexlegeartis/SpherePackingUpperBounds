@@ -1,0 +1,191 @@
+{
+  "all_passed": true,
+  "source": "higher_parent/neb72.html",
+  "source_sha256": "92daeaf0d93672e82ca5e5bc4479e5775daf59029aa4e983fb464e36ef002044",
+  "minimum_input": "Published minimum8 theorem for Gamma72; not re-proved here.",
+  "scope": "Explicit valid lower bounds. No priority or global optimality claim.",
+  "source_gram_identity": true,
+  "ambient_det": 1,
+  "leech_block_det": 1,
+  "leech_block_minimum_at_least": 4,
+  "sections": [
+    {
+      "file": "gamma72_leech_section_rank1.npz",
+      "dimension": 71,
+      "normal_rank": 1,
+      "normal_determinant": "8",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "295147905179352825856",
+      "center_density": 17179869184.0,
+      "sha256": "4249b8c2d30f7fb81528c08722f4e985e217a9324ae0af0ac55e5c7e9fa2e05f"
+    },
+    {
+      "file": "gamma72_leech_section_rank2.npz",
+      "dimension": 70,
+      "normal_rank": 2,
+      "normal_determinant": "48",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "73786976294838206464/3",
+      "center_density": 4959401049.012478,
+      "sha256": "c8d69b0a3cd6209290951e9a605bc9bd137a3c9bce6577c93c33d64d3b6ac60a"
+    },
+    {
+      "file": "gamma72_leech_section_rank3.npz",
+      "dimension": 69,
+      "normal_rank": 3,
+      "normal_determinant": "256",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "2305843009213693952",
+      "center_density": 1518500249.988025,
+      "sha256": "c84d4c3fc1fe50945dc973205a2befa9bc82f92c2bf443eaf9baa1cff6a13d0f"
+    },
+    {
+      "file": "gamma72_leech_section_rank4.npz",
+      "dimension": 68,
+      "normal_rank": 4,
+      "normal_determinant": "1024",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "288230376151711744",
+      "center_density": 536870912.0,
+      "sha256": "71c0fc4301af166c5755f1a10adc70b5c0c8b15e801ee762b652ce173d57527b"
+    },
+    {
+      "file": "gamma72_leech_section_rank5.npz",
+      "dimension": 67,
+      "normal_rank": 5,
+      "normal_determinant": "4096",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "36028797018963968",
+      "center_density": 189812531.24850312,
+      "sha256": "7655ce1a903f3b0f2623b12bbe427c83941989a2e449bbb671c0e3b2052c01d9"
+    },
+    {
+      "file": "gamma72_leech_section_rank6.npz",
+      "dimension": 66,
+      "normal_rank": 6,
+      "normal_determinant": "12288",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "18014398509481984/3",
+      "center_density": 77490641.39081997,
+      "sha256": "c5e554adca0cf58c4e88f3e12df607f9c6dfad673198fd3e87213bbb0ea43b0f"
+    },
+    {
+      "file": "gamma72_leech_section_rank7.npz",
+      "dimension": 65,
+      "normal_rank": 7,
+      "normal_determinant": "32768",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "1125899906842624",
+      "center_density": 33554432.0,
+      "sha256": "5e9bf3af02bae220a8609f089e491c312f29844598b4d9b0edefc267065afc6c"
+    },
+    {
+      "file": "gamma72_leech_section_rank8.npz",
+      "dimension": 64,
+      "normal_rank": 8,
+      "normal_determinant": "65536",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "281474976710656",
+      "center_density": 16777216.0,
+      "sha256": "79ebf12b0e486b4f9965c42485c0beb11fdac31fed57bc442578894fc8a9f918"
+    },
+    {
+      "file": "gamma72_leech_section_rank9.npz",
+      "dimension": 63,
+      "normal_rank": 9,
+      "normal_determinant": "262144",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "35184372088832",
+      "center_density": 5931641.601515722,
+      "sha256": "d9f08818481ec865068bb9e6d9dee5c5d3dc9013ea2f86f778d55faa07d2460a"
+    },
+    {
+      "file": "gamma72_leech_section_rank10.npz",
+      "dimension": 62,
+      "normal_rank": 10,
+      "normal_determinant": "786432",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "17592186044416/3",
+      "center_density": 2421582.543463124,
+      "sha256": "e7c229770e432e3306cba7554c9a3bc71212283004aa58a5f01aeb85db7d83c4"
+    },
+    {
+      "file": "gamma72_leech_section_rank11.npz",
+      "dimension": 61,
+      "normal_rank": 11,
+      "normal_determinant": "2097152",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "1099511627776",
+      "center_density": 1048576.0,
+      "sha256": "496db35b61f4546daf37c11eabe465617623518576df412350a2ea58005606c9"
+    },
+    {
+      "file": "gamma72_leech_section_rank12.npz",
+      "dimension": 60,
+      "normal_rank": 12,
+      "normal_determinant": "4194304",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "274877906944",
+      "center_density": 524288.0,
+      "sha256": "41e65d2dd43a535bed2f33773eec84cb0776bb90cd8b2a48cd937f7ef8b07439"
+    },
+    {
+      "file": "gamma72_leech_section_rank13.npz",
+      "dimension": 59,
+      "normal_rank": 13,
+      "normal_determinant": "8388608",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "68719476736",
+      "center_density": 262144.0,
+      "sha256": "ecb9d26c33597e5853d47b7ee76ff66dc0f855cda08b434f63e0d31c0fc57b04",
+      "complete_period_basis_checked": true
+    },
+    {
+      "file": "gamma72_leech_section_rank14.npz",
+      "dimension": 58,
+      "normal_rank": 14,
+      "normal_determinant": "12582912",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "68719476736/3",
+      "center_density": 151348.90896644525,
+      "sha256": "f688a55126d8e8994220e5a365cf24c14e5a22c0107eba0f065723ca7e2d6cfd",
+      "complete_period_basis_checked": true
+    },
+    {
+      "file": "gamma72_leech_section_rank15.npz",
+      "dimension": 57,
+      "normal_rank": 15,
+      "normal_determinant": "16777216",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "8589934592",
+      "center_density": 92681.90002368316,
+      "sha256": "4bd0e6cf7a7a88f6360ae67e5180d201484d7aa7e50fedbad9610ff0e82058e7"
+    },
+    {
+      "file": "gamma72_leech_section_rank16.npz",
+      "dimension": 56,
+      "normal_rank": 16,
+      "normal_determinant": "16777216",
+      "primitive": true,
+      "minimum_at_least": 8,
+      "center_density_squared": "4294967296",
+      "center_density": 65536.0,
+      "sha256": "17cbefbddf77c08483f52832ade6e1d054c56a4f2257e2735c2b4e7debc2d5d2"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 18,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 1,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 18,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 2,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 40,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 3,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 30,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 4,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 15,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 5,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 22,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  },
+  {
+    "index": 6,
+    "classes": 65536,
+    "exactly_covered_classes": 65536,
+    "all_classes_covered": true,
+    "witness_squared_norm_distribution": {
+      "0": 1,
+      "3": 32640,
+      "4": 32895
+    },
+    "quadratic_polar_rank_mod2": 16,
+    "q1_cosets_have_norm3_witness": true,
+    "q0_cosets_have_norm_at_most4_witness": true,
+    "max_witness_abs_coordinate": 10,
+    "scope": "Upper bound4 on the minimum norm in each covered dual coset, not a global covering-radius claim."
+  }
+]

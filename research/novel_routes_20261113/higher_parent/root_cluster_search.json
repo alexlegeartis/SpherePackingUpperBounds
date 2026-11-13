@@ -1,0 +1,50 @@
+[
+  {
+    "normal_rank": 5,
+    "dimension": 67,
+    "det": 4096,
+    "cosets": 4,
+    "beta": "5/16",
+    "density": 199835261.01958656,
+    "Ne64_record_when_64": null,
+    "beats_Ne64": null,
+    "heuristic_discovery": true,
+    "global_cluster_optimality": false
+  },
+  {
+    "normal_rank": 6,
+    "dimension": 66,
+    "det": 12288,
+    "cosets": 9,
+    "beta": "1/2",
+    "density": 82897968.18530318,
+    "Ne64_record_when_64": null,
+    "beats_Ne64": null,
+    "heuristic_discovery": true,
+    "global_cluster_optimality": false
+  },
+  {
+    "normal_rank": 7,
+    "dimension": 65,
+    "det": 32768,
+    "cosets": 9,
+    "beta": "1/2",
+    "density": 37073098.41179056,
+    "Ne64_record_when_64": null,
+    "beats_Ne64": null,
+    "heuristic_discovery": true,
+    "global_cluster_optimality": false
+  },
+  {
+    "normal_rank": 8,
+    "dimension": 64,
+    "det": 65536,
+    "cosets": 9,
+    "beta": "1/2",
+    "density": 19144465.69882313,
+    "Ne64_record_when_64": 43046721,
+    "beats_Ne64": false,
+    "heuristic_discovery": true,
+    "global_cluster_optimality": false
+  }
+]

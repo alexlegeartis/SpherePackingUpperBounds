@@ -1,0 +1,19 @@
+gamma72_norm8_pool.npz
+__pycache__/
+
+# Reproducible local executables.
+coset_enum
+coset_enum_fast
+coset_enum_logged
+coset_find78
+
+# Linked external paper and reproducible raw discovery artifacts.
+Ext72.pdf
+Ext72.txt
+coset_stream*
+coset_full_[3578].txt
+coset_full_[3578].jsonl
+ne64_primal_Q.txt
+ne64_primal_reduced.npz
+ne64_actual_ldl.hex
+ne64_rounding_audit_stdout.json

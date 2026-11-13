@@ -1,0 +1,27 @@
+{
+  "arithmetic_passed": true,
+  "basis_F1_q0_to_q3": [
+    0,
+    1,
+    672,
+    -51084
+  ],
+  "basis_F2_q0_to_q3": [
+    0,
+    0,
+    1,
+    -72
+  ],
+  "relation": "T6 + 72*T4 + 2700*T2 = 0",
+  "positive_margins_at_w_norm10": {
+    "2": "13/18",
+    "4": "4/9",
+    "6": "1/6"
+  },
+  "theorem": "Every nonextremal even unimodular72D lattice and every nonzero lattice vector w with w^2<=10 have a nonzero vector of norm<=6 in w-perp.",
+  "world_density_record": false,
+  "inputs_not_proved_by_script": [
+    "Harmonic theta of degree2 for an even unimodular72D lattice is in S_38(SL2Z).",
+    "The level-one modular-form ring is C[E4,E6], and S_k=Delta M_(k-12)."
+  ]
+}

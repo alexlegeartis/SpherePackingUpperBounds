@@ -1,0 +1,9 @@
+__pycache__/
+*.log
+leech_minvecs.txt
+leech_block_Q.txt
+leech_block_R.txt
+ne64_section_search_pool.npz
+mw64_dual_Q.txt
+mw64_dual_R.txt
+mw64_unit_dual_vectors.txt

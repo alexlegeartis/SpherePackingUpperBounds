@@ -1,0 +1,26 @@
+{
+  "source_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/CQ64a.html",
+  "source_sha256": "6020cee34f3d3c65d71ba2e838ac91401bba1b3efb7bf2aed9295f7ab3a2f839",
+  "ne64_gram_source_sha256": "b78d999bfb8e1f01389313d56b46bf948c0e61115102b0b2d748bce3d70fe3bb",
+  "first_five_generators_preserve_G": true,
+  "sixth_generator_preserves_G": false,
+  "factor_orders": [
+    4896,
+    120
+  ],
+  "factor_intersection_order": 2,
+  "central_product_order": 293760,
+  "factor_discriminant_kernel_orders": [
+    1,
+    1
+  ],
+  "full_known_subgroup_discriminant_kernel_order": 1,
+  "SL2_5_fixed_point_free_order3_elements": 20,
+  "their_discriminant_fixed_dimensions": [
+    16
+  ],
+  "other_nonidentity_SL2_5_discriminant_fixed_dimensions": [
+    0
+  ],
+  "scope": "The published subgroup only; no assertion that it is the full automorphism group."
+}

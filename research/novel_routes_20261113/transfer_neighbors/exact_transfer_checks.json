@@ -1,0 +1,68 @@
+{
+  "all_passed": true,
+  "lattices": [
+    {
+      "index": 0,
+      "determinant": 65536,
+      "basis_determinant": 1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 1,
+      "determinant": 65536,
+      "basis_determinant": -1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 2,
+      "determinant": 65536,
+      "basis_determinant": -1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 3,
+      "determinant": 65536,
+      "basis_determinant": -1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 4,
+      "determinant": 65536,
+      "basis_determinant": 1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 5,
+      "determinant": 65536,
+      "basis_determinant": 1,
+      "positive_definite_exact": true
+    },
+    {
+      "index": 6,
+      "determinant": 65536,
+      "basis_determinant": -1,
+      "positive_definite_exact": true
+    }
+  ],
+  "false_capped_candidate_rejections": [
+    {
+      "index": 4,
+      "exact_rejecting_squared_hole_distance": "3"
+    },
+    {
+      "index": 6,
+      "exact_rejecting_squared_hole_distance": "7/2"
+    }
+  ],
+  "35d_non_singleton_antipode_upper_bound_squared": "79653538239889651138219051063060760498046875/17220976790219687876342807580596508073918464",
+  "35d_non_singleton_antipode_upper_bound": 2.1506693474362186,
+  "35d_antipode_scope": "This bounds the standard inherited-minimum mu-beta guarantee, not an independently improved actual minimum of the projected point set.",
+  "35d_record_squared": 8,
+  "33d_two_periodic_threshold_squared_hole_distance": 4,
+  "new_density_record": false,
+  "inherited_inputs": [
+    "Catalogue minimum6 for the seven32D parents.",
+    "Previously committed36D density."
+  ],
+  "scope": "Exact determinant/congruence/rejecting-witness/analytic-threshold checks. No claim that a floating CVP enumeration is complete."
+}
