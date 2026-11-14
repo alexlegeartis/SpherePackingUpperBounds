@@ -4,14 +4,26 @@
     "46": "PASS complete primary and independent",
     "47": "PASS complete primary and independent"
   },
+  "tested_code_commit": "91634cc96ece5d03a76297edb11e47dc7ed03a9d",
   "exact_export_reconstruction": "PASS",
   "registry_and_hash_negative_controls": "PASS",
+  "comparison_generation": "PASS",
   "historical16_compatibility_fix": "PASS complete separate replay",
+  "final_shared_origin_and_48D_rounding_checks": "PASS",
   "full_repository_replay": {
     "command": "python run_all.py --jobs 4",
-    "status": "RUNNING; initial attempt has a known pre-existing 16D historical registry failure",
-    "known_failure": "Superseded 16D reconstruction demanded its former registry entry as current.",
-    "fix": "Compatibility assertion now accepts the newer widened reconstruction; frozen proof inputs and mathematical gates unchanged.",
-    "completion_claim": false
+    "status": "COMPLETED with initial historical 16D registry failure; clean aggregate success is not claimed",
+    "returncode": 1,
+    "proof_invocations_started": 73,
+    "expected_proof_invocations": 73,
+    "reported_failed_component": "verifications/dim16_reconstruction_minB/verify_all.py",
+    "failure_scope": "Pre-existing assertion demanded the superseded 16D package as current; it failed before mathematical checks.",
+    "fix": "Compatibility assertion now accepts the already-current widened reconstruction; frozen inputs and mathematical conditions unchanged.",
+    "corrected_component_complete_rerun": "PASS; logs/historical16_compatibility_replay.log",
+    "clean_full_aggregate_rerun_performed": false,
+    "other_reported_component_failures": [],
+    "log": "logs/full_repository_initial_attempt.log",
+    "generated_historical_reports": "logs/fresh_historical_outputs.tar.gz",
+    "historical_report_policy": "Fresh generated reports archived and checked against HISTORICAL_OUTPUT_INVENTORY.json; prior committed historical reports preserved."
   }
 }

@@ -81,6 +81,11 @@ newer package while continuing to verify their own frozen bounds. The full
 replay also exposed a pre-existing 16D historical registration assertion that
 still required the superseded package as current; its compatibility check was
 updated without changing its witness, hashes, mathematical gates or bound.
-Completed full-suite status and the initial failed attempt are recorded in
-`REPLAY_STATUS.json` and the retained logs, rather than conflated with the
-successful new-certificate replays.
+The historical aggregate exercised all 73 scheduled proof invocations and
+reported the old 16D registry assertion as its failure. That corrected chain
+passed a separate complete replay, as did the final shared origin and 48D
+rounding checks. A clean aggregate rerun from scratch is not claimed.
+`REPLAY_STATUS.json` and the retained logs distinguish this scope from the
+successful complete new-certificate replays. Fresh generated historical
+reports are archived with an inventory, while their previously committed
+versions remain preserved in their original locations.

@@ -19,7 +19,7 @@
   "pair_interval_union_checked": true,
   "pair_intervals": 9456,
   "pair_depth": 25,
-  "pair_seconds": 18.953473567962646,
+  "pair_seconds": 20.89565682411194,
   "pair_partition_sha256": "40b5c20b61040bae5998ea9c6d5bfb36999ca2d04ad7b52404c2a8e07bb7da64",
   "origin_rank_one_PSD_identity": true,
   "normalization_positive": true,
