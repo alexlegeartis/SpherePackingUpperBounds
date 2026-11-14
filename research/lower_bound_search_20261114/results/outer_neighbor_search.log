@@ -1,0 +1,16 @@
+/workspace/work/packing_search/outer_neighbor_search.py:49: SyntaxWarning: invalid decimal literal
+  seen.add(key);tried+=1;C=enumerate_code(proposal);weights=np.count_nonzero(C,axis=1);assert weights[1:].min()>=6and(weights==0).sum()==1
+{'trial': 0, 'codimension': 1, 'deep_projective_points': 1, 'new_code_tested': 1, 'weight_enumerator': [1, 0, 0, 0, 0, 0, 1002, 2328, 8700, 30708, 69972, 132864, 201372, 231960, 197442, 119688, 44775, 7764], 'fiber': 'UNSAT nodes 23687 seconds 0.352611'} seconds 0.5128648281097412
+progress 0 deep 1 new 1 total 1 seconds 0.5129191875457764
+progress 10 deep 1 new 0 total 1 seconds 0.6376075744628906
+progress 20 deep 173 new 0 total 1 seconds 0.8199775218963623
+progress 30 deep 163 new 0 total 1 seconds 1.1921250820159912
+progress 40 deep 209 new 0 total 1 seconds 1.6075537204742432
+progress 50 deep 57 new 0 total 1 seconds 1.9850831031799316
+progress 60 deep 69 new 0 total 1 seconds 2.3239047527313232
+progress 70 deep 115 new 0 total 1 seconds 2.641495704650879
+progress 80 deep 84 new 0 total 1 seconds 2.9745476245880127
+progress 90 deep 41 new 0 total 1 seconds 3.334969997406006
+progress 100 deep 43 new 0 total 1 seconds 3.67517352104187
+{'trial': 108, 'codimension': 2, 'deep_projective_points': 449, 'new_code_tested': 2, 'weight_enumerator': [1, 0, 0, 0, 0, 0, 1002, 2328, 8700, 30708, 69972, 132864, 201372, 231960, 197442, 119688, 44775, 7764], 'fiber': 'UNSAT nodes 23687 seconds 0.240879'} seconds 4.359533071517944
+progress 110 deep 145 new 0 total 2 seconds 4.436272859573364

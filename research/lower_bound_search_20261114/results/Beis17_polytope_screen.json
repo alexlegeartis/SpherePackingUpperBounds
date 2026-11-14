@@ -1,0 +1,13 @@
+{
+  "vertices": 684,
+  "positive_definite_failures": 0,
+  "minimum_determinant_numerical": 9942053.896099327,
+  "best_point": [
+    0.0,
+    0.333333333,
+    -0.333333333,
+    -0.666666667,
+    0.333333333,
+    0.0
+  ]
+}

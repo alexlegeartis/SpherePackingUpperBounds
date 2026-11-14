@@ -1,0 +1,11 @@
+{
+  "dimension": 34,
+  "minimum_squared": 8,
+  "Gram_determinant": 4649045868,
+  "center_density_exact": "4^8/3^(19/2)",
+  "explicit_contacts": 134028,
+  "positive_eutaxy_moment_scalar": 31536,
+  "perfection_rank_mod_1000003": 595,
+  "contact_sha256_le_i64": "c2c1dedc52e0aae4fb46ec6846f88f83889765725e13b42e191b8625d4edae3e",
+  "conclusion": "Strict local density maximum among lattices; not a new record."
+}

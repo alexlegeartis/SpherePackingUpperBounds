@@ -1,0 +1,183 @@
+[
+  {
+    "shortened": [
+      0
+    ],
+    "orbit_size": 20,
+    "dimension": 38,
+    "supports": 2716,
+    "fiber": "UNSAT nodes 23660 seconds 0.348005"
+  },
+  {
+    "shortened": [
+      0,
+      1
+    ],
+    "orbit_size": 60,
+    "dimension": 36,
+    "supports": 1757,
+    "fiber": "UNSAT nodes 24011 seconds 0.909095"
+  },
+  {
+    "shortened": [
+      0,
+      2
+    ],
+    "orbit_size": 60,
+    "dimension": 36,
+    "supports": 1743,
+    "fiber": "UNSAT nodes 24569 seconds 0.420748"
+  },
+  {
+    "shortened": [
+      0,
+      3
+    ],
+    "orbit_size": 60,
+    "dimension": 36,
+    "supports": 1755,
+    "fiber": "UNSAT nodes 23786 seconds 0.37215"
+  },
+  {
+    "shortened": [
+      0,
+      19
+    ],
+    "orbit_size": 10,
+    "dimension": 36,
+    "supports": 1776,
+    "fiber": "UNSAT nodes 23984 seconds 0.288931"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      2
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1091,
+    "fiber": "UNSAT nodes 63881 seconds 0.63728"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      3
+    ],
+    "orbit_size": 60,
+    "dimension": 34,
+    "supports": 1099,
+    "fiber": "UNSAT nodes 23741 seconds 0.674169"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      4
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1095,
+    "fiber": "UNSAT nodes 72908 seconds 0.737833"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      6
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1110,
+    "fiber": "UNSAT nodes 24038 seconds 0.575447"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      8
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1095,
+    "fiber": "UNSAT nodes 24038 seconds 0.651231"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      9
+    ],
+    "orbit_size": 40,
+    "dimension": 34,
+    "supports": 1116,
+    "fiber": "UNSAT nodes 24974 seconds 1.09047"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      10
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1091,
+    "fiber": "UNSAT nodes 24011 seconds 0.642083"
+  },
+  {
+    "shortened": [
+      0,
+      1,
+      18
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1120,
+    "fiber": "UNSAT nodes 25271 seconds 0.615844"
+  },
+  {
+    "shortened": [
+      0,
+      2,
+      4
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1091,
+    "fiber": "UNSAT nodes 30176 seconds 0.408412"
+  },
+  {
+    "shortened": [
+      0,
+      2,
+      8
+    ],
+    "orbit_size": 60,
+    "dimension": 34,
+    "supports": 1100,
+    "fiber": "UNSAT nodes 25766 seconds 0.738385"
+  },
+  {
+    "shortened": [
+      0,
+      2,
+      11
+    ],
+    "orbit_size": 120,
+    "dimension": 34,
+    "supports": 1087,
+    "fiber": "UNSAT nodes 24569 seconds 0.319558"
+  },
+  {
+    "shortened": [
+      0,
+      3,
+      18
+    ],
+    "orbit_size": 20,
+    "dimension": 34,
+    "supports": 1099,
+    "fiber": "UNSAT nodes 25136 seconds 0.334675"
+  }
+]

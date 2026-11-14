@@ -1,0 +1,818 @@
+[
+  {
+    "index": 0,
+    "status": "UNSAT nodes 868 seconds 0.0109273",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 1,
+    "status": "UNSAT nodes 868 seconds 0.0123561",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 2,
+    "status": "UNSAT nodes 9858 seconds 0.0829385",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 3,
+    "status": "UNSAT nodes 868 seconds 0.0107433",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 4,
+    "status": "UNSAT nodes 1264 seconds 0.0166329",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 5,
+    "status": "UNSAT nodes 832 seconds 0.011466",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 6,
+    "status": "UNSAT nodes 796 seconds 0.00972736",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 7,
+    "status": "UNSAT nodes 832 seconds 0.0100239",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 8,
+    "status": "UNSAT nodes 1264 seconds 0.0163659",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 9,
+    "status": "UNSAT nodes 868 seconds 0.0129163",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 10,
+    "status": "UNSAT nodes 7404 seconds 0.0685081",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 11,
+    "status": "UNSAT nodes 7404 seconds 0.0707835",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 12,
+    "status": "UNSAT nodes 7811 seconds 0.0702339",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 13,
+    "status": "UNSAT nodes 7521 seconds 0.260755",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 14,
+    "status": "UNSAT nodes 8198 seconds 0.107296",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 15,
+    "status": "UNSAT nodes 7629 seconds 0.0716368",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 16,
+    "status": "UNSAT nodes 7413 seconds 0.0918731",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 17,
+    "status": "UNSAT nodes 7955 seconds 0.076801",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 18,
+    "status": "UNSAT nodes 22731 seconds 0.281082",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 19,
+    "status": "UNSAT nodes 13839 seconds 0.14533",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 20,
+    "status": "UNSAT nodes 7658 seconds 0.102285",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 21,
+    "status": "UNSAT nodes 34223 seconds 0.691597",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 22,
+    "status": "UNSAT nodes 1264 seconds 0.021285",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 23,
+    "status": "UNSAT nodes 22543 seconds 0.187443",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 24,
+    "status": "UNSAT nodes 22401 seconds 0.226263",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 25,
+    "status": "UNSAT nodes 1264 seconds 0.0186343",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 26,
+    "status": "UNSAT nodes 22417 seconds 0.207221",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 27,
+    "status": "UNSAT nodes 868 seconds 0.0160511",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 28,
+    "status": "UNSAT nodes 7613 seconds 0.0866547",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 29,
+    "status": "UNSAT nodes 7737 seconds 0.126454",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 30,
+    "status": "UNSAT nodes 7865 seconds 0.0898629",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 31,
+    "status": "UNSAT nodes 868 seconds 0.0202017",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 32,
+    "status": "UNSAT nodes 868 seconds 0.0111305",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 33,
+    "status": "UNSAT nodes 22115 seconds 0.212304",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 34,
+    "status": "UNSAT nodes 7856 seconds 0.0707063",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 35,
+    "status": "UNSAT nodes 7872 seconds 0.110406",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 36,
+    "status": "UNSAT nodes 1228 seconds 0.0106142",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 37,
+    "status": "UNSAT nodes 9462 seconds 0.0828952",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 38,
+    "status": "UNSAT nodes 7872 seconds 0.0669964",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 39,
+    "status": "UNSAT nodes 22509 seconds 0.246881",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 40,
+    "status": "UNSAT nodes 1264 seconds 0.0171835",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 41,
+    "status": "UNSAT nodes 46627 seconds 0.341341",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 42,
+    "status": "UNSAT nodes 13459 seconds 0.123125",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 43,
+    "status": "UNSAT nodes 10020 seconds 0.0730565",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 44,
+    "status": "UNSAT nodes 7856 seconds 0.0866595",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 45,
+    "status": "UNSAT nodes 33557 seconds 0.293171",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 46,
+    "status": "UNSAT nodes 7487 seconds 0.0874821",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 47,
+    "status": "UNSAT nodes 7404 seconds 0.0610575",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 48,
+    "status": "UNSAT nodes 8256 seconds 0.0877956",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 49,
+    "status": "UNSAT nodes 868 seconds 0.0190282",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 50,
+    "status": "UNSAT nodes 8486 seconds 0.0983029",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 51,
+    "status": "UNSAT nodes 7856 seconds 0.0949047",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 52,
+    "status": "UNSAT nodes 7856 seconds 0.128591",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 53,
+    "status": "UNSAT nodes 7404 seconds 0.107426",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 54,
+    "status": "UNSAT nodes 7946 seconds 0.126083",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 55,
+    "status": "UNSAT nodes 9876 seconds 0.143269",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 56,
+    "status": "UNSAT nodes 22947 seconds 0.264015",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 57,
+    "status": "UNSAT nodes 832 seconds 0.00744877",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 58,
+    "status": "UNSAT nodes 23617 seconds 0.300483",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 59,
+    "status": "UNSAT nodes 1264 seconds 0.0145097",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 60,
+    "status": "UNSAT nodes 1264 seconds 0.0306076",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 61,
+    "status": "UNSAT nodes 7422 seconds 0.0955224",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 62,
+    "status": "UNSAT nodes 832 seconds 0.00992684",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 63,
+    "status": "UNSAT nodes 10011 seconds 0.0990743",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 64,
+    "status": "UNSAT nodes 832 seconds 0.00691041",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 65,
+    "status": "UNSAT nodes 8198 seconds 0.112383",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 66,
+    "status": "UNSAT nodes 16311 seconds 0.173779",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 67,
+    "status": "UNSAT nodes 868 seconds 0.0228172",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 68,
+    "status": "UNSAT nodes 8169 seconds 0.0746764",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 69,
+    "status": "UNSAT nodes 7874 seconds 0.0747139",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 70,
+    "status": "UNSAT nodes 10803 seconds 0.105259",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 71,
+    "status": "UNSAT nodes 7415 seconds 0.0868335",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 72,
+    "status": "UNSAT nodes 868 seconds 0.0138489",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 73,
+    "status": "UNSAT nodes 9759 seconds 0.104208",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 74,
+    "status": "UNSAT nodes 21409 seconds 0.215941",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 75,
+    "status": "UNSAT nodes 9363 seconds 0.0689433",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 76,
+    "status": "UNSAT nodes 1264 seconds 0.0245716",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 77,
+    "status": "UNSAT nodes 10194 seconds 0.180926",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 78,
+    "status": "UNSAT nodes 868 seconds 0.0124009",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 79,
+    "status": "UNSAT nodes 53816 seconds 0.362047",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 80,
+    "status": "UNSAT nodes 42899 seconds 0.292932",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 81,
+    "status": "UNSAT nodes 7647 seconds 0.0709734",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 82,
+    "status": "UNSAT nodes 868 seconds 0.0119457",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 83,
+    "status": "UNSAT nodes 1264 seconds 0.024023",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 84,
+    "status": "UNSAT nodes 1264 seconds 0.0177483",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 85,
+    "status": "UNSAT nodes 16297 seconds 0.186603",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 86,
+    "status": "UNSAT nodes 832 seconds 0.00985782",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 87,
+    "status": "UNSAT nodes 7802 seconds 0.0691442",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 88,
+    "status": "UNSAT nodes 868 seconds 0.0197179",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 89,
+    "status": "UNSAT nodes 7548 seconds 0.0669761",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 90,
+    "status": "UNSAT nodes 1264 seconds 0.0109549",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 91,
+    "status": "UNSAT nodes 11541 seconds 0.130768",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 92,
+    "status": "UNSAT nodes 8126 seconds 0.0849259",
+    "forbidden_supports": 1208,
+    "weight5": 84,
+    "weight6": 504,
+    "weight7": 2616
+  },
+  {
+    "index": 93,
+    "status": "UNSAT nodes 7404 seconds 0.0660839",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 94,
+    "status": "UNSAT nodes 3406 seconds 0.0453068",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 95,
+    "status": "UNSAT nodes 7703 seconds 0.0609677",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 96,
+    "status": "UNSAT nodes 10074 seconds 0.092856",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 97,
+    "status": "UNSAT nodes 21232 seconds 0.14626",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 98,
+    "status": "UNSAT nodes 7766 seconds 0.0848856",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 99,
+    "status": "UNSAT nodes 8198 seconds 0.0801238",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 100,
+    "status": "UNSAT nodes 45646 seconds 0.319716",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  },
+  {
+    "index": 101,
+    "status": "UNSAT nodes 1264 seconds 0.0147956",
+    "forbidden_supports": 1144,
+    "weight5": 84,
+    "weight6": 600,
+    "weight7": 2328
+  }
+]

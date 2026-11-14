@@ -1,0 +1,194 @@
+{
+  "scope": "Exact necessary-condition obstruction to products of ternary tetracodes.\n\nThis is a separate minimum-twelve target. It does not follow from the\nminimum-eight common-fiber bounds. It does not exclude general self-orthogonal\nternary fibers or general higher-minimum constructions.\n",
+  "outer_codes_covered": 1351,
+  "orbit_results": [
+    {
+      "packing_dimension": 40,
+      "removed_coordinates": [],
+      "outer_codes_covered": 1,
+      "required_tetracode_blocks": 5,
+      "result": "UNSAT n 20 tetracodes 5 blocks 4845 edges 515 nodes 4842 triple_checks 0"
+    },
+    {
+      "packing_dimension": 38,
+      "removed_coordinates": [
+        0
+      ],
+      "outer_codes_covered": 20,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 19 tetracodes 4 blocks 3876 edges 423 nodes 3885 triple_checks 0"
+    },
+    {
+      "packing_dimension": 36,
+      "removed_coordinates": [
+        0,
+        1
+      ],
+      "outer_codes_covered": 60,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 18 tetracodes 4 blocks 3060 edges 347 nodes 3068 triple_checks 0"
+    },
+    {
+      "packing_dimension": 36,
+      "removed_coordinates": [
+        0,
+        2
+      ],
+      "outer_codes_covered": 60,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 18 tetracodes 4 blocks 3060 edges 354 nodes 3065 triple_checks 0"
+    },
+    {
+      "packing_dimension": 36,
+      "removed_coordinates": [
+        0,
+        3
+      ],
+      "outer_codes_covered": 60,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 18 tetracodes 4 blocks 3060 edges 358 nodes 3074 triple_checks 0"
+    },
+    {
+      "packing_dimension": 36,
+      "removed_coordinates": [
+        0,
+        19
+      ],
+      "outer_codes_covered": 10,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 18 tetracodes 4 blocks 3060 edges 414 nodes 3066 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 332 nodes 2391 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        3
+      ],
+      "outer_codes_covered": 60,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 284 nodes 2393 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 305 nodes 2388 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 315 nodes 2393 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 314 nodes 2391 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        9
+      ],
+      "outer_codes_covered": 40,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 294 nodes 2396 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 334 nodes 2385 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 343 nodes 2396 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 344 nodes 2390 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 312 nodes 2380 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 304 nodes 2388 triple_checks 0"
+    },
+    {
+      "packing_dimension": 34,
+      "removed_coordinates": [
+        0,
+        3,
+        18
+      ],
+      "outer_codes_covered": 20,
+      "required_tetracode_blocks": 4,
+      "result": "UNSAT n 17 tetracodes 4 blocks 2380 edges 296 nodes 2387 triple_checks 0"
+    }
+  ]
+}

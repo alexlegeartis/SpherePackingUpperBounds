@@ -1,0 +1,18 @@
+{"removed_coordinates": [0], "orbit_size": 20, "packing_dimension": 38, "bad_supports": 2716, "result": "UNSAT nodes 23660 seconds 0.353672"}
+{"removed_coordinates": [0, 1], "orbit_size": 60, "packing_dimension": 36, "bad_supports": 1757, "result": "UNSAT nodes 24011 seconds 0.894244"}
+{"removed_coordinates": [0, 2], "orbit_size": 60, "packing_dimension": 36, "bad_supports": 1743, "result": "UNSAT nodes 24569 seconds 0.390327"}
+{"removed_coordinates": [0, 3], "orbit_size": 60, "packing_dimension": 36, "bad_supports": 1755, "result": "UNSAT nodes 23786 seconds 0.369282"}
+{"removed_coordinates": [0, 19], "orbit_size": 10, "packing_dimension": 36, "bad_supports": 1776, "result": "UNSAT nodes 23984 seconds 0.274833"}
+{"removed_coordinates": [0, 1, 2], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1091, "result": "UNSAT nodes 63881 seconds 0.603722"}
+{"removed_coordinates": [0, 1, 3], "orbit_size": 60, "packing_dimension": 34, "bad_supports": 1099, "result": "UNSAT nodes 23741 seconds 0.64184"}
+{"removed_coordinates": [0, 1, 4], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1095, "result": "UNSAT nodes 72908 seconds 0.707744"}
+{"removed_coordinates": [0, 1, 6], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1110, "result": "UNSAT nodes 24038 seconds 0.56252"}
+{"removed_coordinates": [0, 1, 8], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1095, "result": "UNSAT nodes 24038 seconds 0.556564"}
+{"removed_coordinates": [0, 1, 9], "orbit_size": 40, "packing_dimension": 34, "bad_supports": 1116, "result": "UNSAT nodes 24974 seconds 1.0029"}
+{"removed_coordinates": [0, 1, 10], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1091, "result": "UNSAT nodes 24011 seconds 0.586512"}
+{"removed_coordinates": [0, 1, 18], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1120, "result": "UNSAT nodes 25271 seconds 0.59921"}
+{"removed_coordinates": [0, 2, 4], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1091, "result": "UNSAT nodes 30176 seconds 0.40709"}
+{"removed_coordinates": [0, 2, 8], "orbit_size": 60, "packing_dimension": 34, "bad_supports": 1100, "result": "UNSAT nodes 25766 seconds 0.725047"}
+{"removed_coordinates": [0, 2, 11], "orbit_size": 120, "packing_dimension": 34, "bad_supports": 1087, "result": "UNSAT nodes 24569 seconds 0.272087"}
+{"removed_coordinates": [0, 3, 18], "orbit_size": 20, "packing_dimension": 34, "bad_supports": 1099, "result": "UNSAT nodes 25136 seconds 0.292183"}
+PASS: all 1350 shortenings rejected, using 17 verified permutation orbits.

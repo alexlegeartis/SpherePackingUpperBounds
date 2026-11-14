@@ -1,0 +1,195 @@
+CONTINUATION — 14 NOVEMBER 2026
+
+No new certified packing-density record was found. All comparisons use the
+pinned records described in README.txt. The following are obstructions to
+specific constructions and local metric results, not universal sphere-packing
+upper bounds. No claim of literature novelty is made for these observations.
+
+1. ARBITRARY COMMON NONLINEAR TERNARY FIBERS ARE TOO SMALL
+
+This strengthens the rank-three CSP obstruction substantially. Let C be the
+archived GF(4) [20,13,6] code, or any shortening at one, two or three positions.
+In the fixed mixed-hexagonal quotient, use every outer word and any common
+set T contained in F3^n. No linearity is assumed for T. This first result uses
+packing radius sqrt(2), as in the original minimum-eight proposal. It does not
+exclude changing the target minimum to nine, ten, eleven or twelve.
+
+At squared minimum eight, T must avoid differences of ternary weight one,
+and differences with nonzero support equal to a weight-six/seven support of C.
+These conditions are also sufficient. At radius sqrt(2) the center density is
+
+                  4^k * |T| / 3^(3*n/2).
+
+Put nonnegative edge weights 120, 5 and 1 on these three forbidden classes.
+For a ternary character with nonzero-coordinate support J, the eigenvalue is
+
+  120*(2*n-3*|J|)
+    + 5*sum[(-1)^|S intersect J| * 2^(6-|S intersect J|), S a bad 6-support]
+    +   sum[(-1)^|S intersect J| * 2^(7-|S intersect J|), S a bad 7-support].
+
+A tensor transform with local matrix [[1,2],[1,-1]] enumerates every eigenvalue
+over 2^n support patterns. Each has multiplicity 2^|J|. If d is the weighted
+degree and lambda the least eigenvalue, the weighted Hoffman bound gives
+
+                    |T| <= 3^n * (-lambda)/(d-lambda).
+
+All arithmetic in verification is integer or rational. The choice of weights
+was suggested by a small floating LP; the certificate needs neither that LP
+nor an optimization solver. Spectral moments and direct character sums are
+checked independently.
+
+For the archived length-17 shortening, d=210288 and lambda=-1872. Thus
+
+        |T| <= 387420489/340, hence |T| <= 1139472,
+
+whereas beating the pinned 34D record requires at least 3109875 points in T.
+The unweighted bound in results/nonlinear_common_fiber_bounds.json leaves
+headroom here; the weighted certificate supersedes that interpretation.
+
+The entire parent and shortening family is excluded:
+
+  dimension   outer codes covered   worst upper density / pinned record
+      34             1140                 0.5033217559026669
+      36              190                 0.4257614197898427
+      38               20                 0.4434363949500344
+      40                1                 0.1908564966289285
+
+Verification streams all 4^13 words to recover all short supports, verifies
+the supplied coordinate permutations on every support, and computes the
+generated group's order 120. Eighteen orbit representatives cover all 1351
+codes. The shortening constraint rank is checked separately for every member;
+the permutations need not be automorphisms of the full code.
+
+This does not exclude changing the outer code, selecting an arbitrary subset
+of outer words together with a different fiber, word-dependent arbitrary
+fibers, or changing the geometric metric.
+
+Reproduce, requiring only NumPy:
+
+    python verify_common_fibers.py --output work/common_fibers.json
+
+Saved certificate and replay: results/common_fibers.json and
+results/common_fibers_replay.log. Verification passed.
+
+2. WORD-DEPENDENT FIBERS WITH UP TO FOUR SELECTED TRITS ALSO FAIL
+
+Fix the archived [17,10,6] code. For any selected set I of k<=4 trit positions,
+let T0 set those trits to zero and impose parity zero on the remaining trits.
+For every outer word independently, allow any union of cosets of T0, including
+the empty union. Thus expurgation, different labels and different parity phases
+are all allowed.
+
+Every dangerous outer difference has weight six or seven and at least two
+nonzero positions outside I. Two signed nonzero trits can attain every sum in
+F3. Consequently a dangerous cross-word difference exists exactly when its
+selected nonzero pattern matches the outer support on I, independently of the
+remaining parity phase. At most one phase can be used for a fixed outer word
+and selected tuple, because differing phases have a norm-four difference.
+Conversely, choosing global trit parity zero makes all labels within one outer
+word compatible. This gives an exact reduction to a Cayley conflict graph on
+F2^20 x F3^k, allowing arbitrary independent sets.
+
+One state has center density 1/3^(19/2+k). For each selected coordinate, a
+nonzero outer symbol contributes Fourier factor 2 for the zero ternary
+character and -1 for either nonzero character; a zero outer symbol contributes
+1. Walsh spectra can therefore be updated by four shifted array lookups,
+without constructing a graph with up to 84934656 vertices.
+
+Every choice was checked: 17 singles, 136 pairs, 680 triples and 2380 quadruples.
+The worst exact density ratios to the pinned 34D record are:
+
+       k=1: 0.738724038604...
+       k=2: 0.812658898166...
+       k=3: 0.893125195168...
+       k=4: 0.981575156280...
+
+The closest case selects positions [1,5,9,15], zero-based. Its degree is 11844,
+least eigenvalue -904, and independent-set bound 19195232256/3187. Beating the
+record requires at least 6136034 states. Thus even this case fails.
+
+This excludes only the stated fiber kernels over this fixed parent. For five
+selected positions a weight-six difference can leave only one nonzero trit
+outside the selected set. The reduction changes there. Applying this script's
+formula unchanged for k>=5 would be invalid.
+
+Reproduce, requiring only NumPy (the full check takes several minutes):
+
+    python verify_selected_fibers.py --max-selected 4 \
+        --output work/selected_fibers_up_to_four.json
+
+Saved certificate and replay: results/selected_fibers_up_to_four.json and
+results/selected_fibers_up_to_four_replay.log. All 3213 checks passed.
+The default command retains the shorter up-to-three-coordinate replay.
+
+3. THE CYCLIC-CODE 34D SEED IS LOCALLY OPTIMAL AMONG LATTICES
+
+The even cyclic GF(4) [17,8,8] code used by the earlier coset search gives a
+34D mixed-hexagonal lattice with squared minimum eight and center density
+
+              4^8 / 3^(19/2) = 1.9223302972926544...
+
+It needs a 15.59% increase to beat the pinned 34D record. The code construction
+proves its minimum without floating enumeration. Its explicit 134028 contacts
+can also be generated algebraically: 1530 weight-eight outer words times 86
+parity-zero sign patterns, plus 2448 zero-outer two-coordinate contacts.
+
+For their integer coefficient matrix V and Gram Q, exact arithmetic gives
+
+                      (V^T V) Q = 31536 I.
+
+This is positive eutaxy. A 595-row contact witness has rank 595 over the prime
+field of order 1000003, proving perfection over the rationals. Together these
+properties certify a strict local density maximum among lattices by Voronoi's
+criterion. A small lattice deformation cannot supply the required gain.
+Periodic perturbations and other seeds are outside this conclusion.
+
+The verifier checks the basis index, code membership, minimum, determinant,
+contact generation, eutaxy identity and modular rank. No SciPy, floating-point
+enumerator or lattice-reduction package is needed:
+
+    python verify_kp34.py --output work/kp34_exact.json
+
+Saved certificate and replay: results/kp34_exact.json and
+results/kp34_exact_replay.log. Verification passed.
+
+4. ADDITIONAL EXPLORATORY GEOMETRY — NO MINIMUM CERTIFICATES
+
+Seven primitive sections of the certified 36D lattice were tested: three in
+35D and four in 34D. Best tested densities were 2.47025577 and 1.33409059,
+respectively. Each metric LP returned zero objective on all inherited contacts.
+These LP outcomes remain numerical; they are not rational eutaxy certificates.
+The 37D section of the newer 38D P48p complement also stalled below its record.
+
+The alternative asymmetric CT/Turyn seed, catalogue CTturyn1, admits a
+three-scale vertex (7/8,1,15/8) at squared minimum eight, with conditional center
+density about 0.682956. Its 12276 returned norm-eight contacts have a ten-
+dimensional exact contact-preserving kernel. Sampling vertices subject to
+explicit vectors through norm ten raised the conditional density only to
+about 1.194413, still far below the 36D record. BKZ found no rejecting basis
+vector for the selected vertices; that is not a minimum proof.
+
+The catalogue Beis17 34D seed leaves six exact contact-preserving directions.
+Explicit vectors through norm eight bound a six-dimensional polytope with
+684 numerical vertices. The best tested conditional center density was about
+0.312474, far below 2.222035. This was not promoted to an exact family bound.
+
+Numerical seeds, directions and historical logs are kept under experiments/
+and results/. The replay tool can regenerate shells and metric LP screens.
+Numerical contact preservation, BKZ output and floating enumeration completion
+must not be called global minimum certificates or record packings.
+
+RESEARCH IMPLICATION
+
+The archived minimum-eight rank-three common-fiber proposal has no nonlinear
+common-fiber escape at radius sqrt(2), including every one-/two-/three-coordinate
+shortening of its parent. A word-dependent construction must leave the specified kernels
+with at most four selected trits, change its outer code, or change its metric.
+The existing cyclic-code 34D lattice also has an exact local optimum barrier.
+These are concrete filters for new searches, not a proposed new density bound.
+A different minimum normalization is a separate direction; see NORMALIZATION12.txt.
+
+The registry and the certified 36D construction were not modified.
+
+Additional catalogue seed sources:
+https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CTturyn1.html
+https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Beis17.html

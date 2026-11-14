@@ -1,0 +1,30 @@
+{
+  "SpherePackingUpperBounds_commit": "72028bb0c5eaaaeede50cd418ca09339ee404285",
+  "sphere_packing_commit": "a0bc7f51444e42c3cbae0d2a910039cd50013500",
+  "date": "2026-11-14",
+  "new_density_records": [],
+  "followup_exact_results": [
+    "all 1350 shortenings reject a common rank-at-most-three ternary check",
+    "all 1351 full-outer common-fiber constructions fail the minimum-eight density targets, even for nonlinear fibers",
+    "all 3213 selected-trit fiber kernels with up to four selected coordinates fail the 34D target",
+    "cyclic-code 34D seed has exact minimum, positive eutaxy and perfection",
+    "all 1351 parent/shortened codes fail necessary compatibility for the minimum-twelve tetracode product targets"
+  ],
+  "records_or_certified_constructions_modified": false,
+  "minimum12_selforthogonal_search": {
+    "dimensions": [
+      34,
+      36
+    ],
+    "proposed_reflections_per_dimension": 2000000,
+    "best_norm6_bad_trit_word_counts": [
+      0,
+      0
+    ],
+    "best_norm9_bad_trit_word_counts": [
+      404,
+      262
+    ],
+    "new_density_records": []
+  }
+}
