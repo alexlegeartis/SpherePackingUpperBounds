@@ -1,0 +1,46 @@
+{
+  "dimension": 19,
+  "Gram_types": 2006,
+  "diameter_limit": "99/100",
+  "graphs_solved": 35215,
+  "unknown_graphs": [],
+  "invalid_Gram_candidates": [
+    {
+      "type": 0,
+      "vector": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -2
+      ],
+      "norm": 2
+    },
+    {
+      "type": 7,
+      "vector": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -2
+      ],
+      "norm": 2
+    },
+    {
+      "type": 47,
+      "vector": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -2
+      ],
+      "norm": 2
+    }
+  ],
+  "best_squared": "1461920290375446110677/184736485004425048828125",
+  "record_squared": "1461920290375446110677/184736485004425048828125",
+  "improvements": [],
+  "seconds": 14.904634475708008
+}

@@ -1,0 +1,358 @@
+[
+  {
+    "dimension": 22,
+    "ambient_minimum": 4,
+    "section_rank": 2,
+    "diameter_range": "0 <= beta < 4",
+    "Gram_types": 3,
+    "graphs_solved": 3,
+    "maximum_graph_vertices": 6,
+    "maximum_clique_search_nodes": 2,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          4,
+          -2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "determinant": 12,
+      "diameter": "1/3",
+      "cluster_size": 3,
+      "cluster": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "center_density_squared": "81402749386839761113321/736081918549915223457792",
+      "center_density": 0.332549624597782
+    },
+    "seconds": 0.006742000579833984
+  },
+  {
+    "dimension": 21,
+    "ambient_minimum": 4,
+    "section_rank": 3,
+    "diameter_range": "0 <= beta < 4",
+    "Gram_types": 12,
+    "graphs_solved": 35,
+    "maximum_graph_vertices": 22,
+    "maximum_clique_search_nodes": 12,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          4,
+          -2,
+          -2
+        ],
+        [
+          -2,
+          4,
+          1
+        ],
+        [
+          -2,
+          1,
+          4
+        ]
+      ],
+      "determinant": 36,
+      "diameter": "5/12",
+      "cluster_size": 4,
+      "cluster": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "center_density_squared": "20083415214428110320965436874242043/455248478498230314478619809397342208",
+      "center_density": 0.2100363836367385
+    },
+    "seconds": 0.004143953323364258
+  },
+  {
+    "dimension": 20,
+    "ambient_minimum": 4,
+    "section_rank": 4,
+    "diameter_range": "0 <= beta < 4",
+    "Gram_types": 101,
+    "graphs_solved": 712,
+    "maximum_graph_vertices": 88,
+    "maximum_clique_search_nodes": 125,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          4,
+          -1,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          4,
+          -1,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          4,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          -1,
+          4
+        ]
+      ],
+      "determinant": 125,
+      "diameter": "2/5",
+      "cluster_size": 5,
+      "cluster": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0,
+          0
+        ]
+      ],
+      "center_density_squared": "12157665459056928801/500000000000000000000",
+      "center_density": 0.1559337388704377
+    },
+    "seconds": 0.14236688613891602
+  },
+  {
+    "dimension": 46,
+    "ambient_minimum": 6,
+    "section_rank": 2,
+    "diameter_range": "0 <= beta < 6",
+    "Gram_types": 4,
+    "graphs_solved": 5,
+    "maximum_graph_vertices": 6,
+    "maximum_clique_search_nodes": 3,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          6,
+          -3
+        ],
+        [
+          -3,
+          6
+        ]
+      ],
+      "determinant": 27,
+      "diameter": "2/9",
+      "cluster_size": 3,
+      "cluster": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "center_density_squared": "1743388617272249143997555461487119439669521095365209/235655016338368235499067731945871638181119123",
+      "center_density": 2719.9364595244865
+    },
+    "seconds": 0.0007991790771484375
+  },
+  {
+    "dimension": 45,
+    "ambient_minimum": 6,
+    "section_rank": 3,
+    "diameter_range": "0 <= beta < 6",
+    "Gram_types": 26,
+    "graphs_solved": 87,
+    "maximum_graph_vertices": 24,
+    "maximum_clique_search_nodes": 12,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          6,
+          -2,
+          -2
+        ],
+        [
+          -2,
+          6,
+          -2
+        ],
+        [
+          -2,
+          -2,
+          6
+        ]
+      ],
+      "determinant": 128,
+      "diameter": "1/4",
+      "cluster_size": 4,
+      "cluster": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          -1
+        ]
+      ],
+      "center_density_squared": "18956258430116202791319715713277227626159289499745290235663543/12259964326927110866866776217202473468949912977468817408",
+      "center_density": 1243.45967883247
+    },
+    "seconds": 0.01860523223876953
+  },
+  {
+    "dimension": 44,
+    "ambient_minimum": 6,
+    "section_rank": 4,
+    "diameter_range": "0 <= beta < 6",
+    "Gram_types": 562,
+    "graphs_solved": 10385,
+    "maximum_graph_vertices": 154,
+    "maximum_clique_search_nodes": 1155,
+    "unknown_graphs": [],
+    "best": {
+      "K": [
+        [
+          6,
+          -2,
+          -2,
+          -1
+        ],
+        [
+          -2,
+          6,
+          -1,
+          -2
+        ],
+        [
+          -2,
+          -1,
+          6,
+          -1
+        ],
+        [
+          -1,
+          -2,
+          -1,
+          6
+        ]
+      ],
+      "determinant": 605,
+      "diameter": "16/55",
+      "cluster_size": 5,
+      "cluster": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          0,
+          -1
+        ],
+        [
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          -1,
+          0,
+          0
+        ]
+      ],
+      "center_density_squared": "4164709427575787129920502101420628431342294225612712013302095299969457589269404475878512106505201/16035906410722671471438630693307604663476830679220000000000000000000000000000000000000000000",
+      "center_density": 509.61898264286424
+    },
+    "seconds": 5.094274282455444
+  }
+]

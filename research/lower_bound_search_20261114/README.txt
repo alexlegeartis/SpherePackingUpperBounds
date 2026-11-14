@@ -22,6 +22,13 @@ excludes the two saved best fiber types, adds shorter-dimension product and
 Golay-factor obstructions, and supplies catalog, neighbor and SAT searches.
 The general construction is still unresolved; no new record was obtained.
 
+The broader-dimension continuation is in broad_dimensions_followup/README.txt.
+It adds exact arbitrary-cluster antipode searches in 19--22D and 43--46D,
+longer rank-two section searches, a verified 44D periodic stress obstruction,
+and further catalog and 37D lamination screens. No new density record is
+asserted. Its verify_all.py replays the short exact checks; --full includes
+the longer rank-five searches.
+
 Here delta always denotes center density: packing fraction divided by the
 volume of the unit ball in the same dimension.
 

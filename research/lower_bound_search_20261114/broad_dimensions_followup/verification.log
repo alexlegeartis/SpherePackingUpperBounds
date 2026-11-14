@@ -1,0 +1,11 @@
+PASS: clique search versus independent exhaustive subset checks
+PASS: independent Burnside counts for rank-five Gram classes
+PASS: 47444 exact rejecting witnesses for denominator 3
+PASS: 44831 exact rejecting witnesses for denominator 4
+PASS: exact rank-one optimum comparisons for 23D and 47D
+PASS: exact rank-five class generation matches archived inputs
+PASS: all-diameter rank 2--4 searches in 20--22D and 44--46D
+PASS: all rank-two even reduced section Grams through basis norm 64
+formed exact integer Gram 1166 13000 max square sum 664752643826350
+{"contacts": 13000, "equations": 1166, "max_exact_Gram_diagonal": "664752643826350", "neumann_residual_bound": 0.0014211504096692683, "right_inverse_norm_bound": 648.671709457579, "stress_residual_bound": 2.5760074684054385e-12, "weight_min": 3.9819466371316165e-05, "weight_max": 0.034909343226656904, "correction_bound": 1.673361266171701e-09, "positive_margin": 3.9817793010049996e-05, "verified": true, "seconds": 2.655893087387085}
+PASS: broad-dimension follow-up checks; no new SOTA asserted

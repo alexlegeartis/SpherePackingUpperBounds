@@ -1,0 +1,18 @@
+[
+  {
+    "dimension": 19,
+    "ambient_minimum": 4,
+    "section_rank": 5,
+    "diameter_range": "0 <= beta < 4",
+    "Gram_types": 2006,
+    "graphs_solved": 69400,
+    "maximum_graph_vertices": 572,
+    "maximum_clique_search_nodes": 525251,
+    "unknown_graphs": [],
+    "best": {
+      "center_density_squared": "1461920290375446110677/184736485004425048828125",
+      "center_density": 0.08895810212922774
+    },
+    "seconds": 366.99638628959656
+  }
+]
