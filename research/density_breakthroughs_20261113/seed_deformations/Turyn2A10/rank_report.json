@@ -1,0 +1,23 @@
+{
+  "sample_vectors": 37419,
+  "constraints": 5000,
+  "numerical_contact_rank": 858,
+  "symmetric_dimension": 1176,
+  "smallest_singular_values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

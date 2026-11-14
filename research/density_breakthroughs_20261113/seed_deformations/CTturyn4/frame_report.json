@@ -1,0 +1,11 @@
+{
+  "lines": 1008,
+  "frame_eigenvalues": [
+    168.0
+  ],
+  "frame_multiplicities": [
+    36
+  ],
+  "contact_rank": 494,
+  "nullity": 172
+}

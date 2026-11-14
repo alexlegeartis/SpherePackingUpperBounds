@@ -1,0 +1,145 @@
+{
+  "all_passed": true,
+  "source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+  "source_sha256": "b78d999bfb8e1f01389313d56b46bf948c0e61115102b0b2d748bce3d70fe3bb",
+  "ambient_determinant": "1853020188851841",
+  "ambient_minimum_input": 12,
+  "minimum_scope": "Published Ne64 minimum12 is inherited, not independently re-proved here.",
+  "global_record_status": "Not established by this mathematical audit.",
+  "checks": [
+    {
+      "label": "ne64_rank1",
+      "dimension": 63,
+      "normal_rank": 1,
+      "source_gram_identity": true,
+      "dual_identity_H_equals_3Ginv": true,
+      "unit_minor_columns": [
+        3
+      ],
+      "unit_minor_determinant": 1,
+      "integer_label_lifts_verified": true,
+      "section_kernel_basis_verified": true,
+      "normal_gram_determinant": "16/3",
+      "section_period_determinant": "9882774340543152",
+      "period_covolume_formula": "3^16 * sqrt(detK)",
+      "cosets": 2,
+      "cluster_squared_distances": [
+        "3/16"
+      ],
+      "beta": "3/16",
+      "coset_distinctness_reason": "All nonzero normal differences have squared norm at most beta<12, so none can be a nonzero ambient lattice vector.",
+      "guaranteed_squared_minimum": "189/16",
+      "center_density_squared": "422994544921440038473296458155034208036087296312682876872509790256770164199705264138280855142037820303066564597053101180345131327/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176",
+      "center_density": 13105940.958282493,
+      "explicit_period_file": "ne64_rank1_explicit_period.npz",
+      "shift_denominator": 16,
+      "certificate_sha256": "a471e5a89b8c48eee969b75c94dd6ba9fd23070baa493899c53891b32b263ba6"
+    },
+    {
+      "label": "ne64_simplex_rank2",
+      "dimension": 62,
+      "normal_rank": 2,
+      "source_gram_identity": true,
+      "dual_identity_H_equals_3Ginv": true,
+      "unit_minor_columns": [
+        0,
+        5
+      ],
+      "unit_minor_determinant": -1,
+      "integer_label_lifts_verified": true,
+      "section_kernel_basis_verified": true,
+      "normal_gram_determinant": "12",
+      "section_period_determinant": "22236242266222092",
+      "period_covolume_formula": "3^16 * sqrt(detK)",
+      "cosets": 3,
+      "cluster_squared_distances": [
+        "1/3",
+        "1/3",
+        "1/3"
+      ],
+      "beta": "1/3",
+      "coset_distinctness_reason": "All nonzero normal differences have squared norm at most beta<12, so none can be a nonzero ambient lattice vector.",
+      "guaranteed_squared_minimum": "35/3",
+      "center_density_squared": "539782436982347484203948377350754466121763007587735041549470427213464063243009150028228759765625/20047311684103092102240310008611691258602461917962919136955412315182056431547318272",
+      "center_density": 5188971.7173199365,
+      "explicit_period_file": "ne64_simplex_rank2_explicit_period.npz",
+      "shift_denominator": 18,
+      "certificate_sha256": "ef6ac41cdce8059c93494aa3945b63663b53019ab5facfdca57ab36ba09e23e0"
+    },
+    {
+      "label": "ne64_simplex_rank3",
+      "dimension": 61,
+      "normal_rank": 3,
+      "source_gram_identity": true,
+      "dual_identity_H_equals_3Ginv": true,
+      "unit_minor_columns": [
+        0,
+        1,
+        6
+      ],
+      "unit_minor_determinant": -1,
+      "integer_label_lifts_verified": true,
+      "section_kernel_basis_verified": true,
+      "normal_gram_determinant": "1024/27",
+      "section_period_determinant": "70277506421640192",
+      "period_covolume_formula": "3^16 * sqrt(detK)",
+      "cosets": 4,
+      "cluster_squared_distances": [
+        "3/8",
+        "3/8",
+        "3/8",
+        "3/8",
+        "3/8",
+        "3/8"
+      ],
+      "beta": "3/8",
+      "coset_distinctness_reason": "All nonzero normal differences have squared norm at most beta<12, so none can be a nonzero ambient lattice vector.",
+      "guaranteed_squared_minimum": "93/8",
+      "center_density_squared": "17415801853485004855336762442939898744688594522840665673209227303681849503950820521480637959932273263427871/4171849679533027504677776769862406473833407270227837441302815640277772901915313574263597826048",
+      "center_density": 2043183.6833862548,
+      "explicit_period_file": "ne64_simplex_rank3_explicit_period.npz",
+      "shift_denominator": 16,
+      "certificate_sha256": "25f8808d359744730a19fd39730bf245b3e1cac3bfbced08ac6cc5c7600b857e"
+    },
+    {
+      "label": "ne64_simplex_rank4",
+      "dimension": 60,
+      "normal_rank": 4,
+      "source_gram_identity": true,
+      "dual_identity_H_equals_3Ginv": true,
+      "unit_minor_columns": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "unit_minor_determinant": -1,
+      "integer_label_lifts_verified": true,
+      "section_kernel_basis_verified": true,
+      "normal_gram_determinant": "125",
+      "section_period_determinant": "231627523606480125",
+      "period_covolume_formula": "3^16 * sqrt(detK)",
+      "cosets": 5,
+      "cluster_squared_distances": [
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5",
+        "2/5"
+      ],
+      "beta": "2/5",
+      "coset_distinctness_reason": "All nonzero normal differences have squared norm at most beta<12, so none can be a nonzero ambient lattice vector.",
+      "guaranteed_squared_minimum": "58/5",
+      "center_density_squared": "5544723244335223446698732155483832197862019691088815682339702433559574430690857360401201/9265100944259205000000000000000000000000000000000000000000000000000000000000",
+      "center_density": 773597.1467710572,
+      "explicit_period_file": "ne64_simplex_rank4_explicit_period.npz",
+      "shift_denominator": 15,
+      "certificate_sha256": "5cbff55d268e95bb6be0a5a21d04c89b2cbe57a01f62b726a8ffa5a6ddb6d561"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "shard_count": 4,
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "input_and_source_sha256": {
+    "setup.json": "e2347165581942348050419c622f3d86ce3ad5029efa0a2398d47c0fdd187d65",
+    "ldl_bounds.txt": "ecf16617b657b7e171559ed8ac7583984ff5a07d56dc4c0a94a0a0d5f6131191",
+    "gram.txt": "fef356fc8c5894615113317a04f68a02c19f27bebe8a0d4b1dd2017093a90e07",
+    "coset.txt": "a7834a793cfb28bef99da05938cced1ffb8d6f7db62ef3242f6542b5c7a1ef10",
+    "interval_enum.cpp": "2167c3317fce1a688e17b9e5322f18417e2d9d9daf3c557c937bb78e4ed33fb3",
+    "prepare.py": "327271a4a7fe8c76f5bab5c217c7e1d57e18624ccdce555a77ca1a27a7b8057c"
+  },
+  "binary_sha256": "73d85dd0bf16125e62db73d27e4219f94744c368eb915b771bb45eec4f531413"
+}

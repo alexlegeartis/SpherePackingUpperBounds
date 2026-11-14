@@ -1,0 +1,10 @@
+# Derived vector pools and contact matrices; generator commands are in README.md.
+contacts_reduced.npz
+contacts40.npz
+section_metric39.npz
+section_metric40.npz
+P48n_glue_pool.npz
+P48n_extended_normal_pool.npz
+P48n_extended_best_rank9.npz
+P48n_extended_best_rank10.npz
+__pycache__/

@@ -1,0 +1,11 @@
+# Reproducible finite groups; use verify_ne64_discriminant_action.py --save-groups.
+sl2_17_group.npz
+sl2_5_group.npz
+
+# Local paper downloads and OCR/search working copies. Primary URLs are in notes.
+cycloquat.pdf
+cycloquat.txt
+cycloquat_readable.txt
+cycloquat_ocr/
+anti.pdf
+anti.txt

@@ -1,0 +1,43 @@
+{
+  "scope": "Any packing in33D that is a union of full translates of a fixed catalogue32D parent, with translation offsets in its dual lattice and arbitrary real layer heights. The overall minimum may be any positive value, and the layers need not be equally spaced or periodic.",
+  "record_squared_center_density": "5559060566555523/1125899906842624",
+  "parents_verified": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "maximum_pairwise_q_zero_colors": 256,
+  "intensity_bounds": [
+    "65536/sqrt(mu)",
+    "256/sqrt(mu-3) for mu>3",
+    "1/sqrt(mu-4) for mu>4"
+  ],
+  "breakpoints": [
+    "65536/21845",
+    "262141/65535"
+  ],
+  "endpoint_squared_density_ratios": [
+    {
+      "mu": "65536/21845",
+      "ratio_float": 0.3334961347352807,
+      "ratio_exact": "13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096/40203788090633540275144982643376202682995518806730840395876555450673649884615690109611963058088392856118109818463730710383193423375557176768779754638671875"
+    },
+    {
+      "mu": "262141/65535",
+      "ratio_float": 0.2025566111511418,
+      "ratio_exact": "64811699536956888628751992258886741714061967685499163879563612574564817875026723804297474707927968051856554324771937699645845854233372484489161005983589166081032807379232111543421/319968324749451424763663099225855562792393010029471253031040129989913685882564064569986692232736353962251706025102740014834325741897621398285886592300000000000000000000000000000000"
+    },
+    {
+      "mu": "6",
+      "ratio_float": 1.0,
+      "ratio_exact": "1"
+    }
+  ],
+  "derivative_sign_for_mu_power33_div_mu_minus_a": "32*mu-33*a; every interior critical point is a minimum",
+  "strict_record_improvement_impossible_in_stated_family": true,
+  "new_density_record": false
+}

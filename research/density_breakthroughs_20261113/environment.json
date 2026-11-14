@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sympy": "1.14.0",
+  "discovery_dependencies": [
+    "fpylll",
+    "cysignals"
+  ],
+  "linear_algebra_threads_per_worker": 1,
+  "main_source_commit": "db6b3f0e3c4c1ddd929a3dcb107d48a942af2498",
+  "external_certificate_commit": "a0bc7f51444e42c3cbae0d2a910039cd50013500"
+}

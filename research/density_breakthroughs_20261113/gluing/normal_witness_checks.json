@@ -1,0 +1,22 @@
+[
+  {
+    "dimension": 39,
+    "normal_rank": 9,
+    "primitive_normal_determinant": 21870,
+    "saturation_index": 1,
+    "center_density_squared": "1853020188851841/5497558138880",
+    "center_density": 18.359259484189554,
+    "status": "Reproduces the reference bound; no improvement.",
+    "minimum_dependency": "Published minimum 6 of P48n."
+  },
+  {
+    "dimension": 38,
+    "normal_rank": 10,
+    "primitive_normal_determinant": 54675,
+    "saturation_index": 1,
+    "center_density_squared": "617673396283947/6871947673600",
+    "center_density": 9.480680830795562,
+    "status": "Reproduces the reference bound; no improvement.",
+    "minimum_dependency": "Published minimum 6 of P48n."
+  }
+]

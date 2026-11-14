@@ -1,0 +1,24 @@
+{
+  "contacts": 10000,
+  "variables": 1166,
+  "mother_gram_determinant_exact": 1,
+  "mother_even_integral_exact": true,
+  "mother_minimum_status": "published minimum6 inherited from catalogue CQ48a (P48n); exact Gram identity checked",
+  "normal_gram_determinant_exact": 605,
+  "contact_projected_squared_norm_exact": "314/55",
+  "normal_smith_invariants_exact": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "normal_lattice_primitive_exact": true,
+  "weight_minimum": 0.0,
+  "positive_weights_above_1e-8": 8109,
+  "smallest_positive_support_gram_eigenvalue": 116.37307766203459,
+  "positive_support_rank_tolerance_1e-10": 1166,
+  "eutaxy_residual_2norm": 2.405868074477488e-09,
+  "eutaxy_residual_infinity": 3.5386027893461935e-10,
+  "numerical_residual_acceptance_tolerance": 1e-07,
+  "scope": "exact integer contact checks; numerical rank and eutaxy only; no new density record"
+}

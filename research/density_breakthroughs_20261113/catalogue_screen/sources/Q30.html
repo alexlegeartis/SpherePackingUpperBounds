@@ -1,0 +1,137 @@
+<!-- start of heading stuff -->
+<html>
+<head>
+<title>The Lattice Q30</title>
+</head>
+<BODY BACKGROUND="back7a.gif">
+<p>
+<center><IMG SRC="pictures/banner1.gif" ALT=" "><p></center>
+<center> 
+<h2>The Lattice Q30</h2>
+</center><p>
+<p>
+An entry from the Catalogue of Lattices, which is a joint project of
+<br>
+Gabriele Nebe, RWTH Aachen University 
+<a href="mailto:nebe@math.rwth-aachen.de">
+(nebe@math.rwth-aachen.de)</a>
+and
+<br>
+Neil J. A. Sloane
+<a href="mailto:njasloane@gmail.com">(njasloane@gmail.com)</a>
+<p>
+Last modified Fri Jul 18 13:25:57 CEST 2014
+<p>
+<center><IMG SRC="pictures/bline.gif" ALT=" "><p></center>
+<p>
+<a href="index.html"><B>INDEX FILE</B></a> |
+<a href="abbrev.html"><B>ABBREVIATIONS</B></a> 
+<p>
+<center><IMG SRC="pictures/bline.gif" ALT=" "><p></center>
+<p>
+<h2>Contents of this file</h2>
+<p>
+<p>
+<center><IMG SRC="pictures/bline.gif" ALT=" "><p></center>
+<p>
+
+<!-- end of heading stuff -->
+
+<a href="Q30.html#NAME				"><STRONG>	NAME				</STRONG></a><br>
+<a href="Q30.html#DIMENSION			"><STRONG>	DIMENSION			</STRONG></a><br>
+<a href="Q30.html#GRAM"><STRONG>	GRAM</STRONG></a><br>
+<a href="Q30.html#DIVISORS           (elementary divisors)"><STRONG>	DIVISORS           (elementary divisors)</STRONG></a><br>
+<a href="Q30.html#MINIMAL_NORM"><STRONG>	MINIMAL_NORM</STRONG></a><br>
+<a href="Q30.html#MINVECS"><STRONG>	MINVECS</STRONG></a><br>
+<a href="Q30.html#KISSING_NUMBER"><STRONG>	KISSING_NUMBER</STRONG></a><br>
+<a href="Q30.html#DENSITY            (center density)"><STRONG>	DENSITY            (center density)</STRONG></a><br>
+<a href="Q30.html#HERMITE_NUMBER"><STRONG>	HERMITE_NUMBER</STRONG></a><br>
+<a href="Q30.html#GROUP_ORDER"><STRONG>	GROUP_ORDER</STRONG></a><br>
+<a href="Q30.html#GROUP_GENERATORS"><STRONG>	GROUP_GENERATORS</STRONG></a><br>
+<a href="Q30.html#BACHER_POLYNOMIALS"><STRONG>	BACHER_POLYNOMIALS</STRONG></a><br>
+<a href="Q30.html#PROPERTIES"><STRONG>	PROPERTIES</STRONG></a><br>
+<a href="Q30.html#REFERENCES"><STRONG>	REFERENCES</STRONG></a><br>
+<a href="Q30.html#NOTES"><STRONG>	NOTES</STRONG></a><br>
+<a href="Q30.html#LAST_LINE			"><STRONG>	LAST_LINE			</STRONG></a><br>
+<p>
+<hr>
+<p>
+<ul>
+<p><li>
+<a NAME="NAME				"><STRONG>NAME				</STRONG></a><br>
+Q30<br>
+<p><li>
+<a NAME="DIMENSION			"><STRONG>DIMENSION			</STRONG></a><br>
+30<br>
+<p><li>
+<a NAME="GRAM"><STRONG>GRAM</STRONG></a><br>
+30 0<br>
+  6<br>
+ -3  6<br>
+  3 -2  6<br>
+ -2 -1  1  6<br>
+  2 -2 -1  0  6<br>
+ -2  1 -3  1 -1  6<br>
+ -2  3 -1 -1  0 -2  6<br>
+  2  0  3 -1 -2  0  0  6<br>
+  0  1  2 -1 -3 -2  2  3  6<br>
+ -3  1 -3  1 -1  1  2 -2  1  6<br>
+  3 -1  0 -3  1  0 -2  0 -2 -3  6<br>
+  3 -3  3  0  2 -3  0  0  1 -1  1  6<br>
+ -2 -1 -1  0 -1  0  1  0  2  3 -1  1  6<br>
+  0 -2  1  3  2  0 -2 -2 -3 -1 -1  0 -1  6<br>
+  2  0  3 -2 -2 -2  0  3  2 -3  2  0 -1 -2  6<br>
+ -3  1 -1  1  0 -1  3  0  1  1 -2 -1  1  0 -1  6<br>
+ -2  2 -3 -2  0  0  1 -1  0  1  0 -3  1  0  0  1  6<br>
+  2 -3  1  1  0 -1 -2  0  0  1  1  1  0  0  0 -1 -2  6<br>
+  2 -3  0 -1  3 -1 -2 -1 -2 -1  2  1  1  2 -1  0  0  1  6<br>
+  1  0 -1 -2  2 -2  0 -2  0  0  2  1  1  0  0  0  1  1  2  6<br>
+ -2 -1 -1  3  0  0  0 -3 -1  3 -3  0  1  2 -3  0 -1  2  0  0  6<br>
+ -2  3 -2 -2 -2  0  3  1  2  1  0 -2  2 -2  1  2  3 -2 -1  0 -2  6<br>
+  0  1 -1  1 -1  0  1 -1  1  1 -1 -1 -1  0  0  0  0  1 -2  1  2  1  6<br>
+ -3  3 -2  1 -1  1  3  0  0  3 -2 -3  1 -1  0  1  2 -1 -2 -1  1  2  1  6<br>
+ -2  1 -2 -1  1 -1  1 -3 -2  0  1  0  0  0 -1  2  2 -1  1  1  0  1 -1  0  6<br>
+  0 -2  2  1 -2  1 -2  2  0 -1  1  0  1  0  2 -1 -1  2 -1 -1  0 -1 -1  0 -1  6<br>
+  2 -1  3  1 -1 -2 -1  0  0 -2  2  2 -2  1  1  0 -2  2  0  0  0 -1  1 -2  0  1  6<br>
+ -2 -1  0  0 -3  1  0  1  2  2 -1 -1  3 -1  1  1  1  0  0 -2  0  1 -1  1  0  2 -1  6<br>
+ -2  3 -2  0  0  1  1  0  1  0  0 -1  0 -1 -1  2  1 -1 -1  1 -1  2  1  0  1 -2 -1 -1 6<br>
+  2  1  0 -1 -1  0  0  1  0  0  1  0 -1 -2  0 -2 -1  1 -1  0  0  0  2  0 -1 -1  1 -2 0 6<br>
+<p><li>
+<a NAME="DIVISORS           (elementary divisors)"><STRONG>DIVISORS           (elementary divisors)</STRONG></a><br>
+2^12*6*18<br>
+<p><li>
+<a NAME="MINIMAL_NORM"><STRONG>MINIMAL_NORM</STRONG></a><br>
+6<br>
+<p><li>
+<a NAME="MINVECS"><STRONG>MINVECS</STRONG></a><br>
+<p><li>
+<a NAME="KISSING_NUMBER"><STRONG>KISSING_NUMBER</STRONG></a><br>
+2*40155<br>
+<p><li>
+<a NAME="DENSITY            (center density)"><STRONG>DENSITY            (center density)</STRONG></a><br>
+<p><li>
+<a NAME="HERMITE_NUMBER"><STRONG>HERMITE_NUMBER</STRONG></a><br>
+<p><li>
+<a NAME="GROUP_ORDER"><STRONG>GROUP_ORDER</STRONG></a><br>
+<p><li>
+<a NAME="GROUP_GENERATORS"><STRONG>GROUP_GENERATORS</STRONG></a><br>
+<p><li>
+<a NAME="BACHER_POLYNOMIALS"><STRONG>BACHER_POLYNOMIALS</STRONG></a><br>
+<p><li>
+<a NAME="PROPERTIES"><STRONG>PROPERTIES</STRONG></a><br>
+<p><li>
+<a NAME="REFERENCES"><STRONG>REFERENCES</STRONG></a><br>
+Optimal section of dimension 30 in Q32<br>
+<p><li>
+<a NAME="NOTES"><STRONG>NOTES</STRONG></a><br>
+<p><li>
+<a NAME="LAST_LINE			"><STRONG>LAST_LINE			</STRONG></a><br>
+<hr> </hr>
+<font size=-2><a href="http://www.rwth-aachen.de/zentral/disclaimer.htm">Haftungsausschluss/Disclaimer</a><br /><br />
+    <address><a href="mailto:Gabriele.Nebe@Math.RWTH-Aachen.De"><font size=-2>Gabriele Nebe</a></font></address>
+<font size=-1>
+
+</font>
+  </body>
+</html>
+

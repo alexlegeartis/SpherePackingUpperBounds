@@ -1,0 +1,22 @@
+{
+  "sample_contacts": 6000,
+  "symmetric_variables": 1596,
+  "numerical_rank": 1595,
+  "smallest_eigenvalues": [
+    2.4644385399177947e-11,
+    1111.5287856953287,
+    1126.0173628131106,
+    1156.473686280745,
+    1158.9564031758005,
+    1173.9346840343321,
+    1182.9785064821392,
+    1193.5472444331917,
+    1201.1555942343612,
+    1207.8701801615898
+  ],
+  "largest_eigenvalue": 85425.85799926383,
+  "exact_eutaxy_identity": "G (sum_v vv^T) G = 26970 G",
+  "identity_checked": true,
+  "scope": "sampled numerical perfection rank; exact positive eutaxy identity",
+  "seconds": 0.5619893074035645
+}

@@ -1,0 +1,98 @@
+{
+  "contacts_available": 75964,
+  "contacts_used": 12000,
+  "pair_counts": [
+    [
+      0,
+      1,
+      6894
+    ],
+    [
+      0,
+      2,
+      6236
+    ],
+    [
+      0,
+      3,
+      6139
+    ],
+    [
+      0,
+      4,
+      6395
+    ],
+    [
+      1,
+      2,
+      6538
+    ],
+    [
+      1,
+      3,
+      5787
+    ],
+    [
+      1,
+      5,
+      5754
+    ],
+    [
+      2,
+      4,
+      5529
+    ],
+    [
+      2,
+      5,
+      7042
+    ],
+    [
+      3,
+      4,
+      5702
+    ],
+    [
+      3,
+      5,
+      6681
+    ],
+    [
+      4,
+      5,
+      7267
+    ]
+  ],
+  "metric_variables": 946,
+  "translate_variables": 215,
+  "total_variables": 1161,
+  "numerical_rank": 1161,
+  "smallest_eigenvalues": [
+    196.70121148337284,
+    197.20240496582196,
+    199.37567602354548,
+    201.48132522239598,
+    203.74753762076426,
+    204.29467046654733,
+    205.22518648632766,
+    205.44771528725377,
+    207.23556344190143,
+    209.64026750458,
+    209.9111852968089,
+    211.15830542474194
+  ],
+  "least_norm_min_weight": -0.0043072247800702256,
+  "least_norm_negative_weights": 3588,
+  "least_norm_residual": 2.165929655168487e-14,
+  "normal_gram_determinant": 3072,
+  "normal_basis_saturated": true,
+  "contact_squared_distance": "137/24",
+  "seed_center_density": 226.51727488902318,
+  "scope": "exact individual ambient contact norms and saturation; numerical full periodic first-order screen on a finite subset; no new packing or exact local-optimality claim",
+  "fista_iterations": 700,
+  "fista_transformed_residual": 3.637539771474816e-13,
+  "final_min_weight": 0.0,
+  "final_positive_weights": 11985,
+  "final_goal_residual": 1.3503595437657549e-11,
+  "elapsed": 6.982555866241455
+}

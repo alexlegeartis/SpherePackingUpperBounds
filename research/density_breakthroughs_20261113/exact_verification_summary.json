@@ -1,0 +1,47 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "script": "contact_walk/verify36_local.py",
+      "passed": true,
+      "seconds": 1.3420541286468506
+    },
+    {
+      "script": "mixed_codes/verify.py",
+      "passed": true,
+      "seconds": 0.4228193759918213
+    },
+    {
+      "script": "sections/audit_n17.py",
+      "passed": true,
+      "seconds": 0.1290874481201172
+    },
+    {
+      "script": "catalogue_screen/verify56_pencil.py",
+      "passed": true,
+      "seconds": 3.619316339492798
+    },
+    {
+      "script": "gluing/verify_extension_thresholds.py",
+      "passed": true,
+      "seconds": 0.02535104751586914
+    },
+    {
+      "script": "gluing/verify_normal_witnesses.py",
+      "passed": true,
+      "seconds": 1.2262213230133057
+    },
+    {
+      "script": "sections/verify_finite_results.py",
+      "passed": true,
+      "seconds": 0.47757387161254883
+    },
+    {
+      "script": "seed_deformations/audit_seed_results.py",
+      "passed": true,
+      "seconds": 1.5731215476989746
+    }
+  ],
+  "new_density_record": false,
+  "scope": "Exact finite certificates and comparisons. Prior published ambient minima and the existing36D minimum certificate remain explicit inputs; numerical contact-cone screens are excluded."
+}

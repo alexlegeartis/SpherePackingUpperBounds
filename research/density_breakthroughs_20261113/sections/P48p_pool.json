@@ -1,0 +1,26 @@
+{
+  "ambient": "P48p",
+  "source_certificates": [
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/records/dim38-delta9/P48p-a17f250f.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/records/dim39-delta18/P48p-adc3124f.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/records/dim40-delta41/P48p-6a1733b0.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/records/dim41-delta61/P48p-28a12f16.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/records/dim42-delta106/P48p-e6f899b4.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-A1-dim47.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-A2-dim46.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-A3-dim45.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-D3-dim45.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-D4-dim44.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-D5-dim43.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-D6-dim42.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-D7-dim41.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-S10-dim38.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-S7-dim41.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-S8-dim40.cert.txt",
+    "research/density_breakthroughs_20261113/seed_deformations/external_sphere_packing/packings_out/reproductions/cs82cor8/P48p-cor8-S9-dim39.cert.txt"
+  ],
+  "vectors_up_to_sign": 8192,
+  "exact_norm": 6,
+  "complete": false,
+  "basis": "ambient Gram from cert; all vectors integer row coefficients"
+}

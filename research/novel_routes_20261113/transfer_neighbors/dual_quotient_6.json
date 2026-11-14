@@ -1,0 +1,13 @@
+{
+  "index": 6,
+  "classes": 65536,
+  "covered": 65536,
+  "missing": [],
+  "pool_size": 130560,
+  "random_pairs": 2000000,
+  "directed_pairs": 39,
+  "maximum_witness_abs_coordinate": 10,
+  "seconds_after_enumeration": 1.1155405044555664,
+  "artifact": "dual_quotient_6.npz",
+  "scope": "Every covered class has an explicit exact norm<=4 dual witness; enumeration completeness is unnecessary for full coverage."
+}

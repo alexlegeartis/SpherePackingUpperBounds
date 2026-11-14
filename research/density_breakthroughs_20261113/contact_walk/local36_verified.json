@@ -1,0 +1,17 @@
+{
+  "dimension": 36,
+  "exact_contacts": 94050,
+  "minimum_contact_norm_Q": 160,
+  "eutaxy_common_denominator": 417590880,
+  "positive_weight_numerators": {
+    "-8": 1326,
+    "-4": 2581,
+    "-2": 698,
+    "0": 1326
+  },
+  "exact_identity": "(sum_v numerator(v) vv^T) Q = 417590880 I",
+  "perfection_rank": 666,
+  "rank_prime": 65521,
+  "conclusion": "perfect and eutactic using explicit contacts; with the prior minimum certificate, the existing 36D lattice is a strict local maximum among lattice packings modulo scale and isometry",
+  "new_density_record": false
+}

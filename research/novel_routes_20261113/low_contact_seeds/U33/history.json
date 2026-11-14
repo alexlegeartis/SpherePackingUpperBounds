@@ -1,0 +1,461 @@
+[
+  {
+    "iteration": 0,
+    "initial_shell": {
+      "nodes": 1741100,
+      "leaves": 352,
+      "capped": false,
+      "seconds": 0.0827427
+    },
+    "constraint_vectors": 352,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.12067004073675286,
+    "logdet": -0.13920140122568936,
+    "conditional_density": 0.009305464275683788,
+    "seconds": 0.8586316108703613,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 1,
+    "initial_shell": {
+      "nodes": 1848494,
+      "leaves": 352,
+      "capped": false,
+      "seconds": 0.0866772
+    },
+    "constraint_vectors": 352,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.15307758166346688,
+    "logdet": -0.3117013047242857,
+    "conditional_density": 0.010143688971418702,
+    "seconds": 1.8007066249847412,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 2,
+    "initial_shell": {
+      "nodes": 1961324,
+      "leaves": 352,
+      "capped": false,
+      "seconds": 0.0958978
+    },
+    "constraint_vectors": 352,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.182116514471754,
+    "logdet": -0.5134980584346556,
+    "conditional_density": 0.011220585841232967,
+    "seconds": 2.9117791652679443,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 3,
+    "initial_shell": {
+      "nodes": 2102970,
+      "leaves": 348,
+      "capped": false,
+      "seconds": 0.0989511
+    },
+    "constraint_vectors": 348,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.2086686731120027,
+    "logdet": -0.7433715262572871,
+    "conditional_density": 0.012587280836057937,
+    "seconds": 3.9725077152252197,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 4,
+    "initial_shell": {
+      "nodes": 2271998,
+      "leaves": 348,
+      "capped": false,
+      "seconds": 0.105792
+    },
+    "constraint_vectors": 348,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.2271721988952841,
+    "logdet": -0.9923169198888675,
+    "conditional_density": 0.014255738729028841,
+    "seconds": 5.442495584487915,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 5,
+    "initial_shell": {
+      "nodes": 2457788,
+      "leaves": 347,
+      "capped": false,
+      "seconds": 0.117836
+    },
+    "constraint_vectors": 347,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22763163224934105,
+    "logdet": -1.2430711305238402,
+    "conditional_density": 0.016159961146505745,
+    "seconds": 6.512777805328369,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 6,
+    "initial_shell": {
+      "nodes": 2657948,
+      "leaves": 346,
+      "capped": false,
+      "seconds": 0.132479
+    },
+    "constraint_vectors": 346,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22795486039581236,
+    "logdet": -1.4944614166048442,
+    "conditional_density": 0.018324368605730636,
+    "seconds": 7.356837272644043,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 7,
+    "initial_shell": {
+      "nodes": 2873754,
+      "leaves": 346,
+      "capped": false,
+      "seconds": 0.146416
+    },
+    "constraint_vectors": 346,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22823222208660887,
+    "logdet": -1.7479085117414233,
+    "conditional_density": 0.020800048936034342,
+    "seconds": 8.095179319381714,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 8,
+    "initial_shell": {
+      "nodes": 3110656,
+      "leaves": 352,
+      "capped": false,
+      "seconds": 0.162438
+    },
+    "constraint_vectors": 352,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22854035613881815,
+    "logdet": -2.002235952553928,
+    "conditional_density": 0.0236205963897476,
+    "seconds": 8.822798728942871,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 9,
+    "initial_shell": {
+      "nodes": 3319412,
+      "leaves": 394,
+      "capped": false,
+      "seconds": 0.171034
+    },
+    "constraint_vectors": 394,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22888196887726617,
+    "logdet": -2.2573241889863445,
+    "conditional_density": 0.02683382391191561,
+    "seconds": 9.581525802612305,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 10,
+    "initial_shell": {
+      "nodes": 3596436,
+      "leaves": 497,
+      "capped": false,
+      "seconds": 0.178809
+    },
+    "constraint_vectors": 497,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.2292504868319566,
+    "logdet": -2.511410344300749,
+    "conditional_density": 0.03046889282199116,
+    "seconds": 10.534785270690918,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 11,
+    "initial_shell": {
+      "nodes": 3896018,
+      "leaves": 629,
+      "capped": false,
+      "seconds": 0.181489
+    },
+    "constraint_vectors": 629,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.22959049562049733,
+    "logdet": -2.7639733524905896,
+    "conditional_density": 0.034570052056911174,
+    "seconds": 12.330694437026978,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 12,
+    "initial_shell": {
+      "nodes": 4219868,
+      "leaves": 802,
+      "capped": false,
+      "seconds": 0.203295
+    },
+    "constraint_vectors": 802,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.21616186687171993,
+    "logdet": -3.000536086296896,
+    "conditional_density": 0.03891069414813026,
+    "seconds": 14.4939124584198,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 13,
+    "initial_shell": {
+      "nodes": 4564442,
+      "leaves": 961,
+      "capped": false,
+      "seconds": 0.285548
+    },
+    "constraint_vectors": 961,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.18750570391801238,
+    "logdet": -3.2087199139071707,
+    "conditional_density": 0.04317929251853802,
+    "seconds": 17.266202211380005,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 14,
+    "initial_shell": {
+      "nodes": 4911508,
+      "leaves": 1156,
+      "capped": false,
+      "seconds": 0.271611
+    },
+    "constraint_vectors": 1156,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.17082155647210914,
+    "logdet": -3.398736176743264,
+    "conditional_density": 0.04748287747764767,
+    "seconds": 20.088550329208374,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 15,
+    "initial_shell": {
+      "nodes": 5288526,
+      "leaves": 1378,
+      "capped": false,
+      "seconds": 0.276521
+    },
+    "constraint_vectors": 1378,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.15611769310946738,
+    "logdet": -3.57369571414342,
+    "conditional_density": 0.05182377084361403,
+    "seconds": 23.933922290802002,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 16,
+    "initial_shell": {
+      "nodes": 5672360,
+      "leaves": 1588,
+      "capped": false,
+      "seconds": 0.270227
+    },
+    "constraint_vectors": 1588,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.14070717625733797,
+    "logdet": -3.7323671413372406,
+    "conditional_density": 0.05610274008447377,
+    "seconds": 27.966044902801514,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 17,
+    "initial_shell": {
+      "nodes": 5869174,
+      "leaves": 1823,
+      "capped": false,
+      "seconds": 0.316389
+    },
+    "constraint_vectors": 1823,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.12958302021827042,
+    "logdet": -3.8791728963458523,
+    "conditional_density": 0.060375749845730874,
+    "seconds": 33.20814394950867,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 18,
+    "initial_shell": {
+      "nodes": 6218474,
+      "leaves": 2075,
+      "capped": false,
+      "seconds": 0.303332
+    },
+    "constraint_vectors": 2075,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.12534742594546117,
+    "logdet": -4.021684455987243,
+    "conditional_density": 0.06483485285846526,
+    "seconds": 39.166412115097046,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 19,
+    "initial_shell": {
+      "nodes": 6561450,
+      "leaves": 2371,
+      "capped": false,
+      "seconds": 0.343595
+    },
+    "constraint_vectors": 2371,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.11769285259262938,
+    "logdet": -4.155432186668044,
+    "conditional_density": 0.06931887092603121,
+    "seconds": 46.67370915412903,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 20,
+    "initial_shell": {
+      "nodes": 6876198,
+      "leaves": 2658,
+      "capped": false,
+      "seconds": 0.346464
+    },
+    "constraint_vectors": 2658,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.11231203583247665,
+    "logdet": -4.283097922125798,
+    "conditional_density": 0.07388797128850057,
+    "seconds": 56.1223886013031,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 21,
+    "initial_shell": {
+      "nodes": 7189966,
+      "leaves": 3010,
+      "capped": false,
+      "seconds": 0.354413
+    },
+    "constraint_vectors": 3010,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.10128198736872313,
+    "logdet": -4.3992560530214835,
+    "conditional_density": 0.07830638226146404,
+    "seconds": 69.0727972984314,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 22,
+    "initial_shell": {
+      "nodes": 7485776,
+      "leaves": 3378,
+      "capped": false,
+      "seconds": 0.399112
+    },
+    "constraint_vectors": 3378,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.09805254193507651,
+    "logdet": -4.512052672620888,
+    "conditional_density": 0.08284964175452644,
+    "seconds": 82.72805404663086,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 23,
+    "initial_shell": {
+      "nodes": 7783682,
+      "leaves": 3790,
+      "capped": false,
+      "seconds": 0.368844
+    },
+    "constraint_vectors": 3790,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.09750040552099382,
+    "logdet": -4.623726940447979,
+    "conditional_density": 0.08760731979470444,
+    "seconds": 98.07244563102722,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 24,
+    "initial_shell": {
+      "nodes": 8074414,
+      "leaves": 4172,
+      "capped": false,
+      "seconds": 0.425914
+    },
+    "constraint_vectors": 4172,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.09804742607859718,
+    "logdet": -4.7353843656190175,
+    "conditional_density": 0.09263742950842749,
+    "seconds": 116.39125633239746,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 25,
+    "initial_shell": {
+      "nodes": 8361730,
+      "leaves": 4718,
+      "capped": false,
+      "seconds": 0.422975
+    },
+    "constraint_vectors": 4718,
+    "cut_rounds": 1,
+    "accepted": true,
+    "trace_objective": -0.09535774732844182,
+    "logdet": -4.844048530995131,
+    "conditional_density": 0.0978098559966844,
+    "seconds": 140.12266278266907,
+    "status": "floating discovery, not a certified packing"
+  },
+  {
+    "iteration": 26,
+    "initial_shell": {
+      "nodes": 8689890,
+      "leaves": 5292,
+      "capped": false,
+      "seconds": 0.432901
+    },
+    "constraint_vectors": 5292,
+    "cut_rounds": 1,
+    "accepted": false,
+    "trace_objective": null,
+    "logdet": -4.844048530995142,
+    "conditional_density": 0.09780985599668493,
+    "seconds": 166.06901240348816,
+    "status": "floating discovery, not a certified packing"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/ExtLatDat/2_dim32.dat",
+  "sha256": "66d6be05fc60786462063cb723f16faf1ab396b37e3588f1418761484dbdb070",
+  "lattices": [
+    {
+      "index": 0,
+      "modular_flag_from_catalogue": true,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 1,
+      "modular_flag_from_catalogue": false,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 2,
+      "modular_flag_from_catalogue": false,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 3,
+      "modular_flag_from_catalogue": true,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 4,
+      "modular_flag_from_catalogue": true,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 5,
+      "modular_flag_from_catalogue": true,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    },
+    {
+      "index": 6,
+      "modular_flag_from_catalogue": true,
+      "dimension": 32,
+      "minimum_from_catalogue": 6,
+      "determinant": 65536
+    }
+  ]
+}

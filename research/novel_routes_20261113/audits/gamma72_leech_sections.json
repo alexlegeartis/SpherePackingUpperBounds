@@ -1,0 +1,298 @@
+{
+  "71": {
+    "normal_rank": 1,
+    "leech_normal_det": 4,
+    "normal_det": 8,
+    "smith_factors": [
+      1
+    ],
+    "center_density_sq": "295147905179352825856",
+    "center_density": 17179869184.0,
+    "inherited_minimum": 8
+  },
+  "70": {
+    "normal_rank": 2,
+    "leech_normal_det": 12,
+    "normal_det": 48,
+    "smith_factors": [
+      1,
+      1
+    ],
+    "center_density_sq": "73786976294838206464/3",
+    "center_density": 4959401049.012478,
+    "inherited_minimum": 8
+  },
+  "69": {
+    "normal_rank": 3,
+    "leech_normal_det": 32,
+    "normal_det": 256,
+    "smith_factors": [
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "2305843009213693952",
+    "center_density": 1518500249.988025,
+    "inherited_minimum": 8
+  },
+  "68": {
+    "normal_rank": 4,
+    "leech_normal_det": 64,
+    "normal_det": 1024,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "288230376151711744",
+    "center_density": 536870912.0,
+    "inherited_minimum": 8
+  },
+  "67": {
+    "normal_rank": 5,
+    "leech_normal_det": 128,
+    "normal_det": 4096,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "36028797018963968",
+    "center_density": 189812531.24850312,
+    "inherited_minimum": 8
+  },
+  "66": {
+    "normal_rank": 6,
+    "leech_normal_det": 192,
+    "normal_det": 12288,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "18014398509481984/3",
+    "center_density": 77490641.39081997,
+    "inherited_minimum": 8
+  },
+  "65": {
+    "normal_rank": 7,
+    "leech_normal_det": 256,
+    "normal_det": 32768,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "1125899906842624",
+    "center_density": 33554432.0,
+    "inherited_minimum": 8
+  },
+  "64": {
+    "normal_rank": 8,
+    "leech_normal_det": 256,
+    "normal_det": 65536,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "281474976710656",
+    "center_density": 16777216.0,
+    "inherited_minimum": 8
+  },
+  "63": {
+    "normal_rank": 9,
+    "leech_normal_det": 512,
+    "normal_det": 262144,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "35184372088832",
+    "center_density": 5931641.601515722,
+    "inherited_minimum": 8
+  },
+  "62": {
+    "normal_rank": 10,
+    "leech_normal_det": 768,
+    "normal_det": 786432,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "17592186044416/3",
+    "center_density": 2421582.543463124,
+    "inherited_minimum": 8
+  },
+  "61": {
+    "normal_rank": 11,
+    "leech_normal_det": 1024,
+    "normal_det": 2097152,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "1099511627776",
+    "center_density": 1048576.0,
+    "inherited_minimum": 8
+  },
+  "60": {
+    "normal_rank": 12,
+    "leech_normal_det": 1024,
+    "normal_det": 4194304,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "274877906944",
+    "center_density": 524288.0,
+    "inherited_minimum": 8
+  },
+  "59": {
+    "normal_rank": 13,
+    "leech_normal_det": 1024,
+    "normal_det": 8388608,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "68719476736",
+    "center_density": 262144.0,
+    "inherited_minimum": 8
+  },
+  "58": {
+    "normal_rank": 14,
+    "leech_normal_det": 768,
+    "normal_det": 12582912,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "68719476736/3",
+    "center_density": 151348.90896644525,
+    "inherited_minimum": 8
+  },
+  "57": {
+    "normal_rank": 15,
+    "leech_normal_det": 512,
+    "normal_det": 16777216,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "8589934592",
+    "center_density": 92681.90002368316,
+    "inherited_minimum": 8
+  },
+  "56": {
+    "normal_rank": 16,
+    "leech_normal_det": 256,
+    "normal_det": 16777216,
+    "smith_factors": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "center_density_sq": "4294967296",
+    "center_density": 65536.0,
+    "inherited_minimum": 8
+  }
+}

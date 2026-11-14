@@ -1,0 +1,16 @@
+{
+  "coefficients_numerators": [
+    -2,
+    4,
+    6,
+    4,
+    2,
+    28
+  ],
+  "coefficients_denominator": 3,
+  "family_denominator": 206,
+  "gram_denominator": 3,
+  "determinant": "79228162514264337593543950336/79766443076872509863361",
+  "equal_record_scaled_determinant": true,
+  "minimum_status": "not independently verified; determinant comparison only"
+}

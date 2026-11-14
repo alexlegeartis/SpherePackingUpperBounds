@@ -1,0 +1,55 @@
+{
+  "dimension": 43,
+  "reference_center_density_squared": "75680568843413710219970924833193465560252719580094627902886218624971822874473694756240448153/1474965055679554353690714841829926751065356678973630518092872641115325559232814301315072",
+  "pool": "P48n_extended_normal_pool.npz",
+  "pool_size": 600454,
+  "seed_count": 1,
+  "distinct_gram_evaluations": 10703,
+  "best_ratio": 1.0,
+  "best_discovery_score": 0.9999999999999988,
+  "new_verified_candidates": [],
+  "groups": [
+    {
+      "seed": "P48n-081e3830.cert.txt",
+      "omitted_row": 0,
+      "distinct_patterns": 2604,
+      "new_gram_evaluations": 2604,
+      "best_ratio": 1.0,
+      "seconds": 6.094427108764648
+    },
+    {
+      "seed": "P48n-081e3830.cert.txt",
+      "omitted_row": 1,
+      "distinct_patterns": 2698,
+      "new_gram_evaluations": 2698,
+      "best_ratio": 1.0,
+      "seconds": 10.898918151855469
+    },
+    {
+      "seed": "P48n-081e3830.cert.txt",
+      "omitted_row": 2,
+      "distinct_patterns": 2651,
+      "new_gram_evaluations": 2651,
+      "best_ratio": 1.0,
+      "seconds": 15.858846664428711
+    },
+    {
+      "seed": "P48n-081e3830.cert.txt",
+      "omitted_row": 3,
+      "distinct_patterns": 2632,
+      "new_gram_evaluations": 301,
+      "best_ratio": 1.0,
+      "seconds": 17.32065510749817
+    },
+    {
+      "seed": "P48n-081e3830.cert.txt",
+      "omitted_row": 4,
+      "distinct_patterns": 2449,
+      "new_gram_evaluations": 2449,
+      "best_ratio": 1.0,
+      "seconds": 21.567437410354614
+    }
+  ],
+  "seconds": 21.56790828704834,
+  "scope": "All distinct one-row Gram patterns for these seeds in this finite pool; dual enumeration capped at 128 rays and cluster search greedy, up to 18 points."
+}

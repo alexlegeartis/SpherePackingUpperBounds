@@ -1,0 +1,113 @@
+{
+  "dimension": 43,
+  "seed_center_density": 226.51727488902318,
+  "cosets": 6,
+  "metric_variables": 946,
+  "translate_variables": 215,
+  "ambient_pool_count": 300457,
+  "contact_count": 75964,
+  "active_pairs": [
+    {
+      "i": 0,
+      "j": 1,
+      "contacts": 6894,
+      "beta": "7/24"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "contacts": 6236,
+      "beta": "7/24"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "contacts": 6139,
+      "beta": "7/24"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "contacts": 6395,
+      "beta": "7/24"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "contacts": 6538,
+      "beta": "7/24"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "contacts": 5787,
+      "beta": "7/24"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "contacts": 5754,
+      "beta": "7/24"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "contacts": 5529,
+      "beta": "7/24"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "contacts": 7042,
+      "beta": "7/24"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "contacts": 5702,
+      "beta": "7/24"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "contacts": 6681,
+      "beta": "7/24"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "contacts": 7267,
+      "beta": "7/24"
+    }
+  ],
+  "history": [
+    {
+      "iteration": 0,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraints": 2500,
+      "seconds": 15.816296100616455,
+      "trace": -29.783808821661392,
+      "violated_other_contacts": 20842,
+      "minimum_slope": -39.711951019020056
+    },
+    {
+      "iteration": 1,
+      "success": true,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "constraints": 4000,
+      "seconds": 57.140111446380615,
+      "trace": -0.6842801752058867,
+      "violated_other_contacts": 16187,
+      "minimum_slope": -11.802870152387445
+    },
+    {
+      "iteration": 2,
+      "success": false,
+      "message": "Time limit reached. (HiGHS Status 13: model_status is Time limit reached; primal_status is Feasible)",
+      "constraints": 5500,
+      "seconds": 150.17846202850342
+    }
+  ],
+  "scope": "floating full periodic first-order cone; exact individual contact norms; no new packing or exact local-optimum claim"
+}

@@ -1,0 +1,16 @@
+{
+  "contacts": 14000,
+  "variables": 1166,
+  "mother_gram_determinant_exact": 1,
+  "mother_even_integral_exact": true,
+  "mother_minimum_status": "minimum6 not certified here; exact norm6 vectors exhibited",
+  "normal_gram_determinant_exact": 605,
+  "contact_projected_squared_norm_exact": "314/55",
+  "weight_minimum": 0.0,
+  "positive_weights_above_1e-8": 13013,
+  "smallest_positive_support_gram_eigenvalue": 59.556732005737096,
+  "positive_support_rank_tolerance_1e-10": 1166,
+  "eutaxy_residual_2norm": 2.54029534043444e-10,
+  "eutaxy_residual_infinity": 4.3649127606619487e-11,
+  "scope": "exact integer contact checks; numerical rank and eutaxy only; no new density record"
+}

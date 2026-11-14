@@ -1,0 +1,10 @@
+{
+  "exact_checks": "all12000 ambient norms6, oriented normal differences, squared normal norms7/24, normal determinant3072 and saturation",
+  "numerical_rank": 1161,
+  "variables": 1161,
+  "positive_weights": 11985,
+  "nonnegative_weights": true,
+  "trace_representation_residual": 1.3503595400051337e-11,
+  "elapsed": 0.7728161811828613,
+  "scope": "numerical first-order obstruction candidate; not an exact eutaxy certificate or a nonlinear local-optimality theorem"
+}

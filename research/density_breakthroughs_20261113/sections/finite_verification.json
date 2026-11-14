@@ -1,0 +1,120 @@
+{
+  "scope": "exact finite witnesses, determinants, indices, and arithmetic only; no floating-shell completeness or numerical local-optimality claim",
+  "mod2_rank2_obstruction": {
+    "exact_contact_count": 23,
+    "all_contact_squared_norms": 8,
+    "outer_product_sum_zero_mod2": true,
+    "conclusion": "No F2-linear map to F2^2 is nonzero on every contact."
+  },
+  "normal_subspaces": [
+    {
+      "file": "P48p_best_k11.npz",
+      "normal_rank": 11,
+      "dimension": 37,
+      "saturation_index": 1,
+      "determinant": 121500,
+      "center_density_using_min6": 5.1927827515335485,
+      "record_beating_determinant_threshold": "450283905890997363/4398046511104",
+      "record_beating": false
+    },
+    {
+      "file": "large_best_k12.npz",
+      "normal_rank": 12,
+      "dimension": 36,
+      "saturation_index": 1,
+      "determinant": 254016,
+      "center_density_using_min6": 2.932325158800398
+    },
+    {
+      "file": "P48n_extended_best_k13.npz",
+      "normal_rank": 13,
+      "dimension": 35,
+      "saturation_index": 1,
+      "determinant": 391500,
+      "center_density_using_min6": 1.9285510982519682,
+      "record_beating_determinant_threshold": "50031545098999707/274877906944",
+      "record_beating": false
+    },
+    {
+      "file": "P48n_extended_best_k14.npz",
+      "normal_rank": 14,
+      "dimension": 34,
+      "saturation_index": 1,
+      "determinant": 648675,
+      "center_density_using_min6": 1.223313655586524,
+      "record_beating_determinant_threshold": "196608",
+      "record_beating": false
+    }
+  ],
+  "kappa11_nearest_roundings": {
+    "odd_off_diagonal_entries": 14,
+    "roundings_checked": 16384,
+    "valid_necessary_contact_systems": 0,
+    "scope": "nearest integer rounding only, using explicit exact norm-four contacts"
+  },
+  "K11_explicit_cluster_checks": [
+    {
+      "size": 2,
+      "diameter_squared_bound": "9/20",
+      "center_density": 2.4550040047059665
+    },
+    {
+      "size": 4,
+      "diameter_squared_bound": "3/5",
+      "center_density": 2.9576485698974677
+    },
+    {
+      "size": 4,
+      "diameter_squared_bound": "2/3",
+      "center_density": 2.3503821468030974
+    },
+    {
+      "size": 4,
+      "diameter_squared_bound": "43/60",
+      "center_density": 1.974514065197088
+    },
+    {
+      "size": 5,
+      "diameter_squared_bound": "11/15",
+      "center_density": 2.328010432290902
+    },
+    {
+      "size": 6,
+      "diameter_squared_bound": "4/5",
+      "center_density": 2.2070650273894903
+    },
+    {
+      "size": 8,
+      "diameter_squared_bound": "17/20",
+      "center_density": 2.461080082663776
+    },
+    {
+      "size": 9,
+      "diameter_squared_bound": "13/15",
+      "center_density": 2.607562063792215
+    },
+    {
+      "size": 9,
+      "diameter_squared_bound": "14/15",
+      "center_density": 2.0474235557582765
+    },
+    {
+      "size": 10,
+      "diameter_squared_bound": "59/60",
+      "center_density": 1.8935817437434619
+    },
+    {
+      "size": 12,
+      "diameter_squared_bound": "1",
+      "center_density": 2.1366252070928486
+    }
+  ],
+  "K11_cluster_scope": "Checks the displayed clusters, not optimality over the infinite dual lattice. The finite clique searches used a floating-discovered radius-one pool.",
+  "minimum10_section_thresholds": {
+    "dimension35_dual_norm_squared": "2910383045673370361328125/677148461000143405056",
+    "dimension35_threshold_decimal": 4297.998464583018,
+    "dimension34_normal_determinant": "156250000000000000000000000000000/56092579770828152714549858667",
+    "dimension34_threshold_decimal": 2785.573433034726,
+    "qualification": "Conditional on primitive normal data and an independently established section minimum of at least10; no such section was found."
+  }
+}

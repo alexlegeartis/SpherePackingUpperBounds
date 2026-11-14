@@ -1,0 +1,14 @@
+{
+  "vertices": 546,
+  "positive": 546,
+  "max_density_if_minimum8": 16834.11219567331,
+  "best_vertex": [
+    -0.6666666667,
+    1.3333333333,
+    2.0,
+    1.3333333333,
+    0.6666666667,
+    9.3333333333
+  ],
+  "scope": "numerical enumeration of finite necessary-constraint relaxation"
+}

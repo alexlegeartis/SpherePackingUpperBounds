@@ -1,0 +1,42 @@
+{
+  "source_gram_dimension": 64,
+  "source_gram_determinant": "1853020188851841",
+  "positive_definite_exact": true,
+  "discriminant_exponent3_exact": true,
+  "basis": "sum c_j theta_A2^(32-6j) (eta(tau)eta(3tau))^(6j), j=0,...,5",
+  "coefficients": [
+    1,
+    -192,
+    10944,
+    -185088,
+    536256,
+    -483840
+  ],
+  "theta_coeff_q_norm_half": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    138458880,
+    15482327040,
+    973804265280,
+    37527682805760,
+    983531592449280,
+    18878469131612160,
+    280164494820672000,
+    3349945087383121920,
+    33324456406105624320,
+    282893511597411778560,
+    2091767439982358658240
+  ],
+  "isotropic_nonzero_discriminant_classes_lower_bound": 617673367586132,
+  "dual_norm4_vectors": 138458880,
+  "dual_norm6_vectors": 37527682805760,
+  "isotropic_classes_occupied_by_short_vectors_at_most": 37527821264640,
+  "isotropic_classes_with_coset_min_at_least8_at_least": 580145546321492,
+  "centerdensity_65_squared": "5559060566555523/4",
+  "centerdensity_65_approx": 37279553.935621075,
+  "dependency": "The standard strongly3-modular theta-series ring theorem; published Ne64 minimum12,det3^32,and3-modularity."
+}

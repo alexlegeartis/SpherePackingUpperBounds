@@ -1,0 +1,112 @@
+{
+  "status": "independently verified exact obstruction",
+  "scope": "this fixed GF4 outer code; all parity matrices over F3 of rank at most two with no zero column",
+  "generator_sha256": "4601b53ea2ba21dca1bff8c66a83ccf16d0f4e8734b7b546cd490f306bbd3547",
+  "codewords": 262144,
+  "weight_enumerator": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1224,
+    1530,
+    10200,
+    8160,
+    51408,
+    25704,
+    85680,
+    24480,
+    45288,
+    5661,
+    2808
+  ],
+  "weight7_words": 1224,
+  "weight7_supports": 408,
+  "design_v_k_lambda": [
+    17,
+    7,
+    63
+  ],
+  "replication_number": 168,
+  "admissible_projective_color_counts": [
+    [
+      0,
+      0,
+      1,
+      6
+    ],
+    [
+      0,
+      0,
+      6,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      6
+    ],
+    [
+      0,
+      1,
+      6,
+      0
+    ],
+    [
+      0,
+      6,
+      0,
+      1
+    ],
+    [
+      0,
+      6,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      6
+    ],
+    [
+      1,
+      0,
+      6,
+      0
+    ],
+    [
+      1,
+      6,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      0,
+      1
+    ],
+    [
+      6,
+      0,
+      1,
+      0
+    ],
+    [
+      6,
+      1,
+      0,
+      0
+    ]
+  ],
+  "monochromatic_pairs_per_block": 15,
+  "required_total_monochromatic_coordinate_pairs": "680/7",
+  "argument": "Every block would have color counts (6,1), hence 15 monochromatic pairs. Each coordinate pair occurs in 63 blocks. Therefore the integer number of monochromatic coordinate pairs would be 408*15/63=680/7, a contradiction.",
+  "zero_column_qualification": "The combinatorial statement explicitly excludes zero columns. In the intended mixed construction, a zero parity column admits a ternary weight-one word of local squared cost4, preventing the required minimum8."
+}

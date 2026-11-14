@@ -1,0 +1,56 @@
+[
+  {
+    "nodes": 100000001,
+    "leaves": 2152,
+    "capped": true,
+    "found": false,
+    "seconds": 7.88931,
+    "trial": 0,
+    "total": 4135
+  },
+  {
+    "nodes": 100000001,
+    "leaves": 2226,
+    "capped": true,
+    "found": false,
+    "seconds": 8.076,
+    "trial": 1,
+    "total": 6053
+  },
+  {
+    "nodes": 100000001,
+    "leaves": 2762,
+    "capped": true,
+    "found": false,
+    "seconds": 7.89937,
+    "trial": 2,
+    "total": 8370
+  },
+  {
+    "nodes": 100000001,
+    "leaves": 1906,
+    "capped": true,
+    "found": false,
+    "seconds": 7.79421,
+    "trial": 3,
+    "total": 9818
+  },
+  {
+    "nodes": 100000001,
+    "leaves": 1567,
+    "capped": true,
+    "found": false,
+    "seconds": 7.72025,
+    "trial": 4,
+    "total": 10920
+  },
+  {
+    "nodes": 100000001,
+    "leaves": 2413,
+    "capped": true,
+    "found": false,
+    "seconds": 7.56796,
+    "trial": 5,
+    "total": 12485
+  }
+]

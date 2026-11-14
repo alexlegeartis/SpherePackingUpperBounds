@@ -1,0 +1,4 @@
+minvecs_*.txt
+dual_minvecs_*.txt
+*.log
+__pycache__/

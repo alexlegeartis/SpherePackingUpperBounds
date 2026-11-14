@@ -1,0 +1,27 @@
+{
+  "contacts": 12000,
+  "variables": 1166,
+  "numerical_rank": 1166,
+  "gram_smallest_eigenvalues": [
+    38.86495124657272,
+    39.26423922341687,
+    44.75059193489657,
+    45.7571937193453,
+    46.930989542527925,
+    47.9077021278039,
+    48.55111458295564,
+    55.24401519152644,
+    58.02442895958676,
+    59.464151395508786,
+    61.28676906567252,
+    62.05254732992451
+  ],
+  "least_norm_weights_min": -0.008629021982815937,
+  "least_norm_weights_negative": 4684,
+  "least_norm_goal_residual": 1.0658033256871982e-13,
+  "scope": "sampled numerical tangent-cone calculation; no new packing claim",
+  "fista_iterations": 20000,
+  "fista_transformed_residual": 0.031907959587072626,
+  "fista_original_residual": 2.8207346110574747,
+  "fista_nonzero_weights": 1079
+}

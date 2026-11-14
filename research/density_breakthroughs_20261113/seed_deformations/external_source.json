@@ -1,0 +1,6 @@
+{
+  "repository": "https://github.com/wcgbg/sphere-packing",
+  "commit": "a0bc7f51444e42c3cbae0d2a910039cd50013500",
+  "local_reference_clone": "external_sphere_packing",
+  "retention": "The nested clone is excluded from this research checkpoint; use this pinned upstream reference."
+}
