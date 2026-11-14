@@ -1,0 +1,8 @@
+{
+  "dimension": 44,
+  "complete_bound_certified": false,
+  "rejected_gate": "No zero of Q on [-1,5001/10000]",
+  "positive_local_maximum_t_approx": -0.9707305899785401,
+  "positive_local_maximum_Q_approx": 0.005157684442668,
+  "reason": "Six angular cutting-plane rounds did not complete the cap separation"
+}

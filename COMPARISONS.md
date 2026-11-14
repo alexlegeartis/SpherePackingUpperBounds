@@ -1,5 +1,17 @@
 # Comparison sources and conventions
 
+**Sixteen-profile follow-up, 14 November 2026:** the selected bounds in
+22D, 25D, 32D and 35D–47D are now stronger than the preceding main at `8a080d6`.
+The [dated change record](CHANGES_20261114.md) gives exact before/after values;
+[machine-readable comparisons](research/ambitious_profiles_20261114/CAMPAIGN_RESULTS.json)
+also compare each new strict decimal with the live table's displayed upper.
+All sixteen improve the first unrestricted-packing table in the earlier
+same-day HTTP-200 snapshot. The later retrieval attempt returned HTTP 502;
+the archived response, rather than an inferred fresh value, is used.
+The earlier 45D–47D continuation described below is superseded by these
+new witnesses. Historical published comparators in the generated result
+table remain unchanged.
+
 **14 November 2026 follow-up:** direct retrieval of the live Cohn page now
 returns HTTP 200. Its first, unrestricted-packing table displays 45D
 0.0000013114235746, 46D 0.0000008777229084 and 47D 0.0000005998306274.

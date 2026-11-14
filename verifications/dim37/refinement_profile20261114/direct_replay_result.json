@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "dimension": 37,
+  "all_four_direct_replays_pass": true,
+  "executed": [
+    {
+      "script": "primary_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "primary_radial.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_radial.py",
+      "returncode": 0
+    }
+  ],
+  "note": "Registration/hash wrapper is separately required after installing registry entries"
+}

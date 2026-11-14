@@ -1,0 +1,8 @@
+# Frozen proof replay needs only python-flint. These are the discovery versions.
+python-flint==0.9.0
+numpy==2.3.5
+scipy==1.17.0
+mpmath==1.3.0
+# Optional matrix-kernel experiments, not required for the certified profiles.
+cvxpy==1.9.3
+clarabel==0.11.1

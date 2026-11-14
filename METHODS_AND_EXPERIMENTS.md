@@ -299,3 +299,28 @@ scope](research/radial_enrichment_20261114/) remain separate from the frozen
 dimension-specific certificates. The live Cohn unrestricted-packing table
 was fetched on 14 November 2026 and displays the preceding values; no
 exhaustive worldwide priority search is asserted.
+
+## Signed logarithmic profiles and degree-95 enrichment, 14 November 2026
+
+The sixteen packages in dimensions 22, 25, 32 and 35–47 replace the selected
+Gaussian witnesses with `h(v)=v^(-a) exp[-b(v-1)]`. The admissibility condition
+is `a+b>0,b>0`, allowing negative `a`. The contact slope and curvature can
+therefore change independently. Selected parameters are `(-96,120)`, except
+45D's `(-192,216)`. Dimension-specific angular kernels and degree-95 Laguerre
+corrections are reoptimized; the full radial polynomials have degree 111.
+
+The powers of the dilation cancel in each cyclic profile ratio, leaving two
+ordered exponential rates. The exact single-transition angular condition
+therefore extends the compact proof to every dilation. Infinite-tail bounds
+include the additional polynomial factors `4^max(0,-a)` and
+`U^(2*max(0,-a))`. Complete compact subdivision covers `t in [-1,1/2]`,
+including negative cosines, and the independent checker uses monotone ratio
+endpoint bounds. Complete ray and pair proofs, PSD origin normalization and
+rational Machin rounding are replayed by two implementations sharing FLINT/Arb.
+
+The [dated change record](CHANGES_20261114.md) gives every exact bound and
+comparison, the [proof](verifications/profile_enrichment_20261114/PROOF.md)
+derives all gates, and the [research archive](research/ambitious_profiles_20261114/)
+retains successful and rejected discovery checkpoints. Multiple-feature PSD
+matrix searches produced numerical candidates but no complete new bound;
+they remain outside the result registry.

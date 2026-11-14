@@ -1,0 +1,3 @@
+EXACT PSD/CAP/TRANSITION/TAIL PASS 40 -96 120 tail_u 8
+CYCLIC 50000 24629 365 seconds 8.685760259628296
+FULL ANGULAR PASS {"pass": true, "dimension": 40, "degree": 18, "profile_a_exact": "-96", "profile_b_exact": "120", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 35909, "discarded_sorting_rectangles": 515, "max_depth": 16, "processed": 72847, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 13.089478492736816, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}

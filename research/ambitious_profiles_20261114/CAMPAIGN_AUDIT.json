@@ -1,0 +1,594 @@
+{
+  "pass": true,
+  "base_commit": "8a080d6a00909391a91ecbac097e4004c404c40d",
+  "new_packages": [
+    {
+      "dimension": 22,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "e7aa962e9196107e6210a031a997bf6bf036f558e0ab893c2fa3cb39a1a6218b"
+    },
+    {
+      "dimension": 25,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "a7acc434c8a40f5aa71eadfb093383728af0eb010eef424d18cee271796f8485"
+    },
+    {
+      "dimension": 32,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "6dcc13c3fcc1f50e27ffc312c9605b18e6c5736e38642748c5719ee79332f926"
+    },
+    {
+      "dimension": 35,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "127d4c427cb4dd2a43274202c66952da3ec904394414284e321fced21e0c4c29"
+    },
+    {
+      "dimension": 36,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "6b4dadf248e129a12525114eb454d2f937e27e5064ec28494963c8903a7ccb9e"
+    },
+    {
+      "dimension": 37,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "a29cae28f380c0aa865d9518ad9515a7deb4a5537c2d85dd3aab2d4c64e6831b"
+    },
+    {
+      "dimension": 38,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "d56f7d065e0ef678c3dc6fb0153616c6d0c9c9d4c1945b853ce518c699cfc5ad"
+    },
+    {
+      "dimension": 39,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "b17b2d1aa41e221fce5bde0e03131f283e114fe90d110bd740053973668c1a10"
+    },
+    {
+      "dimension": 40,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "350afec419c5691504b3a7e23555e3d94f956322675b229a3465e8bd25b7a4ae"
+    },
+    {
+      "dimension": 41,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "60c6fae95002a3b4eab993a0529c4be3f83d74d010b7cd15652f9d47fa6940f8"
+    },
+    {
+      "dimension": 42,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "2588b682b0a71a723861e121372a9bc4a73a3cfe9018d6f60c05f1c55c3af66f"
+    },
+    {
+      "dimension": 43,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "619e654577ab82210c19e2ecec66593f91a83644821f5f9b494f8a65c35870c8"
+    },
+    {
+      "dimension": 44,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "e5362691fb468b2f02ea52876a5d046f0947fb7ae5783db60dc89b8bede4c366"
+    },
+    {
+      "dimension": 45,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "d5008f65ea3fc2a849db682aa7ffbaf895548a7bd8a2a4e3581dec228845d440"
+    },
+    {
+      "dimension": 46,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "0b72eb308e617fbe2532b071d94befe994d93719c9b0a2a131d42cf7d7f8a869"
+    },
+    {
+      "dimension": 47,
+      "all_four_frozen_proof_paths_pass": true,
+      "registry_matches": true,
+      "source_manifest_sha256": "fae4c93f243bec3519707ccfd6c194b209ddb0fb59e39f3293e87d1f2868a637"
+    }
+  ],
+  "historical_changes_only_registry_assertions": true,
+  "historical_mathematical_inputs_and_checks_unchanged": true,
+  "wrapper_compatibility": [
+    {
+      "wrapper": "verifications/dim22/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim25/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim32/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim35/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim36/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim37/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim38/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim39/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim40/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim41/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim42/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim43/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim44/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim45/refinement_radial20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim45/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_angular/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_degree47/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_extended_pair/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_joint/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_radial20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/refinement_angular/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/refinement_degree47/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/refinement_joint/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/refinement_radial20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim22/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim25/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim32/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim35/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim36/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim37/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim38/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim39/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim40/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim41/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim42/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim43/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim44/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim45/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim46/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    },
+    {
+      "wrapper": "verifications/dim47/refinement_profile20261114/verify.py",
+      "registry_and_hash_prefix_pass": true,
+      "scope": "Stopped immediately before first proof subprocess; not a new historical mathematical replay"
+    }
+  ],
+  "negative_controls": [
+    {
+      "control": "optimized assertions: verifications/dim22/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim25/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim32/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim35/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim36/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim37/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim38/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim39/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim40/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim41/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim42/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim43/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim44/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim45/refinement_radial20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim45/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_angular/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_degree47/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_extended_pair/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_joint/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_radial20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/refinement_angular/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/refinement_degree47/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/refinement_joint/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/refinement_radial20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim22/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim25/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim32/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim35/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim36/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim37/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim38/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim39/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim40/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim41/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim42/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim43/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim44/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim45/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim46/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: verifications/dim47/refinement_profile20261114/verify.py",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: primary_angular",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: primary_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: independent_angular",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "optimized assertions: independent_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "tampered certificate rejected by manifest",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "wrong Fourier coefficient: primary_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "wrong Fourier coefficient: independent_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "negative harmonic coefficient: primary_angular",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "negative harmonic coefficient: independent_angular",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "inadmissible logarithmic slope: primary_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "inadmissible logarithmic slope: independent_radial",
+      "rejected": true,
+      "returncode": 1
+    },
+    {
+      "control": "unrelated registered package",
+      "rejected": true
+    },
+    {
+      "control": "retained genuine 44D angular sign island",
+      "rejected": true,
+      "returncode": 1
+    }
+  ],
+  "generated_comparisons_and_70_100_digit_agreement": true,
+  "scope": "All new mathematical proof paths replayed; changed historical wrapper registry/hash prefixes checked. The full historical run_all.py aggregate was not rerun in this campaign."
+}

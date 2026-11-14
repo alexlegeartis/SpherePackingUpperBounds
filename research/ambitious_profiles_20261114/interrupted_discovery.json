@@ -1,0 +1,7 @@
+{
+  "experiments": [
+    "multiscale 46D four-feature joint solve",
+    "four-feature solve with unverified frozen radial checkpoint"
+  ],
+  "status": "Interrupted after numerical solver difficulties in smaller controls; no certificate or bound claimed"
+}

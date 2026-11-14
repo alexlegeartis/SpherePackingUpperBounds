@@ -341,21 +341,36 @@
   },
   {
     "dimension": 22,
-    "strict_density_upper_bound": "0.003653383161",
-    "package": "verifications/dim22",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0036110963151",
+    "package": "verifications/dim22/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.0024510340441211825243",
     "previous_upper_density": "0.0037259419689206",
-    "upper_decrease_percent": "1.947395",
-    "gap_decrease_percent": "5.691298",
+    "upper_decrease_percent": "3.082325",
+    "gap_decrease_percent": "9.008153",
     "old_gap": "0.0012749079247994174757",
-    "new_gap": "0.0012023491168788174757",
+    "new_gap": "0.0011600622709788174757",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "pi^(22/2)/Gamma(22/2+1) * (2^(-23) * 3^(-21/2) * 11^11)",
-    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07"
+    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
+    "source_package": "verifications/dim22/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim22",
+    "previous_repository_strict_upper": "0.003653383161",
+    "earlier_repository_upper_densities": [
+      "0.003653383161"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim22"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 23,
@@ -377,21 +392,36 @@
   },
   {
     "dimension": 25,
-    "strict_density_upper_bound": "0.001375214329",
-    "package": "verifications/dim25",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0013610778702",
+    "package": "verifications/dim25/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.00067721200977318051135",
     "previous_upper_density": "0.0013841907222857",
-    "upper_decrease_percent": "0.648494",
-    "gap_decrease_percent": "1.269684",
+    "upper_decrease_percent": "1.669774",
+    "gap_decrease_percent": "3.269243",
     "old_gap": "0.00070697871251251948865",
-    "new_gap": "0.00069800231922681948865",
+    "new_gap": "0.00068386586042681948865",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "2^26*pi^12*13!/(26!*sqrt(2))",
-    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07"
+    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
+    "source_package": "verifications/dim25/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim25",
+    "previous_repository_strict_upper": "0.001375214329",
+    "earlier_repository_upper_densities": [
+      "0.001375214329"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim25"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 26,
@@ -503,21 +533,36 @@
   },
   {
     "dimension": 32,
-    "strict_density_upper_bound": "0.0001249158969",
-    "package": "verifications/dim32",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.00012275970214",
+    "package": "verifications/dim32/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.000011040749308859854199",
     "previous_upper_density": "0.0001288432887595",
-    "upper_decrease_percent": "3.048193",
-    "gap_decrease_percent": "3.333877",
+    "upper_decrease_percent": "4.721695",
+    "gap_decrease_percent": "5.164224",
     "old_gap": "0.00011780253945064014580",
-    "new_gap": "0.00011387514759114014580",
+    "new_gap": "0.00011171895283114014580",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "pi^16*3^16/(16!*2^24)",
-    "known_lower_construction_reference": "https://doi.org/10.1112/S0025579300010731"
+    "known_lower_construction_reference": "https://doi.org/10.1112/S0025579300010731",
+    "source_package": "verifications/dim32/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim32",
+    "previous_repository_strict_upper": "0.0001249158969",
+    "earlier_repository_upper_densities": [
+      "0.0001249158969"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim32"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 33,
@@ -557,257 +602,447 @@
   },
   {
     "dimension": 35,
-    "strict_density_upper_bound": "0.00004463661144",
-    "package": "verifications/dim35",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.000043910920037",
+    "package": "verifications/dim35/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "9.4619041511537296081e-7",
     "previous_upper_density": "0.0000455743843107",
-    "upper_decrease_percent": "2.057675",
-    "gap_decrease_percent": "2.101301",
+    "upper_decrease_percent": "3.649998",
+    "gap_decrease_percent": "3.727384",
     "old_gap": "0.000044628193895584627039",
-    "new_gap": "0.000043690421024884627039",
+    "new_gap": "0.000042964729621884627039",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "2^37*sqrt(2)*pi^17*18!/36!",
-    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07"
+    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
+    "source_package": "verifications/dim35/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim35",
+    "previous_repository_strict_upper": "0.00004463661144",
+    "earlier_repository_upper_densities": [
+      "0.00004463661144"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim35"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 36,
-    "strict_density_upper_bound": "0.00003121945691",
-    "package": "verifications/dim36",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.000030494904754",
+    "package": "verifications/dim36/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "7.3303477831670758543e-7",
     "previous_upper_density": "0.0000321530553313",
-    "upper_decrease_percent": "2.903607",
-    "gap_decrease_percent": "2.971349",
+    "upper_decrease_percent": "5.157054",
+    "gap_decrease_percent": "5.277369",
     "old_gap": "0.000031420020552983292415",
-    "new_gap": "0.000030486422131683292415",
+    "new_gap": "0.000029761869975683292415",
     "known_lower_source": "constructions/dim36/",
     "known_lower_formula": "(16777216/3176523)*pi^18/18!",
     "historical_lower_density": "6.1614660946918103222e-7",
     "historical_lower_source": "https://doi.org/10.1109/18.119683",
     "historical_lower_formula": "2^18*pi^18/(3^10*18!)",
-    "known_lower_reviewed": "2026-11-12"
+    "known_lower_reviewed": "2026-11-12",
+    "source_package": "verifications/dim36/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim36",
+    "previous_repository_strict_upper": "0.00003121945691",
+    "earlier_repository_upper_densities": [
+      "0.00003121945691"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim36"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 37,
-    "strict_density_upper_bound": "0.00002171160843",
-    "package": "verifications/dim37",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.000020942659247",
+    "package": "verifications/dim37/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "3.2135620075930081623e-7",
     "previous_upper_density": "0.0000226586900106",
-    "upper_decrease_percent": "4.179772",
-    "gap_decrease_percent": "4.239904",
+    "upper_decrease_percent": "7.573389",
+    "gap_decrease_percent": "7.682344",
     "old_gap": "0.000022337333809840699184",
-    "new_gap": "0.000021390252229240699184",
+    "new_gap": "0.000020621303046240699184",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "2^40*sqrt(2)*pi^18*19!/38!",
-    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07"
+    "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
+    "source_package": "verifications/dim37/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim37",
+    "previous_repository_strict_upper": "0.00002171160843",
+    "earlier_repository_upper_densities": [
+      "0.00002171160843"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim37"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 38,
-    "strict_density_upper_bound": "0.00001511771069",
-    "package": "verifications/dim38",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.000014518201854",
+    "package": "verifications/dim38/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.1756673089128949178e-7",
     "previous_upper_density": "0.0000159506499105",
-    "upper_decrease_percent": "5.221977",
-    "gap_decrease_percent": "5.294189",
+    "upper_decrease_percent": "8.980500",
+    "gap_decrease_percent": "9.104687",
     "old_gap": "0.000015733083179608710508",
-    "new_gap": "0.000014900143959108710508",
+    "new_gap": "0.000014300635123108710508",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "pi^19*3^15*sqrt(3)/(19!*2^19*5)"
+    "known_lower_formula": "pi^19*3^15*sqrt(3)/(19!*2^19*5)",
+    "source_package": "verifications/dim38/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim38",
+    "previous_repository_strict_upper": "0.00001511771069",
+    "earlier_repository_upper_densities": [
+      "0.00001511771069"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim38"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 39,
-    "strict_density_upper_bound": "0.00001064953048",
-    "package": "verifications/dim39",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.000010220070761",
+    "package": "verifications/dim39/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "1.6802817736543232337e-7",
     "previous_upper_density": "0.0000112168687009",
-    "upper_decrease_percent": "5.057902",
-    "gap_decrease_percent": "5.134821",
+    "upper_decrease_percent": "8.886597",
+    "gap_decrease_percent": "9.021742",
     "old_gap": "0.000011048840523534567677",
-    "new_gap": "0.000010481502302634567677",
+    "new_gap": "0.000010052042583634567677",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "2^20*pi^19*3^16*20!/(sqrt(5)*40!)"
+    "known_lower_formula": "2^20*pi^19*3^16*20!/(sqrt(5)*40!)",
+    "source_package": "verifications/dim39/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim39",
+    "previous_repository_strict_upper": "0.00001064953048",
+    "earlier_repository_upper_densities": [
+      "0.00001064953048"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim39"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 40,
-    "strict_density_upper_bound": "0.000007516663425",
-    "package": "verifications/dim40",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0000073056578108",
+    "package": "verifications/dim40/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "1.4798339931342676703e-7",
     "previous_upper_density": "0.0000078801051697",
-    "upper_decrease_percent": "4.612143",
-    "gap_decrease_percent": "4.700414",
+    "upper_decrease_percent": "7.289844",
+    "gap_decrease_percent": "7.429363",
     "old_gap": "0.0000077321217703865732330",
-    "new_gap": "0.0000073686800256865732330",
+    "new_gap": "0.0000071576744114865732330",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "pi^20*3^16/(2^20*20!)"
+    "known_lower_formula": "pi^20*3^16/(2^20*20!)",
+    "source_package": "verifications/dim40/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim40",
+    "previous_repository_strict_upper": "0.000007516663425",
+    "earlier_repository_upper_densities": [
+      "0.000007516663425"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim40"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 41,
-    "strict_density_upper_bound": "0.000005243057366",
-    "package": "verifications/dim41",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0000051253080589",
+    "package": "verifications/dim41/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "8.6368303579508263683e-8",
     "previous_upper_density": "0.0000055306464395",
-    "upper_decrease_percent": "5.199918",
-    "gap_decrease_percent": "5.282410",
+    "upper_decrease_percent": "7.328951",
+    "gap_decrease_percent": "7.445218",
     "old_gap": "0.0000054442781359204917363",
-    "new_gap": "0.0000051566890624204917363",
+    "new_gap": "0.0000050389397553204917363",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "2^21*pi^20*3^17*21!/42!"
+    "known_lower_formula": "2^21*pi^20*3^17*21!/42!",
+    "source_package": "verifications/dim41/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim41",
+    "previous_repository_strict_upper": "0.000005243057366",
+    "earlier_repository_upper_densities": [
+      "0.000005243057366"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim41"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 42,
-    "strict_density_upper_bound": "0.000003677844262",
-    "package": "verifications/dim42",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0000036195942903",
+    "package": "verifications/dim42/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "5.7516899055409684372e-8",
     "previous_upper_density": "0.0000038780970907",
-    "upper_decrease_percent": "5.163688",
-    "gap_decrease_percent": "5.241425",
+    "upper_decrease_percent": "6.665712",
+    "gap_decrease_percent": "6.766061",
     "old_gap": "0.0000038205801916445903156",
-    "new_gap": "0.0000036203273629445903156",
+    "new_gap": "0.0000035620773912445903156",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "pi^21*3^17*sqrt(3)/(2^21*21!)"
+    "known_lower_formula": "pi^21*3^17*sqrt(3)/(2^21*21!)",
+    "source_package": "verifications/dim42/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim42",
+    "previous_repository_strict_upper": "0.000003677844262",
+    "earlier_repository_upper_densities": [
+      "0.000003677844262"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim42"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 43,
-    "strict_density_upper_bound": "0.000002629078004",
-    "package": "verifications/dim43",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0000026096189902",
+    "package": "verifications/dim43/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "4.6423267938841084059e-8",
     "previous_upper_density": "0.0000027169074727",
-    "upper_decrease_percent": "3.232700",
-    "gap_decrease_percent": "3.288897",
+    "upper_decrease_percent": "3.948919",
+    "gap_decrease_percent": "4.017567",
     "old_gap": "0.0000026704842047611589159",
-    "new_gap": "0.0000025826547360611589159",
+    "new_gap": "0.0000025631957222611589159",
     "known_lower_source": "https://arxiv.org/html/2607.20359v4",
-    "known_lower_formula": "pi^21*137^21*sqrt(137)*22!/(2^67*sqrt(2)*3^21*44!)"
+    "known_lower_formula": "pi^21*137^21*sqrt(137)*22!/(2^67*sqrt(2)*3^21*44!)",
+    "source_package": "verifications/dim43/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim43",
+    "previous_repository_strict_upper": "0.000002629078004",
+    "earlier_repository_upper_densities": [
+      "0.000002629078004"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim43"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 44,
-    "strict_density_upper_bound": "0.000001842868599",
-    "package": "verifications/dim44",
-    "method": "New Gaussian-damped cyclic angular/radial witness with exact origin Gram construction",
+    "strict_density_upper_bound": "0.0000018326064498",
+    "package": "verifications/dim44/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "3.9244265335277118067e-8",
     "previous_upper_density": "0.0000019017703144",
-    "upper_decrease_percent": "3.097204",
-    "gap_decrease_percent": "3.162464",
+    "upper_decrease_percent": "3.636815",
+    "gap_decrease_percent": "3.713444",
     "old_gap": "0.0000018625260490647228819",
-    "new_gap": "0.0000018036243336647228819"
+    "new_gap": "0.0000017933621844647228819",
+    "source_package": "verifications/dim44/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim44",
+    "previous_repository_strict_upper": "0.000001842868599",
+    "earlier_repository_upper_densities": [
+      "0.000001842868599"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim44"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 45,
-    "strict_density_upper_bound": "0.000001287489137",
-    "package": "verifications/dim45/refinement_radial20261114",
-    "method": "Degree47 Laguerre radial correction and complete coupled inequality through X=40; unchanged dimension-specific cyclic angular kernel",
+    "strict_density_upper_bound": "0.0000012656297919",
+    "package": "verifications/dim45/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "3.5582252942557527960e-8",
     "previous_upper_density": "0.0000013300905665",
-    "upper_decrease_percent": "3.202897",
-    "gap_decrease_percent": "3.290935",
+    "upper_decrease_percent": "4.846345",
+    "gap_decrease_percent": "4.979557",
     "old_gap": "0.0000012945083135574424720",
-    "new_gap": "0.0000012519068840574424720",
+    "new_gap": "0.0000012300475389574424720",
     "earlier_repository_upper_densities": [
-      "0.000001311423575"
+      "0.000001311423575",
+      "0.000001287489137"
     ],
-    "previous_repository_package": "verifications/dim45",
-    "previous_repository_strict_upper": "0.000001311423575",
-    "source_package": "verifications/dim45/refinement_radial20261114",
+    "previous_repository_package": "verifications/dim45/refinement_radial20261114",
+    "previous_repository_strict_upper": "0.000001287489137",
+    "source_package": "verifications/dim45/refinement_profile20261114",
     "current_table_reviewed": "2026-11-14",
     "current_table_source": "https://cohn.mit.edu/sphere-packing/",
     "current_table_upper_display": "0.0000013114235746",
-    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim"
+    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim",
+    "earlier_repository_packages": [
+      "verifications/dim45/refinement_radial20261114",
+      "verifications/dim45"
+    ],
+    "radial_profile": {
+      "a_exact": "-192",
+      "b_exact": "216",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 46,
-    "strict_density_upper_bound": "0.0000008756454737",
-    "package": "verifications/dim46/refinement_radial20261114",
-    "method": "Degree63 Laguerre radial correction and complete coupled inequality through X=40; unchanged dimension-specific cyclic angular kernel",
+    "strict_density_upper_bound": "8.7124499791E-7",
+    "package": "verifications/dim46/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.8609574721360648103e-8",
     "previous_upper_density": "9.295151556E-7",
-    "upper_decrease_percent": "5.795460",
-    "gap_decrease_percent": "5.979504",
+    "upper_decrease_percent": "6.268877",
+    "gap_decrease_percent": "6.467954",
     "old_gap": "9.0090558087863935190e-7",
-    "new_gap": "8.4703589897863935190e-7",
+    "new_gap": "8.4263542318863935190e-7",
     "earlier_repository_upper_densities": [
       "0.000000914882847",
       "0.000000897267583",
       "0.0000008868492132",
       "0.0000008803541044",
-      "0.0000008777229084"
+      "0.0000008777229084",
+      "0.0000008756454737"
     ],
-    "previous_repository_package": "verifications/dim46/refinement_extended_pair",
-    "source_package": "verifications/dim46/refinement_radial20261114",
-    "previous_repository_strict_upper": "0.0000008777229084",
+    "previous_repository_package": "verifications/dim46/refinement_radial20261114",
+    "source_package": "verifications/dim46/refinement_profile20261114",
+    "previous_repository_strict_upper": "0.0000008756454737",
     "current_table_reviewed": "2026-11-14",
     "current_table_source": "https://cohn.mit.edu/sphere-packing/",
     "current_table_upper_display": "0.0000008777229084",
-    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim"
+    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim",
+    "earlier_repository_packages": [
+      "verifications/dim46/refinement_radial20261114",
+      "verifications/dim46",
+      "verifications/dim46/refinement_joint",
+      "verifications/dim46/refinement_angular",
+      "verifications/dim46/refinement_extended_pair",
+      "verifications/dim46/refinement_degree47"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 47,
-    "strict_density_upper_bound": "0.0000005972403006",
-    "package": "verifications/dim47/refinement_radial20261114",
-    "method": "Degree47 Laguerre radial correction and complete coupled inequality through X=40; unchanged dimension-specific cyclic angular kernel",
-    "source_package": "verifications/dim47/refinement_radial20261114",
+    "strict_density_upper_bound": "5.9376953797E-7",
+    "package": "verifications/dim47/refinement_profile20261114",
+    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "source_package": "verifications/dim47/refinement_profile20261114",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table, four-month-old crawl; not exhaustive current worldwide priority",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "2.2669603229310984383e-8",
     "previous_upper_density": "6.490757338E-7",
-    "upper_decrease_percent": "7.986038",
-    "gap_decrease_percent": "8.275052",
+    "upper_decrease_percent": "8.520762",
+    "gap_decrease_percent": "8.829127",
     "old_gap": "6.2640613057068901562e-7",
-    "new_gap": "5.7457069737068901562e-7",
+    "new_gap": "5.7109993474068901562e-7",
     "earlier_repository_upper_densities": [
       "0.000000616879891",
       "0.0000006117584752",
       "0.0000006010083731",
-      "0.0000005998306274"
+      "0.0000005998306274",
+      "0.0000005972403006"
     ],
-    "previous_repository_package": "verifications/dim47/refinement_degree47",
-    "previous_repository_strict_upper": "0.0000005998306274",
+    "previous_repository_package": "verifications/dim47/refinement_radial20261114",
+    "previous_repository_strict_upper": "0.0000005972403006",
     "current_table_reviewed": "2026-11-14",
     "current_table_source": "https://cohn.mit.edu/sphere-packing/",
     "current_table_upper_display": "0.0000005998306274",
-    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim"
+    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim",
+    "earlier_repository_packages": [
+      "verifications/dim47/refinement_radial20261114",
+      "verifications/dim47",
+      "verifications/dim47/refinement_joint",
+      "verifications/dim47/refinement_angular",
+      "verifications/dim47/refinement_degree47"
+    ],
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120",
+      "q_exact": "1"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 48,

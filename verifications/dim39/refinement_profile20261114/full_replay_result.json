@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "dimension": 39,
+  "all_four_direct_replays_pass": true,
+  "executed": [
+    {
+      "script": "primary_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "primary_radial.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_radial.py",
+      "returncode": 0
+    }
+  ],
+  "strict_density_upper_bound": "0.000010220070761",
+  "complete_primary_and_independent_replay": true,
+  "source_manifest_sha256": "b17b2d1aa41e221fce5bde0e03131f283e114fe90d110bd740053973668c1a10",
+  "external_neighbor_counts_required": false,
+  "arithmetic_backend": "FLINT/Arb shared; independent proof implementations",
+  "execution": "All four scripts invoked directly before registry installation; wrapper registry/hash gates are checked separately",
+  "wrapper_metadata_update": "Added manifest/execution fields to wrapper output; rational inputs and all mathematical proof source hashes are identical to the completed replay"
+}
