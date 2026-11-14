@@ -1,0 +1,16 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '1153618388872687865313041135709176932237889/2413832882791589326344197467275264'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 6952, 'discarded_rectangles': 425, 'max_depth': 15, 'tails_exponential_check': True}
+
+fourier global root gate PASS
+physical global root gate PASS
+PRIMARY RADIAL PASS 46 [8.7564547369821468985178983468725511438947580227352533647599719836463348423595516279531203224067961378380041707278863444719171340923807753442473771500708e-7 +/- 7.88e-159] 9927 25
+
+ANGULAR_PASS {"pass": true, "dimension": 46, "degree": 19, "b0_exact": "1", "B_exact": "1153618388872687865313041135709176932237889/2413832882791589326344197467275264", "B_float": 477919742.1233786, "harmonic_expansion_exact": true, "constant_coefficient_spherical_moment_exact": true, "all_harmonic_coefficients_nonnegative": true, "sturm_variations_minus_one_cut_one": [10, 10, 9], "strict_cap_margin_exact": "1/100000", "unique_root_bracket_exact": ["633952126516714015558715013449/1267650600228229401496703205376", "6190938735514785308190576303291/12379400392853802748991242240000"], "unique_root_bracket_float": [0.5001000483907604, 0.5001000483907604], "tail_exponential_majorant_exact": true}
+CYCLIC_PASS {"pass": true, "dimension": 46, "precision_bits": 256, "alpha": 40, "compact_domain": "0<=t<=1/2, 1<=u<=5, 2tu<=1", "certified_rectangles": 4212, "discarded_rectangles": 247, "processed_rectangles": 8917, "max_axis_depth": 15, "changed_geometry_radicand": "exact monotone rational endpoint bounds", "gap_clipping": "nonnegative on the sorted-triangle feasible domain", "signed_secondary_terms": true, "tails_exact": true, "tail_first_gap_if_positive_exact": "4001/1000", "tail_second_gap_lower_exact": "24", "scale_extension": "single-sign-transition lemma; see AUDIT.md", "seconds": 1.7378878593444824}
+
+INDEPENDENT fourier RAY PASS
+INDEPENDENT physical RAY PASS
+INDEPENDENT RADIAL PASS 46 [8.756454736982146898517898346872551143894758022735253364759971983646334842359551627953120322406796137838004170727886344471917134092380775344247377150070852765174934082855413056597306941486389407814027036027970674765601287884367063e-7 +/- 7.13e-236] 9967 25
+
+FULL CERTIFICATE PASS 46 0.0000008756454737

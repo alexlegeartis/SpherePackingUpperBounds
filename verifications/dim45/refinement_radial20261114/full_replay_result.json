@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "dimension": 45,
+  "strict_density_upper_bound": "0.000001287489137",
+  "complete_primary_and_independent_replay": true,
+  "executed": [
+    {
+      "script": "continuum_three_point/independent_cyclic40_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "continuum_three_point/independent_cyclic40_domain.py",
+      "returncode": 0
+    },
+    {
+      "script": "verify_radial_primary.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent/audit_angular_cyclic.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent/audit_radial.py",
+      "returncode": 0
+    }
+  ],
+  "angular_data_unchanged": true,
+  "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+}

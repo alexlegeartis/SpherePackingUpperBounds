@@ -1,0 +1,2 @@
+# Numerical sample caches are regenerated; frozen checkpoints are retained.
+*.npz

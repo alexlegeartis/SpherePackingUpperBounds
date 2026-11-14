@@ -1,5 +1,19 @@
 # Comparison sources and conventions
 
+**14 November 2026 follow-up:** direct retrieval of the live Cohn page now
+returns HTTP 200. Its first, unrestricted-packing table displays 45D
+0.0000013114235746, 46D 0.0000008777229084 and 47D 0.0000005998306274.
+The new exact bounds 0.000001287489137, 0.0000008756454737 and
+0.0000005972403006 improve those entries. Relative to the preceding
+repository strict bounds, the reductions are 1.825073%, 0.236685% and
+0.431843%. The raw response and extracted rows are preserved in
+[the comparison snapshot](research/radial_enrichment_20261114/sources/COMPARISON_SNAPSHOT.json).
+The later lattice-only table is a different problem. External table witnesses
+are not replayed here, and this finite check does not establish exhaustive
+worldwide priority. The registered table retains its historical published
+comparators, so its percentages differ from the repository-to-repository
+reductions above.
+
 Reviewed 10 November 2026. Except for the updated 4D and 5D rows below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
 
 ## Lower bounds

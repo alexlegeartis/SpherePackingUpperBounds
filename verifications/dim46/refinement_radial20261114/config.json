@@ -1,0 +1,13 @@
+{
+  "dimension": 46,
+  "package": "verifications/dim46/refinement_radial20261114",
+  "strict_density_upper_bound": "0.0000008756454737",
+  "previous_repository_strict_upper": "0.0000008777229084",
+  "previous_repository_package": "verifications/dim46/refinement_extended_pair",
+  "radial_correction_degree": 63,
+  "minimum_squared_distance": "6",
+  "kappa_exact": "17/8",
+  "base_commit": "72028bb0c5eaaaeede50cd418ca09339ee404285",
+  "angular_polynomial_unchanged": true,
+  "external_neighbor_count_inputs": false
+}

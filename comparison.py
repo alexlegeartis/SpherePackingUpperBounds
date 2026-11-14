@@ -56,9 +56,9 @@ proof_ideas = {9:'Signed-hinge cyclic profile + average-neighbor count',10:'Log-
  42: 'Dimension-specific angular kernel + Gaussian radial optimization',
  43: 'Dimension-specific angular kernel + Gaussian radial optimization',
  44: 'Dimension-specific angular kernel + Gaussian radial optimization',
- 45: 'Dimension-specific angular kernel + Gaussian radial optimization',
- 46: 'Extended pair coupling + degree47 radial correction',
- 47: 'Rebuilt angular kernel + degree47 radial correction',
+ 45: 'Extended pair coupling + degree47 radial correction',
+ 46: 'Extended pair coupling + degree63 radial correction',
+ 47: 'Extended pair coupling + degree47 radial correction',
  48: 'Gaussian cyclic kernel + coupled radial optimization',
 }
 assert set(proof_ideas) == {row["dimension"] for row in rows}

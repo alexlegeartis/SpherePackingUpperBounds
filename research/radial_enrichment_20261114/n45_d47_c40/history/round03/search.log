@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/workspace/work/SpherePackingUpperBounds/research/radial_enrichment_20261114/search.py", line 66, in <module>
+    raise RuntimeError(res.message)
+RuntimeError: The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)

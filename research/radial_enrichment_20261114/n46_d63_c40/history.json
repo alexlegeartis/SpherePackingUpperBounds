@@ -1,0 +1,38 @@
+[
+  {
+    "round": 0,
+    "density_candidate": 8.756396380647973e-07,
+    "radial_audit_returncode": 1,
+    "seconds": 3.6353225708007812
+  },
+  {
+    "round": 1,
+    "density_candidate": 8.756435515118632e-07,
+    "radial_audit_returncode": 1,
+    "seconds": 7.014892339706421
+  },
+  {
+    "round": 2,
+    "density_candidate": 8.756446028498239e-07,
+    "radial_audit_returncode": 1,
+    "seconds": 11.036426544189453
+  },
+  {
+    "round": 3,
+    "density_candidate": 8.756447506125285e-07,
+    "radial_audit_returncode": 1,
+    "seconds": 14.738954544067383
+  },
+  {
+    "round": 4,
+    "density_candidate": 8.756447788637848e-07,
+    "radial_audit_returncode": 1,
+    "seconds": 18.084909915924072
+  },
+  {
+    "round": 5,
+    "density_candidate": 8.756447877996078e-07,
+    "radial_audit_returncode": 0,
+    "seconds": 22.60218596458435
+  }
+]

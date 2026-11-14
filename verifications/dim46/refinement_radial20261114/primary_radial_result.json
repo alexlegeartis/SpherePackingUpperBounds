@@ -1,0 +1,17 @@
+{
+  "pass": true,
+  "dimension": 46,
+  "strict_density_upper_bound": "8756454737/10000000000000000",
+  "strict_density_upper_decimal": "0.0000008756454737",
+  "density_interval": "[8.7564547369821468985178983468725511438947580227352533647599719836463348423595516279531203224067961378380041707278863444719171340923807753442473771500708e-7 +/- 7.88e-159]",
+  "exact_Fourier_coefficient_sum": true,
+  "complete_global_root_accounting": true,
+  "coupled_interval_X": "[6*pi,40]",
+  "physical_negative_ray_X": "[40,infinity)",
+  "pair_intervals": 9927,
+  "pair_depth": 25,
+  "origin_rank_one_identity_exact": true,
+  "positive_Fourier_normalization": true,
+  "rational_Machin_rounding": true,
+  "scope": "Primary radial gates; angular and cyclic checks are separate"
+}

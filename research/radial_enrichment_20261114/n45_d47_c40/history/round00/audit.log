@@ -1,0 +1,6 @@
+fourier forbidden roots: [(21.761916496787507, 1), (21.765259992831567, 1)]
+physical forbidden roots: []
+Traceback (most recent call last):
+  File "/workspace/work/SpherePackingUpperBounds/research/radial_enrichment_20261114/export_check.py", line 44, in <module>
+    raise RuntimeError('Forbidden sign roots')
+RuntimeError: Forbidden sign roots

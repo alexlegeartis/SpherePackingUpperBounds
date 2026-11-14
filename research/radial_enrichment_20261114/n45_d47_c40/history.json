@@ -1,0 +1,14 @@
+[
+  {
+    "round": 0,
+    "density_candidate": 1.287488070397668e-06,
+    "radial_audit_returncode": 1,
+    "seconds": 3.8756351470947266
+  },
+  {
+    "round": 1,
+    "density_candidate": 1.287488143329873e-06,
+    "radial_audit_returncode": 0,
+    "seconds": 7.71285605430603
+  }
+]

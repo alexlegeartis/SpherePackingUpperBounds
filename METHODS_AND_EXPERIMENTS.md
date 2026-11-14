@@ -273,3 +273,29 @@ The [9D package](verifications/dim9/) proves density <0.190926892 using the cite
 Signed mixed angular terms require their own ordering argument, not a componentwise monotonicity assertion. The proof includes this argument, exact profile conditions, a full triangle covering, a separate analytic-gradient audit, independent Fourier and Sturm checks, half-open shell endpoints and final rational rounding. No finite numerical sample is a certificate. This fresh reconstructed witness is not a claim that the family is saturated or globally optimal.
 
 The 9D live-objective refinement evaluates the radial linear program within the joint profile/angular search instead of relying only on a frozen dual-gradient surrogate. This handles changes of active radial constraints. The resulting exact replay certifies <0.190926892 independently of numerical convergence.
+
+## Radial continuation of 14 November 2026
+
+Three new exact witnesses improve the preceding 45D, 46D and 47D certificates.
+The 45D and 47D searches combine degree-47 Laguerre corrections with the
+extended coupled interval through X=40. The 46D correction degree increases
+from 47 to 63 with that same interval. All three keep minimum squared
+separation 6, rate 17/8 and the preceding dimension-specific angular kernel.
+Each final M receives the exact one-part-per-million guard 1000001/1000000.
+
+The strict bounds are 45D <1.287489137e-6, 46D <8.756454737e-7 and
+47D <5.972403006e-7. Complete primary and independent replays check global
+radial/Fourier signs, pair coupling, angular PSD, all-scale cyclic geometry,
+origin normalization and strict rational rounding. Exact export reconstruction
+proves the correction degrees and exhibits positive physical values after
+7*pi, outside the old physical-negativity template. The two implementations
+share FLINT/Arb root isolation; independence concerns reconstruction and
+interval enclosures, not separate arithmetic backends.
+
+The bounded search retained invalid sampled candidates and repaired their
+sign islands with exact-root-guided constraints. No numerical objective is
+used as proof. [Discovery, rejected checkpoints, exact exports and replay
+scope](research/radial_enrichment_20261114/) remain separate from the frozen
+dimension-specific certificates. The live Cohn unrestricted-packing table
+was fetched on 14 November 2026 and displays the preceding values; no
+exhaustive worldwide priority search is asserted.

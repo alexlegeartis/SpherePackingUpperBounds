@@ -1,0 +1,16 @@
+PAIR_PEAKS [(20.739854956277476, 0.9998997561943025), (25.19728376716478, 0.9998529082584088)]
+{'dimension': 45, 'degree': 47, 'coupled_upper_X_exact': '40', 'certified': False, 'density_candidate': 1.287488070397668e-06, 'objective': 4.910075265994003, 'margin': 1e-07, 'max_scaled_violation': -9.445440224580736e-08, 'seconds': 2.2659912109375, 'python': '3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]', 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Infeasible)'}, {'method': 'highs-ipm', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots: [(21.761916496787507, 1), (21.765259992831567, 1)]
+physical forbidden roots: []
+
+{'round': 0, 'density_candidate': 1.287488070397668e-06, 'radial_audit_returncode': 1, 'seconds': 3.8756351470947266}
+PAIR_PEAKS [(20.739976026556107, 0.9998997597215868), (25.197563430145898, 0.9998506171014822)]
+{'dimension': 45, 'degree': 47, 'coupled_upper_X_exact': '40', 'certified': False, 'density_candidate': 1.287488143329873e-06, 'objective': 4.910075544134534, 'margin': 1e-07, 'max_scaled_violation': -9.445493956352914e-08, 'seconds': 1.1875107288360596, 'python': '3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]', 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots: []
+physical forbidden roots: []
+RADIAL PASS 45 47 [1.2875874519275837795355474909643899901446838331669381271891148063767901339815918924108879798606627212350348652954854523257431681587862602165907265756660e-6 +/- 3.00e-158] 1155 18
+
+{'round': 1, 'density_candidate': 1.287488143329873e-06, 'radial_audit_returncode': 0, 'seconds': 7.71285605430603}
+ACCEPTED RADIAL GATES; ANGULAR REPLAY STILL REQUIRED

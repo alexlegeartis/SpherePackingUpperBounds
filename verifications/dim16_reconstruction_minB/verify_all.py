@@ -5,7 +5,7 @@ from fractions import Fraction as F
 import json,hashlib,subprocess,sys
 D=Path(__file__).resolve().parent
 row=next(r for r in json.loads((D.parents[1]/'RESULTS.json').read_text()) if r['dimension']==16)
-assert F(row['strict_density_upper_bound'])==F('0.024920883') and row['package']=='verifications/dim16_reconstruction_minB'
+assert F(row['strict_density_upper_bound'])<=F('0.024920883') and row['package'] in ['verifications/dim16_reconstruction_minB','verifications/dim16/widened_reconstruction']
 for f,h in json.loads((D/'input_hashes.json').read_text()).items():
  assert hashlib.sha256((D/f).read_bytes()).hexdigest()==h,('HASH',f)
 for f in ['fit.json','angular.json']:

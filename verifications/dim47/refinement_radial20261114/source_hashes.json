@@ -1,0 +1,13 @@
+{
+  "certificate.json": "335f0d5675592d68cdace11a5a7028a3b2dac6c696af8692fc352e2b2b4c53e4",
+  "config.json": "4def72816e184908f377feb60ea491f53f8bdc2e73baf3a3ec15791201da97b0",
+  "verify_radial_primary.py": "e8c6446ebb6263bdecc83734e69be6ac4387f3df9337c6cfdf3f941354159319",
+  "continuum_three_point/cyclic_angular40_exact.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "continuum_three_point/independent_cyclic40_angular.py": "08d696b9b1b2de5e821ef28d2842ac17c3a3decf22fd9a0e588507da4efdc828",
+  "continuum_three_point/independent_cyclic40_domain.py": "3379f348525063f908d207a7037f0af9260ed244a6a44b5dfc7a17bea12a21f6",
+  "independent/inputs/certificate.json": "335f0d5675592d68cdace11a5a7028a3b2dac6c696af8692fc352e2b2b4c53e4",
+  "independent/inputs/config.json": "4def72816e184908f377feb60ea491f53f8bdc2e73baf3a3ec15791201da97b0",
+  "independent/inputs/angular.json": "abf4a19d849fd8831b458ab0b56e4a3a09c1bf496067a08435f43a7f627ff17f",
+  "independent/audit_radial.py": "b2d736006cf9cb08b4b29e3b1af1c728ca2adce068f433451018de1739b4627d",
+  "independent/audit_angular_cyclic.py": "939a0033e70ea8f34373cf965433ec763a6b75bc49b26b92e630eb5ba8cc8b5a"
+}

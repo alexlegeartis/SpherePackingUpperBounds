@@ -1,0 +1,1 @@
+{'dimension': 47, 'degree': 47, 'coupled_upper_X_exact': '40', 'certified': False, 'density_candidate': 5.97237311282083e-07, 'objective': 11.358437637939701, 'margin': 1e-07, 'max_scaled_violation': -9.096883894691157e-08, 'seconds': 1.6867907047271729, 'python': '3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]'}

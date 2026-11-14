@@ -1,0 +1,18 @@
+{
+  "url": "https://cohn.mit.edu/sphere-packing/",
+  "retrieved_date": "2026-11-14",
+  "http_status": 200,
+  "table": "First table: unrestricted sphere packing, distinct from later lattice-only table",
+  "html_sha256": "fe2a68dd0bad5fb90357974b98e54944463c27a6dc0622f0983a42f6a328525f",
+  "raw_rows": [
+    "45 2 \u2212183/2 \u00b7 23 45/2 4 0.0000000355822529\u2026 0.0000013114235746 36.86 [ 8 , 25 ]",
+    "46 3 \u221293/2 \u00b7 13 23 3 0.0000000286095747\u2026 0.0000008777229084 30.68 [ 12 , 25 ]",
+    "47 2 \u2212118 \u00b7 47 47/2 2 0.0000000226696032\u2026 0.0000005998306274 26.46 [ 8 , 25 ]"
+  ],
+  "upper_decimals": {
+    "45": "0.0000013114235746",
+    "46": "0.0000008777229084",
+    "47": "0.0000005998306274"
+  },
+  "scope": "Displayed comparison values only; external witnesses not replayed and literature search not exhaustive"
+}
