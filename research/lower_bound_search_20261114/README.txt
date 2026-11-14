@@ -17,6 +17,11 @@ self-orthogonal ternary fibers at squared minimum twelve. The conditional
 densities would improve records in 34D/36D/38D/40D, but no valid target was
 found. Product tetracode fibers are excluded; the general search remains open.
 
+A later continuation is in selforthogonal_followup/README.txt. It exactly
+excludes the two saved best fiber types, adds shorter-dimension product and
+Golay-factor obstructions, and supplies catalog, neighbor and SAT searches.
+The general construction is still unresolved; no new record was obtained.
+
 Here delta always denotes center density: packing fraction divided by the
 volume of the unit ball in the same dimension.
 

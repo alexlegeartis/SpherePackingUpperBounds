@@ -1,0 +1,342 @@
+[
+  {
+    "n": 17,
+    "catalog_index": 2,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 414884,
+    "automorphism_group_order": 124416,
+    "seconds": 8.636651754379272,
+    "solver_stats": {
+      "restarts": 122,
+      "conflicts": 50725,
+      "decisions": 78797,
+      "propagations": 75781659
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 3,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 474644,
+    "automorphism_group_order": 746496,
+    "seconds": 12.612169027328491,
+    "solver_stats": {
+      "restarts": 135,
+      "conflicts": 54127,
+      "decisions": 86577,
+      "propagations": 82894265
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 4,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 410286,
+    "automorphism_group_order": 186624,
+    "seconds": 8.491572618484497,
+    "solver_stats": {
+      "restarts": 108,
+      "conflicts": 51221,
+      "decisions": 76119,
+      "propagations": 77510891
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 5,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 417218,
+    "automorphism_group_order": 103680,
+    "seconds": 8.750429630279541,
+    "solver_stats": {
+      "restarts": 139,
+      "conflicts": 50034,
+      "decisions": 84320,
+      "propagations": 75829133
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 7,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 405666,
+    "automorphism_group_order": 570240,
+    "seconds": 9.760064363479614,
+    "solver_stats": {
+      "restarts": 165,
+      "conflicts": 50516,
+      "decisions": 87576,
+      "propagations": 79058604
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 8,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 405460,
+    "automorphism_group_order": 6912,
+    "seconds": 7.238080263137817,
+    "solver_stats": {
+      "restarts": 114,
+      "conflicts": 51069,
+      "decisions": 91639,
+      "propagations": 72726177
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 9,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 408632,
+    "automorphism_group_order": 31104,
+    "seconds": 8.746532440185547,
+    "solver_stats": {
+      "restarts": 150,
+      "conflicts": 50339,
+      "decisions": 88578,
+      "propagations": 82607324
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 10,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 469796,
+    "automorphism_group_order": 124416,
+    "seconds": 9.79685926437378,
+    "solver_stats": {
+      "restarts": 125,
+      "conflicts": 50842,
+      "decisions": 91639,
+      "propagations": 79799568
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 11,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 417332,
+    "automorphism_group_order": 134784,
+    "seconds": 9.75558876991272,
+    "solver_stats": {
+      "restarts": 181,
+      "conflicts": 50151,
+      "decisions": 86953,
+      "propagations": 86233088
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 12,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 399050,
+    "automorphism_group_order": 17280,
+    "seconds": 7.183983087539673,
+    "solver_stats": {
+      "restarts": 108,
+      "conflicts": 50025,
+      "decisions": 83555,
+      "propagations": 74460203
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 13,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 402130,
+    "automorphism_group_order": 2592,
+    "seconds": 7.779815196990967,
+    "solver_stats": {
+      "restarts": 144,
+      "conflicts": 50294,
+      "decisions": 92932,
+      "propagations": 77363129
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 14,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 463838,
+    "automorphism_group_order": 51840,
+    "seconds": 8.800920963287354,
+    "solver_stats": {
+      "restarts": 94,
+      "conflicts": 54015,
+      "decisions": 90155,
+      "propagations": 80753453
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 15,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 402402,
+    "automorphism_group_order": 5184,
+    "seconds": 7.702940225601196,
+    "solver_stats": {
+      "restarts": 133,
+      "conflicts": 50056,
+      "decisions": 85113,
+      "propagations": 75660203
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 16,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 398642,
+    "automorphism_group_order": 2592,
+    "seconds": 8.722767114639282,
+    "solver_stats": {
+      "restarts": 123,
+      "conflicts": 52874,
+      "decisions": 93005,
+      "propagations": 81476409
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 17,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 460214,
+    "automorphism_group_order": 33696,
+    "seconds": 9.669692993164062,
+    "solver_stats": {
+      "restarts": 76,
+      "conflicts": 50701,
+      "decisions": 88122,
+      "propagations": 79328115
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 18,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 397418,
+    "automorphism_group_order": 1152,
+    "seconds": 7.743335723876953,
+    "solver_stats": {
+      "restarts": 148,
+      "conflicts": 50386,
+      "decisions": 84168,
+      "propagations": 79658172
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 19,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 397690,
+    "automorphism_group_order": 1008,
+    "seconds": 8.69584035873413,
+    "solver_stats": {
+      "restarts": 203,
+      "conflicts": 50048,
+      "decisions": 106897,
+      "propagations": 84514231
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 20,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 454664,
+    "automorphism_group_order": 21504,
+    "seconds": 11.313578605651855,
+    "solver_stats": {
+      "restarts": 110,
+      "conflicts": 50997,
+      "decisions": 92755,
+      "propagations": 89692951
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 21,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 392004,
+    "automorphism_group_order": 576,
+    "seconds": 7.234819412231445,
+    "solver_stats": {
+      "restarts": 137,
+      "conflicts": 50192,
+      "decisions": 89917,
+      "propagations": 75857747
+    }
+  },
+  {
+    "n": 17,
+    "catalog_index": 22,
+    "result": "UNKNOWN",
+    "reason": "conflict budget",
+    "iterations": 1,
+    "variables": 19159,
+    "clauses": 391188,
+    "automorphism_group_order": 192,
+    "seconds": 8.884086608886719,
+    "solver_stats": {
+      "restarts": 125,
+      "conflicts": 50044,
+      "decisions": 87890,
+      "propagations": 87142057
+    }
+  }
+]

@@ -1,0 +1,5 @@
+PASS shortening 2: 4 orbits, 190 outer codes.
+PASS shortening 3: 12 orbits, 1140 outer codes.
+PASS shortening 4: 53 orbits, 4845 outer codes.
+PASS shortening 5: 137 orbits, 15504 outer codes.
+PASS: new component/product exclusions and the Golay-factor obstruction replayed.
