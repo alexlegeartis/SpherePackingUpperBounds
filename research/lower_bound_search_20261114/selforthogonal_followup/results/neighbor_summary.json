@@ -1,0 +1,38 @@
+[
+  {
+    "dimension": 34,
+    "method": "hyperplane cuts",
+    "best_energy": 202,
+    "evaluations": 117298,
+    "iterations": 492,
+    "seconds": 180.00251483917236,
+    "evaluations_may_repeat": true
+  },
+  {
+    "dimension": 34,
+    "method": "dimension-six cuts",
+    "best_energy": 202,
+    "evaluations": 763160,
+    "iterations": 700,
+    "seconds": 180.00614023208618,
+    "evaluations_may_repeat": true
+  },
+  {
+    "dimension": 36,
+    "method": "hyperplane cuts",
+    "best_energy": 129,
+    "evaluations": 210019,
+    "iterations": 293,
+    "seconds": 180.00207591056824,
+    "evaluations_may_repeat": true
+  },
+  {
+    "dimension": 36,
+    "method": "dimension-six cuts",
+    "best_energy": 131,
+    "evaluations": 1711080,
+    "iterations": 220,
+    "seconds": 180.01655077934265,
+    "evaluations_may_repeat": true
+  }
+]

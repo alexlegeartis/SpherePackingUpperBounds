@@ -1,0 +1,70 @@
+Completed first coordinate 0; checked 697 selections; elapsed 130.4s
+Completed first coordinate 1; checked 1273 selections; elapsed 232.8s
+Completed first coordinate 2; checked 1743 selections; elapsed 315.9s
+Completed first coordinate 3; checked 2121 selections; elapsed 384.0s
+Completed first coordinate 4; checked 2420 selections; elapsed 440.1s
+Completed first coordinate 5; checked 2652 selections; elapsed 479.9s
+Completed first coordinate 6; checked 2828 selections; elapsed 510.0s
+Completed first coordinate 7; checked 2958 selections; elapsed 531.8s
+Completed first coordinate 8; checked 3051 selections; elapsed 546.5s
+Completed first coordinate 9; checked 3115 selections; elapsed 556.1s
+Completed first coordinate 10; checked 3157 selections; elapsed 562.4s
+Completed first coordinate 11; checked 3183 selections; elapsed 565.9s
+Completed first coordinate 12; checked 3198 selections; elapsed 567.6s
+Completed first coordinate 13; checked 3206 selections; elapsed 568.3s
+Completed first coordinate 14; checked 3210 selections; elapsed 568.5s
+Completed first coordinate 15; checked 3212 selections; elapsed 568.6s
+Completed first coordinate 16; checked 3213 selections; elapsed 568.7s
+{
+  "1": {
+    "selected_coordinates": [
+      16
+    ],
+    "degree": 4665,
+    "least_eigenvalue": -263,
+    "states_upper_bound": "12926976/77",
+    "states_needed_for_record": 227261,
+    "density_ratio_upper_exact": "144585779052544/195723668781333",
+    "density_ratio_upper_decimal": 0.7387240386040309
+  },
+  "2": {
+    "selected_coordinates": [
+      0,
+      9
+    ],
+    "degree": 6333,
+    "least_eigenvalue": -395,
+    "states_upper_bound": "465960960/841",
+    "states_needed_for_record": 681782,
+    "density_ratio_upper_exact": "1737228371886080/2137709161624689",
+    "density_ratio_upper_decimal": 0.8126588981663726
+  },
+  "3": {
+    "selected_coordinates": [
+      1,
+      5,
+      9
+    ],
+    "degree": 8670,
+    "least_eigenvalue": -598,
+    "states_upper_bound": "4232577024/2317",
+    "states_needed_for_record": 2045345,
+    "density_ratio_upper_exact": "5260063627280384/5889503124238293",
+    "density_ratio_upper_decimal": 0.8931251951684267
+  },
+  "4": {
+    "selected_coordinates": [
+      1,
+      5,
+      9,
+      15
+    ],
+    "degree": 11844,
+    "least_eigenvalue": -904,
+    "states_upper_bound": "19195232256/3187",
+    "states_needed_for_record": 6136034,
+    "density_ratio_upper_exact": "7951668092076032/8100926394884523",
+    "density_ratio_upper_decimal": 0.9815751562805529
+  }
+}
+PASS: all 3213 selected-coordinate fiber families are below the pinned 34D record.

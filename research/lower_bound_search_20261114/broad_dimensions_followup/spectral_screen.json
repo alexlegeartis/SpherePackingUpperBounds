@@ -1,0 +1,60 @@
+[
+  {
+    "name": "BN28b",
+    "dimension": 28,
+    "eigenspace_ranks": [
+      16,
+      12
+    ],
+    "objective": -16.0,
+    "direction": [
+      -1.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "BN28c",
+    "dimension": 28,
+    "eigenspace_ranks": [
+      24,
+      4
+    ],
+    "objective": -24.0,
+    "direction": [
+      -1.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "Q30",
+    "dimension": 30,
+    "eigenspace_ranks": [
+      2,
+      2,
+      12,
+      12,
+      2
+    ],
+    "objective": 0.0,
+    "direction": [
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0,
+      -0.0
+    ]
+  },
+  {
+    "name": "Q31",
+    "dimension": 31,
+    "eigenspace_ranks": [
+      3,
+      28
+    ],
+    "objective": 0.0,
+    "direction": [
+      -0.0,
+      -0.0
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "new_SOTA": false,
+  "minimum12_status": "open",
+  "catalog_seeds": 35,
+  "random_deep_hole_trials": {
+    "denominator_3": 1000000,
+    "denominator_4": 1000000
+  },
+  "promoted_hole_witnesses": {
+    "denominator_3": 47444,
+    "denominator_4": 44831
+  },
+  "global_anticode_dimensions": [
+    19,
+    20,
+    21,
+    22,
+    43,
+    44,
+    45,
+    46
+  ],
+  "full_diameter_dimensions": [
+    19,
+    20,
+    21,
+    22,
+    44,
+    45,
+    46
+  ],
+  "dimension_43_diameter_limit": "13/20",
+  "periodic44_contacts": 13000,
+  "periodic44_equations": 1166,
+  "periodic44_stress_certificate": true
+}

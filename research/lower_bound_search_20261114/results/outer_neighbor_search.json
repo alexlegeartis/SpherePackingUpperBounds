@@ -1,0 +1,56 @@
+[
+  {
+    "trial": 0,
+    "codimension": 1,
+    "deep_projective_points": 1,
+    "new_code_tested": 1,
+    "weight_enumerator": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1002,
+      2328,
+      8700,
+      30708,
+      69972,
+      132864,
+      201372,
+      231960,
+      197442,
+      119688,
+      44775,
+      7764
+    ],
+    "fiber": "UNSAT nodes 23687 seconds 0.352611"
+  },
+  {
+    "trial": 108,
+    "codimension": 2,
+    "deep_projective_points": 449,
+    "new_code_tested": 2,
+    "weight_enumerator": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1002,
+      2328,
+      8700,
+      30708,
+      69972,
+      132864,
+      201372,
+      231960,
+      197442,
+      119688,
+      44775,
+      7764
+    ],
+    "fiber": "UNSAT nodes 23687 seconds 0.240879"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "contacts_pairs": 126012,
+  "objective": 0.0,
+  "constraints": 5000,
+  "minimum_constraint": 0.0,
+  "iterations": 1
+}

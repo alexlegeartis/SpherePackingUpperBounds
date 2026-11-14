@@ -1,0 +1,39 @@
+[
+  {
+    "length": 15,
+    "dimension": 7,
+    "catalog_types": 12,
+    "generator_sha256": "04add3f5c29bccd0bc8f1326b21b79dcb477cf91fc231f661825b89b73cd53a8"
+  },
+  {
+    "length": 16,
+    "dimension": 8,
+    "catalog_types": 7,
+    "generator_sha256": "a6c95ecff2b4fb3d55ec851525beee225d0424b56caca3e61e90277c7fd195c4"
+  },
+  {
+    "length": 17,
+    "dimension": 8,
+    "catalog_types": 23,
+    "generator_sha256": "7c17c083a0980280016fe3a21d479c61d8299b428e050ba4dc9795ebd9456648"
+  },
+  {
+    "length": 18,
+    "dimension": 8,
+    "catalog_types": 160,
+    "generator_sha256": "3dcf9b02dc4d6e9702bfd5720ec144faeaa41695d4fb44497d9c106ceb7cf08c"
+  },
+  {
+    "length": 19,
+    "dimension": 9,
+    "catalog_types": 56,
+    "generator_sha256": "348c09d74fbc273cc277317366718ab82346b89d31104a771e29f0736946c1bb"
+  },
+  {
+    "length": 20,
+    "dimension": 10,
+    "catalog_types": 24,
+    "generator_sha256": "eeb2e7e838f2f5b4adaef2a633148e4b31e5f531c3f42e478db93754abc8a5be"
+  }
+]
+PASS: all 282 catalog matrices have the stated rank and self-orthogonality.

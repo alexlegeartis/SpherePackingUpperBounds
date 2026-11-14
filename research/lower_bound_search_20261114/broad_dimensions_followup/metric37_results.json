@@ -1,0 +1,12 @@
+[
+  {
+    "iteration": 0,
+    "constraints": 5038,
+    "status": 0,
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 20.037277936935425,
+    "objective": -0.06164512854581337,
+    "violated": 0,
+    "worst": -3.7466000355389044e-10
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "known_excluded_type": {
+    "length": 17,
+    "catalog_index": 0
+  },
+  "solver_result": "UNSAT",
+  "independent_checker_result": "VERIFIED",
+  "checker_source_url": "https://github.com/marijnheule/drat-trim",
+  "checker_source_sha256": "d834b649f437e091597f5347f259b9f681087f89ca0844d0cee250a1a1a0c2ee",
+  "cnf_sha256": "2f14028bf5ab3054afa63b405af5f9c983c4d416c80ca15e29c886d642d04b38",
+  "drat_sha256": "f691a4412509aa6871153e2c57364c6145600abdd3862d520cc1eb750ef46090",
+  "note": "This validates the SAT encoding on a type already excluded by the direct tetracode search. It does not exclude the remaining types."
+}

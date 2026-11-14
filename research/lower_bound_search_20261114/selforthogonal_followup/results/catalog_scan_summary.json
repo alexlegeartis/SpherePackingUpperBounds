@@ -1,0 +1,58 @@
+[
+  {
+    "dimension": 30,
+    "catalog_types_tested": 12,
+    "steps_per_type": 2000,
+    "best_catalog_index": 0,
+    "best_search_energy": 166,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 32,
+    "catalog_types_tested": 7,
+    "steps_per_type": 2000,
+    "best_catalog_index": 0,
+    "best_search_energy": 410,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 34,
+    "catalog_types_tested": 23,
+    "steps_per_type": 1000,
+    "best_catalog_index": 5,
+    "best_search_energy": 258,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 36,
+    "catalog_types_tested": 160,
+    "steps_per_type": 1000,
+    "best_catalog_index": 39,
+    "best_search_energy": 144,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 38,
+    "catalog_types_tested": 56,
+    "steps_per_type": 2000,
+    "best_catalog_index": 14,
+    "best_search_energy": 357,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 40,
+    "catalog_types_tested": 24,
+    "steps_per_type": 2000,
+    "best_catalog_index": 20,
+    "best_search_energy": 731,
+    "scope": "heuristic coordinate placements"
+  },
+  {
+    "dimension": 36,
+    "catalog_types_tested": 160,
+    "steps_per_type": 10000,
+    "best_catalog_index": 7,
+    "best_search_energy": 141,
+    "scope": "heuristic coordinate placements"
+  }
+]

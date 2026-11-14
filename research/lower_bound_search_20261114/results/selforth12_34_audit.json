@@ -1,0 +1,14 @@
+{
+  "packing_dimension": 34,
+  "outer_dimension": 10,
+  "ternary_dimension": 8,
+  "target_minimum_squared": 12,
+  "attained_minimum_squared": 9,
+  "norm6_bad_trit_words": 0,
+  "norm9_bad_trit_words": 404,
+  "conditional_center_density_at_minimum12_squared": "64/3",
+  "actual_center_density_squared": "5559060566555523/4611686018427387904",
+  "actual_density_ratio_to_pinned_record_squared": "1/4096",
+  "is_new_record_against_pinned_value": false,
+  "ternary_generator_sha256_u8": "a047bd0796e5201465c99f3c667cd15ee5e5840f264cc00cdc5b7cb6a905cdbf"
+}

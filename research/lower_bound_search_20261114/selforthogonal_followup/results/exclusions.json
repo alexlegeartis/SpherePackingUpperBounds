@@ -1,0 +1,2669 @@
+{
+  "scope": "Only the explicitly listed minimum-twelve fiber families.",
+  "outer_weight_enumerator": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3060,
+    9240,
+    45450,
+    212400,
+    666948,
+    1792680,
+    4111080,
+    7539360,
+    11305500,
+    13582824,
+    12736845,
+    8971440,
+    4504620,
+    1413720,
+    213696
+  ],
+  "outer_dual_minimum": 8,
+  "verified_support_group_order": 120,
+  "golay_obstruction": {
+    "golay_weight6_supports": 132,
+    "golay_7_subsets_checked": 792,
+    "parent_12_subsets_checked": 125970,
+    "conclusion": "Every placement of a ternary Golay12 direct factor has a norm-nine violation."
+  },
+  "saved_seed_factorizations": [
+    {
+      "dimension": 34,
+      "candidate": "original34",
+      "factor_lengths": [
+        9,
+        4,
+        4
+      ],
+      "factor_code_sizes": [
+        81,
+        9,
+        9
+      ],
+      "direct_product_verified": true
+    },
+    {
+      "dimension": 36,
+      "candidate": "original36",
+      "factor_lengths": [
+        9,
+        9
+      ],
+      "factor_code_sizes": [
+        81,
+        81
+      ],
+      "direct_product_verified": true
+    },
+    {
+      "dimension": 36,
+      "candidate": "new36",
+      "factor_lengths": [
+        9,
+        9
+      ],
+      "factor_code_sizes": [
+        81,
+        81
+      ],
+      "direct_product_verified": true
+    }
+  ],
+  "outer_codes_covered": 21679,
+  "orbit_results": [
+    {
+      "dimension": 36,
+      "removed_coordinates": [
+        0,
+        1
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "T9 direct factor",
+      "result": "UNSAT n 18 tested_components 13613600 minimum_component_score 1 valid_components 0 combinations 0\n28 2688 73730"
+    },
+    {
+      "dimension": 36,
+      "removed_coordinates": [
+        0,
+        2
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "T9 direct factor",
+      "result": "UNSAT n 18 tested_components 13613600 minimum_component_score 2 valid_components 0 combinations 0\n13 12290 198656"
+    },
+    {
+      "dimension": 36,
+      "removed_coordinates": [
+        0,
+        3
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "T9 direct factor",
+      "result": "UNSAT n 18 tested_components 13613600 minimum_component_score 1 valid_components 0 combinations 0\n268 10272 98305"
+    },
+    {
+      "dimension": 36,
+      "removed_coordinates": [
+        0,
+        19
+      ],
+      "outer_codes_covered": 10,
+      "fiber_family": "T9 direct factor",
+      "result": "UNSAT n 18 tested_components 13613600 minimum_component_score 2 valid_components 0 combinations 0\n19 4416 67588"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        2
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 1 combinations 35\n1296 24584 36868"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        3
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 2 combinations 70\n161 4610 32836"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 1 combinations 35\n386 8212 67072"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 1 combinations 35\n21 776 24640"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 1 combinations 35\n1160 2128 33282"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        9
+      ],
+      "outer_codes_covered": 40,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 1 valid_components 0 combinations 0\n21 1312 49154"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 1 valid_components 0 combinations 0\n28 1408 36866"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        1,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 1 valid_components 0 combinations 0\n26 4384 35840"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 1 valid_components 0 combinations 0\n73 7168 8720"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 2 valid_components 0 combinations 0\n11 32836 70656"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        2,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 0 valid_components 2 combinations 70\n35 5376 73856"
+    },
+    {
+      "dimension": 34,
+      "removed_coordinates": [
+        0,
+        3,
+        18
+      ],
+      "outer_codes_covered": 20,
+      "fiber_family": "T9 + two tetracodes",
+      "result": "UNSAT n 17 tested_components 6806800 minimum_component_score 2 valid_components 0 combinations 0\n7 2576 98336"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 282 nodes 1833"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 324 nodes 1838"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 316 nodes 1836"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 278 nodes 1841"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "outer_codes_covered": 30,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 377 nodes 1837"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 316 nodes 1825"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 278 nodes 1837"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        10
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 389 nodes 1829"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 368 nodes 1844"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        12
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 431 nodes 1847"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 291 nodes 1838"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 336 nodes 1839"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 313 nodes 1829"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 319 nodes 1836"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 368 nodes 1842"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 302 nodes 1829"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        5
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 301 nodes 1838"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 323 nodes 1841"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 300 nodes 1838"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 289 nodes 1840"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        18
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 259 nodes 1832"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 316 nodes 1830"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 289 nodes 1832"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 310 nodes 1835"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 315 nodes 1842"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 309 nodes 1844"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 300 nodes 1832"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        15
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 304 nodes 1841"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 277 nodes 1836"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 314 nodes 1833"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        19
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 321 nodes 1842"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 308 nodes 1835"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        9
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 315 nodes 1856"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 332 nodes 1835"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        13
+      ],
+      "outer_codes_covered": 30,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 436 nodes 1904"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 359 nodes 1844"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        17
+      ],
+      "outer_codes_covered": 40,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 234 nodes 1829"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        18
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 324 nodes 1854"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        19
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 300 nodes 1856"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 325 nodes 1829"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        11
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 312 nodes 1836"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        18
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 301 nodes 1840"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 302 nodes 1831"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        9,
+        17
+      ],
+      "outer_codes_covered": 10,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 243 nodes 1861"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        10,
+        14
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 334 nodes 1836"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        10,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 316 nodes 1830"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        10,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 314 nodes 1833"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        1,
+        18,
+        19
+      ],
+      "outer_codes_covered": 30,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 324 nodes 1852"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        2,
+        4,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 334 nodes 1837"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        2,
+        4,
+        18
+      ],
+      "outer_codes_covered": 30,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 477 nodes 1853"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        2,
+        8,
+        11
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 239 nodes 1839"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        2,
+        8,
+        19
+      ],
+      "outer_codes_covered": 15,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 304 nodes 1824"
+    },
+    {
+      "dimension": 32,
+      "removed_coordinates": [
+        0,
+        2,
+        11,
+        13
+      ],
+      "outer_codes_covered": 40,
+      "fiber_family": "four tetracodes",
+      "result": "UNSAT n 16 edges 270 nodes 1825"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 256 nodes 1422"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 334 nodes 1474"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        7
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 321 nodes 1452"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 325 nodes 1457"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        9
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 398 nodes 1474"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 395 nodes 1489"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 367 nodes 1476"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        12
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 365 nodes 1461"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 230 nodes 1411"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 328 nodes 1449"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 234 nodes 1410"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 190 nodes 1404"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 239 nodes 1400"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 317 nodes 1439"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        3,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 277 nodes 1426"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 316 nodes 1443"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 322 nodes 1452"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        7
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 388 nodes 1470"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 311 nodes 1436"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        9
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 257 nodes 1428"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 318 nodes 1435"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 327 nodes 1444"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        12
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 393 nodes 1471"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 337 nodes 1466"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 380 nodes 1477"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 474 nodes 1511"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 324 nodes 1449"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 390 nodes 1482"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 429 nodes 1493"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        4,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 252 nodes 1422"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 301 nodes 1439"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 307 nodes 1464"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 324 nodes 1437"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 419 nodes 1505"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 358 nodes 1458"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 439 nodes 1507"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 411 nodes 1504"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 233 nodes 1419"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 353 nodes 1468"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        5,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 289 nodes 1430"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        8
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 276 nodes 1438"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        9
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 300 nodes 1454"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 326 nodes 1459"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 360 nodes 1471"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        12
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 314 nodes 1447"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 325 nodes 1439"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 282 nodes 1430"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 354 nodes 1465"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 300 nodes 1453"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        6,
+        19
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 276 nodes 1459"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        7,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 448 nodes 1505"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        7,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 431 nodes 1502"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 378 nodes 1452"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 321 nodes 1449"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        12
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 510 nodes 1528"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 266 nodes 1432"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 349 nodes 1460"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 349 nodes 1465"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 321 nodes 1447"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 299 nodes 1424"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 300 nodes 1438"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        8,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 323 nodes 1442"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 316 nodes 1463"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        12
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 405 nodes 1472"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 238 nodes 1436"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 288 nodes 1433"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 317 nodes 1455"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        9,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 308 nodes 1454"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        10,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 479 nodes 1531"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        10,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 360 nodes 1477"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 305 nodes 1445"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 382 nodes 1478"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 409 nodes 1487"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 388 nodes 1477"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        11,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 308 nodes 1445"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        12,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 429 nodes 1509"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        13,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 337 nodes 1469"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        13,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 316 nodes 1431"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        13,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 353 nodes 1476"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        13,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 300 nodes 1461"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        14,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 296 nodes 1433"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        14,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 417 nodes 1485"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        14,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 266 nodes 1441"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        15,
+        16
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 325 nodes 1453"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        15,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 339 nodes 1462"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        15,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 279 nodes 1437"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        16,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 381 nodes 1475"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        2,
+        18,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 339 nodes 1471"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        5,
+        6
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 308 nodes 1430"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        5,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 311 nodes 1440"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        5,
+        18
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 269 nodes 1436"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 454 nodes 1506"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 306 nodes 1432"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 455 nodes 1535"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 374 nodes 1458"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 382 nodes 1455"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        6,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 269 nodes 1452"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        10,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 327 nodes 1440"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        10,
+        14
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 271 nodes 1437"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        10,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 315 nodes 1445"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        10,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 276 nodes 1433"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        13,
+        15
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 442 nodes 1486"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        3,
+        13,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 277 nodes 1450"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        8
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 346 nodes 1450"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 314 nodes 1439"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 339 nodes 1460"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 457 nodes 1536"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 349 nodes 1455"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 342 nodes 1448"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 241 nodes 1434"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        6,
+        18
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 307 nodes 1457"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        8,
+        10
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 287 nodes 1428"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        8,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 251 nodes 1422"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 423 nodes 1509"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 299 nodes 1441"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10,
+        15
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 270 nodes 1430"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 321 nodes 1451"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        10,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 355 nodes 1483"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        11,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 360 nodes 1471"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        11,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 300 nodes 1458"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        13,
+        17
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 308 nodes 1465"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        13,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 349 nodes 1478"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        14,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 360 nodes 1468"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        4,
+        17,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 321 nodes 1444"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        8,
+        11
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 326 nodes 1432"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        8,
+        19
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 276 nodes 1459"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        9,
+        13
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 310 nodes 1509"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        9,
+        17
+      ],
+      "outer_codes_covered": 40,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 327 nodes 1506"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        9,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 310 nodes 1509"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        11,
+        14
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 458 nodes 1497"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        6,
+        11,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 339 nodes 1485"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        10,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 277 nodes 1434"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        8,
+        10,
+        19
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 279 nodes 1428"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        10,
+        14,
+        18
+      ],
+      "outer_codes_covered": 120,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 323 nodes 1453"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        1,
+        10,
+        18,
+        19
+      ],
+      "outer_codes_covered": 60,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 307 nodes 1450"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        2,
+        4,
+        13,
+        15
+      ],
+      "outer_codes_covered": 24,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 415 nodes 1495"
+    },
+    {
+      "dimension": 30,
+      "removed_coordinates": [
+        0,
+        2,
+        8,
+        11,
+        13
+      ],
+      "outer_codes_covered": 20,
+      "fiber_family": "three tetracodes + repetition3",
+      "result": "UNSAT n 15 edges 261 nodes 1441"
+    }
+  ]
+}

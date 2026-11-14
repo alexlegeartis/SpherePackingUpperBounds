@@ -1,0 +1,98 @@
+A DIFFERENT CONSTRUCTION TARGET: CHANGE THE MINIMUM TO TWELVE
+
+This is a conditional target and an implemented search, not a new density
+record. It is outside the minimum-eight obstructions in FOLLOWUP.txt.
+
+Keep the same mixed hexagonal quotient, with period squared minimum twelve.
+Use a quaternary [n,k,6] code C and a ternary linear self-orthogonal code T of
+dimension t. Self-orthogonality makes every ternary word's weight divisible by
+three. Since a^2-a*b+b^2 == (a+b)^2 modulo three, all squared norms of the
+resulting lattice are divisible by three as well.
+
+For a ternary difference with support J and an outer difference with support S,
+the exact least squared norm is
+
+                    3*|S| + 4*|J| - 6*|S intersect J|.
+
+The outer minimum six and self-orthogonality rule out norm three. A norm-six
+violation occurs exactly when a weight-six ternary support is also an outer
+weight-six support. Norm-nine violations occur exactly when a weight-six
+ternary support is contained in an outer weight-seven support, or a weight-nine
+ternary support equals an outer weight-nine support. These conditions are
+necessary and sufficient for minimum twelve; the period attains twelve.
+Thus candidate certification is finite and exact, without numerical SVP.
+
+If these violations are absent, the center density is
+
+                     delta12 = 2^(2*k-n) * 3^(t-n/2).
+
+Concrete targets using the archived higher-rate quaternary family:
+
+   packing dimension    n     k     t     conditional center density
+          34           17    10     8             8/sqrt(3)
+          36           18    11     8            16/3
+          38           19    12     9            32/sqrt(3)
+          40           20    13    10            64
+
+Each exceeds its pinned record. The 36D target has exact density ratio
+1058841/1048576 to the certified construction, a 0.9789467% conditional gain.
+None of these four targets has been constructed here.
+
+FIRST TEST: PRODUCTS OF TERNARY TETRACODES
+
+The ternary [4,2,3] tetracode has four possible nonzero supports, each a triple
+inside a four-coordinate block. For two such blocks, every union of two triples
+must avoid outer six-supports and the six-subsets of outer seven-supports.
+This supplies a necessary pair compatibility graph on four-coordinate blocks.
+
+For the original C17, C18 and C20 instances, the graphs have respectively 315,
+347 and 515 edges. Exhaustive clique search finds neither four compatible
+blocks in C17/C18 nor five in C20. The same necessary test rejects every one-,
+two- and three-coordinate shortening of C20, using 18 support-symmetry orbits
+covering 1351 parent/shortened codes. In 38D it already prevents the four
+tetracodes needed for a product of four tetracodes and one length-three
+repetition code. No weight-nine information is needed for these rejections.
+
+Reproduce (NumPy and a C++17 compiler):
+
+    python verify_tetra12.py --output work/tetra12.json
+
+The replay includes positive and negative controls. Saved outputs:
+results/tetra12.json and results/tetra12_replay.log.
+
+SECOND TEST: GENERAL SELF-ORTHOGONAL FIBERS
+
+The search in experiments/selforth12_search.cpp starts from four tetracodes,
+then reflects their span in random weight-four ambient vectors over F3.
+If v has four nonzero entries, v*v=1, and
+
+                         x -> x + (x*v)*v
+
+is an orthogonal reflection in characteristic three. It preserves dimension
+and self-orthogonality while allowing fibers that are not coordinate block
+products. Simulated annealing minimizes ten times the number of bad norm-six
+trit words plus the number of bad norm-nine trit words. One representative
+per antipodal pair is used during the search. The best generators are saved.
+
+Two million proposed reflection moves were tested separately for the archived
+34D and 36D codes. The best returned fibers have no norm-six violation, but
+still have 404 and 262 bad norm-nine trit words, respectively. Their attained
+minimum is nine, not twelve. They do not beat the pinned records.
+
+Replay a search:
+
+    OPENBLAS_NUM_THREADS=1 python experiments/selforth12.py --dimension 34
+    OPENBLAS_NUM_THREADS=1 python experiments/selforth12.py --dimension 36
+
+Independently audit the saved best generators without rerunning annealing:
+
+    python experiments/selforth12.py --dimension 34 \
+        --audit-best results/selforth12_17_best.txt --output-prefix work/audit34
+    python experiments/selforth12.py --dimension 36 \
+        --audit-best results/selforth12_18_best.txt --output-prefix work/audit36
+
+The audit re-enumerates the full outer and ternary codes, checks rank and
+self-orthogonality, counts actual violations, computes the attained minimum
+and compares squared densities exactly. All four conditional densities above
+remain research targets. The heuristic's failure is not an impossibility
+proof for general self-orthogonal fibers.

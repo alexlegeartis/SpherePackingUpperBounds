@@ -1,0 +1,14 @@
+{
+  "contacts": 13000,
+  "equations": 1166,
+  "max_exact_Gram_diagonal": "664752643826350",
+  "neumann_residual_bound": 0.0014211504096692683,
+  "right_inverse_norm_bound": 648.671709457579,
+  "stress_residual_bound": 2.5759797128298317e-12,
+  "weight_min": 3.9819466371514025e-05,
+  "weight_max": 0.03490934322665694,
+  "correction_bound": 1.6733432362918538e-09,
+  "positive_margin": 3.981779302827773e-05,
+  "verified": true,
+  "seconds": 2.709756374359131
+}

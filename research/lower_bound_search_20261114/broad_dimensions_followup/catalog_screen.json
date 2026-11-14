@@ -1,0 +1,590 @@
+[
+  {
+    "name": "BN28a",
+    "dimension": 28,
+    "source_minimum": 2,
+    "determinant": "4",
+    "source_center_density": 3.0517578125e-05,
+    "returned_roots": 168,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        11.999999999999886,
+        28
+      ]
+    ],
+    "seconds": 0.011965274810791016
+  },
+  {
+    "name": "BN28b",
+    "dimension": 28,
+    "source_minimum": 2,
+    "determinant": "4",
+    "source_center_density": 3.0517578125e-05,
+    "returned_roots": 72,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        -4.433703251566553e-13,
+        16
+      ],
+      [
+        11.9999999999996,
+        12
+      ]
+    ],
+    "seconds": 0.01763916015625
+  },
+  {
+    "name": "BN28c",
+    "dimension": 28,
+    "source_minimum": 2,
+    "determinant": "4",
+    "source_center_density": 3.0517578125e-05,
+    "returned_roots": 24,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        -1.1216159995695197e-12,
+        24
+      ],
+      [
+        11.999999999999991,
+        4
+      ]
+    ],
+    "seconds": 0.023089885711669922
+  },
+  {
+    "name": "BN28d",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "4",
+    "source_center_density": 0.5,
+    "returned_roots": 98280,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        14039.999999999416,
+        28
+      ]
+    ],
+    "seconds": 0.7998480796813965
+  },
+  {
+    "name": "Beis14",
+    "dimension": 28,
+    "source_minimum": 6,
+    "determinant": "4782969",
+    "source_center_density": 0.13348388671875,
+    "returned_roots": 17472,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        3743.999999999793,
+        28
+      ]
+    ],
+    "seconds": 0.974353551864624
+  },
+  {
+    "name": "Beis16",
+    "dimension": 32,
+    "source_minimum": 6,
+    "determinant": "43046721",
+    "source_center_density": 0.1001129150390625,
+    "returned_roots": 9600,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        1799.9999999999588,
+        32
+      ]
+    ],
+    "seconds": 1.1211845874786377
+  },
+  {
+    "name": "Bhurw8",
+    "dimension": 32,
+    "source_minimum": 6,
+    "determinant": "65536",
+    "source_center_density": 2.565784513950348,
+    "returned_roots": 261120,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        48959.9999999847,
+        32
+      ]
+    ],
+    "seconds": 10.789458274841309
+  },
+  {
+    "name": "L_32.2",
+    "dimension": 32,
+    "source_minimum": 4,
+    "determinant": "1",
+    "source_center_density": 1.0,
+    "returned_roots": 146880,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        18359.9999999993,
+        32
+      ]
+    ],
+    "seconds": 13.54874062538147
+  },
+  {
+    "name": "L_32.6",
+    "dimension": 32,
+    "source_minimum": 6,
+    "determinant": "83521",
+    "source_center_density": 2.272805659416225,
+    "returned_roots": 233376,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        43757.99999999808,
+        32
+      ]
+    ],
+    "seconds": 19.870304584503174
+  },
+  {
+    "name": "Q30",
+    "dimension": 30,
+    "source_minimum": 6,
+    "determinant": "442368",
+    "source_center_density": 0.6583806132496918,
+    "returned_roots": 80310,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        15893.999999999802,
+        2
+      ],
+      [
+        16020.000000000002,
+        2
+      ],
+      [
+        16042.823085463418,
+        12
+      ],
+      [
+        16105.176914535998,
+        12
+      ],
+      [
+        16127.99999999997,
+        2
+      ]
+    ],
+    "seconds": 20.87991166114807
+  },
+  {
+    "name": "Q31",
+    "dimension": 31,
+    "source_minimum": 6,
+    "determinant": "196608",
+    "source_center_density": 1.209522419251814,
+    "returned_roots": 135720,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        26159.999999999556,
+        3
+      ],
+      [
+        26279.99999999799,
+        28
+      ]
+    ],
+    "seconds": 23.155260801315308
+  },
+  {
+    "name": "Q32",
+    "dimension": 32,
+    "source_minimum": 6,
+    "determinant": "65536",
+    "source_center_density": 2.565784513950348,
+    "returned_roots": 261120,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        48959.99999999747,
+        32
+      ]
+    ],
+    "seconds": 29.26305365562439
+  },
+  {
+    "name": "Q32a",
+    "dimension": 32,
+    "source_minimum": 6,
+    "determinant": "65536",
+    "source_center_density": 2.565784513950348,
+    "returned_roots": 261120,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        48959.99999999617,
+        32
+      ]
+    ],
+    "seconds": 35.75917601585388
+  },
+  {
+    "name": "R28",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "16384",
+    "source_center_density": 0.0078125,
+    "returned_roots": 1512,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        215.99999999999895,
+        28
+      ]
+    ],
+    "seconds": 35.78980541229248
+  },
+  {
+    "name": "R28a",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "16384",
+    "source_center_density": 0.0078125,
+    "returned_roots": 1512,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        215.99999999999778,
+        28
+      ]
+    ],
+    "seconds": 35.80930209159851
+  },
+  {
+    "name": "R28b",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "16384",
+    "source_center_density": 0.0078125,
+    "returned_roots": 1512,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        215.99999999999724,
+        28
+      ]
+    ],
+    "seconds": 35.82646369934082
+  },
+  {
+    "name": "neb13",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "4",
+    "source_center_density": 0.5,
+    "returned_roots": 98280,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        14039.999999999385,
+        28
+      ]
+    ],
+    "seconds": 36.474661111831665
+  },
+  {
+    "name": "neb14",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "4",
+    "source_center_density": 0.5,
+    "returned_roots": 98280,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        14039.999999999416,
+        28
+      ]
+    ],
+    "seconds": 37.181347608566284
+  },
+  {
+    "name": "neb15",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "4",
+    "source_center_density": 0.5,
+    "returned_roots": 98280,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        14039.999999999258,
+        28
+      ]
+    ],
+    "seconds": 37.84996223449707
+  },
+  {
+    "name": "neb16",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "4",
+    "source_center_density": 0.5,
+    "returned_roots": 98280,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        14039.9999999998,
+        28
+      ]
+    ],
+    "seconds": 38.48234176635742
+  },
+  {
+    "name": "neb17",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "9",
+    "source_center_density": 0.3333333333333333,
+    "returned_roots": 65520,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        9359.999999999922,
+        28
+      ]
+    ],
+    "seconds": 38.93374013900757
+  },
+  {
+    "name": "neb18",
+    "dimension": 28,
+    "source_minimum": 6,
+    "determinant": "4782969",
+    "source_center_density": 0.13348388671875,
+    "returned_roots": 17472,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        3743.9999999998595,
+        28
+      ]
+    ],
+    "seconds": 39.07627606391907
+  },
+  {
+    "name": "neb19",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "324",
+    "source_center_density": 0.05555555555555555,
+    "returned_roots": 10584,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        1511.9999999997326,
+        28
+      ]
+    ],
+    "seconds": 39.151066064834595
+  },
+  {
+    "name": "neb20",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "1953125",
+    "source_center_density": 0.0007155417527999327,
+    "returned_roots": 350,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        49.99999999999962,
+        28
+      ]
+    ],
+    "seconds": 39.16210913658142
+  },
+  {
+    "name": "neb21",
+    "dimension": 28,
+    "source_minimum": 4,
+    "determinant": "5000000",
+    "source_center_density": 0.0004472135954999579,
+    "returned_roots": 1260,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        179.99999999999955,
+        28
+      ]
+    ],
+    "seconds": 39.171926736831665
+  },
+  {
+    "name": "neb22",
+    "dimension": 28,
+    "source_minimum": 8,
+    "determinant": "54931640625",
+    "source_center_density": 0.06990506666666667,
+    "returned_roots": 12600,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        3599.9999999998877,
+        28
+      ]
+    ],
+    "seconds": 39.26159310340881
+  },
+  {
+    "name": "neb23",
+    "dimension": 28,
+    "source_minimum": 6,
+    "determinant": "3262922884",
+    "source_center_density": 0.005110627433456571,
+    "returned_roots": 2184,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        467.9999999999922,
+        28
+      ]
+    ],
+    "seconds": 39.28035521507263
+  },
+  {
+    "name": "neb24",
+    "dimension": 28,
+    "source_minimum": 22,
+    "determinant": "18832349194131742609041",
+    "source_center_density": 0.16889834877391072,
+    "returned_roots": 5460,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        4289.999999999878,
+        28
+      ]
+    ],
+    "seconds": 39.47311091423035
+  },
+  {
+    "name": "neb25",
+    "dimension": 30,
+    "source_minimum": 3,
+    "determinant": "995328",
+    "source_center_density": 1.3394787867221919e-05,
+    "returned_roots": 240,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        23.99999999999993,
+        30
+      ]
+    ],
+    "seconds": 39.480061054229736
+  },
+  {
+    "name": "neb26",
+    "dimension": 30,
+    "source_minimum": 6,
+    "determinant": "14348907",
+    "source_center_density": 0.11560043689432173,
+    "returned_roots": 13320,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        2663.9999999996876,
+        30
+      ]
+    ],
+    "seconds": 39.65380120277405
+  },
+  {
+    "name": "neb27",
+    "dimension": 30,
+    "source_minimum": 4,
+    "determinant": "15552",
+    "source_center_density": 0.008018753738744801,
+    "returned_roots": 3240,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        431.99999999999574,
+        30
+      ]
+    ],
+    "seconds": 39.70440459251404
+  },
+  {
+    "name": "neb28",
+    "dimension": 30,
+    "source_minimum": 6,
+    "determinant": "8957952",
+    "source_center_density": 0.14630680294437595,
+    "returned_roots": 18000,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        3599.9999999996744,
+        30
+      ]
+    ],
+    "seconds": 39.883684158325195
+  },
+  {
+    "name": "neb29",
+    "dimension": 30,
+    "source_minimum": 6,
+    "determinant": "58773123072",
+    "source_center_density": 0.001806256826473777,
+    "returned_roots": 720,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        143.999999999997,
+        30
+      ]
+    ],
+    "seconds": 39.899906873703
+  },
+  {
+    "name": "neb30",
+    "dimension": 30,
+    "source_minimum": 10,
+    "determinant": "198607342807439307",
+    "source_center_density": 0.002089789196041725,
+    "returned_roots": 630,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        209.99999999999721,
+        30
+      ]
+    ],
+    "seconds": 39.912219524383545
+  },
+  {
+    "name": "neb31",
+    "dimension": 30,
+    "source_minimum": 15,
+    "determinant": "8629188747598184440949",
+    "source_center_density": 0.004390197232780857,
+    "returned_roots": 812,
+    "float_complete": true,
+    "moment_eigenvalues": [
+      [
+        405.99999999999216,
+        30
+      ]
+    ],
+    "seconds": 39.93804049491882
+  }
+]

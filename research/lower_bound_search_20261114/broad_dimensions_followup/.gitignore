@@ -1,0 +1,5 @@
+__pycache__/
+work/
+section_Gram_types_*.json
+section_Gram_types_*.txt
+*_replay.log

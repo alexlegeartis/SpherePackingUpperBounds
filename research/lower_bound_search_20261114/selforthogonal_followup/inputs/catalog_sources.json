@@ -1,0 +1,42 @@
+{
+  "database": "Harada\u2013Munemasa Database of Ternary Maximal Self-Orthogonal Codes",
+  "index_url": "https://www.math.is.tohoku.ac.jp/~mharada/research/codes/mso3.htm",
+  "catalogs": [
+    {
+      "length": 15,
+      "codes": 12,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/15.magma",
+      "source_sha256": "2b16f464480206a1546ce1818dd30718c72b8e7d6953156b486c8fea6c195fbd"
+    },
+    {
+      "length": 16,
+      "codes": 7,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/16.magma",
+      "source_sha256": "3c121e2043a44f26b8bfb6998c95294c4d03c5fb9ab7e896263d5ad12572713d"
+    },
+    {
+      "length": 17,
+      "codes": 23,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/17.magma",
+      "source_sha256": "c50768bfe68cc5203b81443668da70c19b158925cacd88b8b0eb77a126507445"
+    },
+    {
+      "length": 18,
+      "codes": 160,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/18.magma",
+      "source_sha256": "db1110019fa5635f837a433b01ee1996b6b4fa1c9db8a16afcb65e4ad7221412"
+    },
+    {
+      "length": 19,
+      "codes": 56,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/19.magma",
+      "source_sha256": "9f3518e0f1a5f674c8152deedba9b70cebf587f88c75563cc56ee5bc522781b3"
+    },
+    {
+      "length": 20,
+      "codes": 24,
+      "url": "https://www.math.is.tohoku.ac.jp/~munemasa/research/codes/data/3/20.magma",
+      "source_sha256": "0068a1b012bb45480d7ebb648b712dba1eff8663e669cb5cc627567401b44193"
+    }
+  ]
+}

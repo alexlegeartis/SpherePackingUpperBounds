@@ -1,0 +1,37 @@
+[
+  {
+    "embedding": 0,
+    "iterations": [
+      {
+        "embedding": 0,
+        "iteration": 0,
+        "constraints": 5000,
+        "status": 0,
+        "seconds": 34.88983416557312,
+        "objective": -17.558792277165928,
+        "violated": 30867,
+        "worst": -13.66307914813549
+      },
+      {
+        "embedding": 0,
+        "iteration": 1,
+        "constraints": 9000,
+        "status": 0,
+        "seconds": 85.16777491569519,
+        "objective": -1.0540112431347852,
+        "violated": 16015,
+        "worst": -4.995283412482205
+      },
+      {
+        "embedding": 0,
+        "iteration": 2,
+        "constraints": 13000,
+        "status": 0,
+        "seconds": 159.06544470787048,
+        "objective": 4.935618506170426e-09,
+        "violated": 0,
+        "worst": -3.200074466544067e-09
+      }
+    ]
+  }
+]

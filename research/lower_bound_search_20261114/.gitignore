@@ -1,0 +1,16 @@
+__pycache__/
+work/
+experiments/enum_shell
+experiments/*_vectors.txt
+experiments/*_R.txt
+experiments/*_enum.log
+experiments/*_eutaxy.json
+experiments/*_eutaxy.log
+experiments/*_descent.npz
+experiments/new36_section*
+experiments/CTturyn1_vertex_short10.txt
+experiments/CTturyn1_vertex_short10.log
+experiments/CTturyn1_flex_candidate_*
+experiments/CTturyn1_vertex_screen.json
+experiments/CTturyn1_vertex_constraints.npz
+experiments/section_metric_screen.json
