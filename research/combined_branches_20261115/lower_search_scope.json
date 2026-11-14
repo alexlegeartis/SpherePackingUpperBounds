@@ -1,0 +1,13 @@
+{
+  "order_two_trials": 100000,
+  "discovery_node_cap": 1000,
+  "discovery_promoted": 98018,
+  "refinement_samples": 100,
+  "refinement_node_cap": 2000000,
+  "rejected_by_exact_witness": 12,
+  "inconclusive": 88,
+  "new_lower_bound_record": false,
+  "known_65D_reference_center_density": "3^17/sqrt(10)",
+  "sufficient_order_two_hole_depth": "9",
+  "conditional_65D_center_density_if_hole_certified": "3^16"
+}

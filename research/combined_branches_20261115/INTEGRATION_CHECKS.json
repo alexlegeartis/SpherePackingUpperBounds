@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-15",
+  "merge_commit": "ca3fc0d2124882c4c37a5b9d6ac0a60b4f759d14",
+  "branch_heads": {
+    "radial": {
+      "ref": "origin/research/radial-enrichment-20261114",
+      "sha": "8a080d6a00909391a91ecbac097e4004c404c40d",
+      "included_in_main": true
+    },
+    "density": {
+      "ref": "origin/research/density-breakthroughs-20261113",
+      "sha": "1d073d1cffdef2c3f62533f6cec8595e3abb5c64",
+      "included_in_main": true
+    },
+    "lower": {
+      "ref": "research/lower-bound-search-20261114",
+      "sha": "fbe4221e3230413ab86d544e0304fe0352a9d03a",
+      "included_in_main": true
+    }
+  },
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "python_flint": "0.9.0",
+  "new_upper_dimensions": [
+    23,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    33,
+    34
+  ],
+  "new_lower_bound_record": false,
+  "new_certificates_complete": true,
+  "registered_wrapper_checks": {
+    "all_passed": true,
+    "checks": [
+      {
+        "dimension": 23,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 26,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 27,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 28,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 29,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 30,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 31,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 33,
+        "registered_wrapper_pass": true
+      },
+      {
+        "dimension": 34,
+        "registered_wrapper_pass": true
+      }
+    ]
+  },
+  "registration_controls": {
+    "all_passed": true,
+    "count": 63
+  },
+  "exact_export_audit_passed": true,
+  "baseline_upper_aggregate": {
+    "pass": true,
+    "proof_invocations": 89,
+    "base_commit": "ca3fc0d2124882c4c37a5b9d6ac0a60b4f759d14"
+  }
+}

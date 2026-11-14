@@ -1,0 +1,32 @@
+{
+  "all_passed": true,
+  "fixed_cluster_checks": [
+    {
+      "dimension": 66,
+      "normal_rank": 6,
+      "diameter": "1/2",
+      "eligible_nonzero_points": 126,
+      "maximum_cluster_size": 9,
+      "clique_search_nodes": 1817
+    },
+    {
+      "dimension": 65,
+      "normal_rank": 7,
+      "diameter": "1/2",
+      "eligible_nonzero_points": 182,
+      "maximum_cluster_size": 9,
+      "clique_search_nodes": 9213
+    },
+    {
+      "dimension": 64,
+      "normal_rank": 8,
+      "diameter": "1/2",
+      "eligible_nonzero_points": 240,
+      "maximum_cluster_size": 9,
+      "clique_search_nodes": 25658
+    }
+  ],
+  "Ne64_exact_rejections": 12,
+  "Ne64_capped_inconclusive": 88,
+  "scope": "Integer contact/upper-distance checks and exact finite clique maxima. No new lower-bound record or complete distance certificate."
+}

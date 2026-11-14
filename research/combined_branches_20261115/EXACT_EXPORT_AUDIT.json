@@ -1,0 +1,116 @@
+{
+  "pass": true,
+  "source_48D_seed": "verifications/dim48/continuum_three_point/adaptive_cyclic40_radial111.json",
+  "source_sha256": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "results": [
+    {
+      "dimension": 23,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n23_d95_s23_8_a-96_b120/candidate.json",
+      "candidate_sha256": "d5fa7472a5e9a25d8181ca5192322343a139838f4466917dbd7393409ee44e2f",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 26,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n26_d95_s13_4_a-96_b120/candidate.json",
+      "candidate_sha256": "f6f57c2594773f104dd4a186b8b280bfadec218931a652d756b96955aa82b667",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 27,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n27_d95_s27_8_a-96_b120/candidate.json",
+      "candidate_sha256": "e849643cfbf049aebc6f494d62fb7c887fb0b3860b8c3bd682155f60280fb898",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 28,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n28_d95_s7_2_a-96_b120/candidate.json",
+      "candidate_sha256": "55d3d0cc8a3f824d802e2048dce23e1b2be1adac2890437c3cf2cbe000dd496a",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 29,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n29_d95_s29_8_a-96_b120/candidate.json",
+      "candidate_sha256": "5c87d57b4e3854f2ab1e096730838e23ef271d12678e9cecdffd8f1b318f2af1",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 30,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n30_d95_s15_4_a-96_b120/candidate.json",
+      "candidate_sha256": "231628523a6fe7843bf309b9feff6d440446320d3ba1b9d5e4394c207d5f38cf",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 31,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n31_d95_s31_8_a-96_b120/candidate.json",
+      "candidate_sha256": "157475d4e42692df727d342e254bca2d6599c8baf3f95ad68babeef8efe8a862",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 33,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n33_d95_s33_8_a-96_b120/candidate.json",
+      "candidate_sha256": "8c52095fd92d2f6bee698c8ccac05d78e418de1f6bd5cf61498bf9a440a2219e",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 34,
+      "pass": true,
+      "candidate": "research/ambitious_profiles_20261114/integrated_n34_d95_s17_4_a-96_b120/candidate.json",
+      "candidate_sha256": "9f3e07a1cb92c6a849eec46b7b146c0e236e5a3a84f6bbd56d682880df2cf4fb",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    }
+  ],
+  "scope": "Provenance/export check; complete angular and radial verifications are separately required"
+}

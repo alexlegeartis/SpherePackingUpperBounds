@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-15",
+  "bounds": [
+    {
+      "dimension": 26,
+      "previous_strict_upper": "0.0009746292767",
+      "strict_upper": "0.00096119384303",
+      "decrease_percent": 1.3785173492316045,
+      "package": "verifications/dim26/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 27,
+      "previous_strict_upper": "0.0006864321082",
+      "strict_upper": "0.00067374055912",
+      "decrease_percent": 1.8489154176194464,
+      "package": "verifications/dim27/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 28,
+      "previous_strict_upper": "0.0004827696028",
+      "strict_upper": "0.00047150169673",
+      "decrease_percent": 2.334013161691961,
+      "package": "verifications/dim28/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 29,
+      "previous_strict_upper": "0.0003420173821",
+      "strict_upper": "0.00033304558168",
+      "decrease_percent": 2.6232001323771317,
+      "package": "verifications/dim29/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 30,
+      "previous_strict_upper": "0.0002454113168",
+      "strict_upper": "0.00023902870636",
+      "decrease_percent": 2.6007808128919994,
+      "package": "verifications/dim30/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 31,
+      "previous_strict_upper": "0.0001763894399",
+      "strict_upper": "0.00017253058506",
+      "decrease_percent": 2.1876903981256985,
+      "package": "verifications/dim31/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 33,
+      "previous_strict_upper": "0.00009009682341",
+      "strict_upper": "0.000089087196692",
+      "decrease_percent": 1.1206019033607124,
+      "package": "verifications/dim33/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 34,
+      "previous_strict_upper": "0.00006394047941",
+      "strict_upper": "0.000063254198663",
+      "decrease_percent": 1.0733118571092053,
+      "package": "verifications/dim34/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    },
+    {
+      "dimension": 23,
+      "previous_strict_upper": "0.002642540089",
+      "strict_upper": "0.0026135387307",
+      "decrease_percent": 1.097480353116414,
+      "package": "verifications/dim23/refinement_combined20261115",
+      "four_path_pre_registration_pass": true
+    }
+  ],
+  "claim": "Certified upper-bound improvements over the merged main baseline; no new lower-bound record is asserted."
+}

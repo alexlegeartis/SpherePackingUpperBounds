@@ -1,0 +1,41 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "dimension": 23,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 26,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 27,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 28,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 29,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 30,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 31,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 33,
+      "registered_wrapper_pass": true
+    },
+    {
+      "dimension": 34,
+      "registered_wrapper_pass": true
+    }
+  ]
+}

@@ -62,6 +62,8 @@ proof_ideas = {9:'Signed-hinge cyclic profile + average-neighbor count',10:'Log-
  48: 'Gaussian cyclic kernel + coupled radial optimization',
 }
 for n in [22, 25, 32, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
+for n in [26, 27, 28, 29, 30, 31, 33, 34]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
+for n in [23]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 assert set(proof_ideas) == {row["dimension"] for row in rows}
 header='| Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |\n| --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):

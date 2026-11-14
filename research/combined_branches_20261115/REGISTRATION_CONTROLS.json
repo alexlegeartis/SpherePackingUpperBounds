@@ -1,0 +1,384 @@
+{
+  "all_passed": true,
+  "scope": "Actual source-hash/registry prefix only; mathematical proofs are replayed separately.",
+  "checks": [
+    {
+      "dimension": 26,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 26,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 26,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 26,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 26,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 26,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 26,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 27,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 27,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 27,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 27,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 27,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 27,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 27,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 28,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 28,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 28,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 28,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 28,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 28,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 28,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 29,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 29,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 29,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 29,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 29,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 29,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 29,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 30,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 30,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 30,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 30,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 30,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 30,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 30,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 31,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 31,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 31,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 31,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 31,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 31,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 31,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 33,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 33,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 33,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 33,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 33,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 33,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 33,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 34,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 34,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 34,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 34,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 34,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 34,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 34,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 23,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 23,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 23,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 23,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 23,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 23,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 23,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    }
+  ]
+}

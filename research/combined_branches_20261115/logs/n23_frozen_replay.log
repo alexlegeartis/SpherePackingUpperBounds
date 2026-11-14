@@ -1,0 +1,11 @@
+23 primary_angular.py 0 k": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.9658944606781006, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+23 primary_radial.py 0 PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 23 0.0026135387307 4857 25
+
+23 independent_angular.py 0 INDEPENDENT ANGULAR PASS 23 1918 16
+
+23 independent_radial.py 0 INDEPENDENT RADIAL PASS 23 0.0026135387307 4905 25
+
+FOUR PATHS PASS 23 0.0026135387307

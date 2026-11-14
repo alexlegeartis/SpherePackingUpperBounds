@@ -1,0 +1,8 @@
+{"script": "contact_walk/verify36_local.py", "passed": true, "seconds": 1.2395892143249512}
+{"script": "mixed_codes/verify.py", "passed": true, "seconds": 0.37924671173095703}
+{"script": "sections/audit_n17.py", "passed": true, "seconds": 0.15390467643737793}
+{"script": "catalogue_screen/verify56_pencil.py", "passed": true, "seconds": 3.218451499938965}
+{"script": "gluing/verify_extension_thresholds.py", "passed": true, "seconds": 0.025213241577148438}
+{"script": "gluing/verify_normal_witnesses.py", "passed": true, "seconds": 1.1267764568328857}
+{"script": "sections/verify_finite_results.py", "passed": true, "seconds": 0.46524667739868164}
+{"script": "seed_deformations/audit_seed_results.py", "passed": true, "seconds": 1.4305405616760254}

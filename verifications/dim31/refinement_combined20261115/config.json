@@ -1,0 +1,13 @@
+{
+  "dimension": 31,
+  "package": "verifications/dim31/refinement_combined20261115",
+  "strict_density_upper_bound": "0.00017253058506",
+  "previous_repository_strict_upper": "0.0001763894399",
+  "previous_repository_package": "verifications/dim31",
+  "base_commit": "187124532a7e1e33d157e59906b2b9eb83e053df",
+  "minimum_squared_distance": "31/8",
+  "profile_a_exact": "-96",
+  "profile_b_exact": "120",
+  "radial_correction_degree": 95,
+  "external_neighbor_count_inputs": false
+}

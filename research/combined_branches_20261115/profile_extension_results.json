@@ -1,0 +1,58 @@
+[
+  {
+    "dimension": 23,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.002642540089",
+    "new_strict_upper": "0.0026135387307",
+    "seconds": 110.16678833961487,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n23_d95_s23_8_a-96_b120"
+  },
+  {
+    "dimension": 26,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.0009746292767",
+    "new_strict_upper": "0.00096119384303",
+    "seconds": 99.2245237827301,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n26_d95_s13_4_a-96_b120"
+  },
+  {
+    "dimension": 27,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.0006864321082",
+    "new_strict_upper": "0.00067374055912",
+    "seconds": 106.89794659614563,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n27_d95_s27_8_a-96_b120"
+  },
+  {
+    "dimension": 28,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.0004827696028",
+    "new_strict_upper": "0.00047150169673",
+    "seconds": 114.73310661315918,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n28_d95_s7_2_a-96_b120"
+  },
+  {
+    "dimension": 29,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.0003420173821",
+    "new_strict_upper": "0.00033304558168",
+    "seconds": 121.78803968429565,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n29_d95_s29_8_a-96_b120"
+  },
+  {
+    "dimension": 30,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.0002454113168",
+    "new_strict_upper": "0.00023902870636",
+    "seconds": 111.04824090003967,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n30_d95_s15_4_a-96_b120"
+  },
+  {
+    "dimension": 33,
+    "frozen_four_path_pass": true,
+    "previous_strict_upper": "0.00009009682341",
+    "new_strict_upper": "0.000089087196692",
+    "seconds": 123.99862217903137,
+    "discovery_directory": "research/ambitious_profiles_20261114/integrated_n33_d95_s33_8_a-96_b120"
+  }
+]

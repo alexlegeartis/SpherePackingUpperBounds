@@ -1,0 +1,150 @@
+{
+  "source_url": "https://cohn.mit.edu/sphere-packing/",
+  "retrieval_date": "2026-11-14",
+  "raw_source": "research/radial_enrichment_20261114/sources/cohn_sphere_packing_20261114.html.gz",
+  "table": "Unrestricted sphere packing, first table",
+  "rows": [
+    [
+      "23",
+      "2\u221234 \u00b7 3\u221212 \u00b7 2323/2",
+      "2",
+      "0.0019071945388448\u2026",
+      "0.0026425400886951",
+      "1.386",
+      "[8, 25]"
+    ],
+    [
+      "26",
+      "3\u22121/2",
+      "",
+      "0.0002692200504338\u2026",
+      "0.0009746292766922",
+      "3.621",
+      "[11, 25]"
+    ],
+    [
+      "27",
+      "2\u22121/2",
+      "16384",
+      "0.0001575943907278\u2026",
+      "0.0006864321081086",
+      "4.356",
+      "[34, 25]"
+    ],
+    [
+      "28",
+      "1",
+      "8192",
+      "0.0001046381049248\u2026",
+      "0.0004827696027786",
+      "4.614",
+      "[34, 25]"
+    ],
+    [
+      "29",
+      "2\u22121/2",
+      "32768",
+      "0.0000341446469074\u2026",
+      "0.0003420173820114",
+      "10.02",
+      "[34, 25]"
+    ],
+    [
+      "30",
+      "1",
+      "8192",
+      "0.0000219153534478\u2026",
+      "0.0002454113167829",
+      "11.20",
+      "[34, 25]"
+    ],
+    [
+      "31",
+      "2\u221247/2 \u00b7 315",
+      "",
+      "0.0000118377651859\u2026",
+      "0.0001763894398094",
+      "14.91",
+      "[31, 25]"
+    ],
+    [
+      "33",
+      "2\u221225 \u00b7 333/2",
+      "",
+      "0.0000041406882896\u2026",
+      "0.0000900968234034",
+      "21.76",
+      "Elkies (see [13, p. xx]), [25]"
+    ],
+    [
+      "34",
+      "2\u221225 \u00b7 333/2",
+      "",
+      "0.0000017669738891\u2026",
+      "0.0000639404794098",
+      "36.19",
+      "Elkies (see [13, p. xx]), [25]"
+    ]
+  ],
+  "scope": "Archived primary-table comparison, not exhaustive publication priority.",
+  "fresh_check": {
+    "date": "2026-11-15",
+    "result": "HTTP 502 from current primary URL; archived successful 2026-11-14 response used"
+  },
+  "comparisons": [
+    {
+      "dimension": 23,
+      "displayed_upper": "0.0026425400886951",
+      "new_strict_upper": "0.0026135387307",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 26,
+      "displayed_upper": "0.0009746292766922",
+      "new_strict_upper": "0.00096119384303",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 27,
+      "displayed_upper": "0.0006864321081086",
+      "new_strict_upper": "0.00067374055912",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 28,
+      "displayed_upper": "0.0004827696027786",
+      "new_strict_upper": "0.00047150169673",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 29,
+      "displayed_upper": "0.0003420173820114",
+      "new_strict_upper": "0.00033304558168",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 30,
+      "displayed_upper": "0.0002454113167829",
+      "new_strict_upper": "0.00023902870636",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 31,
+      "displayed_upper": "0.0001763894398094",
+      "new_strict_upper": "0.00017253058506",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 33,
+      "displayed_upper": "0.0000900968234034",
+      "new_strict_upper": "0.000089087196692",
+      "new_is_smaller": true
+    },
+    {
+      "dimension": 34,
+      "displayed_upper": "0.0000639404794098",
+      "new_strict_upper": "0.000063254198663",
+      "new_is_smaller": true
+    }
+  ]
+}

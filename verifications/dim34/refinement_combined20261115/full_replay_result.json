@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "dimension": 34,
+  "strict_density_upper_bound": "0.000063254198663",
+  "complete_primary_and_independent_replay": true,
+  "executed": [
+    {
+      "script": "primary_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "primary_radial.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_angular.py",
+      "returncode": 0
+    },
+    {
+      "script": "independent_radial.py",
+      "returncode": 0
+    }
+  ],
+  "source_manifest_sha256": "7e7999f18743e2d182bb38576f33060401a09e321c64a3a42f813990aae4357a",
+  "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+  "external_neighbor_counts_required": false,
+  "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+}
