@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE",
+  "found": false,
+  "shard_id": 0,
+  "shard_count": 1,
+  "split_depth": 31,
+  "nodes": 30503008,
+  "leaves": 0,
+  "prefixes": 1681944,
+  "assigned_prefixes": 1681944,
+  "seconds": 4.36526,
+  "norm": -1,
+  "witness": []
+}

@@ -1,5 +1,9 @@
 # Resolved comparisons and further lower bounds, 15 November 2026
 
+The subsequent [complete 48D–96D audit](../range48_96_20261115/)
+adds explicit 49D–52D lattices, a stronger 81D bound and a sourced table
+for every dimension. The 84D/85D/96D comparisons below are retained.
+
 **New 96D result:** a periodic packing exists with center density
 **8,236,644,396,376,130.309…**, **73.240722% above** the published
 Bos–Conway–Sloane 96D construction. This is an existence proof with nine

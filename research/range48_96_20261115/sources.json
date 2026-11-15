@@ -1,0 +1,50 @@
+{
+  "checked_utc_date": "2026-11-15",
+  "dimension_range": [
+    48,
+    96
+  ],
+  "Leterrier2022": {
+    "author": "Gauthier Leterrier",
+    "doi": "10.1007/s40993-022-00321-0",
+    "full_text_url": "https://infoscience.epfl.ch/server/api/core/bitstreams/ec3bb7c5-53a1-4ae2-9a11-e3ab431a720e/content",
+    "pdf_sha256": "d1ac230b473876b1375201239454db43e450b5fc03504f0a08e5380052e9fd79",
+    "locator": "Corollary 1.4, Equation (1.6) and table on p.3, n=3",
+    "density_squared_guarantee": "5^54/(2^54*3^25)",
+    "equality_for_actual_density_assumed": false
+  },
+  "Nigam2022": {
+    "url": "https://arxiv.org/abs/2206.06525v2",
+    "pdf_sha256": "ceef98389302d4c5dca14cb98d93d6e266c002426189dcad41ebf39bacc48dc5",
+    "locators": "Tables in Sections 4 and 5",
+    "finding": "Displayed computations do not supply a stronger numerical 48--96D input; no uncomputed family member is treated as a proved density"
+  },
+  "SPLAG_preface": {
+    "title": "Conway--Sloane, Sphere Packings, Lattices and Groups, preface to third edition",
+    "url": "https://neilsloane.com/doc/splag3.pdf",
+    "pdf_sha256": "4de296dc74be231d97087db03e88a28bd090e37d17790a0c1795ef729d100cbd",
+    "locators": "p.xviii, Mordell--Weil update; pp.xx--xxi, Table I.1",
+    "finding": "Sparse historical density table: parent rows 48,54,56,64,80; it does not tabulate every intermediate dimension"
+  },
+  "Klartag2026": {
+    "url": "https://doi.org/10.1007/s00222-026-01412-w",
+    "finding": "General cn^2 2^-n existence theorem; no evaluated 48--96D density constant is inserted into this numerical table"
+  },
+  "queries": [
+    "sphere packing lattice density dimensions 49 50 51 52 53 54 55 lower bounds",
+    "sphere packing density lattices 65 66 67 68 69 70 71",
+    "sphere packing density 89 90 91 Mordell Weil lattice",
+    "\"sphere packing\" \"49\" \"50\" \"51\" \"density\" lattice",
+    "\"sphere packing\" \"81\" \"lower bound\" lattice",
+    "\"sphere packing\" \"89\" \"90\" \"91\" lower density"
+  ],
+  "scope": "Finite, reproducible comparison family; missing record entries do not establish worldwide priority.",
+  "P48q": {
+    "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/P48q.html",
+    "snapshot_sha256": "05041a63ed0cd093ada37b13059ef43d1b0aeaea605a82c76134d2b3f80631bb",
+    "locators": "GRAM, MINIMAL_NORM and REFERENCES",
+    "role": "Classical even unimodular rank-48 minimum-6 parent; exact Gram binding checked, published minimum inherited",
+    "download_sha256": "c1f04856618da946626600a588ebc14ebdb2683fe86786ff3b4828ac1ed10616",
+    "snapshot_normalization": "Trailing whitespace and terminal blank lines removed; Gram content unchanged"
+  }
+}

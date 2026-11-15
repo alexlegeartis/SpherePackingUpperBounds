@@ -1,5 +1,10 @@
 # Lower-bound research across dimensions, 15 November 2026
 
+The [subsequent full 48D–96D audit](../range48_96_20261115/)
+adds explicit 49D–52D lattices and improves the 81D bound below to
+`996,397,626,643.8245…` using MW80 torus layers. The 81D counting row
+in this package is retained as the earlier, weaker proof.
+
 **Research ceiling: 96D.** The [current comparison and proof update](../priority_resolution_20261115/)
 supersedes this package's initial literature conclusions. Stronger
 classical BCS88 sections leave gains of **156% in 84D** and **32.197832%

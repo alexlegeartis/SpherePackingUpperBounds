@@ -1,0 +1,34 @@
+{
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "input_sha256": {
+    "ldl.txt": "0f54a756bef8723a94efcb0d79a2c13afd9f580096fa62efe43c87143690074d",
+    "gram.txt": "0a214fca33591328f2a52387a3933707dee1fd52476925045f376653bf141e71",
+    "coset_1.txt": "d7cb89837ec6e5b0e4cde1def680662878efc2b33d739231a378cae8caa26ca1",
+    "coset_2.txt": "8d40300a8b6f02347977d32d1a64bc3804580e6eef0dd4dd3379fe768503b319",
+    "coset_3.txt": "acd750e5002e653a3a28741034484cab0aec52ca54fd7e37873a719bf2ef25ea",
+    "coset_4.txt": "0a3c780e73d3ea20b4ce11f3ecab39739f42400452ec8a8a602ca60fd6ee5c9f",
+    "coset_5.txt": "f7a72f5eb18b8b6494a1f4be11843a600972e7ca92034e30a7990f2366637947",
+    "coset_6.txt": "2f69dc508ea79f1d6279a75b3ebeaf494b7ef4c38645c9c96e13eef686e94e26",
+    "coset_7.txt": "74afe3e81ab7e452276875a80a6380d291c55322f104e4715611996cbf5913db",
+    "coset_8.txt": "dd3748a35578f66a384a3fd1cf3300b28204f4773467f452b7b195763a3d9cfd",
+    "coset_9.txt": "4a2fca561743a8d1f63859ee098ec9b3ab4ec69053d1a7ce0b1770f529dc481a",
+    "coset_10.txt": "d11fd36b8545bdb023115fc0e69d5bb12471a5326e98734c35d4194bc4f2518d",
+    "coset_11.txt": "e499ea47eb734dd7d37557d664ebe9569f7de1c9b64903477c1b13c64f749f00",
+    "coset_12.txt": "a840e40195df41cacdf94107eee4f9f1302d3cabd3036df26008d94ee25ebd72",
+    "coset_13.txt": "0aa08bc42475aa08e30aa3a1a4b16bb51a61c6690f9f1674f070cdf55d1a9071",
+    "coset_14.txt": "ea0c83998157a0c0b1f2169ab900fd385f0a051f2b8c3a43c774ac7c1fa44799",
+    "coset_15.txt": "051ec8af3c7d8438589b884afd2f66bb7595fb84572748a68be0a7da2f9adbb5",
+    "negative_control.txt": "248dde05468f5cd5e1c8442112939028e9c5da4cb7a6958afe8b8cc746570fd6"
+  },
+  "certificate_sha256": "9404a0c95b0620dd14dd960d3d4ba5b3abb9031a8c4be2aaa08eafd5aed9fc4c",
+  "catalogue_sha256": "05041a63ed0cd093ada37b13059ef43d1b0aeaea605a82c76134d2b3f80631bb",
+  "enumerator_source_sha256": "bceac863a52f5b31b9c49340ebc718b2c00c83a5d7dce6704af2db28323dbece",
+  "binary_sha256": "efaa5a4a59c2bdf1bb0d0e0355edaa0de3245cbd8d0eb276b025a44e6824ab79",
+  "catalogue_download_sha256_before_whitespace_normalization": "c1f04856618da946626600a588ebc14ebdb2683fe86786ff3b4828ac1ed10616"
+}

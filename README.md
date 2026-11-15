@@ -66,6 +66,16 @@ Research remains capped at **96D**. New 93–95D periodic existence bounds
 also improve the earlier derived product controls; no reported
 dimension-specific record was identified for those comparisons.
 
+The [complete 48D–96D audit](research/range48_96_20261115/TABLE.md)
+now covers **every dimension in that interval**, with named comparisons.
+It adds [explicit 49D–52D minimum-6 lattices](research/range48_96_20261115/P48_PROOF.md),
+with complete compatible-coset enumerations above P48, and a stronger
+**81D** torus bound above Shioda's MW80.
+These extend the checked lower bounds; previous worldwide records in
+those dimensions have not been identified. The audit also includes
+Leterrier's published **54D** guarantee and stronger nearby section
+controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
+
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 
 For 59D, `V₅₉ = pi^(59/2)/Gamma(61/2)` converts center density into the occupied
