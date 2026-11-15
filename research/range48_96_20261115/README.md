@@ -1,6 +1,6 @@
 # Lower bounds in every dimension 48D–96D
 
-**Latest:** [explicit MW92 antipodes](../mw92_sections_20261115/) add **86D–91D**. The dated construction total is now **39**; the ten remaining dimensions are 48, 54–56, 58, 63–64, 72, 80 and 92.
+**Latest:** [explicit MW92 antipodes](../mw92_sections_20261115/) add **86D–91D**. The [new CM58 lattice](../cm58_20261116/) adds 58D, bringing the dated total to **40**; the nine remaining dimensions are 48, 54–56, 63–64, 72, 80 and 92.
 
 This continuation checks **all 49 dimensions**, rather than only the
 84D/85D/96D candidates. [The complete table](TABLE.md) names the source
@@ -33,8 +33,8 @@ New positive work in the other dimensions:
 
 The 49–52D shifts are explicit and every required coset has been fully
 enumerated. The 81D torus shifts remain existential.
-**49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are best-known lower bounds in
-the literature review dated 15 November 2026:** no stronger published
+**49D–53D, 57D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are best-known lower bounds in
+the literature review dated 16 November 2026:** no stronger published
 bound was located. The [current review and comparison table](../covering_and_deep_cosets_20261115/PRIORITY.md)
 name each source and distinguish reported numbers from derived bounds.
 Comparison is between proved guarantees; a prior lattice's unknown
@@ -47,7 +47,7 @@ actual minimum and a previous-record table are not prerequisites.
 | **48** | Classical P48 minimum-6 lattices; no improvement found |
 | **49–52** | New explicit P48 compatible-coset lattices, with full coset enumerations; seek deeper compatible shifts and further external comparisons |
 | **53–56** | New explicit 53D section; retain Leterrier54, Leterrier2024's55D lamination and MW56 |
-| **57–58** | New covering-based MW56 torus extension in 57D; the Gamma72/Leech-block section remains stronger in 58D |
+| **57–58** | Covering-based MW56 extension in 57D; explicit CM plane above MW56 now improves 58D |
 | **59–62** | Retain existing Ne64 antipodes; their comparisons have the scope recorded in the source audit |
 | **63** | Our Ne64 antipode is below Elkies's historical guarantee; do not claim an improvement |
 | **64** | Nebe's Ne64, center density `3^16`; no improvement found |

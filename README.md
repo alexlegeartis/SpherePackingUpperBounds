@@ -37,17 +37,17 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Packing constructions: lower bounds
 
-**Latest: six newly covered dimensions, 86D–91D.** Explicit MW92 antipodes
-improve the named external comparisons by **33–187%**.
-[New constructions, source-to-Gram proof and exact audits](research/mw92_sections_20261115/).
+**Latest: new explicit 58D lattice, +6.9277%.** One deep MW56 coset and
+complex multiplication supply a compatible plane. Two full enumeration
+runs completed. [Gram, proof and reproduction commands](research/cm58_20261116/).
 
 **Comparison method / source** names the published work behind each recorded
 comparison. Values marked **derived** are calculated from published inputs,
 rather than quoted as numerical records in those sources. All densities in
 this table are occupied-volume fractions.
 
-**In 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D, our certified bounds are
-best-known lower bounds in the literature review dated 15 November 2026.**
+**In 49D–53D, 57D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D, our certified bounds are
+best-known lower bounds in the literature review dated 16 November 2026.**
 No stronger published lower bound was located. The [review and exact comparisons](research/covering_and_deep_cosets_20261115/PRIORITY.md)
 identify the sources. We compare proved guarantees; neither a previous-record
 table nor an older lattice's unknown actual minimum is required.
@@ -61,6 +61,7 @@ table nor an older lattice's unknown actual minimum is required.
 | 52 | ≈1.094979637686e-10 (**derived**) | Two Blichfeldt sections of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [derivation](research/range48_96_20261115/verify_range.py) | ≈2.879504124e-10 | **162.973303%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
 | 53 | ≈1.256125809644e-10 (**derived**) | One Blichfeldt section of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [comparison derivation](research/range48_96_20261115/verify_range.py) | ≈1.496705651057e-10 | **19.152528%** | [Primitive dual normal; explicit minimum-10 lattice](research/adaptive_layers_20261115/SECTION53_PROOF.md) |
 | 57 | ≈8.85119018168e-12 (**derived**) | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈1.471429176616e-11 | **66.240827%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 58 | ≈4.474935526505e-12 (**derived**) | Γ72 perpendicular to a rank-14 Leech block — [Nebe (2012), §4.2](https://arxiv.org/abs/1008.2862); [exact derived section](research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py) | ≈4.784946339509e-12 | **6.927716%** | [Explicit MW56 complex-multiplication plane; full minimum-10 certificate](research/cm58_20261116/) |
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
 | 60 | ≈[1.668964977674e-12, 1.680573547119e-12) | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | ≈2.395250641682e-12 | **>42.525785%** | [Explicit Ne64 antipode; exact period and shifts](research/novel_routes_20261113/audits/README.md) |
 | 61 | ≈[1.508819950024e-12, 1.519314622713e-12) | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 20.54… | ≈2.022035232382e-12 | **>33.088644%** | [Explicit Ne64 antipode; exact period and shifts](research/novel_routes_20261113/audits/README.md) |
@@ -98,7 +99,7 @@ table nor an older lattice's unknown actual minimum is required.
 The 84D/85D rows now use stronger classical comparisons than Chen's 2013
 guarantees. The 96D comparator is an explicitly reported published
 construction, with its exact density recovered from the full paper.
-The 49D–53D and 65D lattices and the 59D–62D, 66D–71D, 78D–79D and
+The 49D–53D, 58D and 65D lattices and the 59D–62D, 66D–71D, 78D–79D and
 86D–91D periodic packings are explicit. The 57D, 73D–77D, 81D–85D and 93D–96D
 bounds are existence proofs. The three Vardy comparisons retain intervals
 for the published decimal prefixes; their gains use the upper endpoints.
@@ -114,8 +115,8 @@ The recent 88D parent's full computational proof has now been freshly
 [reproduced and bound to our catalogue Gram](research/priority_resolution_20261115/REPLAY88.md).
 Research remains capped at **96D**, including parent inputs.
 The [remaining-dimensions review](research/covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md)
-accounts for all 49 dimensions: **39 construction improvements** and
-**10 dimensions with no new construction improvement**.
+accounts for all 49 dimensions: **40 construction improvements** and
+**nine dimensions with no new construction improvement**.
 In **55D**, [Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
 gives center density **116,783.149646…**, above our earlier 55D section
 control of 55,694.295040…. The complete table now uses that published bound.
@@ -129,6 +130,10 @@ These improve the published-input comparisons named in the table above.
 The audit also includes
 Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
+
+The [remaining-target continuation](research/cm58_20261116/FRONTIER.md) certifies
+local optimality against lattice Gram deformations in 54D–56D and 80D.
+Its 92D deformation is an unverified candidate and is excluded from this table.
 
 The [preceding adaptive-layer continuation](research/adaptive_layers_20261115/)
 strengthens **13 dimensions**. The larger gains over our preceding bounds

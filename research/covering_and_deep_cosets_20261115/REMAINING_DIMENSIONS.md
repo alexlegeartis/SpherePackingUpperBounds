@@ -1,6 +1,6 @@
-# Remaining dimensions in 48D–96D: review of 15 November 2026
+# Remaining dimensions in 48D–96D: review of 16 November 2026
 
-**Current continuation:** [explicit MW92 antipodes](../mw92_sections_20261115/) add **86D–91D**. The total is now **39 construction dimensions** and **10 dimensions without a new construction improvement**. No dimensions remain classified only by a new classical section control.
+**Current continuation:** [CM58](../cm58_20261116/) adds a certified explicit 58D lattice. The total is now **40 construction dimensions** and **nine dimensions without a new construction improvement**. [Local geometry, route obstructions and the conditional 92D candidate](../cm58_20261116/FRONTIER.md) describe the remaining research.
 
 The earlier review added these 23 dimensions under the same dated criterion:
 57D, 60D–62D, 65D–71D, 73D–79D, 82D–83D and 93D–95D. No stronger
@@ -72,12 +72,12 @@ these are below the stronger comparisons already used for our constructions.
 | **48, 54, 56, 64, 72, 80, 92** | Retain the named published parent bounds; no denser construction from us. |
 | **53** | New explicit section with center density20,890.804898…; see the current continuation. |
 | **55** | Use Leterrier2024's stronger published lamination above. |
-| **58** | Retain the classical Γ72/Leech-block section; no denser construction from us. |
+| **58** | New explicit CM58 lattice, 6.9277% above the classical Γ72/Leech-block section. |
 | **63** | The Elkies guarantee reported by Vardy exceeds our Ne64 antipode. |
 
-These disjoint groups account for every dimension from 48 through 96:
-**39 construction improvements and
-10 dimensions without a new construction improvement.** The research
+The current classification across 48D–96D is:
+**40 construction improvements and
+nine dimensions without a new construction improvement.** The research
 ceiling, including every parent used, remains 96D.
 
 The original Rogers simplex bound is an exact classical upper-bound

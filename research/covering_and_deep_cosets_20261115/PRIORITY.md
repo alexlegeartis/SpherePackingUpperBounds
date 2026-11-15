@@ -1,6 +1,6 @@
-# Best-known lower bounds: literature checked 15 November 2026
+# Best-known lower bounds: literature checked 16 November 2026
 
-**Our certified bounds in 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are the
+**Our certified bounds in 49D–53D, 57D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are the
 best-known lower bounds found in the documented literature review.** No
 stronger published lower bound was located in those dimensions. The
 sources and numerical comparisons are given below; the review date and
@@ -13,6 +13,9 @@ unknown actual density is unnecessary. A previous-record table is also
 unnecessary: we compare the papers, their theorem guarantees and named
 classical consequences. We revise a best-known claim if a stronger prior
 published bound is identified.
+
+The 16 November update carries forward the previous source review and adds
+the new 58D construction and its dimension-specific literature searches.
 
 ## Numerical comparisons and attribution
 
@@ -29,6 +32,7 @@ it does not mean that its authors printed that same-dimensional number.
 | 52 | 13773.364524023099… | **Derived:** two Blichfeldt sections of [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0) | 5,237.552386373… | **162.973303%** |
 | 53 | 20890.804898853429… | **Derived:** one Blichfeldt section of [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0) | 17532.82564220611 | **19.152528%** |
 | 57 | 163093.23475965115… | **Derived:** MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 98106.6069059854 | **66.240827%** |
+| 58 | 161833.931161289967 | **Derived:** Γ72 perpendicular to a rank-14 Leech block — [Nebe (2012), §4.2](https://arxiv.org/abs/1008.2862); [section audit](../novel_routes_20261113/audits/verify_gamma72_leech_sections.py) | 151348.908966445256 | **6.927716%** |
 | 59 | 274,522.589741150… | **Derived:** Γ72 perpendicular to √2κ13, from [Nebe (2012), §4.2](https://arxiv.org/abs/1008.2862) and [κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html) | 269,064.727051… | **2.028457%** |
 | 60 | 773597.1467710571 | **Reported:** Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | `log₂ δ=19.04…` | **>42.525785%** |
 | 61 | 2043183.683386255 | **Reported:** Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 20.54… | `log₂ δ=20.54…` | **>33.088644%** |
@@ -66,7 +70,7 @@ it does not mean that its authors printed that same-dimensional number.
 The exact density squares, comparison provenance and rational gain
 intervals are checked by [verify_literature_comparisons.py](verify_literature_comparisons.py)
 and retained in [literature_comparisons.json](literature_comparisons.json).
-The 49D–53D and 65D lattices and the 59D–62D, 66D–71D, 78D–79D and
+The 49D–53D, 58D and 65D lattices and the 59D–62D, 66D–71D, 78D–79D and
 86D–91D periodic packings are explicit. The other registered bounds are existence
 proofs. Both establish sphere-packing lower bounds. For 60D–62D, the stated
 strict gains hold even at the upper ends of the source's decimal-prefix
@@ -76,7 +80,8 @@ The [remaining-dimensions review](REMAINING_DIMENSIONS.md) accounts for the
 whole range. The subsequent [adaptive-layer continuation](../adaptive_layers_20261115/)
 strengthens 13 bounds and adds an explicit 53D lattice to the dated claims,
 bringing that checkpoint to 33. The [MW92 continuation](../mw92_sections_20261115/)
-adds six explicit construction dimensions, **86D–91D**, for a current total of **39**.
+adds six explicit construction dimensions, **86D–91D**, for a checkpoint total of **39**. The [new CM58 construction](../cm58_20261116/)
+adds 58D, bringing the current total to **40**.
 The 89D–91D gains enclose and exceed the full Rogers-simplex consequence;
 they do not rely on weakening its numerical evaluation. The 55D literature correction remains valid.
 

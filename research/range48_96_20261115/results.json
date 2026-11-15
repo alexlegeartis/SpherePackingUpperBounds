@@ -14930,6 +14930,13 @@
       "density_squared": "9643560635775417735937758688871412281272526471944415536527807212190160898972325954871735230767888666882371151462240904017209300282693377402682458937084854695624720869859645395825215107233704925781591152380496347711720882175281964241312459028740965331748609971015752706530229921219960417949036639957347602532372491118871613166277713/1569362070882808156056314379246963606664493930460885493831715224643360059295730039330535725598365449997704126829491185252524598243510183785813184918378028232719368182007399436905990419393874783025191494488263188586818327011426304920476967088403820236881026923069683950255792507170165134952003851517952",
       "evidence": "research/mw92_sections_20261115/results.json",
       "kind": "new_explicit_periodic_packing"
+    },
+    {
+      "dimension": 58,
+      "name": "Explicit MW56 CM plane with one certified deep coset",
+      "density_squared": "34694469519536141888238489627838134765625/1324710820694697074011278409728",
+      "evidence": "research/cm58_20261116/results.json",
+      "kind": "new_explicit_lattice"
     }
   ],
   "rows": [
@@ -14963,7 +14970,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 49,
@@ -14995,7 +15002,7 @@
       "ratio_to_previous": "1.73205080756887729352744634150587236694280525",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 50,
@@ -15027,7 +15034,7 @@
       "ratio_to_previous": "3",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 51,
@@ -15059,7 +15066,7 @@
       "ratio_to_previous": "4.43129367525597837843266376450874928100229313",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 52,
@@ -15091,7 +15098,7 @@
       "ratio_to_previous": "2.62973303328838290365075520078339381872107333",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 53,
@@ -15123,7 +15130,7 @@
       "ratio_to_previous": "1.19152527522795788273314586234584745918522509",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 54,
@@ -15155,7 +15162,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 55,
@@ -15187,7 +15194,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 56,
@@ -15219,7 +15226,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 57,
@@ -15251,18 +15258,18 @@
       "ratio_to_previous": "1.07506061188087813858592461607431820464934429",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 58,
       "best_checked": {
         "dimension": 58,
-        "name": "Classical Gamma72/Leech-block section",
-        "density_squared": "68719476736/3",
-        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
-        "kind": "derived_classical_section"
+        "name": "Explicit MW56 CM plane with one certified deep coset",
+        "density_squared": "34694469519536141888238489627838134765625/1324710820694697074011278409728",
+        "evidence": "research/cm58_20261116/results.json",
+        "kind": "new_explicit_lattice"
       },
-      "center_density": "151348.908966445256411486297915905135253284913",
+      "center_density": "161833.931161289966839028097743247681987376485",
       "comparison": {
         "dimension": 58,
         "name": "Classical Gamma72/Leech-block section",
@@ -15279,11 +15286,11 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "151348.908966445256411486297915905135253284913",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
-      "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "ratio_to_comparison": "1.06927715744002679055970593810214494720348520",
+      "ratio_to_previous": "1.06927715744002679055970593810214494720348520",
+      "improves_previous_checked_envelope": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 59,
@@ -15315,7 +15322,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 60,
@@ -15347,7 +15354,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 61,
@@ -15379,7 +15386,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 62,
@@ -15411,7 +15418,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 63,
@@ -15443,7 +15450,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 64,
@@ -15475,7 +15482,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 65,
@@ -15507,7 +15514,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 66,
@@ -15539,7 +15546,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 67,
@@ -15571,7 +15578,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 68,
@@ -15603,7 +15610,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 69,
@@ -15635,7 +15642,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 70,
@@ -15667,7 +15674,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 71,
@@ -15699,7 +15706,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 72,
@@ -15731,7 +15738,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 73,
@@ -15763,7 +15770,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 74,
@@ -15795,7 +15802,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 75,
@@ -15827,7 +15834,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 76,
@@ -15859,7 +15866,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 77,
@@ -15891,7 +15898,7 @@
       "ratio_to_previous": "1.15470053837925152901829756100391491129520350",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 78,
@@ -15923,7 +15930,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 79,
@@ -15955,7 +15962,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 80,
@@ -15987,7 +15994,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 81,
@@ -16019,7 +16026,7 @@
       "ratio_to_previous": "1.08435925809244637027521245570527302224636206",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 82,
@@ -16051,7 +16058,7 @@
       "ratio_to_previous": "1.02427557954090973776934775917329166556978361",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 83,
@@ -16083,7 +16090,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 84,
@@ -16115,7 +16122,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 85,
@@ -16147,7 +16154,7 @@
       "ratio_to_previous": "1.09985336266014966877085464128464453508871649",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 86,
@@ -16179,7 +16186,7 @@
       "ratio_to_previous": "1.39116647669875841923594830284345140926923040",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 87,
@@ -16211,7 +16218,7 @@
       "ratio_to_previous": "1.96155350867935723463465545468590925985747656",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 88,
@@ -16243,7 +16250,7 @@
       "ratio_to_previous": "2.86786396532307329500731328396213359159817460",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 89,
@@ -16285,7 +16292,7 @@
       "ratio_to_previous": "2.85488836922000702772553142226554202560305991",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 90,
@@ -16327,7 +16334,7 @@
       "ratio_to_previous": "2.17127768625531415229324347482003651542464847",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 91,
@@ -16369,7 +16376,7 @@
       "ratio_to_previous": "1.33154793922186694510415220161857141883968442",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 92,
@@ -16401,7 +16408,7 @@
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
       "literature_status": "literature_input_or_derived_control",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 93,
@@ -16433,7 +16440,7 @@
       "ratio_to_previous": "1.06849550052583930602333874401784251366069026",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 94,
@@ -16465,7 +16472,7 @@
       "ratio_to_previous": "1.11458924682913906188219436622186466950766216",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 95,
@@ -16497,7 +16504,7 @@
       "ratio_to_previous": "1.19672502410112980453909347695330885538519754",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     },
     {
       "dimension": 96,
@@ -16529,7 +16536,7 @@
       "ratio_to_previous": "1.26206456639753211407639973166220762277631588",
       "improves_previous_checked_envelope": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "literature_review_date": "2026-11-15"
+      "literature_review_date": "2026-11-16"
     }
   ],
   "all_inequalities_exact": true

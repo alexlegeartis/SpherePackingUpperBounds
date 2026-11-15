@@ -1,0 +1,325 @@
+{
+  "commit": "cacc26abfcea3c300c948a92c566d9a65360b9b0",
+  "target_dimensions": [
+    {
+      "dimension": 48,
+      "best_checked": {
+        "dimension": 48,
+        "name": "Leech--Sloane P48q",
+        "density_squared": "79766443076872509863361/281474976710656",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "published_lattice"
+      },
+      "center_density": "16834.1121960282325744628906250000000000000000",
+      "comparison": {
+        "dimension": 48,
+        "name": "Leech--Sloane P48q",
+        "density_squared": "79766443076872509863361/281474976710656",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "16834.1121960282325744628906250000000000000000",
+      "previous_checked": {
+        "dimension": 48,
+        "name": "Leech--Sloane P48q",
+        "density_squared": "79766443076872509863361/281474976710656",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "16834.1121960282325744628906250000000000000000",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 54,
+      "best_checked": {
+        "dimension": 54,
+        "name": "Leterrier54, Corollary 1.4 (2022)",
+        "density_squared": "55511151231257827021181583404541015625/15263394663051042073620774912",
+        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
+        "kind": "published_lattice_guarantee"
+      },
+      "center_density": "60306.5591597049006946112493390305788485265828",
+      "comparison": {
+        "dimension": 54,
+        "name": "Leterrier54, Corollary 1.4 (2022)",
+        "density_squared": "55511151231257827021181583404541015625/15263394663051042073620774912",
+        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
+        "kind": "published_lattice_guarantee"
+      },
+      "comparison_center_density": "60306.5591597049006946112493390305788485265828",
+      "previous_checked": {
+        "dimension": 54,
+        "name": "Leterrier54, Corollary 1.4 (2022)",
+        "density_squared": "55511151231257827021181583404541015625/15263394663051042073620774912",
+        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
+        "kind": "published_lattice_guarantee"
+      },
+      "previous_center_density": "60306.5591597049006946112493390305788485265828",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 55,
+      "best_checked": {
+        "dimension": 55,
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
+      },
+      "center_density": "116783.149646304716660799144046447486725721945",
+      "comparison": {
+        "dimension": 55,
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
+      },
+      "comparison_center_density": "116783.149646304716660799144046447486725721945",
+      "previous_checked": {
+        "dimension": 55,
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
+      },
+      "previous_center_density": "116783.149646304716660799144046447486725721945",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 56,
+      "best_checked": {
+        "dimension": 56,
+        "name": "Shioda MW56",
+        "density_squared": "1387778780781445675529539585113525390625/36046552944073389769014378496",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "center_density": "196213.213811970868089138487406494079527797297",
+      "comparison": {
+        "dimension": 56,
+        "name": "Shioda MW56",
+        "density_squared": "1387778780781445675529539585113525390625/36046552944073389769014378496",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "196213.213811970868089138487406494079527797297",
+      "previous_checked": {
+        "dimension": 56,
+        "name": "Shioda MW56",
+        "density_squared": "1387778780781445675529539585113525390625/36046552944073389769014378496",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "196213.213811970868089138487406494079527797297",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 58,
+      "best_checked": {
+        "dimension": 58,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "68719476736/3",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "center_density": "151348.908966445256411486297915905135253284913",
+      "comparison": {
+        "dimension": 58,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "68719476736/3",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "151348.908966445256411486297915905135253284913",
+      "previous_checked": {
+        "dimension": 58,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "68719476736/3",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "151348.908966445256411486297915905135253284913",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 63,
+      "best_checked": {
+        "dimension": 63,
+        "name": "Elkies E63, Vardy1999 printed log2 prefix 23.92",
+        "density_squared": "251927160994904",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "center_density": "15872213.4875670066385328258114003184404053330",
+      "comparison": {
+        "dimension": 63,
+        "name": "Elkies E63, Vardy1999 printed log2 prefix 23.92",
+        "density_squared": "251927160994904",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "comparison_center_density": "15872213.4875670066385328258114003184404053330",
+      "previous_checked": {
+        "dimension": 63,
+        "name": "Elkies E63, Vardy1999 printed log2 prefix 23.92",
+        "density_squared": "251927160994904",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "previous_center_density": "15872213.4875670066385328258114003184404053330",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 64,
+      "best_checked": {
+        "dimension": 64,
+        "name": "Nebe Ne64",
+        "density_squared": "1853020188851841",
+        "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+        "kind": "published_lattice"
+      },
+      "center_density": "43046721",
+      "comparison": {
+        "dimension": 64,
+        "name": "Nebe Ne64",
+        "density_squared": "1853020188851841",
+        "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "43046721",
+      "previous_checked": {
+        "dimension": 64,
+        "name": "Nebe Ne64",
+        "density_squared": "1853020188851841",
+        "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "43046721",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 72,
+      "best_checked": {
+        "dimension": 72,
+        "name": "Nebe Gamma72",
+        "density_squared": "4722366482869645213696",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "published_lattice"
+      },
+      "center_density": "68719476736",
+      "comparison": {
+        "dimension": 72,
+        "name": "Nebe Gamma72",
+        "density_squared": "4722366482869645213696",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "68719476736",
+      "previous_checked": {
+        "dimension": 72,
+        "name": "Nebe Gamma72",
+        "density_squared": "4722366482869645213696",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "68719476736",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 80,
+      "best_checked": {
+        "dimension": 80,
+        "name": "Shioda MW80",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "center_density": "1219041901603.63216627339553751995458101107045",
+      "comparison": {
+        "dimension": 80,
+        "name": "Shioda MW80",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "1219041901603.63216627339553751995458101107045",
+      "previous_checked": {
+        "dimension": 80,
+        "name": "Shioda MW80",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "1219041901603.63216627339553751995458101107045",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 92,
+      "best_checked": {
+        "dimension": 92,
+        "name": "Shioda MW92",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "center_density": "9774050881483923.47642847473367108906974140020",
+      "comparison": {
+        "dimension": 92,
+        "name": "Shioda MW92",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "comparison_center_density": "9774050881483923.47642847473367108906974140020",
+      "previous_checked": {
+        "dimension": 92,
+        "name": "Shioda MW92",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "published_lattice"
+      },
+      "previous_center_density": "9774050881483923.47642847473367108906974140020",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    }
+  ]
+}

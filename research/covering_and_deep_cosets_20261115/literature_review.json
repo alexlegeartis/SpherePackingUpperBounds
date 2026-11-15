@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-11-15",
+  "review_date": "2026-11-16",
   "claim": "Best-known sphere-packing lower bounds found in the documented literature review",
   "registered_dimensions": [
     49,
@@ -8,6 +8,7 @@
     52,
     53,
     57,
+    58,
     59,
     60,
     61,
@@ -52,7 +53,8 @@
     "../cross_dimension_lower_20261115/literature_sources.json",
     "../../constructions/dim59/README.md",
     "../adaptive_layers_20261115/sources.json",
-    "../mw92_sections_20261115/sources.json"
+    "../mw92_sections_20261115/sources.json",
+    "../cm58_20261116/sources.json"
   ],
   "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
   "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -70,5 +72,7 @@
     "87": "Classical BCS88 section"
   },
   "subsequent_stronger_bounds": "../adaptive_layers_20261115/results.json",
-  "current_continuation": "../mw92_sections_20261115/results.json"
+  "current_continuation": "../cm58_20261116/results.json",
+  "review_carried_forward_from": "2026-11-15",
+  "update_scope": "New58D construction and dimension-specific source searches; earlier named-source reviews carried forward."
 }

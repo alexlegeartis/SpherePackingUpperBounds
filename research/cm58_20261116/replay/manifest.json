@@ -1,0 +1,18 @@
+{
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "cutoff": 22,
+  "dimension": 56,
+  "enumerator_sha256": "0716c0c65c5e81089a4c573b65d6070b5759c6e4fb8ef6b67d9727b913ab0ef7",
+  "certificate_sha256": "71f3a416ce75aa250c776dbba5d6849f4d30e2dcfd53fb2befec04fdfe94aad3",
+  "input_sha256": {
+    "ldl.txt": "5cf7ec830cd89f69aa797c1e9a5e5dac2535de86757b14146ec6394722c3804a",
+    "gram.txt": "a559f0258001120bb53d8448bc18a27dcbafd6a4d74be2fb1f17d5115e0e0002",
+    "coset.txt": "563323cf1a70a91f669298aea5514a8c68f1f796fea4dfe2e108b396a3af5fb1",
+    "negative_control.txt": "4857f9a588933b27e81ef9cdd0cf8e7ece51c2282541d29cc587ffc0cc058816"
+  }
+}

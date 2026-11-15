@@ -1,6 +1,6 @@
 # Stronger lower bounds in thirteen dimensions
 
-**Six larger gains and seven smaller covering refinements**, all within 48D–96D. The new explicit 53D lattice replaces a conservative section estimate. The other results strengthen our existing dated best-known bounds. The [current source review](../covering_and_deep_cosets_20261115/PRIORITY.md) now registers 39 construction dimensions; no stronger published lower bound was located in that review.
+**Six larger gains and seven smaller covering refinements**, all within 48D–96D. The new explicit 53D lattice replaces a conservative section estimate. The other results strengthen our existing dated best-known bounds. The [current source review](../covering_and_deep_cosets_20261115/PRIORITY.md) now registers 40 construction dimensions; no stronger published lower bound was located in that review.
 
 All densities below are approximate **center densities**. The incremental gains compare with the exact bounds pinned at commit `22bda7e` in [checkpoint.json](checkpoint.json). The main repository table separately retains the named external comparisons.
 

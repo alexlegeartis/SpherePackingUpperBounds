@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-11-15",
+  "review_date": "2026-11-16",
   "range": [
     48,
     96
@@ -36,6 +36,7 @@
     52,
     53,
     57,
+    58,
     59,
     60,
     61,
@@ -76,7 +77,6 @@
     54,
     55,
     56,
-    58,
     63,
     64,
     72,
@@ -183,8 +183,11 @@
     "../priority_resolution_20261115/sources.json",
     "../cross_dimension_lower_20261115/literature_sources.json",
     "../../constructions/dim59/README.md",
-    "../mw92_sections_20261115/sources.json"
+    "../mw92_sections_20261115/sources.json",
+    "../cm58_20261116/sources.json"
   ],
   "subsequent_53D_explicit_improvement": "../adaptive_layers_20261115/SECTION53_PROOF.md",
-  "subsequent_86D_91D_explicit_improvements": "../mw92_sections_20261115/PROOF.md"
+  "subsequent_86D_91D_explicit_improvements": "../mw92_sections_20261115/PROOF.md",
+  "subsequent_58D_explicit_improvement": "../cm58_20261116/PROOF.md",
+  "frontier_local_geometry_and_conditional_92D": "../cm58_20261116/FRONTIER.md"
 }

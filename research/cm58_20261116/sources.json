@@ -1,0 +1,50 @@
+{
+  "review_date": "2026-11-16",
+  "maximum_dimension": 96,
+  "SchuttShioda": {
+    "title": "Mordell-Weil Lattices, author draft 16 March 2017",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "pdf_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d",
+    "locators": [
+      "Theorem6.23, Equation6.15, p.123: canonical height pairing",
+      "Theorem13.35, p.357, p=29: rank56, minimum10, determinant29^8",
+      "Section13.4.2, p.359: unitary polynomial sections"
+    ],
+    "frontier_parameters": "The same Theorem13.35 at p=41 and47 supplies the80D and92D frontier parents."
+  },
+  "Nebe2012": {
+    "url": "https://arxiv.org/abs/1008.2862",
+    "locator": "Theorem2.3 and Section4.2; Gamma72 minimum8 and Leech block",
+    "comparison": "Primitive rank14 Leech-block normal; center-density square2^36/3; derived classical section, not printed as a numerical record.",
+    "exact_comparison_audit": "../novel_routes_20261113/audits/verify_gamma72_leech_sections.py"
+  },
+  "additional_queries": [
+    "\"58-dimensional\" \"sphere packings\"",
+    "\"sphere packing\" \"58\" \"17.2075\"",
+    "\"sphere packing\" \"58\" \"17.3\"",
+    "\"sphere packing\" \"161833\""
+  ],
+  "review_finding": "No stronger published58D guarantee located in the carried-forward source review and new dimension-specific searches.",
+  "Vardy1999": {
+    "url": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+    "locator": "Section4, p.278: Elkies58D guarantee with log2center-density prefix16.46",
+    "comparison_scope": "Secondary directly reported guarantee; the leading comparison remains the stronger derived Gamma72 section."
+  },
+  "Leterrier2024_frontier": {
+    "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "locators": [
+      "Theorem3.2.7 and Theorem3.4.1: narrow54D lattice minimum10 and determinant3^25",
+      "Lemmas3.2.15-3.2.17 and Corollary3.2.18: canonical heights and explicit tripling",
+      "Proposition3.2.22:55D Q-glued lamination and minimum10"
+    ]
+  },
+  "P48q_frontier": {
+    "url": "https://neilsloane.com/doc/Me103.pdf",
+    "input": "Even unimodular rank48 minimum6; harmonic theta local-optimality argument is classical."
+  },
+  "Ne64_frontier": {
+    "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+    "input": "Published rank64 minimum12 and determinant3^32, center density3^16."
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "review_date": "2026-11-16",
+  "new_certified_density_dimensions": [
+    58
+  ],
+  "local_and_route_audits": [
+    {
+      "dimensions": [
+        54,
+        55
+      ],
+      "status": "certified_local_optimality_among_lattice_Gram_deformations",
+      "minimum_input": "Leterrier2024 Theorem3.2.7, Proposition3.2.22 and Theorem3.4.1; minimum10",
+      "source_polynomial_points": 124,
+      "minimal_vectors54": 8748,
+      "closest_vectors_for55": 2187,
+      "perfection_ranks": [
+        1485,
+        1540
+      ],
+      "positive_eutaxy_weights55": [
+        "1/2187",
+        "1/1458"
+      ],
+      "global_optimality_claimed": false
+    },
+    {
+      "dimension": 56,
+      "minimal_rays": 2436,
+      "perfection_rank": 1596,
+      "eutaxy_scalar": "435",
+      "status": "certified_local_optimality_among_lattice_Gram_deformations"
+    },
+    {
+      "dimension": 80,
+      "minimal_rays": 4920,
+      "perfection_rank": 3240,
+      "eutaxy_scalar": "861",
+      "status": "certified_local_optimality_among_lattice_Gram_deformations"
+    },
+    {
+      "dimension": 48,
+      "status": "classical_local_optimality_from_harmonic_theta_vanishing",
+      "argument": "Degree2 and4 harmonic theta series vanish by their initial order and the level1 valence bound; the minimum shell is a4-design.",
+      "minimum_inherited": 6,
+      "global_optimality_claimed": false
+    },
+    {
+      "dimension": 72,
+      "status": "classical_local_optimality_from_harmonic_theta_vanishing",
+      "argument": "Degree2 and4 harmonic theta series vanish by their initial order and the level1 valence bound; the minimum shell is a4-design.",
+      "minimum_inherited": 8,
+      "global_optimality_claimed": false
+    },
+    {
+      "dimension": 63,
+      "status": "Ne64_inherited_minimum_antipode_bound_ruled_out",
+      "universal_density_squared_ceiling": "422994544921440038473296458155034208036087296312682876872509790256770164199705264138280855142037820303066564597053101180345131327/2462625387274654950767440006258975862817483704404090416746768337765357610718575663213391640930307227550414249394176",
+      "comparison": "Elkies guarantee reported by Vardy1999, log2center density starts23.92",
+      "scope": "The inherited-minimum12 guarantee for every primitive normal and every cluster with at least2 integer labels. A stronger actual minimum would require a separate proof."
+    },
+    {
+      "dimension": 64,
+      "status": "Gamma72_fourE8_inherited_minimum_antipode_family_ruled_out",
+      "all_cluster_sizes_and_diameters_covered": true,
+      "density_guarantee_ceiling": "388295894946590275503695011138916015625/20282409603651670423947251286016",
+      "piecewise_ratio_upper_bounds": [
+        "1",
+        "388295894946590275503695011138916015625/340282366920938463463374607431768211456",
+        "29819547204585857450243078427/39614081257132168796771975168",
+        "442779263776840698304313192148785281/1329227995784915872903807060280344576",
+        "12157665459056928801/18446744073709551616",
+        "1104427674243920646305299201/5192296858534827628530496329220096"
+      ],
+      "scope": "Fixed4E8 normal, every finite integer-label cluster, inherited minimum8 only. Other normals or a stronger actual minimum remain possible."
+    }
+  ],
+  "conditional_candidates_not_registered": [
+    {
+      "dimension": 92,
+      "status": "CONDITIONAL_CANDIDATE_NOT_A_CERTIFIED_LOWER_BOUND",
+      "known_minimal_rays": 6486,
+      "exact_known_dyad_rank": 4276,
+      "missing_form_directions": 2,
+      "candidate": "G+H0/16",
+      "determinant_ratio": "349577903995238515642673757113143937756118562916021024626967115555637556419335505575046924658863763587493927929/601226901190101306339707032778070279008174732520529886901066488712245510429339761526706943586500787976175353856",
+      "conditional_density_ratio": "24519928653854221733733552434404946937899825954937634816/18697002540387015619524111591188463994589212728398993077",
+      "conditional_gain_percent": "31.14363439213971131344980313815243777625221419141776408872460942145120",
+      "all_parent_vectors_of_norm_at_least18_proved_safe": true,
+      "remaining_gap": "Every parent norm16 vector outside the known orbit must satisfy vH0v^T>=0. A full minimum proof is missing.",
+      "registered_as_SOTA": false,
+      "finite_counterexample_search": "BKZ blocks20,28,32,36,40 found no counterexample; this is not a certificate."
+    }
+  ],
+  "maximum_parent_or_target_dimension": 92,
+  "new_SOTA_claims_from_frontier_audit": false
+}

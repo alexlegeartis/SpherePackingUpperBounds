@@ -339,6 +339,11 @@ def audit():
     assert mw92['all_source_and_period_checks_exact'] and mw92['maximum_parent_or_target_dimension']<=96
     for a in mw92['rows']:
         additional.append(row(a['dimension'],a['name'],a['density_squared'],path,a['kind']))
+    path='research/cm58_20261116/results.json'
+    cm58=read(path)
+    assert cm58['all_setup_and_layer_checks_exact'] and cm58['maximum_parent_or_target_dimension']<=96
+    for a in cm58['rows']:
+        additional.append(row(a['dimension'],a['name'],a['density_squared'],path,a['kind']))
     new = close_products(list(previous.values())+counting['rows']+torus+additional)
     assert set(new) == set(previous) == set(external) == set(range(48, 97))
     results = []

@@ -1,6 +1,8 @@
 # New best-known lower bounds in six previously missing dimensions
 
-**86D–91D now have explicit improved constructions.** These add six dimensions to the dated literature review, bringing the total to **39 of the 49 dimensions from 48D through 96D**. All six objects are explicit periodic packings; their period bases and rational shifts can be exported from the certificate.
+**Subsequent update:** [CM58](../cm58_20261116/) adds 58D, bringing the current dated total to **40**.
+
+**86D–91D now have explicit improved constructions.** These add six dimensions to the dated literature review, bringing that checkpoint to **39 of the 49 dimensions from 48D through 96D**. All six objects are explicit periodic packings; their period bases and rational shifts can be exported from the certificate.
 
 All densities below are **center densities**. “Previous” means the exact repository checkpoint `a30feca`. External comparisons use the named published work or its stated classical consequences.
 
@@ -34,4 +36,4 @@ NumPy and python-flint are required. Run without `-O`. The second command requir
 
 ## Dimensions still missing an improvement
 
-**48, 54, 55, 56, 58, 63, 64, 72, 80 and 92.** No new SOTA is claimed in those ten dimensions. A 58D half-coset experiment was capped without a complete positive certificate. [Search budgets and outcomes](discovery_summary.json).
+At this checkpoint the missing dimensions were **48, 54, 55, 56, 58, 63, 64, 72, 80 and 92**. The subsequent CM58 certificate resolves 58D. A 58D half-coset experiment was capped without a complete positive certificate. [Search budgets and outcomes](discovery_summary.json).

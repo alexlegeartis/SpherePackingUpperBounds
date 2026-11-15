@@ -46,12 +46,12 @@
     "Coxeter Few Rogers covering density simplex bound",
     "\"Packing and covering in higher dimensions\" Fejes Toth pdf"
   ],
-  "priority_conclusion": "Current dated review registers39 construction dimensions; explicit MW92 antipodes add86D-91D and exceed the full Rogers-derived comparison intervals. All comparisons retain named external sources and exact checks.",
+  "priority_conclusion": "The16November2026 update registers40 construction dimensions. CM58 adds an explicit58D minimum10 lattice; earlier named-source comparisons are retained.",
   "Rogers_packing_simplex": {
     "original_attribution": "C. A. Rogers (1958), as referenced in Fejes Toth2022 Section 2.2",
     "theorem_statement_source": "https://arxiv.org/abs/2202.11358",
     "application": "Finite Dirichlet second-moment estimate, then exact Hermite and section inequalities; original packing theorem inherited"
   },
   "remaining_dimensions_review": "remaining_dimensions_review.json",
-  "current_continuation": "../mw92_sections_20261115/sources.json"
+  "current_continuation": "../cm58_20261116/sources.json"
 }
