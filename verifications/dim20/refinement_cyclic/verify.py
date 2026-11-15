@@ -6,7 +6,7 @@ assert hashlib.sha256((p/'certificate.json').read_bytes()).hexdigest()=='6964796
 r=next(r for r in json.loads((p.parent.parent.parent/'RESULTS.json').read_text()) if r['dimension']==20)
 from fractions import Fraction
 assert Fraction(r['strict_density_upper_bound']) <= Fraction('0.006977702')
-assert r['package'] in ['verifications/dim20/refinement_cyclic','verifications/cyclic_origin_slack']
+assert r['package'] in ['verifications/dim20/refinement_cyclic','verifications/cyclic_origin_slack','verifications/dim20/refinement_larger20261115']
 subprocess.run([sys.executable,str(p/'producer_verify.py'),str(p/'certificate.json')],check=True)
 subprocess.run([sys.executable,str(p/'independent_verify.py')],check=True)
 print('PASS both full-domain cyclic verification paths in 20D')

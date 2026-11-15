@@ -1,0 +1,53 @@
+{
+  "base_commit": "6e7990802b8e045a78e3f54c99669d5fe9b5c437",
+  "bounds": [
+    {
+      "dimension": 17,
+      "previous_strict": "0.018204096",
+      "new_strict": "0.018140145562",
+      "further_decrease_percent": "0.3512969718463361212773213237284619900928",
+      "package": "verifications/dim17/refinement_larger20261115",
+      "previous_package": "verifications/dim17/refinement_repaired"
+    },
+    {
+      "dimension": 18,
+      "previous_strict": "0.013224473",
+      "new_strict": "0.013077495192",
+      "further_decrease_percent": "1.111407675753884483714398297762035583573",
+      "package": "verifications/dim18/refinement_larger20261115",
+      "previous_package": "verifications/cyclic_origin_slack"
+    },
+    {
+      "dimension": 19,
+      "previous_strict": "0.009521000",
+      "new_strict": "0.0093653907401",
+      "further_decrease_percent": "1.634379370864404999474845079298393025943",
+      "package": "verifications/dim19/refinement_larger20261115",
+      "previous_package": "verifications/cyclic_origin_slack"
+    },
+    {
+      "dimension": 20,
+      "previous_strict": "0.006936042",
+      "new_strict": "0.0067425778508",
+      "further_decrease_percent": "2.789258617522788933515685170303178671640",
+      "package": "verifications/dim20/refinement_larger20261115",
+      "previous_package": "verifications/cyclic_origin_slack"
+    },
+    {
+      "dimension": 21,
+      "previous_strict": "0.004985977000",
+      "new_strict": "0.0049104292815",
+      "further_decrease_percent": "1.515203910888477824907736237050431640579",
+      "package": "verifications/dim21/refinement_larger20261115",
+      "previous_package": "verifications/dim21/refinement_gaussian"
+    },
+    {
+      "dimension": 48,
+      "previous_strict": "4.13385739314e-7",
+      "new_strict": "4.0843570355E-7",
+      "further_decrease_percent": "1.197437476245412114855129523313065547430",
+      "package": "verifications/dim48/refinement_larger20261115",
+      "previous_package": "verifications/dim48"
+    }
+  ]
+}

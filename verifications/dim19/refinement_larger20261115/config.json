@@ -1,0 +1,13 @@
+{
+  "dimension": 19,
+  "package": "verifications/dim19/refinement_larger20261115",
+  "strict_density_upper_bound": "0.0093653907401",
+  "previous_repository_strict_upper": "0.009521000",
+  "previous_repository_package": "verifications/cyclic_origin_slack",
+  "base_commit": "6e7990802b8e045a78e3f54c99669d5fe9b5c437",
+  "minimum_squared_distance": "19/8",
+  "profile_a_exact": "-96",
+  "profile_b_exact": "120",
+  "radial_correction_degree": 95,
+  "external_neighbor_count_inputs": false
+}

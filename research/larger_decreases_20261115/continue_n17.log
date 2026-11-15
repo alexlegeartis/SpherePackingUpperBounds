@@ -1,0 +1,63 @@
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.823885756011837, 'density_candidate': 0.018139266171123446, 'max_scaled_residual': -9.844926572638691e-08, 'margin': 1e-07, 'seconds': 6.1228532791137695, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.595002107075546, 1), (14.678397852605162, 1), (23.76901063025291, 1), (23.852389163173445, 1), (33.026448571915495, 1), (33.109751033741574, 1), (42.36741786263497, 1), (42.45038030831283, 1), (51.62544773284896, 1), (51.70714257132742, 1), (60.88512890830823, 1), (60.96223395852557, 1), (70.23461541946196, 1), (70.29424133605056, 1)]
+physical forbidden roots []
+
+{'round': 0, 'returncode': 1, 'density_candidate': 0.018139266171123446, 'seconds': 7.782278776168823}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.82488474355626, 'density_candidate': 0.0181399174425213, 'max_scaled_residual': -9.844362706829565e-08, 'margin': 1e-07, 'seconds': 4.776957273483276, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.59500631180339, 1), (14.63669573487337, 1), (23.769031610467444, 1), (23.810678713283867, 1), (33.068196581595494, 1), (33.109653859215676, 1), (42.36785469855378, 1), (42.40846047184451, 1), (51.66807115053056, 1), (51.705356969176265, 1), (60.932004241993525, 1), (60.95387417458249, 1)]
+physical forbidden roots []
+
+{'round': 1, 'returncode': 1, 'density_candidate': 0.0181399174425213, 'seconds': 14.180566549301147}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825053792505933, 'density_candidate': 0.01814002765084809, 'max_scaled_residual': -9.842068524302667e-08, 'margin': 1e-07, 'seconds': 2.470536947250366, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.615859500989195, 1), (14.636687216810644, 1), (23.769073766844205, 1), (23.78981280248097, 1), (33.08912191351698, 1), (33.10945676673044, 1), (42.36878340605347, 1), (42.387227103079425, 1), (51.673187988295254, 1), (51.68158768487811, 1)]
+physical forbidden roots []
+
+{'round': 2, 'returncode': 1, 'density_candidate': 0.01814002765084809, 'seconds': 18.290961027145386}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825135612260503, 'density_candidate': 0.018140080991719282, 'max_scaled_residual': -9.818586509224057e-08, 'margin': 1e-07, 'seconds': 5.21503210067749, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.626290416126277, 1), (14.63667011907277, 1), (23.769159131854977, 1), (23.779357716339675, 1), (33.08953580435529, 1), (33.09887504990918, 1), (42.37157562809565, 1), (42.37521126453524, 1)]
+physical forbidden roots []
+
+{'round': 3, 'returncode': 1, 'density_candidate': 0.018140080991719282, 'seconds': 25.008384466171265}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825141428271642, 'density_candidate': 0.01814008478335986, 'max_scaled_residual': -9.80358151129671e-08, 'margin': 1e-07, 'seconds': 4.453677177429199, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.626324788161323, 1), (14.631445855103202, 1), (23.774436860470765, 1), (23.779179076804088, 1), (33.095351988343914, 1), (33.09772808950478, 1)]
+physical forbidden roots []
+
+{'round': 4, 'returncode': 1, 'density_candidate': 0.01814008478335986, 'seconds': 30.857719898223877}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.82514410975518, 'density_candidate': 0.018140086531503306, 'max_scaled_residual': -9.834647762963046e-08, 'margin': 1e-07, 'seconds': 3.5359885692596436, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.626395949324275, 1), (14.628814120028892, 1), (23.777267452264567, 1), (23.778719390009293, 1)]
+physical forbidden roots []
+
+{'round': 5, 'returncode': 1, 'density_candidate': 0.018140086531503306, 'seconds': 35.82771944999695}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825145239932446, 'density_candidate': 0.018140087268301408, 'max_scaled_residual': -9.832313533378486e-08, 'margin': 1e-07, 'seconds': 5.359590530395508, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots [(14.626566518784271, 1), (14.627434424776876, 1)]
+physical forbidden roots []
+
+{'round': 6, 'returncode': 1, 'density_candidate': 0.018140087268301408, 'seconds': 42.71952533721924}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.82514533432401, 'density_candidate': 0.018140087329838236, 'max_scaled_residual': -9.801121220656331e-08, 'margin': 1e-07, 'seconds': 4.596731424331665, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots []
+physical forbidden roots []
+PAIR COUNTEREXAMPLES [7.312898346999419, 10.888880452063473, 15.154967410825583, 19.399399061695625]
+
+{'round': 7, 'returncode': 1, 'density_candidate': 0.018140087329838236, 'seconds': 48.9308066368103}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825195417476884, 'density_candidate': 0.01814011998062069, 'max_scaled_residual': -9.790931267269647e-08, 'margin': 1e-07, 'seconds': 3.2339727878570557, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots []
+physical forbidden roots []
+PAIR COUNTEREXAMPLES [10.883410472726675, 15.149468674423035]
+
+{'round': 8, 'returncode': 1, 'density_candidate': 0.01814011998062069, 'seconds': 53.729371309280396}
+{'dimension': 17, 'degree': 95, 's_exact': '17/8', 'a_exact': '-96', 'b_exact': '120', 'q_exact': '1', 'cut_X_exact': '60', 'angular_file': 'research/larger_decreases_20261115/angular_n17_k96/angular.json', 'certified': False, 'objective': 27.825220413489358, 'density_candidate': 0.01814013627630733, 'max_scaled_residual': -9.850661364371853e-08, 'margin': 1e-07, 'seconds': 4.94734525680542, 'solver_attempts': [{'method': 'highs', 'presolve': True, 'status': 'Optimization terminated successfully. (HiGHS Status 7: Optimal)'}]}
+
+fourier forbidden roots []
+physical forbidden roots []
+RADIAL ALL GATES PASS 17 [0.018140145561882635681072705967827737627477135906036028406359242093539769747295812132656969357706732037383928293324853950774834153723136363225161860533669171980848105745550448254018885360508957872777525090123796254142951623056141087 +/- 7.30e-232] 0.018140145562 4832 26
+
+{'round': 9, 'returncode': 0, 'density_candidate': 0.01814013627630733, 'seconds': 65.29133868217468}

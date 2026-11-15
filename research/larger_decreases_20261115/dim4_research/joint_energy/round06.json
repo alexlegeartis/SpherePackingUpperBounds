@@ -1,0 +1,34 @@
+{
+  "status": "optimal",
+  "N": 24,
+  "j": 1,
+  "s": 0.5029330325745276,
+  "radial_degree": 8,
+  "angular_degree": 8,
+  "p_degree": 16,
+  "round": 6,
+  "kappa_micro": 3917.5323763658653,
+  "energy_micro": 4092.850452104838,
+  "joint_spherical": true,
+  "max_sample_residual": 0.2633693480503576,
+  "seconds": 490.162743806839,
+  "solver_attempts": [
+    {
+      "solver": "CLARABEL",
+      "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information."
+    },
+    {
+      "solver": "CLARABEL",
+      "error": "Solver 'CLARABEL' failed. Try another solver, or solve with verbose=True for more information."
+    },
+    {
+      "solver": "SCS",
+      "status": "optimal"
+    }
+  ],
+  "new_triangle_cuts": 7,
+  "new_pair_cuts": 6,
+  "max_random_triangle": 2.2087134249885594,
+  "max_dense_pair": 0.14607416261367234,
+  "certified": false
+}

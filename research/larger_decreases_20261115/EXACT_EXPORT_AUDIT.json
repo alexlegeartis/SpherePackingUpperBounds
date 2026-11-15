@@ -1,0 +1,80 @@
+{
+  "pass": true,
+  "source_48D_seed": "verifications/dim48/continuum_three_point/adaptive_cyclic40_radial111.json",
+  "source_sha256": "0c87ec795b6d7df3da8e606aa660ed866615a41f4d1b1036f4786c2db4bf977c",
+  "results": [
+    {
+      "dimension": 17,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n17_k96_d95/candidate.json",
+      "candidate_sha256": "cabaff1d9ddc6a8b41c2a65cfe22c5b59312d5f521f4b1fb4d5ad501d85c52c2",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 18,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n18_k96_d95/candidate.json",
+      "candidate_sha256": "d456b637bbf1d5598f138dc8c9fcc0bcb774fd9228f5793b56b33489f99ffef6",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 19,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n19_k96_d95/candidate.json",
+      "candidate_sha256": "764d5cc063832733ba58fda34387b9b0f6ef4421c6808125c180944f0345a99b",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 20,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n20_k96_d95/candidate.json",
+      "candidate_sha256": "d4f2c52965e0e7155bcc2b8d02edcbbce742abae5ff4be132298935f320844f9",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 21,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n21_k96_d95/candidate.json",
+      "candidate_sha256": "21e6576383f118e59ca06e6a37b1e3861ed01f31fc8a0f8a0e2780535af54a81",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    },
+    {
+      "dimension": 48,
+      "pass": true,
+      "candidate": "research/larger_decreases_20261115/n48_k192_d95/candidate.json",
+      "candidate_sha256": "434e019bc9a8fccd34c56801593232acce8ee7b2fba67167239d8ba83a05257e",
+      "binary64_coordinates_exported_exactly": true,
+      "both_polynomials_reconstructed_exactly": true,
+      "origin_guard_and_objective_exact": true,
+      "angular_data_exact_up_to_zero_padding": true,
+      "correction_degree": 95,
+      "physical_degree": 111
+    }
+  ],
+  "scope": "Provenance/export check; complete angular and radial verifications are separately required"
+}

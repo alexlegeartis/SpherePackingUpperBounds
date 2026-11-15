@@ -1,0 +1,258 @@
+{
+  "all_passed": true,
+  "scope": "Actual source-hash/registry prefix only; mathematical proofs are replayed separately.",
+  "checks": [
+    {
+      "dimension": 17,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 17,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 17,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 17,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 17,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 17,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 17,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 18,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 18,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 18,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 18,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 18,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 18,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 18,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 19,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 19,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 19,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 19,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 19,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 19,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 19,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 20,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 20,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 20,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 20,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 20,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 20,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 20,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 21,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 21,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 21,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 21,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 21,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 21,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 21,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 48,
+      "control": "valid_current",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    },
+    {
+      "dimension": 48,
+      "control": "tighter_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 48,
+      "control": "weaker_current",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 48,
+      "control": "wrong_package",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 48,
+      "control": "tampered_witness",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 48,
+      "control": "tampered_core",
+      "expected_prefix_pass": false,
+      "observed_prefix_pass": false
+    },
+    {
+      "dimension": 48,
+      "control": "valid_historical",
+      "expected_prefix_pass": true,
+      "observed_prefix_pass": true
+    }
+  ]
+}

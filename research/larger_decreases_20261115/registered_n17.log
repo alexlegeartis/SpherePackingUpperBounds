@@ -1,0 +1,12 @@
+EXACT PSD/CAP/TRANSITION/TAIL PASS 17 -96 120 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 17, "degree": 13, "profile_a_exact": "-96", "profile_b_exact": "120", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 5952, "discarded_sorting_rectangles": 242, "max_depth": 16, "processed": 12387, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.8478226661682129, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 17 0.018140145562 4832 26
+
+INDEPENDENT ANGULAR PASS 17 1480 15
+
+INDEPENDENT RADIAL PASS 17 0.018140145562 4875 26
+
+FULL CERTIFICATE PASS 17 0.018140145562

@@ -57,6 +57,7 @@ for n in [4,5,19,20,21]:
  assert F(registry[n]['strict_density_upper_bound']) <= F(sharp)
  allowed=['verifications/origin_slack',f'verifications/dim{n}/refinement_cyclic','verifications/cyclic_origin_slack',f'verifications/dim{n}/refinement_guarded',f'verifications/dim{n}/refinement_lens',f'verifications/dim{n}/refinement_spherical_lens',f'verifications/dim{n}/refinement_gaussian']
  if n==4:allowed.append('verifications/dim4/refinement_energy20261115')
+ if n in [19,20,21]:allowed.append(f'verifications/dim{n}/refinement_larger20261115')
  assert registry[n]['package'] in allowed
  assert decrease>ar(F(record['density_decrease_lower_exact']))
  item={'dimension':n,'density_interval':str(density),'decrease_interval':str(decrease),'producer_upper_verified':record['conditional_outward_upper'],'sharper_upper_verified':sharp};out.append(item);print(json.dumps(item),flush=True)

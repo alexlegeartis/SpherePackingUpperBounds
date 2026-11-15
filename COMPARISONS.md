@@ -1,5 +1,14 @@
 # Comparison sources and conventions
 
+**Later 15 November 2026 campaign:** six new certificates improve the preceding
+main (`6e79908`) by 0.35% in 17D, 1.11% in 18D, 1.63% in 19D, 2.79% in 20D,
+1.52% in 21D and 1.20% in 48D. These are further decreases relative to that
+repository state. The registered table retains its historical published
+comparators for those dimensions, so its percentages differ. Exact before/after
+values and complete replay scope are in [the campaign report](research/larger_decreases_20261115/).
+The 4D bound and its pinned Felpix comparator are unchanged. No exhaustive
+worldwide-priority assertion follows from these comparisons.
+
 **4D, 15 November 2026:** the current strict upper **0.629520189662**
 improves [Felpix-Studios/sphere-packing](https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4)
 commit `bb97550ba47ad92bacfee567843888be16895a23`, whose strict bound is

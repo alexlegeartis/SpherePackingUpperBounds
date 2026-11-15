@@ -1,0 +1,19 @@
+{
+  "pass": true,
+  "dimension": 19,
+  "precision_bits": 768,
+  "Laguerre_recurrence_Fourier_exact": true,
+  "global_rays_all_roots_accounted": true,
+  "signed_pair_interval_proof": true,
+  "complete_pair_partition_checked": true,
+  "pair_partition_sha256": "6ab5f7d3f53c5e0c91d92736c5022bbd3ad4d9f93ed0cab11c56ad33b6e852f9",
+  "pair_intervals": 5066,
+  "pair_depth": 26,
+  "seconds": 6.237760066986084,
+  "origin_PSD_identity_exact": true,
+  "positive_Fourier_normalization": true,
+  "rational_Machin_rounding": true,
+  "strict_density_upper_bound": "0.0093653907401",
+  "density_interval": "[0.009365390740047138169059842820090874106502038716980233465637174187985513656862051551431026916261998784595779419519066388288128129675554500574097567315269108935133015320077105050878925076727843954465275728538752374006422640486936353 +/- 4.51e-232]",
+  "scope": "Independent radial path; independent angular/cyclic path also required"
+}

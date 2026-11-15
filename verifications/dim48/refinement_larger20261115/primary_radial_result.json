@@ -1,0 +1,31 @@
+{
+  "pass": true,
+  "dimension": 48,
+  "degree": 111,
+  "precision_bits": 512,
+  "direct_Fourier_coefficient_sum_exact": true,
+  "root_results": {
+    "fourier": {
+      "degree": 111,
+      "all_roots_accounted_for": true,
+      "forbidden_real_roots": 0,
+      "cutoff_exact": "0"
+    },
+    "physical": {
+      "degree": 111,
+      "all_roots_accounted_for": true,
+      "forbidden_real_roots": 0,
+      "cutoff_exact": "60"
+    }
+  },
+  "complete_pair_domain": true,
+  "pair_intervals": 60790,
+  "pair_depth": 31,
+  "seconds": 48.94259977340698,
+  "origin_Gram_identity_exact": true,
+  "positive_Fourier_normalization": true,
+  "rational_Machin_rounding": true,
+  "strict_density_upper_bound": "4.0843570355E-7",
+  "density_interval": "[4.0843570354556603078794488905766551515158162821220371167080172142991551989177565422001920261393350617060487226926424205630873534142214262302585518009185e-7 +/- 3.16e-159]",
+  "scope": "Primary radial gates; angular and cyclic replay also required"
+}

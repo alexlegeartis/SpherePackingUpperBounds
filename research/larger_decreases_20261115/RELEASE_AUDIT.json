@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-15T08:56:16.620436+00:00",
+  "base_commit": "6e7990802b8e045a78e3f54c99669d5fe9b5c437",
+  "all_six_registered_wrappers_replayed": true,
+  "proofs": [
+    {
+      "dimension": 17,
+      "strict_upper": "0.018140145562",
+      "source_manifest_sha256": "1421689bd52219229a10dc18bb63208aa11582f7c2693f38a2ca35e9cf6827f1",
+      "full_wrapper_result_sha256": "502d4d5a1669a924a4804815509a10d3329308ec01b4fe6b1e919c9381f95823"
+    },
+    {
+      "dimension": 18,
+      "strict_upper": "0.013077495192",
+      "source_manifest_sha256": "facbb404fdcb8742ae80e84033a91dc50c97e051de6c144ff5d98d60d7335824",
+      "full_wrapper_result_sha256": "b1d039dd0c20c6be2874413b4540d5d476eae455717261daf6546eb959940092"
+    },
+    {
+      "dimension": 19,
+      "strict_upper": "0.0093653907401",
+      "source_manifest_sha256": "d113a1322118c3fa8adbfb8aea22e7c34ff62e3c2934404a61693ac46851e8fd",
+      "full_wrapper_result_sha256": "a58f7d8de9a7de609b34dddad1eed336426d0846b2a95aff554a91790c46f66d"
+    },
+    {
+      "dimension": 20,
+      "strict_upper": "0.0067425778508",
+      "source_manifest_sha256": "9e4a86a99622dcba7847b8daaef5a46d6bfa938acf24679e410c0f94586e0286",
+      "full_wrapper_result_sha256": "772fbfb7f5187a918e44997b8575d02becb2bcfdd0ce231419e2b153b6a9eac5"
+    },
+    {
+      "dimension": 21,
+      "strict_upper": "0.0049104292815",
+      "source_manifest_sha256": "74c4203cad74aa848478270c685613d453a8024ce52e16532510658682a8b0b6",
+      "full_wrapper_result_sha256": "818f92c68eedfcdcfe4a1660fb729805ddeabfbb37105298db2bc55dce08768f"
+    },
+    {
+      "dimension": 48,
+      "strict_upper": "4.0843570355E-7",
+      "source_manifest_sha256": "a05849d55a3842e323ca8cc0e4ff71c476cbc80f043774ceac716a482a582516",
+      "full_wrapper_result_sha256": "f38ef11fd5d98841e0ea6dd34ea244f5c39df5b30ca6e0c4669f3bb7235c6e92"
+    }
+  ],
+  "registration_controls": 42,
+  "exact_exports": 6,
+  "historical_prefix_checks": 7,
+  "historical_shared_algebra_replayed": true,
+  "complete_historical_aggregate_rerun": false,
+  "four_d_base_rerun": false,
+  "four_d_bound_changed": false,
+  "four_d_current_strict_upper": "0.629520189662",
+  "four_d_joint_candidate_rejected_exactly": true,
+  "arithmetic_backend": "FLINT/Arb shared between independent proof implementations",
+  "evidence_sha256": {
+    "REGISTERED_REPLAY.json": "9701c9d2d88fd137fcbd55a3de6d0e7a80ca1f23007f8af8af556f425fa20fa1",
+    "REGISTERED_BOUNDS.json": "dec0a6bad5c5ed8fd3870844a85e20407a37c53ec0d0c7cae95c8335d9c421f9",
+    "REGISTRATION_CONTROLS.json": "592709dab58d66ab6f1776e577db2a6006e2ede5e55218b2c05ca1bac9b9affc",
+    "EXACT_EXPORT_AUDIT.json": "983e95d5d122a3565a030247adfb8ba746e3034943e40545a42dd1a2e1f9ae2f",
+    "HISTORICAL_PREFIX_CHECKS.json": "29a6b2ded070f748303c2546ce19cceec5d0de0a276d3eafea4495b652724e7e",
+    "ARCHIVE_MANIFEST.json": "f31dff27add7d6bdb900296c42e2868e443eff09c2ea6bc8cfecd28266995f30",
+    "dim4_research/EXACT_REJECTION.json": "3d14fa7d1c0195980c982eba00c19cffbdd26be087895c1ed9f2a918927e0c2d"
+  }
+}

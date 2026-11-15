@@ -1,0 +1,41 @@
+{
+  "pass_all": true,
+  "scope": "Registry and hash prefixes; unchanged mathematical domain proofs are not rerun here.",
+  "results": [
+    {
+      "path": "verifications/dim17/verify.py",
+      "pass_prefix": true,
+      "sha256": "9a028da949e72c5b69590d5aa309a34225704e910dba5fd56fd9af3cdcba7856"
+    },
+    {
+      "path": "verifications/dim17/refinement_repaired/verify.py",
+      "pass_prefix": true,
+      "sha256": "1435e0858b86e5337b5e962c95857e8b12a1e1f82ca33c0ad2f9def2a659ab03"
+    },
+    {
+      "path": "verifications/dim18/verify.py",
+      "pass_prefix": true,
+      "sha256": "c7de9a43051daf8a5df1f21bf13b1aeee8718826b78214025f78d268c2e58511"
+    },
+    {
+      "path": "verifications/dim18/refinement_cyclic/verify.py",
+      "pass_prefix": true,
+      "sha256": "57a734fde1728ebfc20a9ef788e3c8a9bb011f7d9e7d887cd63199be9e7009be"
+    },
+    {
+      "path": "verifications/dim19/refinement_cyclic/verify.py",
+      "pass_prefix": true,
+      "sha256": "1b7fe6d25bdef7e2cf04f3e525cc29b67968b042967269a68a16005567cb85ef"
+    },
+    {
+      "path": "verifications/dim20/refinement_cyclic/verify.py",
+      "pass_prefix": true,
+      "sha256": "96e979d7eef05ef578ceeb0ebefcfe46a03bae274e57f2c7a37e06eda68fe545"
+    },
+    {
+      "path": "verifications/dim21/refinement_gaussian/verify.py",
+      "pass_prefix": true,
+      "sha256": "a36cdf7f991206a923d560907af55a0e425cd1ee7bba656b6351bf986afb4e2f"
+    }
+  ]
+}

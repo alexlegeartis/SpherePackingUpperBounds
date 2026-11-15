@@ -1,0 +1,3 @@
+{'dimension': 17, 'a': '-96', 'b': '120', 'round': 0, 'raw_B': 12238.437610384488, 'guarded_B': 12250.68729768217, 'extra_constraints': 45, 'seconds': 2.1345977783203125}
+{'dimension': 17, 'a': '-96', 'b': '120', 'round': 1, 'raw_B': 12248.596134619596, 'guarded_B': 12260.855990610204, 'extra_constraints': 45, 'seconds': 3.3915016651153564}
+{'dimension': 17, 'a': '-96', 'b': '120', 'round': 2, 'raw_B': 12248.666090461758, 'guarded_B': 12260.926016478237, 'extra_constraints': 0, 'seconds': 4.441399574279785}

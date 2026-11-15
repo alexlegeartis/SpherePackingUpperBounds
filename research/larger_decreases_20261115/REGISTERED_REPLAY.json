@@ -1,0 +1,173 @@
+{
+  "pass_all": true,
+  "results": [
+    {
+      "pass": true,
+      "dimension": 18,
+      "strict_density_upper_bound": "0.013077495192",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "facbb404fdcb8742ae80e84033a91dc50c97e051de6c144ff5d98d60d7335824",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    },
+    {
+      "pass": true,
+      "dimension": 17,
+      "strict_density_upper_bound": "0.018140145562",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "1421689bd52219229a10dc18bb63208aa11582f7c2693f38a2ca35e9cf6827f1",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    },
+    {
+      "pass": true,
+      "dimension": 20,
+      "strict_density_upper_bound": "0.0067425778508",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "9e4a86a99622dcba7847b8daaef5a46d6bfa938acf24679e410c0f94586e0286",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    },
+    {
+      "pass": true,
+      "dimension": 19,
+      "strict_density_upper_bound": "0.0093653907401",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "d113a1322118c3fa8adbfb8aea22e7c34ff62e3c2934404a61693ac46851e8fd",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    },
+    {
+      "pass": true,
+      "dimension": 21,
+      "strict_density_upper_bound": "0.0049104292815",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "74c4203cad74aa848478270c685613d453a8024ce52e16532510658682a8b0b6",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    },
+    {
+      "pass": true,
+      "dimension": 48,
+      "strict_density_upper_bound": "4.0843570355E-7",
+      "complete_primary_and_independent_replay": true,
+      "executed": [
+        {
+          "script": "primary_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "primary_radial.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_angular.py",
+          "returncode": 0
+        },
+        {
+          "script": "independent_radial.py",
+          "returncode": 0
+        }
+      ],
+      "source_manifest_sha256": "a05849d55a3842e323ca8cc0e4ff71c476cbc80f043774ceac716a482a582516",
+      "execution": "Registered wrapper, including registry/hash gates and all four mathematical proof programs",
+      "external_neighbor_counts_required": false,
+      "arithmetic_backend": "FLINT/Arb shared; independent proof implementations"
+    }
+  ]
+}

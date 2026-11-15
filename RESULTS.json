@@ -248,8 +248,8 @@
   },
   {
     "dimension": 17,
-    "strict_density_upper_bound": "0.018204096",
-    "package": "verifications/dim17/refinement_repaired",
+    "strict_density_upper_bound": "0.018140145562",
+    "package": "verifications/dim17/refinement_larger20261115",
     "known_lower_density": "0.0088113191823211898698",
     "previous_upper_density": "0.0184640903350649",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
@@ -257,20 +257,31 @@
     "known_lower_formula": "pi^(17/2)/(16 Gamma(19/2))",
     "previous_upper_status": "Pinned Cohn indexed-table value; index four months old, no worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
-    "method": "Mixed-Gaussian cyclic certificate and exact origin Schur saturation",
-    "upper_decrease_percent": "1.408108",
-    "gap_decrease_percent": "2.693468",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "upper_decrease_percent": "1.754458",
+    "gap_decrease_percent": "3.355977",
     "old_gap": "0.0096527711527437101302",
-    "new_gap": "0.0093927768176788101302",
+    "new_gap": "0.0093288263796788101302",
     "earlier_repository_upper_densities": [
-      "0.018335552"
+      "0.018335552",
+      "0.018204096"
     ],
-    "previous_repository_package": "verifications/dim17"
+    "previous_repository_package": "verifications/dim17/refinement_repaired",
+    "earlier_repository_packages": [
+      "verifications/dim17/refinement_repaired"
+    ],
+    "source_package": "verifications/dim17/refinement_larger20261115",
+    "previous_repository_strict_upper": "0.018204096",
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 18,
-    "strict_density_upper_bound": "0.013224473",
-    "package": "verifications/cyclic_origin_slack",
+    "strict_density_upper_bound": "0.013077495192",
+    "package": "verifications/dim18/refinement_larger20261115",
     "known_lower_density": "0.0061678981253312565897",
     "previous_upper_density": "0.0134853404450862",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
@@ -278,75 +289,117 @@
     "known_lower_formula": "pi^9/9! * (3/4)^9",
     "previous_upper_status": "Pinned Cohn indexed table, reported crawl age four months; live retrieval unavailable; no worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-10",
-    "upper_decrease_percent": "1.934452",
-    "gap_decrease_percent": "3.565009",
+    "upper_decrease_percent": "3.024360",
+    "gap_decrease_percent": "5.573604",
     "old_gap": "0.0073174423197549434103",
-    "new_gap": "0.0070565748746687434103",
+    "new_gap": "0.0069095970666687434103",
     "earlier_repository_upper_densities": [
       "0.013408931",
-      "0.013284728"
+      "0.013284728",
+      "0.013224473"
     ],
-    "source_package": "verifications/dim18",
-    "method": "Exact origin Schur saturation of the full-domain cyclic certificate",
-    "previous_repository_package": "verifications/dim18/refinement_cyclic"
+    "source_package": "verifications/dim18/refinement_larger20261115",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "previous_repository_package": "verifications/cyclic_origin_slack",
+    "earlier_repository_packages": [
+      "verifications/cyclic_origin_slack"
+    ],
+    "previous_repository_strict_upper": "0.013224473",
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 19,
-    "strict_density_upper_bound": "0.009521000",
-    "package": "verifications/cyclic_origin_slack",
+    "strict_density_upper_bound": "0.0093653907401",
+    "package": "verifications/dim19/refinement_larger20261115",
     "known_lower_density": "0.0041473691458627257748",
     "previous_upper_density": "0.0098179551395438",
-    "upper_decrease_percent": "3.024613",
-    "gap_decrease_percent": "5.236763",
+    "upper_decrease_percent": "4.609559",
+    "gap_decrease_percent": "7.980911",
     "old_gap": "0.0056705859936810742252",
-    "new_gap": "0.0053736308541372742252",
+    "new_gap": "0.0052180215942372742252",
     "earlier_repository_upper_densities": [
       "0.009618351",
       "0.009618343139",
-      "0.009557491"
+      "0.009557491",
+      "0.009521000"
     ],
-    "method": "Exact origin Schur saturation of the full-domain cyclic certificate",
-    "previous_repository_package": "verifications/dim19/refinement_cyclic",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "previous_repository_package": "verifications/cyclic_origin_slack",
     "previous_upper_reviewed": "2026-11-11",
-    "earlier_source_package": "verifications/dim19"
+    "earlier_source_package": "verifications/dim19",
+    "earlier_repository_packages": [
+      "verifications/cyclic_origin_slack"
+    ],
+    "source_package": "verifications/dim19/refinement_larger20261115",
+    "previous_repository_strict_upper": "0.009521000",
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 20,
-    "strict_density_upper_bound": "0.006936042",
-    "package": "verifications/cyclic_origin_slack",
+    "strict_density_upper_bound": "0.0067425778508",
+    "package": "verifications/dim20/refinement_larger20261115",
     "known_lower_density": "0.0040241650630681997943",
     "previous_upper_density": "0.0071270536033763",
-    "upper_decrease_percent": "2.680092",
-    "gap_decrease_percent": "6.155929",
+    "upper_decrease_percent": "5.394596",
+    "gap_decrease_percent": "12.390898",
     "old_gap": "0.0031028885403081002057",
-    "new_gap": "0.0029118769369318002057",
+    "new_gap": "0.0027184127877318002057",
     "earlier_repository_upper_densities": [
       "0.006979502",
       "0.006979497272",
-      "0.006977702"
+      "0.006977702",
+      "0.006936042"
     ],
-    "method": "Exact origin Schur saturation of the full-domain cyclic certificate",
-    "previous_repository_package": "verifications/dim20/refinement_cyclic",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "previous_repository_package": "verifications/cyclic_origin_slack",
     "previous_upper_reviewed": "2026-11-11",
-    "earlier_source_package": "verifications/dim20"
+    "earlier_source_package": "verifications/dim20",
+    "earlier_repository_packages": [
+      "verifications/cyclic_origin_slack"
+    ],
+    "source_package": "verifications/dim20/refinement_larger20261115",
+    "previous_repository_strict_upper": "0.006936042",
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 21,
-    "strict_density_upper_bound": "0.004985977000",
-    "package": "verifications/dim21/refinement_gaussian",
+    "strict_density_upper_bound": "0.0049104292815",
+    "package": "verifications/dim21/refinement_larger20261115",
     "known_lower_density": "0.0029298291067157025989",
     "previous_upper_density": "0.0051596603948176",
-    "upper_decrease_percent": "3.366179",
-    "gap_decrease_percent": "7.789082",
+    "upper_decrease_percent": "4.830378",
+    "gap_decrease_percent": "11.177129",
     "old_gap": "0.0022298312881018974011",
-    "new_gap": "0.0020561478932842974011",
+    "new_gap": "0.0019806001747842974011",
     "earlier_repository_upper_densities": [
       "0.005149554",
-      "0.005149549312"
+      "0.005149549312",
+      "0.004985977000"
     ],
-    "source_package": "verifications/dim21/refinement_gaussian",
-    "method": "Dimension-specific Gaussian cyclic angular kernel and optimized radial Fourier pair with rank-one origin Gram",
-    "previous_repository_package": "verifications/origin_slack"
+    "source_package": "verifications/dim21/refinement_larger20261115",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "previous_repository_package": "verifications/dim21/refinement_gaussian",
+    "earlier_repository_packages": [
+      "verifications/dim21/refinement_gaussian"
+    ],
+    "previous_repository_strict_upper": "0.004985977000",
+    "radial_profile": {
+      "a_exact": "-96",
+      "b_exact": "120"
+    },
+    "external_neighbor_counts_required": false
   },
   {
     "dimension": 22,
@@ -1190,13 +1243,28 @@
   },
   {
     "dimension": 48,
-    "strict_density_upper_bound": "4.13385739314e-7",
-    "package": "verifications/dim48",
+    "strict_density_upper_bound": "4.0843570355E-7",
+    "package": "verifications/dim48/refinement_larger20261115",
     "known_lower_density": "2.3178295310541237588e-8",
     "previous_upper_density": "4.529067791E-7",
-    "upper_decrease_percent": "8.726087",
-    "gap_decrease_percent": "9.196747",
+    "upper_decrease_percent": "9.819035",
+    "gap_decrease_percent": "10.348645",
     "old_gap": "4.2972848378945876241e-7",
-    "new_gap": "3.9020744400345876241e-7"
+    "new_gap": "3.8525740823945876241e-7",
+    "earlier_repository_upper_densities": [
+      "4.13385739314e-7"
+    ],
+    "earlier_repository_packages": [
+      "verifications/dim48"
+    ],
+    "source_package": "verifications/dim48/refinement_larger20261115",
+    "previous_repository_package": "verifications/dim48",
+    "previous_repository_strict_upper": "4.13385739314e-7",
+    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "radial_profile": {
+      "a_exact": "-192",
+      "b_exact": "216"
+    },
+    "external_neighbor_counts_required": false
   }
 ]

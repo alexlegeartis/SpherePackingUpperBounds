@@ -6,7 +6,7 @@ assert hashlib.sha256((p/'certificate.json').read_bytes()).hexdigest()=='32a9c22
 r=next(r for r in json.loads((p.parent.parent/'RESULTS.json').read_text()) if r['dimension']==17)
 from fractions import Fraction
 assert Fraction(r['strict_density_upper_bound']) <= Fraction('0.018335552')
-assert r['package'] in ['verifications/dim17','verifications/dim17/refinement_repaired']
+assert r['package'] in ['verifications/dim17','verifications/dim17/refinement_repaired','verifications/dim17/refinement_larger20261115']
 subprocess.run([sys.executable,str(p/'producer_verify.py'),str(p/'certificate.json')],check=True)
 subprocess.run([sys.executable,str(p/'independent_verify.py')],check=True)
 print('PASS both full-domain cyclic verification paths in 17D')

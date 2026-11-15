@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,hashlib
+from fractions import Fraction
 from quantify_schur import audit
 if not __debug__: raise RuntimeError('Assertions must be enabled')
 p=Path(__file__).resolve().parent;root=p.parent.parent
@@ -10,7 +11,12 @@ results=[]
 for n,bound in {18:'0.013224473',19:'0.009521000',20:'0.006936042'}.items():
  source=root/f'verifications/dim{n}/refinement_cyclic/certificate.json'
  result=audit(source,bound);assert result['dimension']==n
- assert registry[n]['strict_density_upper_bound']==bound and registry[n]['package']=='verifications/cyclic_origin_slack'
+ if registry[n]['package']=='verifications/cyclic_origin_slack':
+  assert Fraction(registry[n]['strict_density_upper_bound'])==Fraction(bound)
+ else:
+  assert registry[n]['package']==f'verifications/dim{n}/refinement_larger20261115'
+  assert 'verifications/cyclic_origin_slack' in registry[n].get('earlier_repository_packages',[])
+  assert Fraction(registry[n]['strict_density_upper_bound'])<Fraction(bound)
  result['source']=str(source.relative_to(root));result['registration_status']='Exact saturation verified; run verify.py to replay all source domains'
  results.append(result);print(n,result['density_interval'],bound,flush=True)
 (p/'saturation_results.json').write_text(json.dumps(results,indent=2)+'\n')
