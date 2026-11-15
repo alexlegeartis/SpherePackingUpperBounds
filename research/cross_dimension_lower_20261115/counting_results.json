@@ -1,0 +1,283 @@
+{
+  "status": "exact_arithmetic_checked_for_existence_proof",
+  "parent_input": "Nebe's even unimodular Gamma72 of minimum 8 (arXiv:1008.2862, Theorem 2.3)",
+  "proof": "COUNTING_PROOF.md",
+  "theta_modular_basis_coefficients": [
+    1,
+    -2160,
+    965520,
+    -27302400
+  ],
+  "shell_counts_by_squared_norm": {
+    "8": 6218175600,
+    "10": 15281788354560,
+    "12": 9026867482214400,
+    "14": 1989179450818560000,
+    "16": 213006159759990870000,
+    "18": 13144087517631410995200,
+    "20": 525100718690287495741440,
+    "22": 14756609779472604266496000,
+    "24": 310160311536865273422120000
+  },
+  "bad_nonzero_singular_classes_upper_bound": 106507593316845630000,
+  "bad_nonsingular_classes_upper_bound": 994597366303457280,
+  "conservative_population_for_each_type": 2361183241400462868479,
+  "rows": [
+    {
+      "dimension": 73,
+      "rank": 1,
+      "nonzero_singular_classes_in_model": 1,
+      "nonsingular_classes_in_model": 0,
+      "expected_bad_classes_upper_bound_exact": "106507593316845630000/2361183241400462868479",
+      "vertical_gram_exact": [
+        [
+          "3"
+        ]
+      ],
+      "gram_determinant_exact": "3",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "9444732965739290427392/3",
+      "center_density": "56109217798.0864104037376621700449298507821951",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "1180591620717411303424",
+      "ratio_to_product_squared_exact": "8/3",
+      "ratio_to_product": "1.63299316185545206546485604980392759464396499",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 74,
+      "rank": 2,
+      "nonzero_singular_classes_in_model": 3,
+      "nonsingular_classes_in_model": 0,
+      "expected_bad_classes_upper_bound_exact": "319522779950536890000/2361183241400462868479",
+      "vertical_gram_exact": [
+        [
+          "3",
+          "-3/2"
+        ],
+        [
+          "-3/2",
+          "3"
+        ]
+      ],
+      "gram_determinant_exact": "27/4",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "75557863725914323419136/27",
+      "center_density": "52900277856.1331003956435521078227143677828271",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "1180591620717411303424/3",
+      "ratio_to_product_squared_exact": "64/9",
+      "ratio_to_product": "2.66666666666666666666666666666666666666666667",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 75,
+      "rank": 3,
+      "nonzero_singular_classes_in_model": 7,
+      "nonsingular_classes_in_model": 0,
+      "expected_bad_classes_upper_bound_exact": "745553153217919410000/2361183241400462868479",
+      "vertical_gram_exact": [
+        [
+          "3",
+          "-3/2",
+          "0"
+        ],
+        [
+          "-3/2",
+          "3",
+          "-3/2"
+        ],
+        [
+          "0",
+          "-3/2",
+          "3"
+        ]
+      ],
+      "gram_determinant_exact": "27/2",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "75557863725914323419136/27",
+      "center_density": "52900277856.1331003956435521078227143677828271",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "147573952589676412928",
+      "ratio_to_product_squared_exact": "512/27",
+      "ratio_to_product": "4.35464843161453884123961613281047358571723997",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 76,
+      "rank": 4,
+      "nonzero_singular_classes_in_model": 15,
+      "nonsingular_classes_in_model": 0,
+      "expected_bad_classes_upper_bound_exact": "1597613899752684450000/2361183241400462868479",
+      "vertical_gram_exact": [
+        [
+          "3",
+          "-3/2",
+          "0",
+          "0"
+        ],
+        [
+          "-3/2",
+          "3",
+          "-3/2",
+          "-3/2"
+        ],
+        [
+          "0",
+          "-3/2",
+          "3",
+          "0"
+        ],
+        [
+          "0",
+          "-3/2",
+          "0",
+          "3"
+        ]
+      ],
+      "gram_determinant_exact": "81/4",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "302231454903657293676544/81",
+      "center_density": "61083979320.8888888888888888888888888888888889",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "73786976294838206464",
+      "ratio_to_product_squared_exact": "4096/81",
+      "ratio_to_product": "7.11111111111111111111111111111111111111111111",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 77,
+      "rank": 5,
+      "nonzero_singular_classes_in_model": 15,
+      "nonsingular_classes_in_model": 16,
+      "expected_bad_classes_upper_bound_exact": "1613527457613539766480/2361183241400462868479",
+      "vertical_gram_exact": [
+        [
+          "3",
+          "-3/2",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-3/2",
+          "3",
+          "-3/2",
+          "-3/2",
+          "0"
+        ],
+        [
+          "0",
+          "-3/2",
+          "3",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/2",
+          "0",
+          "3",
+          "3/2"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3/2",
+          "7/2"
+        ]
+      ],
+      "gram_determinant_exact": "81/2",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "302231454903657293676544/81",
+      "center_density": "61083979320.8888888888888888888888888888888889",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "36893488147419103232",
+      "ratio_to_product_squared_exact": "8192/81",
+      "ratio_to_product": "10.0566297768753425692564531499356307809398889",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 78,
+      "rank": 6,
+      "nonzero_singular_classes_in_model": 15,
+      "nonsingular_classes_in_model": 48,
+      "expected_bad_classes_upper_bound_exact": "12955547821537404720/18591994026775298177",
+      "vertical_gram_exact": [
+        [
+          "3",
+          "-3/2",
+          "0",
+          "0",
+          "3/2",
+          "0"
+        ],
+        [
+          "-3/2",
+          "3",
+          "-3/2",
+          "-3/2",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/2",
+          "3",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-3/2",
+          "0",
+          "3",
+          "0",
+          "3/2"
+        ],
+        [
+          "3/2",
+          "0",
+          "0",
+          "0",
+          "7/2",
+          "-1/4"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "3/2",
+          "-1/4",
+          "7/2"
+        ]
+      ],
+      "gram_determinant_exact": "243/4",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "1208925819614629174706176/243",
+      "center_density": "70533703808.1774671941914028104302858237104362",
+      "comparison_method": "Gamma72 orthogonal product with minimum-2 A1/A2/A3/D4/D5/E6, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "73786976294838206464/3",
+      "ratio_to_product_squared_exact": "16384/81",
+      "ratio_to_product": "14.2222222222222222222222222222222222222222222",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    }
+  ],
+  "all_arithmetic_exact": true,
+  "existential_not_explicit": true,
+  "current_record_identified": false
+}

@@ -68,6 +68,12 @@ remain available alongside the named published sources.
 
 Additional merged constructions include an explicit **65D minimum-12 lattice** and periodic packings in 60–62D and 66–71D. Their comparison scope and unestablished world-record status are documented in [the certified higher-dimensional research](research/novel_routes_20261113/README.md).
 
+The [cross-dimension lower-bound research](research/cross_dimension_lower_20261115/)
+adds counting-based **existence proofs in 73–78D and 81–85D** and explicit
+**L80 antipode certificates in 76–79D**. Its tables identify each derived
+product comparison and distinguish existence bounds from explicit packings.
+Worldwide-record improvements are not established for these experiments.
+
 ## Registered results
 
 **Recorded upper U** is the historical comparison used for the percentages in that row. **Comparison method / source** names the method behind U and links to its paper or pinned certificate; **Our method / proof** describes the new bound N. A recorded comparison is not a claim about the latest worldwide record. [Full source titles, versions and comparison scope](COMPARISONS.md#table-comparison-methods-and-sources).

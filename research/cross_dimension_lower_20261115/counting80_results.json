@@ -1,0 +1,221 @@
+{
+  "status": "exact_arithmetic_checked_for_80D_parent_existence_proof",
+  "parent_input": "Bachoc--Nebe extremal even unimodular L80 of minimum 8; the same argument works for M80",
+  "source_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/L80.html",
+  "proof": "COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets",
+  "theta_modular_basis_coefficients": [
+    1,
+    -2400,
+    1360800,
+    -103488000
+  ],
+  "shell_counts_by_squared_norm": {
+    "8": 1250172000,
+    "10": 7541401190400,
+    "12": 9236514405888000,
+    "14": 3770797689077760000,
+    "16": 688841254838264220000,
+    "18": 68087521546677878784000,
+    "20": 4145812508063051436441600,
+    "22": 170578534403236762091520000,
+    "24": 5077831125497805146823120000
+  },
+  "bad_nonzero_singular_classes_upper_bound": 344425245676960140000,
+  "bad_nonsingular_classes_upper_bound": 34045646175954178867200,
+  "conservative_population_for_each_type": 604462909806764831539199,
+  "rows": [
+    {
+      "dimension": 81,
+      "rank": 1,
+      "nonzero_singular_classes_in_model": 0,
+      "nonsingular_classes_in_model": 1,
+      "expected_bad_classes_upper_bound_exact": "34045646175954178867200/604462909806764831539199",
+      "vertical_gram_exact": [
+        [
+          "5/2"
+        ]
+      ],
+      "vertical_root_lattice": "A1",
+      "gram_determinant_exact": "5/2",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "4835703278458516698824704/5",
+      "center_density": "983433096703.432764718609361058321330540487885",
+      "comparison_method": "Bachoc--Nebe L80 orthogonal product with minimum-2 A1/A2/A3/D4/D5, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "302231454903657293676544",
+      "ratio_to_product_squared_exact": "16/5",
+      "ratio_to_product": "1.78885438199983175712733893498502098835249469",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 82,
+      "rank": 2,
+      "nonzero_singular_classes_in_model": 0,
+      "nonsingular_classes_in_model": 3,
+      "expected_bad_classes_upper_bound_exact": "102136938527862536601600/604462909806764831539199",
+      "vertical_gram_exact": [
+        [
+          "5/2",
+          "-5/4"
+        ],
+        [
+          "-5/4",
+          "5/2"
+        ]
+      ],
+      "vertical_root_lattice": "A2",
+      "gram_determinant_exact": "75/16",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "77371252455336267181195264/75",
+      "center_density": "1015685334837.75552759635620047019611586143028",
+      "comparison_method": "Bachoc--Nebe L80 orthogonal product with minimum-2 A1/A2/A3/D4/D5, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "302231454903657293676544/3",
+      "ratio_to_product_squared_exact": "256/25",
+      "ratio_to_product": "3.2",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 83,
+      "rank": 3,
+      "nonzero_singular_classes_in_model": 1,
+      "nonsingular_classes_in_model": 6,
+      "expected_bad_classes_upper_bound_exact": "204618302301402033343200/604462909806764831539199",
+      "vertical_gram_exact": [
+        [
+          "5/2",
+          "-5/4",
+          "0"
+        ],
+        [
+          "-5/4",
+          "5/2",
+          "-5/4"
+        ],
+        [
+          "0",
+          "-5/4",
+          "5/2"
+        ]
+      ],
+      "vertical_root_lattice": "A3",
+      "gram_determinant_exact": "125/16",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "154742504910672534362390528/125",
+      "center_density": "1112627538435.65290162238046875845009200730624",
+      "comparison_method": "Bachoc--Nebe L80 orthogonal product with minimum-2 A1/A2/A3/D4/D5, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "37778931862957161709568",
+      "ratio_to_product_squared_exact": "4096/125",
+      "ratio_to_product": "5.72433402239946162280748459195206716272798300",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 84,
+      "rank": 4,
+      "nonzero_singular_classes_in_model": 3,
+      "nonsingular_classes_in_model": 12,
+      "expected_bad_classes_upper_bound_exact": "409581029848481026826400/604462909806764831539199",
+      "vertical_gram_exact": [
+        [
+          "5/2",
+          "-5/4",
+          "0",
+          "0"
+        ],
+        [
+          "-5/4",
+          "5/2",
+          "-5/4",
+          "-5/4"
+        ],
+        [
+          "0",
+          "-5/4",
+          "5/2",
+          "0"
+        ],
+        [
+          "0",
+          "-5/4",
+          "0",
+          "5/2"
+        ]
+      ],
+      "vertical_root_lattice": "D4",
+      "gram_determinant_exact": "625/64",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "1237940039285380274899124224/625",
+      "center_density": "1407374883553.28",
+      "comparison_method": "Bachoc--Nebe L80 orthogonal product with minimum-2 A1/A2/A3/D4/D5, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "18889465931478580854784",
+      "ratio_to_product_squared_exact": "65536/625",
+      "ratio_to_product": "10.24",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    },
+    {
+      "dimension": 85,
+      "rank": 5,
+      "nonzero_singular_classes_in_model": 15,
+      "nonsingular_classes_in_model": 16,
+      "expected_bad_classes_upper_bound_exact": "549896717500421263975200/604462909806764831539199",
+      "vertical_gram_exact": [
+        [
+          "5/2",
+          "-5/4",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "-5/4",
+          "5/2",
+          "-5/4",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "-5/4",
+          "5/2",
+          "-5/4",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "-5/4",
+          "5/2",
+          "-5/4"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-5/4",
+          "5/2"
+        ]
+      ],
+      "vertical_root_lattice": "A5",
+      "gram_determinant_exact": "9375/512",
+      "minimum_squared_exact_inheriting_parent_minimum": 8,
+      "center_density_squared_exact": "19807040628566084398385987584/9375",
+      "center_density": "1453530529565.98828221360871740711649017248927",
+      "comparison_method": "Bachoc--Nebe L80 orthogonal product with minimum-2 A1/A2/A3/D4/D5, rescaled to minimum 8",
+      "comparison_is_reported_dimension_specific_record": false,
+      "product_center_density_squared_exact": "9444732965739290427392",
+      "ratio_to_product_squared_exact": "2097152/9375",
+      "ratio_to_product": "14.9564773036077360047983215356805702711362818",
+      "explicit_horizontal_coset_representatives": false,
+      "published_record_improvement_established": false
+    }
+  ],
+  "all_arithmetic_exact": true,
+  "existential_not_explicit": true,
+  "current_record_identified": false
+}

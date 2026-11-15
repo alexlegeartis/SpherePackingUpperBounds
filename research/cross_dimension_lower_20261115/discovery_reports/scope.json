@@ -1,0 +1,29 @@
+{
+  "Ne64_pool": {
+    "unsigned_vectors": 676,
+    "span_rank_over_Q": 44,
+    "new_unsigned_rays_from_all_half_inner_product_pair_operations": 0,
+    "verified_using": "Exact FLINT rank, integer Gram products and finite-set membership",
+    "source_files": {
+      "short_pool.npz": "69b758f6c72b0181110060d02175ccd391cbcdc3c1f7d343c9eedd4b2f9c6d89",
+      "reduced_dual.npz": "3627bbd219f39cf79ed412dcd330c50d130e9279dce53356a1f7879d746c101f"
+    }
+  },
+  "Gamma72_pool": {
+    "unsigned_vectors": 450000,
+    "sampling_only": true,
+    "complete_shell": 6218175600
+  },
+  "L80_replayed_seed_closure_pool_sizes": [
+    93,
+    208,
+    477,
+    1210
+  ],
+  "unarchived_discovery_inputs": "Large Gamma72 seed and enriched pools and M80 control witnesses remain scratch artifacts. They are not proof dependencies. The committed certificates and exact auditors require no discovery rerun.",
+  "M80_source": {
+    "url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/M80.html",
+    "sha256_raw_download": "23a0e1f9c87b6748f749ea407a1a1377f0ceb7301209282881b1a3bf4789b093"
+  },
+  "negative_searches_do_not_prove_nonexistence": true
+}

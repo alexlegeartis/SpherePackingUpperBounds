@@ -1,0 +1,23 @@
+{
+  "seed": 661116,
+  "history": [
+    {
+      "round": 0,
+      "pool_unsigned": 450000,
+      "seconds": 6.9884385600016685
+    },
+    {
+      "round": 1,
+      "pool_unsigned": 450000,
+      "seconds": 15.161162420001347
+    },
+    {
+      "round": 2,
+      "pool_unsigned": 450000,
+      "seconds": 22.328543097995862
+    }
+  ],
+  "source_automorphism_identities_exact": true,
+  "all_returned_norms_exact": 8,
+  "full_shell_enumerated": false
+}

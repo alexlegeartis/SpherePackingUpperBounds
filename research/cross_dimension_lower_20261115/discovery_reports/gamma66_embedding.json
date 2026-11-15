@@ -1,0 +1,907 @@
+{
+  "seed": 661117,
+  "pool_unsigned": 450000,
+  "roots_tried": 112,
+  "per_root_cap": 6000,
+  "history": [
+    {
+      "root": 383168,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 6.772565758998098
+    },
+    {
+      "root": 257619,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 12.747845653997501
+    },
+    {
+      "root": 287124,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 17.821056522996514
+    },
+    {
+      "root": 247942,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 22.553682886995375
+    },
+    {
+      "root": 393831,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 29.15167953299533
+    },
+    {
+      "root": 201312,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 32.927748675996554
+    },
+    {
+      "root": 293094,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 39.79067283400218
+    },
+    {
+      "root": 170087,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 46.46365123800206
+    },
+    {
+      "root": 360940,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 52.22107460999541
+    },
+    {
+      "root": 1305,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 58.540948314999696
+    },
+    {
+      "root": 63942,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 62.29676427000231
+    },
+    {
+      "root": 3832,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 67.36659250799858
+    },
+    {
+      "root": 281272,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 73.8987513539978
+    },
+    {
+      "root": 406778,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 79.65723547500238
+    },
+    {
+      "root": 393381,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 85.85565273899556
+    },
+    {
+      "root": 218963,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 93.3918001389975
+    },
+    {
+      "root": 368580,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 99.04616787000123
+    },
+    {
+      "root": 285591,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 103.56861165499868
+    },
+    {
+      "root": 47571,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 110.91528493900114
+    },
+    {
+      "root": 222780,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 117.09746655100025
+    },
+    {
+      "root": 256724,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 123.14010577600129
+    },
+    {
+      "root": 178330,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 130.4087156550013
+    },
+    {
+      "root": 27370,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 136.44416178499523
+    },
+    {
+      "root": 299264,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 141.08635610900092
+    },
+    {
+      "root": 448992,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 146.0635614950006
+    },
+    {
+      "root": 39794,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 150.8022323749974
+    },
+    {
+      "root": 73665,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 155.78637258100207
+    },
+    {
+      "root": 361334,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 159.51247423899622
+    },
+    {
+      "root": 125914,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 166.25874751599622
+    },
+    {
+      "root": 95437,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 173.26899921600125
+    },
+    {
+      "root": 324997,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 178.52968795900233
+    },
+    {
+      "root": 290442,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 184.9151393630018
+    },
+    {
+      "root": 305473,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 190.77454047199717
+    },
+    {
+      "root": 296759,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 197.34838724199653
+    },
+    {
+      "root": 404968,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 203.08630024599552
+    },
+    {
+      "root": 441635,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 208.85983179199684
+    },
+    {
+      "root": 75150,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 215.08380279899575
+    },
+    {
+      "root": 155471,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 221.3560453760001
+    },
+    {
+      "root": 238056,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 228.5694107849995
+    },
+    {
+      "root": 171561,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 234.8687975369976
+    },
+    {
+      "root": 347449,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 241.20006185899547
+    },
+    {
+      "root": 163649,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 246.40040542600036
+    },
+    {
+      "root": 78108,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 250.47603447499569
+    },
+    {
+      "root": 106573,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 255.75336222400074
+    },
+    {
+      "root": 53097,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 261.4546943410023
+    },
+    {
+      "root": 327572,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 267.304693895996
+    },
+    {
+      "root": 170089,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 273.0024559769954
+    },
+    {
+      "root": 132135,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 276.9244914640003
+    },
+    {
+      "root": 333592,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 283.46916415099986
+    },
+    {
+      "root": 175749,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 289.0602219209977
+    },
+    {
+      "root": 427673,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 294.2998421029988
+    },
+    {
+      "root": 162117,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 300.9637536609953
+    },
+    {
+      "root": 57422,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 307.6278063380014
+    },
+    {
+      "root": 120908,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 312.75472108699614
+    },
+    {
+      "root": 24792,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 318.81924684399564
+    },
+    {
+      "root": 20649,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 324.83512303799944
+    },
+    {
+      "root": 365979,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 329.62139568999555
+    },
+    {
+      "root": 34421,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 335.03251020899916
+    },
+    {
+      "root": 177307,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 340.75980693699967
+    },
+    {
+      "root": 62230,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 347.77263079000113
+    },
+    {
+      "root": 371612,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 352.9519669910005
+    },
+    {
+      "root": 159696,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 358.03088753899647
+    },
+    {
+      "root": 240953,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 363.40970858999935
+    },
+    {
+      "root": 414415,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 369.6187414629967
+    },
+    {
+      "root": 155223,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 376.6831035419964
+    },
+    {
+      "root": 250615,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 383.2037477529957
+    },
+    {
+      "root": 369846,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 389.581333463997
+    },
+    {
+      "root": 327212,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 395.9069273619971
+    },
+    {
+      "root": 284070,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 402.1317716869962
+    },
+    {
+      "root": 277230,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 407.0934137860022
+    },
+    {
+      "root": 227015,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 410.9473311999973
+    },
+    {
+      "root": 8844,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 415.87146643800224
+    },
+    {
+      "root": 172754,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 422.5929243549981
+    },
+    {
+      "root": 429914,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 429.42407586999616
+    },
+    {
+      "root": 211355,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 436.4271549979967
+    },
+    {
+      "root": 168431,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 444.0696198200021
+    },
+    {
+      "root": 62173,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 450.7795597160002
+    },
+    {
+      "root": 176004,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 457.14385683
+    },
+    {
+      "root": 209720,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 463.2680616899961
+    },
+    {
+      "root": 87349,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 467.7985107259956
+    },
+    {
+      "root": 127812,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 474.2765676150011
+    },
+    {
+      "root": 418925,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 480.3598937209972
+    },
+    {
+      "root": 33260,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 486.64880257399636
+    },
+    {
+      "root": 415330,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 492.69290302399895
+    },
+    {
+      "root": 43994,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 498.9740763189984
+    },
+    {
+      "root": 202803,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 505.17613344099664
+    },
+    {
+      "root": 394137,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 511.57224458999553
+    },
+    {
+      "root": 395087,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 517.7566213550017
+    },
+    {
+      "root": 25163,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 524.6443574629957
+    },
+    {
+      "root": 349278,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 531.0188407570022
+    },
+    {
+      "root": 435018,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 537.2054967360018
+    },
+    {
+      "root": 344383,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 543.2209119089966
+    },
+    {
+      "root": 271434,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 549.2992623419996
+    },
+    {
+      "root": 294126,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 555.6255311540008
+    },
+    {
+      "root": 353808,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 561.8543261960003
+    },
+    {
+      "root": 164544,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 568.2593943969987
+    },
+    {
+      "root": 178099,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 574.9843949249989
+    },
+    {
+      "root": 342611,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 581.6108512680003
+    },
+    {
+      "root": 81348,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 2,
+      "found": false,
+      "seconds_cumulative": 588.9029130249983
+    },
+    {
+      "root": 219817,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 594.7516415589998
+    },
+    {
+      "root": 316685,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 600.5003669520011
+    },
+    {
+      "root": 307899,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 606.4145120629983
+    },
+    {
+      "root": 242847,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 613.1664219410013
+    },
+    {
+      "root": 283308,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 620.1620068760021
+    },
+    {
+      "root": 34215,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 628.491092135002
+    },
+    {
+      "root": 291018,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 634.3708067970001
+    },
+    {
+      "root": 71815,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 640.7491241949974
+    },
+    {
+      "root": 397710,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 646.992019010002
+    },
+    {
+      "root": 360896,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 653.2020283469974
+    },
+    {
+      "root": 256902,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 659.3339109459994
+    },
+    {
+      "root": 290021,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 665.3948644679986
+    },
+    {
+      "root": 243169,
+      "attempts": 6001,
+      "capped": true,
+      "maximum_depth": 3,
+      "found": false,
+      "seconds_cumulative": 671.3446879769981
+    }
+  ],
+  "certificate": null,
+  "nonembedding_established": false,
+  "scope": "Finite randomized embedding discovery; successful integer witnesses require exact audit."
+}

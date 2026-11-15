@@ -1,0 +1,172 @@
+{
+  "status": "exact_explicit_antipode_constructions",
+  "inherited_input": "Bachoc--Nebe L80: even unimodular, minimum 8; minimum theorem not re-enumerated",
+  "source_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/L80.html",
+  "source_paper": "C. Bachoc and G. Nebe, Extremal lattices of minimum 8 related to the Mathieu group M22, J. reine angew. Math. 494 (1998), 155-171",
+  "source_archive_normalization": "Trailing whitespace removed and a final newline retained; numerical data unchanged",
+  "rows": [
+    {
+      "dimension": 79,
+      "certificate": "certificates/L80_n79.npz",
+      "normal_gram": [
+        [
+          10
+        ]
+      ],
+      "normal_rank": 1,
+      "normal_gram_determinant_exact": "10",
+      "normal_primitive": true,
+      "period_gram_determinant_exact": "10",
+      "cosets": 2,
+      "dual_squared_diameter_exact": "1/10",
+      "packing_minimum_squared_lower_bound_exact": "79/10",
+      "minimum_attainment_established": false,
+      "center_density_squared_exact": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "center_density": "299178543929.5057253907165887311303049657",
+      "packing_fraction": "1.009467817783903341760134930810945752688e-16",
+      "bare_section_comparison_scope": "Ceiling only for codimension-k bare-section guarantees that retain the L80 parent minimum 8; not a ceiling for every actual section packing or a published record",
+      "bare_section_ceiling_center_density_squared_exact": "75557863725914323419136",
+      "ratio_to_bare_section_ceiling_squared_exact": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/690174634679056378743475586227702545245110897217038655516252422379929600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "increase_over_bare_section_ceiling_percent": "8.84052023520988782937514360351",
+      "product_comparison_method": "Gamma72 orthogonal product with minimum-2 D4/D5/E6/E7, rescaled to minimum 8",
+      "product_center_density_squared_exact": "18446744073709551616",
+      "ratio_to_product_squared_exact": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/168499666669691498716668844293872691710232152640878578006897564057600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "published_record_improvement_established": false,
+      "all_matrix_and_diameter_checks_exact": true,
+      "source_sha256": "911e87f145e329a905998f8aa3f961696697e19729acc56ae290043364fb8dbb",
+      "certificate_sha256": "56e7d135d50d2c97f5c57f3297559924f684422a7169c162b78ff971061c9deb"
+    },
+    {
+      "dimension": 78,
+      "certificate": "certificates/L80_n78.npz",
+      "normal_gram": [
+        [
+          8,
+          -4
+        ],
+        [
+          -4,
+          8
+        ]
+      ],
+      "normal_rank": 2,
+      "normal_gram_determinant_exact": "48",
+      "normal_primitive": true,
+      "period_gram_determinant_exact": "48",
+      "cosets": 3,
+      "dual_squared_diameter_exact": "1/6",
+      "packing_minimum_squared_lower_bound_exact": "47/6",
+      "minimum_attainment_established": false,
+      "center_density_squared_exact": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+      "center_density": "104731824371.1324535645407741086056481672",
+      "packing_fraction": "1.257009694167618325935467908681803599879e-16",
+      "bare_section_comparison_scope": "Ceiling only for codimension-k bare-section guarantees that retain the L80 parent minimum 8; not a ceiling for every actual section packing or a published record",
+      "bare_section_ceiling_center_density_squared_exact": "18889465931478580854784/3",
+      "ratio_to_bare_section_ceiling_squared_exact": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/15225585620355332585018082377583598863468529737829985636997309566050807853881814749344422782540061584146788484117347620598543548416",
+      "increase_over_bare_section_ceiling_percent": "31.9864830149030534774607436784",
+      "product_comparison_method": "Gamma72 orthogonal product with minimum-2 D4/D5/E6/E7, rescaled to minimum 8",
+      "product_center_density_squared_exact": "73786976294838206464/3",
+      "ratio_to_product_squared_exact": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/59474943829513017910226884287435933060423944288398381394520740492385968179225838864626651494297115563073392516083389142963060736",
+      "published_record_improvement_established": false,
+      "all_matrix_and_diameter_checks_exact": true,
+      "source_sha256": "911e87f145e329a905998f8aa3f961696697e19729acc56ae290043364fb8dbb",
+      "certificate_sha256": "7b217a3bc6fd871d9329abf9a0abbe90f5087c67a4e9697d025f967abd88ccd3"
+    },
+    {
+      "dimension": 77,
+      "certificate": "certificates/L80_n77.npz",
+      "normal_gram": [
+        [
+          8,
+          -3,
+          -3
+        ],
+        [
+          -3,
+          8,
+          -2
+        ],
+        [
+          -3,
+          -2,
+          8
+        ]
+      ],
+      "normal_rank": 3,
+      "normal_gram_determinant_exact": "300",
+      "normal_primitive": true,
+      "period_gram_determinant_exact": "300",
+      "cosets": 4,
+      "dual_squared_diameter_exact": "1/5",
+      "packing_minimum_squared_lower_bound_exact": "39/5",
+      "minimum_attainment_established": false,
+      "center_density_squared_exact": "108356130188081682995517775137171817752773967913887763831712796899440923594164362448511118989669337191979047011561089640493/94447329657392904273920000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "center_density": "33871302806.77905458136401198373418328117",
+      "packing_fraction": "1.436948350558401947033341706677882538891e-16",
+      "bare_section_comparison_scope": "Ceiling only for codimension-k bare-section guarantees that retain the L80 parent minimum 8; not a ceiling for every actual section packing or a published record",
+      "bare_section_ceiling_center_density_squared_exact": "590295810358705651712",
+      "ratio_to_bare_section_ceiling_squared_exact": "108356130188081682995517775137171817752773967913887763831712796899440923594164362448511118989669337191979047011561089640493/55751862996326557853839295681620903764951040000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "increase_over_bare_section_ceiling_percent": "39.4110027601500620954181819544",
+      "product_comparison_method": "Gamma72 orthogonal product with minimum-2 D4/D5/E6/E7, rescaled to minimum 8",
+      "product_center_density_squared_exact": "36893488147419103232",
+      "ratio_to_product_squared_exact": "108356130188081682995517775137171817752773967913887763831712796899440923594164362448511118989669337191979047011561089640493/3484491437270409865864955980101306485309440000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "published_record_improvement_established": false,
+      "all_matrix_and_diameter_checks_exact": true,
+      "source_sha256": "911e87f145e329a905998f8aa3f961696697e19729acc56ae290043364fb8dbb",
+      "certificate_sha256": "093aa3560b4dba5c2ac2c0310e30c578aeb69bbf50415b8e0dc6d0d523a9b460"
+    },
+    {
+      "dimension": 76,
+      "certificate": "certificates/L80_n76.npz",
+      "normal_gram": [
+        [
+          8,
+          -2,
+          -2,
+          -2
+        ],
+        [
+          -2,
+          8,
+          -2,
+          -2
+        ],
+        [
+          -2,
+          -2,
+          8,
+          -2
+        ],
+        [
+          -2,
+          -2,
+          -2,
+          8
+        ]
+      ],
+      "normal_rank": 4,
+      "normal_gram_determinant_exact": "2000",
+      "normal_primitive": true,
+      "period_gram_determinant_exact": "2000",
+      "cosets": 5,
+      "dual_squared_diameter_exact": "1/5",
+      "packing_minimum_squared_lower_bound_exact": "39/5",
+      "minimum_attainment_established": false,
+      "center_density_squared_exact": "8335086937544744845809059625936293673290305224145212602439445915341609507243412496039316845359179783998388231658545356961/60446290980731458735308800000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "center_density": "11742761445.82780968610347244624853157957",
+      "packing_fraction": "1.749624819696634916269365667552922817071e-16",
+      "bare_section_comparison_scope": "Ceiling only for codimension-k bare-section guarantees that retain the L80 parent minimum 8; not a ceiling for every actual section packing or a published record",
+      "bare_section_ceiling_center_density_squared_exact": "73786976294838206464",
+      "ratio_to_bare_section_ceiling_squared_exact": "8335086937544744845809059625936293673290305224145212602439445915341609507243412496039316845359179783998388231658545356961/4460149039706124628307143654529672301196083200000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "increase_over_bare_section_ceiling_percent": "36.7037352852966832707574642991",
+      "product_comparison_method": "Gamma72 orthogonal product with minimum-2 D4/D5/E6/E7, rescaled to minimum 8",
+      "product_center_density_squared_exact": "73786976294838206464",
+      "ratio_to_product_squared_exact": "8335086937544744845809059625936293673290305224145212602439445915341609507243412496039316845359179783998388231658545356961/4460149039706124628307143654529672301196083200000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "published_record_improvement_established": false,
+      "all_matrix_and_diameter_checks_exact": true,
+      "source_sha256": "911e87f145e329a905998f8aa3f961696697e19729acc56ae290043364fb8dbb",
+      "certificate_sha256": "d5819ad22e7a34944e95cbb204746591fcb001c7e1c41eb6cb52ea55d18c9c37"
+    }
+  ],
+  "current_record_identified": false
+}
