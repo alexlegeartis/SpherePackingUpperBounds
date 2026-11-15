@@ -35,6 +35,42 @@ assert rows==calculate(100), 'Displayed digits must be precision-stable'
 lower_sources={9:'https://cohn.mit.edu/sphere-packing/',10:'https://cohn.mit.edu/sphere-packing/',16:'https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/BW16.html',11:'https://cohn.mit.edu/sphere-packing/',12:'https://cohn.mit.edu/sphere-packing/',13:'https://cohn.mit.edu/sphere-packing/',14:'https://cohn.mit.edu/sphere-packing/',15:'https://cohn.mit.edu/sphere-packing/',37:'https://cohn.mit.edu/sphere-packing/',35:'https://cohn.mit.edu/sphere-packing/',33:'https://cohn.mit.edu/sphere-packing/',31:'https://cohn.mit.edu/sphere-packing/',30:'https://cohn.mit.edu/sphere-packing/',29:'https://cohn.mit.edu/sphere-packing/',23:'https://cohn.mit.edu/sphere-packing/',22:'https://cohn.mit.edu/sphere-packing/',27:'https://cohn.mit.edu/sphere-packing/',26:'https://cohn.mit.edu/sphere-packing/',25:'https://cohn.mit.edu/sphere-packing/',28:'https://cohn.mit.edu/sphere-packing/',32:'https://cohn.mit.edu/sphere-packing/',34:'https://cohn.mit.edu/sphere-packing/',36:'constructions/dim36/',38:'https://arxiv.org/html/2607.20359v4',39:'https://arxiv.org/html/2607.20359v4',40:'https://arxiv.org/html/2607.20359v4',41:'https://arxiv.org/html/2607.20359v4',42:'https://arxiv.org/html/2607.20359v4',43:'https://arxiv.org/html/2607.20359v4',7:'https://cohn.mit.edu/sphere-packing/',44:'https://arxiv.org/abs/2505.02394v1',6:'https://cohn.mit.edu/sphere-packing/',45:'https://arxiv.org/abs/2505.02394v1',46:'https://doi.org/10.1007/BF01232378',47:'https://arxiv.org/abs/2505.02394v1',17:'https://doi.org/10.4153/CJM-1964-065-1',18:'https://doi.org/10.1023/A:1008733715001',5:'https://cohn.mit.edu/sphere-packing/',4:'https://cohn.mit.edu/sphere-packing/',21:'https://arxiv.org/abs/2505.02394v1',19:'https://arxiv.org/abs/2505.02394v1',20:'https://arxiv.org/abs/2505.02394v1',48:'https://doi.org/10.4153/CJM-1971-081-3'}
 upper_source={9:'https://arxiv.org/html/2512.04829v2#S3.T1',10:'https://arxiv.org/html/2512.04829v2#S3.T1',16:'https://arxiv.org/html/2512.04829v2#S3.T1',11:'https://arxiv.org/html/2512.04829v2#S3.T1',12:'https://arxiv.org/html/2512.04829v2#S3.T1',13:'https://arxiv.org/html/2512.04829v2#S3.T1',14:'https://arxiv.org/html/2512.04829v2#S3.T1',15:'https://arxiv.org/html/2512.04829v2#S3.T1',37:"https://arxiv.org/abs/2006.02560v2",35:"https://arxiv.org/abs/2006.02560v2",33:"https://arxiv.org/abs/2006.02560v2",31:"https://arxiv.org/abs/2006.02560v2",30:"https://arxiv.org/abs/2006.02560v2",29:"https://arxiv.org/abs/2006.02560v2",23:"https://arxiv.org/abs/2006.02560v2",22:"https://arxiv.org/abs/2006.02560v2",27:"https://arxiv.org/abs/2006.02560v2",26:"https://arxiv.org/abs/2006.02560v2",25:"https://arxiv.org/abs/2006.02560v2",28:"https://arxiv.org/abs/2006.02560v2",32:"https://arxiv.org/abs/2006.02560v2",34:"https://arxiv.org/abs/2006.02560v2",36:"https://arxiv.org/abs/2006.02560v2",38:"https://arxiv.org/abs/2006.02560v2",39:"https://arxiv.org/abs/2006.02560v2",40:"https://arxiv.org/abs/2006.02560v2",41:'https://arxiv.org/abs/2006.02560v2',42:'https://arxiv.org/abs/2006.02560v2',43:'https://arxiv.org/abs/2006.02560v2',7:'https://arxiv.org/html/2512.04829v2#S3.T1',44:'https://arxiv.org/abs/2006.02560v2',6:'https://arxiv.org/html/2512.04829v2#S3.T1',45:'https://arxiv.org/abs/2006.02560v2',46:'https://arxiv.org/abs/2006.02560v2',47:'https://arxiv.org/abs/2006.02560v2',17:'https://arxiv.org/abs/2006.02560v2',18:'https://arxiv.org/abs/2006.02560v2',5:'https://arxiv.org/html/2512.04829v2#S3.T1',4:'https://arxiv.org/html/2512.04829v2#S3.T1',19:'https://arxiv.org/abs/2006.02560v2',20:'https://arxiv.org/abs/2006.02560v2',21:'https://arxiv.org/abs/2006.02560v2',48:'https://arxiv.org/abs/2006.02560v2'}
 upper_source[4]='https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4'
+# The method/source beside U describes the recorded comparison, not our method.
+# Keep this attribution in the registry as well as the generated Markdown.
+comparison_families = {
+ 'felpix': {
+  'method': 'Scalar/kernel + count and far-pair refinements',
+  'label': 'Felpix-Studios, pinned bb97550',
+  'title': 'An improved upper bound for sphere packing density in four dimensions',
+  'locator': 'preprints/D4 at commit bb97550ba47ad92bacfee567843888be16895a23',
+  'kind': 'pinned_repository_certificate',
+ },
+ 'three_point': {
+  'method': 'Three-point SDP',
+  'label': 'Tutunov et al. (2025), Table 1',
+  'title': 'Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing',
+  'locator': 'arXiv:2512.04829v2, Table 1',
+  'kind': 'paper_reported_decimal',
+ },
+ 'linear_programming': {
+  'method': 'Cohn–Elkies LP / modular bootstrap',
+  'label': 'Afkhami-Jeddi et al. (2020)',
+  'title': 'High-dimensional sphere packing and the modular bootstrap',
+  'locator': 'arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table',
+  'kind': 'published_table_decimal',
+ },
+}
+for row in rows:
+ n=row['dimension']
+ family='felpix' if n==4 else 'three_point' if n<=16 else 'linear_programming'
+ source=comparison_families[family]
+ assert row.get('previous_upper_source',upper_source[n])==upper_source[n]
+ row.update(previous_upper_method=source['method'],
+            previous_upper_source=upper_source[n],
+            previous_upper_source_label=source['label'],
+            previous_upper_source_title=source['title'],
+            previous_upper_source_locator=source['locator'],
+            previous_upper_source_kind=source['kind'])
 # Central mathematical mechanisms, not just verification-package labels.
 # Shared labels deliberately identify the same method across dimensions.
 proof_ideas = {9:'Signed-hinge cyclic profile + average-neighbor count',10:'Log-hinge cyclic profile + root-cut radial repair',16:'Widened shell count + coupled log-hinge radial kernel',11:'Quartic radial damping + all-dilation cyclic reduction',12:'Quartic radial damping + all-dilation cyclic reduction',13:'Quartic radial damping + all-dilation cyclic reduction',14:'Quartic radial damping + all-dilation cyclic reduction',15:'Quartic radial damping + all-dilation cyclic reduction',37:"Dimension-specific angular kernel + Gaussian radial optimization",35:"Dimension-specific angular kernel + Gaussian radial optimization",33:"Dimension-specific angular kernel + Gaussian radial optimization",31:"Dimension-specific angular kernel + Gaussian radial optimization",30:"Dimension-specific angular kernel + Gaussian radial optimization",29:"Dimension-specific angular kernel + Gaussian radial optimization",23:"Dimension-specific angular kernel + Gaussian radial optimization",22:"Dimension-specific angular kernel + Gaussian radial optimization",27:"Dimension-specific angular kernel + Gaussian radial optimization",26:"Dimension-specific angular kernel + Gaussian radial optimization",
@@ -69,7 +105,7 @@ for n in [26, 27, 28, 29, 30, 31, 33, 34]:proof_ideas[n]='Signed logarithmic pro
 for n in [23]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 for n in [17,18,19,20,21,48]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 assert set(proof_ideas) == {row["dimension"] for row in rows}
-header='| Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |\n| --- | --- | --- | --- | --- | --- | --- |\n'
+header='| Dimension | Known lower density L | Recorded upper U | Comparison method / source | Our upper N | Upper decrease | Additive gap decrease | Our method / proof |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):
  return '≈' + format(D(value), '.5g')
 def display_percent(value,dimension=None):
@@ -89,12 +125,13 @@ def display_lower(row):
  return label
 assert display_lower({'dimension': 36, 'known_lower_density': '7.33034778317e-7'}) == '≈7.3303e-7 (this work)'
 assert display_lower({'dimension': 16, 'known_lower_density': '0.014708'}) == '≈0.014708'
-table=header+''.join(f"| {x['dimension']} | [{display_lower(x)}]({lower_sources[x['dimension']]}) | [{display_upper(x,'previous_upper_density')}]({upper_source[x['dimension']]}) | {display_upper(x,'strict_density_upper_bound')} | {display_percent(x['upper_decrease_percent'],x['dimension'])} | {display_percent(x['gap_decrease_percent'],x['dimension'])} | [{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
+table=header+''.join(f"| {x['dimension']} | [{display_lower(x)}]({lower_sources[x['dimension']]}) | {display_upper(x,'previous_upper_density')} | [{x['previous_upper_method']} — {x['previous_upper_source_label']}]({x['previous_upper_source']}) | {display_upper(x,'strict_density_upper_bound')} | {display_percent(x['upper_decrease_percent'],x['dimension'])} | {display_percent(x['gap_decrease_percent'],x['dimension'])} | [{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) |\n" for x in rows)
+comparison_note='**Recorded upper U** is the historical comparison used for the percentages in that row. **Comparison method / source** names the method behind U and links to its paper or pinned certificate; **Our method / proof** describes the new bound N. A recorded comparison is not a claim about the latest worldwide record. [Full source titles, versions and comparison scope](COMPARISONS.md#table-comparison-methods-and-sources).'
 display_note='The 4D comparison uses the pinned Felpix-Studios certificate and its complete full-mode replay; extra digits show the small strict improvement. The 16D strict bound is 0.024900975, compared with the paper’s displayed 0.02492121. The full widened-shell count certificate is included and independently replayed. No worldwide-priority claim is made. Other densities are shown approximately to five significant digits and percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 5D, 6D, 7D and 9–16D baselines are pinned paper-reported decimal values, not independently replayed here.'
-text='# Density bounds and pinned comparisons\n\n'+table+'\n'+display_note+' See [sources and conventions](COMPARISONS.md).\n'
+text='# Density bounds and pinned comparisons\n\n'+comparison_note+'\n\n'+table+'\n'+display_note+' See [sources and conventions](COMPARISONS.md).\n'
 outputs={'RESULTS.json':json.dumps(rows,indent=2)+'\n','RESULTS.md':text}
 readme=(R/'README.md').read_text();a=readme.index('## Registered results');b=readme.index('These certificates use',a)
-outputs['README.md']=readme[:a]+'## Registered results\n\n'+table+'\n'+display_note+'\n\n'+readme[b:]
+outputs['README.md']=readme[:a]+'## Registered results\n\n'+comparison_note+'\n\n'+table+'\n'+display_note+'\n\n'+readme[b:]
 for name,content in outputs.items():
  if '--write' in sys.argv:(R/name).write_text(content)
  else:assert (R/name).read_text()==content,name+' needs regeneration: python comparison.py --write'

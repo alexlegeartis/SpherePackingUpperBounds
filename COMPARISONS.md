@@ -50,6 +50,28 @@ reductions above.
 
 Reviewed 10 November 2026. Except for the current 4D comparator above and the updated 5D row below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
 
+## Table comparison methods and sources
+
+The README and RESULTS tables follow the comparison layout in
+[KissingNumbers](https://github.com/alexlegeartis/KissingNumbers#results-and-construction-history):
+the recorded numerical comparison is followed by its **comparison method / source**,
+while **our method / proof** describes the new result. The upper-table source
+column refers specifically to **U**, the denominator of the upper-decrease
+percentage. These recorded comparisons retain their pinned versions and scope.
+
+| Rows | Comparison method | Named work and location |
+|---|---|---|
+| Upper 4D | Scalar/kernel certificate with count and far-pair refinements | Felpix-Studios, *An improved upper bound for sphere packing density in four dimensions*, [preprints/D4 at commit bb97550ba47ad92bacfee567843888be16895a23](https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4). The complete baseline proof is replayed. |
+| Upper 5–7D and 9–16D | Three-point semidefinite programming | Rasul Tutunov, Alexandre Maraval, Antoine Grosnit, Xihan Li, Jun Wang and Haitham Bou-Ammar, *Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing*, [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1). The comparisons use the paper's displayed decimals; its original numerical certificates are not replayed here. |
+| Upper 17–23D and 25–48D | Cohn–Elkies linear programming / modular bootstrap | Nima Afkhami-Jeddi, Henry Cohn, Thomas Hartman, David de Laat and Amirhossein Tajdini, *High-dimensional sphere packing and the modular bootstrap*, [arXiv:2006.02560v2](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066. Numerical comparisons are the pinned Cohn-table entries attributed to this work. |
+| Lower 36D | KP36 code-based lattice | Frank R. Kschischang and Subbarayan Pasupathy, *Some ternary and quaternary codes and associated sphere packings*, IEEE Trans. Information Theory 38 (1992), 227–246, [DOI](https://doi.org/10.1109/18.119683). The [KP36 catalogue entry](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) gives minimum 8 and Gram determinant 3^20. |
+| Lower 59D | Our earlier Gamma72 rank-13 section (**internal**) | [Explicit reference certificate and provenance](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from). This repository computed its center density 262144. Nebe's published Gamma72 minimum theorem is a parent input, not a published 59D record comparison. |
+
+`RESULTS.json` carries each upper row's method, source label, full work title,
+locator and source kind. `comparison.py` regenerates those fields together with
+the README and RESULTS tables. The table layout and attribution do not change
+any bound, numerical comparison or percentage.
+
 ## Lower bounds
 
 - **4D:** the D4 lattice has density pi^2/16, as tabulated by [Cohn](https://cohn.mit.edu/sphere-packing/). This is the known construction, not an optimality claim for unrestricted packings.

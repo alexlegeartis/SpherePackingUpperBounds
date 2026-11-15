@@ -30,7 +30,12 @@
     "full_certificate_replay": true,
     "external_neighbor_counts_required": false,
     "historical_reported_upper_density": "0.63610277",
-    "historical_reported_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1"
+    "historical_reported_upper_source": "https://arxiv.org/html/2512.04829v2#S3.T1",
+    "previous_upper_method": "Scalar/kernel + count and far-pair refinements",
+    "previous_upper_source_label": "Felpix-Studios, pinned bb97550",
+    "previous_upper_source_title": "An improved upper bound for sphere packing density in four dimensions",
+    "previous_upper_source_locator": "preprints/D4 at commit bb97550ba47ad92bacfee567843888be16895a23",
+    "previous_upper_source_kind": "pinned_repository_certificate"
   },
   {
     "dimension": 5,
@@ -58,7 +63,12 @@
     ],
     "source_package": "verifications/dim5/refinement_spherical_lens",
     "method": "Long-edge PSD lens extension with exact transverse spherical caps and physical-tail budgets",
-    "previous_repository_package": "verifications/dim5/refinement_lens"
+    "previous_repository_package": "verifications/dim5/refinement_lens",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 6,
@@ -79,7 +89,12 @@
       "0.410189987",
       "0.409135399"
     ],
-    "previous_repository_package": "verifications/dim6/refinement_mixture99"
+    "previous_repository_package": "verifications/dim6/refinement_mixture99",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 7,
@@ -95,7 +110,12 @@
     "upper_decrease_percent": "0.165043",
     "gap_decrease_percent": "2.052835",
     "old_gap": "0.025816876854287426900",
-    "new_gap": "0.025286898854287426900"
+    "new_gap": "0.025286898854287426900",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 9,
@@ -117,7 +137,12 @@
     "new_gap": "0.045152016191828889467",
     "earlier_repository_upper_densities": [
       "0.190941549"
-    ]
+    ],
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 10,
@@ -135,7 +160,12 @@
     "upper_decrease_percent": "0.050507",
     "gap_decrease_percent": "0.165410",
     "old_gap": "0.043786927192291193599",
-    "new_gap": "0.043714499192291193599"
+    "new_gap": "0.043714499192291193599",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 11,
@@ -152,7 +182,12 @@
     "upper_decrease_percent": "0.077784",
     "gap_decrease_percent": "0.205051",
     "old_gap": "0.040483982990198819640",
-    "new_gap": "0.040400969990198819640"
+    "new_gap": "0.040400969990198819640",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 12,
@@ -169,7 +204,12 @@
     "upper_decrease_percent": "0.255303",
     "gap_decrease_percent": "0.672650",
     "old_gap": "0.030252423375755944597",
-    "new_gap": "0.030048930375755944597"
+    "new_gap": "0.030048930375755944597",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 13,
@@ -186,7 +226,12 @@
     "upper_decrease_percent": "0.359282",
     "gap_decrease_percent": "0.768513",
     "old_gap": "0.028106737839650201897",
-    "new_gap": "0.027890733839650201897"
+    "new_gap": "0.027890733839650201897",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 14,
@@ -203,7 +248,12 @@
     "upper_decrease_percent": "0.015390",
     "gap_decrease_percent": "0.029620",
     "old_gap": "0.023386213917552894538",
-    "new_gap": "0.023379286917552894538"
+    "new_gap": "0.023379286917552894538",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 15,
@@ -220,7 +270,12 @@
     "upper_decrease_percent": "0.160847",
     "gap_decrease_percent": "0.321592",
     "old_gap": "0.016868279343237302352",
-    "new_gap": "0.016814032343237302352"
+    "new_gap": "0.016814032343237302352",
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 16,
@@ -244,7 +299,12 @@
     ],
     "previous_repository_package": "verifications/dim16_reconstruction_minB",
     "count_cap_exact": "501/1000",
-    "count_integer_bound": 7724
+    "count_integer_bound": 7724,
+    "previous_upper_method": "Three-point SDP",
+    "previous_upper_source_label": "Tutunov et al. (2025), Table 1",
+    "previous_upper_source_title": "Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing",
+    "previous_upper_source_locator": "arXiv:2512.04829v2, Table 1",
+    "previous_upper_source_kind": "paper_reported_decimal"
   },
   {
     "dimension": 17,
@@ -276,7 +336,12 @@
       "a_exact": "-96",
       "b_exact": "120"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 18,
@@ -309,7 +374,12 @@
       "a_exact": "-96",
       "b_exact": "120"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 19,
@@ -340,7 +410,13 @@
       "a_exact": "-96",
       "b_exact": "120"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 20,
@@ -371,7 +447,13 @@
       "a_exact": "-96",
       "b_exact": "120"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 21,
@@ -399,7 +481,13 @@
       "a_exact": "-96",
       "b_exact": "120"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 22,
@@ -432,7 +520,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 23,
@@ -465,7 +558,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 25,
@@ -498,7 +596,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 26,
@@ -531,7 +634,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 27,
@@ -564,7 +672,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 28,
@@ -597,7 +710,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 29,
@@ -630,7 +748,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 30,
@@ -663,7 +786,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 31,
@@ -696,7 +824,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 32,
@@ -729,7 +862,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 33,
@@ -762,7 +900,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 34,
@@ -795,7 +938,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 35,
@@ -828,7 +976,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 36,
@@ -864,7 +1017,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 37,
@@ -897,7 +1055,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 38,
@@ -929,7 +1092,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 39,
@@ -961,7 +1129,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 40,
@@ -993,7 +1166,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 41,
@@ -1025,7 +1203,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 42,
@@ -1057,7 +1240,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 43,
@@ -1089,7 +1277,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 44,
@@ -1119,7 +1312,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 45,
@@ -1153,7 +1351,13 @@
       "b_exact": "216",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 46,
@@ -1197,7 +1401,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 47,
@@ -1239,7 +1448,12 @@
       "b_exact": "120",
       "q_exact": "1"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   },
   {
     "dimension": 48,
@@ -1265,6 +1479,12 @@
       "a_exact": "-192",
       "b_exact": "216"
     },
-    "external_neighbor_counts_required": false
+    "external_neighbor_counts_required": false,
+    "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
+    "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
+    "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
+    "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
+    "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
+    "previous_upper_source_kind": "published_table_decimal"
   }
 ]
