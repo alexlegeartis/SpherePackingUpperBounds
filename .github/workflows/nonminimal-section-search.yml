@@ -1,0 +1,23 @@
+name: Non-minimal section search
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/nonminimal-section-search.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inspect-and-search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: research/nonminimal-sections-20261116
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install numerical dependencies
+        run: python -m pip install --upgrade pip numpy scipy sympy
+      - name: Inspect ambient certificate inputs
+        run: python research/nonminimal_sections_20261116/search.py
