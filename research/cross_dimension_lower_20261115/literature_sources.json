@@ -1,0 +1,151 @@
+{
+  "checked_date": "2026-11-15",
+  "sources": [
+    {
+      "id": "C13",
+      "title": "Hao Chen, On a generalization of Craig lattices",
+      "url": "https://doi.org/10.5802/jtnb.825",
+      "locator": "2013, JTNB 25(1), 59-70; Theorem 2.4 p.64, Section 3 p.65, Table 3.1 p.66",
+      "checked_role": "Direct reported 84D/85D guarantee, reconstructed from the theorem; printed numerical logs differ.",
+      "download_sha256": "e1c9cfea5fe1fee12fc16b5da1e1bf50c40d9b002b5c7d7985a71bd8c0349f73",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "C12",
+      "title": "Hao Chen, New lattice sphere packings denser than Mordell-Weil lattices",
+      "url": "https://arxiv.org/abs/1110.1950v5",
+      "locator": "v5, 31 May 2012, Section 4 pp.10-11",
+      "checked_role": "Earlier preprint with the same guarantee and weaker code examples.",
+      "download_sha256": "75f01d7848a99c9a3c88f1c83436953e5d2b7d7eefdb0ec8362b2f1d1d294a9b",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "S12",
+      "title": "Ichiro Shimada, On Frobenius incidence varieties of linear subspaces over finite fields",
+      "url": "https://arxiv.org/abs/1007.4614",
+      "locator": "Finite Fields and Their Applications 18 (2012), 235-252; Theorem 1.8",
+      "checked_role": "Earlier 84D guarantee 2^34/sqrt(85), weaker than C13.",
+      "download_sha256": "2160064718e6d015a6d40cd7a08a8999d12d41b6c7b74a092cd6a66bbd2e7da0",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "NStab",
+      "title": "Nebe-Sloane density table",
+      "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html",
+      "locator": "Last modified February 2012",
+      "checked_role": "Sparse above 48; no entries for the twelve dimensions in this experiment.",
+      "download_sha256": "07b5d6b475d7cd7416c307691fc1edd6cec2e43dd24773f1a8ae99b2e71eaad6",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "NSuni",
+      "title": "Nebe-Sloane unimodular lattice table",
+      "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/unimodular.html",
+      "locator": "Accessed 15 November 2026, rows 72-112",
+      "checked_role": "The rank-88 minimum-8 entries are explicitly labelled minimum claimed by authors.",
+      "download_sha256": "6ced5bca33496fdead6cdee11040ae6e4e6fafbd8bf6ac26ea0476dfe98667c4",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "Sa26",
+      "title": "Ryotaro Sakamoto, Two Extremal Even Unimodular Lattices of Rank 88",
+      "url": "https://arxiv.org/abs/2609.15633v2",
+      "locator": "v2, 27 September 2026",
+      "checked_role": "Higher-dimensional competing parent claim; not independently replayed or classified into all lower-dimensional sections.",
+      "download_sha256": "f6c88371946fcca66cad06c551c10a4f58f646d8bd68885efb104b33d58acb91",
+      "full_text_downloaded_to_scratch": true,
+      "full_text_redistributed_in_repository": false
+    },
+    {
+      "id": "Grassl_84_20",
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=84&k=20",
+      "download_sha256": "eab5f6c1cbc558f6c433702a1b7fe1bc3adb52ec627617ca4ca8f2bd8b51a874",
+      "scope": "Selected code-bound check only; an upper bound on distance does not establish existence."
+    },
+    {
+      "id": "Grassl_84_21",
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=84&k=21",
+      "download_sha256": "bf3b2ae89f4d663223a248c86bd24fc60c71bd93fdcf77b6832c1a065f5ef097",
+      "scope": "Selected code-bound check only; an upper bound on distance does not establish existence."
+    },
+    {
+      "id": "Grassl_85_20",
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=85&k=20",
+      "download_sha256": "1044d26c02ff984128c885751f1cc930e39dc7f79ed1be5c851e078e9a71de83",
+      "scope": "Selected code-bound check only; an upper bound on distance does not establish existence."
+    },
+    {
+      "id": "Grassl_85_21",
+      "url": "https://www.codetables.de/BKLC/BKLC.php?q=2&n=85&k=21",
+      "download_sha256": "f2a7a08a0fe468e5528247b06304081ce0f81c48c3c2dfec91fcee2ac7c16165",
+      "scope": "Selected code-bound check only; an upper bound on distance does not establish existence."
+    },
+    {
+      "id": "openalex_chen",
+      "url": "https://api.openalex.org/works/https://doi.org/10.5802/jtnb.825",
+      "download_sha256": "9b9934e41a8410f48e07a2facf65d69379af08effb95180375bedfe6709d25df",
+      "scope": "Incomplete citation indexing; not evidence of exhaustive coverage."
+    },
+    {
+      "id": "openalex_citing_chen",
+      "url": "https://api.openalex.org/works?filter=cites:W2320923235&per-page=100",
+      "download_sha256": "630b416df09dbd149442c0b04e07a4e3f6b55d35420e3b9668538479c623323f",
+      "scope": "Incomplete citation indexing; not evidence of exhaustive coverage."
+    },
+    {
+      "id": "crossref_chen",
+      "url": "https://api.crossref.org/works/10.5802/jtnb.825",
+      "download_sha256": "a03cbf863613f880aeffb8343c6bc283a5c1a9b338e9b97167374ce63e12213d",
+      "scope": "Incomplete citation indexing; not evidence of exhaustive coverage."
+    }
+  ],
+  "additional_source_urls": [
+    "https://cohn.mit.edu/sphere-packing/",
+    "https://dspace.mit.edu/entities/product/d8a88a76-3fa7-4b75-89ef-ea71a0e05b77",
+    "https://numberdb.org/files/T148/generate.py?rev=998",
+    "https://arxiv.org/abs/2607.11319",
+    "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+  ],
+  "representative_actual_search_queries": [
+    "sphere packing best known lower bounds dimensions 73 74 75 76 77 78 79",
+    "sphere packing dimension 81 82 83 84 85 lattice density",
+    "lattice packing center density 59 dimensions best known record",
+    "extremal odd unimodular lattices minimum 8 dimension 81 82 83 84 85",
+    "\"88\" \"extremal\" \"lattice\" minimum 8",
+    "\"73\" \"79\" \"Mordell\" lattice packing",
+    "\"lattice\" \"density\" \"73-dimensional\"",
+    "\"sphere packing\" \"74-dimensional\"",
+    "\"sphere packing\" \"85-dimensional\"",
+    "\"Mordell-Weil\" \"sections\" \"sphere\" lattices density",
+    "sphere packing lower bounds dimensions 80 84 88 Craig lattices",
+    "\"sphere\" \"37.006\"",
+    "\"sphere\" \"38.1616\"",
+    "\"sphere packing\" \"84\" \"Chen\" new",
+    "\"On a generalization of Craig lattices\" \"84\"",
+    "\"Shimada\" \"84\" \"sphere\" density lattices",
+    "\"sphere packings\" \"84, 85, 86\"",
+    "\"[84,21,32]\" OR \"[85,21,32]\" code",
+    "\"half-cosets\" \"lattice\" packing",
+    "\"binary quadratic\" \"Gamma72\" packing",
+    "\"A dual linear programming bound for sphere packing in dimension 36\" arxiv",
+    "\"sphere packing\" \"84\" \"40\" lattice density",
+    "\"sphere packing\" \"85\" \"38.16\" OR \"40.40\""
+  ],
+  "excluded_inferences": [
+    "Missing table entries do not establish a record.",
+    "Code upper bounds are not existence guarantees.",
+    "An unverified 88D parent claim is not a certified same-dimensional comparison.",
+    "No later stronger result located is not a proof that none exists."
+  ],
+  "unresolved_competitors": [
+    "Higher-minimum Mordell-Weil sections and other extensions",
+    "Lower-dimensional consequences of recent rank-88 claims",
+    "Unindexed or unavailable publications and unpublished constructions"
+  ],
+  "world_record_confirmed": false
+}

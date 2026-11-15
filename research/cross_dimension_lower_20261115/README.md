@@ -14,6 +14,13 @@ previous packing is denser. In particular, possible higher-minimum sections
 and sections of the denser Mordell–Weil 80D parent remain outside this
 comparison. Sparse published tables do not establish priority.
 
+The [15 November worldwide-status check](LITERATURE_STATUS.md) now identifies
+**Chen's published 84D/85D guarantees** as direct comparisons: our bounds
+exceed them by **899.675713%** and **364.438553%**, respectively. No later
+stronger guarantee in those two dimensions was located in that search.
+They are **record candidates**, with the remaining priority gaps stated in
+the review. [Exact external-comparison replay](verify_external_comparisons.py).
+
 ## Best bounds in this experiment
 
 All values here are **center densities** `delta`, not occupied-volume
@@ -23,14 +30,16 @@ reports. Ratios have the same value for center densities and fractions.
 
 `N12` means [Nebe's Gamma72, minimum 8 and determinant 1](https://arxiv.org/pdf/1008.2862).
 `BN98` means [Bachoc–Nebe's L80, minimum 8 and determinant 1](https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/L80.html).
-The comparison in every row is the stated parent's **orthogonal product**
-with the listed classical root lattice, with both factors at minimum 8.
+The comparisons in 73–83D are **derived orthogonal products** of the stated
+parent with the listed classical root lattice, with both factors at minimum 8.
 For a parent of dimension m its center-density square is
 `2^m/(2^r*det(R_r))`, where `r=n-m`. The small Gram determinants are
 `2,3,4,4,4,3,2` for `A1,A2,A3,D4,D5,E6,E7`.
+The 84D/85D rows instead use the dimension-specific guarantees in
+[Chen (2013), Theorem 2.4 and §3](https://doi.org/10.5802/jtnb.825).
 
 <!-- results-table:start -->
-| Dimension | Center density delta | Construction / proof | Derived comparison method / source | Ratio to that product |
+| Dimension | Center density delta | Construction / proof | Comparison method / source | Ratio to that comparison |
 | --- | ---: | --- | --- | ---: |
 | 73 | 5.610922e+10 | [Compatible shifts (existence)](counting_results.json) | N12 Gamma72 x A1 | 1.63299x |
 | 74 | 5.290028e+10 | [Compatible shifts (existence)](counting_results.json) | N12 Gamma72 x A2 | 2.66667x |
@@ -42,8 +51,8 @@ For a parent of dimension m its center-density square is
 | 81 | 9.834331e+11 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A1 | 1.78885x |
 | 82 | 1.015685e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A2 | 3.20000x |
 | 83 | 1.112628e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A3 | 5.72433x |
-| 84 | 1.407375e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x D4 | 10.24000x |
-| 85 | 1.453531e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x D5 | 14.95648x |
+| 84 | 1.407375e+12 | [Compatible shifts (existence)](counting80_results.json) | [Chen 2013 generalized Craig lattice + binary code; theorem guarantee](LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | 9.99676x |
+| 85 | 1.453531e+12 | [Compatible shifts (existence)](counting80_results.json) | [Chen 2013 generalized Craig lattice + binary code; theorem guarantee](LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | 4.64439x |
 <!-- results-table:end -->
 
 The existence bounds do **not** contain explicit horizontal representatives.
@@ -184,6 +193,7 @@ The existence checks require only Python's standard library:
 ```sh
 python research/cross_dimension_lower_20261115/verify_counting.py
 python research/cross_dimension_lower_20261115/verify80_counting.py
+python research/cross_dimension_lower_20261115/verify_external_comparisons.py
 ```
 
 The explicit auditor needs NumPy, SymPy and python-flint:

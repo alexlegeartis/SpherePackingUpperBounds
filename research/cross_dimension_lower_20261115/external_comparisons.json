@@ -1,0 +1,82 @@
+{
+  "checked_date": "2026-11-15",
+  "source_doi": "https://doi.org/10.5802/jtnb.825",
+  "source_pdf": "https://www.numdam.org/item/JTNB_2013__25_1_59_0.pdf",
+  "source_locator": "Journal de Theorie des Nombres de Bordeaux 25 (2013), 59-70; Theorem 2.4 p.64, Section 3 p.65, Table 3.1 p.66",
+  "all_gain_arithmetic_exact": true,
+  "literature_review": "LITERATURE_STATUS.md",
+  "source_manifest": "literature_sources.json",
+  "rows": [
+    {
+      "dimension": 84,
+      "comparison_source": "Hao Chen (2013), DOI 10.5802/jtnb.825, Theorem 2.4 and Section 3",
+      "comparison_kind": "published_guarantee_reconstructed_from_theorem_and_specified_code",
+      "comparison_center_density_squared_exact": "41359030627651383743570434603498142678290605545043945312500/2086743363520320043541170174214152577",
+      "comparison_center_density": "140783142502.49018561440823508367308307708164746327",
+      "comparison_log2_center_density": "37.0346836385027879378127020067438079048419938",
+      "paper_table3_1_log2_display": "37.006",
+      "paper_display_note": "The displayed logarithm differs from evaluating the stated theorem; the exact theorem formula is used here.",
+      "code_parameters": [
+        84,
+        1,
+        84
+      ],
+      "generalized_craig_parameters": {
+        "m": 10,
+        "ell": 89
+      },
+      "guaranteed_squared_minimum": 80,
+      "actual_old_lattice_minimum_computed_here": false,
+      "our_center_density_squared_exact": "1237940039285380274899124224/625",
+      "our_center_density": "1407374883553.28",
+      "our_log2_center_density": "40.3561438102252753042593611410212196482703372",
+      "ratio_squared_exact": "645815790353712891679797487394533394375448486261077710903181312/6462348535570528709932880406796584793482907116413116455078125",
+      "ratio": "9.9967571296995747854178575374827488202585983553419",
+      "increase_percent": "899.675712969957478541785753748274882025859836",
+      "increase_percent_interval_verified_exactly": [
+        "899.675712",
+        "899.675714"
+      ],
+      "our_packing_explicit": false,
+      "status": "verified_gain_over_named_published_guarantee",
+      "literature_search_found_later_stronger_same_dimension_guarantee": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 85,
+      "comparison_source": "Hao Chen (2013), DOI 10.5802/jtnb.825, Theorem 2.4 and Section 3",
+      "comparison_kind": "published_guarantee_reconstructed_from_theorem_and_specified_code",
+      "comparison_center_density_squared_exact": "516987882845642296794630432543726783478632569313049316406250/5278233213610221286604136323012268283",
+      "comparison_center_density": "312965088614.59394133247513846180074644682791702538",
+      "comparison_log2_center_density": "38.1872107766642710203679836214043665417283112",
+      "paper_table3_1_log2_display": "38.1616",
+      "paper_display_note": "The displayed logarithm differs from evaluating the stated theorem; the exact theorem formula is used here.",
+      "code_parameters": [
+        85,
+        1,
+        84
+      ],
+      "generalized_craig_parameters": {
+        "m": 10,
+        "ell": 89
+      },
+      "guaranteed_squared_minimum": 80,
+      "actual_old_lattice_minimum_computed_here": false,
+      "our_center_density_squared_exact": "19807040628566084398385987584/9375",
+      "our_center_density": "1453530529565.9882822136087174071164901724892731239",
+      "our_log2_center_density": "40.4026985124210160395973319543026163059580144",
+      "ratio_squared_exact": "52273089854512290526553020156169291215330418652661348835457499136/2423380700838948266224830152548719297556090168654918670654296875",
+      "ratio": "4.6443855319465443796307972951747039557277769779980",
+      "increase_percent": "364.438553194654437963079729517470395572777698",
+      "increase_percent_interval_verified_exactly": [
+        "364.438552",
+        "364.438554"
+      ],
+      "our_packing_explicit": false,
+      "status": "verified_gain_over_named_published_guarantee",
+      "literature_search_found_later_stronger_same_dimension_guarantee": false,
+      "world_record_confirmed": false
+    }
+  ],
+  "global_literature_search_exhaustive": false
+}
