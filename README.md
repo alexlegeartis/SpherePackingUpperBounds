@@ -4,7 +4,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 <!-- lower-return-20261115:start -->
 > [!IMPORTANT]
-> **59D construction, internal improvement — 15 November 2026.** A six-translate antipode from a balanced rank-five normal in Ne64's dual has packing fraction **2.637602590720003e-12** and center density **274,522.589741…**, **4.722057% above** a Gamma72 59D section computed earlier in this repository. That comparator is not an identified published 59D record. Two exact implementations verify the packing and internal ratio, using the published parent minimum theorem. [Construction and replay](constructions/dim59/) · [Named published sources and comparison status](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md). No gain over the current published 59D record has been established.
+> **59D packing certificate — 15 November 2026.** A six-translate antipode from a balanced rank-five normal in Ne64's dual has packing fraction **2.637602590720003e-12** and center density **274,522.589741…** (`log2(delta)=18.066565…`). An external historical reference is **Elkies's E59 section, reported by [Vardy (1999), §4](https://doi.org/10.1090/S0002-9947-99-02169-8)**, with the printed lower bound `log2(delta(E59)) >= 17.75…`. The exact external gain and current published-record status remain unestablished. [Construction and two exact replays](constructions/dim59/) · [Comparison sources and scope](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md).
 <!-- lower-return-20261115:end -->
 
 <!-- larger-decreases-20261115:start -->
@@ -37,23 +37,29 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Packing constructions: lower bounds
 
-**Recorded comparison density** is the reference used to calculate the increase.
-**Comparison method / source** names that packing and links to its supporting
-work. The 59D reference is explicitly marked **internal**.
+**Comparison method / source** names the external work behind each recorded
+comparison. A percentage is given when the comparison parameters are exact;
+the historical 59D entry is a printed lower bound, so its exact external gain
+is left unclaimed. All densities in this table are occupied-volume fractions.
 
 | Dimension | Recorded comparison density | Comparison method / source | Our constructed density | Increase | Our method / proof |
 | --- | --- | --- | --- | --- | --- |
 | 36 | ≈6.1615e-7 | [KP36 code-based lattice — Kschischang–Pasupathy (1992)](https://doi.org/10.1109/18.119683) · [Catalogue parameters](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
-| 59 | ≈2.518669571760e-12 | [**Internal:** our Gamma72 rank-13 section, using inherited minimum 8](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from) · [Certificate](research/novel_routes_20261113/audits/gamma72_leech_section_rank13.npz) | ≈2.637602590720e-12 | 4.722057% (internal) | [Six-translate Ne64 antipode; exact period, shifts, attained minimum and independent comparison audit](constructions/dim59/) |
+| 59 | ≥ `2^17.75 V₅₉` (≈2.11794e-12; published lower bound) | [Elkies's section E59 — reported by Vardy (1999), §4](https://doi.org/10.1090/S0002-9947-99-02169-8) | ≈2.637602590720e-12 | Above the printed bound; exact external gain unverified | [Six-translate Ne64 antipode; exact period, shifts, attained minimum and independent comparison audit](constructions/dim59/) |
 
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 
-The 36D row compares against the named published KP36 construction. The 59D row
-compares against our own earlier calculation; its 4.722057% must not be read as
-a gain over an identified published record. The
-[reference audit](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md)
-names Vardy's 1999 report of Elkies's section bounds, Nebe's parent-lattice
-papers, and the exact role each source plays.
+For 59D, `V₅₉ = pi^(59/2)/Gamma(61/2)` converts center density into the occupied
+fraction shown here. Vardy's §4 table prints a lower bound with ellipses, not
+exact parameters for E59. Our value exceeds that historical guarantee; this
+comparison does not identify the strongest later published 59D result.
+
+As a separate internal check, our earlier Gamma72 section has center density
+262144, below the new construction by exactly **4.722057%**. This stronger
+internal reference is useful for tracking our progress, but is not the external
+literature baseline in the table. Its
+[certificate and provenance](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from)
+remain available alongside the named published sources.
 
 Additional merged constructions include an explicit **65D minimum-12 lattice** and periodic packings in 60–62D and 66–71D. Their comparison scope and unestablished world-record status are documented in [the certified higher-dimensional research](research/novel_routes_20261113/README.md).
 

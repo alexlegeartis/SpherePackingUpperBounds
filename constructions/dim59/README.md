@@ -6,13 +6,23 @@ This construction has packing fraction
 \Delta_{59}=2.63760259072000297875\ldots\times10^{-12},
 \]
 
-with center density **274,522.589741149678…**. It improves the repository's
-certified 59D Gamma72 section, whose center density is `262144`, by
-**4.722057243785735…%**. The new packing, the comparison period, and their
-density ratio pass two exact implementations. **The reference `262144` was
-computed in this repository from Nebe's Gamma72 parent. It is not a published
-59D record identified in Nebe's paper. The 4.722057% is an internal improvement,
-not an established gain over the published state of the art.**
+with center density **274,522.589741149678…**, or
+`log2(delta)=18.066565…`.
+
+An external historical reference is **Elkies's section E59, reported by
+Alexander Vardy in *Density doubling, double-circulants, and new sphere
+packings*, Trans. AMS 351 (1999), 271–283, §4**
+([paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). Its printed lower
+bound is `log2(delta(E59)) >= 17.75…`. Our packing exceeds this reported
+historical guarantee. **An exact percentage over the actual Elkies packing,
+and a comparison with the strongest subsequent published 59D result, remain
+unestablished.**
+
+Separately, the repository's certified Gamma72 59D section has center density
+`262144`. The new construction improves that **internal** reference by
+**4.722057243785735…%**. Both the new packing and this exact internal ratio
+pass two implementations. The internal reference is stronger than the floor
+obtained from Vardy's printed prefix, so it remains useful as a progress check.
 
 The idea is a balanced rank-five normal in the dual of Ne64, followed by a
 six-point antipode construction. Five dual minimum-length vectors have squared

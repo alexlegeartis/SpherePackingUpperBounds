@@ -65,12 +65,23 @@ percentage. These recorded comparisons retain their pinned versions and scope.
 | Upper 5–7D and 9–16D | Three-point semidefinite programming | Rasul Tutunov, Alexandre Maraval, Antoine Grosnit, Xihan Li, Jun Wang and Haitham Bou-Ammar, *Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing*, [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1). The comparisons use the paper's displayed decimals; its original numerical certificates are not replayed here. |
 | Upper 17–23D and 25–48D | Cohn–Elkies linear programming / modular bootstrap | Nima Afkhami-Jeddi, Henry Cohn, Thomas Hartman, David de Laat and Amirhossein Tajdini, *High-dimensional sphere packing and the modular bootstrap*, [arXiv:2006.02560v2](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066. Numerical comparisons are the pinned Cohn-table entries attributed to this work. |
 | Lower 36D | KP36 code-based lattice | Frank R. Kschischang and Subbarayan Pasupathy, *Some ternary and quaternary codes and associated sphere packings*, IEEE Trans. Information Theory 38 (1992), 227–246, [DOI](https://doi.org/10.1109/18.119683). The [KP36 catalogue entry](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) gives minimum 8 and Gram determinant 3^20. |
-| Lower 59D | Our earlier Gamma72 rank-13 section (**internal**) | [Explicit reference certificate and provenance](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from). This repository computed its center density 262144. Nebe's published Gamma72 minimum theorem is a parent input, not a published 59D record comparison. |
+| Lower 59D | Elkies's section E59, a historical external result | Alexander Vardy, *Density doubling, double-circulants, and new sphere packings*, Trans. AMS 351 (1999), 271–283, [§4](https://doi.org/10.1090/S0002-9947-99-02169-8), reports `log2(delta(E59)) >= 17.75…`. This is a printed lower bound, not exact E59 parameters or a current record survey; the README claims no exact external percentage. |
+
+For the external 59D entry, the conservative displayed prefix gives the center
+density floor `2^17.75`; multiplying by `V_59 = pi^(59/2)/Gamma(61/2)` gives
+approximately `2.117940214101338e-12`. Our occupied fraction is
+`2.637602590720003e-12`. The stronger reference `delta=262144` was computed
+in this repository and remains a **secondary internal comparison** with exact
+gain 4.722057%. It is verified in the construction package; it is not substituted
+for the external work in the README table. The best current external 59D result
+and its exact parameters have not been established by this audit.
 
 `RESULTS.json` carries each upper row's method, source label, full work title,
 locator and source kind. `comparison.py` regenerates those fields together with
-the README and RESULTS tables. The table layout and attribution do not change
-any bound, numerical comparison or percentage.
+the upper-bound README and RESULTS tables. Their bounds and numerical comparisons
+are unchanged. The lower-bound 59D row now uses the external historical reference
+without an exact gain claim; the proved 4.722057% remains an internal comparison
+in the construction package and the notes below the table.
 
 ## Lower bounds
 
