@@ -1,0 +1,2 @@
+# Stage 4 uses only the Python standard library (fractions, json, hashlib).
+# The release supports CPython 3.12 or later.

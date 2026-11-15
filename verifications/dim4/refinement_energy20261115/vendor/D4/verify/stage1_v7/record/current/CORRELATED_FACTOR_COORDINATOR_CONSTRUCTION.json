@@ -1,0 +1,113 @@
+{
+  "status": "CORRELATED_FACTOR_COORDINATOR_CONSTRUCTED_NOT_GLOBALLY_VERIFIED",
+  "parent": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_three_graphs.py",
+  "parent_sha256": "3041f781699e549d33ab1b231094f0e66077b94dfb6cfe3371d740bae433ef4f",
+  "output": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_three_graphs_correlated.py",
+  "output_sha256": "d091a9bedf774cad656d3f54078e20789bfdccc480209fdd801f6aa66d3d8149",
+  "exact_inverse_recovers_entire_parent": true,
+  "substitutions": [
+    {
+      "old": "\"\"\"Exact verification using the same complete coordinator and a compiled\n",
+      "new": "\"\"\"Exact global coordinator with one optional factor-correlated sign test.\n\nThe audited original scalar-factor, rejection, resource-limit, and complete\nclosed-domain coverage gates remain intact. A freshly source-bound compiled\nbackend may additionally prove each numerator Bernstein coefficient is at\nmost the correction lower bound times its matching positive monomial-factor\ncoefficient. All normalization and comparisons are exact downward integers.\n\"\"\"\n\"\"\"Exact verification using the same complete coordinator and a compiled\n"
+    },
+    {
+      "old": "    assert cyclic['status'] == 'CERTIFIED', cyclic\n",
+      "new": "    assert cyclic['status'] == 'CERTIFIED', cyclic\n    assert type(cyclic['correlated_factor_leaves']) is int\n    assert type(cyclic['correction_leaves']) is int and type(cyclic['leaves']) is int\n    assert 0 <= cyclic['correlated_factor_leaves'] <= cyclic['correction_leaves'] <= cyclic['leaves']\n"
+    },
+    {
+      "old": "graph_weights=state['graph_weights'], outer_graph_weight=state['outer_graph_weight'])",
+      "new": "graph_weights=state['graph_weights'], outer_graph_weight=state['outer_graph_weight'],\n            factor_acceptor=state['factor_backend'].accept)"
+    },
+    {
+      "old": "        if hasattr(core._exact_backend, 'clear_cache'):\n            core._exact_backend.clear_cache()",
+      "new": "        if hasattr(core._exact_backend, 'clear_cache'):\n            core._exact_backend.clear_cache()\n        state['factor_backend'].clear_cache()"
+    },
+    {
+      "old": "    split_contract = split_backend.source_contract()\n",
+      "new": "    split_contract = split_backend.source_contract()\n    # Compile from the pinned source before any fork; workers inherit this\n    # validated function and binary rather than resolving another module.\n    factor_backend = load_module('compiled_correlated_factor', INTEGRATION.parent/'factor_correlated.py')\n    assert Path(factor_backend.__file__).resolve() == INTEGRATION.parent/'factor_correlated.py'\n    assert factor_backend.SOURCE.resolve() == INTEGRATION.parent/'factor_correlated.cpp'\n    assert factor_backend.BITS == 20 and factor_backend.UNIT == 2**20\n    factor_contract = factor_backend.source_contract()\n"
+    },
+    {
+      "old": "                      split_backend.LIBRARY, Path(__file__), INTEGRATION/'signed_spherical_exact.py',",
+      "new": "                      split_backend.LIBRARY, Path(__file__), INTEGRATION/'signed_spherical_exact.py',\n                      INTEGRATION.parent/'factor_correlated.py',\n                      INTEGRATION.parent/'factor_correlated.cpp', factor_backend.LIBRARY,\n                      INTEGRATION/'verify_combined_binary_three_graphs.py',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.py',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.construction.json',\n                      INTEGRATION.parent/'CORRELATED_FACTOR_COORDINATOR_CONSTRUCTION.json',\n"
+    },
+    {
+      "old": "    for pinned_path, expected_hash in (\n",
+      "new": "    for pinned_path, expected_hash in (\n            (INTEGRATION/'verify_combined_binary_three_graphs.py',\n             '3041f781699e549d33ab1b231094f0e66077b94dfb6cfe3371d740bae433ef4f'),\n            (INTEGRATION.parent/'factor_correlated.py',\n             '47a3a83c555b70eb3b299c3153dc083b5e2bad674bb4f6c9b6220e94990181a0'),\n            (INTEGRATION.parent/'factor_correlated.cpp',\n             '79835480f637d07044542ec4041a7684a7811a650cb351b8af79d0dfdcaea0dc'),\n            (INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.py',\n             '05072a15b7f2ef219d71f3a940e689e3d052be72fb57ccdbab7b8662d6a0f92f'),\n"
+    },
+    {
+      "old": "    runtime_versions['midpoint_subdivision'] = split_contract\n",
+      "new": "    runtime_versions['midpoint_subdivision'] = split_contract\n    runtime_versions['correlated_factor_acceptance'] = factor_contract\n"
+    },
+    {
+      "old": "INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs.py')\n    assert lift_helper.outer_graph_lower",
+      "new": "INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.py')\n    assert lift_helper.outer_graph_lower"
+    },
+    {
+      "old": "    progress_path = folder/('WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_PROGRESS.json' if stage == 'all' else\n                            'WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_'+stage.upper()+'_PROBE.json')",
+      "new": "    progress_path = folder/('CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_PROGRESS.json' if stage == 'all' else\n                            'CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_'+stage.upper()+'_PROBE.json')"
+    },
+    {
+      "old": "    def assert_sources_unchanged():\n",
+      "new": "    def assert_sources_unchanged():\n        assert factor_backend.source_contract() == factor_contract\n"
+    },
+    {
+      "old": "spherical_rays=spherical_rays, graph_weights=graph_weights, outer_graph_weight=outer_graph_weight)",
+      "new": "spherical_rays=spherical_rays, graph_weights=graph_weights, outer_graph_weight=outer_graph_weight,\n            factor_backend=factor_backend)"
+    },
+    {
+      "old": "            result['parallel']['coverage_status'] = 'ALL_EXPECTED_UNIQUE_BRANCHES_AND_IDENTITIES_VERIFIED'\n",
+      "new": "            result['parallel']['coverage_status'] = 'ALL_EXPECTED_UNIQUE_BRANCHES_AND_IDENTITIES_VERIFIED'\n            result['parallel']['correlated_factor_leaves'] = sum(\n                packet['cyclic']['correlated_factor_leaves'] for packet in result['parallel']['branch_packets'])\n"
+    },
+    {
+      "old": "    assert split_backend.source_contract() == split_contract\n",
+      "new": "    assert split_backend.source_contract() == split_contract\n    assert factor_backend.source_contract() == factor_contract\n"
+    }
+  ],
+  "helper_construction": {
+    "status": "OPTIONAL_CORRELATED_HELPER_CONSTRUCTED_NOT_GLOBALLY_VERIFIED",
+    "parent": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_three_graphs.py",
+    "parent_sha256": "c2cc6a2d151f6995fd25673886cd06dc426e910e26a2bdeee0b2d2a2676483fc",
+    "output": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_three_graphs_correlated.py",
+    "output_sha256": "05072a15b7f2ef219d71f3a940e689e3d052be72fb57ccdbab7b8662d6a0f92f",
+    "substitutions": [
+      {
+        "old": "spherical_rays=(), graph_weights=(), outer_graph_weight=Q(0)):",
+        "new": "spherical_rays=(), graph_weights=(), outer_graph_weight=Q(0), factor_acceptor=None):"
+      },
+      {
+        "old": "    antipodal_dependent_leaves = 0\n",
+        "new": "    antipodal_dependent_leaves = 0\n    correlated_factor_leaves = 0\n"
+      },
+      {
+        "old": "        failure = None\n",
+        "new": "        # This is one additional sufficient coefficientwise inequality.\n        # None and False preserve every existing corner, limit, split and\n        # exhaustive closed-domain coverage gate below.\n        if factor_acceptor is not None and correction_lower > 0 and factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, correction_lower):\n            leaves += 1\n            correction_leaves += 1\n            correlated_factor_leaves += 1\n            lift_dependent_leaves += int(not factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, unlifted_lower))\n            antipodal_dependent_leaves += int(not factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, without_antipodal))\n            continue\n        failure = None\n"
+      },
+      {
+        "old": "                  correction_leaves=correction_leaves, lift_dependent_leaves=lift_dependent_leaves,",
+        "new": "                  correlated_factor_leaves=correlated_factor_leaves,\n                  correction_leaves=correction_leaves, lift_dependent_leaves=lift_dependent_leaves,"
+      }
+    ],
+    "exact_inverse_recovers_entire_parent": true,
+    "activation": "Fresh coordinator must source-pin and pass audited factor_correlated.accept.",
+    "unchanged": "Every original acceptance, rejection, subdivision and coverage gate is preserved."
+  },
+  "byte_identical_backend_copies": [
+    {
+      "source": "/workspace/scratch/93cb6ce085de/audit/factor_correlated.py",
+      "destination": "/workspace/scratch/93cb6ce085de/current/factor_correlated.py",
+      "sha256": "47a3a83c555b70eb3b299c3153dc083b5e2bad674bb4f6c9b6220e94990181a0"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/audit/factor_correlated.cpp",
+      "destination": "/workspace/scratch/93cb6ce085de/current/factor_correlated.cpp",
+      "sha256": "79835480f637d07044542ec4041a7684a7811a650cb351b8af79d0dfdcaea0dc"
+    }
+  ],
+  "candidate_changed": false,
+  "verification_launched": false,
+  "source_binding": "Fresh wrapper/C++ compilation before fork; wrapper, source, fresh binary, parent, helper and construction records hashed at start/end.",
+  "arithmetic": "All old gates retained; one additional exact sufficient Bernstein comparison.",
+  "branch_contract": "Fresh exact identities and every unique required branch remain mandatory.",
+  "progress_path": "Separate CORRELATED_FACTOR_ prefix preserves prior progress files.",
+  "builder_sha256": "38436842c5b96fcff97428dc6bbf7fd150faece715678458226eef26165d1a36"
+}

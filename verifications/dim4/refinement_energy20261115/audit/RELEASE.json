@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-11-15T10:27:11.673647+03:00",
+  "dimension": 4,
+  "strict_density_upper_bound": "0.629520189662",
+  "compared_upper_bound": "0.629521681653",
+  "source_commit": "bb97550ba47ad92bacfee567843888be16895a23",
+  "base_fresh_during_release": true,
+  "base_source_files_matched_to_vendor": 277,
+  "composition_invocation_reused_that_fresh_base": true,
+  "unchanged_other_dimensions_rerun": false,
+  "checks": {
+    "fresh_full_base": "PASS",
+    "fresh_census_composition": "PASS",
+    "six_invalid_inputs_rejected": "PASS",
+    "exact_Gram_reconstruction": "PASS",
+    "frozen_polynomial_export": "PASS",
+    "generated_registry_comparisons": "PASS",
+    "historical_origin_compatibility": "PASS"
+  },
+  "inputs_sha256": {
+    "verify.py": "1ba691432f3481a9aeccb6aa24bc3c75fefc02849b5e17c09f57463b774245a0",
+    "boxes.py": "a225e38c61646e897de58d1bb6c8bfd4090bd4a2d0fa296a569e42656ff3b71e",
+    "gram.py": "1b231c745d31e21eb5b1e60025cba0b445d660a21d0c41670c974db4171a0108",
+    "polynomial.py": "c2e82230ac769ba6910d7ed911d1eef769ef17d48e3c8646956e97406240b5c7",
+    "check_rejections.py": "540652eb124d93a9bc6328d98a6dea43ff81c8b1b9339ecb6848b8d7887a2a52",
+    "polynomials.json": "308486d148c2076cdfbdc3a63fa803152eaec7fd55ee269a3f2374aaa1912efc",
+    "gram_credits.json": "ae8733f456b244c06044a1ca51789c6b9135ed3a3df38093bdd4d9e42a85051e",
+    "kernel_box_j1.json": "4eafa895ef2f713d2274511482ace8caf5076d81b84a430ae3e9f34ee6fb3cb6",
+    "certificate.json": "366f8391bd9238622451b38b328601e2320f4d18c6d469d7d9dddbceba6decd5",
+    "vendor/UPSTREAM.json": "63e3b755d4ef9c408d5e799df69545b6293a17ddf16e6d0e0bf4c63a23d6614f"
+  },
+  "evidence_sha256": {
+    "base_SUMMARY.json": "eaeec093195c380eeba32f5d199b1cb3d1290362e2b3a64f0f4d8e57a579174a",
+    "composition_RESULT.json": "2cb7739a86ae881871b597fa31bab38a1c00ac66a4f7f893fc3f0f5d721d7fb3",
+    "source_identity.json": "e20035bdaf1d2454d88fb0d8359efdf291d7b6692431f6eeaf35e9abf7caeae6",
+    "rejections.log": "89c532e84c55db9c598f48a92da037679e8196a2435b6c9533867667cb9e0ef2"
+  }
+}

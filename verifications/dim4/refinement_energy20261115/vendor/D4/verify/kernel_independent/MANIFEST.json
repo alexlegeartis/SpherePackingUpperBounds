@@ -1,0 +1,50 @@
+{
+ "schema": "kernel_independent_manifest_v1",
+ "files": [
+  {
+   "path": "COMPONENT_IDENTITIES.md",
+   "bytes": 8139,
+   "sha256": "947bacb03044143db981b5f3389d921bca38046fdfe747d310d8bd68af8a8006"
+  },
+  {
+   "path": "CONVENTIONS.md",
+   "bytes": 7954,
+   "sha256": "c1b2f5a68df4a1630f951c04667ea79d4f1c999ad6a44dd2ef5ba7ac12d221cf"
+  },
+  {
+   "path": "README.md",
+   "bytes": 5496,
+   "sha256": "4cfe987e201b60a91bc07b6f424667cc5da6821f9a51a07e8da3cd29cacb0f54"
+  },
+  {
+   "path": "bonus_stage5.py",
+   "bytes": 4269,
+   "sha256": "feb8dd59d7f0902c005e5adf10ff3fdf34e5a7303012bb99b6c3144f674c9233"
+  },
+  {
+   "path": "contracts.py",
+   "bytes": 6560,
+   "sha256": "279758940acee44895f2f3400b4dd4f0b5ae9f7fd78a1a9242dab8c31130fa32"
+  },
+  {
+   "path": "extract_stage1.py",
+   "bytes": 17980,
+   "sha256": "515e00093f9d6cbd44ca46ae2d41608027d90bf566fb917004feec668f97ad15"
+  },
+  {
+   "path": "kernel.py",
+   "bytes": 31173,
+   "sha256": "43932038c0ff2dc32f657ec02cf860679d8d9ecf1ec61e1dd5b9132199e46a19"
+  },
+  {
+   "path": "negative_controls.py",
+   "bytes": 6407,
+   "sha256": "e7be8af20ba047872979657e9099c3b7bf4fb3cf40c6246dbb01a71e13bb3116"
+  },
+  {
+   "path": "run.py",
+   "bytes": 14213,
+   "sha256": "d6f7b1fdc63e42e5f5778df937fa8672c9df7eec30b31f47d46d1f4cca58442e"
+  }
+ ]
+}

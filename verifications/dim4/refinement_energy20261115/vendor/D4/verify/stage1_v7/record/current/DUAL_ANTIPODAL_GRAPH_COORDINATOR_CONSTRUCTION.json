@@ -1,0 +1,104 @@
+{
+  "status": "EXACT_DUAL_ANTIPODAL_COORDINATOR_CONSTRUCTION_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_cap9_graphs_correlated.py",
+  "parent_sha256": "6cf77a4362dd7f37e6f87bdba197e8e777a004a0c644bd500f01faeb2500ad69",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_dual_antipodal_graphs_correlated.py",
+  "coordinator_sha256": "598edfa6ad81ce20cbb28d4f246950d6263360debb06e3a67a6520f03caef068",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated.py",
+  "helper_sha256": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+  "helper_byte_identical": true,
+  "parent_reconstruction_passed": true,
+  "coordinator_replacements": [
+    {
+      "old": "cap9_graph_route",
+      "new": "dual_antipodal_graph_route",
+      "count": 9
+    },
+    {
+      "old": "                      INTEGRATION.parent/'CAP9_GRAPH_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'CAP9_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'DUAL_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_cap9_graphs_correlated.py',\n",
+      "count": 1
+    },
+    {
+      "old": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V3'",
+      "new": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V4'",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_report['status'] == 'EXACT_OUTER_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "new": "outer_graph_report['status'] == 'EXACT_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "count": 1
+    },
+    {
+      "old": "tuple(map(F,outer_graph_report['radial_interval'])) == (F(3,2),F(7,4))",
+      "new": "tuple(map(F,outer_graph_report['radial_interval'])) == (F(33,28),F(7,4))",
+      "count": 1
+    },
+    {
+      "old": "tuple(map(F,outer_graph_report['target_angular_interval'])) == (F(-2,5),F(-1,5))",
+      "new": "tuple(map(F,outer_graph_report['target_angular_interval'])) == (F(-1),F(-183,200))",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_report['even_ordered_edge_bound'] == outer_graph_bounds.CAPACITY == 6252",
+      "new": "outer_graph_report['even_ordered_edge_bound'] == outer_graph_bounds.CAPACITY == 604\n    assert outer_graph_report['degree_proof']['degree_bound'] == 4\n    assert outer_graph_report['count_proof']['count_bound'] == 151",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_weight*6252",
+      "new": "outer_graph_weight*604",
+      "count": 1
+    },
+    {
+      "old": "CAP9_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "DUAL_ANTIPODAL_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    }
+  ],
+  "parent_fourth_bounds": "/workspace/scratch/93cb6ce085de/current/cap9_graph_route/outer_exterior_graph_bounds.py",
+  "parent_fourth_bounds_sha256": "3295bd7d08d88c48908386ab0e516b127bf7c6879b24fce7c25db4defbe93b6a",
+  "fourth_bounds_replacements": [
+    {
+      "old": "separately proved graph D",
+      "new": "separately proved narrow degree4 antipodal graph",
+      "count": 1
+    },
+    {
+      "old": "CAPACITY=6252",
+      "new": "CAPACITY=604",
+      "count": 1
+    },
+    {
+      "old": "DEFAULT_WEIGHT=Q(1,500000000)",
+      "new": "DEFAULT_WEIGHT=Q(3,12500000)",
+      "count": 1
+    },
+    {
+      "old": "outer=(Q(3,2),Q(7,4));angular=(Q(-2,5),Q(-1,5))",
+      "new": "outer=(Q(33,28),Q(7,4));angular=(Q(-1),Q(-183,200))",
+      "count": 1
+    }
+  ],
+  "graph_source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861",
+    "verify_outer_exterior_graph.py": "3145673bb48a7433475c69272c5edbdfdf479d9087fecf62f9f5bce2d8c1868c",
+    "outer_exterior_graph_certificate.json": "66f94b1dcc51672652f617f32aad6249557c06ccc244ef438998a92a969319f7",
+    "outer_exterior_graph_bounds.py": "994dd2616736800fa140ad767611d5ccdc694b2168bb1f8bf5780c444e65ca4c",
+    "verify_antipodal_wide_exterior_graph.py": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4",
+    "antipodal_wide_exterior_graph_certificate.json": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db"
+  },
+  "graph_slot_meanings": [
+    "A capacity862",
+    "B capacity1102",
+    "broad antipodalE9 capacity1358",
+    "narrow antipodalE4 capacity604"
+  ],
+  "density_charge": "(862*wA+1102*wB+1358*wE9+604*wE4)/8",
+  "mathematical_changes": [
+    "Two separately nonnegative graph energies may overlap and add.",
+    "The fourth graph slot is explicitly redefined by schemaV4 and fresh degree4 proof.",
+    "All complete pair, identity, outward arithmetic, and112 branch acceptance gates are unchanged."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "status": "EXACT_NEAR_ANTIPODAL_COORDINATOR_CONSTRUCTION_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_dual_graphs_small_cap_bounds.py",
+  "parent_sha256": "469250043fbbe9e846ba8369c3925d4ce4aaed610e41ffe1add9ae0c00c338e8",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_near_antipodal_graphs_small_cap_bounds.py",
+  "coordinator_sha256": "d1b2ca1219929ede979ed6b538d7988a08230c8b121fb8737328226a1e4a526e",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated_small_cap_bounds.py",
+  "helper_sha256": "254abb5647ace00f0661799d6166c42684d6eeead6fa817bcb7fbadb03a85965",
+  "helper_byte_identical": true,
+  "coordinator_replacements": [
+    {
+      "old": "dual_antipodal_graph_route",
+      "new": "near_antipodal_graph_route",
+      "count": 9
+    },
+    {
+      "old": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V4'",
+      "new": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V5'",
+      "count": 1
+    },
+    {
+      "old": "                      INTEGRATION.parent/'DUAL_SMALL_CAP_BOUNDS_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'DUAL_SMALL_CAP_BOUNDS_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'NEAR_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_dual_graphs_small_cap_bounds.py',\n",
+      "count": 1
+    },
+    {
+      "old": "    for pinned_path, expected_hash in (\n",
+      "new": "    for pinned_path, expected_hash in (\n            (INTEGRATION/'verify_combined_binary_dual_graphs_small_cap_bounds.py',\n             '469250043fbbe9e846ba8369c3925d4ce4aaed610e41ffe1add9ae0c00c338e8'),\n",
+      "count": 1
+    },
+    {
+      "old": "    assert outer_graph_verifier.parse is graph_verifier.parse\n",
+      "new": "    # This standalone verifier uses its own strictly rational parser.\n    # Pin the complete independently audited proof implementation instead.\n    assert hashlib.sha256(Path(outer_graph_verifier.__file__).read_bytes()).hexdigest() == \\\n        '082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a'\n    assert outer_graph_bounds.RADIAL == (F(1),F(103,100))\n    assert outer_graph_bounds.ANGULAR == (F(-1),F(-3,4))\n    assert outer_graph_bounds.KERNEL_SUPPORT_RADIUS == core.BREAKS[-1]\n",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_report['status'] == 'EXACT_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "new": "outer_graph_report['status'] == 'EXACT_NEAR_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "count": 1
+    },
+    {
+      "old": "tuple(map(F,outer_graph_report['radial_interval'])) == (F(33,28),F(7,4))",
+      "new": "tuple(map(F,outer_graph_report['radial_interval'])) == (F(1),F(103,100))",
+      "count": 1
+    },
+    {
+      "old": "tuple(map(F,outer_graph_report['target_angular_interval'])) == (F(-1),F(-183,200))",
+      "new": "tuple(map(F,outer_graph_report['target_angular_interval'])) == (F(-1),F(-3,4))",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_report['even_ordered_edge_bound'] == outer_graph_bounds.CAPACITY == 604",
+      "new": "outer_graph_report['even_ordered_edge_bound'] == outer_graph_bounds.CAPACITY == 120",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_report['count_proof']['count_bound'] == 151",
+      "new": "outer_graph_report['count_proof']['count_bound'] == 30\n    assert F(outer_graph_report['count_proof']['exact_count_upper']) == F(288000,9391)\n    assert F(outer_graph_report['degree_proof']['projected_pair_inner_product_upper']) == F(-5737,169744)\n    assert F(outer_graph_report['minimum_selected_distance_squared']) == F(7,2)",
+      "count": 1
+    },
+    {
+      "old": "outer_graph_weight*604",
+      "new": "outer_graph_weight*120",
+      "count": 1
+    },
+    {
+      "old": "DUAL_SMALL_CAP_BOUNDS_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "NEAR_ANTIPODAL_GRAPH_SMALL_CAP_BOUNDS_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    }
+  ],
+  "parent_reconstruction_passed": true,
+  "geometry_sources_sha256": {
+    "verify_near_antipodal_exterior_graph.py": "082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a",
+    "near_antipodal_exterior_graph_certificate.json": "7f09a534567c3031d6e49f4f06b264ccb133d63c706c68cbcb2f1e9a2900e09b",
+    "near_antipodal_exterior_graph_bounds.py": "5bc88b06cf91c18820f6d7afd4775c103c15e3ddd0db9b534476a1b53e99ce98"
+  },
+  "graph_source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861",
+    "verify_outer_exterior_graph.py": "082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a",
+    "outer_exterior_graph_certificate.json": "7f09a534567c3031d6e49f4f06b264ccb133d63c706c68cbcb2f1e9a2900e09b",
+    "outer_exterior_graph_bounds.py": "5bc88b06cf91c18820f6d7afd4775c103c15e3ddd0db9b534476a1b53e99ce98",
+    "verify_antipodal_wide_exterior_graph.py": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4",
+    "antipodal_wide_exterior_graph_certificate.json": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db"
+  },
+  "graph_slot_meanings": [
+    "A capacity862",
+    "B capacity1102",
+    "broad antipodalE9 capacity1358",
+    "near antipodal capacity120"
+  ],
+  "graph_schema": "INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V5",
+  "density_charge": "(862*wA+1102*wB+1358*wE9+120*wNear)/8",
+  "full_cyclic_pair_and_scalar_functions_unchanged": true,
+  "exterior_cyclic_addition": "Minus the nonnegative near-graph edge indicator times its weight.",
+  "required_next_gate": "Fresh complete global replay: all local dependencies, all pairs, all112 unique cyclic branches and672 identities."
+}

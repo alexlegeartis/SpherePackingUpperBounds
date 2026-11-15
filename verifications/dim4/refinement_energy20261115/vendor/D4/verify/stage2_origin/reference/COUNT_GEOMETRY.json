@@ -1,0 +1,262 @@
+{
+  "status": "FRESH_ACCEPTED_JOINT_COUNT_GEOMETRY_AND_INTEGER_ENERGIES_VERIFIED",
+  "source_sha256": {
+    "current/candidates/round9_six_graphs_degree18/origin.json": "b10f107e8caa9aef558e1773497b773ce39bef41032a414443e2010e135d4bcc",
+    "current/candidates/round9_six_graphs_degree18/kernel.json": "360e9e00e7c719db4f57c63a5a92d579ffa0ab9e0dfcbb85cbdc2388f1f91def",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/certify.py": "aeb873edff74112cd0dd0293d1c77be91aec7ec405aa1013b9b92088db46fca5",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/count_quadratic.py": "10471bd048043465b410b61dc7f07bf4b3b4bfa1eb6f97f72e1ee06a408b2b2a",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/conditional/joint_count_polynomial.py": "c96208f06adc0558af4e67a30edb8572946de671dcfbb1bfd81bbe92cf84be36",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/conditional/affine_latitude_counts.py": "8537fa66eab30533371b6b0ad04b4dc7bbd403a933a43ea5f06ef3a47b787e1a",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s05075_taper12_exact.json": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s0515_count25_exact.json": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f",
+    "research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s0525_count26_exact.json": "f8e4fe68fc4440444be4a2057bd5e83e752de82ee7abf2a9ff85ba41c1b79be1"
+  },
+  "checker_sha256": "0b387c4a74448cf9f65218bca4213c3826915884b850caf80f681c136d497922",
+  "nested_count_polynomial": {
+    "status": "EXACT_NESTED_COUNT_POLYNOMIAL_NONNEGATIVE",
+    "count_vectors_checked": 3625,
+    "minimum": "500632209862691/5000000000000000000000000",
+    "minimizer": [
+      24,
+      25,
+      25
+    ]
+  },
+  "conditional_count_polynomials": [
+    {
+      "status": "EXACT_CONDITIONAL_INTEGER_POLYNOMIAL_NONNEGATIVE",
+      "count_vectors_checked": 165503,
+      "minimum": "11/31250000000",
+      "minimizer": [
+        24,
+        24,
+        24,
+        24,
+        24
+      ],
+      "common_denominator": "1000000000000",
+      "integer_accumulation_bound": "18249189567640",
+      "dependency": "Every count bound and affine implication requires independent geometric verification."
+    },
+    {
+      "status": "EXACT_CONDITIONAL_INTEGER_POLYNOMIAL_NONNEGATIVE",
+      "count_vectors_checked": 165503,
+      "minimum": "17/1000000000000",
+      "minimizer": [
+        0,
+        0,
+        0,
+        0,
+        13
+      ],
+      "common_denominator": "1000000000000",
+      "integer_accumulation_bound": "18502374675289",
+      "dependency": "Every count bound and affine implication requires independent geometric verification."
+    }
+  ],
+  "spherical_counts": {
+    "s05075_taper12_exact.json": {
+      "status": "EXACT_SPHERICAL_COUNT_24_VERIFIED",
+      "cosine_cutoff": "203/400",
+      "objective": "7764191293899371909131/310911117197387500000",
+      "objective_decimal": 24.972382344791278,
+      "count_bound": 24,
+      "pair": {
+        "status": "CERTIFIED",
+        "nodes": 17,
+        "accepted": 9,
+        "excluded": 0,
+        "maxdepth": 5,
+        "binary_precision": 48
+      },
+      "triangle": {
+        "status": "CERTIFIED",
+        "nodes": 54675,
+        "accepted": 15257,
+        "excluded": 12081,
+        "maxdepth": 33,
+        "binary_precision": 43
+      },
+      "repair": {
+        "scale": "1/5000",
+        "diagonal": "126860624209/4999950000",
+        "scalar_constant_decrease": "126860624209/24999750000000",
+        "raw_objective": "77658547102490869/3125000000000000",
+        "polynomial_signs": {
+          "status": "CERTIFIED",
+          "nodes": 33,
+          "accepted": 17,
+          "excluded": 0,
+          "maxdepth": 7,
+          "binary_precision": 48
+        }
+      },
+      "seconds": 3.955935001373291,
+      "certificate_sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    },
+    "s0515_count25_exact.json": {
+      "status": "EXACT_SPHERICAL_COUNT_25_VERIFIED",
+      "cosine_cutoff": "103/200",
+      "objective": "1282398451806751910953793/49483281010778000000000",
+      "objective_decimal": 25.915792680106065,
+      "count_bound": 25,
+      "pair": {
+        "status": "CERTIFIED",
+        "nodes": 17,
+        "accepted": 9,
+        "excluded": 0,
+        "maxdepth": 5,
+        "binary_precision": 48
+      },
+      "triangle": {
+        "status": "CERTIFIED",
+        "nodes": 107779,
+        "accepted": 27680,
+        "excluded": 26210,
+        "maxdepth": 36,
+        "binary_precision": 38
+      },
+      "repair": {
+        "scale": "1/2500",
+        "diagonal": "258109494611/9999900000",
+        "scalar_constant_decrease": "258109494611/24999750000000",
+        "raw_objective": "12829275000709746207/500000000000000000",
+        "polynomial_signs": {
+          "status": "CERTIFIED",
+          "nodes": 35,
+          "accepted": 18,
+          "excluded": 0,
+          "maxdepth": 8,
+          "binary_precision": 48
+        }
+      },
+      "seconds": 7.669799089431763,
+      "certificate_sha256": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f"
+    },
+    "s0525_count26_exact.json": {
+      "status": "EXACT_SPHERICAL_COUNT_26_VERIFIED",
+      "cosine_cutoff": "21/40",
+      "objective": "167478848416585360157969/6216494996951750000000",
+      "objective_decimal": 26.941041293962012,
+      "count_bound": 26,
+      "pair": {
+        "status": "CERTIFIED",
+        "nodes": 15,
+        "accepted": 8,
+        "excluded": 0,
+        "maxdepth": 5,
+        "binary_precision": 48
+      },
+      "triangle": {
+        "status": "CERTIFIED",
+        "nodes": 42781,
+        "accepted": 11765,
+        "excluded": 9626,
+        "maxdepth": 33,
+        "binary_precision": 38
+      },
+      "repair": {
+        "scale": "1/5000",
+        "diagonal": "133770012193/4999950000",
+        "scalar_constant_decrease": "133770012193/24999750000000",
+        "raw_objective": "1675139660592942031/62500000000000000",
+        "polynomial_signs": {
+          "status": "CERTIFIED",
+          "nodes": 27,
+          "accepted": 14,
+          "excluded": 0,
+          "maxdepth": 6,
+          "binary_precision": 48
+        }
+      },
+      "seconds": 3.237297773361206,
+      "certificate_sha256": "f8e4fe68fc4440444be4a2057bd5e83e752de82ee7abf2a9ff85ba41c1b79be1"
+    }
+  },
+  "affine_implications": [
+    {
+      "inner_radius": "501473/500000",
+      "outer_radius": "102597/100000",
+      "proof": {
+        "status": "EXACT_AFFINE_LATITUDE_DOMAIN_CERTIFIED",
+        "inner_radius": "501473/500000",
+        "outer_radius": "102597/100000",
+        "spherical_cutoff": "203/400",
+        "inner_cosine_bound": "126475169729/251475169729",
+        "pole_cosine_bound": "572789567/1113628255",
+        "beta": "67762023/14990380640",
+        "alpha": "14922618617/14990380640",
+        "transformed_pole_upper": "203/400",
+        "nodes": 5575,
+        "accepted_sign_cases": [
+          864,
+          954,
+          882
+        ],
+        "excluded_infeasible": 88,
+        "maxdepth": 30,
+        "seconds": 0.17811989784240723,
+        "polynomial_degrees": {
+          "P": 1,
+          "V": 1,
+          "H": 3,
+          "D": 2
+        },
+        "sign_cases": [
+          "P>=0,V<=0",
+          "P>=0,H>=0",
+          "V<=0,H<=0"
+        ]
+      },
+      "spherical_source_sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    },
+    {
+      "inner_radius": "1005643/1000000",
+      "outer_radius": "50767/50000",
+      "proof": {
+        "status": "EXACT_AFFINE_LATITUDE_DOMAIN_CERTIFIED",
+        "inner_radius": "1005643/1000000",
+        "outer_radius": "50767/50000",
+        "spherical_cutoff": "203/400",
+        "inner_cosine_bound": "511317843449/1011317843449",
+        "pole_cosine_bound": "1042233159049/2042139127240",
+        "beta": "58475519747/30843722862890",
+        "alpha": "30785247343143/30843722862890",
+        "transformed_pole_upper": "203/400",
+        "nodes": 12619,
+        "accepted_sign_cases": [
+          2052,
+          2111,
+          2062
+        ],
+        "excluded_infeasible": 85,
+        "maxdepth": 28,
+        "seconds": 0.25191473960876465,
+        "polynomial_degrees": {
+          "P": 1,
+          "V": 1,
+          "H": 3,
+          "D": 2
+        },
+        "sign_cases": [
+          "P>=0,V<=0",
+          "P>=0,H>=0",
+          "V<=0,H<=0"
+        ]
+      },
+      "spherical_source_sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    }
+  ],
+  "proved_count_bounds": [
+    24,
+    24,
+    24,
+    25,
+    26
+  ],
+  "proved_implications": [
+    "(23-N0)*(N4-N0)>=0",
+    "(23-N1)*(N3-N1)>=0"
+  ],
+  "global_bound_proved": false
+}

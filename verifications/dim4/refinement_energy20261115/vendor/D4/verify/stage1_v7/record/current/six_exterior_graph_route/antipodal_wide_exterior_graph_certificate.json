@@ -1,0 +1,51 @@
+{
+  "schema": "S3_PROJECTED_S2_ANTIPODAL_EXTERIOR_GRAPH_V1",
+  "name": "E: broad-annulus antipodal exterior graph with projected degree9",
+  "global_density_bound_proved": false,
+  "ambient_dimension": 4,
+  "radial_interval": [
+    "33/28",
+    "7/4"
+  ],
+  "target_angular_interval": [
+    "-1",
+    "-7/8"
+  ],
+  "spherical_cutoff": "41/49",
+  "count_harmonic_coefficients": [
+    "999999/1000000",
+    "1962104992391/500000000000",
+    "1645581560159/200000000000",
+    "6711370694009/500000000000",
+    "359824748907/20000000000",
+    "10744180850711/500000000000",
+    "884528309111/40000000000",
+    "1293780988587/62500000000",
+    "1631208597361/100000000000",
+    "11539915221007/1000000000000",
+    "6005937833447/1000000000000",
+    "1313382164079/500000000000",
+    "0",
+    "0",
+    "0",
+    "603002303091/500000000000",
+    "1300943237023/1000000000000",
+    "1618821107821/1000000000000",
+    "242659809693/250000000000",
+    "623617611993/1000000000000",
+    "62041370423/500000000000"
+  ],
+  "claimed_count_bound": 151,
+  "claimed_degree_bound": 9,
+  "claimed_even_ordered_edge_bound": 1358,
+  "default_weight": "1/10000000",
+  "projected_spherical_cutoff": "223/735",
+  "projected_double_root_shift": "2/3",
+  "projected_legendre_coefficients": [
+    "62/147",
+    "37144/33075",
+    "1214/945",
+    "2984/3675",
+    "8/35"
+  ]
+}

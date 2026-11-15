@@ -1,0 +1,643 @@
+{
+  "schema": "D4_STAGE1_V7_EXPORT_MANIFEST_V1",
+  "source": "byte copies of work/d4/six-graph-v7-bound/source/record/<path> (private tree) plus stage-1 driver and checkers",
+  "read_set_method": "sys.addaudithook trace of open events in a full replay; files opened for writing excluded",
+  "files": [
+    {
+      "path": "record/audit/certify_origin_credit.py",
+      "bytes": 7055,
+      "sha256": "c6f29e7cf0f99afda1b39f514fe8541396670f6c01959c91a22d04a121e9f8c2"
+    },
+    {
+      "path": "record/audit/compose_five_graph_global_origin_credit.py",
+      "bytes": 31945,
+      "sha256": "a6aa0fc31d1a256a33996fe3a782e0ae189bd5dce3bdbc8c7bd316d8abab9d81"
+    },
+    {
+      "path": "record/audit/compose_six_graph_full_origin_credit.py",
+      "bytes": 37943,
+      "sha256": "db3d8d5fed8013d95d5c3e813ed06befc1ca8c4ba500ed9b3f85d259395b6ece"
+    },
+    {
+      "path": "record/audit/round9_origin_credit/ORIGIN_CREDIT_VERIFIED.json",
+      "bytes": 80496,
+      "sha256": "9e250146211319a47c6eb792c2545e878e8b22a103e9f75d074ae6a46afda869"
+    },
+    {
+      "path": "record/current/CAP9_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 4046,
+      "sha256": "625afa59071f64ba47da8cbb99370157249ec545c14cc4e5358f9b31ef2cafad"
+    },
+    {
+      "path": "record/current/CORRELATED_FACTOR_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 10373,
+      "sha256": "a33376fa2a1b8212dc64f2dcdf00d8b50626a951672e31ce1f91e10a7f875c00"
+    },
+    {
+      "path": "record/current/DUAL_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 5115,
+      "sha256": "7cb231065d9b8d2e99a4a14e43dff0e6d8323212a244a5dbda6712957a1ff2b5"
+    },
+    {
+      "path": "record/current/DUAL_SMALL_CAP_BOUNDS_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 3479,
+      "sha256": "ef796212a5297fefe037a958fd73e9b9bf6a6664ff6a9c3412d7a3c8c79289eb"
+    },
+    {
+      "path": "record/current/FIVE_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 9606,
+      "sha256": "3b5792dc51af9fd8473ad94cea2324ef676091963470e7284bd7305d6296fb72"
+    },
+    {
+      "path": "record/current/FOUR_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 8119,
+      "sha256": "a89698d5b163f0febed1e56bab583302be1e427a7202b603a3b3deadbb9e4f98"
+    },
+    {
+      "path": "record/current/NEAR_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 6168,
+      "sha256": "52577dc81f5625dbcb9cbcca2aa773fd2fa759cffd92503dba6a1b0c18c0673c"
+    },
+    {
+      "path": "record/current/SIX_EXTERIOR_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 10606,
+      "sha256": "a1947c2791c0f12edec61cb43a31bf1fcf0d3daef0f01c51c447828bd59da147"
+    },
+    {
+      "path": "record/current/WIDE_GRAPH_COORDINATOR_CONSTRUCTION.json",
+      "bytes": 5631,
+      "sha256": "262d619a3fc4c4b7da3be87e34ecd82ad89a4a5ff067155c985abedba87ef9ff"
+    },
+    {
+      "path": "record/current/base/new_work/conditional/affine_latitude_counts.py",
+      "bytes": 9190,
+      "sha256": "8537fa66eab30533371b6b0ad04b4dc7bbd403a933a43ea5f06ef3a47b787e1a"
+    },
+    {
+      "path": "record/current/base/new_work/conditional/joint_count_polynomial.py",
+      "bytes": 4526,
+      "sha256": "c96208f06adc0558af4e67a30edb8572946de671dcfbb1bfd81bbe92cf84be36"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/exact_bernstein_fast.py",
+      "bytes": 2902,
+      "sha256": "3e7a56d77a9f481b21ed65ab2d580c0a40be9c52745440abf7a958189e989631"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/full_pair_count_gauge.py",
+      "bytes": 7159,
+      "sha256": "781fcc9d73ba7bf8dc70989e7aabf5a590cbfd249c4e878faabadbd6ade4e5d4"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/independent_antipodal_allocation_exact.py",
+      "bytes": 8713,
+      "sha256": "2a9fc34c38455412a59c572ea036656255fb34002c6b2ee41cd06ba982cf28fa"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate.py",
+      "bytes": 7598,
+      "sha256": "584110d780f9b513b437b1fa1eb46ce6cdd0b74fa368105e80158464b7a221a1"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_count_gauge.py",
+      "bytes": 5062,
+      "sha256": "9f883b7b62d0ca51ce0eebfa7b0415bd9615d6751d66477b31c681fb7937c3ce"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_full_closed.py",
+      "bytes": 7787,
+      "sha256": "34f55ecde8ea36d092fef91bdf9b95279ffd48afc68e27a9d5422a162735e4fe"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_general_closed.py",
+      "bytes": 7935,
+      "sha256": "1f73a4c3356e2502cc03619c36296d9bb5b7f081b686c32f7d40b94ace26ca7f"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_independent_antipodal.py",
+      "bytes": 5785,
+      "sha256": "41926c4bbad22106421a6ab7ff29456873276ce6ffc24d93c178c1c85410d94a"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_lift.py",
+      "bytes": 5037,
+      "sha256": "8fcf6d55a5e6a1bd64c9046a3117d399f165440eb8f6441ffa110bcc9641c529"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_tent_closed.py",
+      "bytes": 11294,
+      "sha256": "ec08c751eb1a69c938f388ff3bc82f300503ab737793106e7690b03fcf7b446d"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/interval_certificate_two_capacity_antipodal.py",
+      "bytes": 5788,
+      "sha256": "b85d8bfb6c1a9cc917a6a00165e732d8e6481a26fa15fe758006c698fccbd030"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/pair_interval_certificate_closed.py",
+      "bytes": 5318,
+      "sha256": "f8eea71b52609e43ca3d08b155b4dabd955ddf83e856ef9a359d5b431d853919"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/pair_slack_lift.py",
+      "bytes": 10886,
+      "sha256": "3147b1a161772dd8eb56784075ed9c04f398de1f6e99c8f1ed6c482ad3080eb2"
+    },
+    {
+      "path": "record/current/base/new_work/pointed/two_capacity_antipodal_allocation_exact.py",
+      "bytes": 5445,
+      "sha256": "3ae351509f553bf7f2f13d07cda50ceedc24f8b888407c8a4e5247653c2820e7"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/certify.py",
+      "bytes": 22367,
+      "sha256": "aeb873edff74112cd0dd0293d1c77be91aec7ec405aa1013b9b92088db46fca5"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/count_quadratic.py",
+      "bytes": 6287,
+      "sha256": "10471bd048043465b410b61dc7f07bf4b3b4bfa1eb6f97f72e1ee06a408b2b2a"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/s05075_taper12_exact.json",
+      "bytes": 31885,
+      "sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/s0515_count25_exact.json",
+      "bytes": 32284,
+      "sha256": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/s0525_count26_exact.json",
+      "bytes": 32551,
+      "sha256": "f8e4fe68fc4440444be4a2057bd5e83e752de82ee7abf2a9ff85ba41c1b79be1"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/verify_count_gauge.py",
+      "bytes": 26216,
+      "sha256": "d85eac5701750d6957ed6b699d5b5b6b0ff999ebe82514ff9955d5895f8c07a9"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/verify_count_gauge_fast_parallel.py",
+      "bytes": 37431,
+      "sha256": "d95d9b3d5a8dcfcbd2597a78636b24425ab981ce604a0d87e68452741d40c079"
+    },
+    {
+      "path": "record/current/base/new_work/spherical_sdp/verify_independent_antipodal.py",
+      "bytes": 39232,
+      "sha256": "17f148cb78ee9459ac435cbd2be6cb3d82e9ee2977c19c7dff56652df0a0c465"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/audit_identities.py",
+      "bytes": 4804,
+      "sha256": "4680c7ffc7d2fefd236785c3f5a42aeb8731dc4340684d254ea29bbc8dd69259"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/certificate_core.py",
+      "bytes": 10048,
+      "sha256": "6b15b16f2d27da653277629407086f6f11941c0c10261e6d0520a78cc9ada1de"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/exact_bernstein_fast.py",
+      "bytes": 6592,
+      "sha256": "7d642cbb2a3bbe676c3161d15b2dee09b85ded0a3ddc0183ea26881eb5474f35"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/spherical_energy_sources/spherical_abf37dac4759864f.json",
+      "bytes": 7365,
+      "sha256": "abf37dac4759864fd8eb29e20ac886f95ce80bd7a731ce754723c32f7868a45c"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/spherical_energy_sources/spherical_b35ca313fbedf710.json",
+      "bytes": 7375,
+      "sha256": "b35ca313fbedf710f0ebfbebd1341fde6959c1a318c1e42a0633c96c5caa54a7"
+    },
+    {
+      "path": "record/current/candidates/round9_six_graphs_degree18/verify_scalar.py",
+      "bytes": 2823,
+      "sha256": "069596bffc7444e6f739cfadf9c70f4ddc4a650f0a2632622e904e0dde2d61e7"
+    },
+    {
+      "path": "record/current/factor_correlated.cpp",
+      "bytes": 1284,
+      "sha256": "79835480f637d07044542ec4041a7684a7811a650cb351b8af79d0dfdcaea0dc"
+    },
+    {
+      "path": "record/current/factor_correlated.py",
+      "bytes": 5353,
+      "sha256": "47a3a83c555b70eb3b299c3153dc083b5e2bad674bb4f6c9b6220e94990181a0"
+    },
+    {
+      "path": "record/current/fast_split.cpp",
+      "bytes": 1448,
+      "sha256": "1a4af256a019eb1c00a1ce0140c66a46b7b1936122b6226a9c830afa93ab38d3"
+    },
+    {
+      "path": "record/current/fast_split.py",
+      "bytes": 2302,
+      "sha256": "dcce318e5c6afcd6e4242fa43df6ae4dcde8e72bff2a63c3e0b2230e7d96cfd2"
+    },
+    {
+      "path": "record/current/geometry_route/binary_bernstein_signed_exponent_v3.py",
+      "bytes": 2391,
+      "sha256": "61da8cac898370a5a9daf1a599cba79109a8d08e53a7ddf665e4e17bf0fa37c6"
+    },
+    {
+      "path": "record/current/geometry_route/fixed_binary_bernstein_two_product_v3.py",
+      "bytes": 3514,
+      "sha256": "39d585defddfbee9935daa25743dafb27c01fd8dda9f642b17da9ef657a27176"
+    },
+    {
+      "path": "record/current/geometry_route/fixed_binary_bernstein_v3.py",
+      "bytes": 9649,
+      "sha256": "dee3a3fafa6ba7cb811bae7d2568b8633ed68eed9702155132cac79f70075f07"
+    },
+    {
+      "path": "record/current/kernel_integration_route/interval_combined.py",
+      "bytes": 5953,
+      "sha256": "bb25e57f8161c82f5197ffe9e0f9a77c41d5fd16a0dfebb9a87f0668bff78c65"
+    },
+    {
+      "path": "record/current/kernel_integration_route/interval_combined_binary.py",
+      "bytes": 8324,
+      "sha256": "7896958aa520915e2dab443b59769f6cc4f50414b214a99419cc1cb5d537e6a1"
+    },
+    {
+      "path": "record/current/kernel_integration_route/interval_combined_refined.py",
+      "bytes": 6853,
+      "sha256": "2b1f769cc36db2d216435e2d43e967035c39606cf086d3b4125008480a967211"
+    },
+    {
+      "path": "record/current/kernel_integration_route/signed_spherical_exact.py",
+      "bytes": 10180,
+      "sha256": "412f113a6d6f59b7f083206bca4652e8f40b51a6295b498eb3e62b7d55030953"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined.py",
+      "bytes": 41914,
+      "sha256": "1fd884c679f4bbf165af0ace9ae079799870a0d5c6dd49822b5719d0798e5aa2"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary.py",
+      "bytes": 45041,
+      "sha256": "1cca3a3dc908e57853e8b03c79d1ebec448a241567196024018264c5ad81dc14"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_cap9_graphs_correlated.py",
+      "bytes": 58283,
+      "sha256": "6cf77a4362dd7f37e6f87bdba197e8e777a004a0c644bd500f01faeb2500ad69"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_dual_antipodal_graphs_correlated.py",
+      "bytes": 58714,
+      "sha256": "598edfa6ad81ce20cbb28d4f246950d6263360debb06e3a67a6520f03caef068"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_dual_graphs_small_cap_bounds.py",
+      "bytes": 59429,
+      "sha256": "469250043fbbe9e846ba8369c3925d4ce4aaed610e41ffe1add9ae0c00c338e8"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_fastsplit.py",
+      "bytes": 47208,
+      "sha256": "6b2b8831dceb1bfc8f1d02436753a32d22a9eb0d79de30ca9bf703736a1dba93"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_five_antipodal_graphs_small_cap_bounds.py",
+      "bytes": 64056,
+      "sha256": "0babb579b3fc84e037c4d3bb45a18f296f633af5afcab535815fcd5ef81d00c0"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_four_graphs_correlated.py",
+      "bytes": 58101,
+      "sha256": "dda5dffee3976a5f4fdec36efd3812f277776b2a16bf652e2651ee50a52555c7"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_graphs.py",
+      "bytes": 50917,
+      "sha256": "3a3fd9a3fc0eba17bda0da29c5130d05513794b4e0dba51cf948b54c8f504fc6"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_near_antipodal_graphs_small_cap_bounds.py",
+      "bytes": 60511,
+      "sha256": "d1b2ca1219929ede979ed6b538d7988a08230c8b121fb8737328226a1e4a526e"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_six_exterior_graphs_small_cap_bounds.py",
+      "bytes": 68087,
+      "sha256": "d3fc9a46ca1bacc2dff9ce17edcd22e24b56074bf364643b83e2fe45bf7643e2"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_three_graphs.py",
+      "bytes": 52875,
+      "sha256": "3041f781699e549d33ab1b231094f0e66077b94dfb6cfe3371d740bae433ef4f"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_three_graphs_correlated.py",
+      "bytes": 55886,
+      "sha256": "d091a9bedf774cad656d3f54078e20789bfdccc480209fdd801f6aa66d3d8149"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_binary_wide_graphs_correlated.py",
+      "bytes": 56093,
+      "sha256": "cfd1925e7c855fe75acd5dbd7d43b432954476bdc0c27a35f1b064c834a845a4"
+    },
+    {
+      "path": "record/current/kernel_integration_route/verify_combined_refined.py",
+      "bytes": 43164,
+      "sha256": "8d7a3f63b4b9158a086e33895bb4fda73ac842ab9f5ed0b43bd23c13bea67aa0"
+    },
+    {
+      "path": "record/current/origin_route/audit_identities_contracted_v2.py",
+      "bytes": 6667,
+      "sha256": "1bdbbb14e80d8f906c296e87fad547ae58985b60417530fab18fb8cb7af5fe4a"
+    },
+    {
+      "path": "record/current/origin_route/cancellation_preserving_pair_budget.py",
+      "bytes": 8653,
+      "sha256": "97fbfe7ccdc465243c04e91df7a852392be6b7dc422c2f2cb0e6ed4a6ba9500a"
+    },
+    {
+      "path": "record/current/origin_route/contracted_bernstein_identity_v2.py",
+      "bytes": 4471,
+      "sha256": "2d3450fdef53e9dc2570c5e8b38aa02113c154a6de3eae779b22f20956c0ffb1"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_five_graphs_correlated_small_cap_bounds.py",
+      "bytes": 12789,
+      "sha256": "3af2b297fb0e13455c42b57cf2f33edba9e22c2dd6c2129f68f51b29aa9890c8"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_four_graphs_correlated.py",
+      "bytes": 10541,
+      "sha256": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_four_graphs_correlated_small_cap_bounds.py",
+      "bytes": 12470,
+      "sha256": "254abb5647ace00f0661799d6166c42684d6eeead6fa817bcb7fbadb03a85965"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_graphs.py",
+      "bytes": 8971,
+      "sha256": "add71c5e53eb96046e3d1d8e70f14a0ec52dd0d758b15eaf42f57ffb13a1020e"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_physical_width.py",
+      "bytes": 8369,
+      "sha256": "15de750f695531141321e87d5e198e1baf48aaa71bd933916551c3e418bbbd96"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_six_graphs_correlated_small_cap_bounds.py",
+      "bytes": 13128,
+      "sha256": "0c34525decc059471e69a3d33361a0f57bbe9503a4cdffc7d670b3ad89b707f5"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_three_graphs.py",
+      "bytes": 9256,
+      "sha256": "c2cc6a2d151f6995fd25673886cd06dc426e910e26a2bdeee0b2d2a2676483fc"
+    },
+    {
+      "path": "record/current/origin_route/interval_combined_binary_three_graphs_correlated.construction.json",
+      "bytes": 2302,
+      "sha256": "092f7115c26f9bb3950e5c73c129969857c64b0090f2af38e2f2cc81d012f4ca"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/antipodal_wide_exterior_graph_certificate.json",
+      "bytes": 1348,
+      "sha256": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/exterior_graph_certificates.json",
+      "bytes": 14847,
+      "sha256": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/graph_repair_bounds.py",
+      "bytes": 2943,
+      "sha256": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/moderate_exterior_graph_bounds.py",
+      "bytes": 1057,
+      "sha256": "4e94b4edb526d79d48209cd6a44ef225ba34cc7812996e998466baa662e7db57"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/moderate_exterior_graph_certificate.json",
+      "bytes": 1818,
+      "sha256": "94e0ffc1604de3915a0919764a77d589c620ad322d8cdc96360eead2c5214b62"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/narrow_exterior_graph_bounds.py",
+      "bytes": 752,
+      "sha256": "994dd2616736800fa140ad767611d5ccdc694b2168bb1f8bf5780c444e65ca4c"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/narrow_exterior_graph_certificate.json",
+      "bytes": 1130,
+      "sha256": "66f94b1dcc51672652f617f32aad6249557c06ccc244ef438998a92a969319f7"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/outer_exterior_graph_bounds.py",
+      "bytes": 1797,
+      "sha256": "5bc88b06cf91c18820f6d7afd4775c103c15e3ddd0db9b534476a1b53e99ce98"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/outer_exterior_graph_certificate.json",
+      "bytes": 1220,
+      "sha256": "7f09a534567c3031d6e49f4f06b264ccb133d63c706c68cbcb2f1e9a2900e09b"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/verify_antipodal_wide_exterior_graph.py",
+      "bytes": 6622,
+      "sha256": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/verify_exterior_graphs.py",
+      "bytes": 5915,
+      "sha256": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/verify_moderate_exterior_graph.py",
+      "bytes": 7375,
+      "sha256": "a87416d6f0dc55ebb567113f28537a09f15ba9612d0d7740ae3ffc4e12d525e2"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/verify_narrow_exterior_graph.py",
+      "bytes": 4714,
+      "sha256": "3145673bb48a7433475c69272c5edbdfdf479d9087fecf62f9f5bce2d8c1868c"
+    },
+    {
+      "path": "record/current/six_exterior_graph_route/verify_outer_exterior_graph.py",
+      "bytes": 6866,
+      "sha256": "082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a"
+    },
+    {
+      "path": "record/geometry/SIX_GRAPHS_SMALL_CAP_BOUNDS_HELPER_CONSTRUCTION.json",
+      "bytes": 3592,
+      "sha256": "9db7fa8d8a9a5c5aeb9358729fa9ab6adaeacc031c6419c09a343bbf6ff874cf"
+    },
+    {
+      "path": "record/geometry/audit_six_graphs_small_cap_bounds_helper.py",
+      "bytes": 11561,
+      "sha256": "556f8206fdbfa6c45678a5572e78e17baa75967bb99afc7181817e3647e34052"
+    },
+    {
+      "path": "run.py",
+      "bytes": 16917,
+      "sha256": "09d61a8d3cccfba39c35279d50a1602898111845ce899b7ef6048c1e66b67f8c"
+    },
+    {
+      "path": "checks/check_v7_inputs.py",
+      "bytes": 6913,
+      "sha256": "d6adaf37cb3abd4c861f2632966353f4ce59cd9bfde4925604a48baf6ba48d5a"
+    },
+    {
+      "path": "checks/audit_scalar_origin.py",
+      "bytes": 15587,
+      "sha256": "75c086e3b1cfd6482163e58f27d0cbdeeb2b7ef86fc0f0e9e5ed7a60471eb80d"
+    },
+    {
+      "path": "checks/check_origin_credit.py",
+      "bytes": 14698,
+      "sha256": "26085847fe5be076baa0cafca227e9d2483249441e85dc7853b421692b712d7a"
+    },
+    {
+      "path": "checks/verify_moderate_independent.py",
+      "bytes": 8395,
+      "sha256": "ffb0748883194caae3de9d226c2b647bae7dab7579efe98fe7cba7df8948696d"
+    },
+    {
+      "path": "checks/quick_parent_checks.py",
+      "bytes": 4429,
+      "sha256": "8e9363c18b0d8e47a3299da5d5627c8978ebbf50e46159c518a3e3aa514481a6"
+    },
+    {
+      "path": "checks/check_broad19_rays.py",
+      "bytes": 4290,
+      "sha256": "c48948d6ae0ff09fcb31d2c4a2f4a34c9d824db9d885d7a3439ddad462740b9d"
+    },
+    {
+      "path": "checks/replay_graphs.py",
+      "bytes": 11449,
+      "sha256": "02b73cc5825ffe8aba972294156fafb0903d093050f749d9b55b76ac03533014"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 250,
+      "sha256": "b2a005a9fadb8ef9579951c9d127517983321c8fae89cfc8f40a386cd32caf0d"
+    },
+    {
+      "path": "proofs/audit/ORIGIN_CREDIT_THEOREM.md",
+      "bytes": 4900,
+      "sha256": "26a2b6305cb6c2f3ae0fc30735f693fc433e30802c187788256ec08a8d2d4a35"
+    },
+    {
+      "path": "proofs/current/base/new_work/LOCAL_ENERGY_THEOREMS.md",
+      "bytes": 8776,
+      "sha256": "a2c2b40a70a2c267b0a487537d2948bc999410a68e37ca6b4659c41bf5405c09"
+    },
+    {
+      "path": "proofs/current/base/new_work/conditional/AFFINE_LATITUDE_THEOREM.md",
+      "bytes": 7115,
+      "sha256": "2347af80416cbf245baf1c86b0b4a0c2df808d70af1ca87e69e0b00b23a4eb74"
+    },
+    {
+      "path": "proofs/current/base/new_work/copositive/ADAPTIVE_COUNT_GAUGES.md",
+      "bytes": 10819,
+      "sha256": "5a6493a30d0fcc6bc64033e8383bef1521f5b41b696821d0117bdf14bd81adf9"
+    },
+    {
+      "path": "proofs/current/base/new_work/copositive/CLASSICAL_SHIFTED_ANTIPODAL_CAPACITY.md",
+      "bytes": 6219,
+      "sha256": "b962c59b6f9c5b58e9ac8324dfa087fda5419f9d97d0122f790bf7fda33a7f7f"
+    },
+    {
+      "path": "proofs/current/base/new_work/copositive/INDEPENDENT_ANTIPODAL_ALLOCATION.md",
+      "bytes": 5163,
+      "sha256": "0bce8ab010e245a907e655828033451bd474a55fc219e7e409a7fb7f28f4c4ae"
+    },
+    {
+      "path": "proofs/current/base/new_work/copositive/TENT_CAPACITY_THEOREM.md",
+      "bytes": 10001,
+      "sha256": "e7320258d482d4fde17a2116473437232f243eed36da680c3eb47e4801608a8d"
+    },
+    {
+      "path": "proofs/current/base/new_work/pointed/THEOREM.md",
+      "bytes": 8566,
+      "sha256": "2a04d6579ba276ef09ba1fc458d6041fa31af3de246f680415e3abb235c97302"
+    },
+    {
+      "path": "proofs/current/base/new_work/pointed/TRUNCATED_PIVOT_THEOREM.md",
+      "bytes": 4936,
+      "sha256": "d6804976d2af9dfdc747b1123f28811b615b4c169fb84cd5b95ff1d5736385a7"
+    },
+    {
+      "path": "proofs/current/base/new_work/spherical_sdp/THEOREM.md",
+      "bytes": 10986,
+      "sha256": "7527e030c7bef99617d43585cd156f6c934c89892739abd558a96a44c6a62aae"
+    },
+    {
+      "path": "proofs/geometry/ANTIPODAL_EXTERIOR_GRAPH_THEOREM.md",
+      "bytes": 13136,
+      "sha256": "ba7910c9b0152c4a6bf9755186d245dd83a05d0372e14ff3effd6c5acfb09af3"
+    },
+    {
+      "path": "proofs/geometry/CAP9_ANTIPODAL_EXTERIOR_GRAPH_THEOREM.md",
+      "bytes": 10626,
+      "sha256": "078e49d4ccd58d2c6b255632b5e8de6f93abc1e130745ba0ee3bf9ced69d7627"
+    },
+    {
+      "path": "proofs/geometry/EXACT_REPAIR_THEOREM.md",
+      "bytes": 5883,
+      "sha256": "ab3a7b1c9a655291d33b95fe7f929f54b26bfd803027dfd1582b9fd867721ae7"
+    },
+    {
+      "path": "proofs/geometry/MODERATE_GRAPH_AND_MONOTONE_EXTENSION_THEOREM.md",
+      "bytes": 11827,
+      "sha256": "eea2f7fe7a23892b67c3597edc7409f0c7f10ac461583323273037140685e573"
+    },
+    {
+      "path": "proofs/geometry/NEAR_ANTIPODAL_EXTERIOR_GRAPH_THEOREM.md",
+      "bytes": 5440,
+      "sha256": "5932c06f0dfd6f9b0b9ca128df85c2b0ed910ef303d6fe6676d94f286a68953c"
+    },
+    {
+      "path": "proofs/geometry/WIDER_A_DIAGNOSTIC_AND_INTEGRATION.md",
+      "bytes": 8611,
+      "sha256": "e694386a54799fc237beb2a92685888ae851ed325c152daef63da4675948bf38"
+    },
+    {
+      "path": "proofs/current/base/new_work/audit/POINTED_VERIFICATION.md",
+      "bytes": 8842,
+      "sha256": "45e5ff2ce8317b3d679bd43aae4ce5ea8309a61e65a6df4f029df31f0934db2d"
+    }
+  ],
+  "data_files": [
+    {
+      "path": "../../data/v7/graph_energies.json",
+      "placed_at": "current/candidates/round9_six_graphs_degree18/graph_energies.json",
+      "bytes": 2328,
+      "sha256": "5c2f60acaa1073359e9614f19d130a1a50ad084801853dfeca8cff87a1b862ed"
+    },
+    {
+      "path": "../../data/v7/kernel.json",
+      "placed_at": "current/candidates/round9_six_graphs_degree18/kernel.json",
+      "bytes": 895939,
+      "sha256": "360e9e00e7c719db4f57c63a5a92d579ffa0ab9e0dfcbb85cbdc2388f1f91def"
+    },
+    {
+      "path": "../../data/v7/origin.json",
+      "placed_at": "current/candidates/round9_six_graphs_degree18/origin.json",
+      "bytes": 186834,
+      "sha256": "b10f107e8caa9aef558e1773497b773ce39bef41032a414443e2010e135d4bcc"
+    },
+    {
+      "path": "../../data/v7/scalar.json",
+      "placed_at": "current/candidates/round9_six_graphs_degree18/scalar.json",
+      "bytes": 9108,
+      "sha256": "d78ee9157fa8b34bc2d55fd8c8cabdba1be5a2ab3950a8c9406583b6e16d316c"
+    }
+  ]
+}

@@ -1,0 +1,388 @@
+\documentclass[11pt]{amsart}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage[margin=1.15in]{geometry}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{pdftitle={An improved upper bound for sphere packing density in four dimensions},pdfsubject={Computer-assisted global upper bound with reproducible certificates},pdflang={en-US}}
+\makeatletter\g@addto@macro{\UrlBreaks}{\do\_}\makeatother
+\raggedbottom
+\emergencystretch=3em
+\numberwithin{equation}{section}
+\setcounter{secnumdepth}{1}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\ip}[2]{\langle #1,#2\rangle}
+\newcommand{\Gam}{\Gamma}
+
+\title{An improved upper bound for sphere packing density in four dimensions}
+\subjclass[2020]{52C17; 11H31; 90C22}
+\keywords{sphere packing, three-point bounds, local energy, interval arithmetic}
+
+\begin{document}
+
+\begin{abstract}
+We prove that every sphere packing in $\R^4$ has density less than $0.629521681653$. The best rigorous published bound was $0.636108$, from the three-point method of Cohn, de Laat and Salmon, and the densest known packing, the lattice $D_4$, has density $\pi^2/16\approx0.616850$. The new bound closes about $34\%$ of the gap. It also lies below $0.637303$, which no bound from the Cohn--Elkies linear program can beat in this dimension. The proof combines a scalar Cohn--Elkies function with a two-point kernel on the neighbours of each centre. The kernel need not be positive definite; only the energy of each actual neighbourhood must be bounded below. A computer checks the sign conditions in exact rational and interval arithmetic. We then raise the floor of the neighbourhood energy in three exact steps: a census of neighbour counts, a sharper finite-count bound for the spherical part, and a reallocation of triangle slack to pairs of neighbours on opposite sides of the centre. One command reruns the complete certificate checks and exact kernel comparisons from the included data. The result is a self-contained computer-assisted proof with an explicit trust boundary: written lemmas, exact rational arithmetic, outward interval arithmetic, and the included checkers establish the concrete certificate.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+A sphere packing in $\R^n$ is a set of congruent balls with disjoint interiors. Its density is the fraction of space the balls cover, taken as an upper limit over large balls. We write $\Delta_n$ for the supremum over all packings. It is known only for $n\in\{1,2,3,8,24\}$ \cite{Thue,FejesToth,Hales,Viazovska,CKMRV}. In dimension four the densest known packing is the lattice $D_4$, with density $\pi^2/16\approx0.616850$. Korkine and Zolotarev proved that $D_4$ is the densest lattice packing \cite{KZ}, but non-lattice packings are not ruled out.
+
+Cohn and Elkies \cite{CE} gave the linear programming bound. An auxiliary function $f$ with $f\le0$ outside a ball and $\hat f\ge0$ bounds the density. In dimension four it gives about $0.647705$ \cite[Table~1.1]{CdLS}, and Li \cite{Li} proved that no Cohn--Elkies function can give less than $0.637303$. Cohn, de Laat and Salmon \cite{CdLS} added a two-variable kernel that sees triangles of centres and obtained $0.636108$. This is the best rigorous published bound we know of. Tutunov et al.\ \cite{Tutunov} report a slightly smaller value, $0.63610277$, from a numerical search over three-point certificates. We did not find an exact certificate for it, so we treat it as a numerical value.
+
+\begin{theorem}\label{thm:main}
+Every sphere packing in $\R^4$ has upper density less than $629521681653/10^{12}=0.629521681653$.
+\end{theorem}
+
+\begin{table}[ht]
+\caption{Sphere packing density bounds in dimension four.}\label{tab:bounds}
+\centering
+\begin{tabular}{lr}
+\toprule
+& density \\
+\midrule
+$D_4$ lattice (lower bound) & $0.616850$ \\
+Cohn--Elkies bound, lower limit \cite{Li} & $\ge0.637303$ \\
+three-point bound \cite{CdLS} & $0.636108$ \\
+three-point search, numerical \cite{Tutunov} & $0.63610277$ \\
+this paper & $\mathbf{0.629521681653}$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The gain over $0.636108$ is $0.006586$, about $34\%$ of the distance to $\pi^2/16$. Kravatskiy's repository of computer-assisted bounds \cite{Kra}, not yet published, gives $0.633429$ in dimension four; Theorem~\ref{thm:main} is lower by $0.003907$.
+
+\subsection*{The idea}
+
+The three-point method of \cite{CdLS} uses a kernel $K(x,y)$ that must be positive semidefinite on every finite set of points. We ask for less. For each centre, the energy of the actual configuration of its neighbours must be bounded below (Section~\ref{sec:local}). Because neighbours of a centre are unit separated and lie in a bounded annulus, this energy can be bounded below using the geometry of the neighbourhood, for instance how many neighbours fit at each radius. Each lower bound $\beta$ on the energy lowers the density bound by $\beta/8$.
+
+The proof proceeds in four steps. A certificate $(f,K)$ gives the raw value $0.6300003$ (Section~\ref{sec:v7}). A census of neighbour counts gives an energy floor and the bound $0.6295390$ (Section~\ref{sec:counts}). Two exact refinements give $0.6295269$ (Section~\ref{sec:refine}). A reallocation of triangle slack to far pairs gives $0.6295217$ (Section~\ref{sec:far}). The first two steps rest on large computations; the last two are short arguments plus a small certificate.
+
+The complete result is a non-Lean computer-assisted proof. Five certificate stages check the data in exact rational or outward interval arithmetic, and two further programs compare the kernel implementations exactly. The written lemmas establish the local-energy reductions, the finite-to-density argument, and the soundness of the interval lower envelopes. The kernel enters stages~1 and~5 of the checks through separate code, and Section~\ref{sec:verif} states how the two are linked.
+
+Throughout, centres have minimum distance $1$, so the balls have radius $1/2$ and volume $\pi^2/32$. We use the Fourier transform $\hat f(\xi)=\int f(x)e^{-2\pi i\ip x\xi}\,dx$.
+
+\section{The local-energy bound}\label{sec:local}
+
+Let $f\colon\R^4\to\R$ be even and Schwartz with $\hat f\ge0$ and $I=\hat f(0)>0$. Let $K\colon\R^4\times\R^4\to\R$ satisfy $K(x,y)=0$ unless $x,y\in\{0\}\cup\{1\le|z|\le R\}$ for a fixed $R$, and put $A=K(0,0)$. For a finite set $X\subset\R^4\setminus\{0\}$ such that $X\cup\{0\}$ is unit separated, define the \emph{anchored energy}
+\[
+E(X)=A+2\sum_{x\in X}K(x,0)+\sum_{x,y\in X}K(x,y).
+\]
+For $x,y$ define the triangle sum
+\[
+\Gam(x,y)=K(x,y)+K(-x,y-x)+K(-y,x-y),
+\]
+the sum of the kernel over the three vertices of the triangle $\{0,x,y\}$, each taken as anchor.
+
+\begin{theorem}\label{thm:local}
+Suppose that, for some $\beta\in\R$,
+\begin{enumerate}
+\item $E(X)\ge\beta$ for every admissible $X$, including $X=\emptyset$;
+\item $f(x)+2K(x,0)+K(x,x)\le0$ for $|x|\ge1$;
+\item $\Gam(x,y)\le0$ whenever $|x|,|y|,|x-y|\ge1$.
+\end{enumerate}
+Then every sphere packing in $\R^4$ has upper density at most $\frac{\pi^2}{32}\cdot\frac{f(0)+A-\beta}{I}$.
+\end{theorem}
+
+\begin{proof}
+Let $P=\{p_1,\dots,p_N\}$ be unit separated. Write $E_i$ for the energy of the neighbourhood $\{p_j-p_i:j\ne i\}$. Grouping the terms of $\sum_iE_i$ by the pair or triple of indices they involve gives
+\begin{equation}\label{eq:grouping}
+\sum_iE_i=NA+\sum_{i\ne j}\bigl(2K(p_j-p_i,0)+K(p_j-p_i,p_j-p_i)\bigr)+\sum_{\substack{i,j,k\\\text{distinct}}}K(p_j-p_i,p_k-p_i),
+\end{equation}
+and the last sum is one third of the sum of $\Gam(p_j-p_i,p_k-p_i)$ over ordered distinct triples. With the three conditions,
+\[
+\sum_{i,j}f(p_j-p_i)\le N\bigl(f(0)+A-\beta\bigr).
+\]
+For a periodic packing with $N$ centres per period and covolume $V$, apply this to a large patch. Since $f$ is Schwartz, the boundary contributes $o(1)$ per centre, and Poisson summation with $\hat f\ge0$ bounds the periodic sum below by $N^2I/V$. Hence $N/V\le(f(0)+A-\beta)/I$. For an arbitrary packing, repeat a patch inside a cube of side $L$ periodically with period $L+1$; distinct copies stay unit separated. This bounds the number of centres in every cube of side $L$ by $(f(0)+A-\beta)(L+1)^4/I$, and letting $L\to\infty$ bounds the upper density.
+\end{proof}
+
+When $K$ is positive semidefinite on all finite sets, condition~(1) holds with $\beta=0$, and Theorem~\ref{thm:local} is a three-point bound of the type in \cite[Theorem~1.1]{CdLS}. The two statements differ. Theirs asks for a pointwise sign condition on short pairs and for positive definiteness of an untruncated kernel. Ours asks for the cyclic condition~(3) and for a kernel supported in the annulus. Our kernels are not positive semidefinite.
+
+\begin{remark}[Finite-to-density transfer]\label{rem:transfer}
+The finite inequality extends to arbitrary packings by the elementary periodic-patch argument in the proof of Theorem~\ref{thm:local}. Repeat a finite unit-separated patch inside cubes with a separating corridor, apply the periodic estimate, and let the cube size tend to infinity. The boundary-volume loss is lower order, while the Schwartz decay of the scalar function controls the omitted translates.
+\end{remark}
+
+\section{The base certificate}\label{sec:v7}
+
+\subsection*{The scalar function}
+Put $f(x)=e^{-2|x|^2}F(2|x|^2)$ with $F$ a polynomial of degree $49$ with rational coefficients. Then $\hat f(\xi)=\frac{\pi^2}{4}e^{-s}G(s)$ with $s=\pi^2|\xi|^2/2$, $G$ a polynomial with $G(0)=1$, so $I=\pi^2/4$ and the bound of Theorem~\ref{thm:local} reads
+\begin{equation}\label{eq:normal}
+\Delta_4\le\frac{f(0)+A-\beta}{8}.
+\end{equation}
+Sturm sequences in exact arithmetic show $G>0$ on $[0,\infty)$ and $F<0$ on $[49/8,\infty)$, so $f\le0$ for $|x|\ge7/4$. Here $f(0)=F(0)=1.7165215732\ldots$.
+
+\subsection*{The kernel}
+The kernel is supported on radii in $[1,7/4]$. It is a sum of components, each with nonnegative anchored energy on every admissible neighbourhood, so condition~(1) holds with $\beta=0$. For a neighbourhood $X$ we write $n_j$ for the number of $x\in X$ with $|x|\le R_j$, with the radii $R_j$ below.
+\begin{enumerate}
+\item A harmonic Gram kernel $\sum_{d=0}^{18}\frac{U_d(t)}{d+1}\,\varphi(|x|)^{\top}M_d\,\varphi(|y|)$, where $t$ is the cosine of the angle between $x$ and $y$, $U_d$ are Chebyshev polynomials of the second kind (Gegenbauer parameter $1$, positive definite on $S^3$ by Schoenberg's theorem \cite{Schoenberg}), and $\varphi$ is a vector of degree-six Bernstein polynomials (on $[1,3/2]$ and on $[3/2,7/4]$), one block for each of the seven radial pieces with breaks
+\[
+1,\ R_1=\tfrac{501473}{500000},\ R_2=\tfrac{1005643}{1000000},\ R_3=\tfrac{50379}{50000},\ R_4=\tfrac{50767}{50000},\ R_5=\tfrac{102597}{100000},\ \tfrac32,\ \tfrac74.
+\]
+Each $M_d$ is a sum of positive multiples of rank-one matrices $vv^\top$ with $v$ integral, $628$ in total, so positivity is exact. The degree-zero block also includes the origin. Its origin row $v$ and origin entry $\kappa$ satisfy $M_0u=v$ and $u^\top v=\kappa$ for a vector $u$, so with $z=\sum_{x\in X}\varphi(|x|)$ the energy of this block is $(z+u)^\top M_0(z+u)\ge0$.
+\item Pointed terms: $98$ caps, $4$ tents and $2$ allocations, each of the form ``capacity minus usage'' for a geometric quantity bounded on every neighbourhood.
+\item Two anchored spherical energies, transferred from spherical semidefinite certificates for codes in $S^3$ with fixed angular cutoff.
+\item Five integer count energies. Three are polynomials in $n_1,\dots,n_5$ that are nonnegative on all count vectors allowed by Lemma~\ref{lem:counts} below. Two are the conditional rays $(23-n_1)(n_5-n_1)$ and $(23-n_2)(n_4-n_2)$, nonnegative by the same lemma.
+\item Four graph energies $\delta_j(C_j-e_j)$, where $e_j$ counts ordered pairs of neighbours in a radial window whose cosine lies in a selected interval, and $C_j$ is a proved bound on $e_j$ (Table~\ref{tab:graphs}).
+\item A pair count gauge. Let $q_0(x)\le0$ be the pair term of condition~(2) for the other components, $\psi(x)=\mathbf 1[|x|\le R_3]/24$ and $w=-q_0/(1-\psi)\ge0$. The gauge energy $(\sum_Xw)(1-\sum_X\psi)$ is nonnegative because $n_3\le24$. Its own pair term is $w(1-\psi)=-q_0$, so the pair term of the full kernel is zero on $[1,7/4]$.
+\end{enumerate}
+Each component $K_c$ depends only on $|x|$, $|y|$ and $\ip xy$, and satisfies $K_c(x,y)=K_c(y,x)$. So $K$ is symmetric, and $\Gam$ depends only on the side lengths of the triangle $\{0,x,y\}$. This is why unordered triples of radial regions suffice below.
+
+\begin{table}[ht]
+\caption{Graph energies. All selected pairs are more than $7/4$ apart. So a graph term never enters condition~(2), and it enters condition~(3) only in the exterior cases, where it lowers $\Gam$.}\label{tab:graphs}
+\centering
+\begin{tabular}{llrr}
+\toprule
+radii & cosine & capacity $C_j$ & weight $\delta_j$\\
+\midrule
+$[33/28,7/4]$ & $[-1,-7/8]$ & $1358$ & $1/50000000$\\
+$[1,103/100]$ & $[-1,-3/4]$ & $120$ & $1/5000000$\\
+$[33/28,7/4]$ & $[-1,-183/200]$ & $604$ & $1/5000000$\\
+$[7/5,3/2]$ & $[-4/5,-11/20]$ & $1880$ & $1/100000000$\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection*{Sign checks}
+Condition~(2) is a one-variable inequality on seven closed radial pieces. We check condition~(3) on the triangles $\{0,x,y\}$ with sides at least $1$. The check splits into $84$ unordered triples of radial regions and $28$ exterior cases in which one side exceeds $7/4$. On each case the cyclic sum is a polynomial in the side lengths and the cosine minus nonnegative correction terms from the caps, tents, allocations, graph energies and gauge, which are not polynomial. On every box of an exact Bernstein subdivision with correlated interval factors, the checker proves that the polynomial part is at most a lower bound for the corrections. The full run used $391\,420$ nodes and $195\,766$ terminal leaves.
+
+\subsection*{The raw objective}
+With $\beta=0$, the value $(f(0)+A)/8$, including the origin charges of all graph energies ($4769/200000000$ in density), is
+\[
+U_{\mathrm{raw}}=0.63000029144357\ldots.
+\]
+The displayed decimal is rounded from an exact rational value checked by the certificate.
+
+\section{An energy floor from neighbour counts}\label{sec:counts}
+
+Let $n=(n_1,\dots,n_5)$ be the counts of a neighbourhood $X$, where $n_j$ is the number of $x\in X$ with $|x|\le R_j$. Since $R_1<\dots<R_5$, we have $0\le n_1\le\dots\le n_5$.
+
+\begin{lemma}\label{lem:counts}
+Every admissible $X$ has $n_3\le24$, $n_4\le25$, $n_5\le26$, and
+\[
+(23-n_1)(n_5-n_1)\ge0,\qquad(23-n_2)(n_4-n_2)\ge0.
+\]
+\end{lemma}
+
+\begin{proof}
+Let $1\le|x|,|y|\le R$ with $R^2<2$ and $|x-y|\ge1$. The cosine of the angle between $x$ and $y$ is at most $(r^2+s^2-1)/(2rs)$ with $r=|x|$ and $s=|y|$. Since $R^2<2$, this is increasing in each radius on $[1,R]^2$, so the cosine is at most $1-1/(2R^2)$. For $R=R_3,R_4,R_5$ this is below $203/400$, $103/200$ and $21/40$. So the directions of the neighbours within $R_j$ form a spherical code in $S^3$ with that cutoff. Exact certificates in the accompanying verification establish bounds of $24$, $25$ and $26$ points. These are stronger than what follows directly from the kissing-number theorem, which gives $24$ only at cosine $1/2$.
+
+For the first implication, the product is nonnegative when $n_1\le23$. Suppose $n_1=24$ and some neighbour $y$ has $R_1<|y|\le R_5$. A written affine-latitude lemma moves the $24$ inner directions by an explicit affine change of latitude about the direction of $y$. The images and the direction of $y$ form a $25$-point code with cosine at most $203/400$, which contradicts the bound $24$ at cosine $203/400$ above. The verification checks the parameters of this map in exact arithmetic. The second implication is the same with $(R_2,R_4)$ in place of $(R_1,R_5)$.
+\end{proof}
+
+The conditions of Lemma~\ref{lem:counts} leave $165\,503$ integer vectors. We do not assume that they are realizable.
+
+Let $M=M_0$ be the degree-zero Gram block, $v$ its origin row and $u$ the solution of $Mu=v$, so the energy of this block is $E_0=(z+u)^\top M(z+u)$ with $z=\sum_{x\in X}\varphi(|x|)$. The counts are linear in $z$, with $J^\top z=n$ for a $0/1$ matrix $J$. Let $Y$ solve $MY=J$, and put $D=J^\top Y$ and $m=J^\top u$. Then $J^\top(z+u)=Y^\top M(z+u)$, and the Cauchy--Schwarz inequality for the semidefinite form $M$ gives
+\begin{equation}\label{eq:proj}
+E_0\ge(n+m)^\top D^{-1}(n+m).
+\end{equation}
+The checker verifies $MY=J$ and $D\succ0$ exactly. Twelve affine lower bounds $E_0\ge L_i(n)$ come from the ray decomposition of $M$ and exact Bernstein bounds on each radial shell. Three auxiliary spherical certificates (Section~\ref{sec:refine}) give surpluses of the spherical energies: one for $N=24$ with all radii at most $R_1$, one for $N=25$ with radii at most $R_4$, and one for every $N\le26$ at radius $R_5$. The floor for a count vector is the maximum of \eqref{eq:proj} and the $L_i$, plus the three count polynomials of item~4, plus the applicable spherical surplus. The remaining components are nonnegative and may therefore be discarded when forming this lower bound.
+
+The minimum over all $165\,503$ vectors is $\beta=0.0036901023146\ldots$, attained at $(24,24,24,24,24)$, the counts of $D_4$. By \eqref{eq:normal}, $\Delta_4\le U_{\mathrm{raw}}-\beta/8<0.629539028655$.
+
+\section{Two exact refinements}\label{sec:refine}
+
+\subsection*{The broad graph}
+The first graph of Table~\ref{tab:graphs} has capacity $1358$. We improve it to $1208$.
+
+\begin{lemma}\label{lem:1208}
+In every admissible neighbourhood, the number of ordered pairs of neighbours with radii in $[33/28,7/4]$ and cosine in $[-1,-7/8]$ is at most $1208$.
+\end{lemma}
+
+\begin{proof}
+At most $151$ neighbours have radius in $[33/28,7/4]$. To see this, let two of them have radii $r$ and $s$. Unit separation bounds the cosine between them by $h(r,s)=(r^2+s^2-1)/(2rs)$. On $[33/28,7/4]^2$ this function is largest at a corner, and the corners give $697/1089$ and $41/49$, so their directions have pairwise cosines at most $41/49$. An exact certificate supplies a polynomial $p=\sum_{l\le20}c_lU_l/(l+1)$ with $c_0>0$, $c_l\ge0$ and $p\le0$ on $[-1,41/49]$, so there are at most $p(1)/c_0<152$ such directions. Fix such a neighbour $y$ and let $w$ be the unit vector $-y/|y|$. Every partner $z$ of $y$ has direction $z/|z|$ with component at least $7/8$ along $w$. If some component equals $1$, that partner is the only one. Otherwise take two partners with components $h,h'\in[7/8,1)$ and cosine $c\le41/49$. Their normalized projections onto $w^\perp\cong\R^3$ have inner product $(c-hh')/\sqrt{(1-h^2)(1-h'^2)}$. This increases with $c$, and its derivative in $h$ has the sign of $ch-h'\le41/49-7/8<0$, and likewise in $h'$. So it is at most $(41/49-49/64)/(1-49/64)=223/735$. The exact replay of `data/projected_eight.json` reconstructs a nonnegative Legendre combination, proves its nonpositive sign on $[-1,223/735]$ by rational Bernstein subdivision including the endpoint, and checks the objective $89804130521/9999900000<9$. The spherical addition theorem then gives at most $8$ projected points. The stronger classical nine-point theorem \cite{SvdW,BM} remains a cited alternative, not a required premise. Thus every vertex has degree at most $8$, and the number of ordered pairs is at most $151\cdot8=1208$.
+\end{proof}
+
+The energy $\delta(1358-e)$ is then at least $\delta\cdot150=3/10^6$, which lowers the bound by $3/8000000$.
+
+\subsection*{Finite counts in the spherical energies}
+Let the $N=n_5$ neighbours within $R_5$ have directions $u_1,\dots,u_N$, and put $t_{ik}=\ip{u_i}{u_k}$. The two spherical energies of the kernel share one polynomial $g$. Their sum is $\bar BN-WS$, where $S=\sum_{i,k}g(t_{ik})$ and $\bar B$ and $W>0$ are constants. Section~\ref{sec:counts} bounds $S$ above with three auxiliary certificates on $S^3$. Each has a constant $B_{\mathrm{raw}}$, a pair polynomial $P_{\mathrm{sph}}$ and a cyclic polynomial $C_{\mathrm{sph}}$, and its anchored energies $S_i$ at the points $u_i$ are nonnegative on the codes it covers. The certificates prove only $P_{\mathrm{sph}}\le\eta$ and $C_{\mathrm{sph}}\le3\epsilon$, with $\eta=10^{-6}$, and with $\epsilon=3/500000$ for the certificate with $N=24$ and $\epsilon=1/250000$ for the other two. A repair adds $\epsilon T$, where $T$ is a fixed polynomial with zero constant harmonic, nonnegative higher harmonics, $T\le-1$ off the diagonal and $T(1)=\tau=133770012193/4999950000\approx26.75$. The repair makes both polynomials nonpositive and raises the constant to $B_{\bar N}=B_{\mathrm{raw}}+(\bar N-1)\theta$, where $\theta=\epsilon\tau+\eta$. Here $\bar N=N$ for the two fixed-cardinality certificates and $\bar N=26$ for the bounded one. Section~\ref{sec:counts} used $S\le NB_{\bar N}$.
+
+The unrepaired certificate does better for a given $N$. Summing its anchored energies over the code and grouping as in \eqref{eq:grouping} gives
+\[
+\sum_iS_i=NB_{\mathrm{raw}}-S+\sum_{i\ne k}P_{\mathrm{sph}}(t_{ik})+2\sum_{i<k<l}C_{ikl}\ge0,
+\]
+where $C_{ikl}$ is $C_{\mathrm{sph}}$ at the triangle $u_i,u_k,u_l$. Hence $S\le NB_{\mathrm{raw}}+\eta N(N-1)+\epsilon N(N-1)(N-2)$. Compared with $S\le NB_{\bar N}$, this raises the lower bound for the spherical energies by
+\[
+WN\bigl((\bar N-1)\theta-(N-1)\eta-\epsilon(N-1)(N-2)\bigr)=W\bigl[\theta N(\bar N-N)+\epsilon N(N-1)(\tau-N+2)\bigr].
+\]
+Both terms are nonnegative, since $\bar N\ge N$ and $\tau>24\ge N-2$. Group the count vectors by $(N,j)$, where $N=n_5$ and $j$ is the first index with $n_j=N$. There are $124$ groups. The certificate with $N=24$ applies to the group $(24,1)$, the one with $N=25$ to $(25,4)$, and the bounded one to every group. Where several apply, the floor uses the largest surplus. Within a group these surpluses are constants, so the census minima update exactly. The new minimum is
+\[
+a_+=0.0037837669718\ldots
+\]
+at $(24,24,24,24,24)$, higher than $\beta$ by $9.37\cdot10^{-5}$, and $\Delta_4\le U_{\mathrm{raw}}-a_+/8-3/8000000<0.629526945573$.
+
+\section{Far pairs}\label{sec:far}
+
+\subsection*{Reallocating triangle slack}
+Condition~(3) of Theorem~\ref{thm:local} is an inequality, and its slack $-\Gam\ge0$ is wasted. We move it into the energy. For a triangle $\{0,x,y\}$ let $k$ be the number of its vertices whose two incident sides are at most $7/4$; $k\in\{0,1,3\}$, and $\Gam\ne0$ only if $k\ge1$. Define
+\[
+H(x,y)=-\Gam(x,y)/k\quad\text{if }x\ne y,\ 1\le|x|,|y|\le7/4,\ \Gam(x,y)\ne0,
+\]
+and $H=0$ otherwise, and put $K'=K+H$. Then $K'(0,0)=K(0,0)$, and the pair term of condition~(2) is unchanged because $H$ vanishes on the diagonal and at the origin. The proof of Theorem~\ref{thm:local} uses condition~(3) only through the sum of the kernel over ordered triples of distinct centres, and for $K'$ this sum is $0$. To see this, give each vertex $v$ of a triangle the share $s_v=1/k$ if both its incident sides are at most $7/4$, and $s_v=0$ otherwise, so that $H=-s\Gam$ at each anchor. Expand the sum of $H$ over ordered triples of distinct points $p_i,p_j,p_l$ of a unit-separated set and relabel. Each term $K(p_j-p_i,p_l-p_i)$ then appears with coefficient $-(s_i+2s_j)$. When this term is nonzero, vertex $i$ has both incident sides at most $7/4$. If $k=3$ the coefficient is $-(1/3+2/3)=-1$. If $k=1$ only vertex $i$ qualifies, and the coefficient is $-1$. So the triple sum of $H$ is minus that of $K$, and the triple sum of $K+H$ is zero. This argument does not use symmetry of $K$. Since $\Gam\le0$, $H\ge0$, so the energy $E'$ of $K'$ is at least $E$, and Theorem~\ref{thm:local} applies to $K'$ with any floor for $E'$.
+
+\subsection*{The far-pair lemma}
+Put $a=133/250$ and $q(t)=t^2(t^2-a^2)$. For $j\le5$ let $B_j$ be the set of pairs $(y,z)$ with $|y|,|z|\in[1,R_j]$ and cosine in $[-1,-a]$.
+
+\begin{lemma}\label{lem:quartic}
+Let $u_1,\dots,u_N$ be unit vectors in $\R^4$ and $t_{ik}=\ip{u_i}{u_k}$. Then
+\[
+\sum_{i\ne k}q(t_{ik})\ge Q_N:=N^2\Bigl(\frac18-\frac{a^2}4\Bigr)-N(1-a^2)=\frac{N(13561N-179244)}{250000}.
+\]
+\end{lemma}
+
+\begin{proof}
+Write $q=\frac1{16}U_4+(\frac3{16}-\frac{a^2}4)U_2+(\frac18-\frac{a^2}4)U_0$; the coefficients are positive and each $U_k(\ip uv)$ is positive definite on $S^3$ \cite{Schoenberg}, which gives the bound. We also give a direct proof, which also gives a direct non-computational proof. Let $G=\sum_iu_iu_i^\top$ and $T=\sum_iu_i^{\otimes4}$, so $S_2:=\sum_{i,k}t_{ik}^2=\|G\|^2$ and $S_4:=\sum_{i,k}t_{ik}^4=\|T\|^2$. Since $\operatorname{tr}G=N$, $S_2\ge\sum_bG_{bb}^2\ge N^2/4$. Let $P$ be the symmetrization of $G\otimes\mathrm{Id}$, the sum of the six tensors obtained by placing $G$ on two of the four indices and the identity matrix on the other two. A direct computation using $|u_i|=1$ gives $\ip TP=6S_2$ and $\|P\|^2=48S_2+6N^2$. By Cauchy--Schwarz, $36S_2^2\le S_4(48S_2+6N^2)$. Writing $S_2=xN^2$ with $x\ge\frac14$,
+\[
+\frac{S_4-a^2S_2}{N^2}-\Bigl(\frac18-\frac{a^2}4\Bigr)\ge\frac{6\,(x-\frac14)\bigl((6-8a^2)x+\frac12-a^2\bigr)}{48x+6}\ge0.
+\]
+Removing the $N$ diagonal terms $q(1)=1-a^2$ gives the claim.
+\end{proof}
+
+\begin{lemma}\label{lem:geom}
+Let $1\le r,s\le R_5$ and let $t$ satisfy $r^2+s^2-2rst\ge1$. Then $t\le a$. If instead only $r,s\ge1$ and $t<-a$, then $r^2+s^2-2rst>49/16$.
+\end{lemma}
+
+\begin{proof}
+For the first claim, $g(r,s)=2ars-r^2-s^2+1$ is concave in each variable, so its minimum on $[1,R_5]^2$ is at a corner, where its values are $2a-1$, $R_5(2a-R_5)$ and $1-(2-2a)R_5^2$, all positive. Hence $2rst\le r^2+s^2-1\le2ars$. For the second, $r^2+s^2-2rst>2+2ars\ge2+2a=383/125>49/16$.
+\end{proof}
+
+\begin{proposition}\label{prop:far}
+Let $K$ satisfy condition~(3) of Theorem~\ref{thm:local} and vanish when $|x|>7/4$ or $|y|>7/4$. Suppose $-K\ge\lambda q(t)$ on $B_j$ for some $\lambda\ge0$. Let $X$ be an admissible neighbourhood whose $N$ neighbours within $R_5$ all lie within $R_j$. Then $\sum_{y\ne z\in X}H(y,z)\ge\lambda\max(Q_N,0)$.
+\end{proposition}
+
+\begin{proof}
+Every term of $H$ is nonnegative, so it suffices to sum over ordered pairs $(y,z)$ of the $N$ near neighbours and show $H(y,z)\ge\lambda q(t)$ for each. By Lemma~\ref{lem:geom}, $t\le a$. If $t\ge-a$ then $q(t)\le0\le H$. If $t<-a$ then $|y-z|>7/4$, so only the vertex $0$ of the triangle has both incident sides at most $7/4$, $k=1$, and the other two kernel terms of $\Gam$ vanish because $K$ is supported on radii at most $7/4$. So $H(y,z)=-K(y,z)\ge\lambda q(t)$, since $(y,z)\in B_j$. Summing and applying Lemma~\ref{lem:quartic} gives $\lambda Q_N$; nonnegativity gives $0$.
+\end{proof}
+
+$Q_N>0$ exactly for $N\ge14$; for example $Q_{24}=43866/3125\approx14.04$.
+
+\subsection*{The kernel certificate}
+We prove $-K\ge\lambda_1q$ on $B_1$ with $\lambda_1=3/10^6$, and $-K\ge\lambda_5q$ on $B_5$ with $\lambda_5=1/10^6$, which serves every $j\le5$. We tile the domain by radial regions and $94$ cosine chunks, and bisect each box until a second-order centred form in Arb ball arithmetic proves the inequality. This takes $286$ leaves for $B_1$ and $4663$ for $B_5$. Where the kernel has a kink (a cap indicator, a clipped probability, a step capacity), the certificate replaces the kinked term by a lower bound over the box. This is valid because $-K$ is nondecreasing in each such term. A numerical search puts the smallest ratio $-K/q$ on $B_1$ near radii $(1,1)$ and cosine $-0.864$, at about $3.114\cdot10^{-6}$. So $\lambda_1$ is about $96\%$ of the smallest ratio found numerically.
+
+\subsection*{The ledger}
+For each of the $124$ groups $(N,j)$, the new floor is the group floor of Section~\ref{sec:refine} plus $\lambda(j)\max(Q_N,0)$, with $\lambda(1)=\lambda_1$ and $\lambda(j)=\lambda_5$ for $j\ge2$. The minimum is attained only at $(24,1)$:
+\[
+a_{\mathrm{new}}=a_++\lambda_1Q_{24}=0.0038258783318289\ldots,
+\]
+with $(26,5)$ next at $0.0038387$. By \eqref{eq:normal} with $\beta=a_{\mathrm{new}}+3/10^6$,
+\[
+\Delta_4\le U_{\mathrm{raw}}-\frac{a_{\mathrm{new}}}8-\frac3{8000000}=0.6295216816520915\ldots<0.629521681653,
+\]
+which proves Theorem~\ref{thm:main}.
+
+\section{Verification}\label{sec:verif}
+
+This section states what the computer checks and what rests on written proofs and cited theorems. The accompanying certificate bundle contains the exact data, verification programs and reproducibility records.
+
+\subsection*{Programs}
+Every decision is made in exact rational arithmetic or in outward-rounded interval arithmetic. Floating point only reports values. The programs read nothing outside the package. A full replay of the verification driver runs five certificate stages in order and passes each stage's fresh output to the next. It first verifies the shipped manifests, then runs the independent kernel reconstruction and the exact stage-1/stage-5 link described below. It then recomputes the final ledger from those outputs in exact arithmetic and checks that $U_{\mathrm{raw}}-a_{\mathrm{new}}/8-3/8000000<629521681653/10^{12}$. Table~\ref{tab:stages} lists what each stage checks. The complete full replay, including the independent reconstruction and kernel link, took $1890.6$ seconds ($31.5$ minutes) with two workers on the recorded machine; it checked $225$ manifest entries. The release review records the command, result and resource measurements. Quick mode omits the $112$ triangle subdivisions and is not a fresh verification of the global theorem.
+
+\begin{table}[ht]
+\caption{The five verification stages and what a full run checks.}\label{tab:stages}
+\centering
+\small
+\begin{tabular}{lp{0.7\textwidth}}
+\toprule
+stage & checked \\
+\midrule
+1 (Section~\ref{sec:v7}) & Coefficient identity of $(F,G)$ and Sturm sequences; the $628$ integer Gram rays and the origin identity; the parameters of every local-energy component, the spherical count certificates and the graph capacities; pair signs on $7$ radial pieces; triangle signs on $112$ cases ($391\,420$ nodes, $195\,766$ leaves, $672$ polynomial identities); $U_{\mathrm{raw}}$ \\
+2 (Section~\ref{sec:counts}) & The projection bound \eqref{eq:proj}, the twelve affine floors, the three spherical surplus proofs, all $165\,503$ count vectors and the $124$ group floors; $\beta$ \\
+3 (Section~\ref{sec:refine}) & The finite-count gains and the $124$ new floors, by two separate scripts; $a_+$. \\
+4 (Lemma~\ref{lem:1208}) & The annular count $151$ and the projected-code certificate (exact rational Legendre/Bernstein replay at cutoff $223/735$), the capacity $1208$ and the saving $3/8000000$ \\
+5 (Section~\ref{sec:far}) & Every leaf of both kernel-box trees ($286$ and $4663$ leaves) in Arb; agreement of the explicit kernel formula with a separate rational evaluator at $72$ points (overlapping enclosures); the ledger over the $124$ groups \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Negative controls corrupt one input and confirm that the stage fails. For stage~1 they change a pair coefficient, a Gram ray weight or a graph capacity. For stages~2 and~3 they change an input coefficient, a projection coefficient, a group floor or the stage~1 raw objective. Stage~4's projected-code tests reject an altered cutoff, a negative coefficient and a JSON float. For stage~5 a script raises $\lambda_1$ to $4/10^6$ or merges two leaves of a kernel-box tree. Each failed as it should. These earlier packaging controls were manual except at stage~5. The independent-kernel and exact-link controls are scripted, as are manifest, malformed-input and optimized-interpreter rejection tests for the top-level non-Lean driver.
+
+The programs trust Python's integer and \texttt{fractions} arithmetic, NumPy integer arrays, python-flint~0.9.0 (FLINT exact polynomials and Arb ball arithmetic), and a C++20 engine for the triangle subdivisions. Each run compiles the engine from source, so no prebuilt binary is used; the tested compiler was Apple clang~21.0.0. The subdivision trees of stage~1 are not stored, so a rerun is the way to check them.
+
+\subsection*{Written proofs and cited theorems}
+Some lemmas have only written proofs, and the programs check only the parameters they need. These are the lemmas that make the local-energy components of Section~\ref{sec:v7} nonnegative: the ball counts behind the caps, the tent occupancy bound, the capacity inequalities of the two antipodal allocations, the affine-latitude reduction in Lemma~\ref{lem:counts}, the passage from a spherical code to a count of neighbours in a shell, and the identity behind the pair count gauge. For one allocation the case $r\ge1/2$ of the capacity inequality is Blichfeldt's inequality \cite{Blichfeldt}; the package proves the whole inequality. A component register lists each component with its lemma, written proof and checker. The derivations in Sections~\ref{sec:counts} and~\ref{sec:refine} and the soundness of the kink replacement in Section~\ref{sec:far} are also written arguments; the programs recompute their arithmetic.
+
+The spherical positivity and projected-code steps used here are supplied by the written addition-theorem argument and the exact certificate replay in stage~4. The stronger nine-point theorem of Sch\"utte and van der Waerden at $1/3$ remains a cited alternative, not a required premise of the computer-assisted replay.
+
+The former sampled links between kernel implementations are strengthened in two ways. First, an independent assembler reconstructs the kernel from the four V7 certificate inputs without importing either original implementation. It compares $1\,059\,688$ polynomial coefficients over all $84$ full and $28$ exterior branches, all seven pair pieces, and the exact origin and raw objective. It also checks $775$ component equations and the radial basis and boundary conventions. The cap, tent, allocation and gauge identities are proved in the component-identity document; their sampled evaluations remain diagnostics only. This is an independent assembler, not a second independent proof of all continuum sign conditions.
+
+Second, an exact kernel-link checker compares the actual stage~5 formula with the stage~1 assembly on every one of the $25$ ordered radial cells of $B_5$, which also covers $B_1$. Rational-function coefficients and canonical nonpolynomial function atoms are compared exactly, including the $25$ faces at $t=-1$. The comparison covers $213\,550$ polynomial coefficients and $1655$ nonpolynomial monomials. At the singular angular endpoint the certified interval routine omits nonnegative cap terms; the checker identifies this lower envelope separately from the exact mathematical kernel. Five corruption controls test coefficient changes, missing cells, endpoint changes and a nonintegral denominator. The symbolic adapters have documented mathematical meanings, but are not a formal semantics verification of Python. The exact link still requires the written proof of interval lower-envelope soundness and the full stage~1 and stage~5 sign replays.
+
+\subsection*{Current proof status}
+The published result is the computer-assisted proof described above. The exact and interval programs, written component arguments, independent reconstruction, and kernel-link checks establish the concrete certificate from the included data. The proof stated here uses no proof-assistant formalization.
+
+\section{Remarks}
+
+The method cannot prove that $D_4$ is optimal. For the lattice $D_4$, averaging condition~(1) over centres and using conditions~(2) and~(3) gives $f(0)+A-\beta\ge\sum_{v\in D_4,\,|v|\le7/4}f(v)$. So no bound of this form with the present $f$ can go below $0.616896$, which exceeds $\pi^2/16$ by about $5\cdot10^{-5}$. The present gap, $0.0127$, is far larger, so there is room for better floors. The census minimum sits at the count vector of $D_4$, which suggests that further progress needs information that separates other neighbourhoods with $24$ near neighbours from the $24$-cell.
+
+\section*{AI usage statement}
+
+GPT-6 Astra Pro, Claude Fable 5.2 and Claude Opus 5.5 were used to discover the auxiliary function and kernel certificate needed for the bound, prepare supplementary data and draft this paper. The manuscript was proofread and lightly revised by the author. The author welcomes detailed questions regarding the use of AI in this work.
+
+\section*{Acknowledgements}
+
+The author thanks Evolving Programs for providing tokens at no cost.
+
+\section*{Data availability}
+
+The certificate and verification programs accompany this paper. They can be found at \url{https://github.com/Felpix-Studios/sphere-packing}.
+
+\begin{thebibliography}{99}
+
+\bibitem{BM}
+A. Barg and O. R. Musin, \emph{Codes in spherical caps}, Adv. Math. Commun. \textbf{1} (2007), no. 1, 131--149.
+
+\bibitem{Blichfeldt}
+H. F. Blichfeldt, \emph{The minimum value of quadratic forms, and the closest packing of spheres}, Math. Ann. \textbf{101} (1929), 605--608.
+
+\bibitem{CE}
+H. Cohn and N. Elkies, \emph{New upper bounds on sphere packings I}, Ann. of Math. (2) \textbf{157} (2003), no. 2, 689--714.
+
+\bibitem{CdLS}
+H. Cohn, D. de Laat and A. Salmon, \emph{Three-point bounds for sphere packing}, preprint, 2022. \href{https://arxiv.org/abs/2206.15373}{arXiv:2206.15373}.
+
+\bibitem{CKMRV}
+H. Cohn, A. Kumar, S. D. Miller, D. Radchenko and M. Viazovska, \emph{The sphere packing problem in dimension 24}, Ann. of Math. (2) \textbf{185} (2017), no. 3, 1017--1033.
+
+\bibitem{FejesToth}
+L. Fejes T\'oth, \emph{\"Uber die dichteste Kugellagerung}, Math. Z. \textbf{48} (1943), 676--684.
+
+\bibitem{Hales}
+T. C. Hales, \emph{A proof of the Kepler conjecture}, Ann. of Math. (2) \textbf{162} (2005), no. 3, 1065--1185.
+
+\bibitem{KZ}
+A. Korkine and G. Zolotareff, \emph{Sur les formes quadratiques positives quaternaires}, Math. Ann. \textbf{5} (1872), 581--583.
+
+\bibitem{Kra}
+A. Kravatskiy, \emph{Sphere-packing density: new upper bounds in dimensions 4 through 48, with verification packages}, GitHub repository, 2026, commit 9160050. \url{https://github.com/alexlegeartis/SpherePackingUpperBounds}.
+
+\bibitem{Li}
+R. Li, \emph{Dual linear programming bounds for sphere packing via discrete reductions}, preprint, 2022. \href{https://arxiv.org/abs/2206.09876}{arXiv:2206.09876}.
+
+\bibitem{Schoenberg}
+I. J. Schoenberg, \emph{Positive definite functions on spheres}, Duke Math. J. \textbf{9} (1942), 96--108.
+
+\bibitem{SvdW}
+K. Schütte and B. L. van der Waerden, \emph{Auf welcher Kugel haben 5, 6, 7, 8 oder 9 Punkte mit Mindestabstand Eins Platz?}, Math. Ann. \textbf{123} (1951), 96--124.
+
+\bibitem{Thue}
+A. Thue, \emph{\"Uber die dichteste Zusammenstellung von kongruenten Kreisen in einer Ebene}, Norske Vid. Selsk. Skr. No.~1 (1910), 1--9.
+
+\bibitem{Tutunov}
+R. Tutunov, A. Maraval, A. Grosnit, X. Li, J. Wang and H. Bou-Ammar, \emph{Model-based and sample-efficient AI-assisted math discovery in sphere packing}, preprint, 2025. \href{https://arxiv.org/abs/2512.04829}{arXiv:2512.04829}.
+
+\bibitem{Viazovska}
+M. S. Viazovska, \emph{The sphere packing problem in dimension 8}, Ann. of Math. (2) \textbf{185} (2017), no. 3, 991--1015.
+
+\end{thebibliography}
+
+\end{document}

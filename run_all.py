@@ -16,6 +16,7 @@ jobs.append(('dim7','verify.py'))
 jobs.append(('dim5','refinement_guarded/verify.py'))
 jobs.append(('dim5','refinement_lens/verify.py'))
 jobs.append(('dim5','refinement_spherical_lens/verify.py'))
+jobs.append(('dim4','refinement_energy20261115/verify.py'))
 def replay(chain):
  for directory,script in chain:
   print(directory,script,flush=True)

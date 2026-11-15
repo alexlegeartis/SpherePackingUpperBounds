@@ -1,0 +1,270 @@
+{
+  "schema": "D4_PUBLIC_STAGE_EXPORT_MANIFEST_V1",
+  "files": [
+    {
+      "path": "CHANGES.md",
+      "bytes": 4258,
+      "sha256": "28dd000418033d2c6d71190ceb4d3ba0a1cc5c5832500aaa1dcd92543c600871"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 5406,
+      "sha256": "3324b53e72b90434e1ca51cfb7817632012fe32355af0f29e3d4e0694ae52353"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7901,
+      "sha256": "7d48da4dcea059b8d02cccfd51fbc86080928eab0f4203ec491f5c56a5081356"
+    },
+    {
+      "path": "original/verify.py",
+      "bytes": 11926,
+      "sha256": "dfa50ad3bb464bd0d6baa922897f71a8a9956a88aa62ed3bc6bc0286c60df1f9"
+    },
+    {
+      "path": "reference/ACCEPTANCE.json",
+      "bytes": 363933,
+      "sha256": "74e6dd34c7346bc9cf41314811b6d9f1636b5c8139522b9aa0f68eb8e9671a07"
+    },
+    {
+      "path": "reference/ANGULAR_0.json",
+      "bytes": 5567,
+      "sha256": "856ab0a6b5050fd09808873bf9d768194174472dac902c5b387a10ee2894680e"
+    },
+    {
+      "path": "reference/ANGULAR_1.json",
+      "bytes": 5077,
+      "sha256": "25c8323d4d10d737ed4838b11ef9be47f095ace7ed52fe865901b9e8af12a51f"
+    },
+    {
+      "path": "reference/ANGULAR_2.json",
+      "bytes": 5537,
+      "sha256": "52e1c70323aaf55f6bd045ad63b37d35869908ea3a7e14dd709de492236c47a7"
+    },
+    {
+      "path": "reference/COUNT_GEOMETRY.json",
+      "bytes": 8955,
+      "sha256": "50af5b550f04f5681d4f8adeeacb163ab58bbee8e0b3573c8ec6843a51671252"
+    },
+    {
+      "path": "reference/INHERITED_FULL_V7_ACCEPTANCE.json",
+      "bytes": 4946,
+      "sha256": "8588d7239bc25090af68fab848b941ce03a9cd53e97cad24d0dbc1d503553f7b"
+    },
+    {
+      "path": "reference/LOCAL_ENUMERATION.json",
+      "bytes": 497498,
+      "sha256": "d3dc4535cbffd03817c46821c47a3c9ca76dc22a84352769e910e552bbc6d635"
+    },
+    {
+      "path": "reference/PROJECTION.json",
+      "bytes": 88566,
+      "sha256": "a8b477a3916770ef9d067726c28f90d2d8caf195bf723a20bca9db608529a485"
+    },
+    {
+      "path": "reference/RADIAL_PLANES.json",
+      "bytes": 381611,
+      "sha256": "c5feccffd39e7226fe3e26718e2ab73dafa9a361455ba39a8424536c07641c41"
+    },
+    {
+      "path": "reference/counts/s05075_taper12_exact.json",
+      "bytes": 31885,
+      "sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    },
+    {
+      "path": "reference/counts/s05075_taper12_exact.verification.json",
+      "bytes": 1019,
+      "sha256": "e02e0eadf3087219c8ba81dc95d906b846880184d8f5ca08d6aa5374af9e2f42"
+    },
+    {
+      "path": "reference/counts/s0515_count25_exact.json",
+      "bytes": 32284,
+      "sha256": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f"
+    },
+    {
+      "path": "reference/counts/s0515_count25_exact.verification.json",
+      "bytes": 1030,
+      "sha256": "cdf8807f493fa8458123da969c477518796d7fd16a4d2a8eef73b1ca8d18bdb9"
+    },
+    {
+      "path": "reference/counts/s0525_count26_exact.json",
+      "bytes": 32551,
+      "sha256": "f8e4fe68fc4440444be4a2057bd5e83e752de82ee7abf2a9ff85ba41c1b79be1"
+    },
+    {
+      "path": "reference/counts/s0525_count26_exact.verification.json",
+      "bytes": 1022,
+      "sha256": "85bce4326b2f2cf440cbd65226ab76375aeaad3a7fa6c3a1cfda435734bf4d54"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "479c30179f7e62d697ca3c8af0d8943454ebc276052024d61824e0453c54bf16"
+    },
+    {
+      "path": "run.py",
+      "bytes": 19071,
+      "sha256": "fba2602c441e5b46a8daf3403bfda2e16376c525a15060333af4194afd06ec5e"
+    },
+    {
+      "path": "source/MANIFEST.json",
+      "bytes": 1155759,
+      "sha256": "225589572863424c23ba43ca6728c3e58633ea0f5778e9ef905e32a0c5d52ec9"
+    },
+    {
+      "path": "source/audit/round9_six_graphs_monotone_origin_credit_global_verified.json",
+      "bytes": 198579,
+      "sha256": "44ec38f57e3f84d71edf24eb11d4eec7f93e99850943bdb2d489cfe9ffd8ab41"
+    },
+    {
+      "path": "source/consolidation/FINAL_RESULT.json",
+      "bytes": 83652,
+      "sha256": "e7c7c405f8c241a6536bcdc4f1ead503cf1a0530172d553293e96ffb90b6e7b0"
+    },
+    {
+      "path": "source/optimization/continuation_20261018/base/new_work/spherical_sdp/certify.py",
+      "bytes": 22367,
+      "sha256": "aeb873edff74112cd0dd0293d1c77be91aec7ec405aa1013b9b92088db46fca5"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/conditional/affine_latitude_counts.py",
+      "bytes": 9190,
+      "sha256": "8537fa66eab30533371b6b0ad04b4dc7bbd403a933a43ea5f06ef3a47b787e1a"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/conditional/joint_count_polynomial.py",
+      "bytes": 4526,
+      "sha256": "c96208f06adc0558af4e67a30edb8572946de671dcfbb1bfd81bbe92cf84be36"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/certify.py",
+      "bytes": 22367,
+      "sha256": "aeb873edff74112cd0dd0293d1c77be91aec7ec405aa1013b9b92088db46fca5"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/count_quadratic.py",
+      "bytes": 6287,
+      "sha256": "10471bd048043465b410b61dc7f07bf4b3b4bfa1eb6f97f72e1ee06a408b2b2a"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s05075_taper12_exact.json",
+      "bytes": 31885,
+      "sha256": "96dadff6cd7f889f82fe9153b5bc87bd39c7f841e46c04a2103b1436504a3e79"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s0515_count25_exact.json",
+      "bytes": 32284,
+      "sha256": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f"
+    },
+    {
+      "path": "source/research/sphere_packing_4d_research_record/historical_snapshot/new_work/spherical_sdp/s0525_count26_exact.json",
+      "bytes": 32551,
+      "sha256": "f8e4fe68fc4440444be4a2057bd5e83e752de82ee7abf2a9ff85ba41c1b79be1"
+    },
+    {
+      "path": "source/target625/geometry/accepted_combined_boundedN26_degree8_gram_exact_eps4/VERIFIED.json",
+      "bytes": 5078,
+      "sha256": "8ac22fcafcf5e015967b5126e7dd8280c490b9a09ed2b35fdced20d5ad0912d4"
+    },
+    {
+      "path": "source/target625/geometry/accepted_combined_boundedN26_degree8_gram_exact_eps4/certificate.json",
+      "bytes": 16949,
+      "sha256": "fe2283ecad2dd01621ddb54ed6c29b54ff2486225b7dd89556903ef9328fdba2"
+    },
+    {
+      "path": "source/target625/geometry/accepted_stratified_N24_R1_degree8_exact_eps6/VERIFIED.json",
+      "bytes": 5566,
+      "sha256": "c3dfd6ddbc222e5f6f19540786d29813427e9ae8f382b1bc2a175ba0addb25f8"
+    },
+    {
+      "path": "source/target625/geometry/accepted_stratified_N24_R1_degree8_exact_eps6/certificate.json",
+      "bytes": 16921,
+      "sha256": "38a01ccadb989afbfa5c77020b804c82ebc14f9d7b2b654d942ade4fbf355e38"
+    },
+    {
+      "path": "source/target625/geometry/accepted_stratified_N25_R4_degree8_exact_eps4/VERIFIED.json",
+      "bytes": 5537,
+      "sha256": "ae497dbf1e644a2ad36c2b0384757ceddb0e436c45231a6fcf2efacb16d12ad5"
+    },
+    {
+      "path": "source/target625/geometry/accepted_stratified_N25_R4_degree8_exact_eps4/certificate.json",
+      "bytes": 16929,
+      "sha256": "d69bff8f8082d4d2b576745fc05c57ac2ccf49ef659f45d0896e977245a7744b"
+    },
+    {
+      "path": "source/target625/geometry/certify_accepted_combined_boundedN_credit.py",
+      "bytes": 7832,
+      "sha256": "9296ccbfd4468de4f2738b78b78d6625eced56e5ef5a2d4f46498c9e81e75cfb"
+    },
+    {
+      "path": "source/target625/geometry/certify_accepted_combined_fixedN_credit.py",
+      "bytes": 5099,
+      "sha256": "664e13edbef85e0664b1d6732f32d8be800561026be5d1e2cd76e3df82f02a6c"
+    },
+    {
+      "path": "source/target625/geometry/certify_accepted_stratified_fixedN_credit.py",
+      "bytes": 4577,
+      "sha256": "338732eb88bd0af68dc3b3d5a9bc2e3b200da896dfe6786a3cde55d9162249fc"
+    },
+    {
+      "path": "source/target625/geometry/certify_fixedN_common_spherical.py",
+      "bytes": 6668,
+      "sha256": "03e5584dfb1d19740035342fa7afb0a497b8283e6c8ae4ddf27303a5e2c21536"
+    },
+    {
+      "path": "source/target625/geometry/fixed_cardinality_spherical_algebra.py",
+      "bytes": 13674,
+      "sha256": "66174183e7ef69ebf496035e05b9b16e1875faefdfe45cec25566efa3997d5ed"
+    },
+    {
+      "path": "source/target625/origin_completion/ACCEPTED_JOINT_COUNT_PROJECTION.json",
+      "bytes": 460758,
+      "sha256": "219da1d0c222b941552b42899528bbdc4a86074d2fb49ab2ea1aeb7d13cdaa7c"
+    },
+    {
+      "path": "source/target625/origin_completion/FINAL_ORIGIN_REGISTRY.json",
+      "bytes": 2172,
+      "sha256": "3675990332310d5853e54e17d99d12d3fd2a4bb0f66058d1fd2f1c83ca4f7278"
+    },
+    {
+      "path": "source/target625/origin_completion/RADIAL_FEASIBILITY_FLOORS_VERIFIED.json",
+      "bytes": 203666,
+      "sha256": "f54501670c62ef0d97dc5da175bfd40532075acb4056a9b7f3f3d9bf06869bb8"
+    },
+    {
+      "path": "source/target625/origin_completion/RADIAL_FEASIBILITY_SUB32_FLOORS_VERIFIED.json",
+      "bytes": 204469,
+      "sha256": "7fd68d462201db0d1b504fb9c83cbf8ef5fb0a447ee509339e688939a79bcc15"
+    },
+    {
+      "path": "source/target625/origin_completion/compose_radial_stratified_origin_credit.py",
+      "bytes": 17807,
+      "sha256": "3888e1a3aea4a8d76360b64b3850e76c9edf9e3172738ac3c9877e486bab4bcb"
+    },
+    {
+      "path": "source/target625/origin_completion/compose_uniform_joint_count_global_credit.py",
+      "bytes": 13128,
+      "sha256": "dc7fe375db41a81bde8535739862d997c8b9487bb676634594fe1826200eb9a3"
+    },
+    {
+      "path": "source/target625/origin_completion/enumerate_radial_origin_envelope.py",
+      "bytes": 10236,
+      "sha256": "52c10655c95f37bbb540cd095184b037e2b4a5ca34798a8681432f0efec52906"
+    },
+    {
+      "path": "source/target625/origin_completion/fresh_joint_count_dependencies.py",
+      "bytes": 6588,
+      "sha256": "0b387c4a74448cf9f65218bca4213c3826915884b850caf80f681c136d497922"
+    },
+    {
+      "path": "source/target625/origin_completion/verify_joint_count_origin_credit.py",
+      "bytes": 8286,
+      "sha256": "be4e997fa59a1b3f34557cc7e85af4d0d5773dc5f43de76e7b51a129b32b4fd8"
+    },
+    {
+      "path": "source/target625/origin_completion/verify_ray_center_radial_floor.py",
+      "bytes": 9606,
+      "sha256": "0528ced8fbcdd52966c77de700d0b2de4200745f7959a7b40d825da628eafd5c"
+    }
+  ]
+}

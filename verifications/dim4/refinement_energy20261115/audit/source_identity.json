@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "files_matched": 277,
+  "source_commit": "bb97550ba47ad92bacfee567843888be16895a23",
+  "vendor_manifest_sha256": "63e3b755d4ef9c408d5e799df69545b6293a17ddf16e6d0e0bf4c63a23d6614f",
+  "actual_base_source": "/workspace/work/felpix-sphere-packing/preprints/D4",
+  "note": "Every source file used by the fresh base replay is byte-identical to the frozen vendor/D4 file. Absolute paths in audit reports are historical provenance only."
+}

@@ -1,0 +1,60 @@
+{
+ "stage": "stage4_graph_slack",
+ "files": [
+  {
+   "path": "CHANGES.md",
+   "bytes": 1608,
+   "sha256": "57c866b09d5d452685a1bdefb95246a53277955e2eebd437a40f7179a7f4851d"
+  },
+  {
+   "path": "README.md",
+   "bytes": 4901,
+   "sha256": "adaca5bc3f97544ab19f645eed65479701fa19d5b24a7a07311d29d39aea0761"
+  },
+  {
+   "path": "proofs/graph_slack.md",
+   "bytes": 6425,
+   "sha256": "63fe2c1bb7481ccae7cc32f58282b4b47027337b942b1291a5fe932617f84d31"
+  },
+  {
+   "path": "requirements.txt",
+   "bytes": 122,
+   "sha256": "73ecd853aead71cdac2b3ea0427fb85905158186b4071aef667a4609ddfdcf0a"
+  },
+  {
+   "path": "run.py",
+   "bytes": 9062,
+   "sha256": "e8f4ce1748dece1c694002352a2dc1763eac434b8b21773b9d7d604743db60f5"
+  },
+  {
+   "path": "src/annular_count_151_certificate.json",
+   "bytes": 1013,
+   "sha256": "96f07f48286b417c8431039c34e60cc58a6cd475ae83e3b21bb15238ed94d686"
+  },
+  {
+   "path": "src/gap_check.py",
+   "bytes": 1216,
+   "sha256": "f3463d0ea04307d0033e0e5b85cefd12504ca6cfd0e529e21005e7a402bef363"
+  },
+  {
+   "path": "src/verify_annular_count_151.py",
+   "bytes": 1641,
+   "sha256": "1a7c49c20097add53165de464f458f2167c92aa7938eca5319fa279048dc01bd"
+  },
+  {
+   "path": "src/verify_exterior_graphs.py",
+   "bytes": 5915,
+   "sha256": "60a962e9e2bcdc00a882b0707c1842ff761d3df4d6b6e496406bc4f4a207a76b"
+  },
+  {
+   "path": "src/verify_projected_eight.py",
+   "bytes": 6334,
+   "sha256": "cdf00b1c4b5c57463a59732185f36d61ff4485435f684fda4889d59793eb5a75"
+  },
+  {
+   "path": "test_projected_eight.py",
+   "bytes": 1917,
+   "sha256": "19cb1b6fd9b4561e393048496d0b000300a9514d0851746969494ea8f982a2e6"
+  }
+ ]
+}

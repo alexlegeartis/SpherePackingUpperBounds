@@ -1,0 +1,28 @@
+{
+  "status": "OPTIONAL_CORRELATED_HELPER_CONSTRUCTED_NOT_GLOBALLY_VERIFIED",
+  "parent": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_three_graphs.py",
+  "parent_sha256": "c2cc6a2d151f6995fd25673886cd06dc426e910e26a2bdeee0b2d2a2676483fc",
+  "output": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_three_graphs_correlated.py",
+  "output_sha256": "05072a15b7f2ef219d71f3a940e689e3d052be72fb57ccdbab7b8662d6a0f92f",
+  "substitutions": [
+    {
+      "old": "spherical_rays=(), graph_weights=(), outer_graph_weight=Q(0)):",
+      "new": "spherical_rays=(), graph_weights=(), outer_graph_weight=Q(0), factor_acceptor=None):"
+    },
+    {
+      "old": "    antipodal_dependent_leaves = 0\n",
+      "new": "    antipodal_dependent_leaves = 0\n    correlated_factor_leaves = 0\n"
+    },
+    {
+      "old": "        failure = None\n",
+      "new": "        # This is one additional sufficient coefficientwise inequality.\n        # None and False preserve every existing corner, limit, split and\n        # exhaustive closed-domain coverage gate below.\n        if factor_acceptor is not None and correction_lower > 0 and factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, correction_lower):\n            leaves += 1\n            correction_leaves += 1\n            correlated_factor_leaves += 1\n            lift_dependent_leaves += int(not factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, unlifted_lower))\n            antipodal_dependent_leaves += int(not factor_acceptor(\n                hi, scale, tuple(bounds), kind, angular_degree, without_antipodal))\n            continue\n        failure = None\n"
+    },
+    {
+      "old": "                  correction_leaves=correction_leaves, lift_dependent_leaves=lift_dependent_leaves,",
+      "new": "                  correlated_factor_leaves=correlated_factor_leaves,\n                  correction_leaves=correction_leaves, lift_dependent_leaves=lift_dependent_leaves,"
+    }
+  ],
+  "exact_inverse_recovers_entire_parent": true,
+  "activation": "Fresh coordinator must source-pin and pass audited factor_correlated.accept.",
+  "unchanged": "Every original acceptance, rejection, subdivision and coverage gate is preserved."
+}

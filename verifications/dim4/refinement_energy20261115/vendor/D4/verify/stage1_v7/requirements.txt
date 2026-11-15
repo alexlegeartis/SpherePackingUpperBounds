@@ -1,0 +1,5 @@
+# Versions used for the 2026-11-13 clean-copy runs (CPython 3.14.6, macOS arm64).
+# The 2026-10-19 accepted replay used the same pair; the original producer used
+# numpy 2.3.5 with python-flint 0.9.0 on CPython 3.12.
+numpy==2.5.2
+python-flint==0.9.0

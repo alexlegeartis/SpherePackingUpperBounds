@@ -1,5 +1,18 @@
 # Comparison sources and conventions
 
+**4D, 15 November 2026:** the current strict upper **0.629520189662**
+improves [Felpix-Studios/sphere-packing](https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4)
+commit `bb97550ba47ad92bacfee567843888be16895a23`, whose strict bound is
+**0.629521681653**. Its complete non-Lean proof is vendored unchanged under
+Apache-2.0, attributed and fully replayed. The new degree-16 polynomial,
+five exact Gram credits and 308-leaf interval tree supply the stricter
+result. The strict-bound reduction is exactly **0.000001491991**. The
+registered 4D percentages now use that comparator, rather than the older
+paper-reported 0.63610277. This is a comparison with the pinned repository,
+not an exhaustive worldwide-priority assertion. See [proof and replay
+scope](verifications/dim4/refinement_energy20261115/PROOF.md) and
+[attribution](verifications/dim4/refinement_energy20261115/NOTICE.md).
+
 **Sixteen-profile follow-up, 14 November 2026:** the selected bounds in
 22D, 25D, 32D and 35D–47D are now stronger than the preceding main at `8a080d6`.
 The [dated change record](CHANGES_20261114.md) gives exact before/after values;
@@ -26,7 +39,7 @@ worldwide priority. The registered table retains its historical published
 comparators, so its percentages differ from the repository-to-repository
 reductions above.
 
-Reviewed 10 November 2026. Except for the updated 4D and 5D rows below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
+Reviewed 10 November 2026. Except for the current 4D comparator above and the updated 5D row below, the numerical baseline is [Henry Cohn's sphere-packing table](https://cohn.mit.edu/sphere-packing/), retrieved through the search index (reported crawl age: four months). Direct live retrieval failed with HTTP 502. Thus these are pinned, source-attributed comparisons, not a claim that no newer results exist.
 
 ## Lower bounds
 
@@ -41,7 +54,7 @@ Reviewed 10 November 2026. Except for the updated 4D and 5D rows below, the nume
 
 ## Previous upper bounds
 
-**4D current comparison:** [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), version dated 8 December 2025, reports 0.63610277 for unrestricted packing density. Checked directly on 10 November 2026. This is the paper’s printed value at eight decimal places; no additional digits, directed-rounding guarantee or independent certificate replay are asserted. Percentages therefore compare against that reported decimal, not a newly certified exact baseline. The repository bound <0.635766243 remains smaller. This paper reports dimensions 4–7 and 9–16 in Table 1, with a separate 8D case study; it provides no replacement comparison for our 19D, 20D, 21D or 48D rows.
+**4D historical paper comparison (reviewed 10 November 2026):** [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), version dated 8 December 2025, reports 0.63610277 for unrestricted packing density. Checked directly on 10 November 2026. This is the paper’s printed value at eight decimal places; no additional digits, directed-rounding guarantee or independent certificate replay are asserted. Percentages therefore compare against that reported decimal, not a newly certified exact baseline. The repository bound <0.635766243 remains smaller. This paper reports dimensions 4–7 and 9–16 in Table 1, with a separate 8D case study; it provides no replacement comparison for our 19D, 20D, 21D or 48D rows.
 
 **4D historical comparison:** Cohn–de Laat–Salmon, [Three-point bounds for sphere packing](https://arxiv.org/abs/2206.15373), supplies the earlier upper 0.6361073321551329 from Cohn's table. The new package also assumes four published near-neighbor average-degree bounds from [de Laat–de Oliveira Filho–Vallentin, Table 2](https://arxiv.org/pdf/1206.2608). See the 4D proof for exact thresholds and the limits of its independent computational audit.
 

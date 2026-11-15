@@ -1,0 +1,34 @@
+{
+  "schema": "INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V7",
+  "weights": [
+    "0",
+    "0",
+    "1/50000000"
+  ],
+  "outer_graph_weight": "1/5000000",
+  "narrow_graph_weight": "1/5000000",
+  "moderate_graph_weight": "1/100000000",
+  "source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861",
+    "verify_outer_exterior_graph.py": "082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a",
+    "outer_exterior_graph_certificate.json": "7f09a534567c3031d6e49f4f06b264ccb133d63c706c68cbcb2f1e9a2900e09b",
+    "outer_exterior_graph_bounds.py": "5bc88b06cf91c18820f6d7afd4775c103c15e3ddd0db9b534476a1b53e99ce98",
+    "verify_antipodal_wide_exterior_graph.py": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4",
+    "antipodal_wide_exterior_graph_certificate.json": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db",
+    "verify_narrow_exterior_graph.py": "3145673bb48a7433475c69272c5edbdfdf479d9087fecf62f9f5bce2d8c1868c",
+    "narrow_exterior_graph_certificate.json": "66f94b1dcc51672652f617f32aad6249557c06ccc244ef438998a92a969319f7",
+    "narrow_exterior_graph_bounds.py": "994dd2616736800fa140ad767611d5ccdc694b2168bb1f8bf5780c444e65ca4c",
+    "verify_moderate_exterior_graph.py": "a87416d6f0dc55ebb567113f28537a09f15ba9612d0d7740ae3ffc4e12d525e2",
+    "moderate_exterior_graph_certificate.json": "94e0ffc1604de3915a0919764a77d589c620ad322d8cdc96360eead2c5214b62",
+    "moderate_exterior_graph_bounds.py": "4e94b4edb526d79d48209cd6a44ef225ba34cc7812996e998466baa662e7db57"
+  },
+  "base_input_sha256": {
+    "kernel.json": "360e9e00e7c719db4f57c63a5a92d579ffa0ab9e0dfcbb85cbdc2388f1f91def",
+    "origin.json": "b10f107e8caa9aef558e1773497b773ce39bef41032a414443e2010e135d4bcc",
+    "scalar.json": "d78ee9157fa8b34bc2d55fd8c8cabdba1be5a2ab3950a8c9406583b6e16d316c"
+  },
+  "threshold": "157500072861/250000000000",
+  "construction_scope": "All five existing independent graph energies are retained; one independent moderate-angle energy is added with its complete origin charge. A complete global proof is still required."
+}

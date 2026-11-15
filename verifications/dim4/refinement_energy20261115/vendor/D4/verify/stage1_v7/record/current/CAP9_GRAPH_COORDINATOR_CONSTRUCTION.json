@@ -1,0 +1,74 @@
+{
+  "status": "ISOLATED_CAP9_GRAPH_COORDINATOR_CONSTRUCTION_ONLY_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_four_graphs_correlated.py",
+  "parent_sha256": "dda5dffee3976a5f4fdec36efd3812f277776b2a16bf652e2651ee50a52555c7",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_cap9_graphs_correlated.py",
+  "coordinator_sha256": "6cf77a4362dd7f37e6f87bdba197e8e777a004a0c644bd500f01faeb2500ad69",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated.py",
+  "helper_sha256": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+  "helper_byte_identical": true,
+  "parent_reconstruction_passed": true,
+  "coordinator_replacements": [
+    {
+      "old": "four_graph_route",
+      "new": "cap9_graph_route",
+      "count": 9
+    },
+    {
+      "old": "                      INTEGRATION.parent/'FOUR_GRAPH_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'FOUR_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'CAP9_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_four_graphs_correlated.py',\n",
+      "count": 1
+    },
+    {
+      "old": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V2'",
+      "new": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V3'",
+      "count": 1
+    },
+    {
+      "old": "graph_bounds.CAPACITIES == (862,1102,604)",
+      "new": "graph_bounds.CAPACITIES == (862,1102,1358)",
+      "count": 1
+    },
+    {
+      "old": "antipodal_graph_report['status'] == 'EXACT_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "new": "antipodal_graph_report['status'] == 'EXACT_PROJECTED_S2_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'",
+      "count": 1
+    },
+    {
+      "old": "graph_bounds.ANTIPODAL_ANGULAR == (F(-1),F(-183,200))",
+      "new": "graph_bounds.ANTIPODAL_ANGULAR == (F(-1),F(-7,8))",
+      "count": 1
+    },
+    {
+      "old": "antipodal_graph_report['even_ordered_edge_bound'] == graph_bounds.CAPACITIES[2] == 604",
+      "new": "antipodal_graph_report['even_ordered_edge_bound'] == graph_bounds.CAPACITIES[2] == 1358",
+      "count": 1
+    },
+    {
+      "old": "antipodal_graph_report['degree_proof']['degree_bound'] == 4",
+      "new": "antipodal_graph_report['degree_proof']['degree_bound'] == 9",
+      "count": 1
+    },
+    {
+      "old": "FOUR_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "CAP9_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    }
+  ],
+  "graph_source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861",
+    "verify_outer_exterior_graph.py": "20780571e3886675af248c4530dadecb42e9b935c242732f743b05967a059597",
+    "outer_exterior_graph_certificate.json": "eb425cf533e0ea4274aa2813894ef93430ce0cd7cb09c3e882ecec656b34310e",
+    "outer_exterior_graph_bounds.py": "3295bd7d08d88c48908386ab0e516b127bf7c6879b24fce7c25db4defbe93b6a",
+    "verify_antipodal_wide_exterior_graph.py": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4",
+    "antipodal_wide_exterior_graph_certificate.json": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db"
+  },
+  "mathematical_changes": [
+    "E includes angular interval [-1,-7/8].",
+    "Fresh S3 count151 and exact projected S2 degree9 give ordered capacity1358.",
+    "Graph origin charge is capacity times its nonnegative weight, divided by8 for density.",
+    "All pair, polynomial identity, Bernstein enclosure, subdivision, and complete global coverage gates remain byte-equivalent."
+  ]
+}

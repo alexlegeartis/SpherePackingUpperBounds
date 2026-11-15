@@ -1,0 +1,130 @@
+{
+  "stage": "stage5_kernelbox",
+  "files": [
+    {
+      "path": "CHANGES.md",
+      "bytes": 5275,
+      "sha256": "2452d084837923b87f9f26a46807e4ca006b0d20b7f1d56b6513d06801593496"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7076,
+      "sha256": "308f4d8d0486e7773570a01993a670410578489c68ef15a76d61e1f5995cb322"
+    },
+    {
+      "path": "negative_controls.py",
+      "bytes": 4626,
+      "sha256": "e0339dccbfe504060de82e4a47a7cff0716c9a1a486d7e89357d757ebda9c0ec"
+    },
+    {
+      "path": "proofs/conditional_theorem.md",
+      "bytes": 4744,
+      "sha256": "5a5f3829d6c5f084b881418b20815b4fd76af9ddbb43f4f6badae8189d965cb8"
+    },
+    {
+      "path": "proofs/far_pair_lemma.md",
+      "bytes": 5909,
+      "sha256": "54eb0c8061bdf7d6277b31d2f3c0df74113cf044a81d24cb44087ec491e49c87"
+    },
+    {
+      "path": "proofs/kernel_box_method.md",
+      "bytes": 7375,
+      "sha256": "c084db78174127d8f0ba0db68b678eab09baf14a1c4caac798f944b843e6b26e"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 105,
+      "sha256": "b51588de86aa1b29e1683ce71cdeea0bf2ec9cd51a8aef491c46d982de16988c"
+    },
+    {
+      "path": "run.py",
+      "bytes": 11554,
+      "sha256": "3725877f6332c6dab8e8145032c981834d5de46bcdc152849a4f66a196772579"
+    },
+    {
+      "path": "src/check_kernelbox.py",
+      "bytes": 6575,
+      "sha256": "db0d1fbfce2a733290cc803ee3693d576fe5b752eb0c318ee0991574c27dd374"
+    },
+    {
+      "path": "src/controls.py",
+      "bytes": 3522,
+      "sha256": "716c94c4a1c17b9dc16102b14dd311e9a69d493e4c9947a1f26a3839dd29e3b6"
+    },
+    {
+      "path": "src/coord_check_kernelbox.py",
+      "bytes": 3606,
+      "sha256": "1276aa89a06b47a04177e5879de5669285ff7a7c1fb203eb6d5239b5ee4b9fad"
+    },
+    {
+      "path": "src/energy_d4_gram.py",
+      "bytes": 7534,
+      "sha256": "39aadbc23b8c213d398ea1a3923f5bcc2487f95d22655e90888b40361f80b5bc"
+    },
+    {
+      "path": "src/exact_values.py",
+      "bytes": 2347,
+      "sha256": "574e8f23a3afee8fcb5da78dd778f586db728c5fe2cf0871cb577e85ff7fba3f"
+    },
+    {
+      "path": "src/hrlemma_check.py",
+      "bytes": 4532,
+      "sha256": "09b30adc7b396859b355b5dbd23271ad6a46a0132f55d4e7b643e08b95e4b76e"
+    },
+    {
+      "path": "src/independent_antipodal_allocation_exact.py",
+      "bytes": 8713,
+      "sha256": "2a9fc34c38455412a59c572ea036656255fb34002c6b2ee41cd06ba982cf28fa"
+    },
+    {
+      "path": "src/kbox_run.py",
+      "bytes": 5544,
+      "sha256": "e3d707dc5a00f4ad8453ce6f6328802e9dce988ca84b3391e187a1e77a576911"
+    },
+    {
+      "path": "src/kcert.py",
+      "bytes": 15323,
+      "sha256": "c6bf9dd03894612b620fcf2e2e7c4789d6f712108a5bd62aaf4963af8e59e210"
+    },
+    {
+      "path": "src/kernel_poly.py",
+      "bytes": 2407,
+      "sha256": "1d5af27df7e9adf9e8209a808032525cd30834bea2f16e92cc08074b633be5b0"
+    },
+    {
+      "path": "src/kformula.py",
+      "bytes": 13345,
+      "sha256": "310681393d7a9cd6dc079611b179243ddf6cf159033c028c5bcbe64a4567b18a"
+    },
+    {
+      "path": "src/ledger.py",
+      "bytes": 2398,
+      "sha256": "36408ede40732b122268842f23d065441014967e7dd6e98d50fbbb2143bae0d5"
+    },
+    {
+      "path": "src/paths.py",
+      "bytes": 981,
+      "sha256": "3e0c9e3f2531f8b80deffb7157c9ab91bc810b35bb44f085232e143ece983229"
+    },
+    {
+      "path": "src/pointed_graph_energy.py",
+      "bytes": 10218,
+      "sha256": "da0cc46d8a68620ca6a39f6c42f8292741e2d1bd8f99d95c29c5346535484611"
+    },
+    {
+      "path": "src/raw_v7.py",
+      "bytes": 13682,
+      "sha256": "2869947703acd55ea05056d6d74bd28877a50a6062d0ec82e25781e084de385b"
+    },
+    {
+      "path": "src/two_capacity_antipodal_allocation_exact.py",
+      "bytes": 5445,
+      "sha256": "3ae351509f553bf7f2f13d07cda50ceedc24f8b888407c8a4e5247653c2820e7"
+    },
+    {
+      "path": "src/validate_kformula.py",
+      "bytes": 2211,
+      "sha256": "74fb3a2d0a680507845a3c19752b642adad4855497dcc35fee089e0974ad9490"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "status": "WIDER_A_COORDINATOR_CREATED_NOT_GLOBALLY_VERIFIED",
+  "parent": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_three_graphs_correlated.py",
+  "parent_sha256": "d091a9bedf774cad656d3f54078e20789bfdccc480209fdd801f6aa66d3d8149",
+  "output": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_wide_graphs_correlated.py",
+  "output_sha256": "cfd1925e7c855fe75acd5dbd7d43b432954476bdc0c27a35f1b064c834a845a4",
+  "substitutions": [
+    {
+      "old": "INTEGRATION.parent/'graph_route",
+      "new": "INTEGRATION.parent/'wide_graph_route",
+      "occurrences": 7
+    },
+    {
+      "old": "assert [r['even_ordered_edge_bound'] for r in graph_reports] == [820,1102]",
+      "new": "assert [r['even_ordered_edge_bound'] for r in graph_reports] == [862,1102]"
+    },
+    {
+      "old": "assert graph_bounds.CAPACITIES == (820,1102,9630)",
+      "new": "assert graph_bounds.CAPACITIES == (862,1102,9630)"
+    },
+    {
+      "old": "[(F(-3,4),F(-1,2)),(F(-19,20),F(-3,4))]",
+      "new": "[(F(-4,5),F(-1,2)),(F(-19,20),F(-3,4))]"
+    },
+    {
+      "old": "INTEGRATION/'verify_combined_binary_three_graphs.py',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.py',",
+      "new": "INTEGRATION/'verify_combined_binary_three_graphs.py',\n                      INTEGRATION/'verify_combined_binary_three_graphs_correlated.py',\n                      INTEGRATION.parent/'WIDE_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_three_graphs_correlated.py',"
+    }
+  ],
+  "exact_inverse_recovers_entire_parent": true,
+  "graph_source_copies": [
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/verify_exterior_graphs.py",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/verify_exterior_graphs.py",
+      "sha256": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/exterior_wide_ab_graph_certificates.json",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/exterior_graph_certificates.json",
+      "sha256": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/wide_ab_graph_repair_bounds.py",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/graph_repair_bounds.py",
+      "sha256": "48f063d0c3b704b59055e3f036d667ae4aace33eed22e1fa913d0eeab4fad79f"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/verify_outer_exterior_graph.py",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/verify_outer_exterior_graph.py",
+      "sha256": "20780571e3886675af248c4530dadecb42e9b935c242732f743b05967a059597"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/outer_exterior_graph_certificate.json",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/outer_exterior_graph_certificate.json",
+      "sha256": "eb425cf533e0ea4274aa2813894ef93430ce0cd7cb09c3e882ecec656b34310e"
+    },
+    {
+      "source": "/workspace/scratch/93cb6ce085de/geometry/outer_exterior_graph_bounds.py",
+      "destination": "/workspace/scratch/93cb6ce085de/current/wide_graph_route/outer_exterior_graph_bounds.py",
+      "sha256": "3295bd7d08d88c48908386ab0e516b127bf7c6879b24fce7c25db4defbe93b6a"
+    }
+  ],
+  "source_candidate": "/workspace/scratch/93cb6ce085de/current/candidates/robust_three_graphs_degree17",
+  "candidate": "/workspace/scratch/93cb6ce085de/current/candidates/robust_wide_graphs_degree17",
+  "base_inputs_byte_identical": true,
+  "objective": "2137430463939382233835198819938452767784166327906812043578958358843516337192242944815806429353749165105405128225898016451200630217797059173212671166189544383759327787675881874075175523322299156901438578260158827604103428781188188121988313451205261991853134586005629708337417846521949515417213346292068140782309120320355819422858367332132898962643745219896463523840604879163002590270967885660898120419462498122252093305161352183145706354118722369961838370350220570646757353388258122436592888685476544535753358647972378277928022429730954064085109435748443406658817645266647053912065435673411118700378163461683649984907258204592664299661732666614898017491505493730473831747996671808758720817974751909770445882646147426623811354108812966493213392075469649426120233538564458693/3392160839203324899060946023240164302096123909555998461684254525057997534707031991529763314770453888763310637166436866614939612225426247351212881914461723990055803093479022284833018599206738106986367892767900714804816557384461218844661398182362971862813561598709796062917741216398193444428395243400275833838629112042549235420763384339023024725458017726443591682506475683641014229785825484865270724349725627265605188059519131176785723598878456421939696963727118369359761055726663527069685235328211228679829478034008321098638044597887038324432085317509374356552013386182654665830486418791447102112934592746651528342984144929492823675610698284356434218228140348728460421383745465000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "objective_decimal": 0.6301088200880752,
+  "threshold": "63010882009/100000000000",
+  "graph_A_capacity": 862,
+  "graph_A_angular_interval": [
+    "-4/5",
+    "-1/2"
+  ],
+  "extra_density_cost": "63/40000000",
+  "all_narrow_graph_corrections_preserved_or_increased": true
+}

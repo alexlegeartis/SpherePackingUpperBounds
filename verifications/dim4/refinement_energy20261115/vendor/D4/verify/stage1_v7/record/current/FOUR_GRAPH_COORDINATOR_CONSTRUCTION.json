@@ -1,0 +1,118 @@
+{
+  "status": "ISOLATED_FOUR_GRAPH_COORDINATOR_CONSTRUCTION_ONLY_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_wide_graphs_correlated.py",
+  "parent_sha256": "cfd1925e7c855fe75acd5dbd7d43b432954476bdc0c27a35f1b064c834a845a4",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_four_graphs_correlated.py",
+  "coordinator_sha256": "dda5dffee3976a5f4fdec36efd3812f277776b2a16bf652e2651ee50a52555c7",
+  "parent_helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_three_graphs_correlated.py",
+  "parent_helper_sha256": "05072a15b7f2ef219d71f3a940e689e3d052be72fb57ccdbab7b8662d6a0f92f",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated.py",
+  "helper_sha256": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+  "parent_reconstruction_passed": true,
+  "coordinator_replacements": [
+    {
+      "old": "wide_graph_route",
+      "new": "four_graph_route",
+      "count": 7
+    },
+    {
+      "old": "origin_route/interval_combined_binary_three_graphs_correlated.py",
+      "new": "origin_route/interval_combined_binary_four_graphs_correlated.py",
+      "count": 3
+    },
+    {
+      "old": "05072a15b7f2ef219d71f3a940e689e3d052be72fb57ccdbab7b8662d6a0f92f",
+      "new": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+      "count": 1
+    },
+    {
+      "old": "                      INTEGRATION.parent/'WIDE_GRAPH_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'WIDE_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'FOUR_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_wide_graphs_correlated.py',\n                      INTEGRATION.parent/'four_graph_route/verify_antipodal_wide_exterior_graph.py',\n                      INTEGRATION.parent/'four_graph_route/antipodal_wide_exterior_graph_certificate.json',\n",
+      "count": 1
+    },
+    {
+      "old": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V1'",
+      "new": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V2'",
+      "count": 1
+    },
+    {
+      "old": "assert len(graph_weights) == 3 and min(graph_weights) >= 0 and graph_weights[2] == 0",
+      "new": "assert len(graph_weights) == 3 and min(graph_weights) >= 0",
+      "count": 1
+    },
+    {
+      "old": "'verify_exterior_graphs.py','exterior_graph_certificates.json','graph_repair_bounds.py','verify_outer_exterior_graph.py','outer_exterior_graph_certificate.json','outer_exterior_graph_bounds.py'",
+      "new": "'verify_exterior_graphs.py','exterior_graph_certificates.json','graph_repair_bounds.py','verify_outer_exterior_graph.py','outer_exterior_graph_certificate.json','outer_exterior_graph_bounds.py','verify_antipodal_wide_exterior_graph.py','antipodal_wide_exterior_graph_certificate.json'",
+      "count": 2
+    },
+    {
+      "old": "assert graph_bounds.CAPACITIES == (862,1102,9630)",
+      "new": "assert graph_bounds.CAPACITIES == (862,1102,604)",
+      "count": 1
+    },
+    {
+      "old": "    outer_graph_weight = F(graph_data['outer_graph_weight'])\n",
+      "new": "    antipodal_graph_verifier = load_module('exact_antipodal_exterior_graph_verifier', graph_dir/'verify_antipodal_wide_exterior_graph.py')\n    assert antipodal_graph_verifier.parse is graph_verifier.parse\n    antipodal_graph_report = antipodal_graph_verifier.verify(json.loads((graph_dir/'antipodal_wide_exterior_graph_certificate.json').read_text()))\n    assert antipodal_graph_report['status'] == 'EXACT_ANTIPODAL_EXTERIOR_GRAPH_CERTIFICATE_PASS'\n    assert tuple(map(F,antipodal_graph_report['radial_interval'])) == graph_bounds.ANTIPODAL_RADIAL == (F(33,28),F(7,4))\n    assert tuple(map(F,antipodal_graph_report['target_angular_interval'])) == graph_bounds.ANTIPODAL_ANGULAR == (F(-1),F(-183,200))\n    assert antipodal_graph_report['even_ordered_edge_bound'] == graph_bounds.CAPACITIES[2] == 604\n    assert antipodal_graph_report['degree_proof']['degree_bound'] == 4\n    assert antipodal_graph_report['count_proof']['count_bound'] == 151\n    assert F(antipodal_graph_report['minimum_selected_distance_squared']) > core.BREAKS[-1]**2\n    graph_reports.append(antipodal_graph_report)\n    outer_graph_weight = F(graph_data['outer_graph_weight'])\n",
+      "count": 1
+    },
+    {
+      "old": "CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "FOUR_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    },
+    {
+      "old": "                validate_branch_packet(job, packet, expected, seen, angular_degree)\n",
+      "new": "                if packet['cyclic'].get('status') in ('VIOLATION','UNKNOWN'):\n                    assert (packet['kind'],tuple(packet['regions'])) == job\n                    result['parallel'].setdefault('unproved_jobs', []).append(dict(kind=job[0],regions=list(job[1]),status=packet['cyclic']['status']))\n                    checkpoint()\n                    continue\n                validate_branch_packet(job, packet, expected, seen, angular_degree)\n",
+      "count": 1
+    }
+  ],
+  "helper_replacements": [
+    {
+      "old": "node_limit=180000, depth_limit=66",
+      "new": "node_limit=400000, depth_limit=66",
+      "count": 1
+    },
+    {
+      "old": "    assert graph_weights[2]==0, 'The long full-triangle graph is not included.'\n",
+      "new": "",
+      "count": 1
+    },
+    {
+      "old": "        assert 0 <= gl <= gu\n",
+      "new": "        # At a singleton every closed graph membership is evaluated exactly.\n        if all(left == right for left, right in bounds):\n            gu = gl\n        assert 0 <= gl <= gu\n",
+      "count": 1
+    },
+    {
+      "old": "    unknown = False\n",
+      "new": "    unknown = False\n    unresolved_box = None\n",
+      "count": 1
+    },
+    {
+      "old": "            unknown = True\n            break\n",
+      "new": "            unresolved_box = dict(bounds=[[str(a),str(b)] for a,b in bounds],\n                integer_upper=maximum, scale=str(scale), correction_lower=str(correction_lower),\n                factor_lower=str(factor_lower), levels=list(levels))\n            unknown = True\n            break\n",
+      "count": 1
+    },
+    {
+      "old": "                  maxdepth=maximum_depth, binary_scale=precision, failures=failures,\n",
+      "new": "                  maxdepth=maximum_depth, binary_scale=precision, failures=failures, unresolved_box=unresolved_box,\n",
+      "count": 1
+    }
+  ],
+  "graph_source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "24cc072b172e977b257c8ca8b1968dd17fd45f7b5075edc4503865e1811d5c0f",
+    "verify_outer_exterior_graph.py": "20780571e3886675af248c4530dadecb42e9b935c242732f743b05967a059597",
+    "outer_exterior_graph_certificate.json": "eb425cf533e0ea4274aa2813894ef93430ce0cd7cb09c3e882ecec656b34310e",
+    "outer_exterior_graph_bounds.py": "3295bd7d08d88c48908386ab0e516b127bf7c6879b24fce7c25db4defbe93b6a",
+    "verify_antipodal_wide_exterior_graph.py": "3145673bb48a7433475c69272c5edbdfdf479d9087fecf62f9f5bce2d8c1868c",
+    "antipodal_wide_exterior_graph_certificate.json": "66f94b1dcc51672652f617f32aad6249557c06ccc244ef438998a92a969319f7"
+  },
+  "implementation_changes": [
+    "Slot3 is exact graph E with independent capacity604, replacing the zero C slot.",
+    "Fresh E local proof is mandatory; its independent origin cost is charged once.",
+    "Exact singleton graph membership tightens only corner rejection.",
+    "Unproved returned branches are retained while remaining jobs finish; none is accepted.",
+    "All base pair, identity, coefficient enclosure, and final global coverage gates are unchanged."
+  ]
+}

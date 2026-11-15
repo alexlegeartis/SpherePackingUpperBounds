@@ -1,0 +1,316 @@
+{
+  "status": "PASS",
+  "mode": "full",
+  "full_certificate_replay": true,
+  "stages": {
+    "stage1_v7": "PASS",
+    "stage2_origin": "PASS",
+    "stage3_census": "PASS",
+    "stage4_graph_slack": "PASS",
+    "stage5_kernelbox": "PASS",
+    "kernel_independent": "PASS",
+    "kernel_link": "PASS"
+  },
+  "branches_rerun": 112,
+  "count_vectors_checked": 165503,
+  "group_floors": 124,
+  "independent_kernel": {
+    "full_branches": 84,
+    "exterior_branches": 28,
+    "pair_pieces": 7,
+    "polynomial_coefficients": 1059688,
+    "nonpolynomial_identity": "written component proof with exact parameter contracts"
+  },
+  "kernel_link": {
+    "radial_cells": 25,
+    "angular_endpoint_cells": 25,
+    "method": "exact Q[r,s,z] coefficients and canonical function atoms",
+    "negative_controls_rejected": 5
+  },
+  "kernel_box_leaves_replayed": [
+    286,
+    4663
+  ],
+  "U_raw": "369462646652778691914035302866917107832373405716775120487250306902205591874180186339297815745660660141871470084340375674161672455538550819544301225617808750157258580337497945418637848370319863479667524103344436946970406552507197610219282301214170449362897341006488482431844899849761582246862544218516512587732520298408455058378249613106668449339368912088594604151520175022100202397543108761041128131135789344591944245706440039185444108217343852390333332450946534978990148323576725662350410716642888423822920548539681112377854170107609055797884413379579507028880395322038925144366775354051407257935124074304748476705359099434339076648541479420818055988472194160934712608364105478782848449344617587689671569933215068751316577640865237958452801488000593984161644364584860156497435049903/586448374184398134044281483059834664497457086443927844999058987153595825195345125061326378404508311315290663071999968779698179049134627224948135248130338355536906138563406602208953837233816091398669203405652164862408944401607832555549536208196050805722177932473080025334954924661269901063907468665277169781494184474510670945771265662170246472692536207739980811329801709418749075068236158987493261577357835074256370291769908209294804413819944352873018636750050671964296310522132598321301817572283489456358181664435286613273732469890151845860790736776231376959921207257099587478166124834163593405724059410712304544481468215225945338864295752552130262067461472584151737099969435638211415150000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "a_new": "30837092411754639780306138551456344728333009953569526722942377689646204827271296893893823001590133671492839556647254650152546365922912105075189155235147699663760954005868149930980083611187028448797629718773247751785868311951528727386873554369165368762158816274212020714876260041256479203175821578959225004136705208567361526844047208707303248791308357549297028467409601811236844293487208204965595269880312104205498425875024065035195776568926385051579517026742232581514583670604600278820390898198867118769122572100407875064102796141251482254550372074623558299832220304754932284643127911258845819883702018290630107150611072764052869752652219707570621125841087245134151983996370707547659891637577015469325996410181902804435697616426695973547616382441794782611553416951649657664335209750477473600957892628301917/8060134101811051714542526089201756758701507131361175094843124680650540831067858618866515245008477411714897051986464223950969632070802505854999531010322677189250334285186131507936273341844388676777874551267574333194753576060754012709657884242003145382978359084011054071551099193038112382703211797430362842643881731097519932807553276239240535105763793446160525197220937890787712996280512867986546937607487673773548282312658701002425665603970820422901178442263831014148253417227679772724897661812940305920858801508651347315333811977854392928625781972275390964703423613490724961889841542145420595048191975799942278909848340627308318555774940493256570154645957279264869672057529377987586051551612590557473983244203795138351693284064000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "binding_group": [
+    24,
+    1
+  ],
+  "graph_saving": "3/8000000",
+  "U_new": "7928170584552286570477860553747965372688349334082443116717247022185801582682608648658210024820297909473362370455131603895530239013209752529615428855546692867207376159234455476607763918736760121631494770710650839434523781968787975247589732242949003351166140351345850923195100445145600602895590000840001180085755210904148805769888379439107445242213961100440333146018030420126985540708999892561488426563201029818057789734060039019360157567359068838799962700355786821316696374452002526259320869746057748931052250145750984558174018160581125253580445176680927015278314822670589325221490087494835321110786371831079015423338866925572484441151788540752920260648375013687834308655988833244572019321069746909167517843111073522858660614990002508946268751961003509454642544273589400343382665119683903859468251825828862312407257894689527/12593959534079768303972697014377744935471104892751836085692382313516470048543529091978930070325745955804526643728850349923390050110628915398436767203629183108203647320603330481150427096631857307465428986355584895616802462594928144858840444128129914660903686068767271986798592489122050597973768433484941941631065204839874895011801994123813336102755927259625820620657715454355801556688301356228979590011699490271169191113529220316290102506204406910783091316037235959606645964418249644882652596582719228001341877357267730180209081215397488950977784331680298382349099396079257752952877409602219679762799962187409810796638032230169247743398344520713390866634308248851358862589889653105603205549394672746053098819068429903674520756350000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  "U_new_decimal": "0.629521681652092",
+  "bound": "density < 629521681653/1000000000000 = 0.629521681653",
+  "seconds": 0.0,
+  "lean_inputs": "PASS",
+  "scalar_generated": "PASS",
+  "lean_build": "PASS",
+  "lean_axioms": {
+    "D4Bound.d4_density_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.d4_patch_bound": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.energy_floor": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.tripleSum_Kalloc": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.far_pair_nbhd": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.far_pair_sum_max": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.quartic_offdiag_ge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.finite_local_energy": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.groups_ge": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.final_arith": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.transfer": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.transfer_quarter": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.coeff_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.G_zero": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.G_pos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.F_neg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.f_nonpos": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.f_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.fourier_integrable": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.integral_f": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.fourierIdentity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.fourier_polyGauss": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.shell_inner_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.two_shell_inner_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.annulus_inner_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.card_le_of_cos_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.broad_degree_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.broad_vertices_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.broadEdges_le": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.graphSlack_of": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.lat_key": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.latitude_count": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.countWithin_le_of_code": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.countDomain_of_admissible": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.groupKeys_nodup": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.groupKeys_complete": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.group_mem": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.schoenberg_S3": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.gram_energy_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.origin_credit_identity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.gram_origin_credit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.gram_energy_ge_credit": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.usage_energy_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.usage_energy_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.gauge_energy_eq": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.gauge_pair_term": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.pair_count_gauge_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.card_le_of_ball": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.blichfeldt_translate": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.pstar_capacity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.step_capacity": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.pstar_allocation_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "D4Bound.Components.step_allocation_nonneg": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "execution": "Final-driver composition on separately fresh verified stage outputs; this integration step does not rerun signs."
+}

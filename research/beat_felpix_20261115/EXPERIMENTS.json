@@ -1,0 +1,35 @@
+[
+  {
+    "route": "Tightened original quartic",
+    "lambda1": "31/10000000",
+    "status": "FULL_NEW_B1_TREE_PASSED",
+    "strict_ceiling": "0.629521506189"
+  },
+  {
+    "route": "Larger quartic coefficient",
+    "lambda1": "311/100000000",
+    "status": "UNRESOLVED_INTERVAL_BOX_REJECTED",
+    "used": false
+  },
+  {
+    "route": "Positive-coefficient degree16, scale99/100",
+    "status": "FULL_NEW_B1_TREE_PASSED",
+    "strict_ceiling": "0.629520280400"
+  },
+  {
+    "route": "Larger-radius positive degree16",
+    "status": "UNRESOLVED_ONE_SIDED_RADIAL_BOX_REJECTED",
+    "used": false
+  },
+  {
+    "route": "Gram-assisted degree16, scale999/1000",
+    "status": "FULL_NEW_B1_TREE_PASSED_AND_EXACT_GRAM_IDENTITIES",
+    "strict_ceiling": "0.629520189662"
+  },
+  {
+    "route": "Conditional Gram restriction using empty annulus (R1,R5]",
+    "status": "SAMPLED_LP_ONLY_NOT_CERTIFIED",
+    "used": false,
+    "note": "Larger Gram credits on the 21 active radial coordinates give a promising sampled energy. A complete conditional proof and box replay are required; the inherited (26,5) group becomes the next bottleneck."
+  }
+]

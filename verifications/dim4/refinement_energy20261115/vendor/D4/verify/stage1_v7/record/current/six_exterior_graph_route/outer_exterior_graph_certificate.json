@@ -1,0 +1,27 @@
+{
+  "schema": "EXACT_FACTORED_S3_NEAR_ANTIPODAL_EXTERIOR_GRAPH_V1",
+  "dimension": 4,
+  "name": "near103_antipodal_three_quarters",
+  "radial_interval": ["1", "103/100"],
+  "target_angular_interval": ["-1", "-3/4"],
+  "kernel_support_radius": "7/4",
+  "maximum_pair_cosine": "5609/10609",
+  "count_polynomial_roots": ["5609/10609", "-1", "-1/2", "-1/2", "0", "0"],
+  "normalized_s3_coefficients": [
+    "46955/678976", "43173/169744", "73173/169744",
+    "5625/10609", "153045/339488", "46827/169744", "7/64"
+  ],
+  "claimed_exact_count_upper": "288000/9391",
+  "claimed_count_bound": 30,
+  "claimed_degree_bound": 4,
+  "claimed_projected_pair_inner_product_upper": "-5737/169744",
+  "claimed_even_ordered_edge_bound": 120,
+  "claimed_minimum_selected_distance_squared": "7/2",
+  "radial_membership": "Both vertices belong to the closed radial interval.",
+  "angular_membership": "The directional cosine belongs to the closed angular interval.",
+  "off_diagonal_kernel": "Minus the nonnegative graph weight on each selected ordered pair; zero otherwise.",
+  "self_diagonal": "0",
+  "linear_origin_coupling": "0",
+  "local_energy": "weight * (120 - ordered_selected_edge_count)",
+  "global_density_bound_proved": false
+}

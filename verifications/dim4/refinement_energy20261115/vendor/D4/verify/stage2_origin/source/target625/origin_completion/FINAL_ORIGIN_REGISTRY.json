@@ -1,0 +1,40 @@
+{
+  "schema": "ACCEPTED_ORIGIN_RADIAL_AND_COMMON_G_ENVELOPE_V1",
+  "source_sha256": {
+    "current/candidates/round9_six_graphs_degree18/kernel.json": "360e9e00e7c719db4f57c63a5a92d579ffa0ab9e0dfcbb85cbdc2388f1f91def",
+    "current/candidates/round9_six_graphs_degree18/origin.json": "b10f107e8caa9aef558e1773497b773ce39bef41032a414443e2010e135d4bcc"
+  },
+  "radial_bundles": [
+    {
+      "file": "target625/origin_completion/RADIAL_FEASIBILITY_FLOORS_VERIFIED.json",
+      "sha256": "f54501670c62ef0d97dc5da175bfd40532075acb4056a9b7f3f3d9bf06869bb8"
+    },
+    {
+      "file": "target625/origin_completion/RADIAL_FEASIBILITY_SUB32_FLOORS_VERIFIED.json",
+      "sha256": "7fd68d462201db0d1b504fb9c83cbf8ef5fb0a447ee509339e688939a79bcc15"
+    }
+  ],
+  "common_g_certificates": [
+    {
+      "kind": "radius_fixed_N",
+      "certificate": "target625/geometry/accepted_stratified_N24_R1_degree8_exact_eps6/certificate.json",
+      "certificate_sha256": "38a01ccadb989afbfa5c77020b804c82ebc14f9d7b2b654d942ade4fbf355e38",
+      "prior_verification": "target625/geometry/accepted_stratified_N24_R1_degree8_exact_eps6/VERIFIED.json",
+      "prior_verification_sha256": "c3dfd6ddbc222e5f6f19540786d29813427e9ae8f382b1bc2a175ba0addb25f8"
+    },
+    {
+      "kind": "bounded_N26",
+      "certificate": "target625/geometry/accepted_combined_boundedN26_degree8_gram_exact_eps4/certificate.json",
+      "certificate_sha256": "fe2283ecad2dd01621ddb54ed6c29b54ff2486225b7dd89556903ef9328fdba2",
+      "prior_verification": "target625/geometry/accepted_combined_boundedN26_degree8_gram_exact_eps4/VERIFIED.json",
+      "prior_verification_sha256": "8ac22fcafcf5e015967b5126e7dd8280c490b9a09ed2b35fdced20d5ad0912d4"
+    },
+    {
+      "kind": "radius_fixed_N",
+      "certificate": "target625/geometry/accepted_stratified_N25_R4_degree8_exact_eps4/certificate.json",
+      "certificate_sha256": "d69bff8f8082d4d2b576745fc05c57ac2ccf49ef659f45d0896e977245a7744b",
+      "prior_verification": "target625/geometry/accepted_stratified_N25_R4_degree8_exact_eps4/VERIFIED.json",
+      "prior_verification_sha256": "ae497dbf1e644a2ad36c2b0384757ceddb0e436c45231a6fcf2efacb16d12ad5"
+    }
+  ]
+}

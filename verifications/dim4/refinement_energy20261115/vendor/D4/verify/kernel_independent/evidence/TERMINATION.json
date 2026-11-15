@@ -1,0 +1,38 @@
+{
+ "final-full": {
+  "state": "terminal",
+  "command": [
+   "/usr/bin/time",
+   "-l",
+   "/Users/kevin/miniforge3/bin/python3",
+   "github-repo/preprints/D4/verify/kernel_independent/run.py",
+   "--out",
+   "work/active/g-3c408633e874/d4-publication/kernel-indep/final-full",
+   "--workers",
+   "1"
+  ],
+  "pid": 92985,
+  "started": 1794602581.073478,
+  "returncode": 0,
+  "reason": null,
+  "peak_rss": 264650752,
+  "stop": "/Users/kevin/Developer/2026/math/sphere-packing/work/active/g-3c408633e874/d4-publication/kernel-indep/final-full.stop",
+  "output_budget": 1073741824
+ },
+ "final-controls": {
+  "state": "terminal",
+  "command": [
+   "/Users/kevin/miniforge3/bin/python3",
+   "github-repo/preprints/D4/verify/kernel_independent/negative_controls.py",
+   "--out",
+   "work/active/g-3c408633e874/d4-publication/kernel-indep/final-controls"
+  ],
+  "pid": 93006,
+  "started": 1794602582.226965,
+  "returncode": 0,
+  "reason": null,
+  "peak_rss": 300875776,
+  "stop": "/Users/kevin/Developer/2026/math/sphere-packing/work/active/g-3c408633e874/d4-publication/kernel-indep/final-controls.stop",
+  "output_budget": 1073741824
+ }
+}

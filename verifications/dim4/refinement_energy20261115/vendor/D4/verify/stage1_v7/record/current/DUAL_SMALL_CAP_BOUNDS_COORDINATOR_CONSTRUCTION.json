@@ -1,0 +1,51 @@
+{
+  "status": "EXACT_CONSERVATIVE_SMALL_CAP_COORDINATOR_CONSTRUCTION_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_dual_antipodal_graphs_correlated.py",
+  "parent_sha256": "598edfa6ad81ce20cbb28d4f246950d6263360debb06e3a67a6520f03caef068",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_dual_graphs_small_cap_bounds.py",
+  "coordinator_sha256": "469250043fbbe9e846ba8369c3925d4ce4aaed610e41ffe1add9ae0c00c338e8",
+  "old_helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated.py",
+  "old_helper_sha256": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_four_graphs_correlated_small_cap_bounds.py",
+  "helper_sha256": "254abb5647ace00f0661799d6166c42684d6eeead6fa817bcb7fbadb03a85965",
+  "coordinator_replacements": [
+    {
+      "old": "origin_route/interval_combined_binary_four_graphs_correlated.py",
+      "new": "origin_route/interval_combined_binary_four_graphs_correlated_small_cap_bounds.py",
+      "count": 3
+    },
+    {
+      "old": "12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf",
+      "new": "254abb5647ace00f0661799d6166c42684d6eeead6fa817bcb7fbadb03a85965",
+      "count": 1
+    },
+    {
+      "old": "                      INTEGRATION.parent/'DUAL_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'DUAL_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'DUAL_SMALL_CAP_BOUNDS_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_dual_antipodal_graphs_correlated.py',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_four_graphs_correlated.py',\n",
+      "count": 1
+    },
+    {
+      "old": "    for pinned_path, expected_hash in (\n",
+      "new": "    for pinned_path, expected_hash in (\n            (INTEGRATION/'verify_combined_binary_dual_antipodal_graphs_correlated.py',\n             '598edfa6ad81ce20cbb28d4f246950d6263360debb06e3a67a6520f03caef068'),\n            (INTEGRATION.parent/'origin_route/interval_combined_binary_four_graphs_correlated.py',\n             '12ca6320fd6b59259838dd00026ecbd1aa434a5fc4b6eacb3f3581324a4a5eaf'),\n",
+      "count": 1
+    },
+    {
+      "old": "DUAL_ANTIPODAL_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "DUAL_SMALL_CAP_BOUNDS_GRAPH_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    }
+  ],
+  "parent_reconstruction_passed": true,
+  "candidate_functions_and_objective_unchanged": true,
+  "fresh_global_verification_required": true,
+  "enclosure_rule": "For each omitted nonnegative cap correction c, a freshly computed exact whole-branch upper U gives 0<=c<=U on every descendant box. Keep zero in the lower sum and U in the upper sum.",
+  "retained_gates": [
+    "fresh scalar half-line signs",
+    "fresh complete supported pair inequalities",
+    "all local-energy geometric dependencies",
+    "all672 polynomial identities",
+    "every unique closed cyclic branch CERTIFIED",
+    "outward integer Bernstein arithmetic",
+    "source and binary before/after bindings"
+  ]
+}

@@ -2,6 +2,11 @@
 
 Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
 
+<!-- d4-energy-20261115:start -->
+> [!IMPORTANT]
+> **4D upper-bound improvement — 15 November 2026.** Every packing in R4 has density **<0.629520189662**, below [Felpix-Studios’ pinned <0.629521681653](https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4). The new degree-16 energy polynomial uses five previously discarded angular Gram credits. The complete base proof is replayed, followed by **308 new interval leaves and 245 exact Gram equations**. [Proof and reproduction](verifications/dim4/refinement_energy20261115/) · [Attribution](verifications/dim4/refinement_energy20261115/NOTICE.md). This is an extension of their certificate; comparison does not establish exhaustive worldwide priority.
+<!-- d4-energy-20261115:end -->
+
 <!-- combined-20261115:start -->
 > [!IMPORTANT]
 > **Nine further upper-bound refinements — 15 November 2026.** The merged profile tools improve **23D, 26D–31D and 33D–34D**, with further reductions up to **2.62% in 29D** and **2.60% in 30D**. All nine registered packages pass complete primary and independent proof programs. [Exact bounds and before/after table](CHANGES_20261115.md) · [Merged research and replay scope](research/combined_branches_20261115/README.md).
@@ -34,7 +39,7 @@ Additional merged constructions include an explicit **65D minimum-12 lattice** a
 
 | Dimension | Known lower density L | Older upper U | New upper N | Upper decrease | Additive gap decrease | Proof and details |
 | --- | --- | --- | --- | --- | --- | --- |
-| 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [≈0.63610](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.63343 | 0.42% | 13.89% | [Neighbor-count cuts + Schur origin tightening](verifications/origin_slack/) · [Sources & formulas](COMPARISONS.md) |
+| 4 | [≈0.61685](https://cohn.mit.edu/sphere-packing/) | [0.629521681653](https://github.com/Felpix-Studios/sphere-packing/tree/bb97550ba47ad92bacfee567843888be16895a23/preprints/D4) | <0.629520189662 | 0.000237% | 0.011774% | [Degree16 far-pair polynomial + unused angular Gram credits](verifications/dim4/refinement_energy20261115/) · [Sources & formulas](COMPARISONS.md) |
 | 5 | [≈0.46526](https://cohn.mit.edu/sphere-packing/) | [≈0.51226](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.50995 | 0.45% | 4.92% | [Spherical lens caps + long-edge PSD accounting](verifications/dim5/refinement_spherical_lens/) · [Sources & formulas](COMPARISONS.md) |
 | 6 | [≈0.37295](https://cohn.mit.edu/sphere-packing/) | [≈0.41029](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.40913 | 0.28% | 3.11% | [Neighbor-count cuts + Schur-saturated cyclic kernel](verifications/dim6/refinement_patch5/) · [Sources & formulas](COMPARISONS.md) |
 | 7 | [≈0.29530](https://cohn.mit.edu/sphere-packing/) | [≈0.32111](https://arxiv.org/html/2512.04829v2#S3.T1) | ≈0.32058 | 0.17% | 2.05% | [Neighbor-count cuts + Schur-saturated cyclic kernel](verifications/dim7/) · [Sources & formulas](COMPARISONS.md) |
@@ -78,13 +83,13 @@ Additional merged constructions include an explicit **65D minimum-12 lattice** a
 | 47 | [≈2.2670e-8](https://arxiv.org/abs/2505.02394v1) | [≈6.4908e-7](https://arxiv.org/abs/2006.02560v2) | ≈5.9377e-7 | 8.52% | 8.83% | [Signed logarithmic profile + degree95 radial enrichment](verifications/dim47/refinement_profile20261114/) · [Sources & formulas](COMPARISONS.md) |
 | 48 | [≈2.3178e-8](https://doi.org/10.4153/CJM-1971-081-3) | [≈4.5291e-7](https://arxiv.org/abs/2006.02560v2) | ≈4.1339e-7 | 8.73% | 9.20% | [Gaussian cyclic kernel + coupled radial optimization](verifications/dim48/) · [Sources & formulas](COMPARISONS.md) |
 
-The 16D strict bound is 0.024900975, compared with the paper’s displayed 0.02492121. The full widened-shell count certificate is included and independently replayed. No worldwide-priority claim is made. Densities shown approximately to five significant digits; percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 4D, 5D, 6D, 7D and 9–16D baselines are pinned paper-reported decimal values, not independently replayed here.
+The 4D comparison uses the pinned Felpix-Studios certificate and its complete full-mode replay; extra digits show the small strict improvement. The 16D strict bound is 0.024900975, compared with the paper’s displayed 0.02492121. The full widened-shell count certificate is included and independently replayed. No worldwide-priority claim is made. Other densities are shown approximately to five significant digits and percentages to two decimals. Rounded display values are not substitute rigorous bounds. Full values and certificate bounds remain in [RESULTS.json](RESULTS.json); percentages use those unshortened values. The 5D, 6D, 7D and 9–16D baselines are pinned paper-reported decimal values, not independently replayed here.
 
 These certificates use the existing [Cohn–de Laat–Salmon continuum framework](https://arxiv.org/abs/2206.15373). Proof notes state the analytic hypotheses and normalization; exact rational witnesses and independent interval verifiers check the computational conditions over full domains. Historical numerical comparisons in package notes are pinned comparisons, not current best-known claims.
 
 ## Reproduce
 
-For the upper-bound suite, Python 3.11 or newer is required. Install dependencies and run:
+For the upper-bound suite, Python 3.12 or newer and a C++20 compiler are required by the pinned 4D proof. Install dependencies and run:
 
     python -m pip install -r requirements.txt
     python run_all.py

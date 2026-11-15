@@ -1,0 +1,39 @@
+{
+  "status": "EXACT_SPHERICAL_COUNT_25_VERIFIED",
+  "cosine_cutoff": "103/200",
+  "objective": "1282398451806751910953793/49483281010778000000000",
+  "objective_decimal": 25.915792680106065,
+  "count_bound": 25,
+  "pair": {
+    "status": "CERTIFIED",
+    "nodes": 17,
+    "accepted": 9,
+    "excluded": 0,
+    "maxdepth": 5,
+    "binary_precision": 48
+  },
+  "triangle": {
+    "status": "CERTIFIED",
+    "nodes": 107779,
+    "accepted": 27680,
+    "excluded": 26210,
+    "maxdepth": 36,
+    "binary_precision": 38
+  },
+  "repair": {
+    "scale": "1/2500",
+    "diagonal": "258109494611/9999900000",
+    "scalar_constant_decrease": "258109494611/24999750000000",
+    "raw_objective": "12829275000709746207/500000000000000000",
+    "polynomial_signs": {
+      "status": "CERTIFIED",
+      "nodes": 35,
+      "accepted": 18,
+      "excluded": 0,
+      "maxdepth": 8,
+      "binary_precision": 48
+    }
+  },
+  "seconds": 7.669799089431763,
+  "certificate_sha256": "3f009ac3b4693d0aa0d28508ac4aee78ccad60addfe4a2a65e5be5be91d3563f"
+}

@@ -1,0 +1,48 @@
+{
+  "status": "ISOLATED_SIXTH_GRAPH_SMALL_CAP_HELPER_CONSTRUCTION_PASS",
+  "original_path": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_five_graphs_correlated_small_cap_bounds.py",
+  "original_sha256": "3af2b297fb0e13455c42b57cf2f33edba9e22c2dd6c2129f68f51b29aa9890c8",
+  "new_path": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_six_graphs_correlated_small_cap_bounds.py",
+  "new_sha256": "0c34525decc059471e69a3d33361a0f57bbe9503a4cdffc7d670b3ad89b707f5",
+  "changes": [
+    {
+      "old": "from narrow_exterior_graph_bounds import cyclic_decrement_lower as narrow_graph_lower\n",
+      "new": "from narrow_exterior_graph_bounds import cyclic_decrement_lower as narrow_graph_lower\nfrom moderate_exterior_graph_bounds import cyclic_decrement_lower as moderate_graph_lower\n",
+      "occurrence_count": 1
+    },
+    {
+      "old": "narrow_graph_weight=Q(0), factor_acceptor=None):\n",
+      "new": "narrow_graph_weight=Q(0), moderate_graph_weight=Q(0), factor_acceptor=None):\n",
+      "occurrence_count": 1
+    },
+    {
+      "old": "    assert type(narrow_graph_weight) is Q and narrow_graph_weight>=0\n",
+      "new": "    assert type(narrow_graph_weight) is Q and narrow_graph_weight>=0\n    assert type(moderate_graph_weight) is Q and moderate_graph_weight>=0\n",
+      "occurrence_count": 1
+    },
+    {
+      "old": "        gl = cyclic_decrement_lower(kind, bounds, graph_weights)+outer_graph_lower(kind, bounds, outer_graph_weight)+narrow_graph_lower(kind, bounds, narrow_graph_weight)\n        gu = (sum(graph_weights, Q(0))+outer_graph_weight+narrow_graph_weight) if kind == 'outside' else Q(0)\n",
+      "new": "        gl = cyclic_decrement_lower(kind, bounds, graph_weights)+outer_graph_lower(kind, bounds, outer_graph_weight)+narrow_graph_lower(kind, bounds, narrow_graph_weight)+moderate_graph_lower(kind, bounds, moderate_graph_weight)\n        gu = (sum(graph_weights, Q(0))+outer_graph_weight+narrow_graph_weight+moderate_graph_weight) if kind == 'outside' else Q(0)\n",
+      "occurrence_count": 1
+    },
+    {
+      "old": "                  narrow_graph_weight=str(narrow_graph_weight),\n",
+      "new": "                  narrow_graph_weight=str(narrow_graph_weight),\n                  moderate_graph_weight=str(moderate_graph_weight),\n",
+      "occurrence_count": 1
+    }
+  ],
+  "exact_reverse_reconstruction": true,
+  "original_source_modified": false,
+  "candidate_inputs_modified": false,
+  "new_parameter": "moderate_graph_weight",
+  "new_parameter_default": "0",
+  "new_parameter_type": "exact fractions.Fraction, nonnegative",
+  "additional_import": "moderate_exterior_graph_bounds.cyclic_decrement_lower",
+  "all_other_algorithm_text_identical": true,
+  "singleton_membership_rule_unchanged": true,
+  "cap_validation_and_enclosures_unchanged": true,
+  "new_graph_origin_charge_must_be_proved_by_calling_coordinator": true,
+  "expected_moderate_graph_capacity": 1880,
+  "mathematical_contract": "The separately proved moderate graph correction lies in [0,delta] on every exterior branch and is zero on every full branch. Its exact interval lower is added to the lower correction. The uniform upper delta is added on exterior boxes; at singleton boxes, the existing exact closed-membership rule sets the entire graph upper equal to its exact lower. The independently verified origin charge 1880*delta must be included by the calling coordinator. These additive bounds preserve every prior acceptance, rejection, source-binding and exhaustive-coverage gate.",
+  "global_bound_proved": false
+}

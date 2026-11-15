@@ -1,0 +1,113 @@
+{
+  "status": "EXACT_SIX_EXTERIOR_COORDINATOR_CONSTRUCTION_NOT_A_GLOBAL_BOUND",
+  "parent_coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_five_antipodal_graphs_small_cap_bounds.py",
+  "parent_sha256": "0babb579b3fc84e037c4d3bb45a18f296f633af5afcab535815fcd5ef81d00c0",
+  "coordinator": "/workspace/scratch/93cb6ce085de/current/kernel_integration_route/verify_combined_binary_six_exterior_graphs_small_cap_bounds.py",
+  "coordinator_sha256": "d3fc9a46ca1bacc2dff9ce17edcd22e24b56074bf364643b83e2fe45bf7643e2",
+  "helper": "/workspace/scratch/93cb6ce085de/current/origin_route/interval_combined_binary_six_graphs_correlated_small_cap_bounds.py",
+  "helper_sha256": "0c34525decc059471e69a3d33361a0f57bbe9503a4cdffc7d670b3ad89b707f5",
+  "coordinator_replacements": [
+    {
+      "old": "five_antipodal_graph_route",
+      "new": "six_exterior_graph_route",
+      "count": 15
+    },
+    {
+      "old": "interval_combined_binary_five_graphs_correlated_small_cap_bounds.py",
+      "new": "interval_combined_binary_six_graphs_correlated_small_cap_bounds.py",
+      "count": 3
+    },
+    {
+      "old": "3af2b297fb0e13455c42b57cf2f33edba9e22c2dd6c2129f68f51b29aa9890c8",
+      "new": "0c34525decc059471e69a3d33361a0f57bbe9503a4cdffc7d670b3ad89b707f5",
+      "count": 1
+    },
+    {
+      "old": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V6'",
+      "new": "'INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V7'",
+      "count": 1
+    },
+    {
+      "old": "                      INTEGRATION.parent/'FIVE_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n",
+      "new": "                      INTEGRATION.parent/'FIVE_ANTIPODAL_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION.parent/'SIX_EXTERIOR_GRAPH_COORDINATOR_CONSTRUCTION.json',\n                      INTEGRATION/'verify_combined_binary_five_antipodal_graphs_small_cap_bounds.py',\n                      INTEGRATION.parent/'origin_route/interval_combined_binary_five_graphs_correlated_small_cap_bounds.py',\n                      INTEGRATION.parent/'six_exterior_graph_route/verify_moderate_exterior_graph.py',\n                      INTEGRATION.parent/'six_exterior_graph_route/moderate_exterior_graph_certificate.json',\n                      INTEGRATION.parent/'six_exterior_graph_route/moderate_exterior_graph_bounds.py',\n",
+      "count": 1
+    },
+    {
+      "old": "    for pinned_path, expected_hash in (\n",
+      "new": "    for pinned_path, expected_hash in (\n            (INTEGRATION/'verify_combined_binary_five_antipodal_graphs_small_cap_bounds.py',\n             '0babb579b3fc84e037c4d3bb45a18f296f633af5afcab535815fcd5ef81d00c0'),\n            (INTEGRATION.parent/'origin_route/interval_combined_binary_five_graphs_correlated_small_cap_bounds.py',\n             '3af2b297fb0e13455c42b57cf2f33edba9e22c2dd6c2129f68f51b29aa9890c8'),\n            (INTEGRATION.parent/'six_exterior_graph_route/verify_moderate_exterior_graph.py',\n             'a87416d6f0dc55ebb567113f28537a09f15ba9612d0d7740ae3ffc4e12d525e2'),\n            (INTEGRATION.parent/'six_exterior_graph_route/moderate_exterior_graph_certificate.json',\n             '94e0ffc1604de3915a0919764a77d589c620ad322d8cdc96360eead2c5214b62'),\n            (INTEGRATION.parent/'six_exterior_graph_route/moderate_exterior_graph_bounds.py',\n             '4e94b4edb526d79d48209cd6a44ef225ba34cc7812996e998466baa662e7db57'),\n",
+      "count": 1
+    },
+    {
+      "old": "'verify_narrow_exterior_graph.py','narrow_exterior_graph_certificate.json','narrow_exterior_graph_bounds.py'",
+      "new": "'verify_narrow_exterior_graph.py','narrow_exterior_graph_certificate.json','narrow_exterior_graph_bounds.py','verify_moderate_exterior_graph.py','moderate_exterior_graph_certificate.json','moderate_exterior_graph_bounds.py'",
+      "count": 2
+    },
+    {
+      "old": "    graph_origin_constant = sum((w*r['even_ordered_edge_bound'] for w,r in zip(graph_weights,graph_reports)),F(0))+outer_graph_weight*120+narrow_graph_weight*604\n",
+      "new": "    moderate_graph_weight = F(graph_data['moderate_graph_weight'])\n    assert moderate_graph_weight >= 0\n    moderate_graph_bounds = load_module('moderate_exterior_graph_bounds', graph_dir/'moderate_exterior_graph_bounds.py')\n    moderate_graph_verifier = load_module('exact_moderate_exterior_graph_verifier', graph_dir/'verify_moderate_exterior_graph.py')\n    assert moderate_graph_bounds.contained is graph_bounds.contained\n    assert moderate_graph_bounds.cosine_exterior is graph_bounds.cosine_exterior\n    moderate_graph_report = moderate_graph_verifier.verify(json.loads((graph_dir/'moderate_exterior_graph_certificate.json').read_text()))\n    assert moderate_graph_report['status'] == 'EXACT_SINGLE_COLOR_EXTERIOR_GRAPH_CERTIFICATE_PASS'\n    assert tuple(map(F,moderate_graph_report['radial_interval'])) == moderate_graph_bounds.RADIAL == (F(7,5),F(3,2))\n    assert tuple(map(F,moderate_graph_report['target_angular_interval'])) == moderate_graph_bounds.ANGULAR == (F(-4,5),F(-11,20))\n    assert moderate_graph_bounds.KERNEL_SUPPORT_RADIUS == core.BREAKS[-1] == F(7,4)\n    assert moderate_graph_report['even_ordered_edge_bound'] == moderate_graph_bounds.CAPACITY == 1880\n    assert moderate_graph_report['inherited_neighbor_count_used'] is False\n    assert moderate_graph_report['closed_radial_and_angular_endpoints'] is True\n    assert moderate_graph_report['full_triangle_selected_anchor_count'] == 0\n    assert moderate_graph_report['exterior_selected_anchor_count_upper'] == 1\n    assert F(moderate_graph_report['spherical_cutoff']) == F(7,9)\n    assert F(moderate_graph_report['minimum_selected_distance_squared']) == F(1519,250) > core.BREAKS[-1]**2\n    assert F(moderate_graph_report['edge_count_proof']['exact_integer_cardinality_edge_upper']) == F(1881054173013741,10**12)\n    assert F(moderate_graph_report['kernel_diagonal']) == F(moderate_graph_report['linear_term']) == 0\n    graph_origin_constant = sum((w*r['even_ordered_edge_bound'] for w,r in zip(graph_weights,graph_reports)),F(0))+outer_graph_weight*120+narrow_graph_weight*604+moderate_graph_weight*1880\n",
+      "count": 1
+    },
+    {
+      "old": "    assert graph_origin_constant/8 == graph_bounds.density_cost(graph_weights)+outer_graph_bounds.density_cost(outer_graph_weight)+narrow_graph_bounds.density_cost(narrow_graph_weight)\n",
+      "new": "    assert graph_origin_constant/8 == graph_bounds.density_cost(graph_weights)+outer_graph_bounds.density_cost(outer_graph_weight)+narrow_graph_bounds.density_cost(narrow_graph_weight)+moderate_graph_bounds.density_cost(moderate_graph_weight)\n",
+      "count": 1
+    },
+    {
+      "old": "        narrow_graph_weight=str(narrow_graph_weight), narrow_graph_proof=narrow_graph_report,\n",
+      "new": "        narrow_graph_weight=str(narrow_graph_weight), narrow_graph_proof=narrow_graph_report,\n        moderate_graph_weight=str(moderate_graph_weight), moderate_graph_proof=moderate_graph_report,\n",
+      "count": 1
+    },
+    {
+      "old": "    assert lift_helper.narrow_graph_lower is narrow_graph_bounds.cyclic_decrement_lower\n",
+      "new": "    assert lift_helper.narrow_graph_lower is narrow_graph_bounds.cyclic_decrement_lower\n    assert lift_helper.moderate_graph_lower is moderate_graph_bounds.cyclic_decrement_lower\n",
+      "count": 1
+    },
+    {
+      "old": "            narrow_graph_weight=state['narrow_graph_weight'],\n",
+      "new": "            narrow_graph_weight=state['narrow_graph_weight'],\n            moderate_graph_weight=state['moderate_graph_weight'],\n",
+      "count": 1
+    },
+    {
+      "old": "            narrow_graph_weight=narrow_graph_weight,\n",
+      "new": "            narrow_graph_weight=narrow_graph_weight,\n            moderate_graph_weight=moderate_graph_weight,\n",
+      "count": 1
+    },
+    {
+      "old": "FIVE_ANTIPODAL_GRAPH_SMALL_CAP_BOUNDS_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "new": "SIX_EXTERIOR_GRAPH_SMALL_CAP_BOUNDS_CORRELATED_FACTOR_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_",
+      "count": 2
+    }
+  ],
+  "parent_reconstruction_passed": true,
+  "graph_source_sha256": {
+    "verify_exterior_graphs.py": "1ab0bb038171281b8008275ef5b0026e34a5f93684d25a78545205a94fd9aef6",
+    "exterior_graph_certificates.json": "4109f7a1767e12ad156d5744fc436c88eddab38346725de936bbc134ce7fe0e8",
+    "graph_repair_bounds.py": "635681e32e2f0aada1f56e56d51cef58e48252f3435ab51cd5283281559a4861",
+    "verify_outer_exterior_graph.py": "082524c0e1668b54ed409d3ea1cfc1c28fa7176321782e010fa2c84af9dcd16a",
+    "outer_exterior_graph_certificate.json": "7f09a534567c3031d6e49f4f06b264ccb133d63c706c68cbcb2f1e9a2900e09b",
+    "outer_exterior_graph_bounds.py": "5bc88b06cf91c18820f6d7afd4775c103c15e3ddd0db9b534476a1b53e99ce98",
+    "verify_antipodal_wide_exterior_graph.py": "e3cfd1c2aa7f4d6b26c427e62a1fe40b1d9bf5c26bd4b716cdc421786748a1a4",
+    "antipodal_wide_exterior_graph_certificate.json": "c6857134eb5d286a21dc1e5464d4f5f02f3ffada5be3e8d4e8c922bada8215db",
+    "verify_narrow_exterior_graph.py": "3145673bb48a7433475c69272c5edbdfdf479d9087fecf62f9f5bce2d8c1868c",
+    "narrow_exterior_graph_certificate.json": "66f94b1dcc51672652f617f32aad6249557c06ccc244ef438998a92a969319f7",
+    "narrow_exterior_graph_bounds.py": "994dd2616736800fa140ad767611d5ccdc694b2168bb1f8bf5780c444e65ca4c",
+    "verify_moderate_exterior_graph.py": "a87416d6f0dc55ebb567113f28537a09f15ba9612d0d7740ae3ffc4e12d525e2",
+    "moderate_exterior_graph_certificate.json": "94e0ffc1604de3915a0919764a77d589c620ad322d8cdc96360eead2c5214b62",
+    "moderate_exterior_graph_bounds.py": "4e94b4edb526d79d48209cd6a44ef225ba34cc7812996e998466baa662e7db57"
+  },
+  "moderate_graph_capacity": 1880,
+  "moderate_graph_sources_copied_byte_identically": true,
+  "graph_slot_meanings": [
+    "A capacity862",
+    "B capacity1102",
+    "broad antipodalE9 capacity1358",
+    "near antipodal capacity120",
+    "narrow antipodalE4 capacity604",
+    "moderate-angle single-color capacity1880"
+  ],
+  "graph_schema": "INDEPENDENT_EXTERIOR_GRAPH_ENERGIES_V7",
+  "density_charge": "(862*wA+1102*wB+1358*wE9+120*wNear+604*wNarrow+1880*wModerate)/8",
+  "full_cyclic_pair_and_scalar_functions_unchanged": true,
+  "exterior_cyclic_addition": "Minus the independently charged nonnegative moderate-angle graph indicator.",
+  "required_next_gate": "A complete global proof. This normal coordinator freshly requires all112 unique branches,672 polynomial identities,560 signed identities, all local prerequisites and all7 pairs."
+}

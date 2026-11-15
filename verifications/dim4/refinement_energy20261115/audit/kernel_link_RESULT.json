@@ -1,0 +1,23 @@
+{
+  "stage": "kernel_link",
+  "status": "PASS",
+  "ordered_radial_cells": 25,
+  "stage1_exterior_branches": 15,
+  "endpoint_cells": 25,
+  "stage1_pair_pieces": 7,
+  "exact_polynomial_coefficients": 213550,
+  "exact_nonpolynomial_monomials": 1655,
+  "cap_denominator_checks": 1950,
+  "negative_controls_rejected": 5,
+  "domain": "1 <= r,s <= 102597/100000; -1 <= t <= -133/250",
+  "includes_B1": true,
+  "includes_B5": true,
+  "identity_method": "exact Q[r,s,z] coefficients and canonical function atoms",
+  "singular_endpoint": "exact underlying formula; certified code omits nonnegative caps",
+  "sampled_diagnostics": {
+    "points": 375,
+    "max_stage1_enclosure_width": 2.3978328685433052e-20
+  },
+  "stage1_preflight": "EXACT_WIDEST_COORDINATE_BINARY_COMBINED_SIGNED_SPHERICAL_COUNT_GAUGE_FAST_PARALLEL_PAIR_PROBE_PASSED_NOT_A_GLOBAL_CERTIFICATE",
+  "seconds": 95.05
+}

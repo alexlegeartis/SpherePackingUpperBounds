@@ -1,0 +1,7 @@
+REJECTED: missing root leaves a coverage hole
+REJECTED: shifted radial endpoint
+REJECTED: invalid subdivision dimension
+REJECTED: incorrect exact Gram range solution
+REJECTED: negative coefficients without compensating Gram credits
+REJECTED: positive polynomial on the central interval
+PASS: all six invalid certificates rejected

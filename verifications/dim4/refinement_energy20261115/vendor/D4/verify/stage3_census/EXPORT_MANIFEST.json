@@ -1,0 +1,40 @@
+{
+  "schema": "D4_PUBLIC_STAGE_EXPORT_MANIFEST_V1",
+  "files": [
+    {
+      "path": "CHANGES.md",
+      "bytes": 2691,
+      "sha256": "5d41fc4f7c88a581031d6063233b435404a3a82f970d511cef94a94a380b4fd4"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6188,
+      "sha256": "8a61253a06c9fd713f79374856503d62efde92d89c1da5a4ab3808f7504c68b4"
+    },
+    {
+      "path": "finite_count_gain.md",
+      "bytes": 4133,
+      "sha256": "93c9a338bbeab51e1a6ca9cb891d56d6a52ea74ca82267571eabb848bbe5d523"
+    },
+    {
+      "path": "multiplicity/finite_count_gain.py",
+      "bytes": 5621,
+      "sha256": "ba190da3a13a97f56485a178b68b324a4b01d122179d929a78dc56633f2f5608"
+    },
+    {
+      "path": "original/verify_finite_count.py",
+      "bytes": 9360,
+      "sha256": "c6d2616e1f71d74c8d2edc0a81475640585c48760a20a240f5a1c42012fa3e7d"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 13,
+      "sha256": "479c30179f7e62d697ca3c8af0d8943454ebc276052024d61824e0453c54bf16"
+    },
+    {
+      "path": "run.py",
+      "bytes": 14404,
+      "sha256": "fd574bce28a1a66e1bb5dc1f190770ea927cbe5d18660e6cb16bf5232f2a7a17"
+    }
+  ]
+}

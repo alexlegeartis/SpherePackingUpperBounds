@@ -1,0 +1,21 @@
+{
+ "status": "ALL_CONTROLS_FAIL_CLOSED",
+ "controls": {
+  "lam1_4e-6": {
+   "exit": 1,
+   "status": "FAIL",
+   "seconds": 65.1,
+   "error": "RuntimeError(\"check_kernelbox: exit 1: FAILED 60s\\n AssertionError([['negative leaf', [['1', '4001473/4000000'], ['1', '2001473/2000000'], ['-41033/47000', '-10229/11750']]], ['negative leaf', [['1', '8001473/8000000'], ['1', '8001473/8000000'], ['-10229/11750', '-40799/47000']]], ['negative leaf', [['1', '128001473/128000000'], ['1', '128001473/128000000'], ['-20341/23500', '-162611/188000']]]])\")",
+   "control_pass": true
+  },
+  "merge_j5_leaves": {
+   "root_index": 27,
+   "merged_at_depth": 7,
+   "exit": 1,
+   "status": "FAIL",
+   "seconds": 300.1,
+   "error": "RuntimeError(\"check_kernelbox: exit 1: FAILED 295s\\n AssertionError([['negative leaf', [['1', '4001473/4000000'], ['1', '4001473/4000000'], ['-20341/23500', '-8113/9400']]]])\")",
+   "control_pass": true
+  }
+ }
+}

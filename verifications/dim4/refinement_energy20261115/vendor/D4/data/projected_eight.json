@@ -1,0 +1,41 @@
+{
+  "cutoff": "223/735",
+  "constant_shift": "1/100000",
+  "coefficient_denominator": 10000000000,
+  "coefficients": [
+    "99999/100000",
+    "14019856309/5000000000",
+    "27945243689/10000000000",
+    "19290997047/10000000000",
+    "0",
+    "0",
+    "0",
+    "4096851867/10000000000",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "39051053/1000000000",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "0",
+    "4091477/1000000000"
+  ],
+  "discovery": {
+    "method": "scipy linprog HiGHS; degree32,8001 equispaced samples; only candidate search",
+    "sampled_objective": 8.980423052141987,
+    "script": "unreleased numerical-search provenance; not used by the replay"
+  },
+  "proof": "verify/stage4_graph_slack/src/verify_projected_eight.py checks exact rational sign and objective from first principles."
+}
