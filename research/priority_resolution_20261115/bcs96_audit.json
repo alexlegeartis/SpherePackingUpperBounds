@@ -1,0 +1,15 @@
+{
+  "parent": "Leech-Sloane P48q, using the BCS1982 coordinate generators",
+  "inherited_input": "Published P48q minimum 6, not re-enumerated",
+  "parent_gram_determinant": 1,
+  "norm_doubler_verified": true,
+  "BCS96_minimum_squared_inheriting_parent": 6,
+  "BCS96_gram_determinant": "1/2^48",
+  "BCS96_center_density_exact": "3^48/2^24",
+  "finite_contact_rays": 13536,
+  "perfect_span_dimension": 4656,
+  "uniform_eutaxy_sum_in_orthonormal_coordinates": "846*I96",
+  "status": "perfect_and_strictly_eutactic_inheriting_parent_minimum",
+  "consequence": "Strict local maximum among lattice Gram deformations, by Voronoi's criterion; not global optimality",
+  "all_matrix_checks_exact": true
+}

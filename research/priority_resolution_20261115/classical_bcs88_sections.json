@@ -1,0 +1,142 @@
+{
+  "source": "Bos-Conway-Sloane (1982), Theorem 2, Eq.(15), E8 examples",
+  "source_url": "https://neilsloane.com/doc/Me103.pdf",
+  "codes": [
+    {
+      "length": 11,
+      "dimension_over_GF16": 10,
+      "minimum_distance": 2,
+      "all_maximal_minors_checked": 11,
+      "each_coordinate_projection_surjective": true
+    },
+    {
+      "length": 11,
+      "dimension_over_GF16": 8,
+      "minimum_distance": 4,
+      "all_maximal_minors_checked": 165,
+      "each_coordinate_projection_surjective": true
+    },
+    {
+      "length": 11,
+      "dimension_over_GF16": 4,
+      "minimum_distance": 8,
+      "all_maximal_minors_checked": 330,
+      "each_coordinate_projection_surjective": true
+    }
+  ],
+  "BCS88_center_density_exact": "2^44",
+  "BCS88_minimum_after_length_scaling": 8,
+  "BCS88_covolume_after_length_scaling": 1,
+  "normal_block_input": "Dual intersection with any 8D coordinate block is sqrt(2)*E8, from surjectivity of all three code projections",
+  "rows": [
+    {
+      "dimension": 87,
+      "normal_dual_rank": 1,
+      "normal_dual_gram": [
+        [
+          4
+        ]
+      ],
+      "normal_dual_determinant": "4",
+      "classical_center_density_squared_exact": "38685626227668133590597632",
+      "classical_center_density": "6219777023950.94977014044370949387949413455786",
+      "our_compared_center_density_squared": "1240386246978969398085583432626731696918171936820649469198160157838042738826816274279339456126367802550853875966628033859965537613552643305499685232938505109067904559/59863107065073783529622930748058952485106996960296960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_to_classical_ratio_squared_exact": "1240386246978969398085583432626731696918171936820649469198160157838042738826816274279339456126367802550853875966628033859965537613552643305499685232938505109067904559/2315841784746323908471419700173758157065399693312811280789151680158262592798720000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_to_classical_ratio": "0.731853287972780343526634751230029693007346111",
+      "our_bound_beats_classical_section": false,
+      "numerical_dimension_specific_value_reported_in_source": false
+    },
+    {
+      "dimension": 86,
+      "normal_dual_rank": 2,
+      "normal_dual_gram": [
+        [
+          4,
+          -2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "normal_dual_determinant": "12",
+      "classical_center_density_squared_exact": "19342813113834066795298816/3",
+      "classical_center_density": "2539213337094.38881899089050117549028965357570",
+      "our_compared_center_density_squared": "631561696215121967192878113156776719259676006996009880774104395085770538496213689074783691468493581570025964011304968721690048131367777492053729/266173928911554124062376050330749756182814165965406878282999908858899519071133496793765148450404496004005883354254671872",
+      "our_to_classical_ratio_squared_exact": "631561696215121967192878113156776719259676006996009880774104395085770538496213689074783691468493581570025964011304968721690048131367777492053729/1716184187570381921334103703914049233511480258539965011421231451903767447648920637140088860489184671929698307369611085198531307786146884756701184",
+      "our_to_classical_ratio": "0.606632876384071205888865076864224176674365678",
+      "our_bound_beats_classical_section": false,
+      "numerical_dimension_specific_value_reported_in_source": false
+    },
+    {
+      "dimension": 85,
+      "normal_dual_rank": 3,
+      "normal_dual_gram": [
+        [
+          4,
+          -2,
+          0
+        ],
+        [
+          -2,
+          4,
+          -2
+        ],
+        [
+          0,
+          -2,
+          4
+        ]
+      ],
+      "normal_dual_determinant": "32",
+      "classical_center_density_squared_exact": "1208925819614629174706176",
+      "classical_center_density": "1099511627776",
+      "our_compared_center_density_squared": "19807040628566084398385987584/9375",
+      "our_to_classical_ratio_squared_exact": "16384/9375",
+      "our_to_classical_ratio": "1.32197831550546496347452258979239240049763728",
+      "our_bound_beats_classical_section": true,
+      "numerical_dimension_specific_value_reported_in_source": false
+    },
+    {
+      "dimension": 84,
+      "normal_dual_rank": 4,
+      "normal_dual_gram": [
+        [
+          4,
+          -2,
+          0,
+          0
+        ],
+        [
+          -2,
+          4,
+          -2,
+          -2
+        ],
+        [
+          0,
+          -2,
+          4,
+          0
+        ],
+        [
+          0,
+          -2,
+          0,
+          4
+        ]
+      ],
+      "normal_dual_determinant": "64",
+      "classical_center_density_squared_exact": "302231454903657293676544",
+      "classical_center_density": "549755813888",
+      "our_compared_center_density_squared": "1237940039285380274899124224/625",
+      "our_to_classical_ratio_squared_exact": "4096/625",
+      "our_to_classical_ratio": "2.56",
+      "our_bound_beats_classical_section": true,
+      "numerical_dimension_specific_value_reported_in_source": false
+    }
+  ],
+  "all_arithmetic_checks_exact": true,
+  "86D_and_87D_record_candidates_rejected": true,
+  "Sakamoto88_minimum_claim_used": false
+}

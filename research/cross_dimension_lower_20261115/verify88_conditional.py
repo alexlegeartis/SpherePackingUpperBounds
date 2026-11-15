@@ -1,7 +1,10 @@
 """Exact 86D/87D antipode algebra using the claimed Sakamoto rank-88 parent.
 
-The parent minimum-8 claim is NOT independently verified here. The output
-is conditional on that preprint theorem, as labelled in the catalogue.
+This standalone auditor does not verify the parent minimum. Its saved
+conditional output is historical. The separate full upstream replay in
+research/priority_resolution_20261115/REPLAY88.md now binds a freshly
+reproduced minimum computation to this exact Gram. Neither antipode
+beats the stronger classical BCS88 sections found in that update.
 """
 from pathlib import Path
 import argparse

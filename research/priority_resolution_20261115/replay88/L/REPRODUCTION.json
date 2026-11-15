@@ -1,0 +1,182 @@
+{
+  "status": "fully_reproduced",
+  "output": "/workspace/work/priority_resolution_20261115/full88_run/L",
+  "wall_seconds": 1489.248340168997,
+  "stages": [
+    {
+      "stage": "core",
+      "returncode": 0,
+      "wall_seconds": 1136.2440086620045,
+      "user_cpu_seconds": 4113.347813,
+      "system_cpu_seconds": 53.462119
+    },
+    {
+      "stage": "h3",
+      "returncode": 0,
+      "wall_seconds": 46.992187726995326,
+      "user_cpu_seconds": 42.865602,
+      "system_cpu_seconds": 4.023697
+    },
+    {
+      "stage": "perfect",
+      "returncode": 0,
+      "wall_seconds": 1.2603473399940412,
+      "user_cpu_seconds": 1.2054719999999999,
+      "system_cpu_seconds": 0.052091
+    },
+    {
+      "stage": "additional",
+      "returncode": 0,
+      "wall_seconds": 0.08051229600096121,
+      "user_cpu_seconds": 0.068825,
+      "system_cpu_seconds": 0.01125
+    },
+    {
+      "stage": "binary_witness",
+      "returncode": 0,
+      "wall_seconds": 0.060354772009304725,
+      "user_cpu_seconds": 0.050491,
+      "system_cpu_seconds": 0.009458
+    },
+    {
+      "stage": "initial_check",
+      "returncode": 0,
+      "wall_seconds": 1.11600996699417,
+      "user_cpu_seconds": 1.089411,
+      "system_cpu_seconds": 0.025016
+    },
+    {
+      "stage": "compile_group_structure",
+      "returncode": 0,
+      "wall_seconds": 3.0059180230018683,
+      "user_cpu_seconds": 2.784568,
+      "system_cpu_seconds": 0.185084
+    },
+    {
+      "stage": "group_structure",
+      "returncode": 0,
+      "wall_seconds": 0.792718793003587,
+      "user_cpu_seconds": 0.745035,
+      "system_cpu_seconds": 0.044329
+    },
+    {
+      "stage": "group_action",
+      "returncode": 0,
+      "wall_seconds": 0.04321012400032487,
+      "user_cpu_seconds": 0.038620999999999996,
+      "system_cpu_seconds": 0.003968
+    },
+    {
+      "stage": "positivity",
+      "returncode": 0,
+      "wall_seconds": 0.08490493398858234,
+      "user_cpu_seconds": 0.067615,
+      "system_cpu_seconds": 0.016579999999999998
+    },
+    {
+      "stage": "barnes",
+      "returncode": 0,
+      "wall_seconds": 0.05785976200422738,
+      "user_cpu_seconds": 0.049772,
+      "system_cpu_seconds": 0.007339
+    },
+    {
+      "stage": "small_ideals",
+      "returncode": 0,
+      "wall_seconds": 0.06113822999759577,
+      "user_cpu_seconds": 0.048945999999999996,
+      "system_cpu_seconds": 0.011132999999999999
+    },
+    {
+      "stage": "fields",
+      "returncode": 0,
+      "wall_seconds": 110.49942279599782,
+      "user_cpu_seconds": 109.984168,
+      "system_cpu_seconds": 0.101879
+    },
+    {
+      "stage": "nebe_class_number",
+      "returncode": 0,
+      "wall_seconds": 13.449686273001134,
+      "user_cpu_seconds": 13.41238,
+      "system_cpu_seconds": 0.0039889999999999995
+    },
+    {
+      "stage": "orbit_table",
+      "returncode": 0,
+      "wall_seconds": 109.28589033598837,
+      "user_cpu_seconds": 106.545793,
+      "system_cpu_seconds": 2.639248
+    },
+    {
+      "stage": "compile_fast_histogram",
+      "returncode": 0,
+      "wall_seconds": 1.363602493001963,
+      "user_cpu_seconds": 1.222796,
+      "system_cpu_seconds": 0.117244
+    },
+    {
+      "stage": "compile_exact_histogram",
+      "returncode": 0,
+      "wall_seconds": 1.042200875992421,
+      "user_cpu_seconds": 0.962641,
+      "system_cpu_seconds": 0.078438
+    },
+    {
+      "stage": "fast_all",
+      "returncode": 0,
+      "wall_seconds": 62.709333725011675,
+      "user_cpu_seconds": 62.31384,
+      "system_cpu_seconds": 0.045429
+    },
+    {
+      "stage": "fast_small",
+      "returncode": 0,
+      "wall_seconds": 0.02098417100205552,
+      "user_cpu_seconds": 0.018858,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "stage": "rational_small",
+      "returncode": 0,
+      "wall_seconds": 0.1492572669958463,
+      "user_cpu_seconds": 0.14867,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "stage": "fast_regression",
+      "returncode": 0,
+      "wall_seconds": 0.08311516699905042,
+      "user_cpu_seconds": 0.051442999999999996,
+      "system_cpu_seconds": 0.03139
+    },
+    {
+      "stage": "orbit_verification",
+      "returncode": 0,
+      "wall_seconds": 0.04394102099468,
+      "user_cpu_seconds": 0.018220999999999998,
+      "system_cpu_seconds": 0.025143
+    },
+    {
+      "stage": "catalogue",
+      "returncode": 0,
+      "wall_seconds": 0.624153759010369,
+      "user_cpu_seconds": 0.576326,
+      "system_cpu_seconds": 0.046675
+    },
+    {
+      "stage": "catalogue_exact",
+      "returncode": 0,
+      "wall_seconds": 0.034153842003433965,
+      "user_cpu_seconds": 0.033567,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "stage": "bind_all",
+      "returncode": 0,
+      "wall_seconds": 0.10933007299900055,
+      "user_cpu_seconds": 0.086065,
+      "system_cpu_seconds": 0.016596
+    }
+  ]
+}

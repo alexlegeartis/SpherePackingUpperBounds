@@ -1,0 +1,68 @@
+{
+  "status": "verified",
+  "started_utc": "2026-11-15T16:08:03.462172+00:00",
+  "input": "/workspace/work/priority_resolution_20261115/full88_run/L0_input/lattice.json",
+  "certificate": "/workspace/work/priority_resolution_20261115/rank88/certificates/L0_perfection.json",
+  "stages": [
+    {
+      "name": "read_and_parse_inputs",
+      "wall_seconds": 0.0037965980009175837,
+      "user_cpu_seconds": 0.0,
+      "system_cpu_seconds": 0.003797
+    },
+    {
+      "name": "prime_root_and_characters",
+      "wall_seconds": 2.8423004550859332e-05,
+      "user_cpu_seconds": 1.4000000000000123e-05,
+      "system_cpu_seconds": 1.4000000000000123e-05
+    },
+    {
+      "name": "exact_gram_orders_commutation_isometries",
+      "wall_seconds": 0.17153168100048788,
+      "user_cpu_seconds": 0.17110999999999998,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "name": "left_eigenbasis",
+      "wall_seconds": 0.05857847699371632,
+      "user_cpu_seconds": 0.05857399999999996,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "name": "all_seed_norms_and_transformed_coordinates",
+      "wall_seconds": 0.024788049995549954,
+      "user_cpu_seconds": 0.024768000000000012,
+      "system_cpu_seconds": 0.0
+    },
+    {
+      "name": "115_independent_square_minor_determinants",
+      "wall_seconds": 0.18059112199989613,
+      "user_cpu_seconds": 0.180435,
+      "system_cpu_seconds": 0.0
+    }
+  ],
+  "external_prerequisite": "The minimum of this same lattice is 8.",
+  "input_hashes": {
+    "/workspace/work/priority_resolution_20261115/full88_run/L0_input/lattice.json": "1120a57c3564f60b3a90285a2b8a7746fd96324e3c70f919e194e8be39ce0efb",
+    "/workspace/work/priority_resolution_20261115/rank88/certificates/L0_perfection.json": "ebe244a7eaa552197d6a5bebda11dec43fc7d76213d75b7f244fc93304718194",
+    "/workspace/work/priority_resolution_20261115/rank88/scripts/verify_split_certificate.py": "a7a668744741cb84a2b8aa4afaa8e7bb67ad2304cb45d36c066fc12af7c133ee"
+  },
+  "T_determinant_mod_p": 349,
+  "p": 461,
+  "zeta": 5,
+  "seed_count": 44,
+  "block_count": 115,
+  "modular_span_dimension": 3916,
+  "rational_span_dimension": 3916,
+  "positive_even_unimodular_gram_verified": true,
+  "integral_isometries_and_orders_verified": true,
+  "all_seed_norms_8": true,
+  "conclusion": "The norm-8 g-orbit outer products span Sym_88(Q).",
+  "proves_perfection_given_external_minimum_8": true,
+  "total_timing": {
+    "wall_seconds": 0.4455725320003694,
+    "user_cpu_seconds": 0.439172,
+    "system_cpu_seconds": 0.005493
+  },
+  "finished_utc": "2026-11-15T16:08:03.907747+00:00"
+}

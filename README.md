@@ -38,30 +38,33 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 ## Packing constructions: lower bounds
 
 **Comparison method / source** names the published work behind each recorded
-comparison. The 59D comparator is explicitly **derived from published inputs**;
-it is not a numerical 59D result reported by those authors. All densities in
+comparison. Values marked **derived** are calculated from published inputs,
+rather than quoted as numerical records in those sources. All densities in
 this table are occupied-volume fractions.
 
 | Dimension | Recorded comparison density | Comparison method / source | Our lower-bound density | Increase | Our method / proof |
 | --- | --- | --- | --- | --- | --- |
 | 36 | ≈6.1615e-7 | [KP36 code-based lattice — Kschischang–Pasupathy (1992)](https://doi.org/10.1109/18.119683) · [Catalogue parameters](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
-| 84 | ≈7.606188655953e-20 (**theorem guarantee**) | [Chen (2013), generalized Craig lattice + binary code, Theorem 2.4 and §3](https://doi.org/10.5802/jtnb.825); [exact reconstruction](research/cross_dimension_lower_20261115/LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | ≈7.603722067624e-19 | **899.675713%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
-| 85 | ≈4.583692726518e-20 (**theorem guarantee**) | [Chen (2013), generalized Craig lattice + binary code, Theorem 2.4 and §3](https://doi.org/10.5802/jtnb.825); [exact reconstruction](research/cross_dimension_lower_20261115/LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | ≈2.128843618193e-19 | **364.438553%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
-| 86 | ≈2.746428840413e-20 (**theorem guarantee**) | [Chen (2013), generalized Craig lattice + binary code, Theorem 2.4 and §3](https://doi.org/10.5802/jtnb.825); [exact reconstruction](research/cross_dimension_lower_20261115/TO96.md#proof-of-the-86d-extension) | ≈5.939546189522e-20 | **116.264339%** | [Rank-6 compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/TO96.md) |
+| 84 | ≈2.970203932666e-19 (**derived**) | Section of BCS88 perpendicular to √2 D4 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈7.603722067624e-19 | **156%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
+| 85 | ≈1.610346851551e-19 (**derived**) | Section of BCS88 perpendicular to √2 A3 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈2.128843618193e-19 | **32.197832%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
+| 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈4.842118544896e-22 | **73.240722%** | [Nine-color periodic layers above Shioda's MW92; existence proof and exact inequalities](research/priority_resolution_20261115/TORUS_PROOF.md) |
 
-The 84D/85D comparisons use the exact guarantee reconstructed from Chen's
-theorem and stated code parameters; the paper's displayed logarithms have a
-small numerical discrepancy. The new bounds are **existence proofs**; explicit
-shift coordinates remain to be found. The [worldwide-status review](research/cross_dimension_lower_20261115/LITERATURE_STATUS.md)
-found no later stronger guarantee in those dimensions, but leaves competing
-higher-minimum sections unresolved. These are **record candidates**, not
-confirmed worldwide records. [Exact gain audit](research/cross_dimension_lower_20261115/external_comparisons.json).
+The 84D/85D rows now use stronger classical comparisons than Chen's 2013
+guarantees. The 96D comparator is an explicitly reported published
+construction, with its exact density recovered from the full paper.
+These three bounds are **existence proofs**; explicit horizontal shifts
+remain to be found. They are **record candidates against the strongest
+comparisons located**, with the search scope and exact arithmetic in the
+[dimension-specific verdicts](research/priority_resolution_20261115/).
 
-Research is now capped at **96D**. The [86–96D review](research/cross_dimension_lower_20261115/TO96.md)
-adds the unconditional 86D comparison above, stronger classical controls in
-87–96D, and explicit 86D/87D antipodes conditional on a recent 88D parent's
-claimed minimum. Their conditional status is kept separate from this table.
+**86D and 87D are not record candidates:** classical BCS88 sections already
+exceed our results, so 86D has been removed from this improvement table.
+The recent 88D parent's full computational proof has now been freshly
+[reproduced and bound to our catalogue Gram](research/priority_resolution_20261115/REPLAY88.md).
+Research remains capped at **96D**. New 93–95D periodic existence bounds
+also improve the earlier derived product controls; no reported
+dimension-specific record was identified for those comparisons.
 
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 

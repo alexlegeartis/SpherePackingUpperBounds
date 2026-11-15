@@ -1,0 +1,107 @@
+{
+  "status": "exact_classical_BCS88_construction_and_sections_checked",
+  "published_minimum_input": "BCS1982 Theorems 1-2, Eq.(15), E8 example: minimum 2 before length scaling by 2",
+  "minimum_squared_after_scaling": 8,
+  "covolume": 1,
+  "code_field": "GF(16), x^4+x+1",
+  "code_dimensions": [
+    10,
+    8,
+    4
+  ],
+  "code_evaluation_points": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "MDS_maximal_minors_checked": 506,
+  "normal_block_dual_minimum": 4,
+  "sections": [
+    {
+      "dimension": 87,
+      "normal_dual_gram": [
+        [
+          4
+        ]
+      ],
+      "normal_primitive": true,
+      "period_gram_determinant": "4"
+    },
+    {
+      "dimension": 86,
+      "normal_dual_gram": [
+        [
+          4,
+          -2
+        ],
+        [
+          -2,
+          4
+        ]
+      ],
+      "normal_primitive": true,
+      "period_gram_determinant": "12"
+    },
+    {
+      "dimension": 85,
+      "normal_dual_gram": [
+        [
+          4,
+          -2,
+          0
+        ],
+        [
+          -2,
+          4,
+          -2
+        ],
+        [
+          0,
+          -2,
+          4
+        ]
+      ],
+      "normal_primitive": true,
+      "period_gram_determinant": "32"
+    },
+    {
+      "dimension": 84,
+      "normal_dual_gram": [
+        [
+          4,
+          -2,
+          0,
+          0
+        ],
+        [
+          -2,
+          4,
+          -2,
+          -2
+        ],
+        [
+          0,
+          -2,
+          4,
+          0
+        ],
+        [
+          0,
+          -2,
+          0,
+          4
+        ]
+      ],
+      "normal_primitive": true,
+      "period_gram_determinant": "64"
+    }
+  ]
+}

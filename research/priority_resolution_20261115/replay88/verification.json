@@ -1,0 +1,46 @@
+{
+  "status": "fully_reproduced",
+  "wall_seconds": 1697.5309815869987,
+  "stages": [
+    {
+      "name": "L",
+      "returncode": 0,
+      "wall_seconds": 1489.4609648039914
+    },
+    {
+      "name": "J0",
+      "returncode": 0,
+      "wall_seconds": 53.570400802011136
+    },
+    {
+      "name": "groups",
+      "returncode": 0,
+      "wall_seconds": 98.32865885499632
+    },
+    {
+      "name": "factor_claims",
+      "returncode": 0,
+      "wall_seconds": 54.55018329599989
+    },
+    {
+      "name": "L0_input",
+      "returncode": 0,
+      "wall_seconds": 0.5881958319951082
+    },
+    {
+      "name": "L_perfection",
+      "returncode": 0,
+      "wall_seconds": 0.5116928479983471
+    },
+    {
+      "name": "L0_perfection",
+      "returncode": 0,
+      "wall_seconds": 0.48541462801222224
+    },
+    {
+      "name": "formulas",
+      "returncode": 0,
+      "wall_seconds": 0.024111744001857005
+    }
+  ]
+}

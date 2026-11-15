@@ -1,16 +1,29 @@
 # Worldwide-status check: 15 November 2026
 
-The subsequent [review through 96D](TO96.md) adds an unconditional 86D
-comparison and stronger nearby controls. It also finds explicit 86D/87D
-antipodes conditional on the new 88D parent's claimed minimum. The research
-ceiling is 96D; none of those derived controls is declared a worldwide record.
+The [continued primary-source investigation](../priority_resolution_20261115/)
+now gives specific verdicts instead of one blanket priority label:
 
-**84D and 85D now have verified improvements over a named published
-dimension-specific guarantee, with no later stronger guarantee located in
-this search. They are record candidates; worldwide priority is unresolved.**
-For the other ten dimensions in this experiment, a previous worldwide
-record was not identified. The earlier product ratios establish no record
-status. This review does not claim a complete classification of packings.
+* **84D/85D:** the stronger comparison is a section of the classical
+  BCS88 construction, derived from its published theorem. Our gains are
+  **156%** and **32.197832%**. These are record candidates against the
+  strongest comparisons located; the earlier Chen comparison is weaker.
+* **86D/87D:** the same classical construction gives larger densities
+  than our results. **Our candidates are rejected.**
+* **88D:** the full recent source computation has now been reproduced
+  and bound to our actual parent Gram. Its density `2^44` was already
+  obtained by BCS's classical theorem.
+* **93–95D:** new periodic existence proofs exceed the derived products;
+  no reported dimension-specific record has been identified.
+* **96D:** the full BCS1982 paper explicitly reports the construction
+  of exact center density `3^48/2^24`. Our new proof exceeds it by
+  **73.240722%**, a record candidate against the strongest published
+  numerical benchmark located.
+
+See the [current table through 96D](TO96.md). The research ceiling is 96D.
+The historical Chen arithmetic below remains valid; it no longer defines
+our leading comparison. A record-candidate label records the verified
+gain and the stated literature coverage, rather than an exhaustive
+classification of all packings.
 
 ## Direct published comparison in 84D and 85D
 
@@ -70,8 +83,8 @@ horizontal representatives have been supplied by the counting proof.
   [unimodular table](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/unimodular.html)
   labels these minimum claims as claims by the authors. The preprint's
   88D result is relevant to possible sections but is not a same-dimensional
-  84D/85D density comparison. Its minimum proof was not independently
-  replayed here.
+  84D/85D density comparison. Its full computational proof has now been freshly
+  [reproduced and bound to our parent Gram](../priority_resolution_20261115/REPLAY88.md).
 * **Mordell–Weil families.** The [Schütt–Shioda 2017 author draft](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf),
   §13.4, Theorem 13.35, gives the even-dimensional family and the 80D
   guarantee `7^40/(2^40*41^6)`. These are stronger parent data than L80
@@ -95,7 +108,10 @@ of global priority.
 | 73–77 | Exact existence proofs; named derived-product comparisons | Previous worldwide record not identified |
 | 78–79 | Explicit L80 antipode certificates; derived-product and section-method comparisons | Previous worldwide record not identified |
 | 81–83 | Exact existence proofs; named derived-product comparisons | Previous worldwide record not identified |
-| **84–85** | Exact gains over Chen's 2013 theorem; no later stronger same-dimensional guarantee located | **Record candidates; priority unresolved** |
+| **84–85** | Exact gains of 156% and 32.197832% over stronger classical BCS88 sections | **Record candidates against the strongest comparisons located** |
+| **86–87** | Classical BCS88 sections exceed our results | **Our record candidates rejected** |
+| **93–95** | New periodic existence bounds exceed derived MW92 products | Reported dimension-specific record not identified |
+| **96** | Exact gain of 73.240722% over the explicitly reported BCS96 construction | **Record candidate against the strongest published numerical benchmark located** |
 
 The earlier 59D construction retains its separate
 [source investigation](../../constructions/dim59/#literature-derived-comparison):
@@ -106,14 +122,16 @@ still names KP36 as the best known packing. That supports the relevance of
 our 18.97% KP36 comparison, but is not an independent validation of our
 packing certificate or an exhaustive November 2026 priority check.
 
-## What would settle the remaining priority question
+## Remaining scope
 
-A worldwide claim needs a direct check of competing constructions and
-their same-dimensional consequences, especially higher-minimum sections
-of the Mordell–Weil families and the new 88D claims. This review has not
-completed that classification. The defensible result now is the exact
-external comparison above and the more focused record candidates in
-84D and 85D; the other dimensions should not be advertised as SOTAs.
+The computational parent-minimum gap in 88D and the missing numerical
+BCS96 source comparison have been closed. The 86D/87D record question
+has a negative answer for our candidates. The positive 84D/85D/96D
+claims are exact improvements over the specified strongest comparisons
+located, with published versus derived values identified explicitly.
+Further structured Mordell–Weil sections and other constructions remain
+relevant checks before assigning an unqualified worldwide SOTA label.
+No complete classification is asserted by this literature search.
 
 Replay:
 

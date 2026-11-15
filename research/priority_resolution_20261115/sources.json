@@ -1,0 +1,44 @@
+{
+  "checked_utc_date": "2026-11-15",
+  "dimension_ceiling": 96,
+  "BCS1982": {
+    "authors": ["H. J. A. Bos", "J. H. Conway", "N. J. A. Sloane"],
+    "title": "Further lattice packings in high dimensions",
+    "journal": "Mathematika 29 (1982), 171-180",
+    "doi": "10.1112/S0025579300012262",
+    "full_text_url": "https://neilsloane.com/doc/Me103.pdf",
+    "discovery_url": "https://neilsloane.com/doc/pub.html",
+    "pdf_sha256": "8ce46a5a6af6e58bd2a2f7ab2ceefcd629a106b9c61b0ddae99c59940054d448",
+    "locators": ["Theorems 1-2", "Equation (15)", "Table 1, p.177, dimension 96, log2(delta)=52.078", "Section 5, P48q coordinates and norm-doubler"],
+    "exact_96D_center_density": "3^48/2^24",
+    "88D_sections": "Derived here from the published theorem; not numerical dimension-specific records printed in the source"
+  },
+  "MW92": {
+    "construction_credit": "Tetsuji Shioda",
+    "exposition": "Schuett-Shioda, Mordell-Weil Lattices, author draft 16 March 2017",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "locator": "Theorem 13.35, Equation (13.24), p.357, p=47",
+    "rank": 92,
+    "minimum_squared": 16,
+    "gram_determinant": "47^14"
+  },
+  "Sakamoto88": {
+    "paper": "https://arxiv.org/abs/2609.15633v2",
+    "supplement": "https://github.com/RyotaroSakamoto0113/rank-88-extremal-lattice-computations",
+    "commit": "628ce2a7ac23acf8d4c295677e4310c9ec5b21d9",
+    "fresh_replay_status": "fully_reproduced",
+    "replay_evidence": "replay88/manifest.json"
+  },
+  "additional_96D_search_queries": [
+    "\"sphere packing\" \"96\" \"density\" lattice record Elkies",
+    "\"96-dimensional\" \"packing\" density lattice",
+    "\"sphere packing\" \"52.078\"",
+    "\"96\" \"Mordell-Weil\" lattice density"
+  ],
+  "unproved_96D_claim_reviewed": {
+    "construction_url": "https://srfp311t1.com/rank96_four_leech",
+    "manifest_url": "https://srfp311t1.com/master_manifest",
+    "decision": "Construction page states that a complete minimum-10 certificate is unavailable; conflicting manifest claim is not accepted as a proved bound"
+  },
+  "search_conclusion": "No proved numerical 96D benchmark stronger than BCS1982 was located in this search. This is search coverage, not a proof of exhaustive worldwide priority."
+}

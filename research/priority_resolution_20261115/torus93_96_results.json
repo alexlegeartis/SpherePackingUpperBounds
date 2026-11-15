@@ -1,0 +1,206 @@
+{
+  "dimension_ceiling": 96,
+  "parent_input": "Shioda MW92: minimum 16, Gram determinant 47^14; Schuett-Shioda 2017 draft, Thm 13.35, p=47",
+  "method_credit": "Classical greedy torus offsets and colored layers; already used in research/novel_routes_20261113/code_routes/TORUS_LAYER_BENCHMARKS.md",
+  "rows": [
+    {
+      "dimension": 93,
+      "colors": 2,
+      "vertical_root_gram": [
+        [
+          2
+        ]
+      ],
+      "color_period_matrix": [
+        [
+          2
+        ]
+      ],
+      "same_color_squared_norm_ratio": "4",
+      "horizontal_squared_distance_guarantee": "5146353/500000",
+      "vertical_squared_minimum": "2853647/500000",
+      "strict_forbidden_volume_inequality_checked": true,
+      "minimum_squared_exact_inheriting_MW92": 16,
+      "period_cosets": 2,
+      "center_density_squared_exact": "49039857307708443467467104868809893875799651909875269632000000/732436975133478539644794093743",
+      "center_density": "8182565090782445.53253529400869797137542285452",
+      "MW92_product_center_density_squared_exact": "6129982163463555433433388108601236734474956488734408704/256666986187667409334369",
+      "ratio_to_product_squared_exact": "8000000/2853647",
+      "ratio_to_product": "1.67434468880934367242756506492806788047877727",
+      "explicit_horizontal_offsets": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 94,
+      "colors": 3,
+      "vertical_root_gram": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "color_period_matrix": [
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "same_color_squared_norm_ratio": "3",
+      "horizontal_squared_distance_guarantee": "5069387/500000",
+      "vertical_squared_minimum": "2930613/500000",
+      "strict_forbidden_volume_inequality_checked": true,
+      "minimum_squared_exact_inheriting_MW92": 16,
+      "period_cosets": 3,
+      "center_density_squared_exact": "392318858461667547739736838950479151006397215279002157056000000000000/6613147500553338870788045699702774283",
+      "center_density": "7702212346014765.11438951997626655458655512678",
+      "MW92_product_center_density_squared_exact": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
+      "ratio_to_product_squared_exact": "64000000000000/8588492555769",
+      "ratio_to_product": "2.72980431056574170659858534716115706850409795",
+      "explicit_horizontal_offsets": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 95,
+      "colors": 6,
+      "vertical_root_gram": [
+        [
+          2,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2
+        ]
+      ],
+      "color_period_matrix": [
+        [
+          6,
+          0,
+          0
+        ],
+        [
+          -1,
+          1,
+          0
+        ],
+        [
+          -2,
+          0,
+          1
+        ]
+      ],
+      "same_color_squared_norm_ratio": "3",
+      "horizontal_squared_distance_guarantee": "4969407/500000",
+      "vertical_squared_minimum": "3030593/500000",
+      "strict_forbidden_volume_inequality_checked": true,
+      "minimum_squared_exact_inheriting_MW92": 16,
+      "period_cosets": 6,
+      "center_density_squared_exact": "392318858461667547739736838950479151006397215279002157056000000000000000000/7144187734930282631534930449964281196307233",
+      "center_density": "7410425802173365.31402116874983669944837766626",
+      "MW92_product_center_density_squared_exact": "766247770432944429179173513575154591809369561091801088/256666986187667409334369",
+      "ratio_to_product_squared_exact": "512000000000000000000/27834463017797937857",
+      "ratio_to_product": "4.28887665900998636426968565251079204815166208",
+      "explicit_horizontal_offsets": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 96,
+      "colors": 9,
+      "vertical_root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "color_period_matrix": [
+        [
+          0,
+          -2,
+          -1,
+          -2
+        ],
+        [
+          0,
+          1,
+          -1,
+          1
+        ],
+        [
+          1,
+          2,
+          2,
+          0
+        ],
+        [
+          1,
+          0,
+          1,
+          1
+        ]
+      ],
+      "same_color_squared_norm_ratio": "3",
+      "horizontal_squared_distance_guarantee": "9837781/1000000",
+      "vertical_squared_minimum": "6162219/1000000",
+      "strict_forbidden_volume_inequality_checked": true,
+      "minimum_squared_exact_inheriting_MW92": 16,
+      "period_cosets": 9,
+      "center_density_squared_exact": "25108406941546723055343157692830665664409421777856138051584000000000000000000000000/370099523496249293343632618811965850830221752447249",
+      "center_density": "8236644396376130.30919582238655429466603584677",
+      "MW92_product_center_density_squared_exact": "383123885216472214589586756787577295904684780545900544/256666986187667409334369",
+      "ratio_to_product_squared_exact": "65536000000000000000000000000/1441944400382070654461689521",
+      "ratio_to_product": "6.74164233131196480414155172041301390928388278",
+      "explicit_horizontal_offsets": false,
+      "world_record_confirmed": false
+    }
+  ],
+  "BCS96_comparison": {
+    "source": "Bos-Conway-Sloane (1982), Theorem 2, Eq.(15), Table 1 and P48q example",
+    "center_density_exact": "3^48/2^24",
+    "center_density": "4754450504593402.73519521951675415039062500000",
+    "center_density_squared_exact": "6362685441135942358474828762538534230890216321/281474976710656",
+    "new_to_BCS_ratio_squared_exact": "7067388259113537318333190002971674063309935587502475832486424805170479104000000000000000000000000/2354826849920934998958559905618390183994263577737799012222375129530671675662882659911032751350929",
+    "new_to_BCS_ratio": "1.7324072231730010085920559010132829789281011969631",
+    "gain_percent": "73.240722317300100859205590101328297892810119696310",
+    "gain_percent_interval_exact": [
+      "36620361/500000",
+      "73240723/1000000"
+    ]
+  },
+  "all_proof_inequalities_checked_exactly": true,
+  "world_record_confirmed": false
+}

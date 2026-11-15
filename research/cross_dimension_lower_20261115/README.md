@@ -1,11 +1,12 @@
 # Lower-bound research across dimensions, 15 November 2026
 
-**Research ceiling: 96D.** The [extension through 96D](TO96.md) adds an
-unconditional 86D existence bound (**116.264339% above Chen's theorem
-guarantee**), source-qualified explicit 86D/87D antipodes from a claimed
-88D parent, and exact classical controls in 87–96D. The conditional
-minimum claim is reported separately. [Unconditional replay](verify_to96.py)
-and [conditional algebra replay](verify88_conditional.py).
+**Research ceiling: 96D.** The [current comparison and proof update](../priority_resolution_20261115/)
+supersedes this package's initial literature conclusions. Stronger
+classical BCS88 sections leave gains of **156% in 84D** and **32.197832%
+in 85D**, and **rule out our 86D/87D results as record candidates**.
+A new 96D periodic existence proof improves the published BCS96 bound
+by **73.240722%**. The recent 88D parent's full computational proof has
+also been freshly reproduced. [Current 86–96D table](TO96.md).
 
 Two routes now have proofs: **compatible deep half-cosets** above published
 72D/80D lattices, and **explicit antipodes** below L80. The former supplies
@@ -21,12 +22,11 @@ previous packing is denser. In particular, possible higher-minimum sections
 and sections of the denser Mordell–Weil 80D parent remain outside this
 comparison. Sparse published tables do not establish priority.
 
-The [15 November worldwide-status check](LITERATURE_STATUS.md) now identifies
-**Chen's published 84D/85D guarantees** as direct comparisons: our bounds
-exceed them by **899.675713%** and **364.438553%**, respectively. No later
-stronger guarantee in those two dimensions was located in that search.
-They are **record candidates**, with the remaining priority gaps stated in
-the review. [Exact external-comparison replay](verify_external_comparisons.py).
+The [literature-status check](LITERATURE_STATUS.md) retains the historical
+Chen comparison and now leads with the stronger classical comparisons.
+The historical gains of 899.675713% and 364.438553% are valid against
+Chen's weaker guarantees; they are no longer the leading comparisons.
+[Historical exact Chen replay](verify_external_comparisons.py).
 
 ## Best bounds in this experiment
 
@@ -42,8 +42,8 @@ parent with the listed classical root lattice, with both factors at minimum 8.
 For a parent of dimension m its center-density square is
 `2^m/(2^r*det(R_r))`, where `r=n-m`. The small Gram determinants are
 `2,3,4,4,4,3,2` for `A1,A2,A3,D4,D5,E6,E7`.
-The 84D/85D rows instead use the dimension-specific guarantees in
-[Chen (2013), Theorem 2.4 and §3](https://doi.org/10.5802/jtnb.825).
+The 84D/85D rows use the stronger
+[BCS88 sections derived from the published theorem](../priority_resolution_20261115/CLASSICAL_SECTIONS.md).
 
 <!-- results-table:start -->
 | Dimension | Center density delta | Construction / proof | Comparison method / source | Ratio to that comparison |
@@ -58,8 +58,8 @@ The 84D/85D rows instead use the dimension-specific guarantees in
 | 81 | 9.834331e+11 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A1 | 1.78885x |
 | 82 | 1.015685e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A2 | 3.20000x |
 | 83 | 1.112628e+12 | [Compatible shifts (existence)](counting80_results.json) | BN98 L80 x A3 | 5.72433x |
-| 84 | 1.407375e+12 | [Compatible shifts (existence)](counting80_results.json) | [Chen 2013 generalized Craig lattice + binary code; theorem guarantee](LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | 9.99676x |
-| 85 | 1.453531e+12 | [Compatible shifts (existence)](counting80_results.json) | [Chen 2013 generalized Craig lattice + binary code; theorem guarantee](LITERATURE_STATUS.md#direct-published-comparison-in-84d-and-85d) | 4.64439x |
+| 84 | 1.407375e+12 | [Compatible shifts (existence)](counting80_results.json) | [BCS88 perpendicular to √2 D4; derived classical section](../priority_resolution_20261115/CLASSICAL_SECTIONS.md) | 2.56000x |
+| 85 | 1.453531e+12 | [Compatible shifts (existence)](counting80_results.json) | [BCS88 perpendicular to √2 A3; derived classical section](../priority_resolution_20261115/CLASSICAL_SECTIONS.md) | 1.32198x |
 <!-- results-table:end -->
 
 The existence bounds do **not** contain explicit horizontal representatives.
