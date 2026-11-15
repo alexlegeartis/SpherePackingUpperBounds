@@ -1,0 +1,75 @@
+{
+  "checked_date": "2026-11-15",
+  "research_minimum_dimension": 1,
+  "research_maximum_dimension": 96,
+  "sources": [
+    {
+      "id": "SS17-p47",
+      "title": "Schuett and Shioda, Mordell-Weil Lattices, 16 March 2017 author draft",
+      "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+      "locator": "Theorem 13.35 and Eq.(13.24), p.357, specialized to p=47",
+      "role": "Rank 92, minimum 16, Gram determinant 47^14",
+      "download_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d"
+    },
+    {
+      "id": "B29",
+      "title": "H.F. Blichfeldt, The minimum value of quadratic forms, and the closest packing of spheres",
+      "url": "https://doi.org/10.1007/BF01454863",
+      "locator": "Mathematische Annalen 101 (1929), 605-608",
+      "role": "Classical Hermite upper bound used in derived section controls",
+      "formula_crosscheck": "https://en.wikipedia.org/wiki/Hermite_constant"
+    },
+    {
+      "id": "C13-n86",
+      "url": "https://doi.org/10.5802/jtnb.825",
+      "locator": "Theorem 2.4, Section 3 and Table 3.1",
+      "role": "Published 86D guarantee, using m=10, ell=89, k=1 and a repetition code with distance 86",
+      "download_sha256": "e1c9cfea5fe1fee12fc16b5da1e1bf50c40d9b002b5c7d7985a71bd8c0349f73"
+    },
+    {
+      "id": "S26-88",
+      "url": "https://arxiv.org/abs/2609.15633v2",
+      "catalogue_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/dim88a.html",
+      "source_archive": "sources/dim88a.html",
+      "source_sha256": "168cf8a866ca7ca5e03baeb18052c93dbd214273bfeac0874aa4bd82d61fb0b0",
+      "role": "Explicit Gram and two isometries; minimum 8 remains a preprint claim not independently verified here",
+      "scope_note": "LLL reduction and a 72-ray sampled orbit gave actual primitive normal embeddings; this does not verify the full parent minimum."
+    },
+    {
+      "id": "R96",
+      "url": "https://srfp311t1.com/rank96_four_leech",
+      "role": "Construction page explicitly says a complete minimum-10 certificate is unavailable",
+      "access": "Read through web tool; direct shell download returned HTTP 403",
+      "used_as_proof_input": false
+    },
+    {
+      "id": "BCS82",
+      "title": "A. Bos, J.H. Conway and N.J.A. Sloane, Further lattice packings in high dimensions",
+      "url": "https://doi.org/10.1112/S0025579300012262",
+      "locator": "Mathematika 29 (1982), 171-180",
+      "role": "Abstract names a 96D record. The quantitative comparison remains unresolved because full-text retrieval failed; no 96D SOTA claimed."
+    },
+    {
+      "id": "BE00",
+      "title": "J. Bierbrauer and Y. Edel, Dense Sphere Packings from New Codes",
+      "url": "https://emis.de/ft/43246",
+      "download_sha256": "a12652d87b2529259be05000a6c0a60be01030f804b599aaa25c14f1390250e9",
+      "role": "Checked as a possible 96D source; the relevant search hit 96 was a page number, not a 96D record."
+    }
+  ],
+  "actual_search_queries": [
+    "\"sphere packing\" \"96\" lattice density",
+    "\"96\" \"extremal\" \"minimum 10\" lattice",
+    "\"sphere packing\" \"92\" Mordell Weil",
+    "\"sphere packing\" \"86\" \"87\" density lattices",
+    "\"Blichfeldt\" \"Hermite\" \"Gamma\" bound 1929",
+    "\"96-dimensional\" \"density\" lattice sphere packing",
+    "\"92-dimensional\" \"lattice\" density",
+    "\"sphere\" \"39.3225\"",
+    "\"Dense Sphere Packings from New Codes\" \"96\"",
+    "\"New records\" \"dimension 96\" sphere packings",
+    "\"Bos\" \"Conway\" \"96\" density"
+  ],
+  "worldwide_records_confirmed": false,
+  "proof_scope": "New unconditional 86D existence bound; exact derived classical controls in 84-96D; conditional rank-88-parent antipode algebra only."
+}

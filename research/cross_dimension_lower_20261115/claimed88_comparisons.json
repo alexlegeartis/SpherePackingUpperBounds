@@ -1,0 +1,55 @@
+{
+  "source": "Ryotaro Sakamoto, arXiv:2609.15633v2, rank-88 ideal115L0",
+  "catalogue_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/dim88a.html",
+  "catalogue_qualification": "The unimodular catalogue labels minimum 8 as claimed by authors",
+  "source_sha256": "168cf8a866ca7ca5e03baeb18052c93dbd214273bfeac0874aa4bd82d61fb0b0",
+  "parent_minimum_8_independently_verified": false,
+  "maximum_dimension": 96,
+  "rows": [
+    {
+      "dimension": 86,
+      "certificate": "certificates/claimed88_n86.npz",
+      "normal_gram": [
+        [
+          8,
+          -4
+        ],
+        [
+          -4,
+          8
+        ]
+      ],
+      "normal_determinant": "48",
+      "cosets": 3,
+      "squared_diameter": "1/6",
+      "separation_squared_conditional_lower_bound": "47/6",
+      "center_density_squared_conditional": "631561696215121967192878113156776719259676006996009880774104395085770538496213689074783691468493581570025964011304968721690048131367777492053729/266173928911554124062376050330749756182814165965406878282999908858899519071133496793765148450404496004005883354254671872",
+      "center_density_conditional": "1540370290434.365301113618493028594346349",
+      "all_matrix_and_cluster_checks_exact": true,
+      "parent_minimum_8_independently_verified": false,
+      "status": "conditional_on_preprint_parent_minimum_theorem",
+      "world_record_confirmed": false,
+      "certificate_sha256": "aeecce4c643b717890d7428fc409c845c8b8201ecfbb51e911d624ce65631e21"
+    },
+    {
+      "dimension": 87,
+      "certificate": "certificates/claimed88_n87.npz",
+      "normal_gram": [
+        [
+          10
+        ]
+      ],
+      "normal_determinant": "10",
+      "cosets": 2,
+      "squared_diameter": "1/10",
+      "separation_squared_conditional_lower_bound": "79/10",
+      "center_density_squared_conditional": "1240386246978969398085583432626731696918171936820649469198160157838042738826816274279339456126367802550853875966628033859965537613552643305499685232938505109067904559/59863107065073783529622930748058952485106996960296960000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "center_density_conditional": "4551964265436.057146067253038719223671863",
+      "all_matrix_and_cluster_checks_exact": true,
+      "parent_minimum_8_independently_verified": false,
+      "status": "conditional_on_preprint_parent_minimum_theorem",
+      "world_record_confirmed": false,
+      "certificate_sha256": "d855b547cc031141e3b8328ac7c57c16101a1c892dc4e710f068c937e801b9b2"
+    }
+  ]
+}

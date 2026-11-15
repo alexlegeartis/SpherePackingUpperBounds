@@ -1,5 +1,12 @@
 # Lower-bound research across dimensions, 15 November 2026
 
+**Research ceiling: 96D.** The [extension through 96D](TO96.md) adds an
+unconditional 86D existence bound (**116.264339% above Chen's theorem
+guarantee**), source-qualified explicit 86D/87D antipodes from a claimed
+88D parent, and exact classical controls in 87–96D. The conditional
+minimum claim is reported separately. [Unconditional replay](verify_to96.py)
+and [conditional algebra replay](verify88_conditional.py).
+
 Two routes now have proofs: **compatible deep half-cosets** above published
 72D/80D lattices, and **explicit antipodes** below L80. The former supplies
 existence bounds in 73–78D and 81–85D; the latter supplies explicit finite

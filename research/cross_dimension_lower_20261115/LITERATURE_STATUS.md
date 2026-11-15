@@ -1,5 +1,10 @@
 # Worldwide-status check: 15 November 2026
 
+The subsequent [review through 96D](TO96.md) adds an unconditional 86D
+comparison and stronger nearby controls. It also finds explicit 86D/87D
+antipodes conditional on the new 88D parent's claimed minimum. The research
+ceiling is 96D; none of those derived controls is declared a worldwide record.
+
 **84D and 85D now have verified improvements over a named published
 dimension-specific guarantee, with no later stronger guarantee located in
 this search. They are record candidates; worldwide priority is unresolved.**

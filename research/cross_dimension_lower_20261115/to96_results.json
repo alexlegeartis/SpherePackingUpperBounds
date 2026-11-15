@@ -1,0 +1,610 @@
+{
+  "maximum_dimension": 96,
+  "counting_extensions": [
+    {
+      "dimension": 86,
+      "rank": 6,
+      "root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          2
+        ]
+      ],
+      "gram_determinant_exact": "2187/64",
+      "expected_bad_classes_upper_bound_exact": "3099827211092641260000/86351844258109261648457",
+      "minimum_squared_exact_inheriting_parent": 8,
+      "center_density_squared_exact": "4951760157141521099596496896/2187",
+      "center_density": "1504719014574.45263347608325995584609757248930",
+      "explicit_horizontal_representatives": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 87,
+      "rank": 7,
+      "root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "gram_determinant_exact": "2187/64",
+      "expected_bad_classes_upper_bound_exact": "6248858028710562540000/86351844258109261648457",
+      "minimum_squared_exact_inheriting_parent": 8,
+      "center_density_squared_exact": "9903520314283042199192993792/2187",
+      "center_density": "2127994037971.86978716397652081948178397040621",
+      "explicit_horizontal_representatives": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 88,
+      "rank": 8,
+      "root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          -1
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "gram_determinant_exact": "6561/256",
+      "expected_bad_classes_upper_bound_exact": "12546919663946405100000/86351844258109261648457",
+      "minimum_squared_exact_inheriting_parent": 8,
+      "center_density_squared_exact": "79228162514264337593543950336/6561",
+      "center_density": "3474999712477.23456790123456790123456790123456",
+      "explicit_horizontal_representatives": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 89,
+      "rank": 9,
+      "root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "gram_determinant_exact": "19683/256",
+      "expected_bad_classes_upper_bound_exact": "25143042934418090220000/86351844258109261648457",
+      "minimum_squared_exact_inheriting_parent": 8,
+      "center_density_squared_exact": "158456325028528675187087900672/19683",
+      "center_density": "2837325383962.49304955196869442597571196054162",
+      "explicit_horizontal_representatives": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 90,
+      "rank": 10,
+      "root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          -1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          -1,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          -1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          -1,
+          2
+        ]
+      ],
+      "gram_determinant_exact": "177147/1024",
+      "expected_bad_classes_upper_bound_exact": "50335289475361460460000/86351844258109261648457",
+      "minimum_squared_exact_inheriting_parent": 8,
+      "center_density_squared_exact": "1267650600228229401496703205376/177147",
+      "center_density": "2675056025910.13801506859246214372639568442543",
+      "explicit_horizontal_representatives": false,
+      "world_record_confirmed": false
+    }
+  ],
+  "86D_comparison": {
+    "source": "Chen (2013), Theorem 2.4 and Section 3",
+    "comparison_center_density_squared_exact": "5169878828456422967946304325437267834786325693130493164062500/10679216036839284928710694420978310247",
+    "comparison_center_density": "695777685109.346113126000433999761297720715752",
+    "ratio_squared_exact": "4406743040060629143226853443397992573385413200369706733221707776/942210416486183085908213963310942062889807857573032379150390625",
+    "ratio": "2.16264339425886586781847675275499802108836264",
+    "increase_percent": "116.264339425886586781847675275499802108836264",
+    "gain_percent_interval_verified_exactly": [
+      "116.264339",
+      "116.264340"
+    ],
+    "world_record_confirmed": false
+  },
+  "MW92": {
+    "rank": 92,
+    "minimum_squared": 16,
+    "gram_determinant": "256666986187667409334369",
+    "center_density_squared_exact": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+    "center_density": "9774050881483923.47642847473367108906974140020"
+  },
+  "classical_sections": [
+    {
+      "dimension": 91,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "623/50",
+      "center_density_squared_lower_bound_exact": "3443664483164131858634061128122",
+      "center_density_lower_bound": "1855711314607994.69325873916105552495363699419",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 90,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "617/50",
+      "center_density_squared_lower_bound_exact": "128864714012559596127904470650",
+      "center_density_lower_bound": "358977316849629.923978307118061209287198415722",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 89,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "611/50",
+      "center_density_squared_lower_bound_exact": "5007452921343898975205116906",
+      "center_density_lower_bound": "70763358607007.1929510989614966217066115619203",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 88,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "121/10",
+      "center_density_squared_lower_bound_exact": "202115608877351705504781586",
+      "center_density_lower_bound": "14216736927908.3062557733634338397775321552172",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 87,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "599/50",
+      "center_density_squared_lower_bound_exact": "8476484362241346283166639",
+      "center_density_lower_bound": "2911440255653.77973173267315807851841322847299",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 86,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "593/50",
+      "center_density_squared_lower_bound_exact": "369487593511695907211732",
+      "center_density_lower_bound": "607854911563.356463442607190762203439557121936",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 85,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "587/50",
+      "center_density_squared_lower_bound_exact": "16745183253744028849989",
+      "center_density_lower_bound": "129403181003.188746380117316808940302280901206",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 84,
+      "method": "Derived MW92 section using Blichfeldt's Hermite bound",
+      "hermite_upper_used": "581/50",
+      "center_density_squared_lower_bound_exact": "789271186124494714649",
+      "center_density_lower_bound": "28093970636.4994749677140390949440276834302731",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    }
+  ],
+  "classical_products": [
+    {
+      "dimension": 93,
+      "method": "Derived MW92 orthogonal product with A1/A2/A3/D4",
+      "center_density_squared_exact": "6129982163463555433433388108601236734474956488734408704/256666986187667409334369",
+      "center_density": "4887025440741961.73821423736683554453487070010",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 94,
+      "method": "Derived MW92 orthogonal product with A1/A2/A3/D4",
+      "center_density_squared_exact": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
+      "center_density": "2821525453748921.10452205178827580704207100997",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 95,
+      "method": "Derived MW92 orthogonal product with A1/A2/A3/D4",
+      "center_density_squared_exact": "766247770432944429179173513575154591809369561091801088/256666986187667409334369",
+      "center_density": "1727824414489908.65699409617669199029838562857",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    },
+    {
+      "dimension": 96,
+      "method": "Derived MW92 orthogonal product with A1/A2/A3/D4",
+      "center_density_squared_exact": "383123885216472214589586756787577295904684780545900544/256666986187667409334369",
+      "center_density": "1221756360185490.43455355934170888613371767503",
+      "is_dimension_specific_result_reported_by_source": false,
+      "world_record_confirmed": false
+    }
+  ],
+  "all_checks_exact": true,
+  "conditional_88D_parent_used_as_proof_input": false
+}
