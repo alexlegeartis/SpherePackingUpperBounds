@@ -37,9 +37,11 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Packing constructions: lower bounds
 
-**Latest: new explicit 58D lattice, +6.9277%.** One deep MW56 coset and
-complex multiplication supply a compatible plane. Two full enumeration
-runs completed. [Gram, proof and reproduction commands](research/cm58_20261116/).
+**Latest: stronger explicit bounds in 57D, 78D and 79D.** Gains over our
+preceding results are **1.68%, 8.69% and 10.87%**. The constructions use
+a certified MW56 half-coset and antipodes from the reconstructed MW80.
+[Certificates, external comparisons and exact auditors](research/creative_sections_20261116/PROOF.md).
+The preceding [58D lattice](research/cm58_20261116/) remains certified.
 
 **Comparison method / source** names the published work behind each recorded
 comparison. Values marked **derived** are calculated from published inputs,
@@ -60,7 +62,7 @@ table nor an older lattice's unknown actual minimum is required.
 | 51 | ≈1.798425511734e-10 (**derived**) | P48q × A3 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.969351595567e-10 | **343.129368%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
 | 52 | ≈1.094979637686e-10 (**derived**) | Two Blichfeldt sections of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [derivation](research/range48_96_20261115/verify_range.py) | ≈2.879504124e-10 | **162.973303%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
 | 53 | ≈1.256125809644e-10 (**derived**) | One Blichfeldt section of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [comparison derivation](research/range48_96_20261115/verify_range.py) | ≈1.496705651057e-10 | **19.152528%** | [Primitive dual normal; explicit minimum-10 lattice](research/adaptive_layers_20261115/SECTION53_PROOF.md) |
-| 57 | ≈8.85119018168e-12 (**derived**) | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈1.471429176616e-11 | **66.240827%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 57 | ≈8.85119018168e-12 (**derived**) | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈1.496124208292e-11 | **69.030851%** | [Explicit MW56 deep half-coset; complete minimum-10 certificate](research/creative_sections_20261116/PROOF.md) |
 | 58 | ≈4.474935526505e-12 (**derived**) | Γ72 perpendicular to a rank-14 Leech block — [Nebe (2012), §4.2](https://arxiv.org/abs/1008.2862); [exact derived section](research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py) | ≈4.784946339509e-12 | **6.927716%** | [Explicit MW56 complex-multiplication plane; full minimum-10 certificate](research/cm58_20261116/) |
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
 | 60 | ≈[1.668964977674e-12, 1.680573547119e-12) | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | ≈2.395250641682e-12 | **>42.525785%** | [Explicit Ne64 antipode; exact period and shifts](research/novel_routes_20261113/audits/README.md) |
@@ -78,8 +80,8 @@ table nor an older lattice's unknown actual minimum is required.
 | 75 | ≈6.315750546658e-16 (**derived**) | Γ72 × A3 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | ≈2.750287321247e-15 | **335.464843%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
 | 76 | ≈1.279866139755e-16 (**derived**) | Γ72 × D4 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | ≈9.101270327146e-16 | **611.111111%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
 | 77 | ≈9.521458141249e-17 (**derived**) | Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈2.992305608205e-16 | **214.269681%** | [Adaptive exceptional coset above D5; lattice existence proof](research/adaptive_layers_20261115/ADAPTIVE_PROOF.md) |
-| 78 | ≈9.523775961404e-17 (**derived**) | Bare L80 section, normal rank 2 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈1.257009694168e-16 | **31.986483%** | [Explicit L80 antipode; exact period and shifts](research/cross_dimension_lower_20261115/verify80.py) |
-| 79 | ≈9.274742674901e-17 (**derived**) | L80 perpendicular to a minimum vector — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf) | ≈1.009467817784e-16 | **8.840520%** | [Explicit L80 antipode; exact period and shifts](research/cross_dimension_lower_20261115/verify80.py) |
+| 78 | ≈9.523775961404e-17 (**derived**) | L80 perpendicular to 2 A2 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈1.366254130898e-16 | **43.457189%** | [Explicit MW80 antipode; exact period, shifts and minimum attainment](research/creative_sections_20261116/PROOF.md) |
+| 79 | ≈9.274742674901e-17 (**derived**) | L80 perpendicular to a minimum vector — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf) | ≈1.119208813283e-16 | **20.672762%** | [Explicit MW80 antipode; exact period, shifts and minimum attainment](research/creative_sections_20261116/PROOF.md) |
 | 81 | ≈1.595311593607e-17 (**derived**) | MW80 × A1 — [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.791096776318e-17 | **74.956215%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
 | 82 | ≈2.541814578499e-18 (**derived**) | MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈7.514357550704e-18 | **195.629650%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
 | 83 | ≈4.269748590531e-19 (**derived**) | MW80 × A3 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈2.204491680495e-18 | **416.304797%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
@@ -132,8 +134,9 @@ Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
 
 The [remaining-target continuation](research/cm58_20261116/FRONTIER.md) certifies
-local optimality against lattice Gram deformations in 54D–56D and 80D.
-Its 92D deformation is an unverified candidate and is excluded from this table.
+local optimality against lattice Gram deformations in 54D–56D, 80D and 92D.
+The proposed 92D deformation is now **rejected by an exact shortest vector**;
+it was never included in the density table.
 
 The [preceding adaptive-layer continuation](research/adaptive_layers_20261115/)
 strengthens **13 dimensions**. The larger gains over our preceding bounds

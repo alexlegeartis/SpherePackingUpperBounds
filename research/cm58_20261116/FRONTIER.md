@@ -2,7 +2,8 @@
 
 **Only 58D supplies a new certified density improvement in this continuation.**
 The other computations certify restrictions on particular routes or provide
-an explicitly conditional candidate. They are excluded from the SOTA table.
+exact counterexamples. The former conditional 92D candidate is rejected.
+These results are excluded from the SOTA table.
 All parents and targets remain at most96D.
 
 | Target | Result of this continuation | Consequence for the research |
@@ -16,7 +17,7 @@ All parents and targets remain at most96D.
 | 64 | A ceiling covers every finite projection cluster for the Gamma72 / 4E8 normal | That inherited-minimum-only family cannot beat Ne64; other normals remain open |
 | 72 | The classical harmonic-theta argument proves local optimality of the extremal even unimodular parent | A small lattice Gram deformation cannot improve it |
 | 80 | Reconstructed MW80 from 160 polynomial sections; a 4,920-ray orbit has full rank 3,240 and exact positive eutaxy | Local lattice Gram deformations are blocked |
-| 92 | Two exact rational deformation directions preserve all 6,486 known minimal rays | A31.1436% candidate gain remains conditional on a missing minimum proof |
+| 92 | Three additional exact shortest vectors reject the proposed deformation and complete the local-optimality proof | The former 31.1436% candidate is rejected; a different construction is required |
 
 “Local optimality” here concerns lattice Gram deformations near the stated
 parent. It is not a claim of global optimality among all sphere packings.
@@ -156,9 +157,9 @@ this fixed-normal family** is at most 19,144,465.698823…, below Ne64's
 43,046,721. This does not bound an antipode's unknown actual minimum or
 constructions using other normals.
 
-##92D: a concrete31.1436% candidate, without a minimum certificate
+## 92D: exact counterexample rejects the deformation
 
-**This is not a new certified lower bound.** The data contain two integer
+**The former conditional candidate is now rejected.** The data contain two integer
 symmetric forms H0,H1. With G the verified MW92 Gram, both satisfy
 
 ```
@@ -177,15 +178,41 @@ det(G_candidate)/det(G)=(253/256)^46.
 
 The candidate is positive definite. Since3/256<1/81, it satisfies
 `G_candidate>(8/9)G`. Every parent vector of norm at least18 therefore
-still has norm greater than 16. All known parent minimum vectors retain
-norm 16. **The remaining gap is every unknown parent norm-16 vector**:
-we must prove its H0 value is nonnegative, or find a counterexample.
-A finite BKZ counterexample search through block 40 found none, which
-does not discharge this gap.
+still has norm greater than 16. The original 6,486 rays retain norm 16.
+However, an integral involution
+`J=(H0 G^-1-H1 G^-1)/3` splits the lattice into two eigenspaces.
+Reduction of the image of `I-J` found the saved integer vector w in
+[counterexample92.json](frontier/counterexample92.json). Exactly,
 
-If the missing condition holds, the density ratio is exactly
-`(256/253)^23`, giving 31.143634392…%. The candidate is kept out of the
-range envelope and README SOTA table until its minimum is proved.
+```
+w G w^T=16, w H0 w^T=-24,
+w (G+H0/16) w^T=29/2 <16.
+```
+
+Thus the smaller determinant does not supply the stated density. The
+earlier finite BKZ check missed this witness; it was never a minimum
+certificate. The candidate was never included in the SOTA envelope.
+
+The same computation settles local optimality. Put
+`C=(H0 G^-1)(H1 G^-1)/3`. The verifier proves C integral,
+`C G C^T=G` and `C²+C+I=0`. The three norm-16 vectors w,wC,wC²
+have null-form values spanning R² and summing to zero. Therefore their
+positive cone is all R², and they raise the perfection rank to 4,278.
+
+Here is the local determinant argument without assuming that any shell
+is complete. Normalize a perturbation to keep minimum 16. For an
+admissible Gram increment D, the original minimum
+vectors obey `v D v^T>=0`. Their exact positive-eutaxy identity gives
+`trace(G^-1 D)>=0`. Equality forces every original dyad pairing to
+vanish, so D lies in the span of H0,H1. The three additional vectors
+then force D=0, by the positive-spanning null values. On the compact
+unit slice of this closed admissible cone, trace is therefore strictly
+positive. The first derivative of log determinant dominates its bounded
+quadratic remainder for sufficiently small increments. Hence G is
+strictly locally optimal among lattice Gram deformations.
+
+The [next continuation](../creative_sections_20261116/) supplies stronger
+certified bounds in 57D, 78D and 79D; it makes no new 92D density claim.
 
 ## Replay
 
@@ -194,7 +221,7 @@ python research/cm58_20261116/verify_frontier.py
 ```
 
 This checks the finite-field reconstructions, exact matrix identities,
-positive eutaxy, modular ranks, the 63D ceiling and the conditional92D
-algebra. The rank checks take longer than the main58D saved-report audit.
+positive eutaxy, modular ranks, the 63D ceiling and the rejected 92D
+deformation. The rank checks take longer than the main58D saved-report audit.
 The result explicitly distinguishes the certified density, local
-obstructions, rejected finite candidates and unresolved conditional work.
+obstructions and rejected candidates.

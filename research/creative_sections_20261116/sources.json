@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-11-16",
+  "review_timezone": "Europe/Moscow",
+  "maximum_parent_or_target_dimension": 92,
+  "SchuttShioda": {
+    "title": "Mordell-Weil Lattices, author draft 16 March 2017",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "pdf_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d",
+    "locators": [
+      "Theorem6.23, Equation6.15, p.123: height pairings",
+      "Theorem13.35 p.357: p29 MW56 minimum10 det29^8 and p41 MW80 minimum14 det41^12",
+      "Section13.4.2, p.359: explicit unitary polynomial sections"
+    ],
+    "57D_comparison": "MW56 x minimum-matched A1, derived delta^2=(5/2)^56/(4*29^8) rather than a number printed by the authors"
+  },
+  "BachocNebe1998": {
+    "title": "Extremal lattices of minimum8 related to the Mathieu group M22",
+    "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf",
+    "journal": "Journal fuer die reine und angewandte Mathematik494 (1998),155-171",
+    "gram_catalogue": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/L80.html",
+    "exact_normal_audit": "../cross_dimension_lower_20261115/l80_results.json",
+    "78D_comparison": "Normal2 A2 with Gram4*Gram(A2), determinant48; inherited-minimum8 section, delta^2=2^74/3, derived",
+    "79D_comparison": "Primitive minimum-vector normal, norm8; inherited-minimum8 section, delta^2=2^76, derived"
+  },
+  "carried_forward_source_review": "../covering_and_deep_cosets_20261115/PRIORITY.md",
+  "additional_queries": [
+    "\"78-dimensional\" \"sphere packing\" density",
+    "\"79-dimensional\" \"sphere packing\" density",
+    "\"57-dimensional\" sphere packing lower density Mordell",
+    "\"Mordell-Weil\" \"80\" \"antipode\"",
+    "sphere packing density78 79 Bachoc Nebe Mordell Weil"
+  ],
+  "additional_primary_checks": [
+    "https://arxiv.org/abs/1110.1950v5: Chen moderate-dimensional examples84-86; already included in prior review",
+    "https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf: parent construction"
+  ],
+  "finding": "No stronger published guarantee located for57,78,79 in the carried-forward named-source review and new targeted searches. These strengthen dimensions already registered in the dated review.",
+  "novelty_scope": "New numerical constructions and exact certificates from published parents and existing lamination/antipode methods; no claim to originate those general methods.",
+  "rejected_routes": {
+    "92": "Exact norm16 vector gives length29/2 under the former deformation; no density claim",
+    "56": "Index64 code deletes2436 known rays but retains an additional norm10 vector; no density claim"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "commit": "f0217194ec528125f6b115b254584b0439c68a5a",
+  "rows": [
+    {
+      "dimension": 57,
+      "best_checked": {
+        "dimension": 57,
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "2710505431213761085018632002174854278564453125/101900986587953672358138279412891648",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
+      },
+      "center_density": "163093.234759651154344129770999552702352748387",
+      "comparison": {
+        "dimension": 57,
+        "name": "Shioda MW56 x classical 1D lattice",
+        "density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_center_density": "98106.6069059854340445692437032470397638986485",
+      "previous_checked": {
+        "dimension": 57,
+        "name": "56D torus offsets, 1D lattice modulo 2",
+        "density_squared": "867361737988403547205962240695953369140625/37687234330418480150219673567232",
+        "evidence": "research/novel_routes_20261113/audits/propagated_benchmarks.json",
+        "kind": "prior_repository_derived_control"
+      },
+      "previous_center_density": "151706.083319628368430079470505030468836004795",
+      "ratio_to_comparison": "1.66240827099383578093097594594043669239253723",
+      "ratio_to_previous": "1.07506061188087813858592461607431820464934429",
+      "improves_previous_checked_envelope": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "literature_review_date": "2026-11-16"
+    },
+    {
+      "dimension": 78,
+      "best_checked": {
+        "dimension": 78,
+        "name": "L80 antipode, 3 translates",
+        "density_squared": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "center_density": "104731824371.132453564540774108605648167223669",
+      "comparison": {
+        "dimension": 78,
+        "name": "Bachoc--Nebe L80 bare section, normal rank 2",
+        "density_squared": "18889465931478580854784/3",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "derived_parent_section_with_repository_embedding"
+      },
+      "comparison_center_density": "79350416784.1996505934653281617340715516742407",
+      "previous_checked": {
+        "dimension": 78,
+        "name": "L80 antipode, 3 translates",
+        "density_squared": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "previous_center_density": "104731824371.132453564540774108605648167223669",
+      "ratio_to_comparison": "1.31986483014903053477460743678419857652376438",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "literature_review_date": "2026-11-16"
+    },
+    {
+      "dimension": 79,
+      "best_checked": {
+        "dimension": 79,
+        "name": "L80 antipode, 2 translates",
+        "density_squared": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "center_density": "299178543929.505725390716588731130304965709417",
+      "comparison": {
+        "dimension": 79,
+        "name": "Bachoc--Nebe L80 perpendicular to a minimum vector",
+        "density_squared": "75557863725914323419136",
+        "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "274877906944",
+      "previous_checked": {
+        "dimension": 79,
+        "name": "L80 antipode, 2 translates",
+        "density_squared": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "previous_center_density": "299178543929.505725390716588731130304965709417",
+      "ratio_to_comparison": "1.08840520235209887829375143603512808100534827",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "literature_review_date": "2026-11-16"
+    }
+  ]
+}

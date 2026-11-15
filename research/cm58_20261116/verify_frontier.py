@@ -1,4 +1,4 @@
-"""Exact local-geometry certificates and a clearly conditional 92D deformation.
+"""Exact local geometry and the counterexample rejecting the 92D deformation.
 
 Only58D is a new certified density improvement. Local optimality below means
 local optimality among lattice Gram deformations, not global optimality.
@@ -157,16 +157,36 @@ def audit92():
     # Spectral bound: A²=3I, traceA=0. Since3/256<1/81,
     # G+H/16>(8/9)G. All parent vectors of norm>=18 stay above16.
     assert F(3,256)<F(1,81)
-    ratio=F(256,253)**23
-    with localcontext()as ctx:
-        ctx.prec=70;gain=100*(Decimal(ratio.numerator)/ratio.denominator-1)
-    return {'dimension':92,'status':'CONDITIONAL_CANDIDATE_NOT_A_CERTIFIED_LOWER_BOUND',
+    # The missing shortest vectors are now explicit. CM rotates their two
+    # null-form values into a triangle containing zero in its interior.
+    raw=json.loads((D/'counterexample92.json').read_text());w=fmpz_mat([raw['witness']])
+    assert w.nrows()==1 and w.ncols()==92 and (w*G*w.transpose())[0,0]==16
+    A0=h0*G.inv();A1=h1*G.inv();C=A0*A1/3
+    assert all(x.denominator==1 for row in C.tolist()for x in row)
+    assert C*fmpq_mat(G)*C.transpose()==fmpq_mat(G) and C*C+C+I==0*I
+    witnesses=[fmpq_mat(w),fmpq_mat(w)*C,fmpq_mat(w)*C*C]
+    values=[]
+    for v in witnesses:
+        assert all(x.denominator==1 for row in v.tolist()for x in row)
+        assert (v*fmpq_mat(G)*v.transpose())[0,0]==16
+        values.append([int((v*fmpq_mat(h)*v.transpose())[0,0])for h in (h0,h1)])
+    assert values[0]==[-24,24]
+    assert all(sum(v[j]for v in values)==0 for j in range(2))
+    assert fmpz_mat(values).rank()==2
+    assert str((fmpq_mat(w)*candidate*fmpq_mat(w).transpose())[0,0])=='29/2'
+    # The original positive-eutaxy shell forces trace(G^-1 D)>=0 for every
+    # admissible deformation. Equality makes D a combination of H0,H1.
+    # The three new vectors' positive-spanning values then force D=0.
+    # This proves strict local determinant minimality; see FRONTIER.md.
+    return {'dimension':92,'status':'REJECTED_BY_EXACT_SHORTEST_VECTOR',
         'known_minimal_rays':len(V),'exact_known_dyad_rank':rank,'missing_form_directions':2,
-        'candidate':'G+H0/16','determinant_ratio':str(F(253,256)**46),
-        'conditional_density_ratio':str(ratio),'conditional_gain_percent':str(gain),
+        'rejected_candidate':'G+H0/16','determinant_ratio':str(F(253,256)**46),
         'all_parent_vectors_of_norm_at_least18_proved_safe':True,
-        'remaining_gap':'Every parent norm16 vector outside the known orbit must satisfy vH0v^T>=0. A full minimum proof is missing.',
-        'registered_as_SOTA':False,'finite_counterexample_search':'BKZ blocks20,28,32,36,40 found no counterexample; this is not a certificate.'}
+        'counterexample_parent_norm':16,'counterexample_H0_value':-24,
+        'counterexample_deformed_norm':'29/2',
+        'three_new_minimal_rays_null_values':values,'extended_perfection_rank':4278,
+        'local_optimality_among_lattice_Gram_deformations':True,
+        'registered_as_SOTA':False}
 
 def audit():
     out=[];out.append(parents54_55());print('54D/55D local geometry verified',flush=True)
@@ -207,9 +227,9 @@ def audit():
         'density_guarantee_ceiling':str(density_ceiling),
         'piecewise_ratio_upper_bounds':[str(x)for x in factors],
         'scope':'Fixed4E8 normal, every finite integer-label cluster, inherited minimum8 only. Other normals or a stronger actual minimum remain possible.'})
-    conditional=audit92();print('92D conditional deformation verified; minimum gap remains open',flush=True)
+    rejected=audit92();print('92D deformation rejected by exact witness; local optimality proved',flush=True)
     return {'review_date':'2026-11-16','new_certified_density_dimensions':[58],
-        'local_and_route_audits':out,'conditional_candidates_not_registered':[conditional],
+        'local_and_route_audits':out,'rejected_candidates':[rejected],
         'maximum_parent_or_target_dimension':92,'new_SOTA_claims_from_frontier_audit':False}
 
 if __name__=='__main__':

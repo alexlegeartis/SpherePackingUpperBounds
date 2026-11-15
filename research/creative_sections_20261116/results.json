@@ -1,0 +1,130 @@
+{
+  "status": "verified_three_stronger_explicit_lower_bounds",
+  "rows": [
+    {
+      "dimension": 57,
+      "name": "Explicit MW56 deep half-coset lamination",
+      "kind": "new_explicit_lattice",
+      "density_squared": "6938893903907228377647697925567626953125/252325870608513728383100649472",
+      "center_density": "165830.4324871433142780682321006947885778419531425496746365155212098433",
+      "minimum_squared": 10,
+      "gram_determinant": "3501724890727/2",
+      "comparison_name": "Shioda MW56 x minimum-matched A1 (derived)",
+      "comparison_density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
+      "external_gain": {
+        "percent": "69.03085094570331550192366547318905852615717802269543779656341911836640",
+        "interval": [
+          "1380617/20000",
+          "69030851/1000000"
+        ],
+        "display": "69.030851%"
+      },
+      "incremental_gain": {
+        "percent": "1.678302433283600303194657961615742843559936304745495844789516944300900",
+        "interval": [
+          "839151/500000",
+          "1678303/1000000"
+        ],
+        "display": "1.678302%"
+      },
+      "half_coset_squared_depth_at_least": "13/2",
+      "vertical_squared_height": "7/2"
+    },
+    {
+      "dimension": 78,
+      "name": "Explicit MW80 antipode, 3 translates",
+      "kind": "new_explicit_periodic_packing",
+      "density_squared": "40970109655292784970960474031845889325799584758579728376869816911178945064989403829133088049615399157754494194624321106215991807402699099934464728967749482992221052267037596929227636523293646568874323766729850521126619832494994382469968887078313760327259178644273983450453277670605912883945189382082124439757102066953564100288997432833349731027257656718849/3161724806760124633577866226446784501301073384560436371875874459913184522551855075795936003660499325630138804586991671685215765834085909967709280248831524464856739127600332342914196950796606354015225413662872235098337304248386720664000384761103606856741642257565866682415185882436772630255810736556547467796326850290620900890776698880",
+      "center_density": "113833877612.4926132760263198509540043195996518440864078010916403070817",
+      "parent_dimension": 80,
+      "parent_minimum_squared_inherited": 14,
+      "normal_rank": 2,
+      "normal_gram": [
+        [
+          "188/41",
+          "-88/41"
+        ],
+        [
+          "-88/41",
+          "178/41"
+        ]
+      ],
+      "normal_determinant": "25720/1681",
+      "period_determinant": "345230797457119753720",
+      "cosets": 3,
+      "cluster_squared_diameter": "779/2572",
+      "minimum_squared_guarantee": "35229/2572",
+      "minimum_attained_by_exact_parent_vector": true,
+      "comparison_name": "Bachoc-Nebe L80 / minimum-vector normal (79D) or 2 A2 normal (78D), derived",
+      "comparison_density_squared": "18889465931478580854784/3",
+      "external_gain": {
+        "percent": "43.45718929501495754390610393615728782845274914399979860706581389077490",
+        "interval": [
+          "43457189/1000000",
+          "4345719/100000"
+        ],
+        "display": "43.457189%"
+      },
+      "incremental_gain": {
+        "percent": "8.690818952132171496970496068826761462555038786363531672500090121873100",
+        "interval": [
+          "4345409/500000",
+          "8690819/1000000"
+        ],
+        "display": "8.690819%"
+      },
+      "complete_integer_kernel_checked": true,
+      "all_projected_shifts_checked_exactly": true
+    },
+    {
+      "dimension": 79,
+      "name": "Explicit MW80 antipode, 2 translates",
+      "kind": "new_explicit_periodic_packing",
+      "density_squared": "19057613518779513066633878909691598315754751734743772898774032111656964438329843584394565415213688043109815316843410584492122141365997068679669075136583081301809212430637379365244546511364823143216667910782561703444608426965046954869721466951926203137190896086394786834716796875/173208954513357483668332706471886585878128244945849042015711463520596145901795559651406379738436084092761832049210761594135147506748143040324203100994413356859375959566052095039289405382665191613705179177344057054256549541306045465323819524771400149630976",
+      "center_density": "331702761803.9557535658295895904748106045923363655452606561357204876313",
+      "parent_dimension": 80,
+      "parent_minimum_squared_inherited": 14,
+      "normal_rank": 1,
+      "normal_gram": [
+        [
+          "234/41"
+        ]
+      ],
+      "normal_determinant": "234/41",
+      "period_determinant": "128776993421602135194",
+      "cosets": 2,
+      "cluster_squared_diameter": "41/234",
+      "minimum_squared_guarantee": "3235/234",
+      "minimum_attained_by_exact_parent_vector": true,
+      "comparison_name": "Bachoc-Nebe L80 / minimum-vector normal (79D) or 2 A2 normal (78D), derived",
+      "comparison_density_squared": "75557863725914323419136",
+      "external_gain": {
+        "percent": "20.67276176965815595970692432837488399112492929472692072745693457823330",
+        "interval": [
+          "20672761/1000000",
+          "10336381/500000"
+        ],
+        "display": "20.672762%"
+      },
+      "incremental_gain": {
+        "percent": "10.87117326238260685831400729204069896602847435379907826914124503718170",
+        "interval": [
+          "10871173/1000000",
+          "5435587/500000"
+        ],
+        "display": "10.871173%"
+      },
+      "complete_integer_kernel_checked": true,
+      "all_projected_shifts_checked_exactly": true
+    }
+  ],
+  "all_source_and_period_checks_exact": true,
+  "checkpoint_commit": "f0217194ec528125f6b115b254584b0439c68a5a",
+  "maximum_parent_or_target_dimension": 80,
+  "rejected_code56": {
+    "index": 64,
+    "known_rays_deleted": 2436,
+    "exact_surviving_norm10_witness_checked": true
+  },
+  "inherited_inputs": "Published MW56/MW80 minima; MW56 interval coset certificate with its stated arithmetic assumptions."
+}
