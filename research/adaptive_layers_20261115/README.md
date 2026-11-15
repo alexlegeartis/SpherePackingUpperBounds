@@ -1,6 +1,6 @@
 # Stronger lower bounds in thirteen dimensions
 
-**Six larger gains and seven smaller covering refinements**, all within 48D–96D. The new explicit 53D lattice replaces a conservative section estimate. The other results strengthen our existing dated best-known bounds. The [current source review](../covering_and_deep_cosets_20261115/PRIORITY.md) now registers 33 construction dimensions; no stronger published lower bound was located in that review.
+**Six larger gains and seven smaller covering refinements**, all within 48D–96D. The new explicit 53D lattice replaces a conservative section estimate. The other results strengthen our existing dated best-known bounds. The [current source review](../covering_and_deep_cosets_20261115/PRIORITY.md) now registers 39 construction dimensions; no stronger published lower bound was located in that review.
 
 All densities below are approximate **center densities**. The incremental gains compare with the exact bounds pinned at commit `22bda7e` in [checkpoint.json](checkpoint.json). The main repository table separately retains the named external comparisons.
 
@@ -14,6 +14,8 @@ All densities below are approximate **center densities**. The incremental gains 
 | 85 | 1453530529565.988 | **1598670440672.3403** | **9.985336%** | [Adaptive exceptional coset + fitted metric; lattice existence proof](ADAPTIVE_PROOF.md) |
 
 The 50D–53D constructions are explicit lattices. The 77D/85D constructions prove existence of lattices; horizontal representatives remain unknown.
+
+The [subsequent MW92 continuation](../mw92_sections_20261115/) adds six new construction dimensions, 86D–91D.
 
 ## Comparisons with named earlier work
 

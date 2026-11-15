@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-11-15",
+  "dimension_cap": 96,
+  "SchuttShioda": {
+    "title": "Mordell-Weil Lattices, author draft 16 March 2017",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "pdf_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d",
+    "locators": [
+      "Theorem 6.23, Equation (6.15), p.123: height pairing",
+      "Theorem 13.35, p.357: rank92, minimum16, determinant47^14",
+      "Section13.4.2, p.359: explicit unitary polynomial sections"
+    ]
+  },
+  "Rogers": {
+    "theorem_statement": "https://arxiv.org/abs/2202.11358",
+    "locator": "Fejes Toth2022 Section2.2; Rogers1958 regular-simplex packing bound",
+    "comparison": "The full Rogers-derived section guarantee is enclosed, not just its preceding second-moment evaluation."
+  },
+  "BosConwaySloane1982": {
+    "url": "https://neilsloane.com/doc/Me103.pdf",
+    "locator": "Theorems1-2 and Equation15, E8/code construction",
+    "comparison": "BCS88 and primitive sqrt(2)A1/A2 sections; exact reconstruction in priority_resolution_20261115"
+  },
+  "additional_queries": [
+    "sphere packing \"87\" \"Mordell\" sections",
+    "sphere packing \"88\" \"Mordell-Weil\" density",
+    "sphere packing \"91\" \"Mordell-Weil\" density",
+    "sphere packing \"89\" \"90\" Shioda sections",
+    "\"Shioda\" \"unitary\" \"lattice\" sphere packing sections"
+  ],
+  "review_finding": "No stronger published guarantee located in86D-91D in the existing source review and these additional dimension-specific searches.",
+  "Sakamoto2026": {
+    "url": "https://arxiv.org/abs/2609.15633v2",
+    "comparison": "Rank88 unimodular lattices of minimum8 give center density2^44, equal to the BCS1982 comparison.",
+    "upstream_minimum_replay": "../priority_resolution_20261115/REPLAY88.md"
+  }
+}

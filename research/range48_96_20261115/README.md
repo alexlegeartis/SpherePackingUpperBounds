@@ -1,5 +1,7 @@
 # Lower bounds in every dimension 48D–96D
 
+**Latest:** [explicit MW92 antipodes](../mw92_sections_20261115/) add **86D–91D**. The dated construction total is now **39**; the ten remaining dimensions are 48, 54–56, 58, 63–64, 72, 80 and 92.
+
 This continuation checks **all 49 dimensions**, rather than only the
 84D/85D/96D candidates. [The complete table](TABLE.md) names the source
 or construction of every comparison. All values are **center densities**;
@@ -31,7 +33,7 @@ New positive work in the other dimensions:
 
 The 49–52D shifts are explicit and every required coset has been fully
 enumerated. The 81D torus shifts remain existential.
-**49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are best-known lower bounds in
+**49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are best-known lower bounds in
 the literature review dated 15 November 2026:** no stronger published
 bound was located. The [current review and comparison table](../covering_and_deep_cosets_20261115/PRIORITY.md)
 name each source and distinguish reported numbers from derived bounds.
@@ -58,8 +60,8 @@ actual minimum and a previous-record table are not prerequisites.
 | **81** | New MW80 two-color torus bound exceeds our previous counting bound |
 | **82** | New covering-based three-color MW80 extension exceeds the L80 counting checkpoint |
 | **83–85** | Retain83D/84D counting bounds; the fitted adaptive85D metric gives a stronger bound |
-| **86–88** | Classical BCS88 and its sections; our 86D/87D candidates are weaker |
-| **89–91** | Sharper Rogers-based MW92 section controls; tested torus extensions from BCS88 do not beat them |
+| **86–88** | Explicit MW92 antipodes now exceed BCS88 and its sections |
+| **89–91** | Explicit MW92 antipodes exceed the full Rogers-based section consequences |
 | **92** | Classical MW92, center density `2^92/47^7`; no improvement found |
 | **93–96** | Stronger covering-based torus proofs; 96D exceeds the explicitly reported BCS96 construction by 118.640977% |
 

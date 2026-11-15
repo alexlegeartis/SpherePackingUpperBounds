@@ -1,5 +1,7 @@
 # Stronger bounds from covering geometry and deeper compatible cosets
 
+**Current 86D–91D update:** [explicit MW92 antipodes](../mw92_sections_20261115/) supersede the older candidates and classical controls below. All six dimensions now have stronger explicit constructions.
+
 **Current continuation:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds, including50D–53D,77D and85D by9.99–18.53%. The checkpoint numbers below are superseded where indicated; the [current comparison table](PRIORITY.md) uses the new results.
 
 **All five numbers from the previous update are now superseded.** The

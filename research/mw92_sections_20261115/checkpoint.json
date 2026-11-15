@@ -1,0 +1,197 @@
+{
+  "commit": "a30fecabce649468f2d7f3ac1fc94c4b54e4c33e",
+  "rows": [
+    {
+      "dimension": 86,
+      "best_checked": {
+        "dimension": 86,
+        "name": "BCS88 section perpendicular to sqrt(2) A2",
+        "density_squared": "19342813113834066795298816/3",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "center_density": "2539213337094.38881899089050117549028965357570",
+      "comparison": {
+        "dimension": 86,
+        "name": "BCS88 section perpendicular to sqrt(2) A2",
+        "density_squared": "19342813113834066795298816/3",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "2539213337094.38881899089050117549028965357570",
+      "previous_checked": {
+        "dimension": 86,
+        "name": "BCS88 section perpendicular to sqrt(2) A2",
+        "density_squared": "19342813113834066795298816/3",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "2539213337094.38881899089050117549028965357570",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 87,
+      "best_checked": {
+        "dimension": 87,
+        "name": "BCS88 section perpendicular to sqrt(2) A1",
+        "density_squared": "38685626227668133590597632",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "center_density": "6219777023950.94977014044370949387949413455786",
+      "comparison": {
+        "dimension": 87,
+        "name": "BCS88 section perpendicular to sqrt(2) A1",
+        "density_squared": "38685626227668133590597632",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "6219777023950.94977014044370949387949413455786",
+      "previous_checked": {
+        "dimension": 87,
+        "name": "BCS88 section perpendicular to sqrt(2) A1",
+        "density_squared": "38685626227668133590597632",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "6219777023950.94977014044370949387949413455786",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 88,
+      "best_checked": {
+        "dimension": 88,
+        "name": "Classical BCS88",
+        "density_squared": "309485009821345068724781056",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_classical_lattice"
+      },
+      "center_density": "17592186044416",
+      "comparison": {
+        "dimension": 88,
+        "name": "Classical BCS88",
+        "density_squared": "309485009821345068724781056",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_classical_lattice"
+      },
+      "comparison_center_density": "17592186044416",
+      "previous_checked": {
+        "dimension": 88,
+        "name": "Classical BCS88",
+        "density_squared": "309485009821345068724781056",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_classical_lattice"
+      },
+      "previous_center_density": "17592186044416",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 89,
+      "best_checked": {
+        "dimension": 89,
+        "name": "Shioda MW92 / Rogers section to 89D",
+        "density_squared": "5104602996031595472989331014",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
+      },
+      "center_density": "71446504435357.7558074286984869076544066793683",
+      "comparison": {
+        "dimension": 89,
+        "name": "Shioda MW92 / Blichfeldt section to 89D",
+        "density_squared": "5007452921343898975205116906",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "70763358607007.1929510989614966217066115619203",
+      "previous_checked": {
+        "dimension": 89,
+        "name": "Shioda MW92 / Blichfeldt section to 89D",
+        "density_squared": "5007452921343898975205116906",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "70763358607007.1929510989614966217066115619203",
+      "ratio_to_comparison": "1.00965394862254200262890841843902023945225348",
+      "ratio_to_previous": "1.00965394862254200262890841843902023945225348",
+      "improves_previous_checked_envelope": true,
+      "literature_status": "derived_classical_section_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 90,
+      "best_checked": {
+        "dimension": 90,
+        "name": "Shioda MW92 / Rogers section to 90D",
+        "density_squared": "130525452541473631443444339977",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
+      },
+      "center_density": "361283064288202.736456508133849280736597670247",
+      "comparison": {
+        "dimension": 90,
+        "name": "Shioda MW92 / Blichfeldt section to 90D",
+        "density_squared": "128864714012559596127904470650",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "358977316849629.923978307118061209287198415722",
+      "previous_checked": {
+        "dimension": 90,
+        "name": "Shioda MW92 / Blichfeldt section to 90D",
+        "density_squared": "128864714012559596127904470650",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "358977316849629.923978307118061209287198415722",
+      "ratio_to_comparison": "1.00642310065384620001440050358589344871709200",
+      "ratio_to_previous": "1.00642310065384620001440050358589344871709200",
+      "improves_previous_checked_envelope": true,
+      "literature_status": "derived_classical_section_control",
+      "literature_review_date": "2026-11-15"
+    },
+    {
+      "dimension": 91,
+      "best_checked": {
+        "dimension": 91,
+        "name": "Shioda MW92 / Rogers section to 91D",
+        "density_squared": "3465777275373358982931076036994",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
+      },
+      "center_density": "1861659817306416.21079722352484838304842421969",
+      "comparison": {
+        "dimension": 91,
+        "name": "Shioda MW92 / Blichfeldt section to 91D",
+        "density_squared": "3443664483164131858634061128122",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "comparison_center_density": "1855711314607994.69325873916105552495363699419",
+      "previous_checked": {
+        "dimension": 91,
+        "name": "Shioda MW92 / Blichfeldt section to 91D",
+        "density_squared": "3443664483164131858634061128122",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_classical_section"
+      },
+      "previous_center_density": "1855711314607994.69325873916105552495363699419",
+      "ratio_to_comparison": "1.00320551082034982083992844866508642479981334",
+      "ratio_to_previous": "1.00320551082034982083992844866508642479981334",
+      "improves_previous_checked_envelope": true,
+      "literature_status": "derived_classical_section_control",
+      "literature_review_date": "2026-11-15"
+    }
+  ]
+}

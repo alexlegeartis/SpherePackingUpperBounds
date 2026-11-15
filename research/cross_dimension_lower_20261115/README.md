@@ -1,5 +1,7 @@
 # Lower-bound research across dimensions, 15 November 2026
 
+**Current 86D–91D update:** [explicit MW92 antipodes](../mw92_sections_20261115/) supersede the older candidates and classical controls below. All six dimensions now have stronger explicit constructions.
+
 The [current full 48D–96D table](../range48_96_20261115/TABLE.md) includes
 the [adaptive-layer continuation](../adaptive_layers_20261115/): stronger
 77D/85D lattice existence bounds and sharper covering bounds. The current
@@ -7,8 +9,8 @@ external gains are **156% in 84D**, **45.398230% in 85D** and
 **118.640977% in 96D**, against the named classical BCS comparisons.
 The original checkpoint tables below retain their proved numerical values.
 
-**Research ceiling: 96D.** Classical BCS88 sections exceed our 86D/87D
-candidates. The recent 88D parent's full computational proof has also
+**Research ceiling: 96D.** Classical BCS88 sections exceeded the historical 86D/87D
+candidates below; the new MW92 constructions supersede both. The recent 88D parent's full computational proof has also
 been replayed. [Source review](LITERATURE_STATUS.md).
 
 Two routes now have proofs: **compatible deep half-cosets** above published

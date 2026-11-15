@@ -40,7 +40,20 @@ def audit():
                       'comparison_verified_exactly': True,
                       'literature_status': 'best_known_lower_bound_in_dated_review',
                       'review_date': review['review_date']}
-            if str(n) in prefixes:
+            if 'density_squared_interval' in a['comparison']:
+                lower,upper = map(F,a['comparison']['density_squared_interval'])
+                assert prior == lower and ours > upper >= lower
+                ratio_lo,ratio_hi = ours/upper,ours/lower
+                gain_lo = 100*(dec(ratio_lo).sqrt()-1)
+                gain_hi = 100*(dec(ratio_hi).sqrt()-1)
+                lo,hi = F(int(gain_lo*SCALE),SCALE),F(int(gain_hi*SCALE)+1,SCALE)
+                assert (1+lo/100)**2 <= ratio_lo <= ratio_hi < (1+hi/100)**2
+                result.update(comparison_kind='derived_classical_guarantee_interval',
+                              comparison_density_squared_interval=[str(lower),str(upper)],
+                              gain_percent_interval=[str(dec(lo)),str(dec(hi))],
+                              gain_percent_display=f'>{dec(lo):.6f}%',
+                              gain_uses_upper_endpoint_of_full_external_theorem_evaluation=True)
+            elif str(n) in prefixes:
                 lower = F(prefixes[str(n)])
                 upper = lower+F(1, 100)
                 gain_lo = 100*(dec(ours).sqrt()/Decimal(2)**dec(upper)-1)

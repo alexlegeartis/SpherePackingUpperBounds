@@ -1,6 +1,6 @@
 # Best-known lower bounds: literature checked 15 November 2026
 
-**Our certified bounds in 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are the
+**Our certified bounds in 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–91D and 93D–96D are the
 best-known lower bounds found in the documented literature review.** No
 stronger published lower bound was located in those dimensions. The
 sources and numerical comparisons are given below; the review date and
@@ -52,6 +52,12 @@ it does not mean that its authors printed that same-dimensional number.
 | 83 | 1112627538435.653 | **Derived:** MW80 × A3 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 215498198793.618 | **416.304797%** |
 | 84 | 1,407,374,883,553.280 | **Derived:** BCS88 perpendicular to √2D4, from [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf) | 549,755,813,888 | **156%** |
 | 85 | 1598670440672.3403… | **Derived:** BCS88 perpendicular to √2A3, same source | 1,099,511,627,776 | **45.398230%** |
+| 86 | 3.532468471752e+12 | **Derived:** BCS88 perpendicular to √2A2 — [Bos–Conway–Sloane (1982), Theorems 1–2](https://neilsloane.com/doc/Me103.pdf); [derived section](../../research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | 2.539213337094e+12 | **39.116648%** |
+| 87 | 1.220042544453e+13 | **Derived:** BCS88 perpendicular to √2A1 — [Bos–Conway–Sloane (1982), Theorems 1–2](https://neilsloane.com/doc/Me103.pdf); [derived section](../../research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | 6.219777023951e+12 | **96.155351%** |
+| 88 | 5.045199642804e+13 | **Reported:** Minimum-8 unimodular lattices — [Sakamoto (2026)](https://arxiv.org/abs/2609.15633v2); same density as [BCS1982](https://neilsloane.com/doc/Me103.pdf) | 1.759218604442e+13 | **186.786397%** |
+| 89 | 2.039717945339e+14 | **Derived:** MW92 / full Rogers-simplex section — [Schütt–Shioda, Theorem 13.35](<https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf>) + [Rogers (1958), via Fejes Tóth §2.2](https://arxiv.org/abs/2202.11358); [derived interval](../../research/mw92_sections_20261115/PROOF.md#external-comparisons-including-the-full-rogers-consequence) | ≈[7.144650443536e+13, 7.146541762714e+13] | **>185.413282%** |
+| 90 | 7.844458559109e+14 | **Derived:** MW92 / full Rogers-simplex section — [Schütt–Shioda, Theorem 13.35](<https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf>) + [Rogers (1958), via Fejes Tóth §2.2](https://arxiv.org/abs/2202.11358); [derived interval](../../research/mw92_sections_20261115/PROOF.md#external-comparisons-including-the-full-rogers-consequence) | ≈[3.612830642882e+14, 3.613465011337e+14] | **>117.089650%** |
+| 91 | 2.478889293267e+15 | **Derived:** MW92 / full Rogers-simplex section — [Schütt–Shioda, Theorem 13.35](<https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf>) + [Rogers (1958), via Fejes Tóth §2.2](https://arxiv.org/abs/2202.11358); [derived interval](../../research/mw92_sections_20261115/PROOF.md#external-comparisons-including-the-full-rogers-consequence) | ≈[1.861659817306e+15, 1.861822446835e+15] | **>33.143162%** |
 | 93 | 8743033982260848.9… | **Derived:** MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 4.88702544074196e+15 | **78.902977%** |
 | 94 | 8584803057662693.3… | **Derived:** MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 2.82152545374892e+15 | **204.261053%** |
 | 95 | 8868241996705554.8… | **Derived:** MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 1.72782441448991e+15 | **413.260602%** |
@@ -60,8 +66,8 @@ it does not mean that its authors printed that same-dimensional number.
 The exact density squares, comparison provenance and rational gain
 intervals are checked by [verify_literature_comparisons.py](verify_literature_comparisons.py)
 and retained in [literature_comparisons.json](literature_comparisons.json).
-The 49D–53D and 65D lattices and the 59D–62D, 66D–71D and 78D–79D
-periodic packings are explicit. The other registered bounds are existence
+The 49D–53D and 65D lattices and the 59D–62D, 66D–71D, 78D–79D and
+86D–91D periodic packings are explicit. The other registered bounds are existence
 proofs. Both establish sphere-packing lower bounds. For 60D–62D, the stated
 strict gains hold even at the upper ends of the source's decimal-prefix
 intervals; the full outward gain intervals are retained in the exact report.
@@ -69,7 +75,10 @@ intervals; the full outward gain intervals are retained in the exact report.
 The [remaining-dimensions review](REMAINING_DIMENSIONS.md) accounts for the
 whole range. The subsequent [adaptive-layer continuation](../adaptive_layers_20261115/)
 strengthens 13 bounds and adds an explicit 53D lattice to the dated claims,
-bringing the construction total to 33. The 55D literature correction remains valid.
+bringing that checkpoint to 33. The [MW92 continuation](../mw92_sections_20261115/)
+adds six explicit construction dimensions, **86D–91D**, for a current total of **39**.
+The 89D–91D gains enclose and exceed the full Rogers-simplex consequence;
+they do not rely on weakening its numerical evaluation. The 55D literature correction remains valid.
 
 For 59D, Vardy's 1999 paper reports a weaker Elkies guarantee with
 `log2(delta)` beginning `17.75…`. Our proof improves that published
@@ -115,7 +124,8 @@ The five values announced at checkpoint `e9d03c1` in 49D–52D and 81D
 are superseded by the current bounds above. Their exact improvements
 are checked against [previous_bounds.json](previous_bounds.json).
 
-**86D and 87D are not improvements:** classical BCS88 sections exceed
-our candidates. **63D is not an improvement:** the reported Elkies
-guarantee exceeds our Ne64 antipode. These negative decisions remain
-in the [complete 48D–96D table](../range48_96_20261115/TABLE.md).
+The **earlier 86D and 87D candidates were not improvements** over the
+classical BCS88 sections. The new MW92 constructions now exceed those
+comparisons. **63D still has no improvement:** the reported Elkies
+guarantee exceeds our Ne64 antipode. The [complete 48D–96D table](../range48_96_20261115/TABLE.md)
+records the current replacements and the remaining negative decisions.

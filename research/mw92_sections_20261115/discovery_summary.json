@@ -1,0 +1,43 @@
+{
+  "parent_discovery": {
+    "prime": 47,
+    "sections": 180,
+    "seed": 2026111589,
+    "full_rank": 92,
+    "index_in_published_parent": 1,
+    "two_height_methods_agreed": true
+  },
+  "basis_reduction": {
+    "completed_dual_BKZ_stages": [
+      12,
+      18,
+      24,
+      30,
+      36,
+      40,
+      44
+    ],
+    "loops_at_40_and_44": 3,
+    "block48_status": "Interrupted after about14minutes without retaining a completed new stage; no absence claim."
+  },
+  "unitary_orbit_search": {
+    "exact_integral_isometries_checked": 2,
+    "finite_normal_pool": 5001,
+    "beam_width": 32,
+    "cluster_search_incomplete": true,
+    "proof_uses_only_saved_normals_and_clusters": true
+  },
+  "other_dimension_58": {
+    "parent_prime": 29,
+    "parent_rank": 56,
+    "parent_basis_reconstructed": true,
+    "parent_index": 1,
+    "direct_height_pairs_checked": 7140,
+    "target": "Three compatible nonsingular half-cosets with depth>=13/2",
+    "inclusive_numerator_cutoff": 22,
+    "first_trial": "Exact norm22 witness found after513494526nodes; rejected.",
+    "second_trial": "Timed out at240seconds; at least1700000000nodes visited. No complete exclusion certificate.",
+    "new_bound_claimed": false
+  },
+  "research_dimension_cap": 96
+}

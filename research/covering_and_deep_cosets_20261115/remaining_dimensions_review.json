@@ -59,16 +59,18 @@
     83,
     84,
     85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
     93,
     94,
     95,
     96
   ],
-  "classical_derived_controls": [
-    89,
-    90,
-    91
-  ],
+  "classical_derived_controls": [],
   "dimensions_with_no_new_construction_improvement": [
     48,
     54,
@@ -79,9 +81,6 @@
     64,
     72,
     80,
-    86,
-    87,
-    88,
     92
   ],
   "no_stronger_published_lower_bound_located_in_registered_dimensions": true,
@@ -183,7 +182,9 @@
     "../range48_96_20261115/sources.json",
     "../priority_resolution_20261115/sources.json",
     "../cross_dimension_lower_20261115/literature_sources.json",
-    "../../constructions/dim59/README.md"
+    "../../constructions/dim59/README.md",
+    "../mw92_sections_20261115/sources.json"
   ],
-  "subsequent_53D_explicit_improvement": "../adaptive_layers_20261115/SECTION53_PROOF.md"
+  "subsequent_53D_explicit_improvement": "../adaptive_layers_20261115/SECTION53_PROOF.md",
+  "subsequent_86D_91D_explicit_improvements": "../mw92_sections_20261115/PROOF.md"
 }

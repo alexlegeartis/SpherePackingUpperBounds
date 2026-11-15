@@ -1,5 +1,7 @@
 # Worldwide-status check: 15 November 2026
 
+**Current update:** [explicit MW92 antipodes](../mw92_sections_20261115/) add 86D–91D to the dated best-known claims. The older rejection of 86D/87D below applies to the superseded candidates.
+
 **Current values:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds;77D and85D increase by15.47% and9.99%. The current external85D gain is45.398230% over the classical BCS section. Older numerical tables below retain their checkpoint comparisons.
 
 **84D, 85D and 96D are best-known lower bounds in our literature review

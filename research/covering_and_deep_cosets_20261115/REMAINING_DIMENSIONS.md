@@ -1,11 +1,11 @@
 # Remaining dimensions in 48D–96D: review of 15 November 2026
 
-**Current continuation:** [adaptive layers](../adaptive_layers_20261115/) improves13 bounds and supplies an explicit 53D lattice. The total is now **33 construction dimensions**, with three classical section controls and 13 dimensions without a new construction improvement.
+**Current continuation:** [explicit MW92 antipodes](../mw92_sections_20261115/) add **86D–91D**. The total is now **39 construction dimensions** and **10 dimensions without a new construction improvement**. No dimensions remain classified only by a new classical section control.
 
 The earlier review added these 23 dimensions under the same dated criterion:
 57D, 60D–62D, 65D–71D, 73D–79D, 82D–83D and 93D–95D. No stronger
 published lower bound was located in the source review. Together with
-the previous nine, that gave 32; the new 53D result now raises the total to 33.
+the previous nine, that gave 32; the subsequent 53D result raised that checkpoint to 33.
 [All sources and numerical comparisons](PRIORITY.md) ·
 [Search queries, findings and source hashes](remaining_dimensions_review.json).
 
@@ -68,21 +68,20 @@ these are below the stronger comparisons already used for our constructions.
 
 | Dimensions | Decision and source |
 | --- | --- |
-| **89–91** | Retain the conservative section guarantees derived from Leterrier54 and MW92 using Rogers's classical simplex theorem. These are evaluations of inherited section theory, not new-record construction claims. |
-| **48, 54, 56, 64, 72, 80, 88, 92** | Retain the named published parent bounds; no denser construction from us. |
+| **86–91** | New explicit MW92 antipodes; all beat the stronger external comparisons, including the full Rogers-theorem consequence in 89D–91D. |
+| **48, 54, 56, 64, 72, 80, 92** | Retain the named published parent bounds; no denser construction from us. |
 | **53** | New explicit section with center density20,890.804898…; see the current continuation. |
 | **55** | Use Leterrier2024's stronger published lamination above. |
 | **58** | Retain the classical Γ72/Leech-block section; no denser construction from us. |
 | **63** | The Elkies guarantee reported by Vardy exceeds our Ne64 antipode. |
-| **86–87** | Classical BCS88 sections exceed our candidates. |
 
 These disjoint groups account for every dimension from 48 through 96:
-**33 construction improvements, three classical section controls, and
-13 dimensions without a new construction improvement.** The research
+**39 construction improvements and
+10 dimensions without a new construction improvement.** The research
 ceiling, including every parent used, remains 96D.
 
 The original Rogers simplex bound is an exact classical upper-bound
-function. Our second-moment enclosure is deliberately conservative, so
+function. The new MW92 packings now exceed its full section consequence. Our second-moment enclosure is deliberately conservative, so
 improving on a Blichfeldt evaluation is not evidence that those three
 section controls beat the full inherited Rogers consequence.
 [Classical theorem statement: Fejes Tóth (2022), §2.2](https://arxiv.org/abs/2202.11358).
