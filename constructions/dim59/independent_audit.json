@@ -8,6 +8,8 @@
   "period_basis_change_determinant": 1,
   "comparison_reconstructed_exactly": true,
   "comparison_center_density_squared": "68719476736",
+  "comparison_kind": "internal_repository_comparison",
+  "comparison_is_published_59D_record": false,
   "inherited_minimum_theorems": {
     "Ne64": 12,
     "Gamma72": 8

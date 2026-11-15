@@ -34,11 +34,16 @@ The initially found Ne64 bare sections in dimensions 57–59 are valid, but all 
 
 - Dimension 57: a torus extension of the published Schütt 56D lattice gives a rigorously certified center density above 151,706.08. The Ne64 section gives only 57,530.18.
 - Dimension 58: the Γ72 normal has determinant 3·2^22, giving center density 2^18/√3 = 151,348.90897…. This exceeds the Ne64 section's 115,060.35.
-- Dimension 59: the Γ72 normal has determinant 2^23, giving center density 262,144. This exceeds the Ne64 section's 244,079.86.
+- Dimension 59: the Γ72 normal has determinant 2^23, giving center density 262,144. This was our computed reference, not an identified published 59D record. The [15 November six-translate construction](../../../constructions/dim59/) now has center density 274,522.589741…, a 4.722057% internal increase.
 - Dimension 63: the Ne64 antipode gives center density about 13.106 million, below the older lower bound printed in Vardy's 1999 paper, whose log₂ center density is at least 23.92….
 - Dimension 65: the initial Γ72 antipode is below the separately proved Ne64 discriminant-count extension. The newly certified explicit Ne65 lattice has center density 3^17/√10 = 40,837,705.24854…, and is displayed as a candidate rather than a prior benchmark.
 
-The candidates in dimensions 60–62 and 65–71 exceed the finite benchmark families audited here. This does not by itself establish global SOTA. `PROPAGATED_BENCHMARKS.md` and `propagated_benchmarks.json` state the complete scope and keep Vardy's rounded published values separate from exact constructions.
+The constructions in dimensions 60–62 and 65–71 exceed reference values computed
+here. Those increases do not establish gains over published records. The
+[comparison report](PROPAGATED_BENCHMARKS.md) now names the published works and
+separates their roles from our own constructions; `benchmark_sources.json`
+records authors, titles, DOI links and locators. Vardy's §4 values are historical
+lower bounds for **Elkies's** sections, not an exact current record table.
 
 ## Why the Γ72 sections exist
 

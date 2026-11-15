@@ -28,11 +28,20 @@ Determinants refer to Gram determinants, so lattice covolume is their square roo
 
 ## Main results
 
+The percentages below compare against **our own derived references or a
+restricted section formula**, not identified published same-dimensional
+records. The historical external comparison for 60–62D is specifically
+**Elkies's sections as reported by Vardy, *Density doubling, double-circulants,
+and new sphere packings*, Trans. AMS 351 (1999), Section 4**
+([paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). The named parent papers,
+source roles, and current 59D update are documented in the
+[published-reference and internal-comparison report](audits/PROPAGATED_BENCHMARKS.md).
+
 | Dimension | Construction | Certified center density | Comparison established here |
 |---|---|---:|---|
 | 60 | Five Ne64 antipode cosets | 773,597.146771 | Exceeds the audited propagated families and the lower bound printed in Vardy 1999 |
-| 61 | Four Ne64 antipode cosets | 2,043,183.683386 | Same comparison scope |
-| 62 | Three Ne64 antipode cosets | 5,188,971.717320 | Same comparison scope |
+| 61 | Four Ne64 antipode cosets | 2,043,183.683386 | Above the printed historical Elkies bound in Vardy 1999 §4; current record not identified |
+| 62 | Three Ne64 antipode cosets | 5,188,971.717320 | Above the printed historical Elkies bound in Vardy 1999 §4; current record not identified |
 | **65** | **Explicit Ne64 deep-coset extension** | **40,837,705.248540** | **9.5445115% above the depth-8 extension established in this run** |
 | 66 | Nine Gamma72 antipode cosets | 82,897,968.185303 | 6.978039% above the inherited-minimum bare-section ceiling |
 | 67 | Six Gamma72 antipode cosets | 247,629,167.976493 | 30.459863% above that ceiling |

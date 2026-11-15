@@ -1,0 +1,69 @@
+{
+  "V99": {
+    "authors": "Alexander Vardy",
+    "title": "Density doubling, double-circulants, and new sphere packings",
+    "publication": "Transactions of the American Mathematical Society 351 (1999), 271–283",
+    "url": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+    "full_text_url": "https://www.ams.org/journals/tran/1999-351-01/S0002-9947-99-02169-8/S0002-9947-99-02169-8.pdf",
+    "locator": "Section 4, the table of log2(delta(E_n)) for n=57,...,63",
+    "role": "Historical same-dimensional numerical comparison: Elkies's sections E_n, reported by Vardy. These are not being attributed to Vardy as their constructor.",
+    "limitation": "The table gives lower bounds with ellipses, not exact section determinants or a current record survey. No percentage improvement over the actual Elkies lattices is certified from those truncated numbers."
+  },
+  "N98": {
+    "authors": "Gabriele Nebe",
+    "title": "Some cyclo-quaternionic lattices",
+    "publication": "Journal of Algebra 199 (1998), 472–498",
+    "url": "https://doi.org/10.1006/jabr.1997.7163",
+    "catalogue_url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+    "locator": "The Ne64 lattice; see the catalogue's REFERENCES and GRAM entries",
+    "role": "Construction of the 64D parent Ne64. Used with N99 for its minimum theorem, not as a published 59D or 65D comparison result.",
+    "archived_source": "../dual64/CQ64b.html"
+  },
+  "N99": {
+    "authors": "Gabriele Nebe",
+    "title": "Construction and investigation of lattices with matrix groups",
+    "publication": "Contemporary Mathematics 249 (1999), 205–219",
+    "url": "https://doi.org/10.1090/conm/249/03759",
+    "locator": "The minimum-norm reference identified in the Ne64 catalogue's REFERENCES entry",
+    "role": "Published minimum-12 input for Ne64. The resulting center density in dimension 64 is 3^16. No same-dimensional 59D or 65D result is attributed to this paper.",
+    "archived_source": "../dual64/CQ64b.html"
+  },
+  "N12": {
+    "authors": "Gabriele Nebe",
+    "title": "An even unimodular 72-dimensional lattice of minimum 8",
+    "publication": "Journal für die reine und angewandte Mathematik 673 (2012), 237–247; preprint 2010",
+    "url": "https://doi.org/10.1515/crelle.2011.175",
+    "full_text_url": "https://arxiv.org/pdf/1008.2862",
+    "locator": "Section 2 constructs Gamma72; Section 4 proves minimum 8; center density in dimension 72 is 2^36",
+    "role": "Published 72D parent and its minimum theorem. Our selected sections and antipode clusters in dimensions 58–71 are computations in this repository, not numerical records quoted from this paper.",
+    "archived_source": "../higher_parent/neb72.html"
+  },
+  "S19": {
+    "authors": "Matthias Schütt and Tetsuji Shioda",
+    "title": "Mordell–Weil Lattices, chapter Ranks and Sphere Packings",
+    "publication": "Springer (2019), chapter 13; 56D construction cited at p. 400 by the Nebe–Sloane catalogue",
+    "url": "https://doi.org/10.1007/978-981-32-9301-4_13",
+    "catalogue_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/density.html",
+    "locator": "56D input, delta=5^28/(2^28*29^4); catalogue row 56 cites M. Schütt, MW19 p. 400",
+    "role": "Published 56D density input for our derived torus-layer and product bounds. The 57D value 151706.083320 is calculated here and must not be attributed to this chapter.",
+    "limitation": "The earlier audit recorded the exact 56D input from Cohn's table and the catalogue attribution; the book's full text was not available in the inspected publisher preview.",
+    "archived_source": "../code_routes/density_catalogue.html"
+  },
+  "CS96": {
+    "authors": "J. H. Conway and N. J. A. Sloane",
+    "title": "The Antipode Construction for Sphere Packings",
+    "publication": "Inventiones Mathematicae 123 (1996), 309–313",
+    "url": "https://neilsloane.com/doc/anti.pdf",
+    "locator": "Section 2, Theorem 1 and density formula (1)",
+    "role": "The construction method. This paper's examples do not supply the 59D or 65–71D numerical comparison values used here."
+  },
+  "TABLE": {
+    "authors": "Gabriele Nebe and N. J. A. Sloane",
+    "title": "Table of Densest Packings Presently Known",
+    "publication": "Catalogue of Lattices; archived copy retained by the earlier audit",
+    "url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/density.html",
+    "locator": "Rows 56, 64, 72 and the small-dimensional inputs used in direct products",
+    "role": "Parent and small-dimensional numerical inputs. Omission of an intermediate dimension does not identify its previous record.",
+    "archived_source": "../code_routes/density_catalogue.html"
+  }
+}

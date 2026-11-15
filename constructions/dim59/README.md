@@ -9,8 +9,10 @@ This construction has packing fraction
 with center density **274,522.589741149678…**. It improves the repository's
 certified 59D Gamma72 section, whose center density is `262144`, by
 **4.722057243785735…%**. The new packing, the comparison period, and their
-density ratio pass two exact implementations. **Worldwide record priority is
-not established by this comparison.**
+density ratio pass two exact implementations. **The reference `262144` was
+computed in this repository from Nebe's Gamma72 parent. It is not a published
+59D record identified in Nebe's paper. The 4.722057% is an internal improvement,
+not an established gain over the published state of the art.**
 
 The idea is a balanced rank-five normal in the dual of Ne64, followed by a
 six-point antipode construction. Five dual minimum-length vectors have squared
@@ -127,6 +129,16 @@ The prior explicit rank-13 section and its full period audit are in
 [the propagated benchmark package](../../research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md).
 This is the strongest 59D value in that finite audited collection, not an
 exhaustive catalogue of all published packings.
+
+The named historical same-dimensional comparison is **Elkies's section E59,
+reported by Alexander Vardy in *Density doubling, double-circulants, and new
+sphere packings*, Trans. AMS 351 (1999), 271–283, Section 4**
+([DOI and paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). The table there
+prints `log2(delta(E59)) >= 17.75…`. Our value has `log2(delta)=18.066565…`.
+This exceeds the displayed historical benchmark; the printed lower bound with
+ellipses does not supply an exact density for the actual Elkies lattice or
+establish the best subsequent published 59D packing. We do not calculate a
+percentage improvement over that lattice from the truncated entry.
 
 Current public tables, the older Elkies section values discussed by Vardy, and
 recent antipode work were consulted. The commonly used public table lists only

@@ -1,0 +1,181 @@
+"""Render provenance-aware comparisons without presenting our bounds as literature."""
+from pathlib import Path
+import math
+import sympy as sp
+
+
+def link(label, target):
+    return f"[{label}]({target})"
+
+
+def render(report):
+    sources = report["sources"]
+    table = {row["dimension"]: row for row in report["rows"]}
+    lines = [
+        "# Published references and repository comparisons, dimensions 57–71",
+        "",
+        "**The 59D gain of 4.722057% is over an earlier construction computed in this repository. "
+        "The comparator 262144 is not a 59D result quoted from Nebe's paper. "
+        "This report does not establish an improvement over the best previously published 59D packing.**",
+        "",
+        "The same distinction applies to the earlier 65–71D percentage gains: their comparators "
+        "were our derived constructions or an inherited-minimum section bound. "
+        "They were not identified published same-dimensional records.",
+        "",
+        "All densities are **center densities** `delta`, not occupied-volume fractions. "
+        "The latter are `Delta_n = pi^(n/2)/Gamma(n/2+1) * delta`. "
+        "A comparison of exact rational squared densities proves the internal percentages below.",
+        "",
+        "## Which previous work is being used?",
+        "",
+        "| Reference | Actual role in this report |",
+        "|---|---|",
+    ]
+    for sid in ("V99", "N98", "N99", "N12", "S19", "CS96"):
+        source = sources[sid]
+        title = f"{source['authors']}, *{source['title']}*"
+        lines.append(f"| {link(sid + ': ' + title, source['url'])} | {source['role']} |")
+    lines += [
+        "",
+        "Full publication details and precise locators are listed under **Source details** below. "
+        "Parent-lattice papers and construction methods are credited as inputs; using a new "
+        "section of a published parent does not mean we have improved that paper's density "
+        "in its original dimension.",
+        "",
+        "## Published numerical comparison: Elkies's sections, reported by Vardy",
+        "",
+        f"{link('Vardy (1999), Section 4', sources['V99']['url'])} reports lower bounds for "
+        "Elkies's sections `E_n`, in a table headed `log2(delta(E_n))`. "
+        "Here both numerical columns use **log2(center density)**, so their units agree. "
+        "The ellipses are retained: the printed entries are not exact density formulas.",
+        "",
+        "| Dimension | Published `log2(delta(E_n))`, Vardy §4 | Strongest bound calculated here, `log2(delta)` | What the comparison establishes |",
+        "|---|---:|---:|---|",
+    ]
+    for n in range(57, 64):
+        row = table[n]
+        ref, result = row["computed_reference"], row["repository_construction"]
+        best = max(sp.Rational(ref["center_density_squared"]), sp.Rational(result["center_density_squared"]))
+        label = row["published_reference"]["printed_log2_center_density"]
+        comparison = "Below even the printed published lower bound; no record gain."
+        if n != 63:
+            comparison = "Above the printed historical benchmark; exact Elkies density and current record not established."
+        lines.append(f"| {n} | {label} | {math.log2(float(sp.sqrt(best))):.6f} | {comparison} |")
+    lines += [
+        "",
+        "There is **no percentage claim against the actual Elkies lattices** in this table. "
+        "A lower bound printed with ellipses is insufficient to reconstruct their exact "
+        "packing densities. Exceeding a displayed historical benchmark is not a proof "
+        "of exceeding the present literature record.",
+        "",
+        "For **65–71D**, this audit has not identified a published same-dimensional numerical "
+        "record to use as the comparator. Nebe's 64D and 72D parent results do not fill that gap. "
+        "Their exact parent densities are respectively `3^16` and `2^36`; no improvement "
+        "in either parent dimension is claimed here.",
+        "",
+        "## Exact improvements over our earlier computations",
+        "",
+        "**Every comparison in this table is internal to this repository.** "
+        "The reference column links the actual construction/proof used for the denominator. "
+        "These percentages must not be described as gains over published records.",
+        "",
+        "| Dimension | Earlier reference calculated here | Reference center density | Our certified construction | Center density | Internal increase |",
+        "|---|---|---:|---|---:|---:|",
+    ]
+    for n in (59, 60, 61, 62, 65, 66, 67, 68, 69, 70, 71):
+        row = table[n]
+        ref, result = row["computed_reference"], row["repository_construction"]
+        ratio2 = sp.Rational(result["center_density_squared"])/sp.Rational(ref["center_density_squared"])
+        assert ratio2 > 1 and ref["origin"] == "computed_in_this_repository"
+        percent = float(100*(sp.sqrt(ratio2)-1))
+        ref_link = link(ref["name"], ref["evidence_path"])
+        result_link = link(result["name"], result["certificate_path"])
+        lines.append(f"| {n} | {ref_link} | {ref['center_density']:,.6f} | {result_link} | {result['center_density']:,.6f} | {percent:.6f}% |")
+    lines += [
+        "",
+        "In particular, the 59D row is now the six-translate construction "
+        "`274522.589741…`, replacing the obsolete bare-section value `244079.864699…` "
+        "that the previous version called the current candidate. Its exact period, "
+        "translate data and attained minimum are checked by "
+        "[two implementations](../../../constructions/dim59/README.md#replay). "
+        "They also verify the internal reference `delta=2^18`.",
+        "",
+        "The Gamma72 section references in 66–71D also attain a ceiling for the "
+        "**bare-section density formula using inherited minimum 8**, via the known "
+        "small-dimensional Hermite constants. That ceiling does not bound arbitrary "
+        "packings or sections with a higher actual minimum, and it is not a literature record.",
+        "",
+        "## Controls that do not give record improvements",
+        "",
+        "| Dimension | Construction tested here | Center density | Why it is not an improvement |",
+        "|---|---|---:|---|",
+    ]
+    reasons = {
+        57: "Below our 56D-derived torus bound 151706.083320.",
+        58: "Below our Gamma72 section 151348.908966.",
+        63: "Below the Elkies lower bound printed in Vardy §4 (`log2(delta)=23.92…`).",
+        64: "Below Nebe's published Ne64 density 43046721; this is a failed control, not our best 64D bound.",
+    }
+    for n in reasons:
+        result = table[n]["repository_construction"]
+        lines.append(f"| {n} | {link(result['name'], result['certificate_path'])} | {result['center_density']:,.6f} | {reasons[n]} |")
+    lines += [
+        "",
+        "## Where our reference numbers come from",
+        "",
+        "* **57D torus bound:** we derive it from the published Schütt 56D input "
+        "`5^28/(2^28*29^4)` using separated offsets and colored layers. "
+        "The 57D number is our calculation, not a result attributed to Schütt. "
+        "[Derivation](../code_routes/TORUS_LAYER_BENCHMARKS.md) and "
+        "[exact radius arithmetic](propagated_benchmarks.py).",
+        "* **Gamma72 sections:** we embed primitive laminated normals into the scaled "
+        "Leech block of Nebe's parent and verify them in "
+        "[verify_gamma72_leech_sections.py](verify_gamma72_leech_sections.py). "
+        "For rank `k`, `delta^2=2^(72-k)/det(K)`. In 59D, `det(K)=2^23`, "
+        "hence `delta=2^18=262144`. This specific 59D value was calculated here; "
+        "it is not cited as a numerical result of Nebe's paper.",
+        "* **65D depth-8 extension:** the existence proof using the Ne64 theta series "
+        "was developed here: [NE64_THETA_COUNT.md](../code_routes/NE64_THETA_COUNT.md). "
+        "Its center density is `3^(33/2)/2`. The explicit deeper coset gives "
+        "`3^17/sqrt(10)`; the internal ratio is `sqrt(6/5)`.",
+        "* **Additional propagated bounds:** products, torus colorings and averaged "
+        "ball-window projections are retained in "
+        "[propagated_benchmarks.json](propagated_benchmarks.json). Their numerical "
+        "consequences are marked as our computations, even when their parent is published.",
+        "",
+        "## Source details",
+        "",
+    ]
+    for sid, source in sources.items():
+        lines += [
+            f"**{sid}. {source['authors']}.** {link(source['title'], source['url'])}. "
+            f"{source['publication']}. **Locator:** {source['locator']}.",
+            "",
+        ]
+        if source.get("archived_source"):
+            lines += [f"[Archived source]({source['archived_source']}).", ""]
+        if source.get("limitation"):
+            lines += [source["limitation"], ""]
+    lines += [
+        "## Replay and claim status",
+        "",
+        "```bash",
+        "OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/propagated_benchmarks.py",
+        "python constructions/dim59/verify.py",
+        "python constructions/dim59/verify_independent.py",
+        "```",
+        "",
+        "The first command regenerates this page, the exact comparison arithmetic and "
+        "source attribution from [benchmark_sources.json](benchmark_sources.json). "
+        "It consumes previously verified construction data; it does not replace their "
+        "minimum proofs. The other two commands replay the 59D construction and its "
+        "internal reference independently.",
+        "",
+        "**Status:** certified constructions and internal improvements; historical "
+        "published comparisons explicitly identified; no established improvement "
+        "over the current published record in dimensions 57–71 from this audit. "
+        "A future record claim must identify the previous same-dimensional result "
+        "by author, work and exact parameters, then compare against that result.",
+        "",
+    ]
+    return "\n".join(lines)

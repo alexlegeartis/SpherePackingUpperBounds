@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""A finite, exactly bounded propagation audit for candidate dimensions57--71.
+"""Exact internal reference arithmetic and explicitly attributed published inputs.
 
 This is NOT an exhaustive record table. Inputs: published Schuett56, Ne64,
 Gamma72, low-dimensional lattice/packing densities; exact Gamma72 sections;
@@ -30,7 +30,7 @@ rows=[]
 def add(n,name,family,d2,**kw):
  d2=sp.cancel(d2)
  assert d2.is_Rational and d2>0
- rows.append({'dimension':n,'name':name,'family':family,'center_density_squared':str(d2),'center_density':float(sp.sqrt(d2)),**kw})
+ rows.append({'dimension':n,'name':name,'family':family,'center_density_squared':str(d2),'center_density':float(sp.sqrt(d2)), 'origin': 'published_parent_input' if family=='published_input' else 'computed_in_this_repository', **kw})
 for n,d in seed.items():
  if n<=71:add(n,f'published {n}D input','published_input',d*d)
 for n,d in seed.items():
@@ -72,8 +72,8 @@ sections=json.loads((P/'gamma72_leech_sections.json').read_text())
 for sn,row in sections.items():
  n=int(sn)
  if 57<=n<=71:add(n,f'Gamma72 laminated normal rank {72-n}','Gamma72_laminated_section',sp.sympify(row['center_density_sq']),certificate=f'gamma72_leech_section_rank{72-n}.npz')
-# This 65D existential lattice lower bound is independently proved by agents
-# higher_parent and code_routes; it is stronger than the older Gamma72 65D row.
+# This existential extension was proved in this repository, in higher_parent
+# and code_routes. It is not a published same-dimensional comparison result.
 add(65,'Ne64 discriminant-count extension (coset minimum≥8)','Ne64_existential_extension',Q(3**33,4),proof='../code_routes/NE64_THETA_COUNT.md')
 # Close under one product with a known packing of dimension<=15. This also
 # includes products of torus extensions and primitive Gamma72 sections.
@@ -84,37 +84,90 @@ for a in initial:
   n=a['dimension']+k
   if n>71:break
   add(n,a['name']+f' × {k}D packing','propagated_product',sp.sympify(a['center_density_squared'])*pack2[k],parent_construction=a['name'],added_dimension=k)
-# Published older rounded values are NOT exact benchmark formulas.
-vardy_log={57:15.37,58:16.46,59:17.75,60:19.04,61:20.54,62:22.13,63:23.92}
-vardy={n:{'printed_log2_lower_bound':v,'two_to_printed_value':2**v,'scope':'Rounded lower bound printed in Vardy1999, not an exact density identity and not a current world-record claim.'} for n,v in vardy_log.items()}
-# Current candidate comparisons use exact certificate values already on disk.
-candidates={}
+# Provenance is explicit: the following are OUR comparison constructions.
+# Only Vardy's historical table below is a published same-dimensional comparison.
+from benchmark_report import render
+ROOT = P.parents[2]
+sources = json.loads((P/'benchmark_sources.json').read_text())
+assert {'V99','N98','N99','N12','S19','CS96','TABLE'} <= sources.keys()
+for source in sources.values():
+ if 'archived_source' in source: assert (P/source['archived_source']).is_file()
+
+vardy_log = {57:'15.37…',58:'16.46…',59:'17.75…',60:'19.04…',61:'20.54…',62:'22.13…',63:'23.92…'}
+published = {n:{'source_id':'V99', 'construction':'Elkies section E_'+str(n),
+ 'locator':sources['V99']['locator'], 'printed_log2_center_density':value,
+ 'exact_center_density_squared':None,
+ 'scope':'Historical printed lower bound, not an exact density identity or a current record.'}
+ for n,value in vardy_log.items()}
+published[64] = {'source_ids':['N98','N99'], 'construction':'Ne64',
+ 'exact_center_density_squared':str(3**32), 'scope':'Published 64D parent, also used as a failed-control comparator.'}
+
+candidates = {}
+def candidate(n,name,d2,path):
+ assert (P/path).is_file(), path
+ candidates[n] = {'name':name,'d2':sp.Rational(d2),'certificate_path':path}
 for a in json.loads((P/'ne64_lowrank_sections.json').read_text()):
- candidates[a['dimension']]={'name':'Ne64 bare '+a['name']+' section','d2':sp.sympify(a['center_density_squared'])}
+ candidate(a['dimension'],'Ne64 bare '+a['name']+' section',a['center_density_squared'],f"ne64_section_{a['name']}.npz")
 for a in json.loads((R/'dual64'/'constructed.json').read_text()):
- candidates[a['dimension']]={'name':a['label'],'d2':sp.sympify(a['delta_squared'])}
+ candidate(a['dimension'],f"Ne64 antipode, {a['cosets']} translates",a['delta_squared'],f"../dual64/{a['label']}.npz")
 for a in json.loads((R/'higher_parent'/'gamma72_verified.json').read_text())['certificates']:
- n=a['dimension'];d2=sp.sympify(a['center_density_squared_exact'])
- if n not in candidates or d2>candidates[n]['d2']:candidates[n]={'name':a['certificate_file'],'d2':d2}
-ne65=json.loads((R/'higher_parent'/'ne65_verified.json').read_text())
+ n=a['dimension']; d2=sp.Rational(a['center_density_squared_exact'])
+ if n not in candidates or d2>candidates[n]['d2']:
+  candidate(n,f"Gamma72 antipode, {a['cosets']} translates",d2,'../higher_parent/'+a['certificate_file'])
+ne65 = json.loads((R/'higher_parent'/'ne65_verified.json').read_text())
 assert ne65['status']=='verified_minimum_12_lattice' and ne65['coset_minimum_certified']
-assert sp.sympify(ne65['center_density_squared'])==Q(3**34,10)
-candidates[65]={'name':'explicit Ne65 (certified coset minimum26/3)','d2':sp.sympify(ne65['center_density_squared'])}
-best={};table=[]
+assert sp.Rational(ne65['center_density_squared'])==Q(3**34,10)
+candidate(65,'Explicit Ne65, certified depth 26/3',ne65['center_density_squared'],'../higher_parent/ne65_verified.json')
+# Include the result added on November 15: never regenerate a stale 59D row.
+ne59path = ROOT/'constructions/dim59/result.json'
+ne59 = json.loads(ne59path.read_text())
+ne59audit = json.loads((ne59path.parent/'independent_audit.json').read_text())
+assert ne59['status']=='verified_periodic_packing' and ne59['all_checks_exact']
+assert ne59audit['all_checks_passed'] and ne59['data_sha256']==ne59audit['data_sha256']
+assert ne59['center_density_squared_exact']==ne59audit['center_density_squared_exact']
+assert sp.Rational(ne59['center_density_squared_exact'])==Q(3**33*401**59,2**296*5**2*13**61)
+candidate(59,'Six-translate Ne64 antipode',ne59['center_density_squared_exact'],'../../../constructions/dim59/result.json')
+
+# Each computed reference names the actual local evidence, not a parent paper.
+for a in rows:
+ family=a['family']
+ if family=='Gamma72_laminated_section':a['evidence_path']=a['certificate']
+ elif family=='Ne64_existential_extension':a['evidence_path']=a['proof']
+ elif family=='published_input':a['evidence_path']='benchmark_sources.json'
+ else:a['evidence_path']='propagated_benchmarks.py'
+ assert (P/a['evidence_path']).is_file()
+ if family=='Gamma72_laminated_section':a['parent_source_ids']=['N12']
+ elif a.get('parent')==56:a['parent_source_ids']=['S19']
+ elif a.get('parent')==64 or family=='Ne64_existential_extension':a['parent_source_ids']=['N98','N99']
+ elif a.get('parent')==72:a['parent_source_ids']=['N12']
+
+best = {}; table = []
 for n in range(57,72):
  pool=[a for a in rows if a['dimension']==n]
- b=max(pool,key=lambda a:sp.sympify(a['center_density_squared']));best[n]=b
- c=candidates.get(n);cr=None
- if c:
-  cr={'name':c['name'],'center_density_squared':str(c['d2']),'center_density':float(sp.sqrt(c['d2'])),'ratio_to_this_finite_envelope':float(sp.sqrt(c['d2']/sp.sympify(b['center_density_squared']))),'beats_this_finite_envelope':bool(c['d2']>sp.sympify(b['center_density_squared']))}
- table.append({'dimension':n,'best_finite_family_benchmark':b,'candidate':cr,'Vardy1999_rounded':vardy.get(n)})
-report={'scope':'Finite propagated lower-bound audit, NOT an exhaustive SOTA/priority determination. It does not bound all sections, laminations, nonlattice packings or constructions from other parents.','published_parent_sources':['https://cohn.mit.edu/sphere-packing/','https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/CQ64b.html','https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/papers/Ext72.pdf'],'small_dimension_source':'https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/density.html','Vardy_source':'https://citeseerx.ist.psu.edu/document?doi=c9085ab03f7ab8f5154d3c38fe2be7ab6316fac4&repid=rep1&type=pdf','pi_bounds_certified_by_Machin':True,'minimum_inputs_inherited':True,'all_torus_volume_inequalities_checked_exactly':True,'rows':table,'all_finite_family_bounds':rows}
+ b=max(pool,key=lambda a:sp.Rational(a['center_density_squared']));best[n]=b
+ c=candidates[n]; ratio2=sp.cancel(c['d2']/sp.Rational(b['center_density_squared']))
+ cr={'name':c['name'],'certificate_path':c['certificate_path'],
+     'center_density_squared':str(c['d2']),'center_density':float(sp.sqrt(c['d2']))}
+ internal={'ratio_squared_exact':str(ratio2),'ratio':float(sp.sqrt(ratio2)),
+     'increase_percent':float(100*(sp.sqrt(ratio2)-1)),
+     'exceeds_reference':bool(ratio2>1),
+     'comparison_kind':'published_parent_control' if b['origin']=='published_parent_input' else 'internal_repository_comparison',
+     'is_gain_over_identified_published_record':False}
+ table.append({'dimension':n,'computed_reference':b,'repository_construction':cr,
+     'internal_comparison':internal,'published_reference':published.get(n),
+     'current_published_record_identified':False,
+     'published_record_improvement_established':False})
+assert sp.Rational(best[59]['center_density_squared'])==2**36
+assert table[2]['repository_construction']['center_density_squared']==ne59['center_density_squared_exact']
+report={'schema_version':2,
+ 'scope':'Exact comparisons with our computed reference constructions; published parent inputs and historical same-dimensional values attributed separately. No improvement over the current published record is established by this audit.',
+ 'sources':sources,'pi_bounds_certified_by_Machin':True,'minimum_inputs_inherited':True,
+ 'all_torus_volume_inequalities_checked_exactly':True,
+ 'rows':table,'all_finite_family_bounds':rows}
 (P/'propagated_benchmarks.json').write_text(json.dumps(report,indent=2)+'\n')
-lines=['# Propagated benchmark audit, dimensions57–71','',report['scope'],'','All densities below are center densities. Principal computed bounds have exact rational squared densities in `propagated_benchmarks.json`. The torus bounds use strict rational volume inequalities, not floating hole searches.','', '| Dimension | Strongest bound in audited finite families | Construction | Current candidate | Vardy1999 printed log₂δ |','|---|---:|---|---:|---:|']
+(P/'PROPAGATED_BENCHMARKS.md').write_text(render(report))
 for a in table:
- n=a['dimension'];b=a['best_finite_family_benchmark'];c=a['candidate'];v=a['Vardy1999_rounded']
- lines.append(f"| {n} | {b['center_density']:,.6f} | {b['name']} | {c['center_density']:,.6f} | {v['printed_log2_lower_bound']:.2f}.. |" if c and v else f"| {n} | {b['center_density']:,.6f} | {b['name']} | {c['center_density']:,.6f} | — |" if c else f"| {n} | {b['center_density']:,.6f} | {b['name']} | — | — |")
-lines += ['', '## Consequences', '', '- The present Ne64 bare sections in57,58,59 are below explicit propagated bounds. The57D comparison follows from the Schütt56 torus extension; the58D and59D comparisons follow from newly certified primitive Γ72 sections.', '- The63D antipode is below the older printed Vardy1999 lower bound. Its density is therefore not a record candidate.', '- The older Γ72 65D antipode is below the independent Ne64 discriminant-count extension. The candidate column now uses the separately certified explicit Ne65 lattice with center density3^17/√10; this new construction is not counted as a prior baseline.', '- Candidates in60–62 and65–71 exceed these audited finite families. This statement does not establish current SOTA, because these families and the available published tables are not exhaustive.', '', '## Families included', '', '1. Direct products of the published56D and64D packings with listed small-dimensional packings, including the nonlattice10D,11D and13D examples.', '2. Greedy separated offsets on the parent torus, combined with a small-dimensional lattice colored modulo2. The low-dimensional lattice minimum, not a nonlattice density, is used for this family.', '3. The analogous A_k coloring with k+1 colors. Its same-color squared minimum ratio is4 for k=1,3 for k=2,and at least2 otherwise.', '4. Averaged projection through a ball window from64D and72D.', '5. Primitive Γ72 sections along explicitly embedded laminated normals in its √2Leech block.', '6. Direct products of the resulting bounds with listed small-dimensional packings.', '7. The separately proved Ne64 extension with a3-torsion dual coset of minimum at least8.', '', '## Formulas and proof scope', '', 'For a lattice L normalized to minimum4 and center densityδ, greedy torus selection gives s offsets at pairwise distance at leastR whenever (s−1)δ V_n R^n<1. If the vertical min1 latticeK has an s-coloring with same-color squared minimum at leastλ, scale it by t with t²=max(4−R²,4/λ). The packing consisting of L+h_color over each vertical point has center density δ/[t^k covol(K)]. The certificate chooses rational R² and checks the union-volume inequality using π<355/113. Full derivation and an independent57/58 check are in `../code_routes/TORUS_LAYER_BENCHMARKS.md`.', '', 'An averaged k-dimensional ball-window projection of an N-dimensional packing gives δ_(N−k)≥δ_N V_k(k/N)^(k/2)((N−k)/N)^((N−k)/2). These values are evaluated below using the certified lower boundπ>333/106. The formulas are lower bounds, not upper limitations on what projection can achieve.', '', 'For a primitive normal GramK inside unimodular Γ72, the orthogonal section has determinant detK and inherited minimum8. Thus δ²=2^(72−rankK)/detK. The rank13 and14 determinants are2^23 and3·2^22, yielding δ59=262144 and δ58=2^18/√3. Source identity, Smith saturation and explicit complete section-period bases are checked in `verify_gamma72_leech_sections.py`.', '', 'The Vardy values are kept as the printed rounded log₂ lower bounds. No inferred exact Mordell–Weil determinant sequence is used. The catalogue MW64 Gram has determinant2^52, but the attempted identification of its sections with those printed values has not been established.', '', '## Replay', '', '```bash','OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py','OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/propagated_benchmarks.py','```','']
-(P/'PROPAGATED_BENCHMARKS.md').write_text('\n'.join(lines))
-for a in table:
- b=a['best_finite_family_benchmark'];c=a['candidate'];print(a['dimension'],f"{b['center_density']:.9g}",b['name'],'candidate',None if c is None else round(c['center_density'],6),None if c is None else c['beats_this_finite_envelope'])
+ print(a['dimension'],a['repository_construction']['name'],
+       f"{a['repository_construction']['center_density']:.9f}",
+       a['internal_comparison']['comparison_kind'],
+       'published record improvement:',a['published_record_improvement_established'])

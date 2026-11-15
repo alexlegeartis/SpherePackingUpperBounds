@@ -109,6 +109,8 @@ def main():
         "dimension":59,"cosets":6,"minimum_squared_exact":str(minimum),
         "center_density_squared_exact":str(delta2),"period_basis_change_determinant":int(W.det()),
         "comparison_reconstructed_exactly":True,"comparison_center_density_squared":str(baseline2),
+        "comparison_kind":"internal_repository_comparison",
+        "comparison_is_published_59D_record":False,
         "inherited_minimum_theorems":{"Ne64":12,"Gamma72":8},
         "world_record_established":False,
         "data_sha256":{f.name:hashlib.sha256(f.read_bytes()).hexdigest()for f in sorted((P/"data").iterdir())if f.is_file()},
