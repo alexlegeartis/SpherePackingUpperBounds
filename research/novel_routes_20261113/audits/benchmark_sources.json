@@ -71,9 +71,20 @@
     "publication": "Journal für die reine und angewandte Mathematik 673 (2012), 237–247; preprint 2010",
     "url": "https://doi.org/10.1515/crelle.2011.175",
     "full_text_url": "https://arxiv.org/pdf/1008.2862",
-    "locator": "Section 2 constructs Gamma72; Section 4 proves minimum 8; center density in dimension 72 is 2^36",
-    "role": "Published 72D parent and its minimum theorem. Our selected sections and antipode clusters in dimensions 58–71 are computations in this repository, not numerical records quoted from this paper.",
+    "locator": "Theorem 2.3 and Section 4 prove minimum 8. Section 4.2, pp. 8–9 of arXiv:1008.2862, gives the primitive sqrt(2)*Leech section K1 and its perpendicular K2 of minimum 8",
+    "role": "Published 72D parent and structural input for the classical kappa13 comparison. The derived 59D density 2^22/(9*sqrt(3)) is calculated here, not a 59D numerical result reported by Nebe. Other selected sections and antipode clusters are also calculations in this repository.",
     "archived_source": "../higher_parent/neb72.html"
+  },
+  "K13": {
+    "authors": "Gabriele Nebe and N. J. A. Sloane; classical construction discussed by J. H. Conway and N. J. A. Sloane",
+    "title": "Catalogue of Lattices: KAPPA13 and the Leech lattice; Sphere Packings, Lattices and Groups, Chapter 6",
+    "publication": "Catalogue entries last modified 18 July 2014; Conway–Sloane book, third edition, Springer (1999)",
+    "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html",
+    "leech_url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Leech.html",
+    "locator": "KAPPA13: dimension 13, minimum 4, Gram determinant 972, BASIS and GRAM; REFERENCES cites SPLAG Chapter 6",
+    "role": "Classical normal for a stronger derived 59D comparison. Exact catalogue coordinates certify a primitive kappa13 embedding in Leech. Together with N12 this yields 59D center density 2^22/(9*sqrt(3)) = 269064.727051..., not a quoted 59D record.",
+    "archived_source": "../../../constructions/dim59/comparison_sources/KAPPA13.html",
+    "verification": "../../../constructions/dim59/verify_literature_section.py"
   },
   "S19": {
     "authors": "Matthias Schütt and Tetsuji Shioda",

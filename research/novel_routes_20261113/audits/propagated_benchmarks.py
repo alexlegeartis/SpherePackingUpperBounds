@@ -72,6 +72,17 @@ sections=json.loads((P/'gamma72_leech_sections.json').read_text())
 for sn,row in sections.items():
  n=int(sn)
  if 57<=n<=71:add(n,f'Gamma72 laminated normal rank {72-n}','Gamma72_laminated_section',sp.sympify(row['center_density_sq']),certificate=f'gamma72_leech_section_rank{72-n}.npz')
+# Classical kappa13 is denser than the laminated normal used above. Its
+# published catalogue embedding is checked independently of our search.
+literature59_path=P.parents[2]/'constructions/dim59/literature_section_comparison.json'
+literature59=json.loads(literature59_path.read_text())
+assert literature59['status']=='verified_classical_section_derived_from_published_inputs'
+assert literature59['kappa13_embedding_primitive'] and not literature59['is_reported_59D_result']
+assert sp.Rational(literature59['center_density_squared_exact'])==Q(2**44,3**5)
+add(59,'Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)',
+ 'Gamma72_classical_kappa13_section',Q(2**44,3**5),
+ certificate='../../../constructions/dim59/literature_section_comparison.json',
+ reference_kind='derived_from_published_inputs_not_a_quoted_59D_record')
 # This existential extension was proved in this repository, in higher_parent
 # and code_routes. It is not a published same-dimensional comparison result.
 add(65,'Ne64 discriminant-count extension (coset minimum≥8)','Ne64_existential_extension',Q(3**33,4),proof='../code_routes/NE64_THETA_COUNT.md')
@@ -131,12 +142,13 @@ candidate(59,'Six-translate Ne64 antipode',ne59['center_density_squared_exact'],
 # Each computed reference names the actual local evidence, not a parent paper.
 for a in rows:
  family=a['family']
- if family=='Gamma72_laminated_section':a['evidence_path']=a['certificate']
+ if family in ('Gamma72_laminated_section','Gamma72_classical_kappa13_section'):a['evidence_path']=a['certificate']
  elif family=='Ne64_existential_extension':a['evidence_path']=a['proof']
  elif family=='published_input':a['evidence_path']='benchmark_sources.json'
  else:a['evidence_path']='propagated_benchmarks.py'
  assert (P/a['evidence_path']).is_file()
- if family=='Gamma72_laminated_section':a['parent_source_ids']=['N12']
+ if family=='Gamma72_classical_kappa13_section':a['parent_source_ids']=['N12','K13']
+ elif family=='Gamma72_laminated_section':a['parent_source_ids']=['N12']
  elif a.get('parent')==56:a['parent_source_ids']=['S19']
  elif a.get('parent')==64 or family=='Ne64_existential_extension':a['parent_source_ids']=['N98','N99']
  elif a.get('parent')==72:a['parent_source_ids']=['N12']
@@ -153,11 +165,13 @@ for n in range(57,72):
      'exceeds_reference':bool(ratio2>1),
      'comparison_kind':'published_parent_control' if b['origin']=='published_parent_input' else 'internal_repository_comparison',
      'is_gain_over_identified_published_record':False}
+ if b['family']=='Gamma72_classical_kappa13_section':
+  internal['comparison_kind']='derived_from_published_inputs_not_a_quoted_59D_record'
  table.append({'dimension':n,'computed_reference':b,'repository_construction':cr,
      'internal_comparison':internal,'published_reference':published.get(n),
      'current_published_record_identified':False,
      'published_record_improvement_established':False})
-assert sp.Rational(best[59]['center_density_squared'])==2**36
+assert sp.Rational(best[59]['center_density_squared'])==Q(2**44,3**5)
 assert table[2]['repository_construction']['center_density_squared']==ne59['center_density_squared_exact']
 external59 = json.loads((ne59path.parent/'external_comparison.json').read_text())
 assert external59['status']=='verified_gain_interval_over_reported_guarantee'

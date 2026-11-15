@@ -65,9 +65,19 @@ percentage. These recorded comparisons retain their pinned versions and scope.
 | Upper 5–7D and 9–16D | Three-point semidefinite programming | Rasul Tutunov, Alexandre Maraval, Antoine Grosnit, Xihan Li, Jun Wang and Haitham Bou-Ammar, *Model-Based and Sample-Efficient AI-Assisted Math Discovery in Sphere Packing*, [arXiv:2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1). The comparisons use the paper's displayed decimals; its original numerical certificates are not replayed here. |
 | Upper 17–23D and 25–48D | Cohn–Elkies linear programming / modular bootstrap | Nima Afkhami-Jeddi, Henry Cohn, Thomas Hartman, David de Laat and Amirhossein Tajdini, *High-dimensional sphere packing and the modular bootstrap*, [arXiv:2006.02560v2](https://arxiv.org/abs/2006.02560v2), JHEP 12 (2020), 066. Numerical comparisons are the pinned Cohn-table entries attributed to this work. |
 | Lower 36D | KP36 code-based lattice | Frank R. Kschischang and Subbarayan Pasupathy, *Some ternary and quaternary codes and associated sphere packings*, IEEE Trans. Information Theory 38 (1992), 227–246, [DOI](https://doi.org/10.1109/18.119683). The [KP36 catalogue entry](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) gives minimum 8 and Gram determinant 3^20. |
-| Lower 59D | Elkies's section E59, a historical reported guarantee | Alexander Vardy, *Density doubling, double-circulants, and new sphere packings*, Trans. AMS 351 (1999), 271–283, [§4, p. 278](https://doi.org/10.1090/S0002-9947-99-02169-8), reports the lower-bound prefix `log2(delta)=17.75..`. Reference 10, p. 283 cites Elkies's personal communication of February 1996. The verified percentage interval compares with the reported guarantee, not the actual E59 density. |
+| Lower 59D | Classical κ13 perpendicular section of Γ72 (**derived comparison**) | Gabriele Nebe, *An even unimodular 72-dimensional lattice of minimum 8*, [§4.2](https://arxiv.org/pdf/1008.2862), together with the [κ13 catalogue coordinates](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html), which cite Conway–Sloane, *Sphere Packings, Lattices and Groups*, Chapter 6. The exact 59D center density `2^22/(9*sqrt(3))` is derived here from these published inputs; it is not a 59D numerical result reported by either source. |
 
-The full Vardy PDF and reference list were checked on 15 November 2026.
+The stronger classical comparison has center density **269064.727051458…**
+and occupied fraction **2.585163653786988e-12**. Its exact comparison with our
+six-translate packing gives **2.028457148397469…%**. The checker verifies the
+published κ13 embedding in the published Leech basis, its primitivity and
+determinant. Nebe's primitive scaled-Leech section and minimum theorems give
+the corresponding 59D perpendicular and its exact minimum 8.
+[Derivation, what other papers report and replay](constructions/dim59/#literature-derived-comparison).
+This is stronger than the older internal reference `262144` and the historical
+Elkies guarantee. It does not identify a previously reported 59D record.
+
+As historical context, the full Vardy PDF and reference list were checked on 15 November 2026.
 Writing `B` for the **reported guarantee**, its printed prefix gives
 `2^17.75 <= B < 2^17.76`. Exact integer-power inequalities prove
 **23.675981% < 100*(delta_ours/B-1) < 24.536216%**. Multiplication by
@@ -79,7 +89,7 @@ E59 density, so a gain over that lattice or the current record is not proved.
 and [machine-readable arithmetic](constructions/dim59/external_comparison.json)
 make this distinction explicit.
 
-The stronger reference `delta=262144` was computed in this repository and
+The earlier reference `delta=262144` was computed in this repository and
 remains a **secondary internal comparison** with exact gain 4.722057%. It is
 verified in the construction package and is not substituted for the external
 work in the README table.
@@ -87,10 +97,10 @@ work in the README table.
 `RESULTS.json` carries each upper row's method, source label, full work title,
 locator and source kind. `comparison.py` regenerates those fields together with
 the upper-bound README and RESULTS tables. Their bounds and numerical comparisons
-are unchanged. The lower-bound 59D row now uses the external historical reference
-with a verified interval over its reported guarantee; the proved 4.722057%
-remains an internal comparison in the construction package and the notes below
-the table.
+are unchanged. The lower-bound 59D row now uses the stronger classical κ13
+section derived from published inputs, with gain 2.028457%. The older
+reported-guarantee comparison and 4.722057% internal comparison remain
+identified as secondary comparisons in the construction package.
 
 ## Lower bounds
 

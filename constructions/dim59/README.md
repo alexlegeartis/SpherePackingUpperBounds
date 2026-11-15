@@ -9,23 +9,19 @@ This construction has packing fraction
 with center density **274,522.589741149678…**, or
 `log2(delta)=18.066565…`.
 
-An external historical reference is **Elkies's section E59, reported by
-Alexander Vardy in *Density doubling, double-circulants, and new sphere
-packings*, Trans. AMS 351 (1999), 271–283, §4, p. 278**
-([paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). Its printed lower
-bound has `log2(delta)=17.75…`. The original paper and its references were
-checked on 15 November 2026. Our packing is **23.675981%–24.536216% above the
-reported guarantee**, with an exact rational proof of the interval below.
-Vardy attributes the section results to **Elkies, personal communication,
-February 1996** (reference 10, p. 283). The actual E59 density is only bounded
-below, so this does **not** certify a gain over that lattice or the current
-record. See [verified external comparison](#verified-external-comparison).
+The strongest comparison currently verified here uses **Nebe's published
+Gamma72 structure and the classical κ13 section of the Leech lattice**.
+They give a 59D packing of exact center density `2^22/(9*sqrt(3))`, or
+**269,064.727051458…**. Our improvement over this construction is
+**2.028457148397469…%**. This 59D number is **derived here from published
+inputs**, not quoted as a result of Nebe's paper. See
+[the derivation and source survey](#literature-derived-comparison).
 
 Separately, the repository's certified Gamma72 59D section has center density
 `262144`. The new construction improves that **internal** reference by
 **4.722057243785735…%**. Both the new packing and this exact internal ratio
-pass two implementations. The internal reference is stronger than the floor
-obtained from Vardy's printed prefix, so it remains useful as a progress check.
+pass two implementations. The κ13 comparison above is stronger than this
+internal reference and the historical prefix reported for Elkies's E59.
 
 The idea is a balanced rank-five normal in the dual of Ne64, followed by a
 six-point antipode construction. Five dual minimum-length vectors have squared
@@ -57,8 +53,10 @@ The exact center density is
 \]
 
 Multiplication by `pi^(59/2)/Gamma(61/2)` gives the packing fraction.
-`result.json` records the exact rational squared density and comparison ratio;
-the displayed decimals are evaluations of these exact expressions.
+`result.json` records the exact rational squared density and the earlier
+internal comparison ratio. `literature_section_comparison.json` records the
+stronger κ13 comparison used in the README table. Displayed decimals evaluate
+these exact expressions.
 
 ## Why this defines a packing
 
@@ -104,6 +102,7 @@ From the repository root, with Python 3, NumPy, SymPy and python-flint installed
 python constructions/dim59/verify.py
 python constructions/dim59/verify_independent.py
 python constructions/dim59/verify_external_comparison.py
+python constructions/dim59/verify_literature_section.py
 ```
 
 `verify.py` re-parses the archived Ne64 catalogue Gram, checks exact rational
@@ -114,7 +113,7 @@ It does not import the search or generator.
 `verify_independent.py` uses FLINT integer Hermite forms to obtain a different
 complete period basis. It checks a unimodular change to the saved period,
 uses leading principal determinants for positivity, and verifies the same
-rational packing data. It also reconstructs the **comparison** period from the
+rational packing data. It also reconstructs the **earlier internal comparison** period from the
 published Gamma72 Gram and the archived rank-13 normal, proving its determinant
 `2^23` and center density `2^18`. It does not import the first implementation.
 
@@ -128,6 +127,72 @@ python constructions/dim59/verify.py --write-result
 Run these verifiers without Python's `-O` flag. No optimizer, floating minimum
 enumeration, search cap, or completeness assumption about a sampled vector pool
 is part of the proof.
+
+## Literature-derived comparison
+
+**This is a mathematical consequence of published constructions, not an
+externally reported 59D record.** It is stronger than the two comparison
+values used earlier, so the README now uses it for the numerical gain.
+
+[Nebe, *An even unimodular 72-dimensional lattice of minimum 8*](https://arxiv.org/pdf/1008.2862),
+Theorem 2.3 and §4.2, supplies a primitive section
+`K1 = sqrt(2)*Leech` of the unimodular Gamma72 lattice. Its 48D perpendicular
+`K2` has minimum 8. The classical
+[κ13 catalogue entry](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html)
+supplies a 13×24 basis, Gram determinant **972**, and cites Conway–Sloane,
+*Sphere Packings, Lattices and Groups*, Chapter 6.
+
+The verifier reads that basis `B` and the
+[published Leech coordinate basis](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Leech.html)
+`L`. It verifies `B B^T/8 = Gram(kappa13)` and that `C=B L^-1` is integral
+with all 13 Smith invariant factors equal to 1. Thus κ13 is a **primitive**
+section of Leech, independently of any normal found by our discovery code.
+The source HTML and integer embedding are retained in
+[comparison_sources](comparison_sources/) and
+[literature_section_comparison.json](literature_section_comparison.json).
+
+Primitivity composes, so `sqrt(2)*kappa13` is a primitive normal in Gamma72.
+Its determinant is `2^13*972`. In a unimodular lattice a primitive normal and
+its full orthogonal section have equal Gram determinants. The 59D section
+contains `K2`, so its minimum is **exactly 8**, using Nebe's published result.
+Consequently
+
+\[
+\delta_{\mathrm{classical}}^2
+=\frac{2^{59}}{2^{13}\cdot972}
+=\frac{2^{44}}{3^5},\qquad
+\delta_{\mathrm{classical}}=\frac{2^{22}}{9\sqrt3}.
+\]
+
+Its occupied fraction is `2.585163653786987618…e-12`, compared with our
+`2.637602590720002979…e-12`. Comparing exact rational squared densities gives
+**2.028457148397469…%**. Replay with
+`python constructions/dim59/verify_literature_section.py`.
+The Γ72 structure/minimum theorems are external mathematical inputs; the
+embedding, determinant, primitivity and comparison arithmetic are checked
+exactly here. No isometry search or capped enumeration is trusted.
+
+### What other works actually report
+
+The source checks on 15 November 2026 distinguish a reported 59D number
+from constructions in other dimensions and their consequences:
+
+| Work | Reported result relevant to this comparison |
+|---|---|
+| [Vardy (1999), §4, p. 278](https://doi.org/10.1090/S0002-9947-99-02169-8) | His own `J59` has exact center density **131072**. He reports the denser Elkies section with a lower-bound logarithm beginning **17.75…**, attributed to personal correspondence. |
+| [Nebe (2012), Theorem 2.3 and §4.2](https://arxiv.org/pdf/1008.2862) | Reports Gamma72 of minimum 8 and its scaled Leech section. **269064.727051… in 59D is our derivation above**, not a number printed in her paper. |
+| [Chen–Hu–Li–Wang–Wu (2025), Table 1](https://arxiv.org/html/2505.02394v1) | Reports density improvements in **19, 20, 21, 23, 44, 45, 47D**; no 59D row. |
+| [Dorofeev–Sun–Wang (2026), Table 1](https://arxiv.org/html/2607.20359v4) | Reports density improvements in **38–43D**; no 59D row. |
+| [Cohn's table](https://cohn.mit.edu/sphere-packing/) | Covers **1–48, 56, 64, 72D**, with no 59D entry. Direct retrieval returned HTTP 502; the indexed copy was inspected and reported a crawl age of four months. |
+| [Nebe–Sloane density table](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html) | The live table has selected dimensions above 48, including **54, 56, 64, 72, 80, 128**, and no 59D row. |
+| [Felpix-Studios repository](https://github.com/Felpix-Studios/sphere-packing) | Its inspected README reports a **4D upper bound**, not a 59D lower bound. |
+
+The absence of a 59D entry in these sources does not prove no stronger result
+exists. The present survey has **not identified the strongest previously
+reported 59D packing**. The meaningful quantified comparison currently
+available is the **2.028457% gain over the derived classical construction**;
+the older roughly 24% reported-guarantee comparison is retained below as
+historical context.
 
 ## Verified external comparison
 

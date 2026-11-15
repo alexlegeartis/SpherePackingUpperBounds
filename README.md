@@ -4,7 +4,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 <!-- lower-return-20261115:start -->
 > [!IMPORTANT]
-> **59D packing certificate — 15 November 2026.** A six-translate antipode from a balanced rank-five normal in Ne64's dual has packing fraction **2.637602590720003e-12** and center density **274,522.589741…** (`log2(delta)=18.066565…`). It is **23.67–24.54% above the historical guarantee reported for Elkies's E59 section by [Vardy (1999), §4, p. 278](https://doi.org/10.1090/S0002-9947-99-02169-8)**. The original paper gives only a lower-bound prefix and cites personal correspondence, so this verifies a gain over the reported guarantee, not over the actual E59 density or the current record. [Construction and exact replays](constructions/dim59/) · [Source verification and precise interval](constructions/dim59/#verified-external-comparison).
+> **59D packing certificate — 15 November 2026.** The six-translate Ne64 antipode has packing fraction **2.637602590720003e-12** and center density **274,522.589741…**. A stronger literature-based comparison than the old Elkies guarantee comes from [Nebe's Γ72, §4.2](https://arxiv.org/pdf/1008.2862) and the [classical κ13 section](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html): these imply a 59D packing of center density **269,064.727051…**. Our gain is **2.028457%**. The comparison is derived here from published inputs; it is not a 59D record quoted from those sources. [Proof, source survey and exact replay](constructions/dim59/#literature-derived-comparison).
 <!-- lower-return-20261115:end -->
 
 <!-- larger-decreases-20261115:start -->
@@ -37,32 +37,32 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Packing constructions: lower bounds
 
-**Comparison method / source** names the external work behind each recorded
-comparison. The 59D percentage is a verified interval over a reported guarantee;
-the source does not determine the actual E59 lattice density. All densities in
+**Comparison method / source** names the published work behind each recorded
+comparison. The 59D comparator is explicitly **derived from published inputs**;
+it is not a numerical 59D result reported by those authors. All densities in
 this table are occupied-volume fractions.
 
 | Dimension | Recorded comparison density | Comparison method / source | Our constructed density | Increase | Our method / proof |
 | --- | --- | --- | --- | --- | --- |
 | 36 | ≈6.1615e-7 | [KP36 code-based lattice — Kschischang–Pasupathy (1992)](https://doi.org/10.1109/18.119683) · [Catalogue parameters](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
-| 59 | Reported guarantee `2^(17.75…) V₅₉` (prefix floor ≈2.11794e-12) | [Elkies's section E59 — reported by Vardy (1999), §4, p. 278](https://doi.org/10.1090/S0002-9947-99-02169-8) | ≈2.637602590720e-12 | **23.67–24.54% over the reported guarantee** | [Six-translate Ne64 antipode; exact period, shifts, attained minimum and comparison interval](constructions/dim59/) |
+| 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
 
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 
 For 59D, `V₅₉ = pi^(59/2)/Gamma(61/2)` converts center density into the occupied
-fraction shown here. The original source was checked on 15 November 2026:
-Vardy §4, p. 278 prints the lower-bound prefix `17.75..`; reference 10, p. 283
-attributes the section results to **Elkies, personal communication, February
-1996**. Treating the ellipses as the written decimal prefix gives the rigorous
-interval **23.675981% < gain < 24.536216% over the reported guarantee**.
-This supplies no upper bound on the actual E59 density and does not establish
-an improvement over that lattice or the current record.
-[Source details and exact integer-power verification](constructions/dim59/#verified-external-comparison).
+fraction shown here. The classical κ13 normal gives the exact comparison
+`delta=2^22/(9*sqrt(3))`, stronger than both the earlier internal reference
+`262144` and the historical guarantee reported by Vardy. The published κ13
+embedding and its primitivity are checked from the catalogue matrices;
+Nebe's published Γ72 structure supplies the remaining existence and minimum
+inputs. [What other works report, derivation and verification](constructions/dim59/#literature-derived-comparison).
+The best previously reported 59D record is still not identified, so this is a
+verified comparison with a classical construction, not an established SOTA gain.
 
 As a separate internal check, our earlier Gamma72 section has center density
-262144, below the new construction by exactly **4.722057%**. This stronger
-internal reference is useful for tracking our progress, but is not the external
-literature baseline in the table. Its
+262144, below the new construction by exactly **4.722057%**. This earlier
+internal reference is useful for tracking our progress; the table uses the
+stronger κ13 comparison. Its
 [certificate and provenance](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from)
 remain available alongside the named published sources.
 

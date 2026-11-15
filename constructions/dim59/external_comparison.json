@@ -6,6 +6,8 @@
   "source_locator": "Section 4, p. 278, the table for n=57,...,63; reference 10 on p. 283 identifies the Elkies section results as personal communication, February 1996",
   "source_transcription_is_external_input": true,
   "comparison_target": "The lower-bound value reported for E59, not the actual E59 density",
+  "used_as_main_comparator": false,
+  "stronger_comparison": "literature_section_comparison.json (Gamma72 perpendicular to classical kappa13)",
   "reported_guarantee_log2_interval": {
     "lower": "71/4",
     "lower_inclusive": true,

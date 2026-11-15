@@ -88,6 +88,8 @@ def audit():
         "source_locator": source["locator"],
         "source_transcription_is_external_input": True,
         "comparison_target": "The lower-bound value reported for E59, not the actual E59 density",
+        "used_as_main_comparator": False,
+        "stronger_comparison": "literature_section_comparison.json (Gamma72 perpendicular to classical kappa13)",
         "reported_guarantee_log2_interval": {
             "lower": str(lower_log), "lower_inclusive": True,
             "upper": str(upper_log), "upper_inclusive": False,

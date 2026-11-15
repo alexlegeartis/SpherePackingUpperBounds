@@ -14,8 +14,9 @@ def render(report):
     lines = [
         "# Published references and repository comparisons, dimensions 57–71",
         "",
-        "**The 59D gain of 4.722057% is over an earlier construction computed in this repository. "
-        "The comparator 262144 is not a 59D result quoted from Nebe's paper. "
+        "**The strongest 59D comparison calculated here is now the classical kappa13 section "
+        "of Gamma72, with center density 269064.727051…; our increase is 2.028457%. "
+        "This comparison is derived from published inputs, not a 59D result quoted from Nebe's paper. "
         "This report does not establish an improvement over the best previously published 59D packing.**",
         "",
         "The same distinction applies to the earlier 65–71D percentage gains: their comparators "
@@ -24,14 +25,14 @@ def render(report):
         "",
         "All densities are **center densities** `delta`, not occupied-volume fractions. "
         "The latter are `Delta_n = pi^(n/2)/Gamma(n/2+1) * delta`. "
-        "A comparison of exact rational squared densities proves the internal percentages below.",
+        "A comparison of exact rational squared densities proves the percentages below.",
         "",
         "## Which previous work is being used?",
         "",
         "| Reference | Actual role in this report |",
         "|---|---|",
     ]
-    for sid in ("V99", "N98", "N99", "N12", "S19", "CS96"):
+    for sid in ("V99", "N98", "N99", "N12", "K13", "S19", "CS96"):
         source = sources[sid]
         title = f"{source['authors']}, *{source['title']}*"
         lines.append(f"| {link(sid + ': ' + title, source['url'])} | {source['role']} |")
@@ -84,13 +85,14 @@ def render(report):
         "Their exact parent densities are respectively `3^16` and `2^36`; no improvement "
         "in either parent dimension is claimed here.",
         "",
-        "## Exact improvements over our earlier computations",
+        "## Exact comparisons with calculated reference constructions",
         "",
-        "**Every comparison in this table is internal to this repository.** "
-        "The reference column links the actual construction/proof used for the denominator. "
-        "These percentages must not be described as gains over published records.",
+        "The 59D comparator is a consequence of **published Gamma72 structure and classical kappa13**. "
+        "Its numerical 59D density is derived here. Other rows use the reference constructions "
+        "calculated in this repository. The links identify each denominator; "
+        "these percentages must not be described as gains over identified published records.",
         "",
-        "| Dimension | Earlier reference calculated here | Reference center density | Our certified construction | Center density | Internal increase |",
+        "| Dimension | Reference construction / source | Reference center density | Our certified construction | Center density | Increase |",
         "|---|---|---:|---|---:|---:|",
     ]
     for n in (59, 60, 61, 62, 65, 66, 67, 68, 69, 70, 71):
@@ -109,7 +111,9 @@ def render(report):
         "that the previous version called the current candidate. Its exact period, "
         "translate data and attained minimum are checked by "
         "[two implementations](../../../constructions/dim59/README.md#replay). "
-        "They also verify the internal reference `delta=2^18`.",
+        "They also verify the earlier internal reference `delta=2^18`. "
+        "The stronger classical reference now used in this table is checked separately by "
+        "[verify_literature_section.py](../../../constructions/dim59/verify_literature_section.py).",
         "",
         "The Gamma72 section references in 66–71D also attain a ceiling for the "
         "**bare-section density formula using inherited minimum 8**, via the known "
@@ -145,6 +149,14 @@ def render(report):
         "For rank `k`, `delta^2=2^(72-k)/det(K)`. In 59D, `det(K)=2^23`, "
         "hence `delta=2^18=262144`. This specific 59D value was calculated here; "
         "it is not cited as a numerical result of Nebe's paper.",
+        "* **Stronger 59D classical section:** Nebe's Section 4.2 supplies a primitive "
+        "`sqrt(2)*Leech` section. The catalogue's classical `kappa13` embeds primitively "
+        "in Leech with Gram determinant 972, as verified from both published coordinate matrices. "
+        "The scaled normal and its 59D perpendicular have determinant `2^13*972`. "
+        "The perpendicular has minimum exactly 8 because it contains Nebe's minimum-8 "
+        "48D section. Hence `delta=2^22/(9*sqrt(3))=269064.727051…`, and our gain is "
+        "**2.028457%**. This is a derivation from N12 and K13, not a density quoted "
+        "from either source. [Proof and source survey](../../../constructions/dim59/README.md#literature-derived-comparison).",
         "* **65D depth-8 extension:** the existence proof using the Ne64 theta series "
         "was developed here: [NE64_THETA_COUNT.md](../code_routes/NE64_THETA_COUNT.md). "
         "Its center density is `3^(33/2)/2`. The explicit deeper coset gives "
@@ -175,14 +187,16 @@ def render(report):
         "python constructions/dim59/verify.py",
         "python constructions/dim59/verify_independent.py",
         "python constructions/dim59/verify_external_comparison.py",
+        "python constructions/dim59/verify_literature_section.py",
         "```",
         "",
         "The first command regenerates this page, the exact comparison arithmetic and "
         "source attribution from [benchmark_sources.json](benchmark_sources.json). "
         "It consumes previously verified construction data; it does not replace their "
         "minimum proofs. The next two commands replay the 59D construction and its "
-        "internal reference independently. The last checks the external reported-guarantee "
-        "interval using exact rational powers; its source transcription is an input.",
+        "internal reference independently. The fourth checks the historical reported-guarantee "
+        "interval using exact rational powers; its source transcription is an input. "
+        "The last verifies the classical kappa13 embedding and the stronger derived 59D comparison.",
         "",
         "**Status:** certified constructions and internal improvements; historical "
         "published comparisons explicitly identified; no established improvement "

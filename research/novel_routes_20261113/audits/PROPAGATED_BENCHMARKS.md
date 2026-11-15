@@ -1,10 +1,10 @@
 # Published references and repository comparisons, dimensions 57–71
 
-**The 59D gain of 4.722057% is over an earlier construction computed in this repository. The comparator 262144 is not a 59D result quoted from Nebe's paper. This report does not establish an improvement over the best previously published 59D packing.**
+**The strongest 59D comparison calculated here is now the classical kappa13 section of Gamma72, with center density 269064.727051…; our increase is 2.028457%. This comparison is derived from published inputs, not a 59D result quoted from Nebe's paper. This report does not establish an improvement over the best previously published 59D packing.**
 
 The same distinction applies to the earlier 65–71D percentage gains: their comparators were our derived constructions or an inherited-minimum section bound. They were not identified published same-dimensional records.
 
-All densities are **center densities** `delta`, not occupied-volume fractions. The latter are `Delta_n = pi^(n/2)/Gamma(n/2+1) * delta`. A comparison of exact rational squared densities proves the internal percentages below.
+All densities are **center densities** `delta`, not occupied-volume fractions. The latter are `Delta_n = pi^(n/2)/Gamma(n/2+1) * delta`. A comparison of exact rational squared densities proves the percentages below.
 
 ## Which previous work is being used?
 
@@ -13,7 +13,8 @@ All densities are **center densities** `delta`, not occupied-volume fractions. T
 | [V99: Alexander Vardy, *Density doubling, double-circulants, and new sphere packings*](https://doi.org/10.1090/S0002-9947-99-02169-8) | Historical same-dimensional numerical comparison: Elkies's sections E_n, reported by Vardy. These are not being attributed to Vardy as their constructor. |
 | [N98: Gabriele Nebe, *Some cyclo-quaternionic lattices*](https://doi.org/10.1006/jabr.1997.7163) | Construction of the 64D parent Ne64. Used with N99 for its minimum theorem, not as a published 59D or 65D comparison result. |
 | [N99: Gabriele Nebe, *Construction and investigation of lattices with matrix groups*](https://doi.org/10.1090/conm/249/03759) | Published minimum-12 input for Ne64. The resulting center density in dimension 64 is 3^16. No same-dimensional 59D or 65D result is attributed to this paper. |
-| [N12: Gabriele Nebe, *An even unimodular 72-dimensional lattice of minimum 8*](https://doi.org/10.1515/crelle.2011.175) | Published 72D parent and its minimum theorem. Our selected sections and antipode clusters in dimensions 58–71 are computations in this repository, not numerical records quoted from this paper. |
+| [N12: Gabriele Nebe, *An even unimodular 72-dimensional lattice of minimum 8*](https://doi.org/10.1515/crelle.2011.175) | Published 72D parent and structural input for the classical kappa13 comparison. The derived 59D density 2^22/(9*sqrt(3)) is calculated here, not a 59D numerical result reported by Nebe. Other selected sections and antipode clusters are also calculations in this repository. |
+| [K13: Gabriele Nebe and N. J. A. Sloane; classical construction discussed by J. H. Conway and N. J. A. Sloane, *Catalogue of Lattices: KAPPA13 and the Leech lattice; Sphere Packings, Lattices and Groups, Chapter 6*](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html) | Classical normal for a stronger derived 59D comparison. Exact catalogue coordinates certify a primitive kappa13 embedding in Leech. Together with N12 this yields 59D center density 2^22/(9*sqrt(3)) = 269064.727051..., not a quoted 59D record. |
 | [S19: Matthias Schütt and Tetsuji Shioda, *Mordell–Weil Lattices, chapter Ranks and Sphere Packings*](https://doi.org/10.1007/978-981-32-9301-4_13) | Published 56D density input for our derived torus-layer and product bounds. The 57D value 151706.083320 is calculated here and must not be attributed to this chapter. |
 | [CS96: J. H. Conway and N. J. A. Sloane, *The Antipode Construction for Sphere Packings*](https://neilsloane.com/doc/anti.pdf) | The construction method. This paper's examples do not supply the 59D or 65–71D numerical comparison values used here. |
 
@@ -39,13 +40,13 @@ For 59D, let `B` be the guarantee reported by the printed prefix. Then `2^17.75 
 
 For **65–71D**, this audit has not identified a published same-dimensional numerical record to use as the comparator. Nebe's 64D and 72D parent results do not fill that gap. Their exact parent densities are respectively `3^16` and `2^36`; no improvement in either parent dimension is claimed here.
 
-## Exact improvements over our earlier computations
+## Exact comparisons with calculated reference constructions
 
-**Every comparison in this table is internal to this repository.** The reference column links the actual construction/proof used for the denominator. These percentages must not be described as gains over published records.
+The 59D comparator is a consequence of **published Gamma72 structure and classical kappa13**. Its numerical 59D density is derived here. Other rows use the reference constructions calculated in this repository. The links identify each denominator; these percentages must not be described as gains over identified published records.
 
-| Dimension | Earlier reference calculated here | Reference center density | Our certified construction | Center density | Internal increase |
+| Dimension | Reference construction / source | Reference center density | Our certified construction | Center density | Increase |
 |---|---|---:|---|---:|---:|
-| 59 | [Gamma72 laminated normal rank 13](gamma72_leech_section_rank13.npz) | 262,144.000000 | [Six-translate Ne64 antipode](../../../constructions/dim59/result.json) | 274,522.589741 | 4.722057% |
+| 59 | [Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)](../../../constructions/dim59/literature_section_comparison.json) | 269,064.727051 | [Six-translate Ne64 antipode](../../../constructions/dim59/result.json) | 274,522.589741 | 2.028457% |
 | 60 | [Gamma72 laminated normal rank 12](gamma72_leech_section_rank12.npz) | 524,288.000000 | [Ne64 antipode, 5 translates](../dual64/ne64_simplex_rank4.npz) | 773,597.146771 | 47.551946% |
 | 61 | [Gamma72 laminated normal rank 11](gamma72_leech_section_rank11.npz) | 1,048,576.000000 | [Ne64 antipode, 4 translates](../dual64/ne64_simplex_rank3.npz) | 2,043,183.683386 | 94.853180% |
 | 62 | [Gamma72 laminated normal rank 10](gamma72_leech_section_rank10.npz) | 2,421,582.543463 | [Ne64 antipode, 3 translates](../dual64/ne64_simplex_rank2.npz) | 5,188,971.717320 | 114.280192% |
@@ -57,7 +58,7 @@ For **65–71D**, this audit has not identified a published same-dimensional num
 | 70 | [Gamma72 laminated normal rank 2](gamma72_leech_section_rank2.npz) | 4,959,401,049.012478 | [Gamma72 antipode, 3 translates](../higher_parent/gamma72_simplex_rank2.npz) | 7,120,856,007.299829 | 43.582984% |
 | 71 | [Gamma72 laminated normal rank 1](gamma72_leech_section_rank1.npz) | 17,179,869,184.000000 | [Gamma72 antipode, 2 translates](../higher_parent/gamma72_simplex_rank1.npz) | 19,663,555,319.937195 | 14.456956% |
 
-In particular, the 59D row is now the six-translate construction `274522.589741…`, replacing the obsolete bare-section value `244079.864699…` that the previous version called the current candidate. Its exact period, translate data and attained minimum are checked by [two implementations](../../../constructions/dim59/README.md#replay). They also verify the internal reference `delta=2^18`.
+In particular, the 59D row is now the six-translate construction `274522.589741…`, replacing the obsolete bare-section value `244079.864699…` that the previous version called the current candidate. Its exact period, translate data and attained minimum are checked by [two implementations](../../../constructions/dim59/README.md#replay). They also verify the earlier internal reference `delta=2^18`. The stronger classical reference now used in this table is checked separately by [verify_literature_section.py](../../../constructions/dim59/verify_literature_section.py).
 
 The Gamma72 section references in 66–71D also attain a ceiling for the **bare-section density formula using inherited minimum 8**, via the known small-dimensional Hermite constants. That ceiling does not bound arbitrary packings or sections with a higher actual minimum, and it is not a literature record.
 
@@ -74,6 +75,7 @@ The Gamma72 section references in 66–71D also attain a ceiling for the **bare-
 
 * **57D torus bound:** we derive it from the published Schütt 56D input `5^28/(2^28*29^4)` using separated offsets and colored layers. The 57D number is our calculation, not a result attributed to Schütt. [Derivation](../code_routes/TORUS_LAYER_BENCHMARKS.md) and [exact radius arithmetic](propagated_benchmarks.py).
 * **Gamma72 sections:** we embed primitive laminated normals into the scaled Leech block of Nebe's parent and verify them in [verify_gamma72_leech_sections.py](verify_gamma72_leech_sections.py). For rank `k`, `delta^2=2^(72-k)/det(K)`. In 59D, `det(K)=2^23`, hence `delta=2^18=262144`. This specific 59D value was calculated here; it is not cited as a numerical result of Nebe's paper.
+* **Stronger 59D classical section:** Nebe's Section 4.2 supplies a primitive `sqrt(2)*Leech` section. The catalogue's classical `kappa13` embeds primitively in Leech with Gram determinant 972, as verified from both published coordinate matrices. The scaled normal and its 59D perpendicular have determinant `2^13*972`. The perpendicular has minimum exactly 8 because it contains Nebe's minimum-8 48D section. Hence `delta=2^22/(9*sqrt(3))=269064.727051…`, and our gain is **2.028457%**. This is a derivation from N12 and K13, not a density quoted from either source. [Proof and source survey](../../../constructions/dim59/README.md#literature-derived-comparison).
 * **65D depth-8 extension:** the existence proof using the Ne64 theta series was developed here: [NE64_THETA_COUNT.md](../code_routes/NE64_THETA_COUNT.md). Its center density is `3^(33/2)/2`. The explicit deeper coset gives `3^17/sqrt(10)`; the internal ratio is `sqrt(6/5)`.
 * **Additional propagated bounds:** products, torus colorings and averaged ball-window projections are retained in [propagated_benchmarks.json](propagated_benchmarks.json). Their numerical consequences are marked as our computations, even when their parent is published.
 
@@ -91,9 +93,13 @@ The table gives lower bounds with ellipses, not exact section determinants or a 
 
 [Archived source](../dual64/CQ64b.html).
 
-**N12. Gabriele Nebe.** [An even unimodular 72-dimensional lattice of minimum 8](https://doi.org/10.1515/crelle.2011.175). Journal für die reine und angewandte Mathematik 673 (2012), 237–247; preprint 2010. **Locator:** Section 2 constructs Gamma72; Section 4 proves minimum 8; center density in dimension 72 is 2^36.
+**N12. Gabriele Nebe.** [An even unimodular 72-dimensional lattice of minimum 8](https://doi.org/10.1515/crelle.2011.175). Journal für die reine und angewandte Mathematik 673 (2012), 237–247; preprint 2010. **Locator:** Theorem 2.3 and Section 4 prove minimum 8. Section 4.2, pp. 8–9 of arXiv:1008.2862, gives the primitive sqrt(2)*Leech section K1 and its perpendicular K2 of minimum 8.
 
 [Archived source](../higher_parent/neb72.html).
+
+**K13. Gabriele Nebe and N. J. A. Sloane; classical construction discussed by J. H. Conway and N. J. A. Sloane.** [Catalogue of Lattices: KAPPA13 and the Leech lattice; Sphere Packings, Lattices and Groups, Chapter 6](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html). Catalogue entries last modified 18 July 2014; Conway–Sloane book, third edition, Springer (1999). **Locator:** KAPPA13: dimension 13, minimum 4, Gram determinant 972, BASIS and GRAM; REFERENCES cites SPLAG Chapter 6.
+
+[Archived source](../../../constructions/dim59/comparison_sources/KAPPA13.html).
 
 **S19. Matthias Schütt and Tetsuji Shioda.** [Mordell–Weil Lattices, chapter Ranks and Sphere Packings](https://doi.org/10.1007/978-981-32-9301-4_13). Springer (2019), chapter 13; 56D construction cited at p. 400 by the Nebe–Sloane catalogue. **Locator:** 56D input, delta=5^28/(2^28*29^4); catalogue row 56 cites M. Schütt, MW19 p. 400.
 
@@ -114,8 +120,9 @@ OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/propagated_b
 python constructions/dim59/verify.py
 python constructions/dim59/verify_independent.py
 python constructions/dim59/verify_external_comparison.py
+python constructions/dim59/verify_literature_section.py
 ```
 
-The first command regenerates this page, the exact comparison arithmetic and source attribution from [benchmark_sources.json](benchmark_sources.json). It consumes previously verified construction data; it does not replace their minimum proofs. The next two commands replay the 59D construction and its internal reference independently. The last checks the external reported-guarantee interval using exact rational powers; its source transcription is an input.
+The first command regenerates this page, the exact comparison arithmetic and source attribution from [benchmark_sources.json](benchmark_sources.json). It consumes previously verified construction data; it does not replace their minimum proofs. The next two commands replay the 59D construction and its internal reference independently. The fourth checks the historical reported-guarantee interval using exact rational powers; its source transcription is an input. The last verifies the classical kappa13 embedding and the stronger derived 59D comparison.
 
 **Status:** certified constructions and internal improvements; historical published comparisons explicitly identified; no established improvement over the current published record in dimensions 57–71 from this audit. A future record claim must identify the previous same-dimensional result by author, work and exact parameters, then compare against that result.

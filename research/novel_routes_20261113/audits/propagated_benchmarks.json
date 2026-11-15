@@ -74,9 +74,20 @@
       "publication": "Journal f\u00fcr die reine und angewandte Mathematik 673 (2012), 237\u2013247; preprint 2010",
       "url": "https://doi.org/10.1515/crelle.2011.175",
       "full_text_url": "https://arxiv.org/pdf/1008.2862",
-      "locator": "Section 2 constructs Gamma72; Section 4 proves minimum 8; center density in dimension 72 is 2^36",
-      "role": "Published 72D parent and its minimum theorem. Our selected sections and antipode clusters in dimensions 58\u201371 are computations in this repository, not numerical records quoted from this paper.",
+      "locator": "Theorem 2.3 and Section 4 prove minimum 8. Section 4.2, pp. 8\u20139 of arXiv:1008.2862, gives the primitive sqrt(2)*Leech section K1 and its perpendicular K2 of minimum 8",
+      "role": "Published 72D parent and structural input for the classical kappa13 comparison. The derived 59D density 2^22/(9*sqrt(3)) is calculated here, not a 59D numerical result reported by Nebe. Other selected sections and antipode clusters are also calculations in this repository.",
       "archived_source": "../higher_parent/neb72.html"
+    },
+    "K13": {
+      "authors": "Gabriele Nebe and N. J. A. Sloane; classical construction discussed by J. H. Conway and N. J. A. Sloane",
+      "title": "Catalogue of Lattices: KAPPA13 and the Leech lattice; Sphere Packings, Lattices and Groups, Chapter 6",
+      "publication": "Catalogue entries last modified 18 July 2014; Conway\u2013Sloane book, third edition, Springer (1999)",
+      "url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html",
+      "leech_url": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Leech.html",
+      "locator": "KAPPA13: dimension 13, minimum 4, Gram determinant 972, BASIS and GRAM; REFERENCES cites SPLAG Chapter 6",
+      "role": "Classical normal for a stronger derived 59D comparison. Exact catalogue coordinates certify a primitive kappa13 embedding in Leech. Together with N12 this yields 59D center density 2^22/(9*sqrt(3)) = 269064.727051..., not a quoted 59D record.",
+      "archived_source": "../../../constructions/dim59/comparison_sources/KAPPA13.html",
+      "verification": "../../../constructions/dim59/verify_literature_section.py"
     },
     "S19": {
       "authors": "Matthias Sch\u00fctt and Tetsuji Shioda",
@@ -201,15 +212,17 @@
       "dimension": 59,
       "computed_reference": {
         "dimension": 59,
-        "name": "Gamma72 laminated normal rank 13",
-        "family": "Gamma72_laminated_section",
-        "center_density_squared": "68719476736",
-        "center_density": 262144.0,
+        "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+        "family": "Gamma72_classical_kappa13_section",
+        "center_density_squared": "17592186044416/243",
+        "center_density": 269064.7270514582,
         "origin": "computed_in_this_repository",
-        "certificate": "gamma72_leech_section_rank13.npz",
-        "evidence_path": "gamma72_leech_section_rank13.npz",
+        "certificate": "../../../constructions/dim59/literature_section_comparison.json",
+        "reference_kind": "derived_from_published_inputs_not_a_quoted_59D_record",
+        "evidence_path": "../../../constructions/dim59/literature_section_comparison.json",
         "parent_source_ids": [
-          "N12"
+          "N12",
+          "K13"
         ]
       },
       "repository_construction": {
@@ -219,11 +232,11 @@
         "center_density": 274522.5897411497
       },
       "internal_comparison": {
-        "ratio_squared_exact": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/19518348130150719316043326800257937633047761966418866440538719455697316753916798738360191262146158218938415618412181974446594770265521409073113568354620364609406841651200",
-        "ratio": 1.0472205724378574,
-        "increase_percent": 4.722057243785735,
+        "ratio_squared_exact": "5201464801387195079577104090183729690997828700531741205948117069547490121258368827707211230762287161288910956249213377304542579090778460773676956174985047518970916234932489/4996697121318584144907091660866032034060227063403229808777912180658513089002700477020208963109416504048234398313518585458328261187973480722717073498782813340008151462707200",
+        "ratio": 1.0202845714839748,
+        "increase_percent": 2.0284571483974694,
         "exceeds_reference": true,
-        "comparison_kind": "internal_repository_comparison",
+        "comparison_kind": "derived_from_published_inputs_not_a_quoted_59D_record",
         "is_gain_over_identified_published_record": false
       },
       "published_reference": {
@@ -2372,6 +2385,21 @@
       "evidence_path": "gamma72_leech_section_rank15.npz",
       "parent_source_ids": [
         "N12"
+      ]
+    },
+    {
+      "dimension": 59,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "family": "Gamma72_classical_kappa13_section",
+      "center_density_squared": "17592186044416/243",
+      "center_density": 269064.7270514582,
+      "origin": "computed_in_this_repository",
+      "certificate": "../../../constructions/dim59/literature_section_comparison.json",
+      "reference_kind": "derived_from_published_inputs_not_a_quoted_59D_record",
+      "evidence_path": "../../../constructions/dim59/literature_section_comparison.json",
+      "parent_source_ids": [
+        "N12",
+        "K13"
       ]
     },
     {
@@ -8557,6 +8585,138 @@
       "origin": "computed_in_this_repository",
       "parent_construction": "Gamma72 laminated normal rank 15",
       "added_dimension": 14,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 60,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 1D packing",
+      "family": "propagated_product",
+      "center_density_squared": "4398046511104/243",
+      "center_density": 134532.3635257291,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 1,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 61,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 2D packing",
+      "family": "propagated_product",
+      "center_density_squared": "4398046511104/729",
+      "center_density": 77672.29629629629,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 2,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 62,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 3D packing",
+      "family": "propagated_product",
+      "center_density_squared": "549755813888/243",
+      "center_density": 47564.3732690484,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 3,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 63,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 4D packing",
+      "family": "propagated_product",
+      "center_density_squared": "274877906944/243",
+      "center_density": 33633.090881432276,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 4,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 64,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 5D packing",
+      "family": "propagated_product",
+      "center_density_squared": "137438953472/243",
+      "center_density": 23782.1866345242,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 5,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 65,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 6D packing",
+      "family": "propagated_product",
+      "center_density_squared": "274877906944/729",
+      "center_density": 19418.074074074073,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 6,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 66,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 7D packing",
+      "family": "propagated_product",
+      "center_density_squared": "68719476736/243",
+      "center_density": 16816.545440716138,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 7,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 67,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 8D packing",
+      "family": "propagated_product",
+      "center_density_squared": "68719476736/243",
+      "center_density": 16816.545440716138,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 8,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 68,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 9D packing",
+      "family": "propagated_product",
+      "center_density_squared": "34359738368/243",
+      "center_density": 11891.0933172621,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 9,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 69,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 10D packing",
+      "family": "propagated_product",
+      "center_density_squared": "26843545600/243",
+      "center_density": 10510.340900447587,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 10,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 70,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 11D packing",
+      "family": "propagated_product",
+      "center_density_squared": "268435456/3",
+      "center_density": 9459.306810402828,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 11,
+      "evidence_path": "propagated_benchmarks.py"
+    },
+    {
+      "dimension": 71,
+      "name": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13) \u00d7 12D packing",
+      "family": "propagated_product",
+      "center_density_squared": "17592186044416/177147",
+      "center_density": 9965.36026116512,
+      "origin": "computed_in_this_repository",
+      "parent_construction": "Gamma72 perpendicular to sqrt(2)*kappa13 (derived from N12 + K13)",
+      "added_dimension": 12,
       "evidence_path": "propagated_benchmarks.py"
     },
     {

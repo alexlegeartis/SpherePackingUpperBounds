@@ -34,7 +34,7 @@ The initially found Ne64 bare sections in dimensions 57–59 are valid, but all 
 
 - Dimension 57: a torus extension of the published Schütt 56D lattice gives a rigorously certified center density above 151,706.08. The Ne64 section gives only 57,530.18.
 - Dimension 58: the Γ72 normal has determinant 3·2^22, giving center density 2^18/√3 = 151,348.90897…. This exceeds the Ne64 section's 115,060.35.
-- Dimension 59: the Γ72 normal has determinant 2^23, giving center density 262,144. This was our computed reference, not an identified published 59D record. The [15 November six-translate construction](../../../constructions/dim59/) now has center density 274,522.589741…, a 4.722057% internal increase.
+- Dimension 59: the older laminated Γ72 normal gave center density 262,144. The stronger **classical κ13** normal has determinant `2^13*972` and gives **269,064.727051…**, derived from Nebe's published Γ72 structure and the published κ13 embedding in Leech. The [six-translate construction](../../../constructions/dim59/) has center density 274,522.589741…, an exact **2.028457%** gain over that derived construction. Neither comparison is a 59D number quoted from Nebe's paper.
 - Dimension 63: the Ne64 antipode gives center density about 13.106 million, below the older lower bound printed in Vardy's 1999 paper, whose log₂ center density is at least 23.92….
 - Dimension 65: the initial Γ72 antipode is below the separately proved Ne64 discriminant-count extension. The newly certified explicit Ne65 lattice has center density 3^17/√10 = 40,837,705.24854…, and is displayed as a candidate rather than a prior benchmark.
 
@@ -51,6 +51,11 @@ For 59D, exact rational powers verify **23.675981%–24.536216% above the
 reported guarantee**. This interval does not bound the gain over the actual
 Elkies lattice, whose density is only bounded below by that source.
 [Derivation and replay](../../../constructions/dim59/README.md#verified-external-comparison).
+This historical comparison is superseded as the main numerical comparator by
+the stronger classical κ13 section. Its exact published-coordinate audit is
+`../../../constructions/dim59/verify_literature_section.py`; the source survey
+and mathematical derivation are in
+[the construction package](../../../constructions/dim59/README.md#literature-derived-comparison).
 
 ## Why the Γ72 sections exist
 
