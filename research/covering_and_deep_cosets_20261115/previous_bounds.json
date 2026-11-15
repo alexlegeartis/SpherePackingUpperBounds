@@ -1,0 +1,300 @@
+{
+  "commit": "e9d03c1faf4ca531afb46649f8ccad9af258a586",
+  "scope": "Published parent/guarantee inputs, explicit classical sections, Blichfeldt sections and products; not an exhaustive world-record table",
+  "rows": [
+    {
+      "dimension": 48,
+      "name": "Leech--Sloane P48q",
+      "density_squared": "79766443076872509863361/281474976710656",
+      "evidence": "https://neilsloane.com/doc/Me103.pdf"
+    },
+    {
+      "dimension": 49,
+      "name": "P48 compatible half-cosets, rank 1",
+      "density_squared": "239299329230617529590083/1407374883553280",
+      "evidence": "research/range48_96_20261115/P48_PROOF.md"
+    },
+    {
+      "dimension": 50,
+      "name": "P48 compatible half-cosets, rank 2",
+      "density_squared": "239299329230617529590083/1759218604441600",
+      "evidence": "research/range48_96_20261115/P48_PROOF.md"
+    },
+    {
+      "dimension": 51,
+      "name": "P48 compatible half-cosets, rank 3",
+      "density_squared": "2153693963075557766310747/17592186044416000",
+      "evidence": "research/range48_96_20261115/P48_PROOF.md"
+    },
+    {
+      "dimension": 52,
+      "name": "P48 compatible half-cosets, rank 4",
+      "density_squared": "6461081889226673298932241/43980465111040000",
+      "evidence": "research/range48_96_20261115/P48_PROOF.md"
+    },
+    {
+      "dimension": 53,
+      "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 53D",
+      "density_squared": "307399975",
+      "evidence": "https://doi.org/10.1007/s40993-022-00321-0"
+    },
+    {
+      "dimension": 54,
+      "name": "Leterrier54, Corollary 1.4 (2022)",
+      "density_squared": "55511151231257827021181583404541015625/15263394663051042073620774912",
+      "evidence": "https://doi.org/10.1007/s40993-022-00321-0"
+    },
+    {
+      "dimension": 55,
+      "name": "Shioda MW56 / Blichfeldt section to 55D",
+      "density_squared": "3068134994",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 56,
+      "name": "Shioda MW56",
+      "density_squared": "1387778780781445675529539585113525390625/36046552944073389769014378496",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 57,
+      "name": "56D torus offsets, 1D lattice modulo 2",
+      "density_squared": "867361737988403547205962240695953369140625/37687234330418480150219673567232",
+      "evidence": "research/novel_routes_20261113/audits/propagated_benchmarks.json"
+    },
+    {
+      "dimension": 58,
+      "name": "Classical Gamma72/Leech-block section",
+      "density_squared": "68719476736/3",
+      "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py"
+    },
+    {
+      "dimension": 59,
+      "name": "Ne64 antipode, six translates",
+      "density_squared": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/284029347387705919624471088176621380742985085328384105240383643186903162188781406997589383713001126582653023337656951836057047625443685815452970103864505139200",
+      "evidence": "constructions/dim59/result.json"
+    },
+    {
+      "dimension": 60,
+      "name": "Ne64 antipode, 5 translates",
+      "density_squared": "5544723244335223446698732155483832197862019691088815682339702433559574430690857360401201/9265100944259205000000000000000000000000000000000000000000000000000000000000",
+      "evidence": "research/novel_routes_20261113/dual64/constructed.json"
+    },
+    {
+      "dimension": 61,
+      "name": "Ne64 antipode, 4 translates",
+      "density_squared": "17415801853485004855336762442939898744688594522840665673209227303681849503950820521480637959932273263427871/4171849679533027504677776769862406473833407270227837441302815640277772901915313574263597826048",
+      "evidence": "research/novel_routes_20261113/dual64/constructed.json"
+    },
+    {
+      "dimension": 62,
+      "name": "Ne64 antipode, 3 translates",
+      "density_squared": "539782436982347484203948377350754466121763007587735041549470427213464063243009150028228759765625/20047311684103092102240310008611691258602461917962919136955412315182056431547318272",
+      "evidence": "research/novel_routes_20261113/dual64/constructed.json"
+    },
+    {
+      "dimension": 63,
+      "name": "Elkies E63, Vardy1999 printed log2 prefix 23.92",
+      "density_squared": "251927160994904",
+      "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8"
+    },
+    {
+      "dimension": 64,
+      "name": "Nebe Ne64",
+      "density_squared": "1853020188851841",
+      "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html"
+    },
+    {
+      "dimension": 65,
+      "name": "Explicit Ne65, certified depth 26/3",
+      "density_squared": "16677181699666569/10",
+      "evidence": "research/novel_routes_20261113/higher_parent/ne65_verified.json"
+    },
+    {
+      "dimension": 66,
+      "name": "Gamma72 antipode, 9 translates",
+      "density_squared": "11308027652428010358964519423890894632249437545823411710443906486034393310546875/1645504557321206042154969182557350504982735865633579863348609024",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 67,
+      "name": "Gamma72 antipode, 6 translates",
+      "density_squared": "28350385682382231771924251181669157225338971464147071385381092094302157846641421201638877391815185546875/462333512415959871432825063550150360984665506085613321211823759370349646490117198577664",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 68,
+      "name": "Gamma72 antipode, 5 translates",
+      "density_squared": "1557375283165270034418170034963869604080745545007217344629738994990958788186543854918814032684097081378618081/2361183241434822606848000000000000000000000000000000000000000000000000000000000000000000000",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 69,
+      "name": "Gamma72 antipode, 4 translates",
+      "density_squared": "20245878681148510447436210454530304853049692085093825480186606934882464246425070113944582424893262057922035053/3689348814741910323200000000000000000000000000000000000000000000000000000000000000000000000",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 70,
+      "name": "Gamma72 antipode, 3 translates",
+      "density_squared": "1113909878701319946802438610104242643351756723724661212622652768893562658207945194763064336952218952506065384605882849/21967753552800234569728283904516568237723468582119960201682811351131107099819273502559020800540672",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 71,
+      "name": "Gamma72 antipode, 2 translates",
+      "density_squared": "538918983089556384732998345947093492005719991394361448967414415844680348075221071214409623842682480243819910823712744984804892633061679/1393796574908163946345982392040522594123776000000000000000000000000000000000000000000000000000000000000000000000000",
+      "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json"
+    },
+    {
+      "dimension": 72,
+      "name": "Nebe Gamma72",
+      "density_squared": "4722366482869645213696",
+      "evidence": "https://arxiv.org/abs/1008.2862"
+    },
+    {
+      "dimension": 73,
+      "name": "Gamma72 compatible half-cosets, rank 1",
+      "density_squared": "9444732965739290427392/3",
+      "evidence": "research/cross_dimension_lower_20261115/counting_results.json"
+    },
+    {
+      "dimension": 74,
+      "name": "Gamma72 compatible half-cosets, rank 2",
+      "density_squared": "75557863725914323419136/27",
+      "evidence": "research/cross_dimension_lower_20261115/counting_results.json"
+    },
+    {
+      "dimension": 75,
+      "name": "Gamma72 compatible half-cosets, rank 3",
+      "density_squared": "75557863725914323419136/27",
+      "evidence": "research/cross_dimension_lower_20261115/counting_results.json"
+    },
+    {
+      "dimension": 76,
+      "name": "Gamma72 compatible half-cosets, rank 4",
+      "density_squared": "302231454903657293676544/81",
+      "evidence": "research/cross_dimension_lower_20261115/counting_results.json"
+    },
+    {
+      "dimension": 77,
+      "name": "Gamma72 compatible half-cosets, rank 5",
+      "density_squared": "302231454903657293676544/81",
+      "evidence": "research/cross_dimension_lower_20261115/counting_results.json"
+    },
+    {
+      "dimension": 78,
+      "name": "L80 antipode, 3 translates",
+      "density_squared": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+      "evidence": "research/cross_dimension_lower_20261115/l80_results.json"
+    },
+    {
+      "dimension": 79,
+      "name": "L80 antipode, 2 translates",
+      "density_squared": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "evidence": "research/cross_dimension_lower_20261115/l80_results.json"
+    },
+    {
+      "dimension": 80,
+      "name": "Shioda MW80",
+      "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 81,
+      "name": "Shioda MW80 torus + 1D mod2",
+      "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/637966476629661950973520999743252446585984909312",
+      "evidence": "research/range48_96_20261115/README.md"
+    },
+    {
+      "dimension": 82,
+      "name": "L80 compatible half-cosets, rank 2",
+      "density_squared": "77371252455336267181195264/75",
+      "evidence": "research/cross_dimension_lower_20261115/counting80_results.json"
+    },
+    {
+      "dimension": 83,
+      "name": "L80 compatible half-cosets, rank 3",
+      "density_squared": "154742504910672534362390528/125",
+      "evidence": "research/cross_dimension_lower_20261115/counting80_results.json"
+    },
+    {
+      "dimension": 84,
+      "name": "L80 compatible half-cosets, rank 4",
+      "density_squared": "1237940039285380274899124224/625",
+      "evidence": "research/cross_dimension_lower_20261115/counting80_results.json"
+    },
+    {
+      "dimension": 85,
+      "name": "L80 compatible half-cosets, rank 5",
+      "density_squared": "19807040628566084398385987584/9375",
+      "evidence": "research/cross_dimension_lower_20261115/counting80_results.json"
+    },
+    {
+      "dimension": 86,
+      "name": "BCS88 section perpendicular to sqrt(2) A2",
+      "density_squared": "19342813113834066795298816/3",
+      "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md"
+    },
+    {
+      "dimension": 87,
+      "name": "BCS88 section perpendicular to sqrt(2) A1",
+      "density_squared": "38685626227668133590597632",
+      "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md"
+    },
+    {
+      "dimension": 88,
+      "name": "Classical BCS88",
+      "density_squared": "309485009821345068724781056",
+      "evidence": "https://neilsloane.com/doc/Me103.pdf"
+    },
+    {
+      "dimension": 89,
+      "name": "Shioda MW92 / Blichfeldt section to 89D",
+      "density_squared": "5007452921343898975205116906",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 90,
+      "name": "Shioda MW92 / Blichfeldt section to 90D",
+      "density_squared": "128864714012559596127904470650",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 91,
+      "name": "Shioda MW92 / Blichfeldt section to 91D",
+      "density_squared": "3443664483164131858634061128122",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 92,
+      "name": "Shioda MW92",
+      "density_squared": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+      "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf"
+    },
+    {
+      "dimension": 93,
+      "name": "MW92 periodic layers, 2 colors",
+      "density_squared": "49039857307708443467467104868809893875799651909875269632000000/732436975133478539644794093743",
+      "evidence": "research/priority_resolution_20261115/torus93_96_results.json"
+    },
+    {
+      "dimension": 94,
+      "name": "MW92 periodic layers, 3 colors",
+      "density_squared": "392318858461667547739736838950479151006397215279002157056000000000000/6613147500553338870788045699702774283",
+      "evidence": "research/priority_resolution_20261115/torus93_96_results.json"
+    },
+    {
+      "dimension": 95,
+      "name": "MW92 periodic layers, 6 colors",
+      "density_squared": "392318858461667547739736838950479151006397215279002157056000000000000000000/7144187734930282631534930449964281196307233",
+      "evidence": "research/priority_resolution_20261115/torus93_96_results.json"
+    },
+    {
+      "dimension": 96,
+      "name": "MW92 periodic layers, 9 colors",
+      "density_squared": "25108406941546723055343157692830665664409421777856138051584000000000000000000000000/370099523496249293343632618811965850830221752447249",
+      "evidence": "research/priority_resolution_20261115/torus93_96_results.json"
+    }
+  ]
+}

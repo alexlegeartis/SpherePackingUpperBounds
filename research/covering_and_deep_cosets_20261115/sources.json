@@ -1,0 +1,55 @@
+{
+  "checked_utc_date": "2026-11-15",
+  "range": [
+    48,
+    96
+  ],
+  "CFR1959": {
+    "authors": [
+      "H. S. M. Coxeter",
+      "L. Few",
+      "C. A. Rogers"
+    ],
+    "title": "Covering space with equal spheres",
+    "doi": "10.1112/S0025579300002059",
+    "journal": "Mathematika 6 (1959), 147-157",
+    "publisher_abstract": "https://www.cambridge.org/core/journals/mathematika/article/abs/covering-space-with-equal-spheres/0FE659A64D6063B8096215434482A25C",
+    "abstract_html_sha256": "438b470647fdd1d6dc56f62e0694cfa45e551e4f399241ab4cf3938de822f199",
+    "full_original_downloaded": false,
+    "theorem_scope": "Covering-density lower bound applies to arbitrary equal-ball coverings"
+  },
+  "FejesToth2022": {
+    "author": "Gabor Fejes Toth",
+    "title": "Packing and covering in higher dimensions",
+    "url": "https://arxiv.org/abs/2202.11358",
+    "pdf_sha256": "9d1123a49d5d64396724d8f2ffb338d0441095c099fbd5cec94eb2c549429980",
+    "locator": "Section 2.2, regular-simplex covering bound and its attribution to Coxeter-Few-Rogers1959",
+    "full_pdf_retrieved": true,
+    "relevant_theorem_statement_checked": true
+  },
+  "other_source_records": [
+    "../range48_96_20261115/sources.json",
+    "../priority_resolution_20261115/sources.json",
+    "../cross_dimension_lower_20261115/literature_sources.json"
+  ],
+  "additional_queries": [
+    "sphere packing \"49-dimensional\" lattice",
+    "sphere packing \"50-dimensional\" lattice",
+    "sphere packing \"51-dimensional\" lattice",
+    "sphere packing \"52-dimensional\" lattice",
+    "\"sphere packing\" \"P49\" OR \"P50\" OR \"P51\" OR \"P52\"",
+    "\"P48\" \"deep holes\"",
+    "\"P48\" \"covering radius\"",
+    "\"P48q\" \"holes\"",
+    "\"MW54\" lattice",
+    "\"sphere packing\" \"81-dimensional\"",
+    "Coxeter Few Rogers covering density simplex bound",
+    "\"Packing and covering in higher dimensions\" Fejes Toth pdf"
+  ],
+  "priority_conclusion": "Earlier five values are superseded by stronger verified bounds here. A reliable previous worldwide record attribution in each of 49--52D and 81D was not recovered; construction verification is not bibliographic priority verification.",
+  "Rogers_packing_simplex": {
+    "original_attribution": "C. A. Rogers (1958), as referenced in Fejes Toth2022 Section 2.2",
+    "theorem_statement_source": "https://arxiv.org/abs/2202.11358",
+    "application": "Finite Dirichlet second-moment estimate, then exact Hermite and section inequalities; original packing theorem inherited"
+  }
+}

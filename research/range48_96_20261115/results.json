@@ -14685,6 +14685,120 @@
       "explicit_shifts": false
     }
   ],
+  "subsequent_audited_inputs": [
+    {
+      "dimension": 49,
+      "name": "Deeper P48 cosets with fitted vertical metric",
+      "density_squared": "239299329230617529590083/1125899906842624",
+      "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+      "kind": "new_explicit_lattice"
+    },
+    {
+      "dimension": 50,
+      "name": "Deeper P48 cosets with fitted vertical metric",
+      "density_squared": "717897987691852588770249/4503599627370496",
+      "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+      "kind": "new_explicit_lattice"
+    },
+    {
+      "dimension": 51,
+      "name": "Deeper P48 cosets with fitted vertical metric",
+      "density_squared": "2153693963075557766310747/15481123719086080",
+      "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+      "kind": "new_explicit_lattice"
+    },
+    {
+      "dimension": 52,
+      "name": "Deeper P48 cosets with fitted vertical metric",
+      "density_squared": "2153693963075557766310747/14073748835532800",
+      "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+      "kind": "new_explicit_lattice"
+    },
+    {
+      "dimension": 57,
+      "name": "Shioda MW56 CFR torus + 1D mod2",
+      "density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 81,
+      "name": "Shioda MW80 CFR torus + 1D mod2",
+      "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 82,
+      "name": "Shioda MW80 CFR torus + 2D small_period",
+      "density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 93,
+      "name": "Shioda MW92 CFR torus + 1D mod2",
+      "density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 94,
+      "name": "Shioda MW92 CFR torus + 2D mod2",
+      "density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 95,
+      "name": "Shioda MW92 CFR torus + 3D small_period",
+      "density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 96,
+      "name": "Shioda MW92 CFR torus + 4D small_period",
+      "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+      "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+      "kind": "new_covering_existence_proof"
+    },
+    {
+      "dimension": 53,
+      "name": "Leterrier54, Corollary 1.4 (2022) / Rogers section to 53D",
+      "density_squared": "310628702",
+      "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+      "kind": "new_derived_section_control"
+    },
+    {
+      "dimension": 55,
+      "name": "Shioda MW56 / Rogers section to 55D",
+      "density_squared": "3101854500",
+      "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+      "kind": "new_derived_section_control"
+    },
+    {
+      "dimension": 89,
+      "name": "Shioda MW92 / Rogers section to 89D",
+      "density_squared": "5104602996031595472989331014",
+      "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+      "kind": "new_derived_section_control"
+    },
+    {
+      "dimension": 90,
+      "name": "Shioda MW92 / Rogers section to 90D",
+      "density_squared": "130525452541473631443444339977",
+      "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+      "kind": "new_derived_section_control"
+    },
+    {
+      "dimension": 91,
+      "name": "Shioda MW92 / Rogers section to 91D",
+      "density_squared": "3465777275373358982931076036994",
+      "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+      "kind": "new_derived_section_control"
+    }
+  ],
   "rows": [
     {
       "dimension": 48,
@@ -14721,25 +14835,12 @@
       "dimension": 49,
       "best_checked": {
         "dimension": 49,
-        "name": "P48 compatible half-cosets, rank 1",
-        "density_squared": "239299329230617529590083/1407374883553280",
-        "evidence": "research/range48_96_20261115/P48_PROOF.md",
-        "kind": "new_counting_proof_and_explicit_lattice",
-        "root_gram": [
-          [
-            2
-          ]
-        ],
-        "vertical_gram": [
-          [
-            "5/2"
-          ]
-        ],
-        "expectation_upper": "3304536318720/140737479966719",
-        "minimum_squared": 6,
-        "explicit_shifts": true
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "239299329230617529590083/1125899906842624",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
       },
-      "center_density": "13039.6472366809022446335879022195849460298641",
+      "center_density": "14578.7688119178933051980272437066663543940435",
       "comparison": {
         "dimension": 49,
         "name": "Leech--Sloane P48q x classical 1D lattice",
@@ -14756,8 +14857,8 @@
         "kind": "derived_product"
       },
       "previous_center_density": "8417.05609801411628723144531250000000000000000",
-      "ratio_to_comparison": "1.54919333848296675407170615991295984433316868",
-      "ratio_to_previous": "1.54919333848296675407170615991295984433316868",
+      "ratio_to_comparison": "1.73205080756887729352744634150587236694280525",
+      "ratio_to_previous": "1.73205080756887729352744634150587236694280525",
       "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
@@ -14765,35 +14866,12 @@
       "dimension": 50,
       "best_checked": {
         "dimension": 50,
-        "name": "P48 compatible half-cosets, rank 2",
-        "density_squared": "239299329230617529590083/1759218604441600",
-        "evidence": "research/range48_96_20261115/P48_PROOF.md",
-        "kind": "new_counting_proof_and_explicit_lattice",
-        "root_gram": [
-          [
-            2,
-            -1
-          ],
-          [
-            -1,
-            2
-          ]
-        ],
-        "vertical_gram": [
-          [
-            "5/2",
-            "-5/4"
-          ],
-          [
-            "-5/4",
-            "5/2"
-          ]
-        ],
-        "expectation_upper": "9913608956160/140737479966719",
-        "minimum_squared": 6,
-        "explicit_shifts": true
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "717897987691852588770249/4503599627370496",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
       },
-      "center_density": "11663.0150495343146441584217949653330835152348",
+      "center_density": "12625.5841470211744308471679687500000000000000",
       "comparison": {
         "dimension": 50,
         "name": "Leech--Sloane P48q x classical 2D lattice",
@@ -14810,8 +14888,8 @@
         "kind": "derived_product"
       },
       "previous_center_density": "4859.58960397263110173267574790222211813134785",
-      "ratio_to_comparison": "2.4",
-      "ratio_to_previous": "2.4",
+      "ratio_to_comparison": "2.59807621135331594029116951225880855041420788",
+      "ratio_to_previous": "2.59807621135331594029116951225880855041420788",
       "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
@@ -14819,49 +14897,12 @@
       "dimension": 51,
       "best_checked": {
         "dimension": 51,
-        "name": "P48 compatible half-cosets, rank 3",
-        "density_squared": "2153693963075557766310747/17592186044416000",
-        "evidence": "research/range48_96_20261115/P48_PROOF.md",
-        "kind": "new_counting_proof_and_explicit_lattice",
-        "root_gram": [
-          [
-            2,
-            -1,
-            0
-          ],
-          [
-            -1,
-            2,
-            -1
-          ],
-          [
-            0,
-            -1,
-            2
-          ]
-        ],
-        "vertical_gram": [
-          [
-            "5/2",
-            "-5/4",
-            "0"
-          ],
-          [
-            "-5/4",
-            "5/2",
-            "-5/4"
-          ],
-          [
-            "0",
-            "-5/4",
-            "5/2"
-          ]
-        ],
-        "expectation_upper": "19846721578320/140737479966719",
-        "minimum_squared": 6,
-        "explicit_shifts": true
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "2153693963075557766310747/15481123719086080",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
       },
-      "center_density": "11064.5075824049901857299970838013023839427965",
+      "center_density": "11794.8047134541362812400211902375099295354575",
       "comparison": {
         "dimension": 51,
         "name": "Leech--Sloane P48q x classical 3D lattice",
@@ -14878,8 +14919,8 @@
         "kind": "derived_product"
       },
       "previous_center_density": "2975.87872226668161912573144486985557806036433",
-      "ratio_to_comparison": "3.71806401235912020977209478379110362639960484",
-      "ratio_to_previous": "3.71806401235912020977209478379110362639960484",
+      "ratio_to_comparison": "3.96346955445489818018949749635836266076401782",
+      "ratio_to_previous": "3.96346955445489818018949749635836266076401782",
       "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
@@ -14887,67 +14928,12 @@
       "dimension": 52,
       "best_checked": {
         "dimension": 52,
-        "name": "P48 compatible half-cosets, rank 4",
-        "density_squared": "6461081889226673298932241/43980465111040000",
-        "evidence": "research/range48_96_20261115/P48_PROOF.md",
-        "kind": "new_counting_proof_and_explicit_lattice",
-        "root_gram": [
-          [
-            2,
-            -1,
-            0,
-            0
-          ],
-          [
-            -1,
-            2,
-            -1,
-            -1
-          ],
-          [
-            0,
-            -1,
-            2,
-            0
-          ],
-          [
-            0,
-            -1,
-            0,
-            2
-          ]
-        ],
-        "vertical_gram": [
-          [
-            "5/2",
-            "-5/4",
-            "0",
-            "0"
-          ],
-          [
-            "-5/4",
-            "5/2",
-            "-5/4",
-            "-5/4"
-          ],
-          [
-            "0",
-            "-5/4",
-            "5/2",
-            "0"
-          ],
-          [
-            "0",
-            "-5/4",
-            "0",
-            "5/2"
-          ]
-        ],
-        "expectation_upper": "39712946822640/140737479966719",
-        "minimum_squared": 6,
-        "explicit_shifts": true
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "2153693963075557766310747/14073748835532800",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
       },
-      "center_density": "12120.5607811403274536132812500000000000000000",
+      "center_density": "12370.4955459097070424186595006990650099433142",
       "comparison": {
         "dimension": 52,
         "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 52D",
@@ -14964,8 +14950,8 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "5237.55238637285612782613400555899486319009545",
-      "ratio_to_comparison": "2.31416506929377695521266457668938656047454453",
-      "ratio_to_previous": "2.31416506929377695521266457668938656047454453",
+      "ratio_to_comparison": "2.36188483347592884754729235938309514642210663",
+      "ratio_to_previous": "2.36188483347592884754729235938309514642210663",
       "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
@@ -14973,12 +14959,12 @@
       "dimension": 53,
       "best_checked": {
         "dimension": 53,
-        "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 53D",
-        "density_squared": "307399975",
-        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
-        "kind": "derived_classical_section"
+        "name": "Leterrier54, Corollary 1.4 (2022) / Rogers section to 53D",
+        "density_squared": "310628702",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
       },
-      "center_density": "17532.8256422061073321417314465197206001900236",
+      "center_density": "17624.6617556195954361626301036347588097028119",
       "comparison": {
         "dimension": 53,
         "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 53D",
@@ -14995,9 +14981,9 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "17532.8256422061073321417314465197206001900236",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.00523795281420095260310120321408691182517176",
+      "ratio_to_previous": "1.00523795281420095260310120321408691182517176",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
@@ -15035,12 +15021,12 @@
       "dimension": 55,
       "best_checked": {
         "dimension": 55,
-        "name": "Shioda MW56 / Blichfeldt section to 55D",
-        "density_squared": "3068134994",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Shioda MW56 / Rogers section to 55D",
+        "density_squared": "3101854500",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
       },
-      "center_density": "55390.7482708078245004303082289495177002058288",
+      "center_density": "55694.2950399769401731527821152252955810935805",
       "comparison": {
         "dimension": 55,
         "name": "Shioda MW56 / Blichfeldt section to 55D",
@@ -15057,9 +15043,9 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "55390.7482708078245004303082289495177002058288",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.00548009872849274499798737720168056162533176",
+      "ratio_to_previous": "1.00548009872849274499798737720168056162533176",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
@@ -15097,12 +15083,12 @@
       "dimension": 57,
       "best_checked": {
         "dimension": 57,
-        "name": "56D torus offsets, 1D lattice modulo 2",
-        "density_squared": "867361737988403547205962240695953369140625/37687234330418480150219673567232",
-        "evidence": "research/novel_routes_20261113/audits/propagated_benchmarks.json",
-        "kind": "prior_repository_derived_control"
+        "name": "Shioda MW56 CFR torus + 1D mod2",
+        "density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "151706.083319628368430079470505030468836004795",
+      "center_density": "163056.783695743040088004936954066498391848953",
       "comparison": {
         "dimension": 57,
         "name": "Shioda MW56 x classical 1D lattice",
@@ -15119,9 +15105,9 @@
         "kind": "prior_repository_derived_control"
       },
       "previous_center_density": "151706.083319628368430079470505030468836004795",
-      "ratio_to_comparison": "1.54633911113659010532789694057218689076594842",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.66203672553876724573216089179709299667072235",
+      "ratio_to_previous": "1.07482033764064667869948172662399699951211902",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
@@ -15841,25 +15827,12 @@
       "dimension": 81,
       "best_checked": {
         "dimension": 81,
-        "name": "Shioda MW80 torus + 1D mod2",
-        "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/637966476629661950973520999743252446585984909312",
-        "evidence": "research/range48_96_20261115/README.md",
-        "kind": "new_torus_calculation",
-        "parent_dimension": 80,
-        "parent_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
-        "colors": 2,
-        "vertical_root_gram": [
-          [
-            2
-          ]
-        ],
-        "same_color_ratio": "4",
-        "torus_squared_separation": "625793/250000",
-        "vertical_squared_minimum": "374207/250000",
-        "strict_volume_inequality_checked": true,
-        "explicit_shifts": false
+        "name": "Shioda MW80 CFR torus + 1D mod2",
+        "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "996397626643.824543993892668418181615562932424",
+      "center_density": "1066248855605.29576715248127771133059981497022",
       "comparison": {
         "dimension": 81,
         "name": "Shioda MW80 x classical 1D lattice",
@@ -15876,8 +15849,8 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "983433096703.432764718609361058321330540487885",
-      "ratio_to_comparison": "1.63472252320954305741037669737377283316539439",
-      "ratio_to_previous": "1.01318293027136283624463854764781514011893752",
+      "ratio_to_comparison": "1.74932273320984400137219504763394898893761784",
+      "ratio_to_previous": "1.08421087227943599299711035412934474433316489",
       "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
@@ -15885,12 +15858,12 @@
       "dimension": 82,
       "best_checked": {
         "dimension": 82,
-        "name": "L80 compatible half-cosets, rank 2",
-        "density_squared": "77371252455336267181195264/75",
-        "evidence": "research/cross_dimension_lower_20261115/counting80_results.json",
-        "kind": "prior_repository_result"
+        "name": "Shioda MW80 CFR torus + 2D small_period",
+        "density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "1015685334837.75552759635620047019611586143028",
+      "center_density": "1040071302182.49546346416409301843594066269687",
       "comparison": {
         "dimension": 82,
         "name": "Shioda MW80 x classical 2D lattice",
@@ -15907,9 +15880,9 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "1015685334837.75552759635620047019611586143028",
-      "ratio_to_comparison": "2.88623155959999917288487984223061821715136444",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "2.95552816766120189508466110436265512828470012",
+      "ratio_to_previous": "1.02400937230095512190251227330843732177321126",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
@@ -16102,12 +16075,12 @@
       "dimension": 89,
       "best_checked": {
         "dimension": 89,
-        "name": "Shioda MW92 / Blichfeldt section to 89D",
-        "density_squared": "5007452921343898975205116906",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Shioda MW92 / Rogers section to 89D",
+        "density_squared": "5104602996031595472989331014",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
       },
-      "center_density": "70763358607007.1929510989614966217066115619203",
+      "center_density": "71446504435357.7558074286984869076544066793683",
       "comparison": {
         "dimension": 89,
         "name": "Shioda MW92 / Blichfeldt section to 89D",
@@ -16124,21 +16097,21 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "70763358607007.1929510989614966217066115619203",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.00965394862254200262890841843902023945225348",
+      "ratio_to_previous": "1.00965394862254200262890841843902023945225348",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
       "dimension": 90,
       "best_checked": {
         "dimension": 90,
-        "name": "Shioda MW92 / Blichfeldt section to 90D",
-        "density_squared": "128864714012559596127904470650",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Shioda MW92 / Rogers section to 90D",
+        "density_squared": "130525452541473631443444339977",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
       },
-      "center_density": "358977316849629.923978307118061209287198415722",
+      "center_density": "361283064288202.736456508133849280736597670247",
       "comparison": {
         "dimension": 90,
         "name": "Shioda MW92 / Blichfeldt section to 90D",
@@ -16155,21 +16128,21 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "358977316849629.923978307118061209287198415722",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.00642310065384620001440050358589344871709200",
+      "ratio_to_previous": "1.00642310065384620001440050358589344871709200",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
       "dimension": 91,
       "best_checked": {
         "dimension": 91,
-        "name": "Shioda MW92 / Blichfeldt section to 91D",
-        "density_squared": "3443664483164131858634061128122",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Shioda MW92 / Rogers section to 91D",
+        "density_squared": "3465777275373358982931076036994",
+        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
+        "kind": "new_derived_section_control"
       },
-      "center_density": "1855711314607994.69325873916105552495363699419",
+      "center_density": "1861659817306416.21079722352484838304842421969",
       "comparison": {
         "dimension": 91,
         "name": "Shioda MW92 / Blichfeldt section to 91D",
@@ -16186,9 +16159,9 @@
         "kind": "derived_classical_section"
       },
       "previous_center_density": "1855711314607994.69325873916105552495363699419",
-      "ratio_to_comparison": "1",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.00320551082034982083992844866508642479981334",
+      "ratio_to_previous": "1.00320551082034982083992844866508642479981334",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
@@ -16226,12 +16199,12 @@
       "dimension": 93,
       "best_checked": {
         "dimension": 93,
-        "name": "MW92 periodic layers, 2 colors",
-        "density_squared": "49039857307708443467467104868809893875799651909875269632000000/732436975133478539644794093743",
-        "evidence": "research/priority_resolution_20261115/torus93_96_results.json",
-        "kind": "prior_repository_result"
+        "name": "Shioda MW92 CFR torus + 1D mod2",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "8182565090782445.53253529400869797137542285452",
+      "center_density": "8742047493270431.84886589670224664479868850012",
       "comparison": {
         "dimension": 93,
         "name": "Shioda MW92 x classical 1D lattice",
@@ -16248,21 +16221,21 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "8182565090782445.53253529400869797137542285452",
-      "ratio_to_comparison": "1.67434468880934367242756506492806788047877727",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "1.78882790754270965800811766482796724839196235",
+      "ratio_to_previous": "1.06837494065500756676262824246367936357189436",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
       "dimension": 94,
       "best_checked": {
         "dimension": 94,
-        "name": "MW92 periodic layers, 3 colors",
-        "density_squared": "392318858461667547739736838950479151006397215279002157056000000000000/6613147500553338870788045699702774283",
-        "evidence": "research/priority_resolution_20261115/torus93_96_results.json",
-        "kind": "prior_repository_result"
+        "name": "Shioda MW92 CFR torus + 2D mod2",
+        "density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "7702212346014765.11438951997626655458655512678",
+      "center_density": "8583004659539083.58892615849980776871899776102",
       "comparison": {
         "dimension": 94,
         "name": "Shioda MW92 x classical 2D lattice",
@@ -16279,21 +16252,21 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "7702212346014765.11438951997626655458655512678",
-      "ratio_to_comparison": "2.72980431056574170659858534716115706850409795",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "3.04197314546107186965753466328399252891395475",
+      "ratio_to_previous": "1.11435575571738852689408457902133639964226396",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
       "dimension": 95,
       "best_checked": {
         "dimension": 95,
-        "name": "MW92 periodic layers, 6 colors",
-        "density_squared": "392318858461667547739736838950479151006397215279002157056000000000000000000/7144187734930282631534930449964281196307233",
-        "evidence": "research/priority_resolution_20261115/torus93_96_results.json",
-        "kind": "prior_repository_result"
+        "name": "Shioda MW92 CFR torus + 3D small_period",
+        "density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "7410425802173365.31402116874983669944837766626",
+      "center_density": "8865551293806627.80006412225868847941573260110",
       "comparison": {
         "dimension": 95,
         "name": "Shioda MW92 x classical 3D lattice",
@@ -16310,21 +16283,21 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "7410425802173365.31402116874983669944837766626",
-      "ratio_to_comparison": "4.28887665900998636426968565251079204815166208",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "5.13104874514921780724231999613246316610254423",
+      "ratio_to_previous": "1.19636192716570973351445593144265138198649329",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     },
     {
       "dimension": 96,
       "best_checked": {
         "dimension": 96,
-        "name": "MW92 periodic layers, 9 colors",
-        "density_squared": "25108406941546723055343157692830665664409421777856138051584000000000000000000000000/370099523496249293343632618811965850830221752447249",
-        "evidence": "research/priority_resolution_20261115/torus93_96_results.json",
-        "kind": "prior_repository_result"
+        "name": "Shioda MW92 CFR torus + 4D small_period",
+        "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
       },
-      "center_density": "8236644396376130.30919582238655429466603584677",
+      "center_density": "10391088344672478.9385510214287436078461862063",
       "comparison": {
         "dimension": 96,
         "name": "BCS96, Table 1 (1982)",
@@ -16341,9 +16314,9 @@
         "kind": "prior_repository_result"
       },
       "previous_center_density": "8236644396376130.30919582238655429466603584677",
-      "ratio_to_comparison": "1.73240722317300100859205590101328297892810120",
-      "ratio_to_previous": "1",
-      "improves_previous_checked_envelope": false,
+      "ratio_to_comparison": "2.18554979900061395400293662751233274358190880",
+      "ratio_to_previous": "1.26156816351622968805123781879987518723669920",
+      "improves_previous_checked_envelope": true,
       "world_record_established": false
     }
   ],

@@ -1,5 +1,9 @@
 # Compatible half-cosets above a classical 48D extremal lattice
 
+**Earlier checkpoint:** the [subsequent deeper-coset proof](../covering_and_deep_cosets_20261115/DEEPER_PROOF.md)
+gives stronger explicit 49D–52D lattices. The counting proof and
+certificates below remain valid for their original, weaker bounds.
+
 This extends the repo's existing binary quadratic-space counting method
 to a different parent and dimensions **49–54**. It gives useful bounds in
 49–52D; the 53D/54D variants are below the stronger classical comparisons

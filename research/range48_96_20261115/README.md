@@ -5,18 +5,23 @@ This continuation checks **all 49 dimensions**, rather than only the
 or construction of every comparison. All values are **center densities**;
 multiply by `pi^(n/2)/Gamma(1+n/2)` for occupied fractions.
 
+The table now includes the [subsequent deeper-coset and covering pass](../covering_and_deep_cosets_20261115/).
+Its exact verifiers are separate from this aggregation script.
+
 New positive work in the other dimensions:
 
-* **49–52D:** [compatible half-cosets above P48](P48_PROOF.md) give
-  **explicit minimum-6 lattices**, supported by both a counting proof
-  and complete enumeration of fifteen compatible half-cosets, with densities
-  **13,039.647237; 11,663.015050; 11,064.507582; 12,120.560781**.
+* **49–52D:** [deeper compatible half-cosets above P48](../covering_and_deep_cosets_20261115/DEEPER_PROOF.md)
+  now give **explicit minimum-6 lattices** with densities
+  **14,578.768812; 12,625.584147; 11,794.804713; 12,370.495546**.
+  These supersede the earlier explicit root-metric constructions
+  and are checked by full coset enumerations and fitted vertical metrics.
   The same counting calculation in 53D/54D is weaker than known
   constructions, so those variants are not improvements.
-* **81D:** two-color torus layers above **Shioda's MW80**, a stronger
-  parent than L80, give **996,397,626,643.8245…**. This improves our
-  previous counting bound by **1.318293%**. That percentage is an
-  internal progress measure, not an external SOTA gain.
+* **81D:** the covering-based two-color extension above **Shioda's MW80**
+  now gives **1,066,248,855,605.2958…**, superseding the earlier
+  996,397,626,643.8245… torus checkpoint. The same covering argument
+  improves 57D, 82D and 93–96D. These are new calculations from named
+  classical inputs, not published numerical records attributed to them.
 * **54D literature correction:** Leterrier's 2022 Corollary 1.4 supplies
   the proved guarantee `sqrt(3)*5^27/(2^27*3^13)` =
   **60,306.5591597049…**, matching Elkies's older MW54 guarantee.
@@ -36,8 +41,8 @@ retain their more specific candidate status and source attribution.
 | --- | --- |
 | **48** | Classical P48 minimum-6 lattices; no improvement found |
 | **49–52** | New explicit P48 compatible-coset lattices, with full coset enumerations; seek deeper compatible shifts and further external comparisons |
-| **53–56** | Leterrier54, its 53D section, MW56 and its 55D section beat the new variants |
-| **57–58** | Existing MW56 torus extension and Gamma72/Leech-block section remain strongest in this checked family |
+| **53–56** | Leterrier54 and MW56 remain the parents; sharper Rogers estimates now improve their conservative 53D/55D section controls |
+| **57–58** | New covering-based MW56 torus extension in 57D; the Gamma72/Leech-block section remains stronger in 58D |
 | **59–62** | Retain existing Ne64 antipodes; their comparisons have the scope recorded in the source audit |
 | **63** | Our Ne64 antipode is below Elkies's historical guarantee; do not claim an improvement |
 | **64** | Nebe's Ne64, center density `3^16`; no improvement found |
@@ -48,11 +53,12 @@ retain their more specific candidate status and source attribution.
 | **78–79** | Existing L80 antipodes remain strongest; comparisons now include actual bare sections and MW80 section controls |
 | **80** | Use the stronger published **MW80**, not L80, as the density input |
 | **81** | New MW80 two-color torus bound exceeds our previous counting bound |
-| **82–85** | Existing L80 counting proofs remain strongest in this scan |
+| **82** | New covering-based three-color MW80 extension exceeds the L80 counting checkpoint |
+| **83–85** | Existing L80 counting proofs remain strongest in this scan |
 | **86–88** | Classical BCS88 and its sections; our 86D/87D candidates are weaker |
-| **89–91** | MW92 sections supply the stronger controls; the tested torus extensions from BCS88 do not beat them |
+| **89–91** | Sharper Rogers-based MW92 section controls; tested torus extensions from BCS88 do not beat them |
 | **92** | Classical MW92, center density `2^92/47^7`; no improvement found |
-| **93–96** | Retain the preceding periodic torus proofs; 96D exceeds the explicitly reported BCS96 construction |
+| **93–96** | Stronger covering-based torus proofs; 96D exceeds the explicitly reported BCS96 construction by 118.554980% |
 
 ## What the complete table actually compares
 

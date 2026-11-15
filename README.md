@@ -48,7 +48,7 @@ this table are occupied-volume fractions.
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
 | 84 | ≈2.970203932666e-19 (**derived**) | Section of BCS88 perpendicular to √2 D4 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈7.603722067624e-19 | **156%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
 | 85 | ≈1.610346851551e-19 (**derived**) | Section of BCS88 perpendicular to √2 A3 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈2.128843618193e-19 | **32.197832%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
-| 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈4.842118544896e-22 | **73.240722%** | [Nine-color periodic layers above Shioda's MW92; existence proof and exact inequalities](research/priority_resolution_20261115/TORUS_PROOF.md) |
+| 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈6.108662600212e-22 | **118.554980%** | [Coxeter–Few–Rogers covering bound + nine-color periodic layers above Shioda's MW92; existence proof and exact inequalities](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
 
 The 84D/85D rows now use stronger classical comparisons than Chen's 2013
 guarantees. The 96D comparator is an explicitly reported published
@@ -75,6 +75,14 @@ These extend the checked lower bounds; previous worldwide records in
 those dimensions have not been identified. The audit also includes
 Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
+
+The [latest deeper-coset and covering calculations](research/covering_and_deep_cosets_20261115/)
+strengthen all five of those 49D–52D/81D values and also improve
+57D, 82D and 93D–96D. The four explicit minimum-6 lattices now have
+center densities **14,578.768812; 12,625.584147; 11,794.804713;
+12,370.495546**. The 96D gain in the table uses this stronger proof.
+[Exact priority verdicts](research/covering_and_deep_cosets_20261115/PRIORITY.md)
+separate the superseded values from the replacements and their source scope.
 
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 

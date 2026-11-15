@@ -1,10 +1,15 @@
 # Resolved comparisons and further lower bounds, 15 November 2026
 
+**Current update:** the [covering-based extension](../covering_and_deep_cosets_20261115/)
+raises the 96D density to **1.039108834467248e16**, or **118.554980%**
+above BCS1982. The original 96D figures below are a superseded checkpoint;
+their proof and source reconstruction remain available.
+
 The subsequent [complete 48D–96D audit](../range48_96_20261115/)
 adds explicit 49D–52D lattices, a stronger 81D bound and a sourced table
 for every dimension. The 84D/85D/96D comparisons below are retained.
 
-**New 96D result:** a periodic packing exists with center density
+**Original 96D checkpoint:** a periodic packing exists with center density
 **8,236,644,396,376,130.309…**, **73.240722% above** the published
 Bos–Conway–Sloane 96D construction. This is an existence proof with nine
 cosets; explicit horizontal offsets have not been found.
@@ -29,7 +34,7 @@ All numbers below are **center densities**. Multiply by
 | 93 | MW92 × A1: 4.887025440742e15, **derived product** | **8.182565090782e15** | New periodic existence bound; no reported dimension-specific record identified |
 | 94 | MW92 × A2: 2.821525453749e15, **derived product** | **7.702212346015e15** | Same limited comparison scope |
 | 95 | MW92 × A3: 1.727824414490e15, **derived product** | **7.410425802173e15** | Same limited comparison scope |
-| 96 | **BCS1982: `3^48/2^24 = 4,754,450,504,593,402.735…`, reported construction** | **8,236,644,396,376,130.309…** | **+73.240722%**; record candidate against the strongest published numerical benchmark located |
+| 96 | **BCS1982: `3^48/2^24 = 4,754,450,504,593,402.735…`, reported construction** | **8,236,644,396,376,130.309…** | Historical **+73.240722%** checkpoint, superseded by the covering-based bound linked above |
 
 “Record candidate” means the proof establishes the displayed external
 improvement and the literature search located no stronger comparison.

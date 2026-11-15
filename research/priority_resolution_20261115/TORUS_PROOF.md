@@ -1,5 +1,9 @@
 # Periodic 93–96D packings above the classical MW92 lattice
 
+**Earlier checkpoint:** the [subsequent covering bound](../covering_and_deep_cosets_20261115/COVERING_PROOF.md)
+gives stronger densities in all four dimensions. This page retains the
+original valid, weaker proof and its 73.240722% BCS96 comparison.
+
 Let Λ be Shioda's published rank-92 lattice with squared minimum 16 and
 covolume `v=47^7`. Its center density is `delta92=2^92/47^7`.
 This parent theorem is inherited from Schütt–Shioda, Theorem 13.35 at

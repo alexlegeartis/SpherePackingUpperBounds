@@ -1,6 +1,6 @@
 # Worldwide-status check: 15 November 2026
 
-The [continued primary-source investigation](../priority_resolution_20261115/)
+The [continued primary-source investigation and stronger covering proof](../covering_and_deep_cosets_20261115/)
 now gives specific verdicts instead of one blanket priority label:
 
 * **84D/85D:** the stronger comparison is a section of the classical
@@ -16,7 +16,7 @@ now gives specific verdicts instead of one blanket priority label:
   no reported dimension-specific record has been identified.
 * **96D:** the full BCS1982 paper explicitly reports the construction
   of exact center density `3^48/2^24`. Our new proof exceeds it by
-  **73.240722%**, a record candidate against the strongest published
+  **118.554980%**, a record candidate against the strongest published
   numerical benchmark located.
 
 See the [current table through 96D](TO96.md). The research ceiling is 96D.
@@ -111,7 +111,7 @@ of global priority.
 | **84–85** | Exact gains of 156% and 32.197832% over stronger classical BCS88 sections | **Record candidates against the strongest comparisons located** |
 | **86–87** | Classical BCS88 sections exceed our results | **Our record candidates rejected** |
 | **93–95** | New periodic existence bounds exceed derived MW92 products | Reported dimension-specific record not identified |
-| **96** | Exact gain of 73.240722% over the explicitly reported BCS96 construction | **Record candidate against the strongest published numerical benchmark located** |
+| **96** | Exact gain of 118.554980% over the explicitly reported BCS96 construction | **Record candidate against the strongest published numerical benchmark located** |
 
 The earlier 59D construction retains its separate
 [source investigation](../../constructions/dim59/#literature-derived-comparison):

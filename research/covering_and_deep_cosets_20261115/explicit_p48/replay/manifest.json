@@ -1,0 +1,39 @@
+{
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "cutoffs": [
+    10,
+    12
+  ],
+  "certificate_sha256": "1adc008412c9ebc3f1101feb780273be51131da6a4e6abd06d2aeff212f7bba0",
+  "enumerator_source_sha256": "4a9d0e74184ac2767b8448c75eaf5462467de98e575af1ae2f330acb1dca3d87",
+  "input_sha256": {
+    "ldl.txt": "0f54a756bef8723a94efcb0d79a2c13afd9f580096fa62efe43c87143690074d",
+    "gram.txt": "0a214fca33591328f2a52387a3933707dee1fd52476925045f376653bf141e71",
+    "negative_control.txt": "248dde05468f5cd5e1c8442112939028e9c5da4cb7a6958afe8b8cc746570fd6",
+    "coset_1.txt": "314af4067f36b7f4727b7a0c633935a764a81a13a49c057230d2ef7d8f86784e",
+    "coset_2.txt": "4e7cb11f878c2c87572fc5eec9b80604536d0f929379c3c26169b57a54b564e9",
+    "coset_3.txt": "a3b857ea2249645f1791b1d1739bb27b7ae952d4b40454e4a1f5c5ba4eed6126",
+    "coset_4.txt": "10eadc60829d89f7fbc0b0dd780f47a3b48b052823d25074bdc1fac194d2a39c",
+    "coset_5.txt": "73cb882ce1bf458615a3db8d7505bbbf06e88a85cd930d1e8610bf0488c0cf6a",
+    "coset_6.txt": "3eb92eab3878d7ef46882305640148fd659c1d8df3c43341a36ad2387b469b02",
+    "coset_7.txt": "b0b409358ce1e2d82e5ff35b7bb4826c8107c1bcd490a19d6a11b66313803259",
+    "coset_8.txt": "dc9b6c8c9f3d7a3c66654d05a6526ca225ba0c705558f3f3c4ca6edbda4843f7",
+    "coset_9.txt": "7fd1e7d0a6b79946695807361a3240c0db5025dffefb8345bc1b160b2c5c9c3d",
+    "coset_10.txt": "a5005be37e39ac788d9cb6870628a35730bce155d10bb2c49c94154b85e12aba",
+    "coset_11.txt": "d5e4da2681dda22727c2b4f201c4bf7a166452b85706f0c7c9c0c963855df0f0",
+    "coset_12.txt": "032653f331b7d20bdefecb4ee3c0f9b51d5cce32708f6337e3834baf33c8551a",
+    "coset_13.txt": "8c2d40e70834ad7afaff6d8d112280872b189667408110be81768b5f4ad9a2ad",
+    "coset_14.txt": "e622e84c296c0cfbcf4ad60c5bc8e56db5cf03ad63e5efff5074b24b2e6179ef",
+    "coset_15.txt": "53cdad18c48495c08bb1d8fa7631c67da245be8ab96ce3369b33ffe8de9e0961"
+  },
+  "binary_sha256": {
+    "10": "29fd9fcd709fe1bbff93a8b709a3060de9e632a27a2776152bad4a41f334760d",
+    "12": "e3d43090c15702f633053cc27e23b095398789377aae763f102c9a3069484202"
+  }
+}
