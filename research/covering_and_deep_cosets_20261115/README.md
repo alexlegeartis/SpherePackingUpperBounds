@@ -1,5 +1,7 @@
 # Stronger bounds from covering geometry and deeper compatible cosets
 
+**Current continuation:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds, including50D–53D,77D and85D by9.99–18.53%. The checkpoint numbers below are superseded where indicated; the [current comparison table](PRIORITY.md) uses the new results.
+
 **All five numbers from the previous update are now superseded.** The
 earlier 49–52D and 81D values should not be presented as current records:
 the verified constructions below are strictly stronger. The additional
@@ -39,13 +41,13 @@ of published parents, not new explicit normals or reported records.
 [Derivation and all five values](SECTIONS_PROOF.md) · [exact audit](verify_sections.py).
 
 The [remaining-dimensions review](REMAINING_DIMENSIONS.md) extends the
-best-known claims to 32 construction dimensions and corrects the 55D
+best-known claims to33 construction dimensions and corrects the 55D
 literature entry to Leterrier2024's **116,783.149646…**, above our old
-55D control. Four section estimates remain classical derived controls.
+55D control. The explicit53D lattice now replaces that section estimate;89D–91D remain classical derived controls.
 
 ## What the priority investigation confirms
 
-**The bounds in 49D–52D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are best-known
+**The bounds in 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are best-known
 lower bounds in our literature review dated 15 November 2026.** No
 stronger published lower bound was located. [Sources and comparison table](PRIORITY.md)
 identify the work and theorem behind each numerical comparison.

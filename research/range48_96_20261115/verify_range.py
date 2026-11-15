@@ -315,6 +315,11 @@ def audit():
     assert sections['all_density_and_root_inequalities_exact']
     for a in sections['improved_controls']:
         additional.append(row(a['dimension'],a['name'],a['density_squared'],path,'new_derived_section_control'))
+    path='research/adaptive_layers_20261115/results.json'
+    adaptive=read(path)
+    assert adaptive['all_four_exact_audits_passed'] and adaptive['maximum_parent_or_target_dimension']==96
+    for a in adaptive['rows']:
+        additional.append(row(a['dimension'],a['name'],a['density_squared'],path,a['kind']))
     new = close_products(list(previous.values())+counting['rows']+torus+additional)
     assert set(new) == set(previous) == set(external) == set(range(48, 97))
     results = []

@@ -1,14 +1,16 @@
 # Worldwide-status check: 15 November 2026
 
+**Current values:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds;77D and85D increase by15.47% and9.99%. The current external85D gain is45.398230% over the classical BCS section. Older numerical tables below retain their checkpoint comparisons.
+
 **84D, 85D and 96D are best-known lower bounds in our literature review
 dated 15 November 2026.** No stronger published bound was located.
 The [current review](../covering_and_deep_cosets_20261115/PRIORITY.md)
-registers 32 construction dimensions and gives each source and exact gain.
+registers33 construction dimensions and gives each source and exact gain.
 [All remaining dimensions and the 55D literature correction](../covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md).
 
 * **84D/85D:** classical BCS88 sections give stronger comparisons than
   Chen's guarantees. Our gains over those sections are **156%** and
-  **32.197832%**.
+  **45.398230%**.
 * **86D/87D:** classical BCS88 sections exceed our candidates, which
   remain rejected.
 * **88D:** the recent source computation has been reproduced and bound
@@ -16,7 +18,7 @@ registers 32 construction dimensions and gives each source and exact gain.
 * **93–95D:** new periodic existence proofs improve the derived MW92
   products named in the complete table.
 * **96D:** our current bound exceeds the explicitly reported BCS1982
-  construction `3^48/2^24` by **118.554980%**.
+  construction `3^48/2^24` by **118.640977%**.
 
 We compare **proved lower bounds**, including theorem guarantees. An older
 packing's unknown actual minimum and a previous-record table are not
@@ -24,7 +26,7 @@ prerequisites for an improvement claim. The numerical percentages below
 remain valid historical comparisons with Chen; the stronger BCS sections
 are used for the headline gains. The research ceiling remains 96D.
 
-## Direct published comparison in 84D and 85D
+## Historical checkpoint: direct published comparison in 84D and 85D
 
 Hao Chen, [*On a generalization of Craig lattices*](https://doi.org/10.5802/jtnb.825),
 Journal de Théorie des Nombres de Bordeaux **25** (2013), 59–70,
@@ -109,10 +111,10 @@ not a missing table entry.
 | 78–79 | Explicit L80 antipode certificates; derived-product and section comparisons | **Best-known; literature checked 15 November 2026** |
 | **81** | Stronger MW80 covering proof | **Best-known; literature checked 15 November 2026** |
 | 82–83 | Exact existence proofs; named derived-product comparisons | **Best-known; literature checked 15 November 2026** |
-| **84–85** | Exact gains of 156% and 32.197832% over classical BCS88 sections | **Best-known; literature checked 15 November 2026** |
+| **84–85** | Exact gains of 156% and45.398230% over classical BCS88 sections | **Best-known; literature checked 15 November 2026** |
 | **86–87** | Classical BCS88 sections exceed our results | **Our candidates rejected** |
 | 93–95 | Stronger periodic existence proofs exceed derived MW92 products | **Best-known; literature checked 15 November 2026** |
-| **96** | Exact gain of 118.554980% over the reported BCS96 construction | **Best-known; literature checked 15 November 2026** |
+| **96** | Exact gain of 118.640977% over the reported BCS96 construction | **Best-known; literature checked 15 November 2026** |
 
 The [59D source investigation](../../constructions/dim59/#literature-derived-comparison)
 likewise locates no stronger published lower bound; our result exceeds both

@@ -1,0 +1,301 @@
+{
+  "method": "Coxeter-Few-Rogers simplex bound; global cubic Taylor lower polynomial for (1+s)^(-n/2)",
+  "moments_and_corrections": {
+    "48": {
+      "mean": "2/49",
+      "second_moment": "106/62475",
+      "third_moment": "3098/43045275",
+      "variance": "94/3061275",
+      "third_central_moment": "21902/103351705275",
+      "correction_factor": "361429421/358555653"
+    },
+    "54": {
+      "mean": "2/55",
+      "second_moment": "59/43890",
+      "third_moment": "20/395241",
+      "variance": "53/2413950",
+      "third_central_moment": "13939/113582382375",
+      "correction_factor": "69707290/69200451"
+    },
+    "56": {
+      "mean": "2/57",
+      "second_moment": "122/97527",
+      "third_moment": "90/1983049",
+      "variance": "110/5559039",
+      "third_central_moment": "2002/19328778603",
+      "correction_factor": "744421201/739159021"
+    },
+    "64": {
+      "mean": "2/65",
+      "second_moment": "46/47905",
+      "third_moment": "114/3746171",
+      "variance": "42/3113825",
+      "third_central_moment": "4382/79137862375",
+      "correction_factor": "466442215/463475783"
+    },
+    "72": {
+      "mean": "2/73",
+      "second_moment": "154/202575",
+      "third_moment": "6338/296367225",
+      "variance": "142/14787975",
+      "third_central_moment": "50126/1579340942025",
+      "correction_factor": "816829171/812109375"
+    },
+    "80": {
+      "mean": "2/81",
+      "second_moment": "170/275643",
+      "third_moment": "2558/164007585",
+      "variance": "158/22327083",
+      "third_central_moment": "20698/1076053765185",
+      "correction_factor": "811084633/806791457"
+    },
+    "88": {
+      "mean": "2/89",
+      "second_moment": "62/121485",
+      "third_moment": "3046/259856415",
+      "variance": "58/10812165",
+      "third_central_moment": "25114/2058322663215",
+      "correction_factor": "6408762721/6377471373"
+    },
+    "92": {
+      "mean": "2/93",
+      "second_moment": "194/415245",
+      "third_moment": "29/2826580",
+      "variance": "182/38617785",
+      "third_central_moment": "13741/1393484153940",
+      "correction_factor": "7938020443/7900710625"
+    }
+  },
+  "candidate_count": 200,
+  "rows": [
+    {
+      "dimension": 57,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "2710505431213761085018632002174854278564453125/101900986587953672358138279412891648",
+      "center_density": "163093.234759651154344129770999552702352748387",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+      "ratio_squared": "724017000/723693403",
+      "gain_over_checkpoint_percent": "0.0223548282272820840638627170495081411996066089395560723523781500",
+      "gain_over_checkpoint_interval": [
+        "11177/500000",
+        "4471/200000"
+      ],
+      "parent_dimension": 56,
+      "colors": 2,
+      "covering_lower_bound": "377535978238780196534442176349972386957674927293923969728512/28352685958657408960515253389595362663106090351203971844541",
+      "torus_squared_depth": "1276306597/500000000",
+      "vertical_squared_minimum": "723693403/500000000",
+      "vertical_root_gram": [
+        [
+          2
+        ]
+      ],
+      "same_color_ratio": "4",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 81,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "79172296088172630531378644744173191017334418459007976066782137593751953125/69620512594693245636748678160327321048267519688704",
+      "center_density": "1066394783124.89141900190418875194788998309208",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+      "ratio_squared": "1307134000/1306776283",
+      "gain_over_checkpoint_percent": "0.0136860657649016347743938806543758496621759472553737038086600800",
+      "gain_over_checkpoint_interval": [
+        "6843/500000",
+        "13687/1000000"
+      ],
+      "parent_dimension": 80,
+      "colors": 2,
+      "covering_lower_bound": "873274284918972570545147784970136647606185492480000000000000000000000000000000000000000/46761128753395280031151612002606551829616759764705281548463545253168966229778922289857",
+      "torus_squared_depth": "2693223717/1000000000",
+      "vertical_squared_minimum": "1306776283/1000000000",
+      "vertical_root_gram": [
+        [
+          2
+        ]
+      ],
+      "same_color_ratio": "4",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 82,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "6185335631888486760263956620638530548229251442109998130217354499511871337890625/5714934664858416272284567663612103329623072090271776768",
+      "center_density": "1040341684972.14500221247074201189312048712796",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+      "ratio_squared": "73267229312640000/73229150239540201",
+      "gain_over_checkpoint_percent": "0.0259965628396980998969616112076097614412471674845550414018054400",
+      "gain_over_checkpoint_interval": [
+        "6499/250000",
+        "25997/1000000"
+      ],
+      "parent_dimension": 80,
+      "colors": 3,
+      "covering_lower_bound": "873274284918972570545147784970136647606185492480000000000000000000000000000000000000000/46761128753395280031151612002606551829616759764705281548463545253168966229778922289857",
+      "torus_squared_depth": "529391149/200000000",
+      "vertical_squared_minimum": "270608851/200000000",
+      "vertical_root_gram": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "same_color_ratio": "3",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 93,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "24519928653854221733733552434404946937899825954937634816000000000/320770831099612263828288266854801",
+      "center_density": "8743033982260848.87933690418734500848119738781",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+      "ratio_squared": "1250037000/1249754929",
+      "gain_over_checkpoint_percent": "0.0112844158210810788221465886157028585371152128593727199839227700",
+      "gain_over_checkpoint_interval": [
+        "2821/250000",
+        "2257/200000"
+      ],
+      "parent_dimension": 92,
+      "colors": 2,
+      "covering_lower_bound": "1593805126741267399251009526599394679400477998845833853989234623487842587252872563149201714141678534656/74636626018411929396065547722960039380823724325117463317410744947100198487532907165586948394775390625",
+      "torus_squared_depth": "2750245071/1000000000",
+      "vertical_squared_minimum": "1249754929/1000000000",
+      "vertical_root_gram": [
+        [
+          2
+        ]
+      ],
+      "same_color_ratio": "4",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 94,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "98079714615416886934934209737619787751599303819750539264000000000000000000/1330817552974333081280489336681742103008747",
+      "center_density": "8584803057662693.27270665659882807828636289499",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+      "ratio_squared": "1729056684096000000/1728332332803770521",
+      "gain_over_checkpoint_percent": "0.0209530134835818632569452972681033670243904689071982558381179200",
+      "gain_over_checkpoint_interval": [
+        "20953/1000000",
+        "10477/500000"
+      ],
+      "parent_dimension": 92,
+      "colors": 4,
+      "covering_lower_bound": "1593805126741267399251009526599394679400477998845833853989234623487842587252872563149201714141678534656/74636626018411929396065547722960039380823724325117463317410744947100198487532907165586948394775390625",
+      "torus_squared_depth": "2685339461/1000000000",
+      "vertical_squared_minimum": "1314660539/1000000000",
+      "vertical_root_gram": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "same_color_ratio": "4",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 95,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "49039857307708443467467104868809893875799651909875269632000000000000000000000000000/623554081925937316984610093923448880956123481836693",
+      "center_density": "8868241996705554.77050799812828188579210278844",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+      "ratio_squared": "2430903354947105472000000000/2429428463659181983952214197",
+      "gain_over_checkpoint_percent": "0.0303500911534589456611614678540774634744387632202139179589992300",
+      "gain_over_checkpoint_interval": [
+        "607/20000",
+        "30351/1000000"
+      ],
+      "parent_dimension": 92,
+      "colors": 6,
+      "covering_lower_bound": "1593805126741267399251009526599394679400477998845833853989234623487842587252872563149201714141678534656/74636626018411929396065547722960039380823724325117463317410744947100198487532907165586948394775390625",
+      "torus_squared_depth": "2655683987/1000000000",
+      "vertical_squared_minimum": "1344316013/1000000000",
+      "vertical_root_gram": [
+        [
+          2,
+          -1,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2
+        ]
+      ],
+      "same_color_ratio": "3",
+      "strict_covering_inequality_exact": true
+    },
+    {
+      "dimension": 96,
+      "name": "Cubic covering-simplex bound and colored layers",
+      "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000000000000000/56727733299915955263633765808106176759635050541998909180049",
+      "center_density": "10395177038683103.5312216058319339814822437080",
+      "kind": "new_periodic_existence_proof",
+      "previous_density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+      "ratio_squared": "33712975705526335201000000000000/33686460537405354664759489020561",
+      "gain_over_checkpoint_percent": "0.0393480824626120136016009345563165469882208068314574212021218400",
+      "gain_over_checkpoint_interval": [
+        "9837/250000",
+        "39349/1000000"
+      ],
+      "parent_dimension": 92,
+      "colors": 9,
+      "covering_lower_bound": "1593805126741267399251009526599394679400477998845833853989234623487842587252872563149201714141678534656/74636626018411929396065547722960039380823724325117463317410744947100198487532907165586948394775390625",
+      "torus_squared_depth": "1314343883/500000000",
+      "vertical_squared_minimum": "685656117/500000000",
+      "vertical_root_gram": [
+        [
+          2,
+          -1,
+          0,
+          0
+        ],
+        [
+          -1,
+          2,
+          -1,
+          -1
+        ],
+        [
+          0,
+          -1,
+          2,
+          0
+        ],
+        [
+          0,
+          -1,
+          0,
+          2
+        ]
+      ],
+      "same_color_ratio": "3",
+      "strict_covering_inequality_exact": true
+    }
+  ],
+  "all_covering_and_density_inequalities_exact": true,
+  "maximum_dimension": 96,
+  "explicit_offsets": false,
+  "inherited_inputs": "Coxeter-Few-Rogers1959; named parent-lattice and color-period theorems from the preceding audited package"
+}

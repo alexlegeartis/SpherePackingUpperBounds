@@ -5,6 +5,8 @@ used in the previous Blichfeldt section controls. These are **derived
 classical guarantees**, not explicit normals or dimension-specific
 records printed in the parent papers.
 
+**53D update:** the [new explicit section](../adaptive_layers_20261115/SECTION53_PROOF.md) has center density20,890.804898… and supersedes the old53D control below.
+
 **55D source correction:** Leterrier's 2024 thesis, Proposition 3.2.22,
 gives the stronger guarantee **116,783.149646…**. The old 55D control
 below remains a valid calculation but is superseded in the current table.

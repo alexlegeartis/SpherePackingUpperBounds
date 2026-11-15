@@ -1,0 +1,226 @@
+{
+  "method": "Weighted integer bad-coset cost below2, followed by an adapted vertical metric",
+  "rows": [
+    {
+      "dimension": 77,
+      "name": "Gamma72 adaptive singular cosets above D5",
+      "density_squared": "1208925819614629174706176/243",
+      "center_density": "70533703808.1774671941914028104302858237104362",
+      "kind": "new_lattice_existence_proof",
+      "previous_density_squared": "302231454903657293676544/81",
+      "ratio_squared": "4/3",
+      "gain_over_checkpoint_percent": "15.470053837925152901829756100391491129520350254025375203720465300",
+      "gain_over_checkpoint_interval": [
+        "15470053/1000000",
+        "7735027/500000"
+      ],
+      "parent_dimension": 72,
+      "parent_minimum": 8,
+      "model_type_counts": [
+        31,
+        0
+      ],
+      "weighted_expected_cost": "106512106753695825000/76167201335498802209",
+      "integer_cost_strictly_below": 2,
+      "all_classes_horizontal_squared_norm_at_least": "4",
+      "all_but_at_most_one_at_least": "5",
+      "exception_parity": 24,
+      "all_31_exception_reparametrizations_checked": true,
+      "metric_audit": {
+        "gram": [
+          [
+            "3",
+            "-3/2",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-3/2",
+            "3",
+            "-3/2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-3/2",
+            "3",
+            "-3/2",
+            "-3/2"
+          ],
+          [
+            "0",
+            "0",
+            "-3/2",
+            "3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-3/2",
+            "0",
+            "3"
+          ]
+        ],
+        "determinant": "243/8",
+        "enumeration_coefficient_bounds": [
+          3,
+          4,
+          5,
+          3,
+          3
+        ],
+        "vectors_checked": 33956,
+        "minimum_by_parity": {
+          "0": "12",
+          "1": "3",
+          "2": "3",
+          "3": "3",
+          "4": "3",
+          "5": "6",
+          "6": "3",
+          "7": "3",
+          "8": "3",
+          "9": "6",
+          "10": "6",
+          "11": "6",
+          "12": "3",
+          "13": "6",
+          "14": "3",
+          "15": "3",
+          "16": "3",
+          "17": "6",
+          "18": "6",
+          "19": "6",
+          "20": "3",
+          "21": "6",
+          "22": "3",
+          "23": "3",
+          "24": "6",
+          "25": "3",
+          "26": "3",
+          "27": "3",
+          "28": "3",
+          "29": "6",
+          "30": "3",
+          "31": "3"
+        },
+        "all_infinite_layer_inequalities_certified": true
+      }
+    },
+    {
+      "dimension": 85,
+      "name": "L80 adaptive exceptional coset and fitted D5 metric",
+      "density_squared": "9903520314283042199192993792/3875",
+      "center_density": "1598670440672.34031068655445355279839924161070",
+      "kind": "new_lattice_existence_proof",
+      "previous_density_squared": "19807040628566084398385987584/9375",
+      "ratio_squared": "75/62",
+      "gain_over_checkpoint_percent": "9.9853362660149668770854641284644535088716487482964268531715985700",
+      "gain_over_checkpoint_interval": [
+        "1248167/125000",
+        "9985337/1000000"
+      ],
+      "parent_dimension": 80,
+      "parent_minimum": 8,
+      "model_type_counts": [
+        11,
+        20
+      ],
+      "weighted_expected_cost": "688527986976281489928000/604462909806764831539199",
+      "integer_cost_strictly_below": 2,
+      "singular_horizontal_squared_norm_at_least": "5",
+      "nonsingular_horizontal_squared_norm_at_least": "9/2",
+      "all_but_at_most_one_nonsingular_at_least": "11/2",
+      "all_20_exception_root_classes_and_isometries_checked": true,
+      "metric_audit": {
+        "gram": [
+          [
+            "7/2",
+            "-7/4",
+            "1/2",
+            "-1/2",
+            "0"
+          ],
+          [
+            "-7/4",
+            "5/2",
+            "-5/4",
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "-5/4",
+            "5/2",
+            "-5/4",
+            "-5/4"
+          ],
+          [
+            "-1/2",
+            "0",
+            "-5/4",
+            "5/2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-5/4",
+            "0",
+            "5/2"
+          ]
+        ],
+        "determinant": "3875/256",
+        "enumeration_coefficient_bounds": [
+          3,
+          4,
+          5,
+          3,
+          3
+        ],
+        "vectors_checked": 33956,
+        "minimum_by_parity": {
+          "0": "10",
+          "1": "7/2",
+          "2": "5/2",
+          "3": "5/2",
+          "4": "5/2",
+          "5": "5",
+          "6": "5/2",
+          "7": "7/2",
+          "8": "5/2",
+          "9": "5",
+          "10": "5",
+          "11": "4",
+          "12": "5/2",
+          "13": "4",
+          "14": "5/2",
+          "15": "5/2",
+          "16": "5/2",
+          "17": "4",
+          "18": "5",
+          "19": "5",
+          "20": "5/2",
+          "21": "5",
+          "22": "5/2",
+          "23": "7/2",
+          "24": "5",
+          "25": "5/2",
+          "26": "5/2",
+          "27": "7/2",
+          "28": "5/2",
+          "29": "4",
+          "30": "5/2",
+          "31": "5/2"
+        },
+        "all_infinite_layer_inequalities_certified": true
+      }
+    }
+  ],
+  "explicit_representatives": false,
+  "all_arithmetic_and_infinite_layer_inequalities_exact": true,
+  "inherited_inputs": "Published Gamma72/L80 minimum8, unimodularity and extremal theta series; standard binary quadratic-space transitivity"
+}

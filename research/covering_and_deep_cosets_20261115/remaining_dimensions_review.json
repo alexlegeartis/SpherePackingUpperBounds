@@ -34,6 +34,7 @@
     50,
     51,
     52,
+    53,
     57,
     59,
     60,
@@ -64,7 +65,6 @@
     96
   ],
   "classical_derived_controls": [
-    53,
     89,
     90,
     91
@@ -184,5 +184,6 @@
     "../priority_resolution_20261115/sources.json",
     "../cross_dimension_lower_20261115/literature_sources.json",
     "../../constructions/dim59/README.md"
-  ]
+  ],
+  "subsequent_53D_explicit_improvement": "../adaptive_layers_20261115/SECTION53_PROOF.md"
 }

@@ -37,12 +37,16 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 
 ## Packing constructions: lower bounds
 
+**Latest: 13 stronger bounds.** The new 50D–53D, 77D and 85D results improve
+our preceding values by **9.99–18.53%**; seven covering refinements give
+smaller gains. [New constructions, proofs and complete audits](research/adaptive_layers_20261115/).
+
 **Comparison method / source** names the published work behind each recorded
 comparison. Values marked **derived** are calculated from published inputs,
 rather than quoted as numerical records in those sources. All densities in
 this table are occupied-volume fractions.
 
-**In 49D–52D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D, our certified bounds are
+**In 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D, our certified bounds are
 best-known lower bounds in the literature review dated 15 November 2026.**
 No stronger published lower bound was located. The [review and exact comparisons](research/covering_and_deep_cosets_20261115/PRIORITY.md)
 identify the sources. We compare proved guarantees; neither a previous-record
@@ -52,10 +56,11 @@ table nor an older lattice's unknown actual minimum is required.
 | --- | --- | --- | --- | --- | --- |
 | 36 | ≈6.1615e-7 | [KP36 code-based lattice — Kschischang–Pasupathy (1992)](https://doi.org/10.1109/18.119683) · [Catalogue parameters](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
 | 49 | ≈4.128837170599e-9 (**derived**) | P48q × A1 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.151355755657e-9 | **73.205081%** | [Explicit deeper P48q half-coset; full minimum certificate](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
-| 50 | ≈8.408155459659e-10 (**derived**) | P48q × A2 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.184502868110e-9 | **159.807621%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
-| 51 | ≈1.798425511734e-10 (**derived**) | P48q × A3 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.128004761714e-10 | **296.346955%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
-| 52 | ≈1.094979637686e-10 (**derived**) | Two Blichfeldt sections of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [derivation](research/range48_96_20261115/verify_range.py) | ≈2.586215799215e-10 | **136.188483%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
-| 57 | ≈8.85119018168e-12 (**derived**) | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈1.471100314668e-11 | **66.203673%** | [Covering bound + two-color layers; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
+| 50 | ≈8.408155459659e-10 (**derived**) | P48q × A2 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.522446637898e-9 | **200.000000%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
+| 51 | ≈1.798425511734e-10 (**derived**) | P48q × A3 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.969351595567e-10 | **343.129368%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
+| 52 | ≈1.094979637686e-10 (**derived**) | Two Blichfeldt sections of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [derivation](research/range48_96_20261115/verify_range.py) | ≈2.879504124e-10 | **162.973303%** | [Deep plane + fitted metric; explicit minimum-6 lattice](research/adaptive_layers_20261115/P48_PROOF.md) |
+| 53 | ≈1.256125809644e-10 (**derived**) | One Blichfeldt section of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [comparison derivation](research/range48_96_20261115/verify_range.py) | ≈1.496705651057e-10 | **19.152528%** | [Primitive dual normal; explicit minimum-10 lattice](research/adaptive_layers_20261115/SECTION53_PROOF.md) |
+| 57 | ≈8.85119018168e-12 (**derived**) | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈1.471429176616e-11 | **66.240827%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
 | 60 | ≈[1.668964977674e-12, 1.680573547119e-12) | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | ≈2.395250641682e-12 | **>42.525785%** | [Explicit Ne64 antipode; exact period and shifts](research/novel_routes_20261113/audits/README.md) |
 | 61 | ≈[1.508819950024e-12, 1.519314622713e-12) | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 20.54… | ≈2.022035232382e-12 | **>33.088644%** | [Explicit Ne64 antipode; exact period and shifts](research/novel_routes_20261113/audits/README.md) |
@@ -71,23 +76,23 @@ table nor an older lattice's unknown actual minimum is required.
 | 74 | ≈3.575177737935e-15 (**derived**) | Γ72 × A2 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | ≈9.533807301161e-15 | **166.666667%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
 | 75 | ≈6.315750546658e-16 (**derived**) | Γ72 × A3 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | ≈2.750287321247e-15 | **335.464843%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
 | 76 | ≈1.279866139755e-16 (**derived**) | Γ72 × D4 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | ≈9.101270327146e-16 | **611.111111%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
-| 77 | ≈9.521458141249e-17 (**derived**) | Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈2.591412672592e-16 | **172.165527%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
+| 77 | ≈9.521458141249e-17 (**derived**) | Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈2.992305608205e-16 | **214.269681%** | [Adaptive exceptional coset above D5; lattice existence proof](research/adaptive_layers_20261115/ADAPTIVE_PROOF.md) |
 | 78 | ≈9.523775961404e-17 (**derived**) | Bare L80 section, normal rank 2 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](research/cross_dimension_lower_20261115/l80_results.json) | ≈1.257009694168e-16 | **31.986483%** | [Explicit L80 antipode; exact period and shifts](research/cross_dimension_lower_20261115/verify80.py) |
 | 79 | ≈9.274742674901e-17 (**derived**) | L80 perpendicular to a minimum vector — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf) | ≈1.009467817784e-16 | **8.840520%** | [Explicit L80 antipode; exact period and shifts](research/cross_dimension_lower_20261115/verify80.py) |
-| 81 | ≈1.595311593607e-17 (**derived**) | MW80 × A1 — [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.790714837250e-17 | **74.932273%** | [Covering bound + two-color layers above MW80; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
-| 82 | ≈2.541814578499e-18 (**derived**) | MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈7.512404583726e-18 | **195.552817%** | [Covering bound + three-color layers; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
+| 81 | ≈1.595311593607e-17 (**derived**) | MW80 × A1 — [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.791096776318e-17 | **74.956215%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 82 | ≈2.541814578499e-18 (**derived**) | MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈7.514357550704e-18 | **195.629650%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
 | 83 | ≈4.269748590531e-19 (**derived**) | MW80 × A3 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈2.204491680495e-18 | **416.304797%** | [Compatible half-cosets; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md) |
 | 84 | ≈2.970203932666e-19 (**derived**) | Section of BCS88 perpendicular to √2 D4 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈7.603722067624e-19 | **156%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
-| 85 | ≈1.610346851551e-19 (**derived**) | Section of BCS88 perpendicular to √2 A3 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈2.128843618193e-19 | **32.197832%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
-| 93 | ≈1.702354782363e-20 (**derived**) | MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈3.04521974323e-20 | **78.882791%** | [Covering bound + periodic layers; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
-| 94 | ≈2.534314091589e-21 (**derived**) | MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈7.709315408777e-21 | **204.197315%** | [Covering bound + periodic layers; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
-| 95 | ≈3.980717377502e-22 (**derived**) | MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈2.042525490463e-21 | **413.104875%** | [Covering bound + periodic layers; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
-| 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈6.108662600212e-22 | **118.554980%** | [Coxeter–Few–Rogers covering bound + nine-color periodic layers above Shioda's MW92; existence proof and exact inequalities](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
+| 85 | ≈1.610346851551e-19 (**derived**) | Section of BCS88 perpendicular to √2 A3 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈2.341415812047e-19 | **45.398230%** | [Adaptive exceptional coset + fitted metric; lattice existence proof](research/adaptive_layers_20261115/ADAPTIVE_PROOF.md) |
+| 93 | ≈1.702354782363e-20 (**derived**) | MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈3.045563378489e-20 | **78.902977%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 94 | ≈2.534314091589e-21 (**derived**) | MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈7.710930742674e-21 | **204.261053%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 95 | ≈3.980717377502e-22 (**derived**) | MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | ≈2.043145398811e-21 | **413.260602%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
+| 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈6.111066241809e-22 | **118.640977%** | [Cubic covering bound + colored layers; periodic existence proof](research/adaptive_layers_20261115/COVERING_PROOF.md) |
 
 The 84D/85D rows now use stronger classical comparisons than Chen's 2013
 guarantees. The 96D comparator is an explicitly reported published
 construction, with its exact density recovered from the full paper.
-The 49D–52D and 65D lattices and the 59D–62D, 66D–71D and 78D–79D
+The 49D–53D and 65D lattices and the 59D–62D, 66D–71D and 78D–79D
 periodic packings are explicit. The 57D, 73D–77D, 81D–85D and 93D–96D
 bounds are existence proofs. The three Vardy comparisons retain intervals
 for the published decimal prefixes; their gains use the upper endpoints.
@@ -99,7 +104,7 @@ The recent 88D parent's full computational proof has now been freshly
 [reproduced and bound to our catalogue Gram](research/priority_resolution_20261115/REPLAY88.md).
 Research remains capped at **96D**, including parent inputs.
 The [remaining-dimensions review](research/covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md)
-accounts for all 49 dimensions: 32 construction improvements, four classical
+accounts for all 49 dimensions: 33 construction improvements, three classical
 section controls, and 13 dimensions with no new construction improvement.
 In **55D**, [Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
 gives center density **116,783.149646…**, above our earlier 55D section
@@ -115,13 +120,14 @@ The audit also includes
 Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
 
-The [latest deeper-coset and covering calculations](research/covering_and_deep_cosets_20261115/)
-strengthen all five of those 49D–52D/81D values and also improve
-57D, 82D and 93D–96D. The four explicit minimum-6 lattices now have
-center densities **14,578.768812; 12,625.584147; 11,794.804713;
-12,370.495546**. The 96D gain in the table uses this stronger proof.
-[Exact priority verdicts](research/covering_and_deep_cosets_20261115/PRIORITY.md)
-separate the superseded values from the replacements and their source scope.
+The [latest adaptive-layer continuation](research/adaptive_layers_20261115/)
+strengthens **13 dimensions**. The larger gains over our preceding bounds
+are **15.47% in 50D, 11.80% in 51D, 11.34% in 52D, 18.53% in 53D,
+15.47% in 77D and 9.99% in 85D**. Seven covering refinements add
+0.011–0.040% in 57D, 81D–82D and 93D–96D. The main table above continues
+to compare with named published/derived sources; these incremental gains
+use the pinned preceding repository checkpoint. All new proofs and exact
+comparisons are included, with two full P48 replay report sets.
 
 The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 

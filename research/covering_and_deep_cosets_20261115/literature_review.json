@@ -6,6 +6,7 @@
     50,
     51,
     52,
+    53,
     57,
     59,
     60,
@@ -43,7 +44,8 @@
     "../range48_96_20261115/sources.json",
     "../priority_resolution_20261115/sources.json",
     "../cross_dimension_lower_20261115/literature_sources.json",
-    "../../constructions/dim59/README.md"
+    "../../constructions/dim59/README.md",
+    "../adaptive_layers_20261115/sources.json"
   ],
   "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
   "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -54,7 +56,6 @@
     "62": "22.13"
   },
   "derived_classical_controls_not_claimed_as_new_records": [
-    53,
     89,
     90,
     91
@@ -64,5 +65,6 @@
     "63": "Elkies lower bound reported by Vardy1999",
     "86": "Classical BCS88 section",
     "87": "Classical BCS88 section"
-  }
+  },
+  "subsequent_stronger_bounds": "../adaptive_layers_20261115/results.json"
 }

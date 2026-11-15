@@ -1,0 +1,25 @@
+{
+  "checked_date": "2026-11-15",
+  "dimension_ceiling": 96,
+  "Leterrier2024": {
+    "author": "Gauthier Leterrier",
+    "title": "Some Mordell-Weil lattices and applications to sphere packings",
+    "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "locator": "Theorem 3.2.7; Computational Proposition 3.3.10 and matrix, pp.168-169; Theorem 3.4.1, p.170",
+    "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "matrix_transcription": "sources/leterrier54_gram.txt",
+    "matrix_sha256": "74a193d77f6faa0e94c79fa2795e57bcd7778d31b5a3840e276fc27acacde0f3",
+    "inherited_input": "The displayed Gram defines the rank-54 narrow Mordell-Weil lattice, of minimum10 and determinant3^25. The paper computationally constructs the Gram; its minimum theorem is inherited, not re-enumerated."
+  },
+  "other_source_registries": [
+    "../covering_and_deep_cosets_20261115/sources.json",
+    "../covering_and_deep_cosets_20261115/remaining_dimensions_review.json"
+  ],
+  "additional_53D_queries": [
+    "sphere packing \"53-dimensional\" density lattice",
+    "\"sphere packing\" \"dimension 53\" lower bound",
+    "Leterrier 54 lattice sections packing 53 density",
+    "\"sphere packing\" \"20890\""
+  ],
+  "53D_review_finding": "No stronger published 53D lower bound located; Vardy1999 pp278-279 reports E54 lamination and bounds in57-63D, not a stronger53D number. Our explicit dual normal replaces the conservative Hermite-only section evaluation."
+}

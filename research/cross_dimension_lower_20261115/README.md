@@ -1,17 +1,15 @@
 # Lower-bound research across dimensions, 15 November 2026
 
-The [subsequent full 48D–96D audit](../range48_96_20261115/)
-adds explicit 49D–52D lattices and improves the 81D bound below to
-`1,066,248,855,605.2958…` using covering-based MW80 torus layers. The 81D counting row
-in this package is retained as the earlier, weaker proof.
+The [current full 48D–96D table](../range48_96_20261115/TABLE.md) includes
+the [adaptive-layer continuation](../adaptive_layers_20261115/): stronger
+77D/85D lattice existence bounds and sharper covering bounds. The current
+external gains are **156% in 84D**, **45.398230% in 85D** and
+**118.640977% in 96D**, against the named classical BCS comparisons.
+The original checkpoint tables below retain their proved numerical values.
 
-**Research ceiling: 96D.** The [current comparison and proof update](../priority_resolution_20261115/)
-supersedes this package's initial literature conclusions. Stronger
-classical BCS88 sections leave gains of **156% in 84D** and **32.197832%
-in 85D**, and **rule out our 86D/87D results as record candidates**.
-A new 96D periodic existence proof improves the published BCS96 bound
-by **118.554980%**. The recent 88D parent's full computational proof has
-also been freshly reproduced. [Current 86–96D table](TO96.md).
+**Research ceiling: 96D.** Classical BCS88 sections exceed our 86D/87D
+candidates. The recent 88D parent's full computational proof has also
+been replayed. [Source review](LITERATURE_STATUS.md).
 
 Two routes now have proofs: **compatible deep half-cosets** above published
 72D/80D lattices, and **explicit antipodes** below L80. The former supplies

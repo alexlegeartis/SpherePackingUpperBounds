@@ -1,9 +1,11 @@
 # Remaining dimensions in 48D–96D: review of 15 November 2026
 
-**Another 23 dimensions satisfy the same dated best-known criterion:**
+**Current continuation:** [adaptive layers](../adaptive_layers_20261115/) improves13 bounds and supplies an explicit 53D lattice. The total is now **33 construction dimensions**, with three classical section controls and 13 dimensions without a new construction improvement.
+
+The earlier review added these 23 dimensions under the same dated criterion:
 57D, 60D–62D, 65D–71D, 73D–79D, 82D–83D and 93D–95D. No stronger
 published lower bound was located in the source review. Together with
-the previous nine, this gives **32 construction dimensions**.
+the previous nine, that gave 32; the new 53D result now raises the total to 33.
 [All sources and numerical comparisons](PRIORITY.md) ·
 [Search queries, findings and source hashes](remaining_dimensions_review.json).
 
@@ -14,7 +16,7 @@ they are not numbers attributed as printed records to those authors.
 
 | Dimension | Our certified center density | Comparison method / source | Gain |
 | --- | ---: | --- | ---: |
-| 57 | 163056.783695743 | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **66.203673%** |
+| 57 | 163093.2347596512 | MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **66.240827%** |
 | 60 | 773597.1467710571 | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | **>42.525785%** |
 | 61 | 2043183.683386255 | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 20.54… | **>33.088644%** |
 | 62 | 5188971.717319936 | Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 22.13… | **>12.273483%** |
@@ -29,14 +31,14 @@ they are not numbers attributed as printed records to those authors.
 | 74 | 52900277856.1331 | Γ72 × A2 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | **166.666667%** |
 | 75 | 52900277856.1331 | Γ72 × A3 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | **335.464843%** |
 | 76 | 61083979320.88889 | Γ72 × D4 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | **611.111111%** |
-| 77 | 61083979320.88889 | Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | **172.165527%** |
+| 77 | 70533703808.17747 | Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | **214.269681%** |
 | 78 | 104731824371.1325 | Bare L80 section, normal rank 2 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | **31.986483%** |
 | 79 | 299178543929.5057 | L80 perpendicular to a minimum vector — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf) | **8.840520%** |
-| 82 | 1040071302182.495 | MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **195.552817%** |
+| 82 | 1040341684972.145 | MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **195.629650%** |
 | 83 | 1112627538435.653 | MW80 × A3 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **416.304797%** |
-| 93 | 8742047493270432.0 | MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **78.882791%** |
-| 94 | 8583004659539084.0 | MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **204.197315%** |
-| 95 | 8865551293806628.0 | MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **413.104875%** |
+| 93 | 8743033982260849.0 | MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **78.902977%** |
+| 94 | 8584803057662693.0 | MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **204.261053%** |
+| 95 | 8868241996705555.0 | MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | **413.260602%** |
 
 For the Elkies guarantees reported by Vardy, the published logarithms
 begin `19.04…`, `20.54…` and `22.13…`. The exact auditor proves improvement
@@ -66,21 +68,22 @@ these are below the stronger comparisons already used for our constructions.
 
 | Dimensions | Decision and source |
 | --- | --- |
-| **53, 89–91** | Retain the conservative section guarantees derived from Leterrier54 and MW92 using Rogers's classical simplex theorem. These are evaluations of inherited section theory, not new-record construction claims. |
+| **89–91** | Retain the conservative section guarantees derived from Leterrier54 and MW92 using Rogers's classical simplex theorem. These are evaluations of inherited section theory, not new-record construction claims. |
 | **48, 54, 56, 64, 72, 80, 88, 92** | Retain the named published parent bounds; no denser construction from us. |
+| **53** | New explicit section with center density20,890.804898…; see the current continuation. |
 | **55** | Use Leterrier2024's stronger published lamination above. |
 | **58** | Retain the classical Γ72/Leech-block section; no denser construction from us. |
 | **63** | The Elkies guarantee reported by Vardy exceeds our Ne64 antipode. |
 | **86–87** | Classical BCS88 sections exceed our candidates. |
 
 These disjoint groups account for every dimension from 48 through 96:
-**32 construction improvements, four classical section controls, and
+**33 construction improvements, three classical section controls, and
 13 dimensions without a new construction improvement.** The research
 ceiling, including every parent used, remains 96D.
 
 The original Rogers simplex bound is an exact classical upper-bound
 function. Our second-moment enclosure is deliberately conservative, so
-improving on a Blichfeldt evaluation is not evidence that those four
+improving on a Blichfeldt evaluation is not evidence that those three
 section controls beat the full inherited Rogers consequence.
 [Classical theorem statement: Fejes Tóth (2022), §2.2](https://arxiv.org/abs/2202.11358).
 

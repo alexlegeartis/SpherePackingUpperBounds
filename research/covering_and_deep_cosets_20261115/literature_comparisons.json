@@ -7,6 +7,7 @@
       50,
       51,
       52,
+      53,
       57,
       59,
       60,
@@ -44,7 +45,8 @@
       "../range48_96_20261115/sources.json",
       "../priority_resolution_20261115/sources.json",
       "../cross_dimension_lower_20261115/literature_sources.json",
-      "../../constructions/dim59/README.md"
+      "../../constructions/dim59/README.md",
+      "../adaptive_layers_20261115/sources.json"
     ],
     "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
     "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -55,7 +57,6 @@
       "62": "22.13"
     },
     "derived_classical_controls_not_claimed_as_new_records": [
-      53,
       89,
       90,
       91
@@ -65,7 +66,8 @@
       "63": "Elkies lower bound reported by Vardy1999",
       "86": "Classical BCS88 section",
       "87": "Classical BCS88 section"
-    }
+    },
+    "subsequent_stronger_bounds": "../adaptive_layers_20261115/results.json"
   },
   "rows": [
     {
@@ -100,12 +102,12 @@
     },
     {
       "dimension": 50,
-      "our_density_squared": "717897987691852588770249/4503599627370496",
+      "our_density_squared": "239299329230617529590083/1125899906842624",
       "our_method": {
         "dimension": 50,
-        "name": "Deeper P48 cosets with fitted vertical metric",
-        "density_squared": "717897987691852588770249/4503599627370496",
-        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "name": "P48q deep plane and fitted vertical metric",
+        "density_squared": "239299329230617529590083/1125899906842624",
+        "evidence": "research/adaptive_layers_20261115/results.json",
         "kind": "new_explicit_lattice"
       },
       "named_external_comparison": {
@@ -120,22 +122,22 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "26588814358957503287787/1125899906842624",
-      "ratio_squared_exact": "27/4",
-      "gain_percent": "159.8076211353315940291169512258808550414207880715570942083710469177900",
+      "ratio_squared_exact": "9",
+      "gain_percent": "200",
       "gain_percent_interval": [
-        "159.807621",
-        "159.807622"
+        "200",
+        "200.000001"
       ],
-      "gain_percent_display": "159.807621%"
+      "gain_percent_display": "200.000000%"
     },
     {
       "dimension": 51,
-      "our_density_squared": "2153693963075557766310747/15481123719086080",
+      "our_density_squared": "2153693963075557766310747/12384898975268864",
       "our_method": {
         "dimension": 51,
-        "name": "Deeper P48 cosets with fitted vertical metric",
-        "density_squared": "2153693963075557766310747/15481123719086080",
-        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "name": "P48q deep plane and fitted vertical metric",
+        "density_squared": "2153693963075557766310747/12384898975268864",
+        "evidence": "research/adaptive_layers_20261115/results.json",
         "kind": "new_explicit_lattice"
       },
       "named_external_comparison": {
@@ -150,22 +152,22 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "79766443076872509863361/9007199254740992",
-      "ratio_squared_exact": "864/55",
-      "gain_percent": "296.3469554454898180189497496358362660764017818369471344109083990393319",
+      "ratio_squared_exact": "216/11",
+      "gain_percent": "343.1293675255978378432663764508749281002293138213806996900859415199773",
       "gain_percent_interval": [
-        "296.346955",
-        "296.346956"
+        "343.129367",
+        "343.129368"
       ],
-      "gain_percent_display": "296.346955%"
+      "gain_percent_display": "343.129368%"
     },
     {
       "dimension": 52,
-      "our_density_squared": "2153693963075557766310747/14073748835532800",
+      "our_density_squared": "6461081889226673298932241/34058472181989376",
       "our_method": {
         "dimension": 52,
-        "name": "Deeper P48 cosets with fitted vertical metric",
-        "density_squared": "2153693963075557766310747/14073748835532800",
-        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "name": "P48q deep plane and fitted vertical metric",
+        "density_squared": "6461081889226673298932241/34058472181989376",
+        "evidence": "research/adaptive_layers_20261115/results.json",
         "kind": "new_explicit_lattice"
       },
       "named_external_comparison": {
@@ -180,23 +182,53 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "27431955",
-      "ratio_squared_exact": "239299329230617529590083/42896716081959796736000",
-      "gain_percent": "136.1884833475928847547292359383095146422106632649249991270673627723055",
+      "ratio_squared_exact": "717897987691852588770249/103810052918342708101120",
+      "gain_percent": "162.9733033288382903650755200783393818721073334940919873761996222512310",
       "gain_percent_interval": [
-        "136.188483",
-        "136.188484"
+        "162.973303",
+        "162.973304"
       ],
-      "gain_percent_display": "136.188483%"
+      "gain_percent_display": "162.973303%"
+    },
+    {
+      "dimension": 53,
+      "our_density_squared": "2220446049250313080847263336181640625/5087798221017014024540258304",
+      "our_method": {
+        "dimension": 53,
+        "name": "Explicit primitive section of Leterrier54",
+        "density_squared": "2220446049250313080847263336181640625/5087798221017014024540258304",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_explicit_section"
+      },
+      "named_external_comparison": {
+        "dimension": 53,
+        "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 53D",
+        "density_squared": "307399975",
+        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "307399975",
+      "ratio_squared_exact": "88817841970012523233890533447265625/62559561837826983428732991565725696",
+      "gain_percent": "19.15252752279578827331458623458474591852250860060604081693985931726400",
+      "gain_percent_interval": [
+        "19.152527",
+        "19.152528"
+      ],
+      "gain_percent_display": "19.152528%"
     },
     {
       "dimension": 57,
-      "our_density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+      "our_density_squared": "2710505431213761085018632002174854278564453125/101900986587953672358138279412891648",
       "our_method": {
         "dimension": 57,
-        "name": "Shioda MW56 CFR torus + 1D mod2",
-        "density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "2710505431213761085018632002174854278564453125/101900986587953672358138279412891648",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 57,
@@ -210,13 +242,13 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
-      "ratio_squared_exact": "2000000/724017",
-      "gain_percent": "66.20367255387672457321608917970929966707223473011631895287206192619950",
+      "ratio_squared_exact": "2000000000/723693403",
+      "gain_percent": "66.24082709938357809309759459404366923925372265556811139856343930058430",
       "gain_percent_interval": [
-        "66.203672",
-        "66.203673"
+        "66.240827",
+        "66.240828"
       ],
-      "gain_percent_display": "66.203673%"
+      "gain_percent_display": "66.240827%"
     },
     {
       "dimension": 59,
@@ -688,13 +720,13 @@
     },
     {
       "dimension": 77,
-      "our_density_squared": "302231454903657293676544/81",
+      "our_density_squared": "1208925819614629174706176/243",
       "our_method": {
         "dimension": 77,
-        "name": "Gamma72 compatible half-cosets, rank 5",
-        "density_squared": "302231454903657293676544/81",
-        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
-        "kind": "prior_repository_result"
+        "name": "Gamma72 adaptive singular cosets above D5",
+        "density_squared": "1208925819614629174706176/243",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_lattice_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 77,
@@ -708,13 +740,13 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "37778931862957161709568/75",
-      "ratio_squared_exact": "200/27",
-      "gain_percent": "172.1655269759086775774760083006545991073274978507411253814102852501067",
+      "ratio_squared_exact": "800/81",
+      "gain_percent": "214.2696805273544552892641609354884619043715278615440162614843862201628",
       "gain_percent_interval": [
-        "172.165526",
-        "172.165527"
+        "214.26968",
+        "214.269681"
       ],
-      "gain_percent_display": "172.165527%"
+      "gain_percent_display": "214.269681%"
     },
     {
       "dimension": 78,
@@ -778,13 +810,13 @@
     },
     {
       "dimension": 81,
-      "our_density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+      "our_density_squared": "79172296088172630531378644744173191017334418459007976066782137593751953125/69620512594693245636748678160327321048267519688704",
       "our_method": {
         "dimension": 81,
-        "name": "Shioda MW80 CFR torus + 1D mod2",
-        "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "79172296088172630531378644744173191017334418459007976066782137593751953125/69620512594693245636748678160327321048267519688704",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 81,
@@ -798,23 +830,23 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024",
-      "ratio_squared_exact": "2000000/653567",
-      "gain_percent": "74.93227332098440013721950476339489889376178385784850970722488747855960",
+      "ratio_squared_exact": "4000000000/1306776283",
+      "gain_percent": "74.95621466695514753924236527543147595022787484057159987408310978882200",
       "gain_percent_interval": [
-        "74.932273",
-        "74.932274"
+        "74.956214",
+        "74.956215"
       ],
-      "gain_percent_display": "74.932273%"
+      "gain_percent_display": "74.956215%"
     },
     {
       "dimension": 82,
-      "our_density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+      "our_density_squared": "6185335631888486760263956620638530548229251442109998130217354499511871337890625/5714934664858416272284567663612103329623072090271776768",
       "our_method": {
         "dimension": 82,
-        "name": "Shioda MW80 CFR torus + 2D small_period",
-        "density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "6185335631888486760263956620638530548229251442109998130217354499511871337890625/5714934664858416272284567663612103329623072090271776768",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 82,
@@ -828,13 +860,13 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/327331032056843123156210418166160626991235072",
-      "ratio_squared_exact": "1000000000000/114480045801",
-      "gain_percent": "195.5528167661201895084661104362655128284700117334468256149715234861046",
+      "ratio_squared_exact": "640000000000000000/73229150239540201",
+      "gain_percent": "195.6296503398552917251032561385067186882220641038825444774531783515093",
       "gain_percent_interval": [
-        "195.552816",
-        "195.552817"
+        "195.62965",
+        "195.629651"
       ],
-      "gain_percent_display": "195.552817%"
+      "gain_percent_display": "195.629650%"
     },
     {
       "dimension": 83,
@@ -898,13 +930,13 @@
     },
     {
       "dimension": 85,
-      "our_density_squared": "19807040628566084398385987584/9375",
+      "our_density_squared": "9903520314283042199192993792/3875",
       "our_method": {
         "dimension": 85,
-        "name": "L80 compatible half-cosets, rank 5",
-        "density_squared": "19807040628566084398385987584/9375",
-        "evidence": "research/cross_dimension_lower_20261115/counting80_results.json",
-        "kind": "prior_repository_result"
+        "name": "L80 adaptive exceptional coset and fitted D5 metric",
+        "density_squared": "9903520314283042199192993792/3875",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_lattice_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 85,
@@ -918,23 +950,23 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "1208925819614629174706176",
-      "ratio_squared_exact": "16384/9375",
-      "gain_percent": "32.19783155054649634745225897923924004976372754061963354752251788334020",
+      "ratio_squared_exact": "8192/3875",
+      "gain_percent": "45.39822956724859165538459397364917087921737232943563837074469386956400",
       "gain_percent_interval": [
-        "32.197831",
-        "32.197832"
+        "45.398229",
+        "45.39823"
       ],
-      "gain_percent_display": "32.197832%"
+      "gain_percent_display": "45.398230%"
     },
     {
       "dimension": 93,
-      "our_density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+      "our_density_squared": "24519928653854221733733552434404946937899825954937634816000000000/320770831099612263828288266854801",
       "our_method": {
         "dimension": 93,
-        "name": "Shioda MW92 CFR torus + 1D mod2",
-        "density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816000000000/320770831099612263828288266854801",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 93,
@@ -948,23 +980,23 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "6129982163463555433433388108601236734474956488734408704/256666986187667409334369",
-      "ratio_squared_exact": "4000000/1250037",
-      "gain_percent": "78.88279075427096580081176648279672483919623449687150801722086501646220",
+      "ratio_squared_exact": "4000000000/1249754929",
+      "gain_percent": "78.90297663221203211496956929474059577593232110576410468412427792340150",
       "gain_percent_interval": [
-        "78.88279",
-        "78.882791"
+        "78.902976",
+        "78.902977"
       ],
-      "gain_percent_display": "78.882791%"
+      "gain_percent_display": "78.902977%"
     },
     {
       "dimension": 94,
-      "our_density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+      "our_density_squared": "98079714615416886934934209737619787751599303819750539264000000000000000000/1330817552974333081280489336681742103008747",
       "our_method": {
         "dimension": 94,
-        "name": "Shioda MW92 CFR torus + 2D mod2",
-        "density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "98079714615416886934934209737619787751599303819750539264000000000000000000/1330817552974333081280489336681742103008747",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 94,
@@ -978,23 +1010,23 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
-      "ratio_squared_exact": "250000000000/27016510689",
-      "gain_percent": "204.1973145461071869657534663283992528913954747607488121094866974514349",
+      "ratio_squared_exact": "16000000000000000000/1728332332803770521",
+      "gain_percent": "204.2610530504407267372919907805949593501870523551175061169155545787626",
       "gain_percent_interval": [
-        "204.197314",
-        "204.197315"
+        "204.261053",
+        "204.261054"
       ],
-      "gain_percent_display": "204.197315%"
+      "gain_percent_display": "204.261053%"
     },
     {
       "dimension": 95,
-      "our_density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+      "our_density_squared": "49039857307708443467467104868809893875799651909875269632000000000000000000000000000/623554081925937316984610093923448880956123481836693",
       "our_method": {
         "dimension": 95,
-        "name": "Shioda MW92 CFR torus + 3D small_period",
-        "density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "49039857307708443467467104868809893875799651909875269632000000000000000000000000000/623554081925937316984610093923448880956123481836693",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 95,
@@ -1008,23 +1040,23 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "766247770432944429179173513575154591809369561091801088/256666986187667409334369",
-      "ratio_squared_exact": "1000000000000000000/37982864921048523",
-      "gain_percent": "413.1048745149217807242319996132463166102544235350067538713029223679412",
+      "ratio_squared_exact": "64000000000000000000000000000/2429428463659181983952214197",
+      "gain_percent": "413.2606023120499006238272490364283553779182771806441528941800031914361",
       "gain_percent_interval": [
-        "413.104874",
-        "413.104875"
+        "413.260602",
+        "413.260603"
       ],
-      "gain_percent_display": "413.104875%"
+      "gain_percent_display": "413.260602%"
     },
     {
       "dimension": 96,
-      "our_density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+      "our_density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000000000000000/56727733299915955263633765808106176759635050541998909180049",
       "our_method": {
         "dimension": 96,
-        "name": "Shioda MW92 CFR torus + 4D small_period",
-        "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
-        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
-        "kind": "new_covering_existence_proof"
+        "name": "Cubic covering-simplex bound and colored layers",
+        "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000000000000000/56727733299915955263633765808106176759635050541998909180049",
+        "evidence": "research/adaptive_layers_20261115/results.json",
+        "kind": "new_periodic_existence_proof"
       },
       "named_external_comparison": {
         "dimension": 96,
@@ -1038,13 +1070,13 @@
       "review_date": "2026-11-15",
       "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "6362685441135942358474828762538534230890216321/281474976710656",
-      "ratio_squared_exact": "1725436586697640946858688965569256363112777243042596638790631055949824000000000000000000000000/361224825165922748163735038900146880376573000467119271888138733416289456362493168145044334689",
-      "gain_percent": "118.5549799000613954002936627512332743581908802488606142429459562875445",
+      "ratio_squared_exact": "1725436586697640946858688965569256363112777243042596638790631055949824000000000000000000000000000000000000/360940722776017836935251534028016750387770378449542020318699636083199308343839582981602944493546347379729",
+      "gain_percent": "118.6409770937786166695483627409887601429139589093349597524433513574514",
       "gain_percent_interval": [
-        "118.554979",
-        "118.55498"
+        "118.640977",
+        "118.640978"
       ],
-      "gain_percent_display": "118.554980%"
+      "gain_percent_display": "118.640977%"
     }
   ],
   "all_comparisons_verified_exactly": true,

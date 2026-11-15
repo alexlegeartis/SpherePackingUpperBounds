@@ -1,0 +1,53 @@
+{
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "compiler_flags": [
+    "-O3",
+    "-std=c++17",
+    "-fno-fast-math",
+    "-ffp-contract=off"
+  ],
+  "cutoffs": {
+    "1": 12,
+    "2": 12,
+    "3": 12,
+    "4": 10,
+    "5": 10,
+    "6": 10,
+    "7": 10,
+    "8": 10,
+    "9": 10,
+    "10": 10,
+    "11": 10,
+    "12": 10,
+    "13": 10,
+    "14": 10,
+    "15": 10
+  },
+  "enumerator_source": "research/covering_and_deep_cosets_20261115/explicit_p48/interval_enum.cpp",
+  "enumerator_sha256": "4a9d0e74184ac2767b8448c75eaf5462467de98e575af1ae2f330acb1dca3d87",
+  "certificate_sha256": "847106a8385ab4ab40d029e9c8c8fc549c1314a7f22da6f69adf8097f5287aa8",
+  "binary_sha256": {
+    "10": "29fd9fcd709fe1bbff93a8b709a3060de9e632a27a2776152bad4a41f334760d",
+    "12": "e3d43090c15702f633053cc27e23b095398789377aae763f102c9a3069484202"
+  },
+  "input_sha256": {
+    "coset_1.txt": "d643a55e34391ab5899253bef7e4a2471402ef3274c8ffac821bf08613dd8aba",
+    "coset_10.txt": "31def4a7350b621f67c1eee6e9f29157a3a35dc60cd5a035c280fba0e3621a96",
+    "coset_11.txt": "21ebfe6da4aa0b73f2d7c38d198748f3a42bdecea2cd17016913197cfbb3196d",
+    "coset_12.txt": "aeb2b346353426910ee655f6ca40ac27c612cd7bfd98831f222391480200dbb8",
+    "coset_13.txt": "799e37368b9f0ffec7fddf5a3353e89c0a13a7c36ff14a179b03a890acc80b07",
+    "coset_14.txt": "2f1454342d0bfba9e77d30dc1bea660523dad3ec19c7587f277192b088b6792c",
+    "coset_15.txt": "915536994e5c5027db6580e42c1c5228e0842810546630ddd4866af0db1fe413",
+    "coset_2.txt": "10a3451e9d2d9b33b196c95d9a5d04586ca766f5142e4dfef5d50e17ae933721",
+    "coset_3.txt": "8e320da3ac20c6fce61259e67dc0ce96050a6d71565dead2f43ad8bfdc858079",
+    "coset_4.txt": "6572abc9c8e856da96a4928918e08485d5b4915855652724342d14e2e7a0ae6f",
+    "coset_5.txt": "82f813645cb51ba28a849fff5ff57dcec1529f13e3013595cee34e06a212aa77",
+    "coset_6.txt": "44821c7e6d7ee50bbc6f74a418b2fc2da60a37b11b5243ad5907dfc15c37ee7c",
+    "coset_7.txt": "463b65bca5cae974a45ecccea1ef9227da5345fb21e806ffcbdd5e793bd97442",
+    "coset_8.txt": "58c14400a477e099e824920f9ddbeb4e14177de12e0b6fd2782bc5be349207be",
+    "coset_9.txt": "c4ef0446a008fbfd06f433169cc9bba6f6b81d1a102ed7c825589b9d12afdb0f",
+    "gram.txt": "0a214fca33591328f2a52387a3933707dee1fd52476925045f376653bf141e71",
+    "ldl.txt": "0f54a756bef8723a94efcb0d79a2c13afd9f580096fa62efe43c87143690074d",
+    "negative_control.txt": "248dde05468f5cd5e1c8442112939028e9c5da4cb7a6958afe8b8cc746570fd6"
+  }
+}

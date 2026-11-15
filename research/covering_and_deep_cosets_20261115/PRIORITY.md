@@ -1,6 +1,6 @@
 # Best-known lower bounds: literature checked 15 November 2026
 
-**Our certified bounds in 49D–52D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are the
+**Our certified bounds in 49D–53D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are the
 best-known lower bounds found in the documented literature review.** No
 stronger published lower bound was located in those dimensions. The
 sources and numerical comparisons are given below; the review date and
@@ -24,10 +24,11 @@ it does not mean that its authors printed that same-dimensional number.
 | Dimension | Our certified lower bound | Named external comparison | Comparison center density | Increase |
 | --- | ---: | --- | ---: | ---: |
 | 49 | 14,578.768811918… | **Derived:** P48q × A1, from [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf) | 8,417.056098014… | **73.205081%** |
-| 50 | 12,625.584147021… | **Derived:** P48q × A2, same source | 4,859.589603973… | **159.807621%** |
-| 51 | 11,794.804713454… | **Derived:** P48q × A3, same source | 2,975.878722267… | **296.346955%** |
-| 52 | 12,370.495545910… | **Derived:** two Blichfeldt sections of [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0) | 5,237.552386373… | **136.188483%** |
-| 57 | 163056.783695743 | **Derived:** MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 98106.6069059854 | **66.203673%** |
+| 50 | 14578.768811917893… | **Derived:** P48q × A2, same source | 4,859.589603973… | **200.000000%** |
+| 51 | 13186.992560309189… | **Derived:** P48q × A3, same source | 2,975.878722267… | **343.129368%** |
+| 52 | 13773.364524023099… | **Derived:** two Blichfeldt sections of [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0) | 5,237.552386373… | **162.973303%** |
+| 53 | 20890.804898853429… | **Derived:** one Blichfeldt section of [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0) | 17532.82564220611 | **19.152528%** |
+| 57 | 163093.23475965115… | **Derived:** MW56 × A1 — [Schütt–Shioda, Theorem 13.35, p=29](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 98106.6069059854 | **66.240827%** |
 | 59 | 274,522.589741150… | **Derived:** Γ72 perpendicular to √2κ13, from [Nebe (2012), §4.2](https://arxiv.org/abs/1008.2862) and [κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html) | 269,064.727051… | **2.028457%** |
 | 60 | 773597.1467710571 | **Reported:** Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 19.04… | `log₂ δ=19.04…` | **>42.525785%** |
 | 61 | 2043183.683386255 | **Reported:** Elkies section guarantee — [Vardy (1999), §4, p.278](https://doi.org/10.1090/S0002-9947-99-02169-8); published log₂ δ prefix 20.54… | `log₂ δ=20.54…` | **>33.088644%** |
@@ -43,31 +44,32 @@ it does not mean that its authors printed that same-dimensional number.
 | 74 | 52900277856.1331 | **Derived:** Γ72 × A2 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | 19837604196.0499 | **166.666667%** |
 | 75 | 52900277856.1331 | **Derived:** Γ72 × A3 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | 12148001999.9042 | **335.464843%** |
 | 76 | 61083979320.88889 | **Derived:** Γ72 × D4 — [Nebe (2012)](https://arxiv.org/abs/1008.2862) | 8589934592.0 | **611.111111%** |
-| 77 | 61083979320.88889 | **Derived:** Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | 22443687119.2346 | **172.165527%** |
+| 77 | 70533703808.177467… | **Derived:** Bare L80 section, normal rank 3 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | 22443687119.2346 | **214.269681%** |
 | 78 | 104731824371.1325 | **Derived:** Bare L80 section, normal rank 2 — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf); [normal matrix audit](../../research/cross_dimension_lower_20261115/l80_results.json) | 79350416784.1997 | **31.986483%** |
 | 79 | 299178543929.5057 | **Derived:** L80 perpendicular to a minimum vector — [Bachoc–Nebe (1998)](https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf) | 274877906944.0 | **8.840520%** |
-| 81 | 1,066,248,855,605.296… | **Derived:** MW80 × A1, from [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 609,520,950,801.816… | **74.932273%** |
-| 82 | 1040071302182.495 | **Derived:** MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 351907085022.145 | **195.552817%** |
+| 81 | 1066394783124.8914… | **Derived:** MW80 × A1, from [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 609,520,950,801.816… | **74.956215%** |
+| 82 | 1040341684972.145… | **Derived:** MW80 × A2 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 351907085022.145 | **195.629650%** |
 | 83 | 1112627538435.653 | **Derived:** MW80 × A3 — [Schütt–Shioda, Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 215498198793.618 | **416.304797%** |
 | 84 | 1,407,374,883,553.280 | **Derived:** BCS88 perpendicular to √2D4, from [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf) | 549,755,813,888 | **156%** |
-| 85 | 1,453,530,529,565.988… | **Derived:** BCS88 perpendicular to √2A3, same source | 1,099,511,627,776 | **32.197832%** |
-| 93 | 8742047493270432.0 | **Derived:** MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 4.88702544074196e+15 | **78.882791%** |
-| 94 | 8583004659539084.0 | **Derived:** MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 2.82152545374892e+15 | **204.197315%** |
-| 95 | 8865551293806628.0 | **Derived:** MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 1.72782441448991e+15 | **413.104875%** |
-| 96 | 10,391,088,344,672,478.939… | **Reported:** Bos–Conway–Sloane (1982), Table 1, p.177 | `3^48/2^24`, from Eq. (15) | **118.554980%** |
+| 85 | 1598670440672.3403… | **Derived:** BCS88 perpendicular to √2A3, same source | 1,099,511,627,776 | **45.398230%** |
+| 93 | 8743033982260848.9… | **Derived:** MW92 × A1 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 4.88702544074196e+15 | **78.902977%** |
+| 94 | 8584803057662693.3… | **Derived:** MW92 × A2 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 2.82152545374892e+15 | **204.261053%** |
+| 95 | 8868241996705554.8… | **Derived:** MW92 × A3 — [Schütt–Shioda, Theorem 13.35, p=47](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf) | 1.72782441448991e+15 | **413.260602%** |
+| 96 | 10395177038683104.0… | **Reported:** Bos–Conway–Sloane (1982), Table 1, p.177 | `3^48/2^24`, from Eq. (15) | **118.640977%** |
 
 The exact density squares, comparison provenance and rational gain
 intervals are checked by [verify_literature_comparisons.py](verify_literature_comparisons.py)
 and retained in [literature_comparisons.json](literature_comparisons.json).
-The 49D–52D and 65D lattices and the 59D–62D, 66D–71D and 78D–79D
+The 49D–53D and 65D lattices and the 59D–62D, 66D–71D and 78D–79D
 periodic packings are explicit. The other registered bounds are existence
 proofs. Both establish sphere-packing lower bounds. For 60D–62D, the stated
 strict gains hold even at the upper ends of the source's decimal-prefix
 intervals; the full outward gain intervals are retained in the exact report.
 
 The [remaining-dimensions review](REMAINING_DIMENSIONS.md) accounts for the
-whole range. It adds 23 construction dimensions to the earlier nine and
-corrects the 55D literature input using Leterrier's 2024 thesis.
+whole range. The subsequent [adaptive-layer continuation](../adaptive_layers_20261115/)
+strengthens 13 bounds and adds an explicit 53D lattice to the dated claims,
+bringing the construction total to 33. The 55D literature correction remains valid.
 
 For 59D, Vardy's 1999 paper reports a weaker Elkies guarantee with
 `log2(delta)` beginning `17.75…`. Our proof improves that published
