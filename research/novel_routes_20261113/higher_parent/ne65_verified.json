@@ -22,9 +22,9 @@
   "center_density_formula": "3^17/sqrt(10)",
   "center_density_squared": "16677181699666569/10",
   "center_density_approx": 40837705.24854031,
-  "world_record_status": "priority not established",
+  "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md",
   "independent_CVP_certificate": {
-    "path": "/workspace/scratch/5bba088ede14/SpherePackingUpperBounds/research/novel_routes_20261113/ne64_hole_certificate/summary.json",
+    "path": "/workspace/work/SpherePackingUpperBounds/research/novel_routes_20261113/ne64_hole_certificate/summary.json",
     "sha256": "f412e07a38277c73e4299c932e6fc1c429a7d035d2b5d677fa0528cc13619a41"
   }
 }

@@ -2,7 +2,7 @@
 
 This checkpoint gives explicit, certified sphere-packing lower bounds in dimensions **65–71**. Its strongest 65-dimensional construction is an explicit extension of Ne64 constructed here through a dual coset of minimum `26/3`; a complete outward-interval enumeration certifies that minimum. The 66–71 constructions use finite dual clusters in low-rank normal sublattices of Nebe's `Gamma72`. Published minimum theorems for both parent lattices are inherited, rather than re-enumerated.
 
-**World-record status has not been established.** The standard Cohn and Nebe–Sloane density tables do not tabulate dimensions 65–71. The Gamma72 comparisons below are against a rigorous ceiling for the *bare-section bounds that use the inherited parent minimum 8*, not against an independently established list of all previous packings. A section with higher actual minimum is outside that comparison.
+**Current literature status, 15 November 2026:** our 65D–71D bounds are best-known in the [dated source review](../../covering_and_deep_cosets_20261115/PRIORITY.md); no stronger published lower bound was located. The numerical comparisons below use the stated Gamma72 section controls. The review compares the published guarantees and their classical consequences directly; a previous-record table is unnecessary.
 
 ## Explicit 65-dimensional lattice: completed certificate
 
@@ -19,7 +19,7 @@ The historical `candidate` filenames are retained for continuity; their proof st
 =40,837,705.2485403\ldots.}
 \]
 
-It improves on the depth-8 Ne64 extension proved below by the factor `sqrt(6/5)`, or **9.5445115%**, and improves on this checkpoint's Gamma72 65D construction. These are explicit, stated comparisons; global priority remains unestablished.
+It improves on the depth-8 Ne64 extension proved below by the factor `sqrt(6/5)`, or **9.5445115%**, and improves on this checkpoint's Gamma72 65D construction. The current source review and external comparisons are linked above.
 
 The construction uses an exact dual vector `h` with squared norm `26/3` and the generator `(h,sqrt(10/3))` above Ne64. Its third multiple has horizontal component in Ne64. All nonzero layer classes have squared norm at least `26/3+10/3=12`; nonzero layers divisible by three have vertical squared norm at least 30. The saved 65D Gram has final diagonal 12 and small integer off-diagonal entries.
 

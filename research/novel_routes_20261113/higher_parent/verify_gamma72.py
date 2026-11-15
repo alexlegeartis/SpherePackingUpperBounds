@@ -50,12 +50,12 @@ for f in sorted(list(P.glob('gamma72_simplex_rank*.npz'))+list(P.glob('gamma72_r
       'inherited_minimum8_section_ceiling_squared_exact':str(bare2[k]),
       'ratio_to_inherited_minimum8_section_ceiling_squared_exact':str(ratio2),
       'ratio_to_inherited_minimum8_section_ceiling_approx':float(sp.sqrt(ratio2)),
-      'world_record_established':False,
+      'literature_status_report':'../../covering_and_deep_cosets_20261115/PRIORITY.md',
       'inherited_input':'Published minimum 8 of Nebe Gamma72; not re-enumerated here.'}
  out.append(row);print(n,'det',det,'beta',beta,'density',row['center_density_approx'],'ratio',row['ratio_to_inherited_minimum8_section_ceiling_approx'],flush=True)
 report={'ambient_dimension':72,'ambient_determinant':1,'ambient_positive_definite_exact':True,
         'ambient_even_integral_exact':True,'ambient_source_sha256':hashlib.sha256((P/'neb72.html').read_bytes()).hexdigest(),
         'ambient_gram_sha256':hashlib.sha256(np.array(G.tolist(),dtype='<i8').tobytes()).hexdigest(),
-        'inherited_minimum':8,'all_checked':True,'world_record_established':False,'comparison_scope':'Bare section density lower bounds computed from parent minimum8, not arbitrary sections with higher actual minimum.', 'certificates':out}
+        'inherited_minimum':8,'all_checked':True,'literature_status_report':'../../covering_and_deep_cosets_20261115/PRIORITY.md','comparison_scope':'Bare section density lower bounds computed from parent minimum8; dated literature comparisons are recorded separately.', 'certificates':out}
 (P/'gamma72_verified.json').write_text(json.dumps(report,indent=2,default=int)+'\n')
 print('PASS',len(out),'certificates',time.time()-start,flush=True)

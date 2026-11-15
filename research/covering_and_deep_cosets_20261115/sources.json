@@ -46,10 +46,11 @@
     "Coxeter Few Rogers covering density simplex bound",
     "\"Packing and covering in higher dimensions\" Fejes Toth pdf"
   ],
-  "priority_conclusion": "Best-known lower bounds in 49--52D, 59D, 81D, 84D, 85D and 96D in the documented review dated 2026-11-15: no stronger published lower bound was located. Compare proved guarantees; a prior-record table or a prior lattice's uncomputed actual density is not required. See PRIORITY.md and literature_review.json.",
+  "priority_conclusion": "Best-known construction lower bounds in 32 dimensions: 49D\u201352D, 57D, 59D\u201362D, 65D\u201371D, 73D\u201379D, 81D\u201385D and 93D\u201396D. No stronger published lower bound located in the dated review. See remaining_dimensions_review.json and PRIORITY.md; 55D now uses Leterrier2024's stronger published lamination.",
   "Rogers_packing_simplex": {
     "original_attribution": "C. A. Rogers (1958), as referenced in Fejes Toth2022 Section 2.2",
     "theorem_statement_source": "https://arxiv.org/abs/2202.11358",
     "application": "Finite Dirichlet second-moment estimate, then exact Hermite and section inequalities; original packing theorem inherited"
-  }
+  },
+  "remaining_dimensions_review": "remaining_dimensions_review.json"
 }

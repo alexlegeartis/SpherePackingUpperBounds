@@ -14989,7 +14989,7 @@
       "ratio_to_comparison": "1.00523795281420095260310120321408691182517176",
       "ratio_to_previous": "1.00523795281420095260310120321408691182517176",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "derived_classical_section_control",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15028,32 +15028,32 @@
       "dimension": 55,
       "best_checked": {
         "dimension": 55,
-        "name": "Shioda MW56 / Rogers section to 55D",
-        "density_squared": "3101854500",
-        "evidence": "research/covering_and_deep_cosets_20261115/sections_results.json",
-        "kind": "new_derived_section_control"
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
       },
-      "center_density": "55694.2950399769401731527821152252955810935805",
+      "center_density": "116783.149646304716660799144046447486725721945",
       "comparison": {
         "dimension": 55,
-        "name": "Shioda MW56 / Blichfeldt section to 55D",
-        "density_squared": "3068134994",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
       },
-      "comparison_center_density": "55390.7482708078245004303082289495177002058288",
+      "comparison_center_density": "116783.149646304716660799144046447486725721945",
       "previous_checked": {
         "dimension": 55,
-        "name": "Shioda MW56 / Blichfeldt section to 55D",
-        "density_squared": "3068134994",
-        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
-        "kind": "derived_classical_section"
+        "name": "Leterrier55 lamination, Proposition 3.2.22 (2024)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "published_lattice_guarantee"
       },
-      "previous_center_density": "55390.7482708078245004303082289495177002058288",
-      "ratio_to_comparison": "1.00548009872849274499798737720168056162533176",
-      "ratio_to_previous": "1.00548009872849274499798737720168056162533176",
-      "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "previous_center_density": "116783.149646304716660799144046447486725721945",
+      "ratio_to_comparison": "1",
+      "ratio_to_previous": "1",
+      "improves_previous_checked_envelope": false,
+      "literature_status": "literature_input_or_derived_control",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15117,7 +15117,7 @@
       "ratio_to_comparison": "1.66203672553876724573216089179709299667072235",
       "ratio_to_previous": "1.07482033764064667869948172662399699951211902",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15213,7 +15213,7 @@
       "ratio_to_comparison": "1.43517130300831267535912087733563035605052357",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15245,7 +15245,7 @@
       "ratio_to_comparison": "1.34014348918861357268751221225168904122865090",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15277,7 +15277,7 @@
       "ratio_to_comparison": "1.13054407826372928273489343328836039145302316",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15373,7 +15373,7 @@
       "ratio_to_comparison": "1.21705845739067528957178660675194565647144421",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15405,7 +15405,7 @@
       "ratio_to_comparison": "1.06978038505594051038201310828015342805951120",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15437,7 +15437,7 @@
       "ratio_to_comparison": "1.30459862869799701369803562288269060628081366",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15469,7 +15469,7 @@
       "ratio_to_comparison": "1.51273173740051943910883877568366380445877501",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15501,7 +15501,7 @@
       "ratio_to_comparison": "1.54268972956727298843701026221689493507368588",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15533,7 +15533,7 @@
       "ratio_to_comparison": "1.43582983850796723705629169430219480961890239",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15565,7 +15565,7 @@
       "ratio_to_comparison": "1.14456956041611235814662513333409617807929759",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15629,7 +15629,7 @@
       "ratio_to_comparison": "1.63299316185545206546485604980392759464396499",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15661,7 +15661,7 @@
       "ratio_to_comparison": "2.66666666666666666666666666666666666666666667",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15693,7 +15693,7 @@
       "ratio_to_comparison": "4.35464843161453884123961613281047358571723997",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15725,7 +15725,7 @@
       "ratio_to_comparison": "7.11111111111111111111111111111111111111111111",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15757,7 +15757,7 @@
       "ratio_to_comparison": "2.72165526975908677577476008300654599107327498",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15789,7 +15789,7 @@
       "ratio_to_comparison": "1.31986483014903053477460743678419857652376438",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15821,7 +15821,7 @@
       "ratio_to_comparison": "1.08840520235209887829375143603512808100534827",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15917,7 +15917,7 @@
       "ratio_to_comparison": "2.95552816766120189508466110436265512828470012",
       "ratio_to_previous": "1.02400937230095512190251227330843732177321126",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -15949,7 +15949,7 @@
       "ratio_to_comparison": "5.16304797285666709972274075757648640600834509",
       "ratio_to_previous": "1",
       "improves_previous_checked_envelope": false,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16141,7 +16141,7 @@
       "ratio_to_comparison": "1.00965394862254200262890841843902023945225348",
       "ratio_to_previous": "1.00965394862254200262890841843902023945225348",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "derived_classical_section_control",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16173,7 +16173,7 @@
       "ratio_to_comparison": "1.00642310065384620001440050358589344871709200",
       "ratio_to_previous": "1.00642310065384620001440050358589344871709200",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "derived_classical_section_control",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16205,7 +16205,7 @@
       "ratio_to_comparison": "1.00320551082034982083992844866508642479981334",
       "ratio_to_previous": "1.00320551082034982083992844866508642479981334",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "derived_classical_section_control",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16269,7 +16269,7 @@
       "ratio_to_comparison": "1.78882790754270965800811766482796724839196235",
       "ratio_to_previous": "1.06837494065500756676262824246367936357189436",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16301,7 +16301,7 @@
       "ratio_to_comparison": "3.04197314546107186965753466328399252891395475",
       "ratio_to_previous": "1.11435575571738852689408457902133639964226396",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {
@@ -16333,7 +16333,7 @@
       "ratio_to_comparison": "5.13104874514921780724231999613246316610254423",
       "ratio_to_previous": "1.19636192716570973351445593144265138198649329",
       "improves_previous_checked_envelope": true,
-      "literature_status": "improves_named_comparison",
+      "literature_status": "best_known_lower_bound_in_dated_review",
       "literature_review_date": "2026-11-15"
     },
     {

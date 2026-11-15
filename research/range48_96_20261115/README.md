@@ -29,7 +29,7 @@ New positive work in the other dimensions:
 
 The 49–52D shifts are explicit and every required coset has been fully
 enumerated. The 81D torus shifts remain existential.
-**49D–52D, 59D, 81D, 84D, 85D and 96D are best-known lower bounds in
+**49D–52D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are best-known lower bounds in
 the literature review dated 15 November 2026:** no stronger published
 bound was located. The [current review and comparison table](../covering_and_deep_cosets_20261115/PRIORITY.md)
 name each source and distinguish reported numbers from derived bounds.
@@ -42,7 +42,7 @@ actual minimum and a previous-record table are not prerequisites.
 | --- | --- |
 | **48** | Classical P48 minimum-6 lattices; no improvement found |
 | **49–52** | New explicit P48 compatible-coset lattices, with full coset enumerations; seek deeper compatible shifts and further external comparisons |
-| **53–56** | Leterrier54 and MW56 remain the parents; sharper Rogers estimates now improve their conservative 53D/55D section controls |
+| **53–56** | Leterrier54, Leterrier2024's stronger 55D lamination and MW56; 53D remains a classical derived section control |
 | **57–58** | New covering-based MW56 torus extension in 57D; the Gamma72/Leech-block section remains stronger in 58D |
 | **59–62** | Retain existing Ne64 antipodes; their comparisons have the scope recorded in the source audit |
 | **63** | Our Ne64 antipode is below Elkies's historical guarantee; do not claim an improvement |

@@ -5,6 +5,11 @@ used in the previous Blichfeldt section controls. These are **derived
 classical guarantees**, not explicit normals or dimension-specific
 records printed in the parent papers.
 
+**55D source correction:** Leterrier's 2024 thesis, Proposition 3.2.22,
+gives the stronger guarantee **116,783.149646…**. The old 55D control
+below remains a valid calculation but is superseded in the current table.
+[Source and exact comparison](REMAINING_DIMENSIONS.md#the-55d-correction-from-a-previously-omitted-source).
+
 Rogers's packing simplex theorem is stated alongside the covering
 theorem in [Fejes Tóth2022, §2.2](https://arxiv.org/abs/2202.11358),
 with attribution to Rogers1958. Let T be uniform on the simplex

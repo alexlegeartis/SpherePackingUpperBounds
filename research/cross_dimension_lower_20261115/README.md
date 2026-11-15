@@ -20,12 +20,12 @@ certificates in 76–79D. The best bounds from this experiment cover twelve
 dimensions. The general self-orthogonal minimum-12 construction remains
 open; these routes do not depend on resolving it.
 
-**No new worldwide record is established here.** Every comparison below is
-a specified construction derived from named published parents. It is not
-a dimension-specific value printed by the source, or an assertion that no
-previous packing is denser. In particular, possible higher-minimum sections
-and sections of the denser Mordell–Weil 80D parent remain outside this
-comparison. Sparse published tables do not establish priority.
+**Current literature status, 15 November 2026:** the current bounds in
+73D–79D and 81D–85D are best-known in the [dated source review](../covering_and_deep_cosets_20261115/PRIORITY.md).
+No stronger published lower bound was located. The checkpoint table below
+retains its original numbers; the [complete current table](../range48_96_20261115/TABLE.md)
+uses the stronger covering updates in 81D/82D and the stronger source-based
+comparisons. Each numerical gain remains tied to its named comparator.
 
 The [literature-status check](LITERATURE_STATUS.md) retains the historical
 Chen comparison and now leads with the stronger classical comparisons.

@@ -46,5 +46,23 @@
     "role": "Classical even unimodular rank-48 minimum-6 parent; exact Gram binding checked, published minimum inherited",
     "download_sha256": "c1f04856618da946626600a588ebc14ebdb2683fe86786ff3b4828ac1ed10616",
     "snapshot_normalization": "Trailing whitespace and terminal blank lines removed; Gram content unchanged"
+  },
+  "followup_review": "../covering_and_deep_cosets_20261115/remaining_dimensions_review.json",
+  "Leterrier2024": {
+    "author": "Gauthier Leterrier",
+    "title": "Some Mordell-Weil lattices and applications to sphere packings",
+    "type": "EPFL doctoral thesis 10417, 2024",
+    "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "locators": [
+      "Proposition 3.2.22 and table, pp.155-156: 55D lamination",
+      "Theorem 3.2.7: 54D parent",
+      "Remark 4.1.11, table p.204: lower guarantees in 68D and 74D"
+    ],
+    "full_pdf_retrieved": true,
+    "findings": [
+      "The 55D formula exceeds our earlier Rogers-derived 55D control and must replace it.",
+      "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
+    ]
   }
 }

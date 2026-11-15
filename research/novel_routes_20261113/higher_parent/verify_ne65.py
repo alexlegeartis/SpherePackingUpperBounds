@@ -84,7 +84,7 @@ report={
     'layer_bounds':{'zero_layer':'12 from published parent minimum','nonzero_mod3':'26/3+10/3=12','nonzero_divisible_by3':'9*(10/3)=30'},
     'center_density_formula':'3^17/sqrt(10)','center_density_squared':str(s.Rational(3**34,10)),
     'center_density_approx':float(s.Integer(3)**17/s.sqrt(10)),
-    'world_record_status':'priority not established',
+    'literature_status_report':'../../covering_and_deep_cosets_20261115/PRIORITY.md',
     'independent_CVP_certificate':certificate_info,
 }
 (P/'ne65_verified.json').write_text(json.dumps(report,indent=2)+'\n')

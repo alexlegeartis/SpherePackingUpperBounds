@@ -17,10 +17,9 @@ proof are complete.
 
 This checkpoint also gives nine exactly checked periodic packings in
 dimensions **60–62 and 66–71**. These and the 65D lattice exceed the specific
-comparison constructions audited here. **Global record status and publication
-priority have not been established.** The public density tables are sparse
-in these dimensions; no missing table entry is treated as evidence of novelty.
-The existing record registry is not changed.
+comparison constructions audited here. The [current dated source review](../covering_and_deep_cosets_20261115/PRIORITY.md)
+registers 60D–62D and 65D–71D as best-known lower bounds; no stronger published
+bound was located. The historical comparisons below retain their stated denominators.
 
 All densities below are **center densities**. The occupied-volume fraction is
 `Delta_n = V_n delta_n`, with `V_n = pi^(n/2)/Gamma(n/2+1)`.
@@ -40,8 +39,8 @@ source roles, and current 59D update are documented in the
 | Dimension | Construction | Certified center density | Comparison established here |
 |---|---|---:|---|
 | 60 | Five Ne64 antipode cosets | 773,597.146771 | Exceeds the audited propagated families and the lower bound printed in Vardy 1999 |
-| 61 | Four Ne64 antipode cosets | 2,043,183.683386 | Above the printed historical Elkies bound in Vardy 1999 §4; current record not identified |
-| 62 | Three Ne64 antipode cosets | 5,188,971.717320 | Above the printed historical Elkies bound in Vardy 1999 §4; current record not identified |
+| 61 | Four Ne64 antipode cosets | 2,043,183.683386 | Above the printed historical Elkies bound in Vardy 1999 §4; best-known in the current dated review |
+| 62 | Three Ne64 antipode cosets | 5,188,971.717320 | Above the printed historical Elkies bound in Vardy 1999 §4; best-known in the current dated review |
 | **65** | **Explicit Ne64 deep-coset extension** | **40,837,705.248540** | **9.5445115% above the depth-8 extension established in this run** |
 | 66 | Nine Gamma72 antipode cosets | 82,897,968.185303 | 6.978039% above the inherited-minimum bare-section ceiling |
 | 67 | Six Gamma72 antipode cosets | 247,629,167.976493 | 30.459863% above that ceiling |

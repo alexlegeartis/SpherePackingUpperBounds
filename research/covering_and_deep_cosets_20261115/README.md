@@ -38,9 +38,14 @@ is approximately **17,624.661756**. These are conservative consequences
 of published parents, not new explicit normals or reported records.
 [Derivation and all five values](SECTIONS_PROOF.md) · [exact audit](verify_sections.py).
 
+The [remaining-dimensions review](REMAINING_DIMENSIONS.md) extends the
+best-known claims to 32 construction dimensions and corrects the 55D
+literature entry to Leterrier2024's **116,783.149646…**, above our old
+55D control. Four section estimates remain classical derived controls.
+
 ## What the priority investigation confirms
 
-**The bounds in 49D–52D, 59D, 81D, 84D, 85D and 96D are best-known
+**The bounds in 49D–52D, 57D, 59D–62D, 65D–71D, 73D–79D, 81D–85D and 93D–96D are best-known
 lower bounds in our literature review dated 15 November 2026.** No
 stronger published lower bound was located. [Sources and comparison table](PRIORITY.md)
 identify the work and theorem behind each numerical comparison.

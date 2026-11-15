@@ -3,7 +3,8 @@
 **84D, 85D and 96D are best-known lower bounds in our literature review
 dated 15 November 2026.** No stronger published bound was located.
 The [current review](../covering_and_deep_cosets_20261115/PRIORITY.md)
-also registers 49D–52D, 59D and 81D and gives each source and exact gain.
+registers 32 construction dimensions and gives each source and exact gain.
+[All remaining dimensions and the 55D literature correction](../covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md).
 
 * **84D/85D:** classical BCS88 sections give stronger comparisons than
   Chen's guarantees. Our gains over those sections are **156%** and
@@ -104,13 +105,13 @@ not a missing table entry.
 
 | Dimensions | Evidence available | Literature status |
 | --- | --- | --- |
-| 73–77 | Exact existence proofs; named derived-product comparisons | Improves named bounds |
-| 78–79 | Explicit L80 antipode certificates; derived-product and section comparisons | Improves named bounds |
+| 73–77 | Exact existence proofs; named derived-product comparisons | **Best-known; literature checked 15 November 2026** |
+| 78–79 | Explicit L80 antipode certificates; derived-product and section comparisons | **Best-known; literature checked 15 November 2026** |
 | **81** | Stronger MW80 covering proof | **Best-known; literature checked 15 November 2026** |
-| 82–83 | Exact existence proofs; named derived-product comparisons | Improves named bounds |
+| 82–83 | Exact existence proofs; named derived-product comparisons | **Best-known; literature checked 15 November 2026** |
 | **84–85** | Exact gains of 156% and 32.197832% over classical BCS88 sections | **Best-known; literature checked 15 November 2026** |
 | **86–87** | Classical BCS88 sections exceed our results | **Our candidates rejected** |
-| 93–95 | Stronger periodic existence proofs exceed derived MW92 products | Improves named bounds |
+| 93–95 | Stronger periodic existence proofs exceed derived MW92 products | **Best-known; literature checked 15 November 2026** |
 | **96** | Exact gain of 118.554980% over the reported BCS96 construction | **Best-known; literature checked 15 November 2026** |
 
 The [59D source investigation](../../constructions/dim59/#literature-derived-comparison)

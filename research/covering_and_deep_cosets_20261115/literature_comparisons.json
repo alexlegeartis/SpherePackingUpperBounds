@@ -7,10 +7,33 @@
       50,
       51,
       52,
+      57,
       59,
+      60,
+      61,
+      62,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
       81,
+      82,
+      83,
       84,
       85,
+      93,
+      94,
+      95,
       96
     ],
     "criterion": "Our certified lower bound exceeds the published guarantees and classical consequences compared in the review, and no stronger published lower bound was located.",
@@ -24,12 +47,37 @@
       "../../constructions/dim59/README.md"
     ],
     "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
-    "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified."
+    "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
+    "additional_review": "remaining_dimensions_review.json",
+    "historical_guarantee_log2_prefixes": {
+      "60": "19.04",
+      "61": "20.54",
+      "62": "22.13"
+    },
+    "derived_classical_controls_not_claimed_as_new_records": [
+      53,
+      89,
+      90,
+      91
+    ],
+    "published_bounds_exceeding_our_old_candidates": {
+      "55": "Leterrier2024, Proposition 3.2.22; delta^2=5^55/(2^56*3^24)",
+      "63": "Elkies lower bound reported by Vardy1999",
+      "86": "Classical BCS88 section",
+      "87": "Classical BCS88 section"
+    }
   },
   "rows": [
     {
       "dimension": 49,
       "our_density_squared": "239299329230617529590083/1125899906842624",
+      "our_method": {
+        "dimension": 49,
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "239299329230617529590083/1125899906842624",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
+      },
       "named_external_comparison": {
         "dimension": 49,
         "name": "Leech--Sloane P48q x classical 1D lattice",
@@ -37,20 +85,29 @@
         "evidence": "https://neilsloane.com/doc/Me103.pdf",
         "kind": "derived_product"
       },
-      "comparison_density_squared": "79766443076872509863361/1125899906842624",
-      "ratio_squared_exact": "3",
-      "gain_percent": "73.2050807568877293527446341505872366942805253810380628055810",
-      "gain_percent_interval": [
-        "1830127/25000",
-        "73205081/1000000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "79766443076872509863361/1125899906842624",
+      "ratio_squared_exact": "3",
+      "gain_percent": "73.20508075688772935274463415058723669428052538103806280558069794519330",
+      "gain_percent_interval": [
+        "73.20508",
+        "73.205081"
+      ],
+      "gain_percent_display": "73.205081%"
     },
     {
       "dimension": 50,
       "our_density_squared": "717897987691852588770249/4503599627370496",
+      "our_method": {
+        "dimension": 50,
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "717897987691852588770249/4503599627370496",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
+      },
       "named_external_comparison": {
         "dimension": 50,
         "name": "Leech--Sloane P48q x classical 2D lattice",
@@ -58,20 +115,29 @@
         "evidence": "https://neilsloane.com/doc/Me103.pdf",
         "kind": "derived_product"
       },
-      "comparison_density_squared": "26588814358957503287787/1125899906842624",
-      "ratio_squared_exact": "27/4",
-      "gain_percent": "159.807621135331594029116951225880855041420788071557094208371",
-      "gain_percent_interval": [
-        "159807621/1000000",
-        "79903811/500000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "26588814358957503287787/1125899906842624",
+      "ratio_squared_exact": "27/4",
+      "gain_percent": "159.8076211353315940291169512258808550414207880715570942083710469177900",
+      "gain_percent_interval": [
+        "159.807621",
+        "159.807622"
+      ],
+      "gain_percent_display": "159.807621%"
     },
     {
       "dimension": 51,
       "our_density_squared": "2153693963075557766310747/15481123719086080",
+      "our_method": {
+        "dimension": 51,
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "2153693963075557766310747/15481123719086080",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
+      },
       "named_external_comparison": {
         "dimension": 51,
         "name": "Leech--Sloane P48q x classical 3D lattice",
@@ -79,20 +145,29 @@
         "evidence": "https://neilsloane.com/doc/Me103.pdf",
         "kind": "derived_product"
       },
-      "comparison_density_squared": "79766443076872509863361/9007199254740992",
-      "ratio_squared_exact": "864/55",
-      "gain_percent": "296.346955445489818018949749635836266076401781836947134410909",
-      "gain_percent_interval": [
-        "59269391/200000",
-        "74086739/250000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "79766443076872509863361/9007199254740992",
+      "ratio_squared_exact": "864/55",
+      "gain_percent": "296.3469554454898180189497496358362660764017818369471344109083990393319",
+      "gain_percent_interval": [
+        "296.346955",
+        "296.346956"
+      ],
+      "gain_percent_display": "296.346955%"
     },
     {
       "dimension": 52,
       "our_density_squared": "2153693963075557766310747/14073748835532800",
+      "our_method": {
+        "dimension": 52,
+        "name": "Deeper P48 cosets with fitted vertical metric",
+        "density_squared": "2153693963075557766310747/14073748835532800",
+        "evidence": "research/covering_and_deep_cosets_20261115/deeper_results.json",
+        "kind": "new_explicit_lattice"
+      },
       "named_external_comparison": {
         "dimension": 52,
         "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 52D",
@@ -100,20 +175,59 @@
         "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
         "kind": "derived_classical_section"
       },
-      "comparison_density_squared": "27431955",
-      "ratio_squared_exact": "239299329230617529590083/42896716081959796736000",
-      "gain_percent": "136.188483347592884754729235938309514642210663264924999127067",
-      "gain_percent_interval": [
-        "136188483/1000000",
-        "34047121/250000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "27431955",
+      "ratio_squared_exact": "239299329230617529590083/42896716081959796736000",
+      "gain_percent": "136.1884833475928847547292359383095146422106632649249991270673627723055",
+      "gain_percent_interval": [
+        "136.188483",
+        "136.188484"
+      ],
+      "gain_percent_display": "136.188483%"
+    },
+    {
+      "dimension": 57,
+      "our_density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+      "our_method": {
+        "dimension": 57,
+        "name": "Shioda MW56 CFR torus + 1D mod2",
+        "density_squared": "21684043449710088680149056017398834228515625/815572410090911982512265102360576",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
+      "named_external_comparison": {
+        "dimension": 57,
+        "name": "Shioda MW56 x classical 1D lattice",
+        "density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
+      "ratio_squared_exact": "2000000/724017",
+      "gain_percent": "66.20367255387672457321608917970929966707223473011631895287206192619950",
+      "gain_percent_interval": [
+        "66.203672",
+        "66.203673"
+      ],
+      "gain_percent_display": "66.203673%"
     },
     {
       "dimension": 59,
       "our_density_squared": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/284029347387705919624471088176621380742985085328384105240383643186903162188781406997589383713001126582653023337656951836057047625443685815452970103864505139200",
+      "our_method": {
+        "dimension": 59,
+        "name": "Ne64 antipode, six translates",
+        "density_squared": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/284029347387705919624471088176621380742985085328384105240383643186903162188781406997589383713001126582653023337656951836057047625443685815452970103864505139200",
+        "evidence": "constructions/dim59/result.json",
+        "kind": "prior_repository_result"
+      },
       "named_external_comparison": {
         "dimension": 59,
         "name": "Classical Gamma72/kappa13 section",
@@ -121,20 +235,557 @@
         "evidence": "constructions/dim59/verify_literature_section.py",
         "kind": "derived_classical_section"
       },
-      "comparison_density_squared": "17592186044416/243",
-      "ratio_squared_exact": "5201464801387195079577104090183729690997828700531741205948117069547490121258368827707211230762287161288910956249213377304542579090778460773676956174985047518970916234932489/4996697121318584144907091660866032034060227063403229808777912180658513089002700477020208963109416504048234398313518585458328261187973480722717073498782813340008151462707200",
-      "gain_percent": "2.02845714839746952135603979717370437253221508252792832681400",
-      "gain_percent_interval": [
-        "2028457/1000000",
-        "1014229/500000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "17592186044416/243",
+      "ratio_squared_exact": "5201464801387195079577104090183729690997828700531741205948117069547490121258368827707211230762287161288910956249213377304542579090778460773676956174985047518970916234932489/4996697121318584144907091660866032034060227063403229808777912180658513089002700477020208963109416504048234398313518585458328261187973480722717073498782813340008151462707200",
+      "gain_percent": "2.028457148397469521356039797173704372532215082527928326813937524537200",
+      "gain_percent_interval": [
+        "2.028457",
+        "2.028458"
+      ],
+      "gain_percent_display": "2.028457%"
+    },
+    {
+      "dimension": 60,
+      "our_density_squared": "5544723244335223446698732155483832197862019691088815682339702433559574430690857360401201/9265100944259205000000000000000000000000000000000000000000000000000000000000",
+      "our_method": {
+        "dimension": 60,
+        "name": "Ne64 antipode, 5 translates",
+        "density_squared": "5544723244335223446698732155483832197862019691088815682339702433559574430690857360401201/9265100944259205000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/novel_routes_20261113/dual64/constructed.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 60,
+        "name": "Elkies E60, Vardy1999 printed log2 prefix 19.04",
+        "density_squared": "290550906591",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "published_decimal_prefix",
+      "reported_guarantee_log2_interval": [
+        "476/25",
+        "381/20"
+      ],
+      "reported_guarantee_log2_interval_lower_inclusive": true,
+      "reported_guarantee_log2_interval_upper_inclusive": false,
+      "gain_percent_interval": [
+        "42.525785",
+        "43.517131"
+      ],
+      "gain_percent_interval_endpoints_strict": true,
+      "gain_percent_display": ">42.525785%",
+      "gain_percent_range_display": "42.525785\u201343.517131%",
+      "exact_integer_power_comparisons_verified": true
+    },
+    {
+      "dimension": 61,
+      "our_density_squared": "17415801853485004855336762442939898744688594522840665673209227303681849503950820521480637959932273263427871/4171849679533027504677776769862406473833407270227837441302815640277772901915313574263597826048",
+      "our_method": {
+        "dimension": 61,
+        "name": "Ne64 antipode, 4 translates",
+        "density_squared": "17415801853485004855336762442939898744688594522840665673209227303681849503950820521480637959932273263427871/4171849679533027504677776769862406473833407270227837441302815640277772901915313574263597826048",
+        "evidence": "research/novel_routes_20261113/dual64/constructed.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 61,
+        "name": "Elkies E61, Vardy1999 printed log2 prefix 20.54",
+        "density_squared": "2324407252732",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "published_decimal_prefix",
+      "reported_guarantee_log2_interval": [
+        "1027/50",
+        "411/20"
+      ],
+      "reported_guarantee_log2_interval_lower_inclusive": true,
+      "reported_guarantee_log2_interval_upper_inclusive": false,
+      "gain_percent_interval": [
+        "33.088644",
+        "34.014349"
+      ],
+      "gain_percent_interval_endpoints_strict": true,
+      "gain_percent_display": ">33.088644%",
+      "gain_percent_range_display": "33.088644\u201334.014349%",
+      "exact_integer_power_comparisons_verified": true
+    },
+    {
+      "dimension": 62,
+      "our_density_squared": "539782436982347484203948377350754466121763007587735041549470427213464063243009150028228759765625/20047311684103092102240310008611691258602461917962919136955412315182056431547318272",
+      "our_method": {
+        "dimension": 62,
+        "name": "Ne64 antipode, 3 translates",
+        "density_squared": "539782436982347484203948377350754466121763007587735041549470427213464063243009150028228759765625/20047311684103092102240310008611691258602461917962919136955412315182056431547318272",
+        "evidence": "research/novel_routes_20261113/dual64/constructed.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 62,
+        "name": "Elkies E62, Vardy1999 printed log2 prefix 22.13",
+        "density_squared": "21066268155882",
+        "evidence": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+        "kind": "reported_historical_guarantee"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "published_decimal_prefix",
+      "reported_guarantee_log2_interval": [
+        "2213/100",
+        "1107/50"
+      ],
+      "reported_guarantee_log2_interval_lower_inclusive": true,
+      "reported_guarantee_log2_interval_upper_inclusive": false,
+      "gain_percent_interval": [
+        "12.273483",
+        "13.054408"
+      ],
+      "gain_percent_interval_endpoints_strict": true,
+      "gain_percent_display": ">12.273483%",
+      "gain_percent_range_display": "12.273483\u201313.054408%",
+      "exact_integer_power_comparisons_verified": true
+    },
+    {
+      "dimension": 65,
+      "our_density_squared": "16677181699666569/10",
+      "our_method": {
+        "dimension": 65,
+        "name": "Explicit Ne65, certified depth 26/3",
+        "density_squared": "16677181699666569/10",
+        "evidence": "research/novel_routes_20261113/higher_parent/ne65_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 65,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "1125899906842624",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "1125899906842624",
+      "ratio_squared_exact": "16677181699666569/11258999068426240",
+      "gain_percent": "21.70584573906752895717866067519456564714442103503531546316175295797780",
+      "gain_percent_interval": [
+        "21.705845",
+        "21.705846"
+      ],
+      "gain_percent_display": "21.705846%"
+    },
+    {
+      "dimension": 66,
+      "our_density_squared": "11308027652428010358964519423890894632249437545823411710443906486034393310546875/1645504557321206042154969182557350504982735865633579863348609024",
+      "our_method": {
+        "dimension": 66,
+        "name": "Gamma72 antipode, 9 translates",
+        "density_squared": "11308027652428010358964519423890894632249437545823411710443906486034393310546875/1645504557321206042154969182557350504982735865633579863348609024",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 66,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "18014398509481984/3",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "18014398509481984/3",
+      "ratio_squared_exact": "33924082957284031076893558271672683896748312637470235131331719458103179931640625/29642774844752946028434172162224104410437116074403984394101141506025761187823616",
+      "gain_percent": "6.978038505594051038201310828015342805951120007479477549590427396138700",
+      "gain_percent_interval": [
+        "6.978038",
+        "6.978039"
+      ],
+      "gain_percent_display": "6.978039%"
+    },
+    {
+      "dimension": 67,
+      "our_density_squared": "28350385682382231771924251181669157225338971464147071385381092094302157846641421201638877391815185546875/462333512415959871432825063550150360984665506085613321211823759370349646490117198577664",
+      "our_method": {
+        "dimension": 67,
+        "name": "Gamma72 antipode, 6 translates",
+        "density_squared": "28350385682382231771924251181669157225338971464147071385381092094302157846641421201638877391815185546875/462333512415959871432825063550150360984665506085613321211823759370349646490117198577664",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 67,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "36028797018963968",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "36028797018963968",
+      "ratio_squared_exact": "28350385682382231771924251181669157225338971464147071385381092094302157846641421201638877391815185546875/16657320273899275702783219042296675330156251472562472118547968509965922226753205898613239860284465610752",
+      "gain_percent": "30.45986286979970136980356228826906062808136574395726998037257470510210",
+      "gain_percent_interval": [
+        "30.459862",
+        "30.459863"
+      ],
+      "gain_percent_display": "30.459863%"
+    },
+    {
+      "dimension": 68,
+      "our_density_squared": "1557375283165270034418170034963869604080745545007217344629738994990958788186543854918814032684097081378618081/2361183241434822606848000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_method": {
+        "dimension": 68,
+        "name": "Gamma72 antipode, 5 translates",
+        "density_squared": "1557375283165270034418170034963869604080745545007217344629738994990958788186543854918814032684097081378618081/2361183241434822606848000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 68,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "288230376151711744",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "288230376151711744",
+      "ratio_squared_exact": "1557375283165270034418170034963869604080745545007217344629738994990958788186543854918814032684097081378618081/680564733841876926926749214863536422912000000000000000000000000000000000000000000000000000000000000000000000",
+      "gain_percent": "51.27317374005194391088387756836638044587750101238161401636426099878960",
+      "gain_percent_interval": [
+        "51.273173",
+        "51.273174"
+      ],
+      "gain_percent_display": "51.273174%"
+    },
+    {
+      "dimension": 69,
+      "our_density_squared": "20245878681148510447436210454530304853049692085093825480186606934882464246425070113944582424893262057922035053/3689348814741910323200000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_method": {
+        "dimension": 69,
+        "name": "Gamma72 antipode, 4 translates",
+        "density_squared": "20245878681148510447436210454530304853049692085093825480186606934882464246425070113944582424893262057922035053/3689348814741910323200000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 69,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "2305843009213693952",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "2305843009213693952",
+      "ratio_squared_exact": "20245878681148510447436210454530304853049692085093825480186606934882464246425070113944582424893262057922035053/8507059173023461586584365185794205286400000000000000000000000000000000000000000000000000000000000000000000000",
+      "gain_percent": "54.26897295672729884370102622168949350736858833029844628785383500310320",
+      "gain_percent_interval": [
+        "54.268972",
+        "54.268973"
+      ],
+      "gain_percent_display": "54.268973%"
+    },
+    {
+      "dimension": 70,
+      "our_density_squared": "1113909878701319946802438610104242643351756723724661212622652768893562658207945194763064336952218952506065384605882849/21967753552800234569728283904516568237723468582119960201682811351131107099819273502559020800540672",
+      "our_method": {
+        "dimension": 70,
+        "name": "Gamma72 antipode, 3 translates",
+        "density_squared": "1113909878701319946802438610104242643351756723724661212622652768893562658207945194763064336952218952506065384605882849/21967753552800234569728283904516568237723468582119960201682811351131107099819273502559020800540672",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 70,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "73786976294838206464/3",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "73786976294838206464/3",
+      "ratio_squared_exact": "1113909878701319946802438610104242643351756723724661212622652768893562658207945194763064336952218952506065384605882849/540311370217106232847232098800309428793175959696098731891942308512552795270850164433389874808992119674451071321767936",
+      "gain_percent": "43.58298385079672370562916943021948096189023894188326721391534353850950",
+      "gain_percent_interval": [
+        "43.582983",
+        "43.582984"
+      ],
+      "gain_percent_display": "43.582984%"
+    },
+    {
+      "dimension": 71,
+      "our_density_squared": "538918983089556384732998345947093492005719991394361448967414415844680348075221071214409623842682480243819910823712744984804892633061679/1393796574908163946345982392040522594123776000000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_method": {
+        "dimension": 71,
+        "name": "Gamma72 antipode, 2 translates",
+        "density_squared": "538918983089556384732998345947093492005719991394361448967414415844680348075221071214409623842682480243819910823712744984804892633061679/1393796574908163946345982392040522594123776000000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/novel_routes_20261113/higher_parent/gamma72_verified.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 71,
+        "name": "Classical Gamma72/Leech-block section",
+        "density_squared": "295147905179352825856",
+        "evidence": "research/novel_routes_20261113/audits/verify_gamma72_leech_sections.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "295147905179352825856",
+      "ratio_squared_exact": "538918983089556384732998345947093492005719991394361448967414415844680348075221071214409623842682480243819910823712744984804892633061679/411376139330301510538742295639337626245683966408394965837152256000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gain_percent": "14.45695604161123581466251333340961780792975838580615707702125947651300",
+      "gain_percent_interval": [
+        "14.456956",
+        "14.456957"
+      ],
+      "gain_percent_display": "14.456956%"
+    },
+    {
+      "dimension": 73,
+      "our_density_squared": "9444732965739290427392/3",
+      "our_method": {
+        "dimension": 73,
+        "name": "Gamma72 compatible half-cosets, rank 1",
+        "density_squared": "9444732965739290427392/3",
+        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 73,
+        "name": "Nebe Gamma72 x classical 1D lattice",
+        "density_squared": "1180591620717411303424",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "1180591620717411303424",
+      "ratio_squared_exact": "8/3",
+      "gain_percent": "63.29931618554520654648560498039275946439649871044467522884617115006400",
+      "gain_percent_interval": [
+        "63.299316",
+        "63.299317"
+      ],
+      "gain_percent_display": "63.299316%"
+    },
+    {
+      "dimension": 74,
+      "our_density_squared": "75557863725914323419136/27",
+      "our_method": {
+        "dimension": 74,
+        "name": "Gamma72 compatible half-cosets, rank 2",
+        "density_squared": "75557863725914323419136/27",
+        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 74,
+        "name": "Nebe Gamma72 x classical 2D lattice",
+        "density_squared": "1180591620717411303424/3",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "1180591620717411303424/3",
+      "ratio_squared_exact": "64/9",
+      "gain_percent": "166.6666666666666666666666666666666666666666666666666666666666666666667",
+      "gain_percent_interval": [
+        "166.666666",
+        "166.666667"
+      ],
+      "gain_percent_display": "166.666667%"
+    },
+    {
+      "dimension": 75,
+      "our_density_squared": "75557863725914323419136/27",
+      "our_method": {
+        "dimension": 75,
+        "name": "Gamma72 compatible half-cosets, rank 3",
+        "density_squared": "75557863725914323419136/27",
+        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 75,
+        "name": "Nebe Gamma72 x classical 3D lattice",
+        "density_squared": "147573952589676412928",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "147573952589676412928",
+      "ratio_squared_exact": "512/27",
+      "gain_percent": "335.4648431614538841239616132810473585717239965611858006102564564001707",
+      "gain_percent_interval": [
+        "335.464843",
+        "335.464844"
+      ],
+      "gain_percent_display": "335.464843%"
+    },
+    {
+      "dimension": 76,
+      "our_density_squared": "302231454903657293676544/81",
+      "our_method": {
+        "dimension": 76,
+        "name": "Gamma72 compatible half-cosets, rank 4",
+        "density_squared": "302231454903657293676544/81",
+        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 76,
+        "name": "Nebe Gamma72 x classical 4D lattice",
+        "density_squared": "73786976294838206464",
+        "evidence": "https://arxiv.org/abs/1008.2862",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "73786976294838206464",
+      "ratio_squared_exact": "4096/81",
+      "gain_percent": "611.1111111111111111111111111111111111111111111111111111111111111111111",
+      "gain_percent_interval": [
+        "611.111111",
+        "611.111112"
+      ],
+      "gain_percent_display": "611.111111%"
+    },
+    {
+      "dimension": 77,
+      "our_density_squared": "302231454903657293676544/81",
+      "our_method": {
+        "dimension": 77,
+        "name": "Gamma72 compatible half-cosets, rank 5",
+        "density_squared": "302231454903657293676544/81",
+        "evidence": "research/cross_dimension_lower_20261115/counting_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 77,
+        "name": "Bachoc--Nebe L80 bare section, normal rank 3",
+        "density_squared": "37778931862957161709568/75",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "derived_parent_section_with_repository_embedding"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "37778931862957161709568/75",
+      "ratio_squared_exact": "200/27",
+      "gain_percent": "172.1655269759086775774760083006545991073274978507411253814102852501067",
+      "gain_percent_interval": [
+        "172.165526",
+        "172.165527"
+      ],
+      "gain_percent_display": "172.165527%"
+    },
+    {
+      "dimension": 78,
+      "our_density_squared": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+      "our_method": {
+        "dimension": 78,
+        "name": "L80 antipode, 3 translates",
+        "density_squared": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/2418107374065426024829337029742985234164753459185319875320851783374695666979310723614256154602433501066166272",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 78,
+        "name": "Bachoc--Nebe L80 bare section, normal rank 2",
+        "density_squared": "18889465931478580854784/3",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "derived_parent_section_with_repository_embedding"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "18889465931478580854784/3",
+      "ratio_squared_exact": "26523627437124553070081840558563188455438393858132774635620323885195843009282548763177047195169872498579705836917008782207454037089/15225585620355332585018082377583598863468529737829985636997309566050807853881814749344422782540061584146788484117347620598543548416",
+      "gain_percent": "31.98648301490305347746074367841985765237643829160485599502104535012660",
+      "gain_percent_interval": [
+        "31.986483",
+        "31.986484"
+      ],
+      "gain_percent_display": "31.986483%"
+    },
+    {
+      "dimension": 79,
+      "our_density_squared": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "our_method": {
+        "dimension": 79,
+        "name": "L80 antipode, 2 translates",
+        "density_squared": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/9134385233318143238773030204476768872849578393600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "evidence": "research/cross_dimension_lower_20261115/l80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 79,
+        "name": "Bachoc--Nebe L80 perpendicular to a minimum vector",
+        "density_squared": "75557863725914323419136",
+        "evidence": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/papers/extremm22.pdf",
+        "kind": "derived_classical_section"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "75557863725914323419136",
+      "ratio_squared_exact": "817598737071050959409276229318696698168591900537987468276932073768901912096673342793217657607316423968313726492566673678273923566086786121551339775919/690174634679056378743475586227702545245110897217038655516252422379929600000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "gain_percent": "8.840520235209887829375143603512808100534827427675270225798371468071300",
+      "gain_percent_interval": [
+        "8.84052",
+        "8.840521"
+      ],
+      "gain_percent_display": "8.840520%"
     },
     {
       "dimension": 81,
       "our_density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+      "our_method": {
+        "dimension": 81,
+        "name": "Shioda MW80 CFR torus + 1D mod2",
+        "density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
       "named_external_comparison": {
         "dimension": 81,
         "name": "Shioda MW80 x classical 1D lattice",
@@ -142,20 +793,89 @@
         "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
         "kind": "derived_product"
       },
-      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024",
-      "ratio_squared_exact": "2000000/653567",
-      "gain_percent": "74.9322733209844001372195047633948988937617838578485097072250",
-      "gain_percent_interval": [
-        "74932273/1000000",
-        "37466137/500000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024",
+      "ratio_squared_exact": "2000000/653567",
+      "gain_percent": "74.93227332098440013721950476339489889376178385784850970722488747855960",
+      "gain_percent_interval": [
+        "74.932273",
+        "74.932274"
+      ],
+      "gain_percent_display": "74.932273%"
+    },
+    {
+      "dimension": 82,
+      "our_density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+      "our_method": {
+        "dimension": 82,
+        "name": "Shioda MW80 CFR torus + 2D small_period",
+        "density_squared": "9896537011021578816422330593021648877166802307375997008347767199218994140625/9148650278797851556248743249329939210517448209989632",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
+      "named_external_comparison": {
+        "dimension": 82,
+        "name": "Shioda MW80 x classical 2D lattice",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/327331032056843123156210418166160626991235072",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/327331032056843123156210418166160626991235072",
+      "ratio_squared_exact": "1000000000000/114480045801",
+      "gain_percent": "195.5528167661201895084661104362655128284700117334468256149715234861046",
+      "gain_percent_interval": [
+        "195.552816",
+        "195.552817"
+      ],
+      "gain_percent_display": "195.552817%"
+    },
+    {
+      "dimension": 83,
+      "our_density_squared": "154742504910672534362390528/125",
+      "our_method": {
+        "dimension": 83,
+        "name": "L80 compatible half-cosets, rank 3",
+        "density_squared": "154742504910672534362390528/125",
+        "evidence": "research/cross_dimension_lower_20261115/counting80_results.json",
+        "kind": "prior_repository_result"
+      },
+      "named_external_comparison": {
+        "dimension": 83,
+        "name": "Shioda MW80 x classical 3D lattice",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/872882752151581661749894448443095005309960192",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/872882752151581661749894448443095005309960192",
+      "ratio_squared_exact": "135072063561257482002758954135795488664423872654327648416205805637861376/5067026949643048354008233263627084225109402781376510468274056806000125",
+      "gain_percent": "416.3047972856667099722740757576486406008345089444435308414032103708105",
+      "gain_percent_interval": [
+        "416.304797",
+        "416.304798"
+      ],
+      "gain_percent_display": "416.304797%"
     },
     {
       "dimension": 84,
       "our_density_squared": "1237940039285380274899124224/625",
+      "our_method": {
+        "dimension": 84,
+        "name": "L80 compatible half-cosets, rank 4",
+        "density_squared": "1237940039285380274899124224/625",
+        "evidence": "research/cross_dimension_lower_20261115/counting80_results.json",
+        "kind": "prior_repository_result"
+      },
       "named_external_comparison": {
         "dimension": 84,
         "name": "BCS88 section perpendicular to sqrt(2) D4",
@@ -163,20 +883,29 @@
         "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
         "kind": "derived_classical_section"
       },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
       "comparison_density_squared": "302231454903657293676544",
       "ratio_squared_exact": "4096/625",
       "gain_percent": "156.00",
       "gain_percent_interval": [
         "156",
-        "156000001/1000000"
+        "156.000001"
       ],
-      "comparison_verified_exactly": true,
-      "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "gain_percent_display": "156.000000%"
     },
     {
       "dimension": 85,
       "our_density_squared": "19807040628566084398385987584/9375",
+      "our_method": {
+        "dimension": 85,
+        "name": "L80 compatible half-cosets, rank 5",
+        "density_squared": "19807040628566084398385987584/9375",
+        "evidence": "research/cross_dimension_lower_20261115/counting80_results.json",
+        "kind": "prior_repository_result"
+      },
       "named_external_comparison": {
         "dimension": 85,
         "name": "BCS88 section perpendicular to sqrt(2) A3",
@@ -184,20 +913,119 @@
         "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
         "kind": "derived_classical_section"
       },
-      "comparison_density_squared": "1208925819614629174706176",
-      "ratio_squared_exact": "16384/9375",
-      "gain_percent": "32.1978315505464963474522589792392400497637275406196335475230",
-      "gain_percent_interval": [
-        "32197831/1000000",
-        "4024729/125000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "1208925819614629174706176",
+      "ratio_squared_exact": "16384/9375",
+      "gain_percent": "32.19783155054649634745225897923924004976372754061963354752251788334020",
+      "gain_percent_interval": [
+        "32.197831",
+        "32.197832"
+      ],
+      "gain_percent_display": "32.197832%"
+    },
+    {
+      "dimension": 93,
+      "our_density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+      "our_method": {
+        "dimension": 93,
+        "name": "Shioda MW92 CFR torus + 1D mod2",
+        "density_squared": "24519928653854221733733552434404946937899825954937634816000000/320843229413073205362106621653",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
+      "named_external_comparison": {
+        "dimension": 93,
+        "name": "Shioda MW92 x classical 1D lattice",
+        "density_squared": "6129982163463555433433388108601236734474956488734408704/256666986187667409334369",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "6129982163463555433433388108601236734474956488734408704/256666986187667409334369",
+      "ratio_squared_exact": "4000000/1250037",
+      "gain_percent": "78.88279075427096580081176648279672483919623449687150801722086501646220",
+      "gain_percent_interval": [
+        "78.88279",
+        "78.882791"
+      ],
+      "gain_percent_display": "78.882791%"
+    },
+    {
+      "dimension": 94,
+      "our_density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+      "our_method": {
+        "dimension": 94,
+        "name": "Shioda MW92 CFR torus + 2D mod2",
+        "density_squared": "1532495540865888858358347027150309183618739122183602176000000000000/20802739127557595772776755390710723",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
+      "named_external_comparison": {
+        "dimension": 94,
+        "name": "Shioda MW92 x classical 2D lattice",
+        "density_squared": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
+      "ratio_squared_exact": "250000000000/27016510689",
+      "gain_percent": "204.1973145461071869657534663283992528913954747607488121094866974514349",
+      "gain_percent_interval": [
+        "204.197314",
+        "204.197315"
+      ],
+      "gain_percent_display": "204.197315%"
+    },
+    {
+      "dimension": 95,
+      "our_density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+      "our_method": {
+        "dimension": 95,
+        "name": "Shioda MW92 CFR torus + 3D small_period",
+        "density_squared": "766247770432944429179173513575154591809369561091801088000000000000000000/9748947466058798216992136435472980586987",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
+      "named_external_comparison": {
+        "dimension": 95,
+        "name": "Shioda MW92 x classical 3D lattice",
+        "density_squared": "766247770432944429179173513575154591809369561091801088/256666986187667409334369",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "766247770432944429179173513575154591809369561091801088/256666986187667409334369",
+      "ratio_squared_exact": "1000000000000000000/37982864921048523",
+      "gain_percent": "413.1048745149217807242319996132463166102544235350067538713029223679412",
+      "gain_percent_interval": [
+        "413.104874",
+        "413.104875"
+      ],
+      "gain_percent_display": "413.104875%"
     },
     {
       "dimension": 96,
       "our_density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+      "our_method": {
+        "dimension": 96,
+        "name": "Shioda MW92 CFR torus + 4D small_period",
+        "density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+        "evidence": "research/covering_and_deep_cosets_20261115/covering_results.json",
+        "kind": "new_covering_existence_proof"
+      },
       "named_external_comparison": {
         "dimension": 96,
         "name": "BCS96, Table 1 (1982)",
@@ -205,17 +1033,43 @@
         "evidence": "https://neilsloane.com/doc/Me103.pdf",
         "kind": "published_lattice"
       },
-      "comparison_density_squared": "6362685441135942358474828762538534230890216321/281474976710656",
-      "ratio_squared_exact": "1725436586697640946858688965569256363112777243042596638790631055949824000000000000000000000000/361224825165922748163735038900146880376573000467119271888138733416289456362493168145044334689",
-      "gain_percent": "118.554979900061395400293662751233274358190880248860614242946",
-      "gain_percent_interval": [
-        "118554979/1000000",
-        "5927749/50000"
-      ],
       "comparison_verified_exactly": true,
       "literature_status": "best_known_lower_bound_in_dated_review",
-      "review_date": "2026-11-15"
+      "review_date": "2026-11-15",
+      "comparison_kind": "exact_squared_density",
+      "comparison_density_squared": "6362685441135942358474828762538534230890216321/281474976710656",
+      "ratio_squared_exact": "1725436586697640946858688965569256363112777243042596638790631055949824000000000000000000000000/361224825165922748163735038900146880376573000467119271888138733416289456362493168145044334689",
+      "gain_percent": "118.5549799000613954002936627512332743581908802488606142429459562875445",
+      "gain_percent_interval": [
+        "118.554979",
+        "118.55498"
+      ],
+      "gain_percent_display": "118.554980%"
     }
   ],
-  "all_comparisons_verified_exactly": true
+  "all_comparisons_verified_exactly": true,
+  "all_dimensions_classified": true,
+  "Leterrier55_source_correction": {
+    "source": {
+      "author": "Gauthier Leterrier",
+      "title": "Some Mordell-Weil lattices and applications to sphere packings",
+      "type": "EPFL doctoral thesis 10417, 2024",
+      "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+      "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+      "locators": [
+        "Proposition 3.2.22 and table, pp.155-156: 55D lamination",
+        "Theorem 3.2.7: 54D parent",
+        "Remark 4.1.11, table p.204: lower guarantees in 68D and 74D"
+      ],
+      "full_pdf_retrieved": true,
+      "findings": [
+        "The 55D formula exceeds our earlier Rogers-derived 55D control and must replace it.",
+        "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
+      ]
+    },
+    "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+    "center_density": "116783.1496463047166607991440464474867257219451203699554540606933676232",
+    "earlier_repository_control_squared": "3101854500",
+    "published_guarantee_exceeds_earlier_repository_control": true
+  }
 }
