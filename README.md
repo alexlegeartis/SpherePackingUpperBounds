@@ -2,6 +2,11 @@
 
 Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
 
+<!-- lower-return-20261115:start -->
+> [!IMPORTANT]
+> **59D lower-bound improvement — 15 November 2026.** A six-translate antipode from a balanced rank-five normal in Ne64's dual has packing fraction **2.637602590720003e-12** and center density **274,522.589741…**, **4.722057% above** the repository's certified Gamma72 59D section. The full period, translates and attained minimum pass two exact implementations; the published parent minimum theorem is inherited. [Construction and replay](constructions/dim59/) · [Other lower-bound searches and scope](research/lower_bound_return_20261115/). Worldwide SOTA priority remains unestablished.
+<!-- lower-return-20261115:end -->
+
 <!-- larger-decreases-20261115:start -->
 > [!IMPORTANT]
 > **Six further upper bounds — 15 November 2026.** New signed-profile certificates lower the preceding main by **2.79% in 20D**, **1.63% in 19D**, **1.52% in 21D**, **1.20% in 48D**, **1.11% in 18D** and **0.35% in 17D**. All six complete primary and independent proof chains pass. [Exact bounds, comparison and replay](research/larger_decreases_20261115/). The broader **4D** searches did **not** yield a stronger registered result; an exact cyclic counterexample rejects the promising numerical proposal.
@@ -35,8 +40,9 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 | Dimension | Prior density | Constructed density | Increase | Idea, proof and details |
 | --- | --- | --- | --- | --- |
 | 36 | [≈6.1615e-7 (KP36)](https://arxiv.org/abs/2607.11319) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
+| 59 | [≈2.518669571760e-12 (certified Gamma72 section)](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md) | ≈2.637602590720e-12 | 4.722057% | [Six-translate Ne64 antipode; exact period, shifts, attained minimum and independent comparison audit](constructions/dim59/) |
 
-The exact new density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review.
+The exact 36D density is `(16777216/3176523) * pi^18/18!`. Center density is **not** the packing fraction: it omits the unit-ball volume. The exact ratio to KP36 is `139968/117649`. [Machine-readable 36D construction](constructions/dim36/result.json) and [comparison sources](constructions/dim36/#sources-and-comparison-scope) distinguish the verified improvement over KP36 from the non-exhaustive literature review. The [59D result](constructions/dim59/result.json) records its exact rational squared center density and the separate, finite comparison scope.
 
 Additional merged constructions include an explicit **65D minimum-12 lattice** and periodic packings in 60–62D and 66–71D. Their comparison scope and unestablished world-record status are documented in [the certified higher-dimensional research](research/novel_routes_20261113/README.md).
 

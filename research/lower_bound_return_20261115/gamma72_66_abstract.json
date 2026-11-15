@@ -1,0 +1,126 @@
+{
+  "normal_rank": 6,
+  "dimension_if_embedded": 66,
+  "normal_gram": [
+    [
+      8,
+      -3,
+      2,
+      3,
+      -3,
+      3
+    ],
+    [
+      -3,
+      8,
+      -2,
+      -3,
+      3,
+      -3
+    ],
+    [
+      2,
+      -2,
+      8,
+      2,
+      -2,
+      -3
+    ],
+    [
+      3,
+      -3,
+      2,
+      8,
+      -3,
+      -2
+    ],
+    [
+      -3,
+      3,
+      -2,
+      -3,
+      8,
+      2
+    ],
+    [
+      3,
+      -3,
+      -3,
+      -2,
+      2,
+      8
+    ]
+  ],
+  "dual_labels": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      1,
+      1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      0,
+      -1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      -1
+    ],
+    [
+      0,
+      -1,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      -1,
+      0,
+      1,
+      0,
+      0
+    ]
+  ],
+  "normal_determinant": 21875,
+  "squared_diameter": "2/5",
+  "conditional_center_density": 85503676.22411728,
+  "ambient_embedding_found": false,
+  "packing_certificate": false,
+  "search_scope": "Finite 150000-vector unsigned pool. Three completed embeddings searches at 2000000 attempts each and an interrupted fourth; no exhaustive non-embedding claim."
+}

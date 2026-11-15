@@ -1,0 +1,50 @@
+[
+  {
+    "normal_rank": 9,
+    "dimension": 63,
+    "density": 6213840.423484049,
+    "cosets": 8,
+    "beta_numerator": 8,
+    "beta_denominator": 16
+  },
+  {
+    "normal_rank": 10,
+    "dimension": 62,
+    "density": 2421582.5434631244,
+    "cosets": 1,
+    "beta_numerator": 0,
+    "beta_denominator": 24
+  },
+  {
+    "normal_rank": 11,
+    "dimension": 61,
+    "density": 1048576.0,
+    "cosets": 1,
+    "beta_numerator": 0,
+    "beta_denominator": 32
+  },
+  {
+    "normal_rank": 12,
+    "dimension": 60,
+    "density": 524288.0,
+    "cosets": 1,
+    "beta_numerator": 0,
+    "beta_denominator": 8
+  },
+  {
+    "normal_rank": 13,
+    "dimension": 59,
+    "density": 262144.0,
+    "cosets": 1,
+    "beta_numerator": 0,
+    "beta_denominator": 8
+  },
+  {
+    "normal_rank": 14,
+    "dimension": 58,
+    "density": 151348.90896644528,
+    "cosets": 1,
+    "beta_numerator": 0,
+    "beta_denominator": 24
+  }
+]

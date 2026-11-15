@@ -1,0 +1,24 @@
+{
+  "exact_upper_witnesses_pass": true,
+  "screens": [
+    {
+      "file": "half_coset_rejections.npz",
+      "classes": 100,
+      "exact_rejections": 100,
+      "unresolved": 0,
+      "inclusive_numerator_cutoff": 34,
+      "modulus": 2
+    },
+    {
+      "file": "third_coset_screen.npz",
+      "classes": 10000,
+      "exact_rejections": 8497,
+      "unresolved": 1503,
+      "inclusive_numerator_cutoff": 66,
+      "modulus": 3
+    }
+  ],
+  "abstract_66D_gram_and_diameter_pass": true,
+  "abstract_66D_is_a_packing_certificate": false,
+  "scope": "Only explicit witnesses reject classes. Unresolved/pruned/capped searches prove no hole; the unembedded normal is not a packing."
+}

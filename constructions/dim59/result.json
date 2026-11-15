@@ -1,0 +1,76 @@
+{
+  "status": "verified_periodic_packing",
+  "dimension": 59,
+  "cosets": 6,
+  "normal_rank": 5,
+  "normal_gram_numerator": [
+    [
+      12,
+      -3,
+      -2,
+      -2,
+      -2
+    ],
+    [
+      -3,
+      12,
+      -3,
+      -2,
+      -2
+    ],
+    [
+      -2,
+      -3,
+      12,
+      -3,
+      -2
+    ],
+    [
+      -2,
+      -2,
+      -3,
+      12,
+      -3
+    ],
+    [
+      -2,
+      -2,
+      -2,
+      -3,
+      12
+    ]
+  ],
+  "normal_gram_denominator": 3,
+  "normal_determinant": "33800/81",
+  "cluster_squared_diameter": "45/104",
+  "period_determinant": "773235584977681800",
+  "minimum_squared_exact": "1203/104",
+  "minimum_attained_by_saved_contact": true,
+  "center_density_squared_exact": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/284029347387705919624471088176621380742985085328384105240383643186903162188781406997589383713001126582653023337656951836057047625443685815452970103864505139200",
+  "center_density": "274522.58974114967808127740156251661",
+  "packing_fraction": "2.6376025907200029787542958777900487e-12",
+  "comparison_center_density_exact": "262144",
+  "comparison_center_density_squared": "68719476736",
+  "comparison_source": "research/novel_routes_20261113/audits/gamma72_leech_section_rank13.npz",
+  "comparison_scope": "Repository's exactly certified Gamma72 rank-13 section; not an exhaustive world-priority determination.",
+  "ratio_squared_exact": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/19518348130150719316043326800257937633047761966418866440538719455697316753916798738360191262146158218938415618412181974446594770265521409073113568354620364609406841651200",
+  "increase_percent": "4.72205724378573535204979002476",
+  "ambient_minimum_input": 12,
+  "ambient_minimum_scope": "Published Ne64 theorem is inherited; this audit does not enumerate its 138,458,880 minimum vectors.",
+  "ambient_source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
+  "ambient_source_sha256": "b78d999bfb8e1f01389313d56b46bf948c0e61115102b0b2d748bce3d70fe3bb",
+  "data_sha256": {
+    "ambient_lifts.txt": "66c3f8356e34b0b89da5c522021d78836fed74abbb31c3d648f945d9354346ce",
+    "contact.json": "b22ea3a175831472b1cdacc2245246df6ceee5b4d6e504a80adfeeecb5b93541",
+    "dual_cluster.txt": "223fae837da77218e96ee30dbc2c1c3ce56a51ce5229c4a71b158d7d41aebaa7",
+    "normal_coefficients.txt": "17562708441c957ae17c022a511616cfa1c3315452dcee5b19d3e7c71415763f",
+    "normal_gram_numerator.txt": "0a8e8f5eb0e1535e07542d46923a0b5466baabc22f37d87b4cbb51876c1df572",
+    "period_gram.txt": "bd1053d63faad9fe57b75e4704ff13a9e94d60571f226f026229b5ab3460c2f3",
+    "section_basis.txt": "f779a8e230eb62c3448ccfc2afc8873b883c2cf64c5d5512d8aeeb9d8940a689",
+    "shift_denominator.txt": "02fd4d0897841830c87463b797d9d65912ccdc67fa8780804b814971ed9f9dd3",
+    "shift_numerators.txt": "2b1ca2e069ff7eeae2cb5c4c2afaaec6384283398acb040f5ea3c4543ced90a5",
+    "unit_minor_columns.txt": "5bb3154209f868466dba609f22c08179805227ba4483205ac066133866bd9c4f"
+  },
+  "all_checks_exact": true,
+  "world_record_established": false
+}
