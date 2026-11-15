@@ -1,0 +1,89 @@
+{
+  "status": "verified_gain_interval_over_reported_guarantee",
+  "dimension": 59,
+  "source_id": "V99",
+  "source_url": "https://doi.org/10.1090/S0002-9947-99-02169-8",
+  "source_locator": "Section 4, p. 278, the table for n=57,...,63; reference 10 on p. 283 identifies the Elkies section results as personal communication, February 1996",
+  "source_transcription_is_external_input": true,
+  "comparison_target": "The lower-bound value reported for E59, not the actual E59 density",
+  "reported_guarantee_log2_interval": {
+    "lower": "71/4",
+    "lower_inclusive": true,
+    "upper": "444/25",
+    "upper_inclusive": false
+  },
+  "gain_percent_interval": {
+    "lower": "23.675981",
+    "lower_inclusive": false,
+    "upper": "24.536216",
+    "upper_inclusive": false
+  },
+  "exact_integer_power_checks": [
+    {
+      "exponent": "444/25",
+      "percent": "23.675981",
+      "ratio_rational": "123675981/100000000",
+      "direction": ">",
+      "delta_squared_power": 25,
+      "power_of_two": 888,
+      "ratio_power": 50,
+      "passed": true
+    },
+    {
+      "exponent": "71/4",
+      "percent": "24.536216",
+      "ratio_rational": "15567027/12500000",
+      "direction": "<",
+      "delta_squared_power": 4,
+      "power_of_two": 142,
+      "ratio_power": 8,
+      "passed": true
+    }
+  ],
+  "display_only_decimals": {
+    "endpoint_gain_lower_approx": "23.675981094714148396929081936958423747007360267",
+    "endpoint_gain_upper_approx": "24.536215572032241720718832196905241074874870718",
+    "J59_gain_approx": "109.444114487571470704099580049527439422247074090"
+  },
+  "actual_E59_density_known_exactly": false,
+  "improvement_over_actual_E59_established": false,
+  "current_record_improvement_established": false,
+  "reason": "Vardy p. 278 reports only a lower bound; reference 10 on p. 283 is personal correspondence. The upper endpoint above bounds the reported guarantee, not the actual lattice density.",
+  "weaker_exact_external_control": {
+    "name": "Vardy J59",
+    "center_density_exact": "131072",
+    "locator": "Section 4, p. 278, delta(J_n)=2^(n-42)",
+    "gain_percent_exact_expression": "100*(sqrt(21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/4879587032537679829010831700064484408261940491604716610134679863924329188479199684590047815536539554734603904603045493611648692566380352268278392088655091152351710412800)-1)",
+    "gain_percent_interval": [
+      "109.444114",
+      "109.444115"
+    ],
+    "exact_integer_power_checks": [
+      {
+        "exponent": "17",
+        "percent": "109.444114",
+        "ratio_rational": "104722057/50000000",
+        "direction": ">",
+        "delta_squared_power": 1,
+        "power_of_two": 34,
+        "ratio_power": 2,
+        "passed": true
+      },
+      {
+        "exponent": "17",
+        "percent": "109.444115",
+        "ratio_rational": "41888823/20000000",
+        "direction": "<",
+        "delta_squared_power": 1,
+        "power_of_two": 34,
+        "ratio_power": 2,
+        "passed": true
+      }
+    ],
+    "used_as_main_comparator": false,
+    "reason": "Vardy explicitly reports denser Elkies sections in the same paragraph."
+  },
+  "construction_result_sha256": "d14d9cd805460246b3e9fa67c82fd536718be15d7d409c925b2dfa53a11358d1",
+  "all_arithmetic_checks_exact": true,
+  "scope": "Checks comparison arithmetic against manually verified source facts. Replay verify.py and verify_independent.py for the packing itself."
+}

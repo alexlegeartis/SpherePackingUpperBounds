@@ -44,7 +44,7 @@ def render(report):
         "",
         "## Published numerical comparison: Elkies's sections, reported by Vardy",
         "",
-        f"{link('Vardy (1999), Section 4', sources['V99']['url'])} reports lower bounds for "
+        f"{link('Vardy (1999), Section 4, p. 278', sources['V99']['url'])} reports lower bounds for "
         "Elkies's sections `E_n`, in a table headed `log2(delta(E_n))`. "
         "Here both numerical columns use **log2(center density)**, so their units agree. "
         "The ellipses are retained: the printed entries are not exact density formulas.",
@@ -60,13 +60,24 @@ def render(report):
         comparison = "Below even the printed published lower bound; no record gain."
         if n != 63:
             comparison = "Above the printed historical benchmark; exact Elkies density and current record not established."
+        if n == 59:
+            comparison = "23.67–24.54% above the reported guarantee (verified interval); gain over the actual E59 lattice unresolved."
         lines.append(f"| {n} | {label} | {math.log2(float(sp.sqrt(best))):.6f} | {comparison} |")
     lines += [
         "",
         "There is **no percentage claim against the actual Elkies lattices** in this table. "
-        "A lower bound printed with ellipses is insufficient to reconstruct their exact "
-        "packing densities. Exceeding a displayed historical benchmark is not a proof "
-        "of exceeding the present literature record.",
+        "The original PDF was checked on 15 November 2026. Reference 10, p. 283 attributes "
+        "the section results to **Elkies, personal communication, February 1996**. "
+        "No exact E59 section parameters are supplied there.",
+        "",
+        "For 59D, let `B` be the guarantee reported by the printed prefix. Then "
+        "`2^17.75 <= B < 2^17.76`, and exact integer-power comparisons prove "
+        "**23.675981% < 100*(delta_ours/B-1) < 24.536216%**. "
+        "The upper bound here is on the **reported guarantee**, not on the actual "
+        "Elkies density. Thus this verifies the comparison with the guarantee, "
+        "without proving an improvement over the actual E59 lattice or the current record. "
+        "[Source verification and derivation](../../../constructions/dim59/README.md#verified-external-comparison) · "
+        "[Exact arithmetic report](../../../constructions/dim59/external_comparison.json).",
         "",
         "For **65–71D**, this audit has not identified a published same-dimensional numerical "
         "record to use as the comparator. Nebe's 64D and 72D parent results do not fill that gap. "
@@ -163,13 +174,15 @@ def render(report):
         "OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/propagated_benchmarks.py",
         "python constructions/dim59/verify.py",
         "python constructions/dim59/verify_independent.py",
+        "python constructions/dim59/verify_external_comparison.py",
         "```",
         "",
         "The first command regenerates this page, the exact comparison arithmetic and "
         "source attribution from [benchmark_sources.json](benchmark_sources.json). "
         "It consumes previously verified construction data; it does not replace their "
-        "minimum proofs. The other two commands replay the 59D construction and its "
-        "internal reference independently.",
+        "minimum proofs. The next two commands replay the 59D construction and its "
+        "internal reference independently. The last checks the external reported-guarantee "
+        "interval using exact rational powers; its source transcription is an input.",
         "",
         "**Status:** certified constructions and internal improvements; historical "
         "published comparisons explicitly identified; no established improvement "

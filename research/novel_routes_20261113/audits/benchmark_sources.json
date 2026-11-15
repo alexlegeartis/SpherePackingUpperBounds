@@ -5,9 +5,46 @@
     "publication": "Transactions of the American Mathematical Society 351 (1999), 271–283",
     "url": "https://doi.org/10.1090/S0002-9947-99-02169-8",
     "full_text_url": "https://www.ams.org/journals/tran/1999-351-01/S0002-9947-99-02169-8/S0002-9947-99-02169-8.pdf",
-    "locator": "Section 4, the table of log2(delta(E_n)) for n=57,...,63",
+    "locator": "Section 4, p. 278, the table for n=57,...,63; reference 10 on p. 283 identifies the Elkies section results as personal communication, February 1996",
     "role": "Historical same-dimensional numerical comparison: Elkies's sections E_n, reported by Vardy. These are not being attributed to Vardy as their constructor.",
-    "limitation": "The table gives lower bounds with ellipses, not exact section determinants or a current record survey. No percentage improvement over the actual Elkies lattices is certified from those truncated numbers."
+    "limitation": "The table gives lower bounds with ellipses, not exact section determinants or a current record survey. The verified 59D interval 23.675981%–24.536216% compares with the reported guarantee only; it does not certify an improvement over the actual Elkies lattice.",
+    "verified_59D_observation": {
+      "checked_on": "2026-11-15",
+      "printed_log2_guarantee_prefix": "17.75..",
+      "wording_is_lower_bound": true,
+      "section_results_reference": "10",
+      "section_results_origin": "N. D. Elkies, personal communication, February 1996",
+      "exact_section_parameters_provided": false,
+      "exact_Vardy_control": "delta(J_n)=2^(n-42), hence delta(J59)=131072",
+      "retrieved_full_pdf_url": "https://web.archive.org/web/20231125005643id_/https://www.ams.org/journals/tran/1999-351-01/S0002-9947-99-02169-8/S0002-9947-99-02169-8.pdf",
+      "retrieved_full_pdf_sha256": "bd933a6ece787c7edf5e45072537e434c61d85a5bb4b8b6e8639de9ce5c352fb"
+    },
+    "related_source_checks": [
+      {
+        "work": "N. D. Elkies, Mordell-Weil lattices in characteristic 2, I (1994), Vardy reference 8",
+        "url": "https://doi.org/10.1155/S1073792894000395",
+        "finding": "Bibliography and publisher entry checked; full text was not accessible. This is the parent-lattice paper; Vardy separately attributes the section results to reference 10."
+      },
+      {
+        "work": "Matthias Schütt and Tetsuji Shioda, Mordell-Weil Lattices, author draft dated 16 March 2017",
+        "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "locator": "Section 13.4, pp. 356–360; Theorem 13.35 and equation (13.24), p. 357",
+        "finding": "The full sphere-packing chapter was checked. It proves the even-dimensional family with rank 2p-2, including the 56D input. It does not give the missing exact E59 section parameters. This is the 2017 draft, not the 2019 final edition.",
+        "retrieved_pdf_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d"
+      },
+      {
+        "work": "N. D. Elkies, Mordell-Weil lattices in characteristic 2, III (2001)",
+        "url": "https://arxiv.org/abs/math/0011171",
+        "locator": "Introduction, p. 1",
+        "finding": "The introduction confirms that the earlier 64D record was superseded by Nebe; this paper studies rank 128. It does not identify the historical E59 guarantee as a current record."
+      },
+      {
+        "work": "Ruitao Chen, Jiachen Hu, Binghui Li, Liwei Wang and Tianyi Wu, New Sphere Packings from the Antipode Construction (2025)",
+        "url": "https://arxiv.org/html/2505.02394v1",
+        "locator": "Abstract and Table 1; arXiv submission history checked 15 November 2026",
+        "finding": "The paper's reported improvements are in 19, 20, 21, 23, 44, 45 and 47 dimensions. Its table does not supply a 59D comparator."
+      }
+    ]
   },
   "N98": {
     "authors": "Gabriele Nebe",
@@ -46,7 +83,7 @@
     "catalogue_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/density.html",
     "locator": "56D input, delta=5^28/(2^28*29^4); catalogue row 56 cites M. Schütt, MW19 p. 400",
     "role": "Published 56D density input for our derived torus-layer and product bounds. The 57D value 151706.083320 is calculated here and must not be attributed to this chapter.",
-    "limitation": "The earlier audit recorded the exact 56D input from Cohn's table and the catalogue attribution; the book's full text was not available in the inspected publisher preview.",
+    "limitation": "The 2019 final edition was not available in the inspected publisher preview. On 15 November 2026 the archived author draft dated 16 March 2017 was checked in full: Theorem 13.35 and equation (13.24), p. 357, independently confirm the 56D input, but do not give exact 59D section parameters.",
     "archived_source": "../code_routes/density_catalogue.html"
   },
   "CS96": {

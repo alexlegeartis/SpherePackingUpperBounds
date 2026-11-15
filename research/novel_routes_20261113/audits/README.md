@@ -45,6 +45,13 @@ separates their roles from our own constructions; `benchmark_sources.json`
 records authors, titles, DOI links and locators. Vardy's §4 values are historical
 lower bounds for **Elkies's** sections, not an exact current record table.
 
+The full Vardy paper was checked on 15 November 2026. Its section-specific
+reference 10, p. 283 is Elkies's personal communication of February 1996.
+For 59D, exact rational powers verify **23.675981%–24.536216% above the
+reported guarantee**. This interval does not bound the gain over the actual
+Elkies lattice, whose density is only bounded below by that source.
+[Derivation and replay](../../../constructions/dim59/README.md#verified-external-comparison).
+
 ## Why the Γ72 sections exist
 
 The first principal 24×24 block of the published Γ72 Gram has even entries, determinant 2^24 and minimum at least 8. Dividing its Gram by 2 yields an even unimodular 24D lattice of minimum at least 4: the Leech lattice. Its coordinate embedding in Γ72 is primitive.

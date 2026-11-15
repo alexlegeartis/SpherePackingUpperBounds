@@ -11,12 +11,15 @@ with center density **274,522.589741149678…**, or
 
 An external historical reference is **Elkies's section E59, reported by
 Alexander Vardy in *Density doubling, double-circulants, and new sphere
-packings*, Trans. AMS 351 (1999), 271–283, §4**
+packings*, Trans. AMS 351 (1999), 271–283, §4, p. 278**
 ([paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). Its printed lower
-bound is `log2(delta(E59)) >= 17.75…`. Our packing exceeds this reported
-historical guarantee. **An exact percentage over the actual Elkies packing,
-and a comparison with the strongest subsequent published 59D result, remain
-unestablished.**
+bound has `log2(delta)=17.75…`. The original paper and its references were
+checked on 15 November 2026. Our packing is **23.675981%–24.536216% above the
+reported guarantee**, with an exact rational proof of the interval below.
+Vardy attributes the section results to **Elkies, personal communication,
+February 1996** (reference 10, p. 283). The actual E59 density is only bounded
+below, so this does **not** certify a gain over that lattice or the current
+record. See [verified external comparison](#verified-external-comparison).
 
 Separately, the repository's certified Gamma72 59D section has center density
 `262144`. The new construction improves that **internal** reference by
@@ -100,6 +103,7 @@ From the repository root, with Python 3, NumPy, SymPy and python-flint installed
 ```bash
 python constructions/dim59/verify.py
 python constructions/dim59/verify_independent.py
+python constructions/dim59/verify_external_comparison.py
 ```
 
 `verify.py` re-parses the archived Ne64 catalogue Gram, checks exact rational
@@ -125,6 +129,66 @@ Run these verifiers without Python's `-O` flag. No optimizer, floating minimum
 enumeration, search cap, or completeness assumption about a sampled vector pool
 is part of the proof.
 
+## Verified external comparison
+
+The full [Vardy paper](https://doi.org/10.1090/S0002-9947-99-02169-8),
+including §4 on p. 278 and reference 10 on p. 283, was checked directly.
+An [archived copy of the AMS PDF](https://web.archive.org/web/20231125005643id_/https://www.ams.org/journals/tran/1999-351-01/S0002-9947-99-02169-8/S0002-9947-99-02169-8.pdf)
+is accessible; its SHA-256 and the source observations are retained in
+[the source registry](../../research/novel_routes_20261113/audits/benchmark_sources.json).
+
+Let `B` denote the **guarantee reported for E59**, rather than the unknown
+actual lattice density. Reading `17.75..` as the printed decimal prefix gives
+
+\[
+2^{71/4}\le B<2^{444/25}.
+\]
+
+For our exact squared center density `D = 3^33*401^59/(2^296*5^2*13^61)`,
+the percentage `g=100*(sqrt(D)/B-1)` therefore satisfies
+
+\[
+\boxed{23.675981\%<g<24.536216\%.}
+\]
+
+This interval is proved by rational integer-power comparisons; its endpoints
+are rounded outward. The factors `V_59` cancel, so it is also the percentage
+for occupied fractions. The high-precision endpoint evaluations are
+`23.675981094714…%` and `24.536215572032…%`; these decimals are for display.
+
+The checker independently establishes
+
+```text
+D^25 > 2^888 * (1 + 23.675981/100)^50
+D^4  < 2^142 * (1 + 24.536216/100)^8
+```
+
+using only Python's exact integers and `Fraction`. It also checks the source
+metadata and the saved packing density formula. It does not import discovery
+code. Replay with `python constructions/dim59/verify_external_comparison.py`;
+[external_comparison.json](external_comparison.json) records the result.
+
+**What remains unresolved:** Vardy states a lower bound on the section density.
+The bound `B<2^17.76` is about the **reported guarantee**, not about the actual
+E59 lattice. Thus the interval above cannot certify an improvement over that
+lattice. The paper gives no exact E59 Gram, determinant, or minimum, and its
+section-specific reference is personal correspondence. A formula matching
+the displayed digits is insufficient to recover those missing parameters.
+
+The same page supplies an exact external control, Vardy's `J59`, with center
+density `2^(59-42)=131072`. Our exact gain over it is `109.444114487571…%`.
+It is weaker than the reported Elkies guarantee, so it is not the comparator
+in the README table.
+
+Further source checks included the full sphere-packing chapter of the
+[Schütt–Shioda author draft dated 16 March 2017](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf),
+§13.4, pp. 356–360, and
+[Chen–Hu–Li–Wang–Wu (2025), Table 1](https://arxiv.org/html/2505.02394v1#S1.T1).
+Neither supplies the missing exact E59 comparison. The draft does confirm
+the separately used 56D formula in Theorem 13.35, equation (13.24), p. 357;
+it is not the 2019 final edition. These checks do not establish a current
+59D literature record.
+
 ## Sources and comparison scope
 
 The inherited mathematical input is the published minimum 12 of
@@ -139,16 +203,6 @@ The prior explicit rank-13 section and its full period audit are in
 [the propagated benchmark package](../../research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md).
 This is the strongest 59D value in that finite audited collection, not an
 exhaustive catalogue of all published packings.
-
-The named historical same-dimensional comparison is **Elkies's section E59,
-reported by Alexander Vardy in *Density doubling, double-circulants, and new
-sphere packings*, Trans. AMS 351 (1999), 271–283, Section 4**
-([DOI and paper](https://doi.org/10.1090/S0002-9947-99-02169-8)). The table there
-prints `log2(delta(E59)) >= 17.75…`. Our value has `log2(delta)=18.066565…`.
-This exceeds the displayed historical benchmark; the printed lower bound with
-ellipses does not supply an exact density for the actual Elkies lattice or
-establish the best subsequent published 59D packing. We do not calculate a
-percentage improvement over that lattice from the truncated entry.
 
 Current public tables, the older Elkies section values discussed by Vardy, and
 recent antipode work were consulted. The commonly used public table lists only

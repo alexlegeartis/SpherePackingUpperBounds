@@ -9,7 +9,7 @@ and averaged-ball projections. Vardy's printed rounded numbers stay separate.
 All principal computed baseline density SQUARES are rational lower bounds.
 """
 from pathlib import Path
-import json,math
+import hashlib,json,math
 import sympy as sp
 import mpmath as mp
 P=Path(__file__).resolve().parent;R=P.parent
@@ -159,6 +159,15 @@ for n in range(57,72):
      'published_record_improvement_established':False})
 assert sp.Rational(best[59]['center_density_squared'])==2**36
 assert table[2]['repository_construction']['center_density_squared']==ne59['center_density_squared_exact']
+external59 = json.loads((ne59path.parent/'external_comparison.json').read_text())
+assert external59['status']=='verified_gain_interval_over_reported_guarantee'
+assert external59['construction_result_sha256']==hashlib.sha256(ne59path.read_bytes()).hexdigest()
+assert not external59['improvement_over_actual_E59_established']
+table[2]['published_guarantee_comparison'] = {
+ 'kind':'verified_interval_over_reported_lower_bound_not_actual_lattice_density',
+ 'gain_percent_interval':external59['gain_percent_interval'],
+ 'evidence_path':'../../../constructions/dim59/external_comparison.json',
+ 'verifier_path':'../../../constructions/dim59/verify_external_comparison.py'}
 report={'schema_version':2,
  'scope':'Exact comparisons with our computed reference constructions; published parent inputs and historical same-dimensional values attributed separately. No improvement over the current published record is established by this audit.',
  'sources':sources,'pi_bounds_certified_by_Machin':True,'minimum_inputs_inherited':True,

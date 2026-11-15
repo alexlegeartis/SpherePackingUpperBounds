@@ -21,19 +21,21 @@ Full publication details and precise locators are listed under **Source details*
 
 ## Published numerical comparison: Elkies's sections, reported by Vardy
 
-[Vardy (1999), Section 4](https://doi.org/10.1090/S0002-9947-99-02169-8) reports lower bounds for Elkies's sections `E_n`, in a table headed `log2(delta(E_n))`. Here both numerical columns use **log2(center density)**, so their units agree. The ellipses are retained: the printed entries are not exact density formulas.
+[Vardy (1999), Section 4, p. 278](https://doi.org/10.1090/S0002-9947-99-02169-8) reports lower bounds for Elkies's sections `E_n`, in a table headed `log2(delta(E_n))`. Here both numerical columns use **log2(center density)**, so their units agree. The ellipses are retained: the printed entries are not exact density formulas.
 
 | Dimension | Published `log2(delta(E_n))`, Vardy §4 | Strongest bound calculated here, `log2(delta)` | What the comparison establishes |
 |---|---:|---:|---|
 | 57 | 15.37… | 17.210919 | Above the printed historical benchmark; exact Elkies density and current record not established. |
 | 58 | 16.46… | 17.207519 | Above the printed historical benchmark; exact Elkies density and current record not established. |
-| 59 | 17.75… | 18.066565 | Above the printed historical benchmark; exact Elkies density and current record not established. |
+| 59 | 17.75… | 18.066565 | 23.67–24.54% above the reported guarantee (verified interval); gain over the actual E59 lattice unresolved. |
 | 60 | 19.04… | 19.561223 | Above the printed historical benchmark; exact Elkies density and current record not established. |
 | 61 | 20.54… | 20.962387 | Above the printed historical benchmark; exact Elkies density and current record not established. |
 | 62 | 22.13… | 22.307017 | Above the printed historical benchmark; exact Elkies density and current record not established. |
 | 63 | 23.92… | 23.643718 | Below even the printed published lower bound; no record gain. |
 
-There is **no percentage claim against the actual Elkies lattices** in this table. A lower bound printed with ellipses is insufficient to reconstruct their exact packing densities. Exceeding a displayed historical benchmark is not a proof of exceeding the present literature record.
+There is **no percentage claim against the actual Elkies lattices** in this table. The original PDF was checked on 15 November 2026. Reference 10, p. 283 attributes the section results to **Elkies, personal communication, February 1996**. No exact E59 section parameters are supplied there.
+
+For 59D, let `B` be the guarantee reported by the printed prefix. Then `2^17.75 <= B < 2^17.76`, and exact integer-power comparisons prove **23.675981% < 100*(delta_ours/B-1) < 24.536216%**. The upper bound here is on the **reported guarantee**, not on the actual Elkies density. Thus this verifies the comparison with the guarantee, without proving an improvement over the actual E59 lattice or the current record. [Source verification and derivation](../../../constructions/dim59/README.md#verified-external-comparison) · [Exact arithmetic report](../../../constructions/dim59/external_comparison.json).
 
 For **65–71D**, this audit has not identified a published same-dimensional numerical record to use as the comparator. Nebe's 64D and 72D parent results do not fill that gap. Their exact parent densities are respectively `3^16` and `2^36`; no improvement in either parent dimension is claimed here.
 
@@ -77,9 +79,9 @@ The Gamma72 section references in 66–71D also attain a ceiling for the **bare-
 
 ## Source details
 
-**V99. Alexander Vardy.** [Density doubling, double-circulants, and new sphere packings](https://doi.org/10.1090/S0002-9947-99-02169-8). Transactions of the American Mathematical Society 351 (1999), 271–283. **Locator:** Section 4, the table of log2(delta(E_n)) for n=57,...,63.
+**V99. Alexander Vardy.** [Density doubling, double-circulants, and new sphere packings](https://doi.org/10.1090/S0002-9947-99-02169-8). Transactions of the American Mathematical Society 351 (1999), 271–283. **Locator:** Section 4, p. 278, the table for n=57,...,63; reference 10 on p. 283 identifies the Elkies section results as personal communication, February 1996.
 
-The table gives lower bounds with ellipses, not exact section determinants or a current record survey. No percentage improvement over the actual Elkies lattices is certified from those truncated numbers.
+The table gives lower bounds with ellipses, not exact section determinants or a current record survey. The verified 59D interval 23.675981%–24.536216% compares with the reported guarantee only; it does not certify an improvement over the actual Elkies lattice.
 
 **N98. Gabriele Nebe.** [Some cyclo-quaternionic lattices](https://doi.org/10.1006/jabr.1997.7163). Journal of Algebra 199 (1998), 472–498. **Locator:** The Ne64 lattice; see the catalogue's REFERENCES and GRAM entries.
 
@@ -97,7 +99,7 @@ The table gives lower bounds with ellipses, not exact section determinants or a 
 
 [Archived source](../code_routes/density_catalogue.html).
 
-The earlier audit recorded the exact 56D input from Cohn's table and the catalogue attribution; the book's full text was not available in the inspected publisher preview.
+The 2019 final edition was not available in the inspected publisher preview. On 15 November 2026 the archived author draft dated 16 March 2017 was checked in full: Theorem 13.35 and equation (13.24), p. 357, independently confirm the 56D input, but do not give exact 59D section parameters.
 
 **CS96. J. H. Conway and N. J. A. Sloane.** [The Antipode Construction for Sphere Packings](https://neilsloane.com/doc/anti.pdf). Inventiones Mathematicae 123 (1996), 309–313. **Locator:** Section 2, Theorem 1 and density formula (1).
 
@@ -111,8 +113,9 @@ The earlier audit recorded the exact 56D input from Cohn's table and the catalog
 OPENBLAS_NUM_THREADS=1 python research/novel_routes_20261113/audits/propagated_benchmarks.py
 python constructions/dim59/verify.py
 python constructions/dim59/verify_independent.py
+python constructions/dim59/verify_external_comparison.py
 ```
 
-The first command regenerates this page, the exact comparison arithmetic and source attribution from [benchmark_sources.json](benchmark_sources.json). It consumes previously verified construction data; it does not replace their minimum proofs. The other two commands replay the 59D construction and its internal reference independently.
+The first command regenerates this page, the exact comparison arithmetic and source attribution from [benchmark_sources.json](benchmark_sources.json). It consumes previously verified construction data; it does not replace their minimum proofs. The next two commands replay the 59D construction and its internal reference independently. The last checks the external reported-guarantee interval using exact rational powers; its source transcription is an input.
 
 **Status:** certified constructions and internal improvements; historical published comparisons explicitly identified; no established improvement over the current published record in dimensions 57–71 from this audit. A future record claim must identify the previous same-dimensional result by author, work and exact parameters, then compare against that result.
