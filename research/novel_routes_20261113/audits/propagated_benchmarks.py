@@ -169,8 +169,8 @@ for n in range(57,72):
   internal['comparison_kind']='derived_from_published_inputs_not_a_quoted_59D_record'
  table.append({'dimension':n,'computed_reference':b,'repository_construction':cr,
      'internal_comparison':internal,'published_reference':published.get(n),
-     'current_published_record_identified':False,
-     'published_record_improvement_established':False})
+     'literature_status':'best_known_lower_bound_in_dated_review' if n==59 else 'named_comparison',
+     'literature_status_report':'../../covering_and_deep_cosets_20261115/PRIORITY.md'})
 assert sp.Rational(best[59]['center_density_squared'])==Q(2**44,3**5)
 assert table[2]['repository_construction']['center_density_squared']==ne59['center_density_squared_exact']
 external59 = json.loads((ne59path.parent/'external_comparison.json').read_text())
@@ -183,7 +183,7 @@ table[2]['published_guarantee_comparison'] = {
  'evidence_path':'../../../constructions/dim59/external_comparison.json',
  'verifier_path':'../../../constructions/dim59/verify_external_comparison.py'}
 report={'schema_version':2,
- 'scope':'Exact comparisons with our computed reference constructions; published parent inputs and historical same-dimensional values attributed separately. No improvement over the current published record is established by this audit.',
+ 'scope':'Exact comparisons with named references, including published guarantees and derived controls. The dated literature review registers 59D as best-known; see covering_and_deep_cosets_20261115/PRIORITY.md.',
  'sources':sources,'pi_bounds_certified_by_Machin':True,'minimum_inputs_inherited':True,
  'all_torus_volume_inequalities_checked_exactly':True,
  'rows':table,'all_finite_family_bounds':rows}
@@ -193,4 +193,4 @@ for a in table:
  print(a['dimension'],a['repository_construction']['name'],
        f"{a['repository_construction']['center_density']:.9f}",
        a['internal_comparison']['comparison_kind'],
-       'published record improvement:',a['published_record_improvement_established'])
+       'literature status:',a['literature_status'])

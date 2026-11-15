@@ -82,7 +82,7 @@ def audit():
             'maximum_dimension':96,'hermite_upper':{str(n):str(hermite(n)[0])for n in range(49,97)},
             'all_gamma_bounds_stronger_than_unrounded_Blichfeldt':True,
             'improved_controls':improved,'all_density_and_root_inequalities_exact':True,
-            'worldwide_record_claim':False}
+            'claim_kind':'Derived lower-bound guarantees; source comparisons and dated best-known claims are recorded in PRIORITY.md'}
 
 
 if __name__=='__main__':

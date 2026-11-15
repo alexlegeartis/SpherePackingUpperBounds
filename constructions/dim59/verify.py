@@ -128,7 +128,8 @@ def audit():
         "ambient_source":"https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/CQ64b.html",
         "ambient_source_sha256":hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
         "data_sha256":{f.name:hashlib.sha256(f.read_bytes()).hexdigest()for f in sorted((P/"data").iterdir())if f.is_file()},
-        "all_checks_exact":True, "world_record_established":False,
+        "all_checks_exact":True,
+        "literature_status_report":"../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
     }
     return result
 

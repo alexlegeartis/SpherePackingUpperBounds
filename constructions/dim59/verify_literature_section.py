@@ -94,7 +94,7 @@ def audit():
         "increase_percent": str(sp.N(100*(sp.sqrt(ratio2)-1), 35)),
         "gain_percent_interval_exact_checks": ["2.028457", "2.028458"],
         "all_matrix_and_gain_checks_exact": True,
-        "current_record_identified": False,
+        "literature_status_report": "../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
         "source_urls": {
             "KAPPA13.html": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html",
             "Leech.html": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Leech.html",
@@ -117,5 +117,5 @@ if __name__ == "__main__":
         assert json.loads(output.read_text()) == result, "Comparison report is stale."
     print(json.dumps({k: result[k] for k in (
         "status", "center_density_exact", "center_density", "packing_fraction",
-        "increase_percent", "is_reported_59D_result", "current_record_identified",
+        "increase_percent", "is_reported_59D_result", "literature_status_report",
     )}, indent=2))

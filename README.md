@@ -42,10 +42,21 @@ comparison. Values marked **derived** are calculated from published inputs,
 rather than quoted as numerical records in those sources. All densities in
 this table are occupied-volume fractions.
 
+**In 49D–52D, 59D, 81D, 84D, 85D and 96D, our certified bounds are
+best-known lower bounds in the literature review dated 15 November 2026.**
+No stronger published lower bound was located. The [review and exact comparisons](research/covering_and_deep_cosets_20261115/PRIORITY.md)
+identify the sources. We compare proved guarantees; neither a previous-record
+table nor an older lattice's unknown actual minimum is required.
+
 | Dimension | Recorded comparison density | Comparison method / source | Our lower-bound density | Increase | Our method / proof |
 | --- | --- | --- | --- | --- | --- |
 | 36 | ≈6.1615e-7 | [KP36 code-based lattice — Kschischang–Pasupathy (1992)](https://doi.org/10.1109/18.119683) · [Catalogue parameters](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KP36.html) | ≈7.3303e-7 | 18.97% | [Contact-preserving metric deformation; exact Gram matrix and complete minimum certificate](constructions/dim36/) |
+| 49 | ≈4.128837170599e-9 (**derived**) | P48q × A1 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.151355755657e-9 | **73.205081%** | [Explicit deeper P48q half-coset; full minimum certificate](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
+| 50 | ≈8.408155459659e-10 (**derived**) | P48q × A2 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.184502868110e-9 | **159.807621%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
+| 51 | ≈1.798425511734e-10 (**derived**) | P48q × A3 — [Bos–Conway–Sloane (1982), §5](https://neilsloane.com/doc/Me103.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈7.128004761714e-10 | **296.346955%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
+| 52 | ≈1.094979637686e-10 (**derived**) | Two Blichfeldt sections of Leterrier54 — [Leterrier (2022), Corollary 1.4](https://doi.org/10.1007/s40993-022-00321-0); [derivation](research/range48_96_20261115/verify_range.py) | ≈2.586215799215e-10 | **136.188483%** | [Explicit compatible cosets and fitted vertical metric](research/covering_and_deep_cosets_20261115/DEEPER_PROOF.md) |
 | 59 | ≈2.585163653787e-12 (**derived**) | Γ72 perpendicular to √2κ13 — [Nebe (2012), §4.2](https://arxiv.org/pdf/1008.2862) + [classical κ13 catalogue data](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html); [derivation](constructions/dim59/#literature-derived-comparison) | ≈2.637602590720e-12 | **2.028457%** | [Six-translate Ne64 antipode; exact period, shifts and attained minimum](constructions/dim59/) |
+| 81 | ≈1.595311593607e-17 (**derived**) | MW80 × A1 — [Schütt–Shioda (2017 author draft), Theorem 13.35, p=41](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf); [exact comparison](research/covering_and_deep_cosets_20261115/literature_comparisons.json) | ≈2.790714837250e-17 | **74.932273%** | [Covering bound + two-color layers above MW80; existence proof](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
 | 84 | ≈2.970203932666e-19 (**derived**) | Section of BCS88 perpendicular to √2 D4 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈7.603722067624e-19 | **156%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
 | 85 | ≈1.610346851551e-19 (**derived**) | Section of BCS88 perpendicular to √2 A3 — [Bos–Conway–Sloane (1982), Theorems 1–2, Eq. (15)](https://neilsloane.com/doc/Me103.pdf); [derivation and exact matrix audit](research/priority_resolution_20261115/CLASSICAL_SECTIONS.md) | ≈2.128843618193e-19 | **32.197832%** | [Compatible half-cosets above L80; existence proof](research/cross_dimension_lower_20261115/COUNTING_PROOF.md#4-the-80d-parent-gives-deeper-nonsingular-half-cosets) |
 | 96 | ≈2.795023294827e-22 | P48q-based lattice — [Bos–Conway–Sloane (1982), Eq. (15), Table 1, p.177](https://neilsloane.com/doc/Me103.pdf); exact center density `3^48/2^24` | ≈6.108662600212e-22 | **118.554980%** | [Coxeter–Few–Rogers covering bound + nine-color periodic layers above Shioda's MW92; existence proof and exact inequalities](research/covering_and_deep_cosets_20261115/COVERING_PROOF.md) |
@@ -53,10 +64,9 @@ this table are occupied-volume fractions.
 The 84D/85D rows now use stronger classical comparisons than Chen's 2013
 guarantees. The 96D comparator is an explicitly reported published
 construction, with its exact density recovered from the full paper.
-These three bounds are **existence proofs**; explicit horizontal shifts
-remain to be found. They are **record candidates against the strongest
-comparisons located**, with the search scope and exact arithmetic in the
-[dimension-specific verdicts](research/priority_resolution_20261115/).
+The 81D, 84D, 85D and 96D bounds are **existence proofs**; explicit horizontal
+shifts remain to be found. The 49D–52D and 59D packings are explicit.
+[Sources, review scope and exact gains](research/covering_and_deep_cosets_20261115/PRIORITY.md).
 
 **86D and 87D are not record candidates:** classical BCS88 sections already
 exceed our results, so 86D has been removed from this improvement table.
@@ -71,8 +81,8 @@ now covers **every dimension in that interval**, with named comparisons.
 It adds [explicit 49D–52D minimum-6 lattices](research/range48_96_20261115/P48_PROOF.md),
 with complete compatible-coset enumerations above P48, and a stronger
 **81D** torus bound above Shioda's MW80.
-These extend the checked lower bounds; previous worldwide records in
-those dimensions have not been identified. The audit also includes
+These improve the published-input comparisons named in the table above.
+The audit also includes
 Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
 
@@ -93,8 +103,9 @@ fraction shown here. The classical κ13 normal gives the exact comparison
 embedding and its primitivity are checked from the catalogue matrices;
 Nebe's published Γ72 structure supplies the remaining existence and minimum
 inputs. [What other works report, derivation and verification](constructions/dim59/#literature-derived-comparison).
-The best previously reported 59D record is still not identified, so this is a
-verified comparison with a classical construction, not an established SOTA gain.
+No stronger published 59D lower bound was located in the dated review.
+Our bound also exceeds Vardy's reported Elkies guarantee; the unknown actual
+minimum of that older lattice does not prevent comparing the proved bounds.
 
 As a separate internal check, our earlier Gamma72 section has center density
 262144, below the new construction by exactly **4.722057%**. This earlier
@@ -103,13 +114,14 @@ stronger κ13 comparison. Its
 [certificate and provenance](research/novel_routes_20261113/audits/PROPAGATED_BENCHMARKS.md#where-our-reference-numbers-come-from)
 remain available alongside the named published sources.
 
-Additional merged constructions include an explicit **65D minimum-12 lattice** and periodic packings in 60–62D and 66–71D. Their comparison scope and unestablished world-record status are documented in [the certified higher-dimensional research](research/novel_routes_20261113/README.md).
+Additional merged constructions include an explicit **65D minimum-12 lattice** and periodic packings in 60–62D and 66–71D. Their named comparisons are documented in [the certified higher-dimensional research](research/novel_routes_20261113/README.md).
 
 The [cross-dimension lower-bound research](research/cross_dimension_lower_20261115/)
 adds counting-based **existence proofs in 73–78D and 81–85D** and explicit
 **L80 antipode certificates in 76–79D**. Its tables identify each derived
 product comparison and distinguish existence bounds from explicit packings.
-Worldwide-record improvements are not established for these experiments.
+The current best-known claims and external comparisons are collected in the
+[dated literature review](research/covering_and_deep_cosets_20261115/PRIORITY.md).
 
 ## Registered results
 

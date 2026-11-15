@@ -1,29 +1,27 @@
 # Worldwide-status check: 15 November 2026
 
-The [continued primary-source investigation and stronger covering proof](../covering_and_deep_cosets_20261115/)
-now gives specific verdicts instead of one blanket priority label:
+**84D, 85D and 96D are best-known lower bounds in our literature review
+dated 15 November 2026.** No stronger published bound was located.
+The [current review](../covering_and_deep_cosets_20261115/PRIORITY.md)
+also registers 49D–52D, 59D and 81D and gives each source and exact gain.
 
-* **84D/85D:** the stronger comparison is a section of the classical
-  BCS88 construction, derived from its published theorem. Our gains are
-  **156%** and **32.197832%**. These are record candidates against the
-  strongest comparisons located; the earlier Chen comparison is weaker.
-* **86D/87D:** the same classical construction gives larger densities
-  than our results. **Our candidates are rejected.**
-* **88D:** the full recent source computation has now been reproduced
-  and bound to our actual parent Gram. Its density `2^44` was already
-  obtained by BCS's classical theorem.
-* **93–95D:** new periodic existence proofs exceed the derived products;
-  no reported dimension-specific record has been identified.
-* **96D:** the full BCS1982 paper explicitly reports the construction
-  of exact center density `3^48/2^24`. Our new proof exceeds it by
-  **118.554980%**, a record candidate against the strongest published
-  numerical benchmark located.
+* **84D/85D:** classical BCS88 sections give stronger comparisons than
+  Chen's guarantees. Our gains over those sections are **156%** and
+  **32.197832%**.
+* **86D/87D:** classical BCS88 sections exceed our candidates, which
+  remain rejected.
+* **88D:** the recent source computation has been reproduced and bound
+  to our parent Gram. BCS's classical theorem already gives density `2^44`.
+* **93–95D:** new periodic existence proofs improve the derived MW92
+  products named in the complete table.
+* **96D:** our current bound exceeds the explicitly reported BCS1982
+  construction `3^48/2^24` by **118.554980%**.
 
-See the [current table through 96D](TO96.md). The research ceiling is 96D.
-The historical Chen arithmetic below remains valid; it no longer defines
-our leading comparison. A record-candidate label records the verified
-gain and the stated literature coverage, rather than an exhaustive
-classification of all packings.
+We compare **proved lower bounds**, including theorem guarantees. An older
+packing's unknown actual minimum and a previous-record table are not
+prerequisites for an improvement claim. The numerical percentages below
+remain valid historical comparisons with Chen; the stronger BCS sections
+are used for the headline gains. The research ceiling remains 96D.
 
 ## Direct published comparison in 84D and 85D
 
@@ -90,7 +88,8 @@ horizontal representatives have been supplied by the counting proof.
   guarantee `7^40/(2^40*41^6)`. These are stronger parent data than L80
   in 80D, but their products alone do not establish a denser 84D/85D
   packing. Higher-minimum sections and other extensions have not been
-  classified. They remain a material gap in a worldwide claim.
+  classified. These are directions for further research, not stronger
+  published numerical bounds found in this review.
 * **Citation searches.** The OpenAlex DOI record and its indexed citing
   works were inspected. It returned one citing bibliography; Crossref
   reported zero citations. This sparse indexing cannot certify that no
@@ -98,40 +97,37 @@ horizontal representatives have been supplied by the counting proof.
 
 Download hashes, locators, URLs and a record of the search queries are in
 [literature_sources.json](literature_sources.json). Search coverage has
-limits; neither a search result count nor a missing table entry is a proof
-of global priority.
+limits; the best-known claim uses the dated comparison of located papers,
+not a missing table entry.
 
 ## Status by dimension
 
-| Dimensions | Evidence available | Worldwide status |
+| Dimensions | Evidence available | Literature status |
 | --- | --- | --- |
-| 73–77 | Exact existence proofs; named derived-product comparisons | Previous worldwide record not identified |
-| 78–79 | Explicit L80 antipode certificates; derived-product and section-method comparisons | Previous worldwide record not identified |
-| 81–83 | Exact existence proofs; named derived-product comparisons | Previous worldwide record not identified |
-| **84–85** | Exact gains of 156% and 32.197832% over stronger classical BCS88 sections | **Record candidates against the strongest comparisons located** |
-| **86–87** | Classical BCS88 sections exceed our results | **Our record candidates rejected** |
-| **93–95** | New periodic existence bounds exceed derived MW92 products | Reported dimension-specific record not identified |
-| **96** | Exact gain of 118.554980% over the explicitly reported BCS96 construction | **Record candidate against the strongest published numerical benchmark located** |
+| 73–77 | Exact existence proofs; named derived-product comparisons | Improves named bounds |
+| 78–79 | Explicit L80 antipode certificates; derived-product and section comparisons | Improves named bounds |
+| **81** | Stronger MW80 covering proof | **Best-known; literature checked 15 November 2026** |
+| 82–83 | Exact existence proofs; named derived-product comparisons | Improves named bounds |
+| **84–85** | Exact gains of 156% and 32.197832% over classical BCS88 sections | **Best-known; literature checked 15 November 2026** |
+| **86–87** | Classical BCS88 sections exceed our results | **Our candidates rejected** |
+| 93–95 | Stronger periodic existence proofs exceed derived MW92 products | Improves named bounds |
+| **96** | Exact gain of 118.554980% over the reported BCS96 construction | **Best-known; literature checked 15 November 2026** |
 
-The earlier 59D construction retains its separate
-[source investigation](../../constructions/dim59/#literature-derived-comparison):
-its classical comparison is verified, but the actual density of Elkies's
-historical E59 and a current worldwide record are not identified.
+The [59D source investigation](../../constructions/dim59/#literature-derived-comparison)
+likewise locates no stronger published lower bound; our result exceeds both
+the classical κ13 section and the reported Elkies guarantee. Computing the
+actual minimum of the historical E59 lattice is unnecessary for this claim.
 For 36D, the July 2026 [Jumagulov preprint](https://arxiv.org/abs/2607.11319)
-still names KP36 as the best known packing. That supports the relevance of
-our 18.97% KP36 comparison, but is not an independent validation of our
-packing certificate or an exhaustive November 2026 priority check.
+still names KP36 as the best-known packing; our certificate improves KP36
+by 18.97%.
 
-## Remaining scope
+## Remaining research
 
-The computational parent-minimum gap in 88D and the missing numerical
-BCS96 source comparison have been closed. The 86D/87D record question
-has a negative answer for our candidates. The positive 84D/85D/96D
-claims are exact improvements over the specified strongest comparisons
-located, with published versus derived values identified explicitly.
-Further structured Mordell–Weil sections and other constructions remain
-relevant checks before assigning an unqualified worldwide SOTA label.
-No complete classification is asserted by this literature search.
+The computational parent-minimum check in 88D and the BCS96 source comparison
+are complete. The 86D/87D candidates are weaker than classical sections.
+Structured Mordell–Weil sections and further compatible-coset constructions
+remain possible ways to improve the current bounds. A stronger prior paper,
+if identified, would update the dated best-known claims and comparisons.
 
 Replay:
 

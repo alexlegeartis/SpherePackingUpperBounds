@@ -567,7 +567,7 @@
     "2.028458"
   ],
   "all_matrix_and_gain_checks_exact": true,
-  "current_record_identified": false,
+  "literature_status_report": "../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
   "source_urls": {
     "KAPPA13.html": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html",
     "Leech.html": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/Leech.html"

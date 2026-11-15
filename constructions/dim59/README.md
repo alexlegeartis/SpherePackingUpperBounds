@@ -16,6 +16,9 @@ They give a 59D packing of exact center density `2^22/(9*sqrt(3))`, or
 **2.028457148397469…%**. This 59D number is **derived here from published
 inputs**, not quoted as a result of Nebe's paper. See
 [the derivation and source survey](#literature-derived-comparison).
+**This is the best-known 59D lower bound in our literature review dated
+15 November 2026; no stronger published bound was located.**
+[Current review and comparisons](../../research/covering_and_deep_cosets_20261115/PRIORITY.md).
 
 Separately, the repository's certified Gamma72 59D section has center density
 `262144`. The new construction improves that **internal** reference by
@@ -187,12 +190,11 @@ from constructions in other dimensions and their consequences:
 | [Nebe–Sloane density table](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html) | The live table has selected dimensions above 48, including **54, 56, 64, 72, 80, 128**, and no 59D row. |
 | [Felpix-Studios repository](https://github.com/Felpix-Studios/sphere-packing) | Its inspected README reports a **4D upper bound**, not a 59D lower bound. |
 
-The absence of a 59D entry in these sources does not prove no stronger result
-exists. The present survey has **not identified the strongest previously
-reported 59D packing**. The meaningful quantified comparison currently
-available is the **2.028457% gain over the derived classical construction**;
-the older roughly 24% reported-guarantee comparison is retained below as
-historical context.
+The review located no stronger proved 59D lower bound. The strongest named
+comparison above is the derived classical construction, which our bound
+exceeds by **2.028457%**. Our bound also improves the older reported Elkies
+guarantee by roughly 24%, as verified below. A previous-record table is
+not needed to compare these published guarantees.
 
 ## Verified external comparison
 
@@ -233,12 +235,12 @@ metadata and the saved packing density formula. It does not import discovery
 code. Replay with `python constructions/dim59/verify_external_comparison.py`;
 [external_comparison.json](external_comparison.json) records the result.
 
-**What remains unresolved:** Vardy states a lower bound on the section density.
-The bound `B<2^17.76` is about the **reported guarantee**, not about the actual
-E59 lattice. Thus the interval above cannot certify an improvement over that
-lattice. The paper gives no exact E59 Gram, determinant, or minimum, and its
-section-specific reference is personal correspondence. A formula matching
-the displayed digits is insufficient to recover those missing parameters.
+**Conclusion:** our certified lower bound improves the lower-bound guarantee
+reported by Vardy. That is the relevant comparison of proved bounds.
+The bound `B<2^17.76` describes the reported guarantee; it does not compute
+the actual E59 density. The paper supplies no exact E59 Gram, determinant
+or minimum, but those parameters are not required to establish this
+improvement over its published guarantee.
 
 The same page supplies an exact external control, Vardy's `J59`, with center
 density `2^(59-42)=131072`. Our exact gain over it is `109.444114487571…%`.
@@ -249,10 +251,9 @@ Further source checks included the full sphere-packing chapter of the
 [Schütt–Shioda author draft dated 16 March 2017](https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf),
 §13.4, pp. 356–360, and
 [Chen–Hu–Li–Wang–Wu (2025), Table 1](https://arxiv.org/html/2505.02394v1#S1.T1).
-Neither supplies the missing exact E59 comparison. The draft does confirm
-the separately used 56D formula in Theorem 13.35, equation (13.24), p. 357;
-it is not the 2019 final edition. These checks do not establish a current
-59D literature record.
+Neither supplies a stronger 59D lower bound. The draft confirms the
+separately used 56D formula in Theorem 13.35, equation (13.24), p. 357;
+it is not the 2019 final edition.
 
 ## Sources and comparison scope
 
@@ -269,9 +270,10 @@ The prior explicit rank-13 section and its full period audit are in
 This is the strongest 59D value in that finite audited collection, not an
 exhaustive catalogue of all published packings.
 
-Current public tables, the older Elkies section values discussed by Vardy, and
-recent antipode work were consulted. The commonly used public table lists only
-selected dimensions above 48, so its omission of 59D cannot establish priority.
-No global optimality or global SOTA claim follows from this package.
+Current public tables, the older Elkies section values discussed by Vardy,
+and recent antipode work were consulted. The best-known claim follows from
+comparing the located published guarantees and their classical consequences,
+with the date and sources recorded in the current review. It is not an
+optimality claim.
 
 [Discovery code and other dimensions](../../research/lower_bound_return_20261115/README.md).

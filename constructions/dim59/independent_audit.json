@@ -14,7 +14,7 @@
     "Ne64": 12,
     "Gamma72": 8
   },
-  "world_record_established": false,
+  "literature_status_report": "../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
   "data_sha256": {
     "ambient_lifts.txt": "66c3f8356e34b0b89da5c522021d78836fed74abbb31c3d648f945d9354346ce",
     "contact.json": "b22ea3a175831472b1cdacc2245246df6ceee5b4d6e504a80adfeeecb5b93541",

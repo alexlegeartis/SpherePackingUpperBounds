@@ -40,23 +40,22 @@ of published parents, not new explicit normals or reported records.
 
 ## What the priority investigation confirms
 
-The four new explicit lattices and all seven new covering-based bounds
-have completed their stated verification. The earlier five values are
-strictly below the replacements, so they cannot be the current best
-lower bounds. [Dimension-specific priority verdicts](PRIORITY.md) give
-the actual source-search outcome and its limits.
+**The bounds in 49D–52D, 59D, 81D, 84D, 85D and 96D are best-known
+lower bounds in our literature review dated 15 November 2026.** No
+stronger published lower bound was located. [Sources and comparison table](PRIORITY.md)
+identify the work and theorem behind each numerical comparison.
 
-The search did **not** identify a reliable, published previous-record
-attribution for each of 49D–52D and 81D. That evidence is still needed
-to label a worldwide improvement there. The exact construction proofs
-do not supply bibliographic priority evidence. No unqualified worldwide
-SOTA label is assigned on the strength of a missing table entry.
+We compare proved lower bounds: B>A improves a paper's guarantee A.
+Neither a previous-record table nor the unknown actual minimum of an
+older lattice is required. The earlier five repository values are
+superseded by the current constructions. The percentages in the first
+table above track that internal progress; the external gains are in
+[PRIORITY.md](PRIORITY.md) and [literature_comparisons.json](literature_comparisons.json).
 
 The [full table for every dimension 48–96](../range48_96_20261115/TABLE.md)
-is updated to these stronger values. It retains the named published
-and derived comparisons separately. The 96D source comparison is
-dimension-specific and explicitly reported in BCS1982; the sparse
-tables in the other dimensions do not provide the same evidence.
+uses the same dated review and distinguishes reported numbers from
+derived consequences. Exact comparison arithmetic can be replayed with
+`python research/covering_and_deep_cosets_20261115/verify_literature_comparisons.py`.
 
 ## Two ideas that produced gains
 

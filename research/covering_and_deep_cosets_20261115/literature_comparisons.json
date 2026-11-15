@@ -1,0 +1,221 @@
+{
+  "review": {
+    "review_date": "2026-11-15",
+    "claim": "Best-known sphere-packing lower bounds found in the documented literature review",
+    "registered_dimensions": [
+      49,
+      50,
+      51,
+      52,
+      59,
+      81,
+      84,
+      85,
+      96
+    ],
+    "criterion": "Our certified lower bound exceeds the published guarantees and classical consequences compared in the review, and no stronger published lower bound was located.",
+    "comparison_quantity": "Proved lower bound, including theorem guarantees; the actual uncomputed minimum of a prior lattice is not required.",
+    "authoritative_previous_record_table_required": false,
+    "sources": [
+      "sources.json",
+      "../range48_96_20261115/sources.json",
+      "../priority_resolution_20261115/sources.json",
+      "../cross_dimension_lower_20261115/literature_sources.json",
+      "../../constructions/dim59/README.md"
+    ],
+    "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
+    "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified."
+  },
+  "rows": [
+    {
+      "dimension": 49,
+      "our_density_squared": "239299329230617529590083/1125899906842624",
+      "named_external_comparison": {
+        "dimension": 49,
+        "name": "Leech--Sloane P48q x classical 1D lattice",
+        "density_squared": "79766443076872509863361/1125899906842624",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_density_squared": "79766443076872509863361/1125899906842624",
+      "ratio_squared_exact": "3",
+      "gain_percent": "73.2050807568877293527446341505872366942805253810380628055810",
+      "gain_percent_interval": [
+        "1830127/25000",
+        "73205081/1000000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 50,
+      "our_density_squared": "717897987691852588770249/4503599627370496",
+      "named_external_comparison": {
+        "dimension": 50,
+        "name": "Leech--Sloane P48q x classical 2D lattice",
+        "density_squared": "26588814358957503287787/1125899906842624",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_density_squared": "26588814358957503287787/1125899906842624",
+      "ratio_squared_exact": "27/4",
+      "gain_percent": "159.807621135331594029116951225880855041420788071557094208371",
+      "gain_percent_interval": [
+        "159807621/1000000",
+        "79903811/500000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 51,
+      "our_density_squared": "2153693963075557766310747/15481123719086080",
+      "named_external_comparison": {
+        "dimension": 51,
+        "name": "Leech--Sloane P48q x classical 3D lattice",
+        "density_squared": "79766443076872509863361/9007199254740992",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_density_squared": "79766443076872509863361/9007199254740992",
+      "ratio_squared_exact": "864/55",
+      "gain_percent": "296.346955445489818018949749635836266076401781836947134410909",
+      "gain_percent_interval": [
+        "59269391/200000",
+        "74086739/250000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 52,
+      "our_density_squared": "2153693963075557766310747/14073748835532800",
+      "named_external_comparison": {
+        "dimension": 52,
+        "name": "Leterrier54, Corollary 1.4 (2022) / Blichfeldt section to 52D",
+        "density_squared": "27431955",
+        "evidence": "https://doi.org/10.1007/s40993-022-00321-0",
+        "kind": "derived_classical_section"
+      },
+      "comparison_density_squared": "27431955",
+      "ratio_squared_exact": "239299329230617529590083/42896716081959796736000",
+      "gain_percent": "136.188483347592884754729235938309514642210663264924999127067",
+      "gain_percent_interval": [
+        "136188483/1000000",
+        "34047121/250000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 59,
+      "our_density_squared": "21405204943980226664926354280591480209867607821118276567687724566039053996948019867107865147169906013534612988679890441582479749344767328286736445164547520654201301378323/284029347387705919624471088176621380742985085328384105240383643186903162188781406997589383713001126582653023337656951836057047625443685815452970103864505139200",
+      "named_external_comparison": {
+        "dimension": 59,
+        "name": "Classical Gamma72/kappa13 section",
+        "density_squared": "17592186044416/243",
+        "evidence": "constructions/dim59/verify_literature_section.py",
+        "kind": "derived_classical_section"
+      },
+      "comparison_density_squared": "17592186044416/243",
+      "ratio_squared_exact": "5201464801387195079577104090183729690997828700531741205948117069547490121258368827707211230762287161288910956249213377304542579090778460773676956174985047518970916234932489/4996697121318584144907091660866032034060227063403229808777912180658513089002700477020208963109416504048234398313518585458328261187973480722717073498782813340008151462707200",
+      "gain_percent": "2.02845714839746952135603979717370437253221508252792832681400",
+      "gain_percent_interval": [
+        "2028457/1000000",
+        "1014229/500000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 81,
+      "our_density_squared": "633378368705381044251029157953385528138675347672063808534257100750015625/557116564136184347582903579087508079429115969536",
+      "named_external_comparison": {
+        "dimension": 81,
+        "name": "Shioda MW80 x classical 1D lattice",
+        "density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024",
+        "evidence": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+        "kind": "derived_product"
+      },
+      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024",
+      "ratio_squared_exact": "2000000/653567",
+      "gain_percent": "74.9322733209844001372195047633948988937617838578485097072250",
+      "gain_percent_interval": [
+        "74932273/1000000",
+        "37466137/500000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 84,
+      "our_density_squared": "1237940039285380274899124224/625",
+      "named_external_comparison": {
+        "dimension": 84,
+        "name": "BCS88 section perpendicular to sqrt(2) D4",
+        "density_squared": "302231454903657293676544",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "comparison_density_squared": "302231454903657293676544",
+      "ratio_squared_exact": "4096/625",
+      "gain_percent": "156.00",
+      "gain_percent_interval": [
+        "156",
+        "156000001/1000000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 85,
+      "our_density_squared": "19807040628566084398385987584/9375",
+      "named_external_comparison": {
+        "dimension": 85,
+        "name": "BCS88 section perpendicular to sqrt(2) A3",
+        "density_squared": "1208925819614629174706176",
+        "evidence": "research/priority_resolution_20261115/CLASSICAL_SECTIONS.md",
+        "kind": "derived_classical_section"
+      },
+      "comparison_density_squared": "1208925819614629174706176",
+      "ratio_squared_exact": "16384/9375",
+      "gain_percent": "32.1978315505464963474522589792392400497637275406196335475230",
+      "gain_percent_interval": [
+        "32197831/1000000",
+        "4024729/125000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    },
+    {
+      "dimension": 96,
+      "our_density_squared": "6129982163463555433433388108601236734474956488734408704000000000000000000000000/56772384633465801456775422413324162257263811809",
+      "named_external_comparison": {
+        "dimension": 96,
+        "name": "BCS96, Table 1 (1982)",
+        "density_squared": "6362685441135942358474828762538534230890216321/281474976710656",
+        "evidence": "https://neilsloane.com/doc/Me103.pdf",
+        "kind": "published_lattice"
+      },
+      "comparison_density_squared": "6362685441135942358474828762538534230890216321/281474976710656",
+      "ratio_squared_exact": "1725436586697640946858688965569256363112777243042596638790631055949824000000000000000000000000/361224825165922748163735038900146880376573000467119271888138733416289456362493168145044334689",
+      "gain_percent": "118.554979900061395400293662751233274358190880248860614242946",
+      "gain_percent_interval": [
+        "118554979/1000000",
+        "5927749/50000"
+      ],
+      "comparison_verified_exactly": true,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "review_date": "2026-11-15"
+    }
+  ],
+  "all_comparisons_verified_exactly": true
+}

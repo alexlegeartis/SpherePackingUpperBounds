@@ -106,7 +106,8 @@ def check(directory,files,rows,Q):
             'other_singular_squared_depth_at_least':'3','nonsingular_squared_depth_at_least':'7/2',
             'negative_control_passed':True,'all_matrix_and_vertical_checks_exact':True,
             'coset_enumeration_arithmetic':'Outward-rounded IEEE-754 binary64, exact dyadic inputs and integer leaf checks; same documented assumptions as the preceding P48 verifier',
-            'parent_minimum_input':'Published P48q minimum 6; not re-enumerated','worldwide_priority_proved':False}
+            'parent_minimum_input':'Published P48q minimum 6; not re-enumerated',
+            'literature_status_report':'PRIORITY.md; dated comparison of proved lower bounds'}
 
 
 def run(out,files):

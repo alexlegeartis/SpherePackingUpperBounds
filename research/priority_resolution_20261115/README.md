@@ -1,5 +1,10 @@
 # Resolved comparisons and further lower bounds, 15 November 2026
 
+**Current literature status:** our 84D, 85D and 96D bounds are best-known
+in the review dated 15 November 2026. No stronger published bound was located.
+[Sources, exact comparisons and criterion](../covering_and_deep_cosets_20261115/PRIORITY.md).
+Older checkpoint and candidate labels below describe the earlier investigation.
+
 **Current update:** the [covering-based extension](../covering_and_deep_cosets_20261115/)
 raises the 96D density to **1.039108834467248e16**, or **118.554980%**
 above BCS1982. The original 96D figures below are a superseded checkpoint;
@@ -36,13 +41,10 @@ All numbers below are **center densities**. Multiply by
 | 95 | MW92 × A3: 1.727824414490e15, **derived product** | **7.410425802173e15** | Same limited comparison scope |
 | 96 | **BCS1982: `3^48/2^24 = 4,754,450,504,593,402.735…`, reported construction** | **8,236,644,396,376,130.309…** | Historical **+73.240722%** checkpoint, superseded by the covering-based bound linked above |
 
-“Record candidate” means the proof establishes the displayed external
-improvement and the literature search located no stronger comparison.
-It does not mean an exhaustive classification of every competing
-construction has been completed. In 84D/85D the comparator is a new
-derivation from a classical theorem, rather than a number printed in the
-paper. In 96D the paper explicitly reports the construction. No worldwide
-SOTA label is assigned to 86D, 87D or the product-only comparisons.
+The original “record candidate” labels are superseded by the dated
+best-known claims linked above. In 84D/85D the comparator is derived
+from a classical theorem; in 96D the paper explicitly reports the
+construction. The weaker 86D/87D candidates remain rejected.
 The research ceiling remains **96D**, including all parent inputs.
 
 ## Proofs and verification

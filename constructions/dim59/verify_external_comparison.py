@@ -102,8 +102,9 @@ def audit():
         "display_only_decimals": display,
         "actual_E59_density_known_exactly": False,
         "improvement_over_actual_E59_established": False,
-        "current_record_improvement_established": False,
-        "reason": "Vardy p. 278 reports only a lower bound; reference 10 on p. 283 is personal correspondence. The upper endpoint above bounds the reported guarantee, not the actual lattice density.",
+        "improvement_over_published_lower_bound_established": True,
+        "literature_status_report": "../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
+        "reason": "The exact checks establish an improvement over Vardy's published lower-bound guarantee. Computing the actual E59 minimum is unnecessary for this conclusion. Reference 10 on p. 283 is personal correspondence.",
         "weaker_exact_external_control": {
             "name": "Vardy J59", "center_density_exact": str(j59),
             "locator": "Section 4, p. 278, delta(J_n)=2^(n-42)",
@@ -131,5 +132,5 @@ if __name__ == "__main__":
         assert json.loads(output.read_text()) == report, "External comparison report is stale."
     print(json.dumps({k: report[k] for k in (
         "status", "gain_percent_interval", "improvement_over_actual_E59_established",
-        "current_record_improvement_established", "all_arithmetic_checks_exact",
+        "improvement_over_published_lower_bound_established", "all_arithmetic_checks_exact",
     )}, indent=2))

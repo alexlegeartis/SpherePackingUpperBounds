@@ -1,6 +1,8 @@
 # Published references and repository comparisons, dimensions 57–71
 
-**The strongest 59D comparison calculated here is now the classical kappa13 section of Gamma72, with center density 269064.727051…; our increase is 2.028457%. This comparison is derived from published inputs, not a 59D result quoted from Nebe's paper. This report does not establish an improvement over the best previously published 59D packing.**
+**The strongest 59D comparison calculated here is now the classical kappa13 section of Gamma72, with center density 269064.727051…; our increase is 2.028457%. This comparison is derived from published inputs, not a 59D result quoted from Nebe's paper. The current literature review registers our 59D bound as best-known, with no stronger published bound located.**
+
+[Dated review and current comparisons](../../covering_and_deep_cosets_20261115/PRIORITY.md). Comparison is between proved lower bounds; a previous-record table and an older lattice's unknown actual minimum are not prerequisites.
 
 The same distinction applies to the earlier 65–71D percentage gains: their comparators were our derived constructions or an inherited-minimum section bound. They were not identified published same-dimensional records.
 
@@ -26,17 +28,17 @@ Full publication details and precise locators are listed under **Source details*
 
 | Dimension | Published `log2(delta(E_n))`, Vardy §4 | Strongest bound calculated here, `log2(delta)` | What the comparison establishes |
 |---|---:|---:|---|
-| 57 | 15.37… | 17.210919 | Above the printed historical benchmark; exact Elkies density and current record not established. |
-| 58 | 16.46… | 17.207519 | Above the printed historical benchmark; exact Elkies density and current record not established. |
-| 59 | 17.75… | 18.066565 | 23.67–24.54% above the reported guarantee (verified interval); gain over the actual E59 lattice unresolved. |
-| 60 | 19.04… | 19.561223 | Above the printed historical benchmark; exact Elkies density and current record not established. |
-| 61 | 20.54… | 20.962387 | Above the printed historical benchmark; exact Elkies density and current record not established. |
-| 62 | 22.13… | 22.307017 | Above the printed historical benchmark; exact Elkies density and current record not established. |
+| 57 | 15.37… | 17.210919 | Improves the printed published lower-bound guarantee. |
+| 58 | 16.46… | 17.207519 | Improves the printed published lower-bound guarantee. |
+| 59 | 17.75… | 18.066565 | 23.67–24.54% improvement over the published guarantee (verified interval). |
+| 60 | 19.04… | 19.561223 | Improves the printed published lower-bound guarantee. |
+| 61 | 20.54… | 20.962387 | Improves the printed published lower-bound guarantee. |
+| 62 | 22.13… | 22.307017 | Improves the printed published lower-bound guarantee. |
 | 63 | 23.92… | 23.643718 | Below even the printed published lower bound; no record gain. |
 
 There is **no percentage claim against the actual Elkies lattices** in this table. The original PDF was checked on 15 November 2026. Reference 10, p. 283 attributes the section results to **Elkies, personal communication, February 1996**. No exact E59 section parameters are supplied there.
 
-For 59D, let `B` be the guarantee reported by the printed prefix. Then `2^17.75 <= B < 2^17.76`, and exact integer-power comparisons prove **23.675981% < 100*(delta_ours/B-1) < 24.536216%**. The upper bound here is on the **reported guarantee**, not on the actual Elkies density. Thus this verifies the comparison with the guarantee, without proving an improvement over the actual E59 lattice or the current record. [Source verification and derivation](../../../constructions/dim59/README.md#verified-external-comparison) · [Exact arithmetic report](../../../constructions/dim59/external_comparison.json).
+For 59D, let `B` be the guarantee reported by the printed prefix. Then `2^17.75 <= B < 2^17.76`, and exact integer-power comparisons prove **23.675981% < 100*(delta_ours/B-1) < 24.536216%**. The upper bound here is on the **reported guarantee**, not on the actual Elkies density. This establishes an improvement over the published lower bound; the unknown actual minimum is not required for that conclusion. [Source verification and derivation](../../../constructions/dim59/README.md#verified-external-comparison) · [Exact arithmetic report](../../../constructions/dim59/external_comparison.json).
 
 For **65–71D**, this audit has not identified a published same-dimensional numerical record to use as the comparator. Nebe's 64D and 72D parent results do not fill that gap. Their exact parent densities are respectively `3^16` and `2^36`; no improvement in either parent dimension is claimed here.
 
@@ -125,4 +127,4 @@ python constructions/dim59/verify_literature_section.py
 
 The first command regenerates this page, the exact comparison arithmetic and source attribution from [benchmark_sources.json](benchmark_sources.json). It consumes previously verified construction data; it does not replace their minimum proofs. The next two commands replay the 59D construction and its internal reference independently. The fourth checks the historical reported-guarantee interval using exact rational powers; its source transcription is an input. The last verifies the classical kappa13 embedding and the stronger derived 59D comparison.
 
-**Status:** certified constructions and internal improvements; historical published comparisons explicitly identified; no established improvement over the current published record in dimensions 57–71 from this audit. A future record claim must identify the previous same-dimensional result by author, work and exact parameters, then compare against that result.
+**Status:** certified constructions with named published and derived comparisons. The dated literature review registers 59D as best-known. Other rows here establish the specified numerical comparisons. Sources and proved guarantees determine the comparison; no previous-record registry is required.

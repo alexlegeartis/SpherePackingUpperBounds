@@ -29,11 +29,12 @@ New positive work in the other dimensions:
 
 The 49–52D shifts are explicit and every required coset has been fully
 enumerated. The 81D torus shifts remain existential.
-These new 49–52D/81D constructions beat the specified derived comparisons,
-but a reported previous same-dimensional worldwide record was not
-identified. They therefore have **no confirmed worldwide-record label**.
-The [84D/85D/96D external comparisons](../priority_resolution_20261115/)
-retain their more specific candidate status and source attribution.
+**49D–52D, 59D, 81D, 84D, 85D and 96D are best-known lower bounds in
+the literature review dated 15 November 2026:** no stronger published
+bound was located. The [current review and comparison table](../covering_and_deep_cosets_20261115/PRIORITY.md)
+name each source and distinguish reported numbers from derived bounds.
+Comparison is between proved guarantees; a prior lattice's unknown
+actual minimum and a previous-record table are not prerequisites.
 
 ## Decisions across the full range
 

@@ -617,5 +617,5 @@
   "all_matrix_and_vertical_checks_exact": true,
   "coset_enumeration_arithmetic": "Outward-rounded IEEE-754 binary64, exact dyadic inputs and integer leaf checks; same documented assumptions as the preceding P48 verifier",
   "parent_minimum_input": "Published P48q minimum 6; not re-enumerated",
-  "worldwide_priority_proved": false
+  "literature_status_report": "PRIORITY.md; dated comparison of proved lower bounds"
 }

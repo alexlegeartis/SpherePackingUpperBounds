@@ -46,7 +46,7 @@
     "Coxeter Few Rogers covering density simplex bound",
     "\"Packing and covering in higher dimensions\" Fejes Toth pdf"
   ],
-  "priority_conclusion": "Earlier five values are superseded by stronger verified bounds here. A reliable previous worldwide record attribution in each of 49--52D and 81D was not recovered; construction verification is not bibliographic priority verification.",
+  "priority_conclusion": "Best-known lower bounds in 49--52D, 59D, 81D, 84D, 85D and 96D in the documented review dated 2026-11-15: no stronger published lower bound was located. Compare proved guarantees; a prior-record table or a prior lattice's uncomputed actual density is not required. See PRIORITY.md and literature_review.json.",
   "Rogers_packing_simplex": {
     "original_attribution": "C. A. Rogers (1958), as referenced in Fejes Toth2022 Section 2.2",
     "theorem_statement_source": "https://arxiv.org/abs/2202.11358",

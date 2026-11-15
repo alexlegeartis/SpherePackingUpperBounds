@@ -1,0 +1,17 @@
+{
+  "review_date": "2026-11-15",
+  "claim": "Best-known sphere-packing lower bounds found in the documented literature review",
+  "registered_dimensions": [49, 50, 51, 52, 59, 81, 84, 85, 96],
+  "criterion": "Our certified lower bound exceeds the published guarantees and classical consequences compared in the review, and no stronger published lower bound was located.",
+  "comparison_quantity": "Proved lower bound, including theorem guarantees; the actual uncomputed minimum of a prior lattice is not required.",
+  "authoritative_previous_record_table_required": false,
+  "sources": [
+    "sources.json",
+    "../range48_96_20261115/sources.json",
+    "../priority_resolution_20261115/sources.json",
+    "../cross_dimension_lower_20261115/literature_sources.json",
+    "../../constructions/dim59/README.md"
+  ],
+  "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
+  "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified."
+}

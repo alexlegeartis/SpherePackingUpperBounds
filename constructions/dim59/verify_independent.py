@@ -112,7 +112,7 @@ def main():
         "comparison_kind":"internal_repository_comparison",
         "comparison_is_published_59D_record":False,
         "inherited_minimum_theorems":{"Ne64":12,"Gamma72":8},
-        "world_record_established":False,
+        "literature_status_report":"../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
         "data_sha256":{f.name:hashlib.sha256(f.read_bytes()).hexdigest()for f in sorted((P/"data").iterdir())if f.is_file()},
         "source_sha256":{"Ne64":hashlib.sha256(source.read_bytes()).hexdigest(),"Gamma72":hashlib.sha256(source72.read_bytes()).hexdigest()},
         "comparison_certificate_sha256":hashlib.sha256(baseline.read_bytes()).hexdigest()}

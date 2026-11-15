@@ -90,7 +90,8 @@ def audit():
                                'new_to_reported_ratio_squared':str(ratio2),
                                'new_to_reported_ratio':decsqrt(ratio2),
                                'gain_percent_interval':gain_interval(ratio2)},
-            'all_arithmetic_inequalities_exact':True,'worldwide_priority_proved':False}
+            'all_arithmetic_inequalities_exact':True,
+            'literature_status_report':'PRIORITY.md; dated comparison of proved lower bounds'}
 
 
 if __name__=='__main__':

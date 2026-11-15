@@ -100,5 +100,5 @@
     }
   ],
   "all_density_and_root_inequalities_exact": true,
-  "worldwide_record_claim": false
+  "claim_kind": "Derived lower-bound guarantees; source comparisons and dated best-known claims are recorded in PRIORITY.md"
 }

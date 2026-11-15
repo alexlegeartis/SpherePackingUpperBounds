@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "Exact comparisons with our computed reference constructions; published parent inputs and historical same-dimensional values attributed separately. No improvement over the current published record is established by this audit.",
+  "scope": "Exact comparisons with named references, including published guarantees and derived controls. The dated literature review registers 59D as best-known; see covering_and_deep_cosets_20261115/PRIORITY.md.",
   "sources": {
     "V99": {
       "authors": "Alexander Vardy",
@@ -165,8 +165,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 58,
@@ -205,8 +205,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 59,
@@ -247,8 +247,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false,
+      "literature_status": "best_known_lower_bound_in_dated_review",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md",
       "published_guarantee_comparison": {
         "kind": "verified_interval_over_reported_lower_bound_not_actual_lattice_density",
         "gain_percent_interval": {
@@ -298,8 +298,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 61,
@@ -338,8 +338,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 62,
@@ -378,8 +378,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 63,
@@ -420,8 +420,8 @@
         "exact_center_density_squared": null,
         "scope": "Historical printed lower bound, not an exact density identity or a current record."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 64,
@@ -457,8 +457,8 @@
         "exact_center_density_squared": "1853020188851841",
         "scope": "Published 64D parent, also used as a failed-control comparator."
       },
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 65,
@@ -491,8 +491,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 66,
@@ -524,8 +524,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 67,
@@ -557,8 +557,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 68,
@@ -590,8 +590,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 69,
@@ -623,8 +623,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 70,
@@ -656,8 +656,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     },
     {
       "dimension": 71,
@@ -689,8 +689,8 @@
         "is_gain_over_identified_published_record": false
       },
       "published_reference": null,
-      "current_published_record_identified": false,
-      "published_record_improvement_established": false
+      "literature_status": "named_comparison",
+      "literature_status_report": "../../covering_and_deep_cosets_20261115/PRIORITY.md"
     }
   ],
   "all_finite_family_bounds": [

@@ -49,8 +49,9 @@
   },
   "actual_E59_density_known_exactly": false,
   "improvement_over_actual_E59_established": false,
-  "current_record_improvement_established": false,
-  "reason": "Vardy p. 278 reports only a lower bound; reference 10 on p. 283 is personal correspondence. The upper endpoint above bounds the reported guarantee, not the actual lattice density.",
+  "improvement_over_published_lower_bound_established": true,
+  "literature_status_report": "../../research/covering_and_deep_cosets_20261115/PRIORITY.md",
+  "reason": "The exact checks establish an improvement over Vardy's published lower-bound guarantee. Computing the actual E59 minimum is unnecessary for this conclusion. Reference 10 on p. 283 is personal correspondence.",
   "weaker_exact_external_control": {
     "name": "Vardy J59",
     "center_density_exact": "131072",
@@ -85,7 +86,7 @@
     "used_as_main_comparator": false,
     "reason": "Vardy explicitly reports denser Elkies sections in the same paragraph."
   },
-  "construction_result_sha256": "d14d9cd805460246b3e9fa67c82fd536718be15d7d409c925b2dfa53a11358d1",
+  "construction_result_sha256": "f6fcdf95b2053dd5741fcf57d4b8d3f673c9315c8577f216467e8cff0b6fe1be",
   "all_arithmetic_checks_exact": true,
   "scope": "Checks comparison arithmetic against manually verified source facts. Replay verify.py and verify_independent.py for the packing itself."
 }
