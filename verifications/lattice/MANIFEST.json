@@ -906,6 +906,214 @@
       "uncompressed_bytes": 6703
     },
     {
+      "path": "dim26/ANGULAR_PROOF.md",
+      "stored_path": "dim26/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "uncompressed_bytes": 8037
+    },
+    {
+      "path": "dim26/METHOD.md",
+      "stored_path": "dim26/METHOD.md",
+      "gzip": false,
+      "sha256": "15c8ae5b24acf6fab1e05fbe28ec5cd1a0d751261df538f26f3733dc1bcbad8f",
+      "stored_sha256": "15c8ae5b24acf6fab1e05fbe28ec5cd1a0d751261df538f26f3733dc1bcbad8f",
+      "uncompressed_bytes": 4443
+    },
+    {
+      "path": "dim26/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim26/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim26/README.md",
+      "stored_path": "dim26/README.md",
+      "gzip": false,
+      "sha256": "213c06966bbb6d444c53ec42b4c613983e3707d65b90763bc9be73e2d0b74477",
+      "stored_sha256": "213c06966bbb6d444c53ec42b4c613983e3707d65b90763bc9be73e2d0b74477",
+      "uncompressed_bytes": 2454
+    },
+    {
+      "path": "dim26/SHA256SUMS",
+      "stored_path": "dim26/SHA256SUMS",
+      "gzip": false,
+      "sha256": "e9c32e0266f1ae58ef5efe9614c03638bc18b59e3fe49c67678e588bfc36d21e",
+      "stored_sha256": "e9c32e0266f1ae58ef5efe9614c03638bc18b59e3fe49c67678e588bfc36d21e",
+      "uncompressed_bytes": 999
+    },
+    {
+      "path": "dim26/certificate.json",
+      "stored_path": "dim26/certificate.json.gz",
+      "gzip": true,
+      "sha256": "f83d66a3746811c8887a0095a3df112ff0b322be24981634c02e493ae022778a",
+      "stored_sha256": "4d327c09804ee3fea2c3e766ad7668969d8f6d911f2d2465570bf23858a8cf7d",
+      "uncompressed_bytes": 567353
+    },
+    {
+      "path": "dim26/comparison_certificate.json",
+      "stored_path": "dim26/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "81c48fc71cb4768219e475769bfa82019a0b427514e9e428c0c1bf47fa8d57ea",
+      "stored_sha256": "3a20d06a715fd277c9e308c312c9e7ca5fddd6c18c60ffb20d10e1207a7d9077",
+      "uncompressed_bytes": 12139
+    },
+    {
+      "path": "dim26/gegenbauer.py",
+      "stored_path": "dim26/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim26/independent_audit.json",
+      "stored_path": "dim26/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "46c264a0ef55691fdbd1378df8105a6125b3ef7414f9d0eb863f91a38c970e67",
+      "stored_sha256": "876fa49dec99f2b236809977fa61eb4d42b215072efea81132d1a30d8894bdf2",
+      "uncompressed_bytes": 971
+    },
+    {
+      "path": "dim26/run_all.py",
+      "stored_path": "dim26/run_all.py",
+      "gzip": false,
+      "sha256": "63fe76aad05f8adba9b1a9e51e3dd5bd95a45ba7c5c6fcc624e9745048277f7f",
+      "stored_sha256": "63fe76aad05f8adba9b1a9e51e3dd5bd95a45ba7c5c6fcc624e9745048277f7f",
+      "uncompressed_bytes": 711
+    },
+    {
+      "path": "dim26/second_audit.json",
+      "stored_path": "dim26/second_audit.json.gz",
+      "gzip": true,
+      "sha256": "439d831a3c0b0f636125c700d66e6488d7149506dd19fc9ebd3e34963f1056b6",
+      "stored_sha256": "182221494d1f1125b71d7394b384796069708551f9a887b8851cee098cc50485",
+      "uncompressed_bytes": 1595
+    },
+    {
+      "path": "dim26/verify_complete.py",
+      "stored_path": "dim26/verify_complete.py",
+      "gzip": false,
+      "sha256": "abbb60fa389c0c814dd5a89c205d37b6da263ee48e46f63f1314600360606f1e",
+      "stored_sha256": "abbb60fa389c0c814dd5a89c205d37b6da263ee48e46f63f1314600360606f1e",
+      "uncompressed_bytes": 6481
+    },
+    {
+      "path": "dim26/verify_sympy.py",
+      "stored_path": "dim26/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim32/ANGULAR_PROOF.md",
+      "stored_path": "dim32/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "uncompressed_bytes": 8037
+    },
+    {
+      "path": "dim32/METHOD.md",
+      "stored_path": "dim32/METHOD.md",
+      "gzip": false,
+      "sha256": "15c8ae5b24acf6fab1e05fbe28ec5cd1a0d751261df538f26f3733dc1bcbad8f",
+      "stored_sha256": "15c8ae5b24acf6fab1e05fbe28ec5cd1a0d751261df538f26f3733dc1bcbad8f",
+      "uncompressed_bytes": 4443
+    },
+    {
+      "path": "dim32/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim32/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim32/README.md",
+      "stored_path": "dim32/README.md",
+      "gzip": false,
+      "sha256": "64843386d0d94a000739eed3429bbac26300837c36ce10700e1d13dc5b1f4599",
+      "stored_sha256": "64843386d0d94a000739eed3429bbac26300837c36ce10700e1d13dc5b1f4599",
+      "uncompressed_bytes": 2454
+    },
+    {
+      "path": "dim32/SHA256SUMS",
+      "stored_path": "dim32/SHA256SUMS",
+      "gzip": false,
+      "sha256": "33827ab4c87d050832a9551665793643a88c438dc89f473fd1f18128b1c6bb4b",
+      "stored_sha256": "33827ab4c87d050832a9551665793643a88c438dc89f473fd1f18128b1c6bb4b",
+      "uncompressed_bytes": 999
+    },
+    {
+      "path": "dim32/certificate.json",
+      "stored_path": "dim32/certificate.json.gz",
+      "gzip": true,
+      "sha256": "014502c998b3e16dccf1c7c298b0f250b3df3c24f72f3087c5acf1e95c38e065",
+      "stored_sha256": "a439a70cd1c12ccb61d3465207e7bf12794ac1c124aa45f0b6142dd0e374a648",
+      "uncompressed_bytes": 942180
+    },
+    {
+      "path": "dim32/comparison_certificate.json",
+      "stored_path": "dim32/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "089daf27526b3045f68205e4a0749e61b605fd0507a5c6a6dd2fe0648789beb9",
+      "stored_sha256": "ae9c1a79f0eacae2fbefb4dd43064f8835e0c7662bfcd181218c38ad74c55905",
+      "uncompressed_bytes": 19632
+    },
+    {
+      "path": "dim32/gegenbauer.py",
+      "stored_path": "dim32/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim32/independent_audit.json",
+      "stored_path": "dim32/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "6816f363442159da88b8225f37f9b27d6ccf21c142a6b34916e9476a7b245d37",
+      "stored_sha256": "cd4ce7a47ad5817318e5a5f826743f5083fa16cd1572d89eac55f24b028fc60c",
+      "uncompressed_bytes": 939
+    },
+    {
+      "path": "dim32/run_all.py",
+      "stored_path": "dim32/run_all.py",
+      "gzip": false,
+      "sha256": "04c5f94d2247438cf4372b95749896f9581aaebfab69e84ba5e1c5fa3737769d",
+      "stored_sha256": "04c5f94d2247438cf4372b95749896f9581aaebfab69e84ba5e1c5fa3737769d",
+      "uncompressed_bytes": 711
+    },
+    {
+      "path": "dim32/second_audit.json",
+      "stored_path": "dim32/second_audit.json.gz",
+      "gzip": true,
+      "sha256": "dfc7deea33911238b799581c5ff426853da8951a9452b3e5f3cc31d9a61ae4f8",
+      "stored_sha256": "c339c0d37d74e11a31645f05e17050c2e1a88b11f005bc1c0915e6a12c200b7a",
+      "uncompressed_bytes": 391
+    },
+    {
+      "path": "dim32/verify_complete.py",
+      "stored_path": "dim32/verify_complete.py",
+      "gzip": false,
+      "sha256": "fbfec5275340a1bebb560162e4dd91d60e009febad2377c04dba083c37180012",
+      "stored_sha256": "fbfec5275340a1bebb560162e4dd91d60e009febad2377c04dba083c37180012",
+      "uncompressed_bytes": 6455
+    },
+    {
+      "path": "dim32/verify_sympy.py",
+      "stored_path": "dim32/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
       "path": "prior/NOTICE.md",
       "stored_path": "prior/NOTICE.md",
       "gzip": false,

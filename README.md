@@ -15,6 +15,8 @@ The following bounds apply only to lattice packings, not arbitrary sphere packin
 | 17 | ≈0.008811319182321186 | 0.0138839313 | **≤0.013832417384** | 0.3710% | 1.0155% | [Proof and replay](verifications/lattice/dim17/README.md) |
 | 18 | ≈0.00592836871846942 | 0.0103704834 | **≤0.010343803448** | 0.2573% | 0.6006% | [Proof and replay](verifications/lattice/dim18/README.md) |
 | 19 | ≈0.004120806279768666 | 0.00782447361 | **≤0.007808430327** | 0.2050% | 0.4332% | [Proof and replay](verifications/lattice/dim19/README.md) |
+| 26 | ≈0.0002692200504338088 | 0.000915119176 | **≤0.000907209997** | 0.8643% | 1.2245% | [Proof and replay](verifications/lattice/dim26/README.md) |
+| 32 | ≈0.000011040749308859847 | 0.000105764483 | **≤0.000104134823** | 1.5408% | 1.7204% | [Proof and replay](verifications/lattice/dim32/README.md) |
 
 Gap reductions use the displayed named lattice lower comparisons. The unrestricted tables below remain unchanged.
 <!-- lattice-upper-20261116:end -->

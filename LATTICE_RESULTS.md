@@ -10,6 +10,8 @@ These bounds apply **only to lattice packings**. They do not replace the unrestr
 | 17 | ≈0.008811319182321186 | 0.0138839313 | **≤0.013832417384** | 0.3710% | 1.0155% | [Proof and replay](verifications/lattice/dim17/README.md) |
 | 18 | ≈0.00592836871846942 | 0.0103704834 | **≤0.010343803448** | 0.2573% | 0.6006% | [Proof and replay](verifications/lattice/dim18/README.md) |
 | 19 | ≈0.004120806279768666 | 0.00782447361 | **≤0.007808430327** | 0.2050% | 0.4332% | [Proof and replay](verifications/lattice/dim19/README.md) |
+| 26 | ≈0.0002692200504338088 | 0.000915119176 | **≤0.000907209997** | 0.8643% | 1.2245% | [Proof and replay](verifications/lattice/dim26/README.md) |
+| 32 | ≈0.000011040749308859847 | 0.000105764483 | **≤0.000104134823** | 1.5408% | 1.7204% | [Proof and replay](verifications/lattice/dim32/README.md) |
 
 ## Comparison scope and sources
 
@@ -20,12 +22,12 @@ These are verified improvements over the named benchmarks. They are not optimali
 ### Results deliberately not included as current records
 
 - 11D–13D calculations were superseded as record comparisons by newer claimed computer-assisted results. See [literature status](verifications/lattice/LITERATURE_STATUS.md). The authors report full proofs; this repository has not independently replayed their complete separate proof chain.
-- Earlier reported refinements in 20D, 26D and 32D are not included here because their full proof packages have not been recovered and replayed for this publication.
+- The earlier reported tiny refinements in 20D, 26D and 32D were not published because their old proof packages were not recovered. The new 26D and 32D rows above are different, independently audited global-coupling certificates and supersede those earlier values; 20D remains excluded.
 - 9D and 10D exploratory values were weaker than known lattice bounds and are not records.
 
 ## Method and reproducibility
 
-The 17D and 19D certificates instead combine the modulo-two class framework with global short-class angular coupling and continuous projective polynomial inequalities. They have no arithmetic trace-gap or prior-density assumption. Their named known lower comparisons are the catalogue’s Λ17 of center density 1/16 and Λ19 of center density 1/(8√2). The original n017 and n019 certificates are included for comparison only.
+The 17D, 19D, 26D and 32D certificates instead combine the modulo-two class framework with global short-class angular coupling and continuous projective polynomial inequalities. They have no arithmetic trace-gap or prior-density assumption. Their named known lower comparisons are the catalogue’s Λ17 of center density 1/16 and Λ19 of center density 1/(8√2). The additional known lattice lower comparisons are Λ26/T26 with center density 1/√3 and Q32 with center density 3^16/2^24. Original n017, n019, n026 and n032 certificates are included for comparison only.
 
 The 14D, 15D, 16D and 18D certificates combine Zubrilina’s modulo-two class framework with arithmetic near-frame constraints, exact torsion exclusions, and exhaustive first-n radius-profile dual bounds. The determinant step overlaps [Géraud-Stewart and Naccache, Appendix D, Lemma 32](https://eprint.iacr.asia/2026/2826.pdf); it is attributed in the proof documents and is not claimed as a new determinant lemma.
 
@@ -37,4 +39,4 @@ python verifications/lattice/replay.py
 python verifications/lattice/replay.py --dimension 16
 ```
 
-Requires Python 3.10+ and SymPy. Large JSON inputs are stored as deterministic gzip files. The replay materializes a temporary copy, verifies every decompressed SHA256, and runs the exact proof programs there. Audited certificate bytes are unchanged. Do not use `python -O`. Hosted Actions have not been enabled or dispatched.
+Requires Python 3.10+ and SymPy for the earlier dimensions; the default 26D/32D complete verifiers use only the Python standard library. Large JSON inputs are stored as deterministic gzip files. The replay materializes a temporary copy, verifies every decompressed SHA256, and runs the exact proof programs there. Audited certificate bytes are unchanged. Do not use `python -O`. Hosted Actions have not been enabled or dispatched.
