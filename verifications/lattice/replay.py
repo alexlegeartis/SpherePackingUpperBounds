@@ -3,7 +3,7 @@ import argparse,gzip,hashlib,json,shutil,subprocess,sys,tempfile
 from pathlib import Path
 if not __debug__:raise RuntimeError('Assertions required; do not run with -O')
 p=Path(__file__).resolve().parent
-ap=argparse.ArgumentParser();ap.add_argument('--dimension',type=int,choices=[14,15,16,17,18,19,20,21,22,25,26,27,28,29,30,31,32,33,34,35,36]);a=ap.parse_args()
+ap=argparse.ArgumentParser();ap.add_argument('--dimension',type=int,choices=[14,15,16,17,18,19,20,21,22,25,26,27,28,29,30,31,32,33,34,35,36,37]);a=ap.parse_args()
 m=json.loads((p/'MANIFEST.json').read_text())
 with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
  root=Path(tmp)
@@ -15,7 +15,7 @@ with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
   data=gzip.decompress(raw) if entry['gzip'] else raw
   if hashlib.sha256(data).hexdigest()!=entry['sha256']:raise ValueError('Decompressed hash mismatch: '+str(dest))
   target=root/dest;target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(data)
- dims=[a.dimension] if a.dimension else [14,15,16,17,18,19,20,21,22,25,26,27,28,29,30,31,32,33,34,35,36]
+ dims=[a.dimension] if a.dimension else [14,15,16,17,18,19,20,21,22,25,26,27,28,29,30,31,32,33,34,35,36,37]
  for n in dims:
   print('REPLAY lattice dimension',n,flush=True)
   folder=f'dim{n}_threewindow' if n in [32,35,36] else f'dim{n}'

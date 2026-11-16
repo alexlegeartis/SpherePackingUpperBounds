@@ -334,5 +334,21 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
+  },
+  {
+    "dimension": 37,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000020580470",
+    "named_lattice_lower_comparison": "3.213562007E-7",
+    "previous_lattice_upper": "0.0000209426592470",
+    "previous_source_certificate_upper": null,
+    "upper_decrease_percent": "1.729432937471314623639017756",
+    "gap_decrease_percent": "1.756383901573990031431295178",
+    "package": "verifications/lattice/dim37",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/a7919f6890776aa2d3dff1f52b4c93da9d584a8e/verifications/dim37/refinement_profile20261114",
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   }
 ]

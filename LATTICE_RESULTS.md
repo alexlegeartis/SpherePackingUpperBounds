@@ -25,6 +25,7 @@ These bounds apply **only to lattice packings**. They do not replace the unrestr
 | 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim34/README.md) |
 | 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim35_threewindow/README.md) |
 | 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
+| 37 | 3.21356e-7 | 2.09427e-5 | **≤2.05805e-5** | 1.73% | 1.76% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim37/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 
@@ -32,13 +33,13 @@ Method links describe the mechanism and open its proof package. These methods ex
 
 ## Comparison scope and sources
 
-The comparison columns reproduce the **lattice** section of a user-supplied snapshot of [Henry Cohn’s sphere-packing table](https://cohn.mit.edu/sphere-packing/), received on 2026-11-16. The snapshot contains no extraction date; this is not a claim that the live page was fetched or is unchanged. Every new upper bound here is smaller than the corresponding upper in that snapshot. Its listed previous upper bounds in these dimensions are attributed to [Nina Zubrilina, *Improved lattice-packing bounds in small dimensions*](https://arxiv.org/abs/2610.35830).
+The comparison columns reproduce the **lattice** section of a user-supplied snapshot of [Henry Cohn’s sphere-packing table](https://cohn.mit.edu/sphere-packing/), received on 2026-11-16. The snapshot contains no extraction date; this is not a claim that the live page was fetched or is unchanged. Every new upper bound here is smaller than the corresponding upper in that snapshot. For dimensions 14–22 and 25–36, its listed previous upper bounds are attributed to [Nina Zubrilina, *Improved lattice-packing bounds in small dimensions*](https://arxiv.org/abs/2610.35830).
 
-The snapshot gives more digits than the outward claims in the original source certificates. The JSON retains both the snapshot comparison upper and the original certificate-claim upper. Original comparison certificates are preserved from the [pinned upstream repository](https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates). The 14D, 15D and 18D prior certificates are exactly replayed because those arithmetic proofs require them; later global-coupling results have no prior-density assumption.
+For 37D, the prior upper 0.0000209426592470 is Alex Kravatskiy’s unrestricted-packing bound, which also applies to lattices; the new certificate improves it only for lattices. The live Cohn row was checked on 2026-11-16 and matched the snapshot. [Earlier unrestricted proof](verifications/dim37/refinement_profile20261114/README.md). The snapshot gives more digits than the outward claims in the original source certificates. The JSON retains both the snapshot comparison upper and the original certificate-claim upper. Original comparison certificates are preserved from the [pinned upstream repository](https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates). The 14D, 15D and 18D prior certificates are exactly replayed because those arithmetic proofs require them; later global-coupling results have no prior-density assumption.
 
 Known lattice lower values are the displayed values in the same snapshot, not the generally larger nonlattice entries in its unrestricted table. They are rounded/truncated comparisons, not exact decimal identities or independently exhaustive current-record claims. In 36D the snapshot already cites this repository’s lattice construction. Gap decrease is `(U−U′)/(U−L)` using these displayed values; upper decrease is `(U−U′)/U`. These are comparison statistics, not new theorems.
 
-This establishes improvements over the supplied snapshot and the named source benchmarks, not optimality or an exhaustive worldwide-priority guarantee. The snapshot credits this repository’s general-packing upper bounds in 23D and 37D–48D; those remain in the separate unrestricted table rather than being duplicated here.
+This establishes improvements over the supplied snapshot and the named source benchmarks, not optimality or an exhaustive worldwide-priority guarantee. The snapshot credits this repository’s general-packing upper bounds in 23D and 37D–48D. The new 37D lattice-specific improvement is included above; the unrestricted results remain in the separate unrestricted table rather than being duplicated here.
 
 ### Results deliberately not included as current records
 
@@ -50,7 +51,7 @@ This establishes improvements over the supplied snapshot and the named source be
 
 The 14D, 15D, 16D and 18D certificates combine Zubrilina’s modulo-two class framework with arithmetic near-frame constraints, exact torsion exclusions, and exhaustive first-n profile dual bounds. The determinant step overlaps [Géraud-Stewart and Naccache, Appendix D, Lemma 32](https://eprint.iacr.asia/2026/2826.pdf); it is attributed and not claimed as new.
 
-The 17D, 19D–22D and 25D–36D certificates use global short-class angular coupling, continuous Gegenbauer polynomial inequalities, and exact projective multiplicity bounds. They have no arithmetic trace-gap or prior-density assumption. Proof documents explain the continuous geometry and source-count normalization. Every published result has a complete executable exact proof.
+The 17D, 19D–22D and 25D–37D certificates use global short-class angular coupling, continuous Gegenbauer polynomial inequalities, and exact projective multiplicity bounds. They have no arithmetic trace-gap or prior-density assumption. Proof documents explain the continuous geometry and source-count normalization. Every published result has a complete executable exact proof.
 
 Run the separate lattice suite without changing the historical unrestricted suite:
 
@@ -60,6 +61,6 @@ python verifications/lattice/replay.py
 python verifications/lattice/replay.py --dimension 36
 ```
 
-Python 3.10+ is required; the earlier dimensions use SymPy. The default20D–22D and25D–36D verifiers, except the stronger32D and35D refinements, use only the standard library, with exact compactified-half-line Bernstein sign proofs. The stronger32D and35D defaults use SymPy for Fourier root counts and exact rational Bernstein tail signs; optional python-flint accelerates it. Separate optional SymPy verifiers are included. Public `python-flint` is an optional speed improvement, not a private dependency.
+Python 3.10+ is required; the earlier dimensions use SymPy. The default20D–22D and25D–36D verifiers, except the stronger32D and35D refinements, use only the standard library, with exact compactified-half-line Bernstein sign proofs. The stronger32D and35D refinements and the37D default use SymPy for Fourier root counts and exact rational Bernstein tail signs; optional python-flint accelerates it. Separate optional SymPy verifiers are included. Public `python-flint` is an optional speed improvement, not a private dependency.
 
 Large JSON inputs use deterministic gzip. The replay checks stored and decompressed SHA256 hashes, materializes a temporary copy, and runs the complete proof there. Audited certificate bytes are preserved. Do not use `python -O`. Hosted Actions have not been enabled or dispatched.

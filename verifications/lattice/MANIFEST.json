@@ -2786,6 +2786,102 @@
       "uncompressed_bytes": 5768
     },
     {
+      "path": "dim37/ANGULAR_PROOF.md",
+      "stored_path": "dim37/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
+    },
+    {
+      "path": "dim37/COMPARISON.json",
+      "stored_path": "dim37/COMPARISON.json.gz",
+      "gzip": true,
+      "sha256": "4747fd25c14b973f76dc9845d5695bac19813ae3915d9c93c887157a1f90b640",
+      "stored_sha256": "5a4a04f208731ec5cb20d86a244511d901f9cbfbd2504376402ba6a9e5b12089",
+      "uncompressed_bytes": 601
+    },
+    {
+      "path": "dim37/GENERAL_PROJECTIVE_MONOMIAL_CAP.md",
+      "stored_path": "dim37/GENERAL_PROJECTIVE_MONOMIAL_CAP.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim37/METHOD.md",
+      "stored_path": "dim37/METHOD.md",
+      "gzip": false,
+      "sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "stored_sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "uncompressed_bytes": 5549
+    },
+    {
+      "path": "dim37/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim37/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim37/README.md",
+      "stored_path": "dim37/README.md",
+      "gzip": false,
+      "sha256": "cdd6fef1f630b7e4efe5a8c5c13ce8277aa069303a41a346f373c7fccfb8751a",
+      "stored_sha256": "cdd6fef1f630b7e4efe5a8c5c13ce8277aa069303a41a346f373c7fccfb8751a",
+      "uncompressed_bytes": 1614
+    },
+    {
+      "path": "dim37/SHA256SUMS",
+      "stored_path": "dim37/SHA256SUMS",
+      "gzip": false,
+      "sha256": "8b1b20ef9311b28317da265fd3fff80de80fb84fd972a2c7a4bb7c7d4c372192",
+      "stored_sha256": "8b1b20ef9311b28317da265fd3fff80de80fb84fd972a2c7a4bb7c7d4c372192",
+      "uncompressed_bytes": 934
+    },
+    {
+      "path": "dim37/certificate.json",
+      "stored_path": "dim37/certificate.json.gz",
+      "gzip": true,
+      "sha256": "ee54744cac8fdb49c1764ebf2bde57e0b01a0cb967992282ab64779d0cc1ee1a",
+      "stored_sha256": "8708b344c521c68031cfaad3ccc176637f5de9ccadf11466394f7345cfe61698",
+      "uncompressed_bytes": 602075
+    },
+    {
+      "path": "dim37/run_all.py",
+      "stored_path": "dim37/run_all.py",
+      "gzip": false,
+      "sha256": "814b60a4bc4ff170c2286740c95786d06e341654b552023d26a4747dd2d7aacd",
+      "stored_sha256": "814b60a4bc4ff170c2286740c95786d06e341654b552023d26a4747dd2d7aacd",
+      "uncompressed_bytes": 707
+    },
+    {
+      "path": "dim37/second_independent_audit.json",
+      "stored_path": "dim37/second_independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "227342f04e5692284f4c6ac92add485db12b5a560c35b32023f0a26f5c6b8898",
+      "stored_sha256": "a63104ecdccb467d9ddfa59be1566c56ed4a085cdd37312bb529b868d2ef45c4",
+      "uncompressed_bytes": 280
+    },
+    {
+      "path": "dim37/verify_independent.py",
+      "stored_path": "dim37/verify_independent.py",
+      "gzip": false,
+      "sha256": "1e7dfa64ed2448222dfc5579456fe68a880df6530cd6592f82b7de96f3159051",
+      "stored_sha256": "1e7dfa64ed2448222dfc5579456fe68a880df6530cd6592f82b7de96f3159051",
+      "uncompressed_bytes": 7783
+    },
+    {
+      "path": "dim37/verify_sympy.py",
+      "stored_path": "dim37/verify_sympy.py",
+      "gzip": false,
+      "sha256": "03cf48dc31722b77a535e46e0d7b75c44ee3a1015882a4f48fe3c9fd8d3cb613",
+      "stored_sha256": "03cf48dc31722b77a535e46e0d7b75c44ee3a1015882a4f48fe3c9fd8d3cb613",
+      "uncompressed_bytes": 5781
+    },
+    {
       "path": "prior/NOTICE.md",
       "stored_path": "prior/NOTICE.md",
       "gzip": false,

@@ -5,7 +5,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-Lattice-only results, compared with the supplied undated Cohn-table snapshot. [Scope and reproduction](LATTICE_RESULTS.md).
+Lattice-only results, compared with the supplied Cohn-table snapshot; the 37D comparator was also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
 
 | n | Lower | Prior | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
@@ -30,6 +30,7 @@ Lattice-only results, compared with the supplied undated Cohn-table snapshot. [S
 | 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim34/README.md) |
 | 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim35_threewindow/README.md) |
 | 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
+| 37 | 3.21356e-7 | 2.09427e-5 | **≤2.05805e-5** | 1.73% | 1.76% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim37/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 
