@@ -1,0 +1,94 @@
+{
+  "status": "no_new_packing_record",
+  "new_packing_SOTA_claimed": false,
+  "remaining_dimensions": [
+    48,
+    54,
+    55,
+    56,
+    63,
+    64,
+    72,
+    80,
+    92
+  ],
+  "ne64_geometry": {
+    "source_sha256": "b78d999bfb8e1f01389313d56b46bf948c0e61115102b0b2d748bce3d70fe3bb",
+    "inherited_published_inputs": {
+      "minimum": 12,
+      "modularity": 3
+    },
+    "certificate_rays": 2080,
+    "dyad_rank_mod65521": 2080,
+    "harmonic_theta_weight": 34,
+    "harmonic_theta_cusp_order_sum_lower_bound": 12,
+    "harmonic_theta_valence_upper_bound": "34/3",
+    "perfection_verified_exactly": true,
+    "local_lattice_optimum_with_published_inputs_and_theorems": true,
+    "global_optimality_claimed": false
+  },
+  "ne64_form_family": {
+    "rational_family_dimension": 4,
+    "unimodular_source_sha256": "6020cee34f3d3c65d71ba2e838ac91401bba1b3efb7bf2aed9295f7ab3a2f839",
+    "even_integral_saturation_hnf": [
+      [
+        1,
+        0,
+        5,
+        257
+      ],
+      [
+        0,
+        1,
+        5,
+        126
+      ],
+      [
+        0,
+        0,
+        8,
+        224
+      ],
+      [
+        0,
+        0,
+        0,
+        264
+      ]
+    ],
+    "integral_basis_reconstructed_exactly": true,
+    "entire_invariant_space_classification_claimed": false
+  },
+  "bounded_ne64_family_search": {
+    "coefficient_box_radius": 32,
+    "integer_coefficient_tuples": 17850625,
+    "positive_definite_forms": 2427638,
+    "primitive_positive_definite_forms": 2237409,
+    "integer_test_vectors": 630,
+    "not_rejected": [],
+    "all_decisions_exact": true,
+    "scope": "Only the supplied four-dimensional integral form family in this coefficient box; not a global density bound."
+  },
+  "code93_shift_obstruction": {
+    "binary_length": 93,
+    "dimension": 43,
+    "irreducible_factor_degrees_x31_minus1": [
+      1,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "even_fixed_subspace_dimension_upper": 2,
+    "allowed_dimension_residues_mod5": [
+      0,
+      1,
+      2
+    ],
+    "shift_by_three_invariant_even_code_impossible": true,
+    "ordinary_cyclic_even_code_also_impossible": true,
+    "general_even_binary_93_43_24_code_excluded": false
+  }
+}

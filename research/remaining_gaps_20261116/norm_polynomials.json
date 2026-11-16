@@ -1,0 +1,651 @@
+{
+  "positions": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "elementary_symmetric_polynomials": [
+    [
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 4
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 34
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 67
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "coefficient": -10
+      }
+    ],
+    [
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 6
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 102
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 201
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "coefficient": -30
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          0
+        ],
+        "coefficient": 215
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "coefficient": 543
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "coefficient": -187
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "coefficient": 23
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "coefficient": -358
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "coefficient": 29
+      }
+    ],
+    [
+      {
+        "powers": [
+          3,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 4
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 102
+      },
+      {
+        "powers": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 201
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          1
+        ],
+        "coefficient": -30
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0,
+          0
+        ],
+        "coefficient": 430
+      },
+      {
+        "powers": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "coefficient": 1086
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "coefficient": -374
+      },
+      {
+        "powers": [
+          1,
+          0,
+          2,
+          0
+        ],
+        "coefficient": 46
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "coefficient": -716
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          2
+        ],
+        "coefficient": 58
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0,
+          0
+        ],
+        "coefficient": 102
+      },
+      {
+        "powers": [
+          0,
+          2,
+          1,
+          0
+        ],
+        "coefficient": -31
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          1
+        ],
+        "coefficient": -259
+      },
+      {
+        "powers": [
+          0,
+          1,
+          2,
+          0
+        ],
+        "coefficient": -807
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "coefficient": -403
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          2
+        ],
+        "coefficient": 153
+      },
+      {
+        "powers": [
+          0,
+          0,
+          3,
+          0
+        ],
+        "coefficient": -158
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          1
+        ],
+        "coefficient": 412
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "coefficient": 249
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          3
+        ],
+        "coefficient": -20
+      }
+    ],
+    [
+      {
+        "powers": [
+          4,
+          0,
+          0,
+          0
+        ],
+        "coefficient": 1
+      },
+      {
+        "powers": [
+          3,
+          1,
+          0,
+          0
+        ],
+        "coefficient": 34
+      },
+      {
+        "powers": [
+          3,
+          0,
+          1,
+          0
+        ],
+        "coefficient": 67
+      },
+      {
+        "powers": [
+          3,
+          0,
+          0,
+          1
+        ],
+        "coefficient": -10
+      },
+      {
+        "powers": [
+          2,
+          2,
+          0,
+          0
+        ],
+        "coefficient": 215
+      },
+      {
+        "powers": [
+          2,
+          1,
+          1,
+          0
+        ],
+        "coefficient": 543
+      },
+      {
+        "powers": [
+          2,
+          1,
+          0,
+          1
+        ],
+        "coefficient": -187
+      },
+      {
+        "powers": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "coefficient": 23
+      },
+      {
+        "powers": [
+          2,
+          0,
+          1,
+          1
+        ],
+        "coefficient": -358
+      },
+      {
+        "powers": [
+          2,
+          0,
+          0,
+          2
+        ],
+        "coefficient": 29
+      },
+      {
+        "powers": [
+          1,
+          3,
+          0,
+          0
+        ],
+        "coefficient": 102
+      },
+      {
+        "powers": [
+          1,
+          2,
+          1,
+          0
+        ],
+        "coefficient": -31
+      },
+      {
+        "powers": [
+          1,
+          2,
+          0,
+          1
+        ],
+        "coefficient": -259
+      },
+      {
+        "powers": [
+          1,
+          1,
+          2,
+          0
+        ],
+        "coefficient": -807
+      },
+      {
+        "powers": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "coefficient": -403
+      },
+      {
+        "powers": [
+          1,
+          1,
+          0,
+          2
+        ],
+        "coefficient": 153
+      },
+      {
+        "powers": [
+          1,
+          0,
+          3,
+          0
+        ],
+        "coefficient": -158
+      },
+      {
+        "powers": [
+          1,
+          0,
+          2,
+          1
+        ],
+        "coefficient": 412
+      },
+      {
+        "powers": [
+          1,
+          0,
+          1,
+          2
+        ],
+        "coefficient": 249
+      },
+      {
+        "powers": [
+          1,
+          0,
+          0,
+          3
+        ],
+        "coefficient": -20
+      },
+      {
+        "powers": [
+          0,
+          4,
+          0,
+          0
+        ],
+        "coefficient": 9
+      },
+      {
+        "powers": [
+          0,
+          3,
+          1,
+          0
+        ],
+        "coefficient": -48
+      },
+      {
+        "powers": [
+          0,
+          3,
+          0,
+          1
+        ],
+        "coefficient": -51
+      },
+      {
+        "powers": [
+          0,
+          2,
+          2,
+          0
+        ],
+        "coefficient": -85
+      },
+      {
+        "powers": [
+          0,
+          2,
+          1,
+          1
+        ],
+        "coefficient": 52
+      },
+      {
+        "powers": [
+          0,
+          2,
+          0,
+          2
+        ],
+        "coefficient": 73
+      },
+      {
+        "powers": [
+          0,
+          1,
+          3,
+          0
+        ],
+        "coefficient": 284
+      },
+      {
+        "powers": [
+          0,
+          1,
+          2,
+          1
+        ],
+        "coefficient": 377
+      },
+      {
+        "powers": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "coefficient": 66
+      },
+      {
+        "powers": [
+          0,
+          1,
+          0,
+          3
+        ],
+        "coefficient": -34
+      },
+      {
+        "powers": [
+          0,
+          0,
+          4,
+          0
+        ],
+        "coefficient": 76
+      },
+      {
+        "powers": [
+          0,
+          0,
+          3,
+          1
+        ],
+        "coefficient": -98
+      },
+      {
+        "powers": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "coefficient": -175
+      },
+      {
+        "powers": [
+          0,
+          0,
+          1,
+          3
+        ],
+        "coefficient": -46
+      },
+      {
+        "powers": [
+          0,
+          0,
+          0,
+          4
+        ],
+        "coefficient": 4
+      }
+    ]
+  ]
+}

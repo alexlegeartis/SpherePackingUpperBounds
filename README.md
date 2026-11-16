@@ -144,6 +144,10 @@ checks exact ceilings on Chen's published guarantee formula in all nine
 missing dimensions. That formula cannot improve eight of them. Its remaining
 92D case requires an even binary **[93,43,24] code**, which is not constructed
 here. These formula ceilings are not upper bounds on actual lattice densities.
+A [subsequent exact audit](research/remaining_gaps_20261116/PROOF.md) excludes
+cyclic and shift-by-three code constructions for that target, proves Ne64's
+local lattice optimality, and rejects 2,237,409 primitive positive forms in
+a specified 64D coefficient box. It supplies **no new packing record**.
 
 The [preceding adaptive-layer continuation](research/adaptive_layers_20261115/)
 strengthens **13 dimensions**. The larger gains over our preceding bounds

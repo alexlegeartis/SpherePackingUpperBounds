@@ -36,8 +36,9 @@ pins all three branch heads and records fresh replay scope and leaderboard check
 | [Combined branch tools](combined_branches_20261115/README.md) | Certified upper-bound improvements plus lower-bound searches. The registry identifies the current certificates. |
 | [Adaptive layers](adaptive_layers_20261115/README.md) | Certified constructions and finite research screens; see the lower-bound leaderboard for current values. |
 | [48D–96D audit](range48_96_20261115/README.md) | Exact constructions, source comparisons and dimensions where no improvement was obtained. |
-| [Latest remaining-target review](cm58_20261116/FRONTIER.md) | Certified advances and rejected or unresolved targets. |
+| [CM-plane construction and frontier](cm58_20261116/FRONTIER.md) | Certified advances and rejected or unresolved targets. |
 | [Correlated normals and Craig/code routes](simplex_normals_20261116/PROOF.md) | Certified 86D–89D improvements and a separately scoped unsuccessful code search. |
+| [Nine remaining lower-bound dimensions](remaining_gaps_20261116/PROOF.md) | Exact Ne64 local-optimality certificate; exhaustive rejection of a bounded 64D form family; a 92D code symmetry obstruction. No new packing record. |
 
 Use each package's own reproduction commands. `run_all.py` replays the registered
 upper-bound proof chains; lower-bound and exploratory checks have separate runners.
