@@ -5,30 +5,36 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-These certified bounds apply only to lattices. Comparisons use the lattice rows of a user-supplied, undated Cohn-table snapshot received 2026-11-16, not a live-site freshness guarantee. [Full comparison scope, methods and exact reproduction](LATTICE_RESULTS.md).
+Lattice-only results, compared with the supplied undated Cohn-table snapshot. [Scope and reproduction](LATTICE_RESULTS.md).
 
-| Dimension | Known lattice lower L | Cohn snapshot upper U | New certified upper U′ | Upper decrease | Gap decrease | Method |
+| n | Lower | Prior | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
-| 14 | ≈0.0216240960824471 | 0.0352392079482642 | **≤0.034712755778** | 1.4939% | 3.8667% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim14/README.md)) |
-| 15 | ≈0.0168575706567626 | 0.0256118266556343 | **≤0.025511135431** | 0.3931% | 1.1502% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim15/README.md)) |
-| 16 | ≈0.0147081643974308 | 0.0187461205770637 | **≤0.018655117428** | 0.4855% | 2.2537% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim16/README.md)) |
-| 17 | ≈0.0088113191823211 | 0.0138839312698563 | **≤0.013832417384** | 0.3710% | 1.0155% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim17/README.md)) |
-| 18 | ≈0.0059283687184694 | 0.0103704833569080 | **≤0.010343803448** | 0.2573% | 0.6006% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim18/README.md)) |
-| 19 | ≈0.0041208062797686 | 0.0078244736036902 | **≤0.007808430327** | 0.2050% | 0.4332% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim19/README.md)) |
-| 25 | ≈0.0006772120097731 | 0.0013293080953711 | **≤0.001325232433** | 0.3066% | 0.6250% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim25/README.md)) |
-| 26 | ≈0.0002692200504338 | 0.0009151191756312 | **≤0.000907209997** | 0.8643% | 1.2245% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim26/README.md)) |
-| 27 | ≈0.0001286752812026 | 0.0006313421536495 | **≤0.000622938953** | 1.3310% | 1.6717% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim27/README.md)) |
-| 28 | ≈0.0000697587366165 | 0.0004370005973032 | **≤0.000429639101** | 1.6846% | 2.0045% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim28/README.md)) |
-| 29 | ≈0.0000278789874568 | 0.0003038425430867 | **≤0.000298025039** | 1.9146% | 2.1081% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim29/README.md)) |
-| 30 | ≈0.0000144286438425 | 0.0002124025969562 | **≤0.000207932946** | 2.1043% | 2.2577% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim30/README.md)) |
-| 31 | ≈0.0000118377651859 | 0.0001494085876507 | **≤0.000146087217** | 2.2230% | 2.4143% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim31/README.md)) |
-| 32 | ≈0.0000110407493088 | 0.0001057644820174 | **≤0.000104134823** | 1.5408% | 1.7204% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim32/README.md)) |
-| 33 | ≈0.0000041406882896 | 0.0000755167889394 | **≤0.000073827123** | 2.2375% | 2.3673% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim33/README.md)) |
-| 34 | ≈0.0000017669738891 | 0.0000543081490854 | **≤0.000053148401** | 2.1355% | 2.2073% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim34/README.md)) |
-| 35 | ≈9.461904151E-7 | 0.0000393266736309 | **≤0.000038509364** | 2.0783% | 2.1295% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim35/README.md)) |
-| 36 | ≈7.330347783E-7 | 0.0000286680608768 | **≤0.000028235617** | 1.5085% | 1.5480% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim36/README.md)) |
+| 14 | 0.0216240 | 0.0352393 | **≤0.0347128** | 1.49% | 3.87% | [Near-frame](verifications/lattice/dim14/README.md) |
+| 15 | 0.0168575 | 0.0256119 | **≤0.0255112** | 0.39% | 1.15% | [Near-frame](verifications/lattice/dim15/README.md) |
+| 16 | 0.0147081 | 0.0187462 | **≤0.0186552** | 0.49% | 2.25% | [Near-frame](verifications/lattice/dim16/README.md) |
+| 17 | 0.00881131 | 0.0138840 | **≤0.0138325** | 0.37% | 1.02% | [Coupling](verifications/lattice/dim17/README.md) |
+| 18 | 0.00592836 | 0.0103705 | **≤0.0103439** | 0.26% | 0.60% | [Near-frame](verifications/lattice/dim18/README.md) |
+| 19 | 0.00412080 | 0.00782448 | **≤0.00780844** | 0.21% | 0.43% | [Coupling](verifications/lattice/dim19/README.md) |
+| 20 | 0.00322586 | 0.00595809 | **≤0.00595464** | 0.06% | 0.13% | [Coupling](verifications/lattice/dim20/README.md) |
+| 21 | 0.00246588 | 0.00456046 | **≤0.00455796** | 0.05% | 0.12% | [Coupling](verifications/lattice/dim21/README.md) |
+| 22 | 0.00212766 | 0.00348597 | **≤0.00348294** | 0.09% | 0.22% | [Coupling](verifications/lattice/dim22/README.md) |
+| 25 | 6.77212e-4 | 0.00132931 | **≤0.00132524** | 0.31% | 0.63% | [Coupling](verifications/lattice/dim25/README.md) |
+| 26 | 2.6922e-4 | 9.1512e-4 | **≤9.0721e-4** | 0.86% | 1.22% | [Coupling](verifications/lattice/dim26/README.md) |
+| 27 | 1.28675e-4 | 6.31343e-4 | **≤6.22939e-4** | 1.33% | 1.67% | [Coupling](verifications/lattice/dim27/README.md) |
+| 28 | 6.97587e-5 | 4.37001e-4 | **≤4.2964e-4** | 1.68% | 2.00% | [Coupling](verifications/lattice/dim28/README.md) |
+| 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Coupling](verifications/lattice/dim29/README.md) |
+| 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Coupling](verifications/lattice/dim30/README.md) |
+| 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Coupling](verifications/lattice/dim31/README.md) |
+| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.02835e-4** | 2.77% | 3.09% | [2-window](verifications/lattice/dim32_multiwindow/README.md) |
+| 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Coupling](verifications/lattice/dim33/README.md) |
+| 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Coupling](verifications/lattice/dim34/README.md) |
+| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.85094e-5** | 2.08% | 2.13% | [Coupling](verifications/lattice/dim35/README.md) |
+| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.82357e-5** | 1.51% | 1.55% | [Coupling](verifications/lattice/dim36/README.md) |
 
-Gap reductions use the displayed lattice lower comparisons. The unrestricted tables below remain unchanged.
+Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
+
+Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 2-window = the stronger two-window version. All extend Zubrilina’s mod-2 class framework.
+
 <!-- lattice-upper-20261116:end -->
 
 <!-- lower-return-20261115:start -->

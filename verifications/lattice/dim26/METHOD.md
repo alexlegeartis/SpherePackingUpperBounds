@@ -61,15 +61,9 @@ rho*hhat(0)<=h(0)+2m*kappa+2*sum_l nu_l*N0_l.
 The zero mod2 class has no positive contribution because its nonzero vectors
 have squared norm>=4, beyond the tail cutoff.
 
-The verifier reconstructs the Fourier polynomial, counts all roots on the
-relevant half-lines, proves every radial interval by rational Bernstein
-subdivision, reconstructs each Gegenbauer polynomial, checks all angular
-Bernstein bounds and code caps, recomputes every class budget, and compares
-the final density exactly. Odd-dimensional normalization uses a rational
-Machin lower bound for pi and a squared-density comparison.
+The default `python run_all.py` is a complete Python3.10+ standard-library proof. It reconstructs the Fourier polynomial and proves both global signs by exact Bernstein subdivision after rational compactification of the half-lines. It also checks every radial interval, continuous angular inequality, projective cap, class budget and exact density normalization. The optional `python verify_sympy.py certificate.json` is a separate SymPy-based implementation using root counts for global signs; public `python-flint` is optional acceleration. No SymPy dependency is needed by the default standard-library verifier.
 
-Standalone replay: Python3 + SymPy, without python -O:
-`python verify_schur_certificate.py schur_n17_certificate.json`
+Odd-dimensional normalization uses a rational lower bound for pi and an exact squared-density comparison. No floating sign tolerances are used. Do not use `python -O`.
 
 A successful replay validates that specific certificate. It does not establish
 optimality, universality of sampled experiments, or priority over other work.

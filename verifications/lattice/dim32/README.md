@@ -1,5 +1,7 @@
 # 32D lattice-only density bound
 
+**Superseded by [the stronger two-window32D bound](../dim32_multiwindow/README.md), density ≤0.000102834508.** This original certificate is preserved unchanged.
+
 **Density ≤ 0.000104134823.** This is an unconditional lattice bound, not an unrestricted sphere-packing bound.
 
 Run `python run_all.py` with Python 3.10+ using only the standard library. Do not use `python -O`. This complete verifier reconstructs the Fourier polynomial, all 240 radial intervals, continuous angular cuts, exact projective code caps through sextic degree, every class budget, and the final rational density. Both global half-line signs are proved by exact Bernstein subdivision after rational compactification. No sign test is skipped and no floating tolerance is used. The separate optional replay `python verify_sympy.py certificate.json` uses Python+SymPy and exact root counts; optional `python-flint` accelerates it, but tail root counts may still take much longer. It is not necessary for the complete standard-library proof.
