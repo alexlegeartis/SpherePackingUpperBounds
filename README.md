@@ -1,11 +1,11 @@
 # Sphere-packing density bounds and constructions
 
-Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
+Reproducible certificates for unrestricted sphere packings and lattice-only upper bounds, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
 
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-Lattice-only results, compared with the supplied Cohn-table snapshot (38D–44D use the preceding unrestricted repository bounds); the 23D, 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
+Lattice-only results with the comparison source specified in each row. Dimensions 14D–22D and 25D–36D use the supplied Cohn lattice-table snapshot; 23D and 37D–44D use preceding unrestricted repository bounds, which also apply to lattices. Dimensions 45D–48D compare with their preceding lattice-only certificates, retained unchanged. These are named benchmarks, not exhaustive current-record claims. [Scope and reproduction](LATTICE_RESULTS.md).
 
 | n | Lower | Prior / source | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
