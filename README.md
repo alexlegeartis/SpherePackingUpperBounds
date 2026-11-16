@@ -268,6 +268,11 @@ The [origin-coordinate refinements](verifications/origin_slack/) tighten the exi
 
 ## Research tools
 
+The [research index](research/README.md) separates registered certificates,
+historical results and unsuccessful searches. The [16 November branch
+reconciliation](research/branch_integration_20261116/README.md) records where
+the three research branches were incorporated and which results were superseded.
+
 - [Dimension-generic annular three-point search](research/annular_three_point/): global-positivity SDP discovery, exact export and full-domain checks. The degree-31 18D witness is now registered after independent audit. Degree-23 17D/18D and degree-31 17D certificates are weaker than published bounds; 22D/23D candidates are rejected. All earlier experiments remain preserved.
 - [Origin-coordinate slack research](research/origin_slack/): exact Schur-complement postprocessing and independent 5D audit. This preserves the initial research snapshot; the subsequent fully replayed refinements are registered in [verifications/origin_slack](verifications/origin_slack/).
 

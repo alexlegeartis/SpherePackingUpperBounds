@@ -1,0 +1,262 @@
+{
+  "review_date": "2026-11-16",
+  "base_main_sha": "5fe8f91b15bdb1952f53bc9f277cb2ddf3b81482",
+  "new_density_records": false,
+  "branches": [
+    {
+      "branch": "research/density-breakthroughs-20261113",
+      "pinned_head": "1d073d1cffdef2c3f62533f6cec8595e3abb5c64",
+      "already_ancestor_of_base_main": true,
+      "upper_registry_dimensions_checked": 43,
+      "all_upper_bounds_retained_or_improved": true
+    },
+    {
+      "branch": "research/radial-enrichment-20261114",
+      "pinned_head": "8a080d6a00909391a91ecbac097e4004c404c40d",
+      "already_ancestor_of_base_main": true,
+      "upper_registry_dimensions_checked": 43,
+      "all_upper_bounds_retained_or_improved": true
+    },
+    {
+      "branch": "research/nonminimal-sections-20261116",
+      "pinned_head": "86f5a02d8a3cc241c7443151c55627d85214628e",
+      "already_ancestor_of_base_main": false,
+      "disposition": "Merge research only; no certificate or leaderboard entry"
+    }
+  ],
+  "radial_bounds": [
+    {
+      "dimension": 45,
+      "frozen_radial_upper": "0.000001287489137",
+      "current_upper": "0.0000012656297919",
+      "current_package": "verifications/dim45/refinement_profile20261114"
+    },
+    {
+      "dimension": 46,
+      "frozen_radial_upper": "0.0000008756454737",
+      "current_upper": "8.7124499791E-7",
+      "current_package": "verifications/dim46/refinement_profile20261114"
+    },
+    {
+      "dimension": 47,
+      "frozen_radial_upper": "0.0000005972403006",
+      "current_upper": "5.9376953797E-7",
+      "current_package": "verifications/dim47/refinement_profile20261114"
+    }
+  ],
+  "density_branch_lower_leaderboard_coverage": {
+    "dimensions": [
+      36,
+      60,
+      61,
+      62,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "all_present": true,
+    "scope": "Existing certified constructions or later successors are linked from the current table; no fresh literature-priority survey."
+  },
+  "fresh_checks": {
+    "comparison": {
+      "passed": true,
+      "scope": "Exact percentages, ordering and regenerated tables; outputs identical to base main."
+    },
+    "radial_exports": {
+      "passed": true,
+      "dimensions": [
+        45,
+        46,
+        47
+      ]
+    },
+    "radial_registration_controls": {
+      "passed": true,
+      "report": "../radial_enrichment_20261114/REGISTRATION_TESTS.json"
+    },
+    "historical_radial_full_proofs": [
+      {
+        "dimension": 45,
+        "passed": true,
+        "scope": "Complete wrapper, including primary and independent checks"
+      },
+      {
+        "dimension": 46,
+        "passed": true,
+        "scope": "Complete wrapper, including primary and independent checks"
+      },
+      {
+        "dimension": 47,
+        "passed": true,
+        "scope": "Complete wrapper, including primary and independent checks"
+      }
+    ],
+    "density_compact": {
+      "all_passed": true,
+      "checks": [
+        {
+          "script": "contact_walk/verify36_local.py",
+          "passed": true,
+          "seconds": 2.072279453277588
+        },
+        {
+          "script": "mixed_codes/verify.py",
+          "passed": true,
+          "seconds": 0.8667240142822266
+        },
+        {
+          "script": "sections/audit_n17.py",
+          "passed": true,
+          "seconds": 0.13347721099853516
+        },
+        {
+          "script": "catalogue_screen/verify56_pencil.py",
+          "passed": true,
+          "seconds": 4.33854079246521
+        },
+        {
+          "script": "gluing/verify_extension_thresholds.py",
+          "passed": true,
+          "seconds": 0.04061746597290039
+        },
+        {
+          "script": "gluing/verify_normal_witnesses.py",
+          "passed": true,
+          "seconds": 1.9336941242218018
+        },
+        {
+          "script": "sections/verify_finite_results.py",
+          "passed": true,
+          "seconds": 0.6862740516662598
+        },
+        {
+          "script": "seed_deformations/audit_seed_results.py",
+          "passed": true,
+          "seconds": 2.2588958740234375
+        }
+      ],
+      "new_density_record": false,
+      "scope": "Exact finite certificates and comparisons. Prior published ambient minima and the existing36D minimum certificate remain explicit inputs; numerical contact-cone screens are excluded."
+    },
+    "higher_parent_compact": {
+      "all_compact_checks_passed": true,
+      "scripts_checked": 18,
+      "checks": [
+        {
+          "script": "audits/audit_ne64_antipodes.py",
+          "exit_code": 0,
+          "elapsed_seconds": 12.051
+        },
+        {
+          "script": "audits/propagated_benchmarks.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.845
+        },
+        {
+          "script": "audits/verify_gamma72_leech_sections.py",
+          "exit_code": 0,
+          "elapsed_seconds": 6.057
+        },
+        {
+          "script": "audits/verify_ne64_sections.py",
+          "exit_code": 0,
+          "elapsed_seconds": 11.259
+        },
+        {
+          "script": "code_routes/verify_71_discriminants.py",
+          "exit_code": 0,
+          "elapsed_seconds": 1.905
+        },
+        {
+          "script": "code_routes/verify_modular_obstruction.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.029
+        },
+        {
+          "script": "code_routes/verify_ne64_discriminant_action.py",
+          "exit_code": 0,
+          "elapsed_seconds": 3.003
+        },
+        {
+          "script": "code_routes/verify_ne64_theta_count.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.084
+        },
+        {
+          "script": "code_routes/verify_rank1_antipode.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.079
+        },
+        {
+          "script": "code_routes/verify_torus_layer_bounds.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.028
+        },
+        {
+          "script": "higher_parent/audit_ne64_rounding.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.226
+        },
+        {
+          "script": "higher_parent/ne64_theta.py",
+          "exit_code": 0,
+          "elapsed_seconds": 1.139
+        },
+        {
+          "script": "higher_parent/verify_gamma72.py",
+          "exit_code": 0,
+          "elapsed_seconds": 2.253
+        },
+        {
+          "script": "higher_parent/verify_ne65.py",
+          "exit_code": 0,
+          "elapsed_seconds": 1.209
+        },
+        {
+          "script": "ne64_hole_certificate/prepare.py",
+          "exit_code": 0,
+          "elapsed_seconds": 4.248
+        },
+        {
+          "script": "ne64_hole_certificate/summarize.py",
+          "exit_code": 0,
+          "elapsed_seconds": 0.033
+        },
+        {
+          "script": "transfer_neighbors/verify_dual_quotient.py",
+          "exit_code": 0,
+          "elapsed_seconds": 2.715
+        },
+        {
+          "script": "transfer_neighbors/verify_transfer.py",
+          "exit_code": 0,
+          "elapsed_seconds": 2.718
+        }
+      ],
+      "interval_computation": "Recorded four-shard COMPLETE outputs checked; full traversal is reproduced by ne64_hole_certificate/run.py",
+      "parent_minima": "Published theorems for Ne64, Gamma72, and the seven catalogue32D parents are inherited",
+      "global_record_status": "Priority unestablished; comparison families are explicitly scoped"
+    },
+    "nonminimal": {
+      "passed": true,
+      "samples": 50000,
+      "relaxed_candidates": 3,
+      "exact_minima": [
+        4,
+        2,
+        2
+      ],
+      "new_packing": false,
+      "log": "nonminimal-replay.log"
+    }
+  },
+  "unchanged_registry_files": {
+    "RESULTS.json": "0d66ea91203ef9b585c7bf800212b1f921d38c4e66cbe349fa382a96b1d8ed23",
+    "RESULTS.md": "a81f8bc7cc49a0d36439b1c82fa3a50500b3c999b04b7d29a66bfc3c0081cb93"
+  },
+  "aggregate_full_replay_performed": false
+}

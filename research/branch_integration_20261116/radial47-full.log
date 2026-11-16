@@ -1,0 +1,17 @@
+[{'file': 'cyclic_angular40_exact.json', 'pass': True, 'sturm_variations': [10, 10], 'B': '28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688'}]
+
+{'pass': True, 'precision': 192, 'certified_rectangles': 7771, 'discarded_rectangles': 432, 'max_depth': 16, 'tails_exponential_check': True}
+
+fourier global root gate PASS
+physical global root gate PASS
+PRIMARY RADIAL PASS 47 [5.9724030059364978997875005728378607505660292305043868828459762064304410053409491814947771480824006258722197151191934383968273728238250669543518797116933e-7 +/- 5.43e-159] 10443 25
+
+ANGULAR_PASS {"pass": true, "dimension": 47, "degree": 19, "b0_exact": "1", "B_exact": "28480256271912302890787749475800706759447932616462987363/43526477349886437471741192702003770547071090688", "B_float": 654320266.7878339, "harmonic_expansion_exact": true, "constant_coefficient_spherical_moment_exact": true, "all_harmonic_coefficients_nonnegative": true, "sturm_variations_minus_one_cut_one": [10, 10, 9], "strict_cap_margin_exact": "1/100000", "unique_root_bracket_exact": ["99055017696872891561836114339283/198070406285660843983859875840000", "396220070787491566247344457362131/792281625142643375935439503360000"], "unique_root_bracket_float": [0.5001000379330464, 0.5001000379330464], "tail_exponential_majorant_exact": true}
+CYCLIC_PROGRESS 10000 4755 243 5
+CYCLIC_PASS {"pass": true, "dimension": 47, "precision_bits": 256, "alpha": 40, "compact_domain": "0<=t<=1/2, 1<=u<=5, 2tu<=1", "certified_rectangles": 4860, "discarded_rectangles": 251, "processed_rectangles": 10221, "max_axis_depth": 16, "changed_geometry_radicand": "exact monotone rational endpoint bounds", "gap_clipping": "nonnegative on the sorted-triangle feasible domain", "signed_secondary_terms": true, "tails_exact": true, "tail_first_gap_if_positive_exact": "4001/1000", "tail_second_gap_lower_exact": "24", "scale_extension": "single-sign-transition lemma; see AUDIT.md", "seconds": 1.1659586429595947}
+
+INDEPENDENT fourier RAY PASS
+INDEPENDENT physical RAY PASS
+INDEPENDENT RADIAL PASS 47 [5.972403005936497899787500572837860750566029230504386882845976206430441005340949181494777148082400625872219715119193438396827372823825066954351879711693282977600139543644031747159735536563498328948167277435456744239654974879211907e-7 +/- 6.78e-236] 10490 25
+
+FULL CERTIFICATE PASS 47 0.0000005972403006
