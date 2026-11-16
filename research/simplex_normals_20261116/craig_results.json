@@ -1,0 +1,122 @@
+{
+  "status": "eight_formula_families_ruled_out_one_specific_code_case_open",
+  "scope": "Ceilings on the guarantee formula in Chen2013 Theorems2.3-2.4, using even binary linear codes; not ceilings on actual lattice densities or other constructions.",
+  "rows": [
+    {
+      "dimension": 48,
+      "guarantee_formula_density_squared_ceiling": "17592186044416/137641",
+      "comparison_density_squared": "79766443076872509863361/281474976710656",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 53,
+        "code_dimension_upper": 22
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 54,
+      "guarantee_formula_density_squared_ceiling": "281474976710656/191455",
+      "comparison_density_squared": "55511151231257827021181583404541015625/15263394663051042073620774912",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 59,
+        "code_dimension_upper": 24
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 55,
+      "guarantee_formula_density_squared_ceiling": "140737488355328/24367",
+      "comparison_density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 59,
+        "code_dimension_upper": 25
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 56,
+      "guarantee_formula_density_squared_ceiling": "4503599627370496/198417",
+      "comparison_density_squared": "1387778780781445675529539585113525390625/36046552944073389769014378496",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 59,
+        "code_dimension_upper": 26
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 63,
+      "guarantee_formula_density_squared_ceiling": "288230376151711744/4489",
+      "comparison_density_squared": "251927160994904",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 67,
+        "code_dimension_upper": 32
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 64,
+      "guarantee_formula_density_squared_ceiling": "73786976294838206464/291785",
+      "comparison_density_squared": "1853020188851841",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 67,
+        "code_dimension_upper": 33
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 72,
+      "guarantee_formula_density_squared_ceiling": "19342813113834066795298816/389017",
+      "comparison_density_squared": "4722366482869645213696",
+      "maximizing_parameters": {
+        "m": 2,
+        "ell": 73,
+        "code_dimension_upper": 42
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 80,
+      "guarantee_formula_density_squared_ceiling": "1824800363140073127359051977856583921/3110228525056",
+      "comparison_density_squared": "40536215597144386832065866109016673800875222251012083746192454448001/27277586004736926929684201513846718915936256",
+      "maximizing_parameters": {
+        "m": 3,
+        "ell": 83,
+        "code_dimension_upper": 32
+      },
+      "formula_cannot_improve_comparison": true
+    },
+    {
+      "dimension": 92,
+      "guarantee_formula_density_squared_ceiling": "26183890704263137277674192438430182020124347/175642093504",
+      "comparison_density_squared": "24519928653854221733733552434404946937899825954937634816/256666986187667409334369",
+      "maximizing_parameters": {
+        "m": 3,
+        "ell": 97,
+        "code_dimension_upper": 43
+      },
+      "formula_cannot_improve_comparison": false
+    }
+  ],
+  "polynomial_certificates_checked": 12,
+  "all_polynomial_and_density_checks_exact": true,
+  "unresolved_conditional_cases": [
+    {
+      "dimension": 92,
+      "m": 3,
+      "ell": 97,
+      "even_binary_length": 93,
+      "minimum_distance_required": 24,
+      "dimension_needed": 43,
+      "dimension_upper": 43,
+      "conditional_density_squared": "26183890704263137277674192438430182020124347/175642093504",
+      "conditional_ratio_squared": "6720540313730499730728209641162055580022933828268725591193880782043/4306731601331672063741577607705840516666759711762482144840477835264"
+    }
+  ],
+  "new_packing_SOTA_claimed": false,
+  "maximum_parent_or_target_dimension": 93
+}

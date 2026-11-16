@@ -349,6 +349,11 @@ def audit():
     assert creative['all_source_and_period_checks_exact'] and creative['maximum_parent_or_target_dimension']<=96
     for a in creative['rows']:
         additional.append(row(a['dimension'],a['name'],a['density_squared'],path,a['kind']))
+    path='research/simplex_normals_20261116/results.json'
+    simplex=read(path)
+    assert simplex['all_source_and_period_checks_exact'] and simplex['maximum_parent_or_target_dimension']<=96
+    for a in simplex['rows']:
+        additional.append(row(a['dimension'],a['name'],a['density_squared'],path,a['kind']))
     new = close_products(list(previous.values())+counting['rows']+torus+additional)
     assert set(new) == set(previous) == set(external) == set(range(48, 97))
     results = []

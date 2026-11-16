@@ -55,7 +55,8 @@
     "../adaptive_layers_20261115/sources.json",
     "../mw92_sections_20261115/sources.json",
     "../cm58_20261116/sources.json",
-    "../creative_sections_20261116/sources.json"
+    "../creative_sections_20261116/sources.json",
+    "../simplex_normals_20261116/sources.json"
   ],
   "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
   "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -73,7 +74,7 @@
     "87": "Classical BCS88 section"
   },
   "subsequent_stronger_bounds": "../adaptive_layers_20261115/results.json",
-  "current_continuation": "../creative_sections_20261116/results.json",
+  "current_continuation": "../simplex_normals_20261116/results.json",
   "review_carried_forward_from": "2026-11-15",
-  "update_scope": "Stronger57D,78D,79D constructions and targeted source searches; earlier named-source reviews carried forward. The92D conditional candidate is now rejected by an exact vector."
+  "update_scope": "Stronger86D-89D constructions and targeted source searches; earlier named-source reviews carried forward. The separate Craig/code audit supplies no new packing SOTA."
 }
