@@ -2066,6 +2066,110 @@
       "uncompressed_bytes": 5768
     },
     {
+      "path": "dim32_threewindow/ANGULAR_PROOF.md",
+      "stored_path": "dim32_threewindow/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim32_threewindow/METHOD.md",
+      "stored_path": "dim32_threewindow/METHOD.md",
+      "gzip": false,
+      "sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
+      "stored_sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
+      "uncompressed_bytes": 4739
+    },
+    {
+      "path": "dim32_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim32_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim32_threewindow/README.md",
+      "stored_path": "dim32_threewindow/README.md",
+      "gzip": false,
+      "sha256": "fbd571b41326054f239bb09d6ad89007cef96b6928c4e9c70eda001c86961f9e",
+      "stored_sha256": "fbd571b41326054f239bb09d6ad89007cef96b6928c4e9c70eda001c86961f9e",
+      "uncompressed_bytes": 1476
+    },
+    {
+      "path": "dim32_threewindow/SHA256SUMS",
+      "stored_path": "dim32_threewindow/SHA256SUMS",
+      "gzip": false,
+      "sha256": "fb7487f26e8e3633c0595f90137b1e4d5912559641d5b1f1ae563267e95a20d3",
+      "stored_sha256": "fb7487f26e8e3633c0595f90137b1e4d5912559641d5b1f1ae563267e95a20d3",
+      "uncompressed_bytes": 1029
+    },
+    {
+      "path": "dim32_threewindow/audit_schur_windows_n32.json",
+      "stored_path": "dim32_threewindow/audit_schur_windows_n32.json.gz",
+      "gzip": true,
+      "sha256": "29f1c3ce23c2c2c9c9fd1f1e3c1999a81b3b09b22a97df5fbc655165ffb026a0",
+      "stored_sha256": "9019c0f07dc6045061e5de92f885fc46db0bb7feda189af493230c40dacaefa0",
+      "uncompressed_bytes": 1766
+    },
+    {
+      "path": "dim32_threewindow/certificate.json",
+      "stored_path": "dim32_threewindow/certificate.json.gz",
+      "gzip": true,
+      "sha256": "4055c1f210d175c37e368c9652f881ff4bc62ba321f408a1909727e34ac4dc83",
+      "stored_sha256": "51f2d2e275e65b7dff97f8622ac09e3f3aa71a4cc59ffcfc2b7fce2c9e9a70cf",
+      "uncompressed_bytes": 1147133
+    },
+    {
+      "path": "dim32_threewindow/comparison_certificate.json",
+      "stored_path": "dim32_threewindow/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "089daf27526b3045f68205e4a0749e61b605fd0507a5c6a6dd2fe0648789beb9",
+      "stored_sha256": "ae9c1a79f0eacae2fbefb4dd43064f8835e0c7662bfcd181218c38ad74c55905",
+      "uncompressed_bytes": 19632
+    },
+    {
+      "path": "dim32_threewindow/incremental_audit.json",
+      "stored_path": "dim32_threewindow/incremental_audit.json.gz",
+      "gzip": true,
+      "sha256": "e5a9237137fb96007e68e2ef6be2a838736f9af65e66f4019f436870a5b740fd",
+      "stored_sha256": "21bc38d7493fdcea013cd25038e4f3801546d23e98db44857b34f3c9515e930c",
+      "uncompressed_bytes": 1375
+    },
+    {
+      "path": "dim32_threewindow/run_all.py",
+      "stored_path": "dim32_threewindow/run_all.py",
+      "gzip": false,
+      "sha256": "1410e9b1682b3a2958e7600e89ccaf121801c8621d4dacea78a9fdc227c2443e",
+      "stored_sha256": "1410e9b1682b3a2958e7600e89ccaf121801c8621d4dacea78a9fdc227c2443e",
+      "uncompressed_bytes": 715
+    },
+    {
+      "path": "dim32_threewindow/second_independent_audit.json",
+      "stored_path": "dim32_threewindow/second_independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "29f1c3ce23c2c2c9c9fd1f1e3c1999a81b3b09b22a97df5fbc655165ffb026a0",
+      "stored_sha256": "9019c0f07dc6045061e5de92f885fc46db0bb7feda189af493230c40dacaefa0",
+      "uncompressed_bytes": 1766
+    },
+    {
+      "path": "dim32_threewindow/verify_independent.py",
+      "stored_path": "dim32_threewindow/verify_independent.py",
+      "gzip": false,
+      "sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "stored_sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "uncompressed_bytes": 7750
+    },
+    {
+      "path": "dim32_threewindow/verify_sympy.py",
+      "stored_path": "dim32_threewindow/verify_sympy.py",
+      "gzip": false,
+      "sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "stored_sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "uncompressed_bytes": 5768
+    },
+    {
       "path": "dim33/ANGULAR_PROOF.md",
       "stored_path": "dim33/ANGULAR_PROOF.md",
       "gzip": false,
@@ -2354,6 +2458,118 @@
       "uncompressed_bytes": 5700
     },
     {
+      "path": "dim35_threewindow/ANGULAR_PROOF.md",
+      "stored_path": "dim35_threewindow/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim35_threewindow/METHOD.md",
+      "stored_path": "dim35_threewindow/METHOD.md",
+      "gzip": false,
+      "sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
+      "stored_sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
+      "uncompressed_bytes": 4739
+    },
+    {
+      "path": "dim35_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim35_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim35_threewindow/README.md",
+      "stored_path": "dim35_threewindow/README.md",
+      "gzip": false,
+      "sha256": "ec339251b88a93f8cbfcf0738b8a4a5ff7f44a82058a635f5505e4363f468c74",
+      "stored_sha256": "ec339251b88a93f8cbfcf0738b8a4a5ff7f44a82058a635f5505e4363f468c74",
+      "uncompressed_bytes": 1476
+    },
+    {
+      "path": "dim35_threewindow/SHA256SUMS",
+      "stored_path": "dim35_threewindow/SHA256SUMS",
+      "gzip": false,
+      "sha256": "a4fa66475858530a401d747ab72dd5cc093a0d10ecf838dd3a94b50bdaecc50b",
+      "stored_sha256": "a4fa66475858530a401d747ab72dd5cc093a0d10ecf838dd3a94b50bdaecc50b",
+      "uncompressed_bytes": 1125
+    },
+    {
+      "path": "dim35_threewindow/audit_schur_windows_n35.json",
+      "stored_path": "dim35_threewindow/audit_schur_windows_n35.json.gz",
+      "gzip": true,
+      "sha256": "b66790194ae8aa563dcab8830079ad052d962904c7bfae5474e45f5bc638db70",
+      "stored_sha256": "f8a7e62377fb896ffcc02c1bcf342af18eddf7ec001b50e540848aa5dad2bf1b",
+      "uncompressed_bytes": 280
+    },
+    {
+      "path": "dim35_threewindow/certificate.json",
+      "stored_path": "dim35_threewindow/certificate.json.gz",
+      "gzip": true,
+      "sha256": "e6ba7b62cc3a42d5e4e28282b0e69d068536e34768a37b9d9f43c03e2ac367e8",
+      "stored_sha256": "94636bbc8bb704b8fb6a188e0d2b73f79b16afb12f57f93363f80b190f3852de",
+      "uncompressed_bytes": 1383551
+    },
+    {
+      "path": "dim35_threewindow/comparison_certificate.json",
+      "stored_path": "dim35_threewindow/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "e86c6a956476b5ee13547e4db531e1bc7b8406006386d459d103a35e645f3530",
+      "stored_sha256": "16ba26ee7ba4e99a3ca89eed63aa73e360e4921fcc93dcd25e6515d6169990f8",
+      "uncompressed_bytes": 12199
+    },
+    {
+      "path": "dim35_threewindow/independent_audit.json",
+      "stored_path": "dim35_threewindow/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "f69b83e878b8d340eee6994b9e72d77bead5340a2d21f81c42ae0efac89e1334",
+      "stored_sha256": "72593eb818f2b6f100a6aee5b7936347944ca36c644d72dbe526c40c81ecf50c",
+      "uncompressed_bytes": 356
+    },
+    {
+      "path": "dim35_threewindow/independent_global_audit.json",
+      "stored_path": "dim35_threewindow/independent_global_audit.json.gz",
+      "gzip": true,
+      "sha256": "cfab3b8c7337d2622d7365bc33f088e23e3f530e6aef400494adb198970f6537",
+      "stored_sha256": "eb64c678b24bcfeb9839aa58efb66cf283f43a7b7d0dbd3451c80fb3bf43a9d7",
+      "uncompressed_bytes": 106
+    },
+    {
+      "path": "dim35_threewindow/run_all.py",
+      "stored_path": "dim35_threewindow/run_all.py",
+      "gzip": false,
+      "sha256": "8676627f503c6c86702a34fcd714f1e23fa6af78ffdd025f20ef08f79393f1f3",
+      "stored_sha256": "8676627f503c6c86702a34fcd714f1e23fa6af78ffdd025f20ef08f79393f1f3",
+      "uncompressed_bytes": 714
+    },
+    {
+      "path": "dim35_threewindow/second_independent_audit.json",
+      "stored_path": "dim35_threewindow/second_independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "b66790194ae8aa563dcab8830079ad052d962904c7bfae5474e45f5bc638db70",
+      "stored_sha256": "f8a7e62377fb896ffcc02c1bcf342af18eddf7ec001b50e540848aa5dad2bf1b",
+      "uncompressed_bytes": 280
+    },
+    {
+      "path": "dim35_threewindow/verify_independent.py",
+      "stored_path": "dim35_threewindow/verify_independent.py",
+      "gzip": false,
+      "sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "stored_sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "uncompressed_bytes": 7750
+    },
+    {
+      "path": "dim35_threewindow/verify_sympy.py",
+      "stored_path": "dim35_threewindow/verify_sympy.py",
+      "gzip": false,
+      "sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "stored_sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "uncompressed_bytes": 5768
+    },
+    {
       "path": "dim36/ANGULAR_PROOF.md",
       "stored_path": "dim36/ANGULAR_PROOF.md",
       "gzip": false,
@@ -2448,6 +2664,126 @@
       "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
       "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
       "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim36_threewindow/ANGULAR_PROOF.md",
+      "stored_path": "dim36_threewindow/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim36_threewindow/METHOD.md",
+      "stored_path": "dim36_threewindow/METHOD.md",
+      "gzip": false,
+      "sha256": "710633b19a92de38f0323962715d95c084ce5ce9fe4217ca05e43c9d596f7483",
+      "stored_sha256": "710633b19a92de38f0323962715d95c084ce5ce9fe4217ca05e43c9d596f7483",
+      "uncompressed_bytes": 4760
+    },
+    {
+      "path": "dim36_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim36_threewindow/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim36_threewindow/README.md",
+      "stored_path": "dim36_threewindow/README.md",
+      "gzip": false,
+      "sha256": "09fa288bed7faeb3e1c2cfa31100b2d590401c18f0fc8470dac12d1439d9d3d3",
+      "stored_sha256": "09fa288bed7faeb3e1c2cfa31100b2d590401c18f0fc8470dac12d1439d9d3d3",
+      "uncompressed_bytes": 1476
+    },
+    {
+      "path": "dim36_threewindow/SHA256SUMS",
+      "stored_path": "dim36_threewindow/SHA256SUMS",
+      "gzip": false,
+      "sha256": "2c27c90daa8080c6ad8a11470f3401b746be550517c8cedc002b461534c81df0",
+      "stored_sha256": "2c27c90daa8080c6ad8a11470f3401b746be550517c8cedc002b461534c81df0",
+      "uncompressed_bytes": 1186
+    },
+    {
+      "path": "dim36_threewindow/certificate.json",
+      "stored_path": "dim36_threewindow/certificate.json.gz",
+      "gzip": true,
+      "sha256": "08534334526e55c9d38b99fd9b1643ff8f0104c9c0b1269375c069e8ff8d60a3",
+      "stored_sha256": "dee6fa43284b5054ddd99ea9e88047ba50e3cbc74c249789d43b11436daeebe0",
+      "uncompressed_bytes": 1409297
+    },
+    {
+      "path": "dim36_threewindow/comparison_certificate.json",
+      "stored_path": "dim36_threewindow/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "063bf600b495ff384b9dce763dd861c9646b1fe4ec25d91989e86266e1c46a7c",
+      "stored_sha256": "e8a1d3796fcc737f389a531afbc99bd9b9ef53be530260c1f63e5873b30bf457",
+      "uncompressed_bytes": 12144
+    },
+    {
+      "path": "dim36_threewindow/gegenbauer.py",
+      "stored_path": "dim36_threewindow/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim36_threewindow/independent_audit.json",
+      "stored_path": "dim36_threewindow/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "12c1bae9f631b570fbad5defe2d36bf2650ecff5d698747be7c0a50422c6b2b7",
+      "stored_sha256": "5128304045f5f90b4540e88afc4bbc37b638d023328c1b086d1738a2087b6f20",
+      "uncompressed_bytes": 387
+    },
+    {
+      "path": "dim36_threewindow/run_all.py",
+      "stored_path": "dim36_threewindow/run_all.py",
+      "gzip": false,
+      "sha256": "95d43723230a215a5256a29e6f565cac933711a129b7de0c1119a5a7587c737c",
+      "stored_sha256": "95d43723230a215a5256a29e6f565cac933711a129b7de0c1119a5a7587c737c",
+      "uncompressed_bytes": 666
+    },
+    {
+      "path": "dim36_threewindow/second_independent_audit.json",
+      "stored_path": "dim36_threewindow/second_independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "e5f107b061b16743828dd53d2fdf29335fc60e1ef3273d8475e0b3580ff97b62",
+      "stored_sha256": "586468d2ebfb14c6f4005340720e2465987b92c64bbd427922d7ee27923e66e5",
+      "uncompressed_bytes": 1598
+    },
+    {
+      "path": "dim36_threewindow/verify_complete.json",
+      "stored_path": "dim36_threewindow/verify_complete.json.gz",
+      "gzip": true,
+      "sha256": "12c1bae9f631b570fbad5defe2d36bf2650ecff5d698747be7c0a50422c6b2b7",
+      "stored_sha256": "5128304045f5f90b4540e88afc4bbc37b638d023328c1b086d1738a2087b6f20",
+      "uncompressed_bytes": 387
+    },
+    {
+      "path": "dim36_threewindow/verify_complete.py",
+      "stored_path": "dim36_threewindow/verify_complete.py",
+      "gzip": false,
+      "sha256": "755d53b513573f841242dff3ca3c9f5096dd183d388bc477050678e46dd53001",
+      "stored_sha256": "755d53b513573f841242dff3ca3c9f5096dd183d388bc477050678e46dd53001",
+      "uncompressed_bytes": 6503
+    },
+    {
+      "path": "dim36_threewindow/verify_independent.py",
+      "stored_path": "dim36_threewindow/verify_independent.py",
+      "gzip": false,
+      "sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "stored_sha256": "fd49c1e72267d4a6f990ebb4094a36d984f6c49b13ead6950c1d59c366ea65a1",
+      "uncompressed_bytes": 7750
+    },
+    {
+      "path": "dim36_threewindow/verify_sympy.py",
+      "stored_path": "dim36_threewindow/verify_sympy.py",
+      "gzip": false,
+      "sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "stored_sha256": "a737836ef17e20713394efed1729686830cf5261c3e785b79d5477a8dd704fdd",
+      "uncompressed_bytes": 5768
     },
     {
       "path": "prior/NOTICE.md",

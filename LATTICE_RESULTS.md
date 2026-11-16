@@ -20,15 +20,15 @@ These bounds apply **only to lattice packings**. They do not replace the unrestr
 | 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Coupling](verifications/lattice/dim29/README.md) |
 | 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Coupling](verifications/lattice/dim30/README.md) |
 | 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Coupling](verifications/lattice/dim31/README.md) |
-| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.02835e-4** | 2.77% | 3.09% | [2-window](verifications/lattice/dim32_multiwindow/README.md) |
+| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.01512e-4** | 4.02% | 4.49% | [3-window](verifications/lattice/dim32_threewindow/README.md) |
 | 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Coupling](verifications/lattice/dim33/README.md) |
 | 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Coupling](verifications/lattice/dim34/README.md) |
-| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.85094e-5** | 2.08% | 2.13% | [Coupling](verifications/lattice/dim35/README.md) |
-| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.82357e-5** | 1.51% | 1.55% | [Coupling](verifications/lattice/dim36/README.md) |
+| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [3-window](verifications/lattice/dim35_threewindow/README.md) |
+| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [3-window](verifications/lattice/dim36_threewindow/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 
-Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 2-window = the stronger two-window version. All extend Zubrilina’s mod-2 class framework.
+Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 3-window = three nested source windows. All extend Zubrilina’s mod-2 class framework.
 
 ## Comparison scope and sources
 
@@ -43,7 +43,7 @@ This establishes improvements over the supplied snapshot and the named source be
 ### Results deliberately not included as current records
 
 - 11D–13D calculations were superseded by the newer claimed computer-assisted results listed in the snapshot. See [literature status](verifications/lattice/LITERATURE_STATUS.md). Their complete separate proof chains have not been independently replayed here.
-- Earlier tiny refinements in 20D, 26D and 32D were not published because those old proof packages were not recovered. The new entries above are different, independently audited global-coupling certificates. The earlier published32D certificate is preserved alongside the stronger two-window refinement.
+- Earlier tiny refinements in 20D, 26D and 32D were not published because those old proof packages were not recovered. The new entries above are different, independently audited global-coupling certificates. The earlier published32D certificate is preserved alongside the stronger multi-window refinements.
 - 9D and 10D exploratory values were weaker than known lattice bounds.
 
 ## Method and reproducibility
@@ -60,6 +60,6 @@ python verifications/lattice/replay.py
 python verifications/lattice/replay.py --dimension 36
 ```
 
-Python 3.10+ is required; the earlier dimensions use SymPy. The default20D–22D and25D–36D verifiers, except the stronger32D refinement, use only the standard library, with exact compactified-half-line Bernstein sign proofs. The stronger32D default uses SymPy for Fourier root counts and exact rational Bernstein tail signs; optional python-flint accelerates it. Separate optional SymPy verifiers are included. Public `python-flint` is an optional speed improvement, not a private dependency.
+Python 3.10+ is required; the earlier dimensions use SymPy. The default20D–22D and25D–36D verifiers, except the stronger32D and35D refinements, use only the standard library, with exact compactified-half-line Bernstein sign proofs. The stronger32D and35D defaults use SymPy for Fourier root counts and exact rational Bernstein tail signs; optional python-flint accelerates it. Separate optional SymPy verifiers are included. Public `python-flint` is an optional speed improvement, not a private dependency.
 
 Large JSON inputs use deterministic gzip. The replay checks stored and decompressed SHA256 hashes, materializes a temporary copy, and runs the complete proof there. Audited certificate bytes are preserved. Do not use `python -O`. Hosted Actions have not been enabled or dispatched.

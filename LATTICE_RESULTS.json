@@ -258,18 +258,18 @@
   {
     "dimension": 32,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000102834508",
+    "certified_density_upper_bound": "0.000101511777",
     "named_lattice_lower_comparison": "0.0000110407493088",
     "previous_lattice_upper": "0.0001057644820174",
     "previous_source_certificate_upper": "0.000105764483",
-    "upper_decrease_percent": "2.770281630952412735510093250",
-    "gap_decrease_percent": "3.093178376335233524465162802",
-    "package": "verifications/lattice/dim32_multiwindow",
+    "upper_decrease_percent": "4.020919817581444734670783540",
+    "gap_decrease_percent": "4.489587662769433347089613512",
+    "package": "verifications/lattice/dim32_threewindow",
     "comparison_source": "https://cohn.mit.edu/sphere-packing/",
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Two-window global cross-class coupling + mod-2 class budgets"
+    "method": "Three-window global cross-class coupling + mod-2 class budgets"
   },
   {
     "dimension": 33,
@@ -306,33 +306,33 @@
   {
     "dimension": 35,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000038509364",
+    "certified_density_upper_bound": "0.000037664745",
     "named_lattice_lower_comparison": "0.0000009461904151",
     "previous_lattice_upper": "0.0000393266736309",
     "previous_source_certificate_upper": "0.0000393266737",
-    "upper_decrease_percent": "2.07825772037281679578615469298699648949464692",
-    "gap_decrease_percent": "2.12949281098039989206049604152571384364159650",
-    "package": "verifications/lattice/dim35",
+    "upper_decrease_percent": "4.225957797748190532178162980",
+    "gap_decrease_percent": "4.330139934808944485358086298",
+    "package": "verifications/lattice/dim35_threewindow",
     "comparison_source": "https://cohn.mit.edu/sphere-packing/",
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Three-window global cross-class coupling + mod-2 class budgets"
   },
   {
     "dimension": 36,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000028235617",
+    "certified_density_upper_bound": "0.000027428605",
     "named_lattice_lower_comparison": "0.0000007330347783",
     "previous_lattice_upper": "0.0000286680608768",
     "previous_source_certificate_upper": "0.0000286680609",
-    "upper_decrease_percent": "1.50845178771739254520153147325969054920016654",
-    "gap_decrease_percent": "1.54803462604683415488451078384089163875029769",
-    "package": "verifications/lattice/dim36",
+    "upper_decrease_percent": "4.323473018026990936740551913",
+    "gap_decrease_percent": "4.436923997957366719515470583",
+    "package": "verifications/lattice/dim36_threewindow",
     "comparison_source": "https://cohn.mit.edu/sphere-packing/",
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Three-window global cross-class coupling + mod-2 class budgets"
   }
 ]

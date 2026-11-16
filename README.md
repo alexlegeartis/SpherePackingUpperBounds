@@ -25,15 +25,15 @@ Lattice-only results, compared with the supplied undated Cohn-table snapshot. [S
 | 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Coupling](verifications/lattice/dim29/README.md) |
 | 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Coupling](verifications/lattice/dim30/README.md) |
 | 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Coupling](verifications/lattice/dim31/README.md) |
-| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.02835e-4** | 2.77% | 3.09% | [2-window](verifications/lattice/dim32_multiwindow/README.md) |
+| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.01512e-4** | 4.02% | 4.49% | [3-window](verifications/lattice/dim32_threewindow/README.md) |
 | 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Coupling](verifications/lattice/dim33/README.md) |
 | 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Coupling](verifications/lattice/dim34/README.md) |
-| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.85094e-5** | 2.08% | 2.13% | [Coupling](verifications/lattice/dim35/README.md) |
-| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.82357e-5** | 1.51% | 1.55% | [Coupling](verifications/lattice/dim36/README.md) |
+| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [3-window](verifications/lattice/dim35_threewindow/README.md) |
+| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [3-window](verifications/lattice/dim36_threewindow/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 
-Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 2-window = the stronger two-window version. All extend Zubrilina’s mod-2 class framework.
+Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 3-window = three nested source windows. All extend Zubrilina’s mod-2 class framework.
 
 <!-- lattice-upper-20261116:end -->
 
