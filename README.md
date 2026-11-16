@@ -9,31 +9,31 @@ Lattice-only results, compared with the supplied undated Cohn-table snapshot. [S
 
 | n | Lower | Prior | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
-| 14 | 0.0216240 | 0.0352393 | **≤0.0347128** | 1.49% | 3.87% | [Near-frame](verifications/lattice/dim14/README.md) |
-| 15 | 0.0168575 | 0.0256119 | **≤0.0255112** | 0.39% | 1.15% | [Near-frame](verifications/lattice/dim15/README.md) |
-| 16 | 0.0147081 | 0.0187462 | **≤0.0186552** | 0.49% | 2.25% | [Near-frame](verifications/lattice/dim16/README.md) |
-| 17 | 0.00881131 | 0.0138840 | **≤0.0138325** | 0.37% | 1.02% | [Coupling](verifications/lattice/dim17/README.md) |
-| 18 | 0.00592836 | 0.0103705 | **≤0.0103439** | 0.26% | 0.60% | [Near-frame](verifications/lattice/dim18/README.md) |
-| 19 | 0.00412080 | 0.00782448 | **≤0.00780844** | 0.21% | 0.43% | [Coupling](verifications/lattice/dim19/README.md) |
-| 20 | 0.00322586 | 0.00595809 | **≤0.00595464** | 0.06% | 0.13% | [Coupling](verifications/lattice/dim20/README.md) |
-| 21 | 0.00246588 | 0.00456046 | **≤0.00455796** | 0.05% | 0.12% | [Coupling](verifications/lattice/dim21/README.md) |
-| 22 | 0.00212766 | 0.00348597 | **≤0.00348294** | 0.09% | 0.22% | [Coupling](verifications/lattice/dim22/README.md) |
-| 25 | 6.77212e-4 | 0.00132931 | **≤0.00132524** | 0.31% | 0.63% | [Coupling](verifications/lattice/dim25/README.md) |
-| 26 | 2.6922e-4 | 9.1512e-4 | **≤9.0721e-4** | 0.86% | 1.22% | [Coupling](verifications/lattice/dim26/README.md) |
-| 27 | 1.28675e-4 | 6.31343e-4 | **≤6.22939e-4** | 1.33% | 1.67% | [Coupling](verifications/lattice/dim27/README.md) |
-| 28 | 6.97587e-5 | 4.37001e-4 | **≤4.2964e-4** | 1.68% | 2.00% | [Coupling](verifications/lattice/dim28/README.md) |
-| 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Coupling](verifications/lattice/dim29/README.md) |
-| 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Coupling](verifications/lattice/dim30/README.md) |
-| 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Coupling](verifications/lattice/dim31/README.md) |
-| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.01512e-4** | 4.02% | 4.49% | [3-window](verifications/lattice/dim32_threewindow/README.md) |
-| 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Coupling](verifications/lattice/dim33/README.md) |
-| 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Coupling](verifications/lattice/dim34/README.md) |
-| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [3-window](verifications/lattice/dim35_threewindow/README.md) |
-| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [3-window](verifications/lattice/dim36_threewindow/README.md) |
+| 14 | 0.0216240 | 0.0352393 | **≤0.0347128** | 1.49% | 3.87% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim14/README.md) |
+| 15 | 0.0168575 | 0.0256119 | **≤0.0255112** | 0.39% | 1.15% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim15/README.md) |
+| 16 | 0.0147081 | 0.0187462 | **≤0.0186552** | 0.49% | 2.25% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim16/README.md) |
+| 17 | 0.00881131 | 0.0138840 | **≤0.0138325** | 0.37% | 1.02% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim17/README.md) |
+| 18 | 0.00592836 | 0.0103705 | **≤0.0103439** | 0.26% | 0.60% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim18/README.md) |
+| 19 | 0.00412080 | 0.00782448 | **≤0.00780844** | 0.21% | 0.43% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim19/README.md) |
+| 20 | 0.00322586 | 0.00595809 | **≤0.00595464** | 0.06% | 0.13% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim20/README.md) |
+| 21 | 0.00246588 | 0.00456046 | **≤0.00455796** | 0.05% | 0.12% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim21/README.md) |
+| 22 | 0.00212766 | 0.00348597 | **≤0.00348294** | 0.09% | 0.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim22/README.md) |
+| 25 | 6.77212e-4 | 0.00132931 | **≤0.00132524** | 0.31% | 0.63% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim25/README.md) |
+| 26 | 2.6922e-4 | 9.1512e-4 | **≤9.0721e-4** | 0.86% | 1.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim26/README.md) |
+| 27 | 1.28675e-4 | 6.31343e-4 | **≤6.22939e-4** | 1.33% | 1.67% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim27/README.md) |
+| 28 | 6.97587e-5 | 4.37001e-4 | **≤4.2964e-4** | 1.68% | 2.00% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim28/README.md) |
+| 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim29/README.md) |
+| 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim30/README.md) |
+| 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim31/README.md) |
+| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.01512e-4** | 4.02% | 4.49% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim32_threewindow/README.md) |
+| 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim33/README.md) |
+| 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim34/README.md) |
+| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim35_threewindow/README.md) |
+| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 
-Near-frame = arithmetic constraints; Coupling = global cross-class angular constraints; 3-window = three nested source windows. All extend Zubrilina’s mod-2 class framework.
+Method links describe the mechanism and open its proof package. These methods extend Zubrilina’s mod-2 class framework; multiwindow refinements combine inequalities from nested source windows.
 
 <!-- lattice-upper-20261116:end -->
 

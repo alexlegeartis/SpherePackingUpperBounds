@@ -2,13 +2,13 @@
 
 This is a rigorous structural inequality. Numerical polynomial searches using it are separate and require continuous sign certificates before they establish packing bounds.
 
-Let Λ⊂R^n have minimum length1. Fix1≤U<2 and let A be the set of nonzero classes modulo2Λ whose unique short opposite pair has squared norm in[1,U]. Write N=|A| and choose one vectorv_a per pair. Each nonzero class contains at most one opposite pair with squared norm<2.
+Let Λ⊂R^n have minimum length1. Fix1≤U<2 and let A be the set of nonzero classes modulo2Λ whose unique short opposite pair has squared norm in [1,U). Write N=|A| and choose one vectorv_a per pair. Each nonzero class contains at most one opposite pair with squared norm<2.
 
 Let F(t)=Σ_{k even} b_k P_k^(n)(t), with b_k≥0, where P_k is normalized Gegenbauer, P_k(1)=1. Put b0=b_0 and H=F(1). Assume
 
     F(t)≤0 for0≤t≤U−1.
 
-Partition the target short classes by their squared norms into bins I_j=[l_j,u_j]⊂[1,2]. For each bin choose W_j≥0 bounding the positive contribution from ordered pairs(a,b)∈A²,a≠b,a+b=c, uniformly for each targetclassc in that bin. Then
+Partition the target short classes by their squared norms into disjoint half-open bins I_j=[l_j,u_j)⊂[1,2). For each bin choose W_j≥0 bounding the positive contribution from ordered pairs(a,b)∈A²,a≠b,a+b=c, uniformly for each targetclassc in that bin. Then
 
     b0 N² ≤ H N + Σ_j W_j M_j,                 (1)
 
@@ -58,7 +58,7 @@ Oppositeq pairs correspond to two ordereddecompositions. Consequently one can in
 
     C_j=2 A_n(sqrt(u_j),sqrt(4U−l_j)),
 
-where A_n is the standard conditional classcap (known shortpair excluded). Use its closed-endpoint version, or arbitrarily enlarge endpoints before taking a stable integerbound. In particular the zero-cap branch is justified only when a²+s²<4; at equality4 distinct orthogonalpairs are possible and one must use the projection formula instead. Our current U=97/96 avoids that equality for every nonempty targetbin. Its projective projection formula applies whenever its denominator ispositive; if it fails, use the basic cap or another certified bound rather than asserting a finite relativebound. This is the direct bridge between global class addition and the existing within-class cap.
+where A_n is the standard conditional classcap (known shortpair excluded). Use disjoint half-open squared-norm bins [E_j,E_{j+1}) for class accounting. The short part is [1,2), the long part is [2,E_end), and the nonpositive tail covers E_end itself. Actual short and long squared norms are strictly below their respective bin upper endpoints. Thus the conditional zero-cap test on endpoint bounds a+S<=4 is valid: the actual squared norms have sum strictly less than 4. At actual equality 4, distinct orthogonal pairs can occur, so the test would not be valid for closed-bin counts. Angular and radial polynomial inequalities are checked on the closed containing intervals, which is conservative. Likewise a source-prefix window denotes [1,E_prefix); the recorded closed source_interval is an envelope, not a second assignment of boundary classes. Its projective projection formula applies whenever its denominator ispositive; if it fails, use the basic cap or another certified bound rather than asserting a finite relativebound. This is the direct bridge between global class addition and the existing within-class cap.
 
 ## Linear cuts for the profile LP
 

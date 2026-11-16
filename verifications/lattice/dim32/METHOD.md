@@ -5,7 +5,7 @@ search is not a proof; only a successfully replayed rational certificate is.
 
 Normalize the lattice minimum to1. Its m=2^n-1 nonzero classes modulo2Λ each
 contain at most one opposite pair of squared norm<2. Let A be classes whose
-short pair has squared norm in[1,U], where U=the first partition endpoint.
+short pair has squared norm in [1,U), where U=the first partition endpoint.
 Write N_A for their number and N_j for the number with a short pair in bin j.
 Classes with no short pair are also allowed.
 
@@ -18,7 +18,7 @@ forces a signed sum w of their representatives to have squared norm<2:
 ||u±v||²<=2U-2|cos angle|<2. Thus w is the unique short pair of its nonzero
 sum class. This is an actual vector sum, not merely a congruence.
 
-For target squared norm t in[a,b], safe cosine bounds are
+For a target bin [a,b), use its closed envelope [a,b] for the following safe cosine bounds:
 [max(0,(2-b)/(2U)), min(1-1/(2U),(2U-a)/2)].
 Let M_j>=0 bound f on this interval. Empty/no-short target classes contribute
 nothing positive.
@@ -50,6 +50,8 @@ r_j=(2-f(1)/N0)1_{j=0}-C_j M_j/N0.
 Negative r_j are allowed; M_j and C_j are nonnegative upper bounds.
 
 ## Combination with the radial auxiliary function
+
+Use disjoint half-open squared-norm bins [E_j,E_{j+1}) for class accounting. The short part is [1,2), the long part is [2,E_end), and the nonpositive tail covers E_end itself. Actual short and long squared norms are strictly below their respective bin upper endpoints. Thus the conditional zero-cap test on endpoint bounds a+S<=4 is valid: the actual squared norms have sum strictly less than 4. At actual equality 4, distinct orthogonal pairs can occur, so the test would not be valid for closed-bin counts. Angular and radial polynomial inequalities are checked on the closed containing intervals, which is conservative. Likewise a source-prefix window denotes [1,E_prefix); the recorded closed source_interval is an envelope, not a second assignment of boundary classes.
 
 Let h(r)=p(tau r²)exp(-tau r²/2), with nonnegative Fourier transform and
 h<=0 outside the finite partition. Exact interval envelopes bound each class

@@ -645,17 +645,17 @@
       "path": "dim17/ANGULAR_PROOF.md",
       "stored_path": "dim17/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim17/METHOD.md",
       "stored_path": "dim17/METHOD.md",
       "gzip": false,
-      "sha256": "332cbbdca818af2a2a9baaba3cd2f95f9c6f7ee82a8b81fcfafb474a90153c7d",
-      "stored_sha256": "332cbbdca818af2a2a9baaba3cd2f95f9c6f7ee82a8b81fcfafb474a90153c7d",
-      "uncompressed_bytes": 3945
+      "sha256": "63251dd2547b3b54ce1fd6c46283d6cfcb34c30fb886bd408b00b2bdd0455ab6",
+      "stored_sha256": "63251dd2547b3b54ce1fd6c46283d6cfcb34c30fb886bd408b00b2bdd0455ab6",
+      "uncompressed_bytes": 4755
     },
     {
       "path": "dim17/README.md",
@@ -669,8 +669,8 @@
       "path": "dim17/SHA256SUMS",
       "stored_path": "dim17/SHA256SUMS",
       "gzip": false,
-      "sha256": "568b417f52f8ebe4f03b95c5623f5fe4c8892ffdb09f69c5b6011f59c7966f97",
-      "stored_sha256": "568b417f52f8ebe4f03b95c5623f5fe4c8892ffdb09f69c5b6011f59c7966f97",
+      "sha256": "c19bdf4953afc6ef244cec84c619a65b07bf3447593af6179a1207b320f20e9e",
+      "stored_sha256": "c19bdf4953afc6ef244cec84c619a65b07bf3447593af6179a1207b320f20e9e",
       "uncompressed_bytes": 665
     },
     {
@@ -837,17 +837,17 @@
       "path": "dim19/ANGULAR_PROOF.md",
       "stored_path": "dim19/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim19/METHOD.md",
       "stored_path": "dim19/METHOD.md",
       "gzip": false,
-      "sha256": "332cbbdca818af2a2a9baaba3cd2f95f9c6f7ee82a8b81fcfafb474a90153c7d",
-      "stored_sha256": "332cbbdca818af2a2a9baaba3cd2f95f9c6f7ee82a8b81fcfafb474a90153c7d",
-      "uncompressed_bytes": 3945
+      "sha256": "63251dd2547b3b54ce1fd6c46283d6cfcb34c30fb886bd408b00b2bdd0455ab6",
+      "stored_sha256": "63251dd2547b3b54ce1fd6c46283d6cfcb34c30fb886bd408b00b2bdd0455ab6",
+      "uncompressed_bytes": 4755
     },
     {
       "path": "dim19/README.md",
@@ -861,8 +861,8 @@
       "path": "dim19/SHA256SUMS",
       "stored_path": "dim19/SHA256SUMS",
       "gzip": false,
-      "sha256": "7ccbd926ebb23272323ace7e3f7a912a9d04afdb01fb311a22f470e5589e2a79",
-      "stored_sha256": "7ccbd926ebb23272323ace7e3f7a912a9d04afdb01fb311a22f470e5589e2a79",
+      "sha256": "0e1d86f9a85b13769ee6e369cce45cf71011a12e998e5fd5cb97ab6301c30954",
+      "stored_sha256": "0e1d86f9a85b13769ee6e369cce45cf71011a12e998e5fd5cb97ab6301c30954",
       "uncompressed_bytes": 665
     },
     {
@@ -909,17 +909,17 @@
       "path": "dim20/ANGULAR_PROOF.md",
       "stored_path": "dim20/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim20/METHOD.md",
       "stored_path": "dim20/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim20/PROJECTIVE_CAP_PROOF.md",
@@ -941,8 +941,8 @@
       "path": "dim20/SHA256SUMS",
       "stored_path": "dim20/SHA256SUMS",
       "gzip": false,
-      "sha256": "2bec35a87f55fb6f1912c1517f4eebcce5070684d7bbe7e490a950a12e7831be",
-      "stored_sha256": "2bec35a87f55fb6f1912c1517f4eebcce5070684d7bbe7e490a950a12e7831be",
+      "sha256": "1a77cd216f7f7eee9f336bb54845cd31e661767bd28d9b3b6c2e65fc7c81f57e",
+      "stored_sha256": "1a77cd216f7f7eee9f336bb54845cd31e661767bd28d9b3b6c2e65fc7c81f57e",
       "uncompressed_bytes": 915
     },
     {
@@ -1005,17 +1005,17 @@
       "path": "dim21/ANGULAR_PROOF.md",
       "stored_path": "dim21/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim21/METHOD.md",
       "stored_path": "dim21/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim21/PROJECTIVE_CAP_PROOF.md",
@@ -1037,8 +1037,8 @@
       "path": "dim21/SHA256SUMS",
       "stored_path": "dim21/SHA256SUMS",
       "gzip": false,
-      "sha256": "694c616bf8a6b6f996cb9d3cb23e6221bd0f5d9dbc0cd80826b905ded1345010",
-      "stored_sha256": "694c616bf8a6b6f996cb9d3cb23e6221bd0f5d9dbc0cd80826b905ded1345010",
+      "sha256": "e2e8a16490d155ceaa48200468187e0bbc8ac618200af8699f317ee73618bb7a",
+      "stored_sha256": "e2e8a16490d155ceaa48200468187e0bbc8ac618200af8699f317ee73618bb7a",
       "uncompressed_bytes": 915
     },
     {
@@ -1101,17 +1101,17 @@
       "path": "dim22/ANGULAR_PROOF.md",
       "stored_path": "dim22/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim22/METHOD.md",
       "stored_path": "dim22/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim22/PROJECTIVE_CAP_PROOF.md",
@@ -1133,8 +1133,8 @@
       "path": "dim22/SHA256SUMS",
       "stored_path": "dim22/SHA256SUMS",
       "gzip": false,
-      "sha256": "bc11a3bfbfde3871f93e0f73e5b35404d226ad610ad80031cb1c94dabe52b683",
-      "stored_sha256": "bc11a3bfbfde3871f93e0f73e5b35404d226ad610ad80031cb1c94dabe52b683",
+      "sha256": "d19af4beb8e62371291372352aec095b4bc1ec743ba03defe4ad18da719d40ce",
+      "stored_sha256": "d19af4beb8e62371291372352aec095b4bc1ec743ba03defe4ad18da719d40ce",
       "uncompressed_bytes": 915
     },
     {
@@ -1197,17 +1197,17 @@
       "path": "dim25/ANGULAR_PROOF.md",
       "stored_path": "dim25/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim25/METHOD.md",
       "stored_path": "dim25/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim25/PROJECTIVE_CAP_PROOF.md",
@@ -1229,8 +1229,8 @@
       "path": "dim25/SHA256SUMS",
       "stored_path": "dim25/SHA256SUMS",
       "gzip": false,
-      "sha256": "03e87ada49672702e79641287cfb456d4cf007588cddaf7c43cb75df298abaa6",
-      "stored_sha256": "03e87ada49672702e79641287cfb456d4cf007588cddaf7c43cb75df298abaa6",
+      "sha256": "1cec49d4c921d5fd716c38c1bb7211a503b01de7e2ca9058387ecde2b2881f5e",
+      "stored_sha256": "1cec49d4c921d5fd716c38c1bb7211a503b01de7e2ca9058387ecde2b2881f5e",
       "uncompressed_bytes": 915
     },
     {
@@ -1293,17 +1293,17 @@
       "path": "dim26/ANGULAR_PROOF.md",
       "stored_path": "dim26/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim26/METHOD.md",
       "stored_path": "dim26/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim26/PROJECTIVE_CAP_PROOF.md",
@@ -1325,8 +1325,8 @@
       "path": "dim26/SHA256SUMS",
       "stored_path": "dim26/SHA256SUMS",
       "gzip": false,
-      "sha256": "01a4cf4c22a571c582857b67747900a39e5d3a9a96f70c122c1b824ed0aff224",
-      "stored_sha256": "01a4cf4c22a571c582857b67747900a39e5d3a9a96f70c122c1b824ed0aff224",
+      "sha256": "60ddb2d5787671c65ef992fcb8db93f483a6d97d9baf8ba9e3090283419c2a73",
+      "stored_sha256": "60ddb2d5787671c65ef992fcb8db93f483a6d97d9baf8ba9e3090283419c2a73",
       "uncompressed_bytes": 999
     },
     {
@@ -1397,17 +1397,17 @@
       "path": "dim27/ANGULAR_PROOF.md",
       "stored_path": "dim27/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim27/METHOD.md",
       "stored_path": "dim27/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim27/PROJECTIVE_CAP_PROOF.md",
@@ -1429,8 +1429,8 @@
       "path": "dim27/SHA256SUMS",
       "stored_path": "dim27/SHA256SUMS",
       "gzip": false,
-      "sha256": "c3018001b3ea27797ec263d384dd82294a062f96d687ceb1884c5199639d20c1",
-      "stored_sha256": "c3018001b3ea27797ec263d384dd82294a062f96d687ceb1884c5199639d20c1",
+      "sha256": "2fd66f0939cb194aad7b490d1f7ca1bce170c35bc1aef6f189dc237cdb2d5adc",
+      "stored_sha256": "2fd66f0939cb194aad7b490d1f7ca1bce170c35bc1aef6f189dc237cdb2d5adc",
       "uncompressed_bytes": 915
     },
     {
@@ -1493,17 +1493,17 @@
       "path": "dim28/ANGULAR_PROOF.md",
       "stored_path": "dim28/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim28/METHOD.md",
       "stored_path": "dim28/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim28/PROJECTIVE_CAP_PROOF.md",
@@ -1525,8 +1525,8 @@
       "path": "dim28/SHA256SUMS",
       "stored_path": "dim28/SHA256SUMS",
       "gzip": false,
-      "sha256": "1038297928cb484ae8b6731bbc533dafbf5d7f607a62eb29799edb2b0660bcff",
-      "stored_sha256": "1038297928cb484ae8b6731bbc533dafbf5d7f607a62eb29799edb2b0660bcff",
+      "sha256": "7b3a873c18a42672e13836f68a1fce82271231c3831b3b94e944b2a8ea1a7e47",
+      "stored_sha256": "7b3a873c18a42672e13836f68a1fce82271231c3831b3b94e944b2a8ea1a7e47",
       "uncompressed_bytes": 915
     },
     {
@@ -1589,17 +1589,17 @@
       "path": "dim29/ANGULAR_PROOF.md",
       "stored_path": "dim29/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim29/METHOD.md",
       "stored_path": "dim29/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim29/PROJECTIVE_CAP_PROOF.md",
@@ -1621,8 +1621,8 @@
       "path": "dim29/SHA256SUMS",
       "stored_path": "dim29/SHA256SUMS",
       "gzip": false,
-      "sha256": "974ae5f0cabc13bbc0aefbb65432ec08cefd9da9d46291992ed9d88c6416a477",
-      "stored_sha256": "974ae5f0cabc13bbc0aefbb65432ec08cefd9da9d46291992ed9d88c6416a477",
+      "sha256": "3b8c004d9c3d9b54e29a7b647f7920c919d375e9c19965e43f86a739c5b52942",
+      "stored_sha256": "3b8c004d9c3d9b54e29a7b647f7920c919d375e9c19965e43f86a739c5b52942",
       "uncompressed_bytes": 915
     },
     {
@@ -1685,17 +1685,17 @@
       "path": "dim30/ANGULAR_PROOF.md",
       "stored_path": "dim30/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim30/METHOD.md",
       "stored_path": "dim30/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim30/PROJECTIVE_CAP_PROOF.md",
@@ -1717,8 +1717,8 @@
       "path": "dim30/SHA256SUMS",
       "stored_path": "dim30/SHA256SUMS",
       "gzip": false,
-      "sha256": "3a329c705fa6478de08ead62a599192aae3047b90cfbb3df4e1704e21d6d01e0",
-      "stored_sha256": "3a329c705fa6478de08ead62a599192aae3047b90cfbb3df4e1704e21d6d01e0",
+      "sha256": "98a2eae379b83e3666d98c773b55440135b6e5063b24e9edef4796bbd26bcdc6",
+      "stored_sha256": "98a2eae379b83e3666d98c773b55440135b6e5063b24e9edef4796bbd26bcdc6",
       "uncompressed_bytes": 915
     },
     {
@@ -1781,17 +1781,17 @@
       "path": "dim31/ANGULAR_PROOF.md",
       "stored_path": "dim31/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim31/METHOD.md",
       "stored_path": "dim31/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim31/PROJECTIVE_CAP_PROOF.md",
@@ -1813,8 +1813,8 @@
       "path": "dim31/SHA256SUMS",
       "stored_path": "dim31/SHA256SUMS",
       "gzip": false,
-      "sha256": "4ad89cebf6cdac2f8c9c91b84bd32bbe27431bbceee74fa8a7de3ca03cf25fbb",
-      "stored_sha256": "4ad89cebf6cdac2f8c9c91b84bd32bbe27431bbceee74fa8a7de3ca03cf25fbb",
+      "sha256": "138d088ac4c4493ac2a3aaf547c461a4f94889637b88b75527008a64c363fcf9",
+      "stored_sha256": "138d088ac4c4493ac2a3aaf547c461a4f94889637b88b75527008a64c363fcf9",
       "uncompressed_bytes": 915
     },
     {
@@ -1877,17 +1877,17 @@
       "path": "dim32/ANGULAR_PROOF.md",
       "stored_path": "dim32/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
-      "uncompressed_bytes": 8037
+      "sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "stored_sha256": "c7d92f5895f61a00847cd6cdac3cc051beebf8cdbb1ff56c4cdc2fe2f5182788",
+      "uncompressed_bytes": 8489
     },
     {
       "path": "dim32/METHOD.md",
       "stored_path": "dim32/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim32/PROJECTIVE_CAP_PROOF.md",
@@ -1909,8 +1909,8 @@
       "path": "dim32/SHA256SUMS",
       "stored_path": "dim32/SHA256SUMS",
       "gzip": false,
-      "sha256": "7e54e7cd2eaaf655ae80314d9c78ad54f5a43c75504714147f5fefdd289d3544",
-      "stored_sha256": "7e54e7cd2eaaf655ae80314d9c78ad54f5a43c75504714147f5fefdd289d3544",
+      "sha256": "e487bfbb60f7f54e0af19a0fc472d965715319084b50377dc8d53e41ac3e15cc",
+      "stored_sha256": "e487bfbb60f7f54e0af19a0fc472d965715319084b50377dc8d53e41ac3e15cc",
       "uncompressed_bytes": 999
     },
     {
@@ -1981,17 +1981,17 @@
       "path": "dim32_multiwindow/ANGULAR_PROOF.md",
       "stored_path": "dim32_multiwindow/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim32_multiwindow/METHOD.md",
       "stored_path": "dim32_multiwindow/METHOD.md",
       "gzip": false,
-      "sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "stored_sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "uncompressed_bytes": 4739
+      "sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "stored_sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "uncompressed_bytes": 5549
     },
     {
       "path": "dim32_multiwindow/PROJECTIVE_CAP_PROOF.md",
@@ -2013,8 +2013,8 @@
       "path": "dim32_multiwindow/SHA256SUMS",
       "stored_path": "dim32_multiwindow/SHA256SUMS",
       "gzip": false,
-      "sha256": "7e1e9b8c0232f60ce2547bfe387e5840985e6d181951acd7d1b5b0fe915e9603",
-      "stored_sha256": "7e1e9b8c0232f60ce2547bfe387e5840985e6d181951acd7d1b5b0fe915e9603",
+      "sha256": "cdbf1d118e158b741017c40a1181b92ec1f1ae124def2c1a44d2aef13fc53ed3",
+      "stored_sha256": "cdbf1d118e158b741017c40a1181b92ec1f1ae124def2c1a44d2aef13fc53ed3",
       "uncompressed_bytes": 838
     },
     {
@@ -2069,17 +2069,17 @@
       "path": "dim32_threewindow/ANGULAR_PROOF.md",
       "stored_path": "dim32_threewindow/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim32_threewindow/METHOD.md",
       "stored_path": "dim32_threewindow/METHOD.md",
       "gzip": false,
-      "sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "stored_sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "uncompressed_bytes": 4739
+      "sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "stored_sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "uncompressed_bytes": 5549
     },
     {
       "path": "dim32_threewindow/PROJECTIVE_CAP_PROOF.md",
@@ -2101,8 +2101,8 @@
       "path": "dim32_threewindow/SHA256SUMS",
       "stored_path": "dim32_threewindow/SHA256SUMS",
       "gzip": false,
-      "sha256": "fb7487f26e8e3633c0595f90137b1e4d5912559641d5b1f1ae563267e95a20d3",
-      "stored_sha256": "fb7487f26e8e3633c0595f90137b1e4d5912559641d5b1f1ae563267e95a20d3",
+      "sha256": "059f9842bd47cb0b41243f7aff245829d943e6e479b3d26c3bb0ceeec5c7bae3",
+      "stored_sha256": "059f9842bd47cb0b41243f7aff245829d943e6e479b3d26c3bb0ceeec5c7bae3",
       "uncompressed_bytes": 1029
     },
     {
@@ -2173,17 +2173,17 @@
       "path": "dim33/ANGULAR_PROOF.md",
       "stored_path": "dim33/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim33/METHOD.md",
       "stored_path": "dim33/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim33/PROJECTIVE_CAP_PROOF.md",
@@ -2205,8 +2205,8 @@
       "path": "dim33/SHA256SUMS",
       "stored_path": "dim33/SHA256SUMS",
       "gzip": false,
-      "sha256": "3c417fc0694e95525bfc094074b5cb23b35d697917bbbbc257f568fce7adf7b2",
-      "stored_sha256": "3c417fc0694e95525bfc094074b5cb23b35d697917bbbbc257f568fce7adf7b2",
+      "sha256": "ae7c242ae78a184b0c842b301da009a4dda79c45cfce704264b8a348fc55e018",
+      "stored_sha256": "ae7c242ae78a184b0c842b301da009a4dda79c45cfce704264b8a348fc55e018",
       "uncompressed_bytes": 915
     },
     {
@@ -2269,17 +2269,17 @@
       "path": "dim34/ANGULAR_PROOF.md",
       "stored_path": "dim34/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim34/METHOD.md",
       "stored_path": "dim34/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim34/PROJECTIVE_CAP_PROOF.md",
@@ -2301,8 +2301,8 @@
       "path": "dim34/SHA256SUMS",
       "stored_path": "dim34/SHA256SUMS",
       "gzip": false,
-      "sha256": "1fa9c1c2faa6e43ad927973aa0b4662fffcce2ffd0aafeae446c4cb4f1a1e0ff",
-      "stored_sha256": "1fa9c1c2faa6e43ad927973aa0b4662fffcce2ffd0aafeae446c4cb4f1a1e0ff",
+      "sha256": "e6d6fd1d47d7ae07f1a1c4b8d670d079bf2e30a484355f92a313968cb05b7f61",
+      "stored_sha256": "e6d6fd1d47d7ae07f1a1c4b8d670d079bf2e30a484355f92a313968cb05b7f61",
       "uncompressed_bytes": 915
     },
     {
@@ -2365,17 +2365,17 @@
       "path": "dim35/ANGULAR_PROOF.md",
       "stored_path": "dim35/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim35/METHOD.md",
       "stored_path": "dim35/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim35/PROJECTIVE_CAP_PROOF.md",
@@ -2397,8 +2397,8 @@
       "path": "dim35/SHA256SUMS",
       "stored_path": "dim35/SHA256SUMS",
       "gzip": false,
-      "sha256": "ee906ee7d0858cc073c8fd18dcb83cedb94f38f2d6168613bad9e8decd2e3346",
-      "stored_sha256": "ee906ee7d0858cc073c8fd18dcb83cedb94f38f2d6168613bad9e8decd2e3346",
+      "sha256": "decff87a3e3cd9fc0cf36d376846d4d2d108213e3f5e5f232b89617c851a4796",
+      "stored_sha256": "decff87a3e3cd9fc0cf36d376846d4d2d108213e3f5e5f232b89617c851a4796",
       "uncompressed_bytes": 915
     },
     {
@@ -2461,17 +2461,17 @@
       "path": "dim35_threewindow/ANGULAR_PROOF.md",
       "stored_path": "dim35_threewindow/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim35_threewindow/METHOD.md",
       "stored_path": "dim35_threewindow/METHOD.md",
       "gzip": false,
-      "sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "stored_sha256": "016e7b737ef2e0ea486ac559ff50197d70c73138e197d2d9a04791412820e897",
-      "uncompressed_bytes": 4739
+      "sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "stored_sha256": "1e4433a7cdcd3b0f0a9f42ba7cd86bf8911b3ec86700329f867270c09b862cbb",
+      "uncompressed_bytes": 5549
     },
     {
       "path": "dim35_threewindow/PROJECTIVE_CAP_PROOF.md",
@@ -2493,8 +2493,8 @@
       "path": "dim35_threewindow/SHA256SUMS",
       "stored_path": "dim35_threewindow/SHA256SUMS",
       "gzip": false,
-      "sha256": "a4fa66475858530a401d747ab72dd5cc093a0d10ecf838dd3a94b50bdaecc50b",
-      "stored_sha256": "a4fa66475858530a401d747ab72dd5cc093a0d10ecf838dd3a94b50bdaecc50b",
+      "sha256": "a041ca3783b888dab7119d73a6f6b0464312c0e728289b92d05aea087a1925dc",
+      "stored_sha256": "a041ca3783b888dab7119d73a6f6b0464312c0e728289b92d05aea087a1925dc",
       "uncompressed_bytes": 1125
     },
     {
@@ -2573,17 +2573,17 @@
       "path": "dim36/ANGULAR_PROOF.md",
       "stored_path": "dim36/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim36/METHOD.md",
       "stored_path": "dim36/METHOD.md",
       "gzip": false,
-      "sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "stored_sha256": "fdde28b502893d9eff67c59886e90857c8fe5e6f647bb46ff95000be96dddce4",
-      "uncompressed_bytes": 4679
+      "sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "stored_sha256": "4e51a9b766f1d37b11d4e0fa51e104f0b636fce827e40e4f84f8a596405f1bba",
+      "uncompressed_bytes": 5489
     },
     {
       "path": "dim36/PROJECTIVE_CAP_PROOF.md",
@@ -2605,8 +2605,8 @@
       "path": "dim36/SHA256SUMS",
       "stored_path": "dim36/SHA256SUMS",
       "gzip": false,
-      "sha256": "be4dab0f10298c72ed3d67d61e60db61049f3b0976083229da36818376ddc8f2",
-      "stored_sha256": "be4dab0f10298c72ed3d67d61e60db61049f3b0976083229da36818376ddc8f2",
+      "sha256": "16e24a91713c3c7c4d891fdcbe0435db37e0fbe53d9a7e59dba3ab2544fa9eca",
+      "stored_sha256": "16e24a91713c3c7c4d891fdcbe0435db37e0fbe53d9a7e59dba3ab2544fa9eca",
       "uncompressed_bytes": 915
     },
     {
@@ -2669,17 +2669,17 @@
       "path": "dim36_threewindow/ANGULAR_PROOF.md",
       "stored_path": "dim36_threewindow/ANGULAR_PROOF.md",
       "gzip": false,
-      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
-      "uncompressed_bytes": 8053
+      "sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "stored_sha256": "fe2b892629d068ca9137c25ad133b4d4eae9cf3adc6a903023f6e7d0c51360cb",
+      "uncompressed_bytes": 8505
     },
     {
       "path": "dim36_threewindow/METHOD.md",
       "stored_path": "dim36_threewindow/METHOD.md",
       "gzip": false,
-      "sha256": "710633b19a92de38f0323962715d95c084ce5ce9fe4217ca05e43c9d596f7483",
-      "stored_sha256": "710633b19a92de38f0323962715d95c084ce5ce9fe4217ca05e43c9d596f7483",
-      "uncompressed_bytes": 4760
+      "sha256": "7245fda2f197e91f9c81947d44b38d38b76124eaf86dd704fd2f372a4599c010",
+      "stored_sha256": "7245fda2f197e91f9c81947d44b38d38b76124eaf86dd704fd2f372a4599c010",
+      "uncompressed_bytes": 5570
     },
     {
       "path": "dim36_threewindow/PROJECTIVE_CAP_PROOF.md",
@@ -2701,8 +2701,8 @@
       "path": "dim36_threewindow/SHA256SUMS",
       "stored_path": "dim36_threewindow/SHA256SUMS",
       "gzip": false,
-      "sha256": "2c27c90daa8080c6ad8a11470f3401b746be550517c8cedc002b461534c81df0",
-      "stored_sha256": "2c27c90daa8080c6ad8a11470f3401b746be550517c8cedc002b461534c81df0",
+      "sha256": "b60443b0f93b4d33e4dde0e990a83b65eba6f5b86b722fa04d1076838820c144",
+      "stored_sha256": "b60443b0f93b4d33e4dde0e990a83b65eba6f5b86b722fa04d1076838820c144",
       "uncompressed_bytes": 1186
     },
     {

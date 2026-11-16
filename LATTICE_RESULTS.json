@@ -13,7 +13,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame arithmetic + mod-2 class budgets"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
   },
   {
     "dimension": 15,
@@ -29,7 +29,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame arithmetic + mod-2 class budgets"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
   },
   {
     "dimension": 16,
@@ -45,7 +45,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame arithmetic + mod-2 class budgets"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
   },
   {
     "dimension": 17,
@@ -61,7 +61,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 18,
@@ -77,7 +77,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame arithmetic + mod-2 class budgets"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
   },
   {
     "dimension": 19,
@@ -93,7 +93,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 20,
@@ -109,7 +109,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 21,
@@ -125,7 +125,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 22,
@@ -141,7 +141,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 25,
@@ -157,7 +157,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 26,
@@ -173,7 +173,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 27,
@@ -189,7 +189,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 28,
@@ -205,7 +205,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 29,
@@ -221,7 +221,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 30,
@@ -237,7 +237,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 31,
@@ -253,7 +253,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 32,
@@ -269,7 +269,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Three-window global cross-class coupling + mod-2 class budgets"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
   },
   {
     "dimension": 33,
@@ -285,7 +285,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 34,
@@ -301,7 +301,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Global cross-class coupling + mod-2 class budgets"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
   },
   {
     "dimension": 35,
@@ -317,7 +317,7 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Three-window global cross-class coupling + mod-2 class budgets"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
   },
   {
     "dimension": 36,
@@ -333,6 +333,6 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Three-window global cross-class coupling + mod-2 class budgets"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
   }
 ]
