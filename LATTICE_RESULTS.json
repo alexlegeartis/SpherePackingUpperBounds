@@ -414,6 +414,22 @@
     "previous_method_source_url": "verifications/dim37/refinement_profile20261114/"
   },
   {
+    "dimension": 38,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000013234279694",
+    "strict": true,
+    "named_lattice_lower_comparison": null,
+    "previous_lattice_upper": "0.0000145182018536",
+    "upper_decrease_percent": "8.843534292655069852637552944",
+    "gap_decrease_percent": null,
+    "package": "verifications/lattice/dim38",
+    "comparison_status": "Previous unrestricted repository bound, also valid for lattices; no worldwide-priority guarantee. Lattice lower and gap omitted pending verified source.",
+    "method": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim38/refinement_profile20261114/",
+    "certificate_sha256": "42d13a9e04e2714f7768d55bcddbe45c6d3aa6c45e816190fd6cc5b38c89d96c"
+  },
+  {
     "dimension": 45,
     "scope": "lattice_only",
     "certified_density_upper_bound": "0.000001263630",
