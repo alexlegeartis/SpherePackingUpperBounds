@@ -1,7 +1,7 @@
 # Remaining dimensions in 48D–96D: review of 16 November 2026
 
 **Current status:**40 dimensions have registered best-known claims; nine
-have no new registered record claim. A [new 55D tilted lattice](../tilted55_20261116/PROOF.md)
+have no new registered record claim. A [new 55D tilted lattice](../cross_coset55_20261116/PROOF.md)
 has a valid minimum 10 certificate, but no world-record claim. The former
 55D minimum 10/local-optimality claim is withdrawn by a norm 6 vector.
 [Local geometry and rejected routes](../cm58_20261116/FRONTIER.md).
@@ -67,8 +67,8 @@ That audit is corrected. The printed claim remains documented as disputed
 and is not used as a certified comparison.
 
 Repairing the period gives 90,459.838739557352… . The
-[new tilted55D lattice](../tilted55_20261116/PROOF.md) gives
-**91,274.808704090862…**, a 0.900919% improvement over the repaired
+[new cross-coset tilted 55D lattice](../cross_coset55_20261116/PROOF.md) gives
+**91,333.867143595418…**, a 0.966206% improvement over the repaired
 construction. It is below the printed 116,783… claim, so **no 55D
 SOTA claim is made**. The complete table states this distinction.
 The thesis's p.204

@@ -93,7 +93,7 @@ def audit():
         d54 = F(5**54, 2**54*3**25)
         d55 = d54*F(9, 4)
         reported = d54*F(15,4)
-        tilted = json.loads((P.parent/'tilted55_20261116/results.json').read_text())
+        tilted = json.loads((P.parent/'cross_coset55_20261116/results.json').read_text())
         assert F(by_dimension[55]['comparison']['density_squared']) == d55
         assert F(by_dimension[55]['best_checked']['density_squared']) == F(tilted['density_squared'])>d55
         assert F(tilted['reported_external_claim_density_squared'])==reported

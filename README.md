@@ -120,8 +120,8 @@ Research remains capped at **96D**, including parent inputs.
 The [remaining-dimensions review](research/covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md)
 accounts for all 49 dimensions: **40 registered best-known claims** and
 **nine dimensions without a new registered record claim**.
-In **55D**, a [new tilted lattice](research/tilted55_20261116/PROOF.md) has
-minimum10 and center density **91,274.808704…**, 0.900919% above the
+In **55D**, a [new cross-coset tilted lattice](research/cross_coset55_20261116/PROOF.md) has
+minimum10 and center density **91,333.867143…**, 0.966206% above the
 period-repaired lamination. The **116,783.149646…** printed in
 [Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
 is unsupported by its displayed construction, which has a norm6 period

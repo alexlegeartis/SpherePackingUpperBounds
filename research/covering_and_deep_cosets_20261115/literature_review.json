@@ -57,7 +57,8 @@
     "../cm58_20261116/sources.json",
     "../creative_sections_20261116/sources.json",
     "../simplex_normals_20261116/sources.json",
-    "../tilted55_20261116/PROOF.md"
+    "../tilted55_20261116/PROOF.md",
+    "../cross_coset55_20261116/PROOF.md"
   ],
   "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
   "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",

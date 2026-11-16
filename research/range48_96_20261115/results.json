@@ -14993,6 +14993,13 @@
       "density_squared": "1387778780781445675529539585113525390625/166578282495520014729392160768",
       "evidence": "research/tilted55_20261116/PROOF.md",
       "kind": "new_explicit_lattice_source_comparison_disputed"
+    },
+    {
+      "dimension": 55,
+      "name": "Cross-coset tilted lamination of Leterrier54",
+      "density_squared": "1942890293094023945741355419158935546875/232908096339889975345620713472",
+      "evidence": "research/cross_coset55_20261116/PROOF.md",
+      "kind": "new_explicit_lattice_source_comparison_disputed"
     }
   ],
   "rows": [
@@ -15224,12 +15231,12 @@
       "dimension": 55,
       "best_checked": {
         "dimension": 55,
-        "name": "Tilted order-three lamination of Leterrier54",
-        "density_squared": "1387778780781445675529539585113525390625/166578282495520014729392160768",
-        "evidence": "research/tilted55_20261116/PROOF.md",
+        "name": "Cross-coset tilted lamination of Leterrier54",
+        "density_squared": "1942890293094023945741355419158935546875/232908096339889975345620713472",
+        "evidence": "research/cross_coset55_20261116/PROOF.md",
         "kind": "new_explicit_lattice_source_comparison_disputed"
       },
-      "center_density": "91274.8087040908620238567213678128039907884653",
+      "center_density": "91333.8671435954186710893166665812558055852692",
       "comparison": {
         "dimension": 55,
         "name": "Leterrier54 / repaired order-three lamination",
@@ -15246,8 +15253,8 @@
         "kind": "derived_repaired_lamination"
       },
       "previous_center_density": "90459.8387395573510419168740085458682727898742",
-      "ratio_to_comparison": "1.00900919099446870062977431316276447860513476",
-      "ratio_to_previous": "1.00900919099446870062977431316276447860513476",
+      "ratio_to_comparison": "1.00966206016080218948702890676838161675367155",
+      "ratio_to_previous": "1.00966206016080218948702890676838161675367155",
       "improves_previous_checked_envelope": true,
       "literature_status": "certified_new_bound_external_claim_disputed",
       "literature_review_date": "2026-11-16"

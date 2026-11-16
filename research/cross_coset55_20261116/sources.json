@@ -1,0 +1,28 @@
+{
+  "review_date": "2026-11-16",
+  "parent54": {
+    "author": "Gauthier Leterrier",
+    "paper_url": "https://doi.org/10.1007/s40993-022-00321-0",
+    "thesis_url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "thesis_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "locators": [
+      "Theorem3.2.7: rank54 minimum10 determinant3^25",
+      "Proposition3.2.14 and discussion preceding Proposition3.2.22: the non-narrow quotient and its two coset minima28/3",
+      "Proposition3.2.22, pp.155-156: the printed55D claim; its displayed lattice has a norm6 vector"
+    ],
+    "previous_exact_source_binding": "../cm58_20261116/verify_frontier.py:parents54_55"
+  },
+  "parent56": {
+    "authors": "Matthias Schuett and Tetsuji Shioda",
+    "title": "Mordell-Weil Lattices",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "locator": "Theorem13.35,p.357 at p=29; polynomial sections on p.359",
+    "previous_exact_source_binding": "../cm58_20261116/verify.py:parent"
+  },
+  "additional_search_queries": [
+    "sphere packing dimension 55 Leterrier lamination 2024 116783",
+    "sphere packing 54 56 density improved lattices 2025 2026"
+  ],
+  "record_claimed": false,
+  "comparison_scope": "The new55D density improves our previous certified packing and the repaired external lamination. It does not exceed the larger printed Leterrier55 claim; that claim's displayed construction remains disputed. No new54D or56D bound."
+}

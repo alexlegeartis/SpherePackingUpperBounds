@@ -106,8 +106,8 @@ conclusion. [Source transcription and exact comparison](../../constructions/dim5
   `delta²=5^55/(2^56*3^24)` in 55D, but its displayed lattice has a
   norm 6 period vector and does not establish that claim. Our prior
   minimum 10/local-optimality claim is withdrawn. A
-  [repaired and tilted lattice](../tilted55_20261116/PROOF.md) gives
-  center density 91,274.808704… with **no new 55D record claim**.
+  [cross-coset tilted lattice](../cross_coset55_20261116/PROOF.md) gives
+  center density 91,333.867143… with **no new 55D record claim**.
   Its table on p.204 also reports
   weaker 68D and 74D bounds. See [review details](remaining_dimensions_review.json).
 * **Methods:** BCS supplies the P48q parent and its norm-doubler;

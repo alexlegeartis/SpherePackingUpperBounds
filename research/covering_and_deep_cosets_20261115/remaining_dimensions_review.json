@@ -87,7 +87,7 @@
       ],
       "full_pdf_retrieved": true,
       "findings": [
-        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our tilted variant gives91274.808704...; no SOTA claim.",
+        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our cross-coset tilted variant gives91333.867143...; no SOTA claim.",
         "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
       ],
       "correction_evidence": "../tilted55_20261116/PROOF.md"

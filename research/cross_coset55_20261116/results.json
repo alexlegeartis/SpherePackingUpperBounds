@@ -1,0 +1,126 @@
+{
+  "status": "verified_cross_coset_tilt_55D",
+  "dimension": 55,
+  "name": "Cross-coset tilted lamination of Leterrier54",
+  "kind": "new_explicit_lattice_source_comparison_disputed",
+  "minimum_squared": 10,
+  "center_density": "91333.86714359541867108931666658125580558526920853098842529533524242312",
+  "density_squared": "1942890293094023945741355419158935546875/232908096339889975345620713472",
+  "gram_determinant": "6464498279454/7",
+  "shift": "(22/21) Q",
+  "vertical_height_squared": "206/189",
+  "layer_minimum_squared_bounds": {
+    "1": "10",
+    "2": "12",
+    "3": "10",
+    "all_absolute_layers_at_least_4": "3296/189"
+  },
+  "minimum_attainment_vector": [
+    56,
+    17,
+    -102,
+    -150,
+    -11,
+    79,
+    -8,
+    40,
+    -28,
+    -5,
+    -10,
+    78,
+    -72,
+    -13,
+    20,
+    -27,
+    62,
+    -7,
+    30,
+    -8,
+    52,
+    -25,
+    -35,
+    -31,
+    -9,
+    -30,
+    -13,
+    12,
+    12,
+    -4,
+    -4,
+    8,
+    8,
+    0,
+    4,
+    8,
+    2,
+    -4,
+    -8,
+    -6,
+    2,
+    4,
+    -4,
+    8,
+    6,
+    -6,
+    6,
+    -2,
+    -6,
+    -6,
+    6,
+    6,
+    0,
+    2,
+    3
+  ],
+  "previous_55D_density_squared": "1387778780781445675529539585113525390625/166578282495520014729392160768",
+  "ratio_squared_to_previous": "1547/1545",
+  "gain_over_previous": {
+    "percent": "0.064703986064787771435503814730871182224934634239795012224857259752800",
+    "interval": [
+      "64703/1000000",
+      "1011/15625"
+    ]
+  },
+  "corrected_untilted_lamination_density_squared": "55511151231257827021181583404541015625/6783730961356018699387011072",
+  "ratio_squared_to_repaired_lamination": "105/103",
+  "gain_over_repaired_lamination": {
+    "percent": "0.966206016080218948702890676838161675367154870850059967456639526846000",
+    "interval": [
+      "483103/500000",
+      "966207/1000000"
+    ]
+  },
+  "reported_external_claim_density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+  "ratio_squared_to_printed_claim": "63/103",
+  "world_record_claimed": false,
+  "inherited_inputs": "Leterrier54 minimum10 and the minima28/3 of both nontrivial non-narrow cosets; the source-to-Gram reconstruction is repeated.",
+  "maximum_parent_or_target_dimension": 56,
+  "all_layer_and_density_checks_exact": true,
+  "negative_results": {
+    "failed_55D_deformation_squared_norm": "19951291/2000000",
+    "overlattice_screens": [
+      {
+        "dimension": 54,
+        "overlattice_index": 9,
+        "rejected_candidates": 24,
+        "largest_supplied_minimum_upper_bound": "8",
+        "scope": "Only these 24 candidates; no exclusion of the full family."
+      },
+      {
+        "dimension": 56,
+        "overlattice_index": 29,
+        "rejected_candidates": 24,
+        "largest_supplied_minimum_upper_bound": "200/29",
+        "scope": "Only these 24 candidates; no exclusion of the full family."
+      }
+    ],
+    "adaptive54_screen": {
+      "seed": 545600,
+      "rejected_candidates": 300,
+      "largest_supplied_minimum_upper_bound": "22/3",
+      "BKZ_block_size": 32,
+      "scope": "Only these 300 candidates; no exclusion of the full family."
+    },
+    "all_counterexamples_checked_exactly": true
+  }
+}

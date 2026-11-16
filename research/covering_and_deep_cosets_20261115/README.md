@@ -46,8 +46,8 @@ The [remaining-dimensions review](REMAINING_DIMENSIONS.md) extends the
 best-known claims to33 construction dimensions at that checkpoint.
 The 55D printed claim116,783.149646… was subsequently found unsupported
 by its displayed construction, which has a norm 6 vector. The
-[correction and tilted lattice](../tilted55_20261116/PROOF.md) give a
-valid91,274.808704… guarantee with no new 55D world-record claim.
+[correction and cross-coset tilted lattice](../cross_coset55_20261116/PROOF.md) give a
+valid 91,333.867143… guarantee with no new 55D world-record claim.
 The explicit53D lattice replaces the earlier section estimate.
 
 ## What the priority investigation confirms

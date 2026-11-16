@@ -58,7 +58,8 @@
       "../cm58_20261116/sources.json",
       "../creative_sections_20261116/sources.json",
       "../simplex_normals_20261116/sources.json",
-      "../tilted55_20261116/PROOF.md"
+      "../tilted55_20261116/PROOF.md",
+      "../cross_coset55_20261116/PROOF.md"
     ],
     "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
     "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -1337,7 +1338,7 @@
       ],
       "full_pdf_retrieved": true,
       "findings": [
-        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our tilted variant gives91274.808704...; no SOTA claim.",
+        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our cross-coset tilted variant gives91333.867143...; no SOTA claim.",
         "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
       ],
       "correction_evidence": "../tilted55_20261116/PROOF.md"
@@ -1347,7 +1348,7 @@
     "comparison_kind": "derived_period_repair_not_the_printed_density",
     "printed_density_squared_not_used_as_guarantee": "277555756156289135105907917022705078125/20351192884068056098161033216",
     "explicit_counterexample_norm_squared": 6,
-    "new_certified_55D_density_squared": "1387778780781445675529539585113525390625/166578282495520014729392160768",
+    "new_certified_55D_density_squared": "1942890293094023945741355419158935546875/232908096339889975345620713472",
     "world_record_claimed": false,
     "earlier_repository_control_squared": "3101854500",
     "repaired_lamination_exceeds_earlier_repository_control": true

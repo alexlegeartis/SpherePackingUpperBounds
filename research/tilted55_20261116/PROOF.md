@@ -1,5 +1,9 @@
 # A certified tilted 55D lattice and a correction to the previous audit
 
+The [subsequent cross-coset tilt](../cross_coset55_20261116/PROOF.md)
+improves this package's 55D density to 91,333.867143… . The certificate and
+source correction below remain valid; neither package claims a new SOTA.
+
 The new lattice has minimum **exactly 10** and center density
 **91,274.808704090862…**. It improves the valid, period-repaired
 order-three lamination by **0.900919%**, with squared density ratio

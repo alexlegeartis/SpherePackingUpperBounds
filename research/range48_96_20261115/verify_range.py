@@ -359,6 +359,11 @@ def audit():
     assert tilted['all_layer_and_density_checks_exact'] and not tilted['world_record_claimed']
     additional.append(row(55,tilted['name'],tilted['density_squared'],
                           'research/tilted55_20261116/PROOF.md',tilted['kind']))
+    path='research/cross_coset55_20261116/results.json'
+    cross_tilt=read(path)
+    assert cross_tilt['all_layer_and_density_checks_exact'] and not cross_tilt['world_record_claimed']
+    additional.append(row(55,cross_tilt['name'],cross_tilt['density_squared'],
+                          'research/cross_coset55_20261116/PROOF.md',cross_tilt['kind']))
     new = close_products(list(previous.values())+counting['rows']+torus+additional)
     assert set(new) == set(previous) == set(external) == set(range(48, 97))
     results = []
