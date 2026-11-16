@@ -484,19 +484,20 @@
   {
     "dimension": 42,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000003571509824",
+    "certified_density_upper_bound": "0.000003536520866",
     "strict": true,
     "previous_lattice_upper": "0.0000036195942903",
     "previous_source_certificate_upper": "0.0000036195942903",
     "named_lattice_lower_comparison": null,
     "gap_decrease_percent": null,
-    "upper_decrease_percent": "1.328449059300915540512062565",
-    "package": "verifications/lattice/dim42",
-    "certificate_sha256": "bc1334726e33164aa41da778590890461e782db2cd50c34ebc63aae6e1a25c7d",
-    "method": "Dimension-transferred cyclic PSD kernel + origin-ratio tuning + lattice class profiles",
+    "upper_decrease_percent": "2.295103197687790871361348826",
+    "package": "verifications/lattice/dim42_own",
+    "certificate_sha256": "1e2c449de10236a22adbab00fef0ffcac4bf82e5bfb9128e16b8336b34060ea0",
+    "method": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles",
     "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
     "previous_method_source_url": "verifications/dim42/refinement_profile20261114/",
-    "comparison_status": "Exact prior strict claim read from source README at pinned commit c6f6ea00ae142908066d7d71b370673bda2fe061; no priority claim. Lower/gap omitted."
+    "comparison_status": "Exact prior strict claim read from source README at pinned commit c6f6ea00ae142908066d7d71b370673bda2fe061; no priority claim. Lower/gap omitted.",
+    "previous_local_lattice_upper": "0.000003571509824"
   },
   {
     "dimension": 43,

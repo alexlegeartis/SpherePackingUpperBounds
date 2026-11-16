@@ -5576,6 +5576,198 @@
       "sha256": "99a3dc281345fd80fabaf546ec1e81fd8eedd5c6e8ec1f9c35dd2d1164a9164b",
       "stored_sha256": "99a3dc281345fd80fabaf546ec1e81fd8eedd5c6e8ec1f9c35dd2d1164a9164b",
       "uncompressed_bytes": 8651
+    },
+    {
+      "path": "dim42_own/ALL_SHORT_PROOF.md",
+      "stored_path": "dim42_own/ALL_SHORT_PROOF.md",
+      "gzip": false,
+      "sha256": "e9042fcc554aa7666939e2ac6102b53842e673371c6657a13c798705dfb7718c",
+      "stored_sha256": "e9042fcc554aa7666939e2ac6102b53842e673371c6657a13c798705dfb7718c",
+      "uncompressed_bytes": 2574
+    },
+    {
+      "path": "dim42_own/ANGULAR_PROOF.md",
+      "stored_path": "dim42_own/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "adf07d53aa50554fe30594a60167281f86d08a0a17ea4dd458053047250458a3",
+      "stored_sha256": "adf07d53aa50554fe30594a60167281f86d08a0a17ea4dd458053047250458a3",
+      "uncompressed_bytes": 8506
+    },
+    {
+      "path": "dim42_own/CLASS_PROFILES.md",
+      "stored_path": "dim42_own/CLASS_PROFILES.md",
+      "gzip": false,
+      "sha256": "9e6af0badec0e220586450a43af0159d7f1260c7f50f9fc7529405a07233e693",
+      "stored_sha256": "9e6af0badec0e220586450a43af0159d7f1260c7f50f9fc7529405a07233e693",
+      "uncompressed_bytes": 12370
+    },
+    {
+      "path": "dim42_own/COLLINEAR_CYCLIC_CREDIT.md",
+      "stored_path": "dim42_own/COLLINEAR_CYCLIC_CREDIT.md",
+      "gzip": false,
+      "sha256": "f31002c26a9a3fb69e744380019a61ca731f90598ebd4ac00cb90306e93db1f0",
+      "stored_sha256": "f31002c26a9a3fb69e744380019a61ca731f90598ebd4ac00cb90306e93db1f0",
+      "uncompressed_bytes": 1732
+    },
+    {
+      "path": "dim42_own/COLLINEAR_RESIDUAL.md",
+      "stored_path": "dim42_own/COLLINEAR_RESIDUAL.md",
+      "gzip": false,
+      "sha256": "e7d571ee5c4678b86b938d6ed5fe733c178d9be39b52634deb7227450e457bbc",
+      "stored_sha256": "e7d571ee5c4678b86b938d6ed5fe733c178d9be39b52634deb7227450e457bbc",
+      "uncompressed_bytes": 2040
+    },
+    {
+      "path": "dim42_own/CYCLIC_CLASS_BRIDGE.md",
+      "stored_path": "dim42_own/CYCLIC_CLASS_BRIDGE.md",
+      "gzip": false,
+      "sha256": "1f95e6947e5320c4a5d0c14b942f00aed1d1bab183de4d491c4d07434ac62297",
+      "stored_sha256": "1f95e6947e5320c4a5d0c14b942f00aed1d1bab183de4d491c4d07434ac62297",
+      "uncompressed_bytes": 2873
+    },
+    {
+      "path": "dim42_own/CYCLIC_LATTICE_BRIDGE.md",
+      "stored_path": "dim42_own/CYCLIC_LATTICE_BRIDGE.md",
+      "gzip": false,
+      "sha256": "566faf13551880c491c6112a649e751f8933042192fbf7e033311a081754ab32",
+      "stored_sha256": "566faf13551880c491c6112a649e751f8933042192fbf7e033311a081754ab32",
+      "uncompressed_bytes": 3564
+    },
+    {
+      "path": "dim42_own/FIRST_AUDIT.json",
+      "stored_path": "dim42_own/FIRST_AUDIT.json.gz",
+      "gzip": true,
+      "sha256": "7082c940a427d15967934c7a1c19c322903268f40ed6aaa6c1ebd0e85ce9872f",
+      "stored_sha256": "56a893dba63a0ed2b3e920a740b69bb7a1375542ee338b6dffb0c017fb4e9a0f",
+      "uncompressed_bytes": 657
+    },
+    {
+      "path": "dim42_own/MEANVALUE_CYCLIC_GATE.md",
+      "stored_path": "dim42_own/MEANVALUE_CYCLIC_GATE.md",
+      "gzip": false,
+      "sha256": "d4596d4220ceb80910b7bb34bbdd8688f45e0281704071efc38f5de22913bc8b",
+      "stored_sha256": "d4596d4220ceb80910b7bb34bbdd8688f45e0281704071efc38f5de22913bc8b",
+      "uncompressed_bytes": 2530
+    },
+    {
+      "path": "dim42_own/ORIGIN_RATIO_PROOF.md",
+      "stored_path": "dim42_own/ORIGIN_RATIO_PROOF.md",
+      "gzip": false,
+      "sha256": "5034543c0d8461f2c5420474e87b9e316307efa666aa2f4850e93b4bffa79137",
+      "stored_sha256": "5034543c0d8461f2c5420474e87b9e316307efa666aa2f4850e93b4bffa79137",
+      "uncompressed_bytes": 1438
+    },
+    {
+      "path": "dim42_own/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim42_own/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "2ff2ffb701d5e5151e3fd45ab5836177854c4b5df548095b9a82d1f329b0c2e8",
+      "stored_sha256": "2ff2ffb701d5e5151e3fd45ab5836177854c4b5df548095b9a82d1f329b0c2e8",
+      "uncompressed_bytes": 2070
+    },
+    {
+      "path": "dim42_own/README.md",
+      "stored_path": "dim42_own/README.md",
+      "gzip": false,
+      "sha256": "a30959e56f57305af43bb940464b1b1bf6a84c77e916afd0af5314d2e82d97da",
+      "stored_sha256": "a30959e56f57305af43bb940464b1b1bf6a84c77e916afd0af5314d2e82d97da",
+      "uncompressed_bytes": 2947
+    },
+    {
+      "path": "dim42_own/SECOND_AUDIT.json",
+      "stored_path": "dim42_own/SECOND_AUDIT.json.gz",
+      "gzip": true,
+      "sha256": "b9cedc5181f60c9904a829259e71e44ab2dfdd659b8af083822bc343b9c7a85b",
+      "stored_sha256": "e6d246cb5b7c29e799bbee3d0a57e1042bfa9534498e47384a007284f71c201e",
+      "uncompressed_bytes": 477
+    },
+    {
+      "path": "dim42_own/SHA256SUMS",
+      "stored_path": "dim42_own/SHA256SUMS",
+      "gzip": false,
+      "sha256": "062f0d90c139e76396756ab7613e13e78fd50f73f6aab0bad0500cfae38502cb",
+      "stored_sha256": "062f0d90c139e76396756ab7613e13e78fd50f73f6aab0bad0500cfae38502cb",
+      "uncompressed_bytes": 1953
+    },
+    {
+      "path": "dim42_own/certificate.json",
+      "stored_path": "dim42_own/certificate.json.gz",
+      "gzip": true,
+      "sha256": "1e2c449de10236a22adbab00fef0ffcac4bf82e5bfb9128e16b8336b34060ea0",
+      "stored_sha256": "55aabae18642abd9da5c2b01ff786fa8b382199dfae35bff7a9e34f541e5c5b2",
+      "uncompressed_bytes": 492048
+    },
+    {
+      "path": "dim42_own/cyclic/angular.json",
+      "stored_path": "dim42_own/cyclic/angular.json.gz",
+      "gzip": true,
+      "sha256": "9cd706c4bf173ef1d9e7250f7e7f13c0a366b8b1a984c411bf943c9207f9d163",
+      "stored_sha256": "f36fe299b1bdf43253ea434168854b6f326b2eb0570b30d9f5e16d0e3e099ed3",
+      "uncompressed_bytes": 1673
+    },
+    {
+      "path": "dim42_own/cyclic/certificate.json",
+      "stored_path": "dim42_own/cyclic/certificate.json.gz",
+      "gzip": true,
+      "sha256": "713fc8b0e74738aceacd086c58d8151b87189a3be4f17c2fa47743cc41219fb2",
+      "stored_sha256": "ed9023d113e39d89e226ffcca5303cfccff28d457acc570daa2a5962d519c27c",
+      "uncompressed_bytes": 53
+    },
+    {
+      "path": "dim42_own/cyclic/meanvalue_angular.py",
+      "stored_path": "dim42_own/cyclic/meanvalue_angular.py",
+      "gzip": false,
+      "sha256": "54467801f758fe9fb03e78a445f53af2ff1bb0e7584b97221819aa9abd1d80c1",
+      "stored_sha256": "54467801f758fe9fb03e78a445f53af2ff1bb0e7584b97221819aa9abd1d80c1",
+      "uncompressed_bytes": 6670
+    },
+    {
+      "path": "dim42_own/interval.py",
+      "stored_path": "dim42_own/interval.py",
+      "gzip": false,
+      "sha256": "5c73af33e54e2303f59afb627cd12ce45c1fb2711c5cc28e1dbd3f2cf81d715d",
+      "stored_sha256": "5c73af33e54e2303f59afb627cd12ce45c1fb2711c5cc28e1dbd3f2cf81d715d",
+      "uncompressed_bytes": 1608
+    },
+    {
+      "path": "dim42_own/profiles.py",
+      "stored_path": "dim42_own/profiles.py",
+      "gzip": false,
+      "sha256": "962ce8954b2d9a6fd43366302078fa16e258f384be71df31cd777ef29b3fe2c9",
+      "stored_sha256": "962ce8954b2d9a6fd43366302078fa16e258f384be71df31cd777ef29b3fe2c9",
+      "uncompressed_bytes": 3841
+    },
+    {
+      "path": "dim42_own/replay.py",
+      "stored_path": "dim42_own/replay.py",
+      "gzip": false,
+      "sha256": "9089cd21b82d22899542fcd427450c287c0f475aa8bb17fe188b922d8db64ae5",
+      "stored_sha256": "9089cd21b82d22899542fcd427450c287c0f475aa8bb17fe188b922d8db64ae5",
+      "uncompressed_bytes": 4168
+    },
+    {
+      "path": "dim42_own/requirements.txt",
+      "stored_path": "dim42_own/requirements.txt",
+      "gzip": false,
+      "sha256": "bb4f8aebda388ffdedfb18af388a182858b7b7e3da32432152feb80b654c63a3",
+      "stored_sha256": "bb4f8aebda388ffdedfb18af388a182858b7b7e3da32432152feb80b654c63a3",
+      "uncompressed_bytes": 34
+    },
+    {
+      "path": "dim42_own/run_all.py",
+      "stored_path": "dim42_own/run_all.py",
+      "gzip": false,
+      "sha256": "f464e60a4e6221852cd85368fa22ebfd5695b706f01eb1f2f16ff46d9b829574",
+      "stored_sha256": "f464e60a4e6221852cd85368fa22ebfd5695b706f01eb1f2f16ff46d9b829574",
+      "uncompressed_bytes": 626
+    },
+    {
+      "path": "dim42_own/verify_second.py",
+      "stored_path": "dim42_own/verify_second.py",
+      "gzip": false,
+      "sha256": "51a1d19f810a350f73a34f00491974d4555ecd6111e3f4fa5e84dbf7ad4bc3e6",
+      "stored_sha256": "51a1d19f810a350f73a34f00491974d4555ecd6111e3f4fa5e84dbf7ad4bc3e6",
+      "uncompressed_bytes": 8662
     }
   ]
 }
