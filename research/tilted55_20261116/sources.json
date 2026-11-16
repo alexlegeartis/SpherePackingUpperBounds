@@ -1,0 +1,25 @@
+{
+  "review_date": "2026-11-16",
+  "thesis": {
+    "author": "Gauthier Leterrier",
+    "title": "Some Mordell-Weil lattices and applications to sphere packings",
+    "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "locators": [
+      "Proposition1.2.9,pp.24-25: period case omitted from the proof",
+      "Theorem3.2.7 and height bound preceding Prop3.2.22: valid parent and coset inputs",
+      "Proposition3.2.22,pp.155-156: displayed55D lattice has norm6 period"
+    ],
+    "status": "The displayed55D construction fails its claimed minimum10; no assertion that the existence of another packing at its printed density is disproved."
+  },
+  "additional_source_searches": [
+    "\"Gauthier Leterrier\" \"55\" lattices",
+    "\"Leterrier\" \"laminated\" erratum",
+    "\"sphere packing\" \"55\" \"density\" 2025 2026",
+    "\"Leterrier\" \"16.833472\""
+  ],
+  "findings": [
+    "No erratum or different proof of the printed55D density was located in these searches.",
+    "No55D worldwide-record claim is made by this package."
+  ]
+}

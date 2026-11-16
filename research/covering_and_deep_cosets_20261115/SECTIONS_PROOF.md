@@ -7,10 +7,12 @@ records printed in the parent papers.
 
 **53D update:** the [new explicit section](../adaptive_layers_20261115/SECTION53_PROOF.md) has center density20,890.804898… and supersedes the old53D control below.
 
-**55D source correction:** Leterrier's 2024 thesis, Proposition 3.2.22,
-gives the stronger guarantee **116,783.149646…**. The old 55D control
-below remains a valid calculation but is superseded in the current table.
-[Source and exact comparison](REMAINING_DIMENSIONS.md#the-55d-correction-from-a-previously-omitted-source).
+**55D correction:** the 116,783.149646… printed in Leterrier2024
+Proposition3.2.22 is not established by its displayed construction:
+that Gram has a norm 6 period vector. A repaired lamination gives
+90,459.838739…, and a new tilted variant gives 91,274.808704… .
+[Exact counterexample, construction and comparison scope](../tilted55_20261116/PROOF.md).
+The old55D control below remains valid; no new 55D SOTA claim is made.
 
 Rogers's packing simplex theorem is stated alongside the covering
 theorem in [Fejes Tóth2022, §2.2](https://arxiv.org/abs/2202.11358),

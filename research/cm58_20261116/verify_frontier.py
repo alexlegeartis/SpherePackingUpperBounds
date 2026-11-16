@@ -74,7 +74,7 @@ def parent80():
     assert Y.hnf().tolist()[:80]==[[int(i==j)for j in range(80)]for i in range(80)]
     return G,np.array(Y.tolist()[0],dtype=np.int64)
 
-def parents54_55():
+def parents54_55(return_data=False):
     raw=json.loads((D/'polynomial_points54.json').read_text());assert raw['field_modulus']==[2,2,1,0,2,0,1]
     field=fq_default_ctx(modulus=fmpz_mod_poly_ctx(3)(raw['field_modulus']),fq_type='FQ_NMOD');ring=fq_default_poly_ctx(field);t=ring([0,1])
     def fe(a):
@@ -132,11 +132,18 @@ def parents54_55():
     assert root55.transpose()*root55/2187+L.transpose()*L/1458==fmpq_mat(G55).inv()
     full=np.array([list(map(int,row))+[0]for row in roots.tolist()]+layers,dtype=np.int64)
     exact_norms(full,np.array(G55.tolist(),dtype=np.int64),10);r55=dyad_rank(full);assert r55==1540
-    return {'dimensions':[54,55],'status':'certified_local_optimality_among_lattice_Gram_deformations',
-        'minimum_input':'Leterrier2024 Theorem3.2.7, Proposition3.2.22 and Theorem3.4.1; minimum10',
+    vertical=fmpz_mat([[-int(x)for x in q3.tolist()[0]]+[3]])
+    assert (vertical*G55*vertical.transpose())[0,0]==6
+    result={'dimensions':[54,55],'status':'54D_local_optimality_55D_minimum10_claim_REJECTED',
+        'minimum_input':'Leterrier2024 Theorem3.2.7 and Theorem3.4.1; 54D minimum10 only',
         'source_polynomial_points':count,'minimal_vectors54':roots.nrows(),'closest_vectors_for55':W.nrows(),
-        'perfection_ranks':[r54,r55],'positive_eutaxy_weights55':['1/2187','1/1458'],
+        'perfection_rank54':r54,'norm10_shell_rank55_not_perfection':r55,
+        'local_optimality54':True,'local_optimality55_claim_withdrawn':True,
+        'counterexample55':{'coefficient_vector':list(map(int,vertical.tolist()[0])),
+                            'squared_norm':6,'previous_minimum_claim':10},
+        'correction':'../tilted55_20261116/PROOF.md',
         'global_optimality_claimed':False}
+    return (result,(G,q,roots,W)) if return_data else result
 
 def audit92():
     path=P.parent/'mw92_sections_20261115/verify.py';spec=importlib.util.spec_from_file_location('mw92_source_audit',path);m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);G,report=m.parent()
@@ -189,7 +196,7 @@ def audit92():
         'registered_as_SOTA':False}
 
 def audit():
-    out=[];out.append(parents54_55());print('54D/55D local geometry verified',flush=True)
+    out=[];out.append(parents54_55());print('54D local geometry verified; 55D minimum10 claim rejected by norm6 vector',flush=True)
     G,_,_,_=parent56();seed=np.load(P/'certificate.npz',allow_pickle=False)['point_coordinates'][0]
     V,scalar=orbit(G,seed,np.load(D/'isometries56.npz',allow_pickle=False)['maps'],10);rank=dyad_rank(V);assert rank==1596
     out.append({'dimension':56,'minimal_rays':len(V),'perfection_rank':rank,'eutaxy_scalar':scalar,'status':'certified_local_optimality_among_lattice_Gram_deformations'});print('56D local geometry verified',flush=True)

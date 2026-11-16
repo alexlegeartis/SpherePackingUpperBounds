@@ -88,12 +88,16 @@ def audit():
                               gain_percent_interval=[str(dec(lo)), str(dec(hi))],
                               gain_percent_display=f'{gain:.6f}%')
             rows.append(result)
-        # New primary-source correction: Leterrier2024, Prop.3.2.22, n=3.
+        # The printed Prop3.2.22 construction has a norm6 vector. The
+        # period-repaired lamination is a valid derived comparison only.
         d54 = F(5**54, 2**54*3**25)
-        d55 = d54*F(15, 4)
-        assert d55 == F(5**55, 2**56*3**24)
+        d55 = d54*F(9, 4)
+        reported = d54*F(15,4)
+        tilted = json.loads((P.parent/'tilted55_20261116/results.json').read_text())
         assert F(by_dimension[55]['comparison']['density_squared']) == d55
-        assert F(by_dimension[55]['best_checked']['density_squared']) == d55
+        assert F(by_dimension[55]['best_checked']['density_squared']) == F(tilted['density_squared'])>d55
+        assert F(tilted['reported_external_claim_density_squared'])==reported
+        assert not tilted['world_record_claimed']
         old = json.loads((P/'sections_results.json').read_text())['improved_controls']
         old55 = F(next(a for a in old if a['dimension'] == 55)['density_squared'])
         assert d55 > old55 and 55 not in review['registered_dimensions']
@@ -101,7 +105,7 @@ def audit():
     remaining = json.loads((P/'remaining_dimensions_review.json').read_text())
     assert remaining['all_best_known_construction_dimensions'] == review['registered_dimensions']
     groups = [set(review['registered_dimensions']), set(remaining['classical_derived_controls']),
-              set(remaining['dimensions_with_no_new_construction_improvement'])]
+              set(remaining['dimensions_without_registered_record_claims'])]
     assert all(not a & b for i, a in enumerate(groups) for b in groups[i+1:])
     assert set.union(*groups) == set(range(48, 97))
     return {'review': review, 'rows': rows, 'all_comparisons_verified_exactly': True,
@@ -109,8 +113,13 @@ def audit():
             'Leterrier55_source_correction': {
                 'source': remaining['sources']['Leterrier2024'],
                 'density_squared': str(d55), 'center_density': d55_decimal,
+                'comparison_kind':'derived_period_repair_not_the_printed_density',
+                'printed_density_squared_not_used_as_guarantee':str(reported),
+                'explicit_counterexample_norm_squared':6,
+                'new_certified_55D_density_squared':tilted['density_squared'],
+                'world_record_claimed':False,
                 'earlier_repository_control_squared': str(old55),
-                'published_guarantee_exceeds_earlier_repository_control': True}}
+                'repaired_lamination_exceeds_earlier_repository_control': True}}
 
 
 if __name__ == '__main__':
@@ -125,4 +134,5 @@ if __name__ == '__main__':
         assert json.loads(path.read_text()) == result, 'Stored literature comparison is stale.'
     for a in result['rows']:
         print(a['dimension'], a['gain_percent_display'], 'comparison verified')
-    print('55D: use Leterrier2024 guarantee', result['Leterrier55_source_correction']['center_density'])
+    print('55D: repaired lamination comparison', result['Leterrier55_source_correction']['center_density'],
+          '; printed claim disputed; no new world-record claim')

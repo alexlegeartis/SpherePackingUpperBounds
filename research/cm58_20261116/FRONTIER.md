@@ -6,11 +6,16 @@ exact counterexamples. The former conditional 92D candidate is rejected.
 These results are excluded from the SOTA table.
 All parents and targets remain at most96D.
 
+**55D correction:** the former minimum 10/local-optimality claim below
+is withdrawn. Its Gram contains `(-3Q,3)` of norm 6. A
+[new exact correction and tilted 55D construction](../tilted55_20261116/PROOF.md)
+gives center density 91,274.808704… without claiming a world record.
+
 | Target | Result of this continuation | Consequence for the research |
 | --- | --- | --- |
 | 48 | The classical harmonic-theta argument proves local optimality of the extremal even unimodular parent | A small lattice Gram deformation cannot improve it |
 | 54 | Reconstructed the parent from polynomial points; supplied8,748 minimum vectors, full perfection rank 1,485 and positive eutaxy | Local lattice Gram deformations are blocked |
-| 55 | Reconstructed the published Q-glued lamination; supplied2,187 closest vectors and a full rank 1,540 positive-eutaxy certificate | Moving that hole or making a small lattice Gram deformation cannot improve it |
+| 55 | The former Gram has an explicit norm 6 vector, rejecting its minimum 10 claim | The former 55D local-optimality conclusion is withdrawn; the Q-hole geometry alone remains valid |
 | 56 | Reconstructed MW56; a 2,436-ray orbit has full rank 1,596 and exact positive eutaxy | Local lattice Gram deformations are blocked; its cosets successfully yield58D |
 | **58** | **Explicit minimum-10 lattice, center density161,833.931161…** | **New certified best-known bound; +6.9277% over the stronger classical section** |
 | 63 | A universal ceiling rules out every inherited-minimum-only multi-translate codimension-one Ne64 guarantee | Using only the parent minimum cannot beat Vardy's reported Elkies guarantee |
@@ -50,8 +55,9 @@ to this exact reconstructed parent.
 
 The point Q=(0,t^14) has norm 28/3. Its coordinates q satisfy3q integral,
 q nonintegral, and the directly computed pairings to the polynomial
-points. Adding(q,sqrt(2/3)) gives the published 55D lamination of determinant
-2·3^24 and minimum 10. Its full Gram is included in the local certificate.
+points. Adding(q,sqrt(2/3)) gives the former 55D Gram of determinant
+2·3^24, whose actual minimum is6. Its full Gram is retained as a
+negative certificate; it is not a minimum 10 lattice.
 
 For the 55D hole, translations of the base variable produce closest points
 explicitly. For b in F_(3^6), set
@@ -72,14 +78,16 @@ The finite checks are:
   `sum(v^T v) G54=1620 I`.
 * The 2,187 closest vectors span all 54 dimensions, sum to zero, and have
   moment `sum(w^T w) G54=378 I`.
-* In55D, weight 1/2187 on the supplied horizontal minimum vectors and
+* In the former 55D Gram, weight 1/2187 on the supplied horizontal norm10 vectors and
   weight 1/1458 on the supplied lifted closest vectors give exactly
   `G55^-1`. All weights are strictly positive. Their dyad rank is1,540.
+  **These are not minimum vectors of G55:** its minimum is6, so this
+  calculation does not prove local lattice optimality.
 * The 56D and 80D minimal orbits have full dyad rank and equal-weight
   moments435 I and 861 I, respectively. Their parent Grams are bound to
   actual unitary polynomial sections as in the main proof.
 
-Full rank modulo a prime proves full rank over Q. Voronoi's criterion
+For54D,56D and 80D, full rank modulo a prime proves full rank over Q. Voronoi's criterion
 then gives local lattice optimality from perfection and strict eutaxy.
 No complete classification of all minimum vectors is needed.
 

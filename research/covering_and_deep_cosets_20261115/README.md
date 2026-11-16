@@ -2,7 +2,7 @@
 
 **Current 86D–91D update:** [explicit MW92 antipodes](../mw92_sections_20261115/) supersede the older candidates and classical controls below. All six dimensions now have stronger explicit constructions.
 
-**Current continuation:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds, including50D–53D,77D and85D by9.99–18.53%. The checkpoint numbers below are superseded where indicated; the [current comparison table](PRIORITY.md) uses the new results.
+**Current continuation:** [adaptive layers](../adaptive_layers_20261115/) strengthens13 bounds, including50D–53D,77D and 85D by9.99–18.53%. The checkpoint numbers below are superseded where indicated; the [current comparison table](PRIORITY.md) uses the new results.
 
 **All five numbers from the previous update are now superseded.** The
 earlier 49–52D and 81D values should not be presented as current records:
@@ -43,9 +43,12 @@ of published parents, not new explicit normals or reported records.
 [Derivation and all five values](SECTIONS_PROOF.md) · [exact audit](verify_sections.py).
 
 The [remaining-dimensions review](REMAINING_DIMENSIONS.md) extends the
-best-known claims to33 construction dimensions and corrects the 55D
-literature entry to Leterrier2024's **116,783.149646…**, above our old
-55D control. The explicit53D lattice now replaces that section estimate;89D–91D remain classical derived controls.
+best-known claims to33 construction dimensions at that checkpoint.
+The 55D printed claim116,783.149646… was subsequently found unsupported
+by its displayed construction, which has a norm 6 vector. The
+[correction and tilted lattice](../tilted55_20261116/PROOF.md) give a
+valid91,274.808704… guarantee with no new 55D world-record claim.
+The explicit53D lattice replaces the earlier section estimate.
 
 ## What the priority investigation confirms
 

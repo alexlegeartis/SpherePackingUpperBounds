@@ -27,7 +27,7 @@
     {
       "dimension": 55,
       "guarantee_formula_density_squared_ceiling": "140737488355328/24367",
-      "comparison_density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+      "comparison_density_squared": "55511151231257827021181583404541015625/6783730961356018699387011072",
       "maximizing_parameters": {
         "m": 2,
         "ell": 59,

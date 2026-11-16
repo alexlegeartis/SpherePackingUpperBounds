@@ -36,8 +36,9 @@
     "locators": [
       "Theorem3.2.7 and Theorem3.4.1: narrow54D lattice minimum10 and determinant3^25",
       "Lemmas3.2.15-3.2.17 and Corollary3.2.18: canonical heights and explicit tripling",
-      "Proposition3.2.22:55D Q-glued lamination and minimum10"
-    ]
+      "Proposition3.2.22: claimed55D construction, REJECTED by an explicit norm6 period"
+    ],
+    "correction": "../tilted55_20261116/PROOF.md"
   },
   "P48q_frontier": {
     "url": "https://neilsloane.com/doc/Me103.pdf",

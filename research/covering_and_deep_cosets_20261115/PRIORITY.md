@@ -83,7 +83,8 @@ bringing that checkpoint to 33. The [MW92 continuation](../mw92_sections_2026111
 adds six explicit construction dimensions, **86D–91D**, for a checkpoint total of **39**. The [new CM58 construction](../cm58_20261116/)
 adds 58D, bringing the current total to **40**.
 The 89D–91D gains enclose and exceed the full Rogers-simplex consequence;
-they do not rely on weakening its numerical evaluation. The 55D literature correction remains valid.
+they do not rely on weakening its numerical evaluation. The former 55D
+literature correction is superseded by the short-period correction below.
 
 For 59D, Vardy's 1999 paper reports a weaker Elkies guarantee with
 `log2(delta)` beginning `17.75…`. Our proof improves that published
@@ -101,9 +102,13 @@ conclusion. [Source transcription and exact comparison](../../constructions/dim5
   and the recent papers listed in the linked source registries.
   The classical BCS88 sections give stronger 84D/85D comparisons than
   Chen's guarantees. Leterrier54 supplies the 52D comparison above.
-* **Leterrier's 2024 thesis:** Proposition 3.2.22, pp.155–156, reports
-  the 55D lamination with exact guarantee `delta²=5^55/(2^56*3^24)`.
-  This exceeds our earlier 55D control. Its table on p.204 also reports
+* **Leterrier's 2024 thesis:** Proposition 3.2.22, pp.155–156, prints
+  `delta²=5^55/(2^56*3^24)` in 55D, but its displayed lattice has a
+  norm 6 period vector and does not establish that claim. Our prior
+  minimum 10/local-optimality claim is withdrawn. A
+  [repaired and tilted lattice](../tilted55_20261116/PROOF.md) gives
+  center density 91,274.808704… with **no new 55D record claim**.
+  Its table on p.204 also reports
   weaker 68D and 74D bounds. See [review details](remaining_dimensions_review.json).
 * **Methods:** BCS supplies the P48q parent and its norm-doubler;
   SPLAG's preface describes Elkies's half-lattice-hole extensions.

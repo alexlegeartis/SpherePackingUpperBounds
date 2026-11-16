@@ -57,7 +57,8 @@
       "../mw92_sections_20261115/sources.json",
       "../cm58_20261116/sources.json",
       "../creative_sections_20261116/sources.json",
-      "../simplex_normals_20261116/sources.json"
+      "../simplex_normals_20261116/sources.json",
+      "../tilted55_20261116/PROOF.md"
     ],
     "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
     "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -69,7 +70,7 @@
     },
     "derived_classical_controls_not_claimed_as_new_records": [],
     "published_bounds_exceeding_our_old_candidates": {
-      "55": "Leterrier2024, Proposition 3.2.22; delta^2=5^55/(2^56*3^24)",
+      "55": "DISPUTED: Leterrier2024 Prop3.2.22 prints delta^2=5^55/(2^56*3^24), but its displayed construction has a norm6 vector. Not used as a valid guarantee; see ../tilted55_20261116/PROOF.md. No 55D world-record claim.",
       "63": "Elkies lower bound reported by Vardy1999",
       "86": "Classical BCS88 section",
       "87": "Classical BCS88 section"
@@ -1336,13 +1337,19 @@
       ],
       "full_pdf_retrieved": true,
       "findings": [
-        "The 55D formula exceeds our earlier Rogers-derived 55D control and must replace it.",
+        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our tilted variant gives91274.808704...; no SOTA claim.",
         "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
-      ]
+      ],
+      "correction_evidence": "../tilted55_20261116/PROOF.md"
     },
-    "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
-    "center_density": "116783.1496463047166607991440464474867257219451203699554540606933676232",
+    "density_squared": "55511151231257827021181583404541015625/6783730961356018699387011072",
+    "center_density": "90459.83873955735104191687400854586827278987418325694011671522964108628",
+    "comparison_kind": "derived_period_repair_not_the_printed_density",
+    "printed_density_squared_not_used_as_guarantee": "277555756156289135105907917022705078125/20351192884068056098161033216",
+    "explicit_counterexample_norm_squared": 6,
+    "new_certified_55D_density_squared": "1387778780781445675529539585113525390625/166578282495520014729392160768",
+    "world_record_claimed": false,
     "earlier_repository_control_squared": "3101854500",
-    "published_guarantee_exceeds_earlier_repository_control": true
+    "repaired_lamination_exceeds_earlier_repository_control": true
   }
 }

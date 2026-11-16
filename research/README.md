@@ -39,6 +39,7 @@ pins all three branch heads and records fresh replay scope and leaderboard check
 | [CM-plane construction and frontier](cm58_20261116/FRONTIER.md) | Certified advances and rejected or unresolved targets. |
 | [Correlated normals and Craig/code routes](simplex_normals_20261116/PROOF.md) | Certified 86D–89D improvements and a separately scoped unsuccessful code search. |
 | [Nine remaining lower-bound dimensions](remaining_gaps_20261116/PROOF.md) | Exact Ne64 local-optimality certificate; exhaustive rejection of a bounded 64D form family; a 92D code symmetry obstruction. No new packing record. |
+| [Tilted 55D lamination and source correction](tilted55_20261116/PROOF.md) | New certified minimum10 lattice; explicit norm6 counterexample withdraws the former55D claim. Improves the repaired lamination; no world-record claim. |
 
 Use each package's own reproduction commands. `run_all.py` replays the registered
 upper-bound proof chains; lower-bound and exploratory checks have separate runners.

@@ -72,17 +72,6 @@
     96
   ],
   "classical_derived_controls": [],
-  "dimensions_with_no_new_construction_improvement": [
-    48,
-    54,
-    55,
-    56,
-    63,
-    64,
-    72,
-    80,
-    92
-  ],
   "no_stronger_published_lower_bound_located_in_registered_dimensions": true,
   "sources": {
     "Leterrier2024": {
@@ -98,9 +87,10 @@
       ],
       "full_pdf_retrieved": true,
       "findings": [
-        "The 55D formula exceeds our earlier Rogers-derived 55D control and must replace it.",
+        "Correction: the printed 55D lamination has a norm6 period vector and does not establish its minimum10 or its reported density. A repaired period gives center density90459.838739..., and our tilted variant gives91274.808704...; no SOTA claim.",
         "The table reports log2(delta)>=23.14 in 68D and >=25.1586 in 74D; these are below our constructions and below the stronger comparisons already used."
-      ]
+      ],
+      "correction_evidence": "../tilted55_20261116/PROOF.md"
     },
     "Vardy1999": {
       "title": "Density doubling, double-circulants, and new sphere packings",
@@ -189,5 +179,17 @@
   "subsequent_53D_explicit_improvement": "../adaptive_layers_20261115/SECTION53_PROOF.md",
   "subsequent_86D_91D_explicit_improvements": "../mw92_sections_20261115/PROOF.md",
   "subsequent_58D_explicit_improvement": "../cm58_20261116/PROOF.md",
-  "frontier_local_geometry_and_conditional_92D": "../cm58_20261116/FRONTIER.md"
+  "frontier_local_geometry_and_conditional_92D": "../cm58_20261116/FRONTIER.md",
+  "dimensions_without_registered_record_claims": [
+    48,
+    54,
+    55,
+    56,
+    63,
+    64,
+    72,
+    80,
+    92
+  ],
+  "classification_note": "The list means no registered SOTA claim. A new certified 55D tilted lamination exists, but the larger printed external claim has a short-period counterexample in its displayed construction; no 55D SOTA claim is made."
 }

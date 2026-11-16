@@ -1,6 +1,10 @@
 # Remaining dimensions in 48D–96D: review of 16 November 2026
 
-**Current continuation:** [CM58](../cm58_20261116/) adds a certified explicit 58D lattice. The total is now **40 construction dimensions** and **nine dimensions without a new construction improvement**. [Local geometry, route obstructions and the conditional 92D candidate](../cm58_20261116/FRONTIER.md) describe the remaining research.
+**Current status:**40 dimensions have registered best-known claims; nine
+have no new registered record claim. A [new 55D tilted lattice](../tilted55_20261116/PROOF.md)
+has a valid minimum 10 certificate, but no world-record claim. The former
+55D minimum 10/local-optimality claim is withdrawn by a norm 6 vector.
+[Local geometry and rejected routes](../cm58_20261116/FRONTIER.md).
 
 The earlier review added these 23 dimensions under the same dated criterion:
 57D, 60D–62D, 65D–71D, 73D–79D, 82D–83D and 93D–95D. No stronger
@@ -48,19 +52,26 @@ substitute the lower endpoints as if they were exact reported densities.
 ## The 55D correction from a previously omitted source
 
 [Leterrier's 2024 EPFL thesis, Proposition 3.2.22, pp.155–156](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
-laminates its 54D Mordell–Weil lattice, multiplying its guaranteed center
-density by `sqrt(15)/2`. Thus
+prints a55D density obtained by multiplying its54D center density by
+`sqrt(15)/2`:
 
 ```
 delta55² >= 5^55/(2^56*3^24),
 delta55 >= 116,783.149646304716660799… .
 ```
 
-That is greater than our earlier conservative 55D section bound,
-55,694.295039976940…. **There is no 55D improvement from that candidate.**
-The complete table now uses Leterrier's published construction. The
-formula is checked in `verify_literature_comparisons.py` against both
-the theorem's 54D input and the old 55D control. The thesis's p.204
+The displayed construction does not establish this number: its vertical
+period has squared length6, below the claimed minimum 10. Our former
+source audit checked the density arithmetic and missed that vector.
+That audit is corrected. The printed claim remains documented as disputed
+and is not used as a certified comparison.
+
+Repairing the period gives 90,459.838739557352… . The
+[new tilted55D lattice](../tilted55_20261116/PROOF.md) gives
+**91,274.808704090862…**, a 0.900919% improvement over the repaired
+construction. It is below the printed 116,783… claim, so **no 55D
+SOTA claim is made**. The complete table states this distinction.
+The thesis's p.204
 also reports 68D and 74D bounds (`log2(delta)>=23.14` and `>=25.1586`);
 these are below the stronger comparisons already used for our constructions.
 
@@ -71,13 +82,14 @@ these are below the stronger comparisons already used for our constructions.
 | **86–91** | New explicit MW92 antipodes; all beat the stronger external comparisons, including the full Rogers-theorem consequence in 89D–91D. |
 | **48, 54, 56, 64, 72, 80, 92** | Retain the named published parent bounds; no denser construction from us. |
 | **53** | New explicit section with center density20,890.804898…; see the current continuation. |
-| **55** | Use Leterrier2024's stronger published lamination above. |
+| **55** | New certified tilted lamination; former external construction has a norm 6 counterexample. No record claim. |
 | **58** | New explicit CM58 lattice, 6.9277% above the classical Γ72/Leech-block section. |
 | **63** | The Elkies guarantee reported by Vardy exceeds our Ne64 antipode. |
 
 The current classification across 48D–96D is:
-**40 construction improvements and
-nine dimensions without a new construction improvement.** The research
+**40 registered best-known claims and
+nine dimensions without a new registered record claim.**55D now has
+a new certified construction, separately scoped above. The research
 ceiling, including every parent used, remains 96D.
 
 The original Rogers simplex bound is an exact classical upper-bound

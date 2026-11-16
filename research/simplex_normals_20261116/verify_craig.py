@@ -48,7 +48,7 @@ def audit():
     benchmarks = {int(n):F(x)for n,x in json.loads((P/'craig_benchmarks.json').read_text())['dimensions'].items()}
     assert sorted(benchmarks) == DIMENSIONS
     expected = {48:F(3,2)**48,54:F(5,2)**54/3**25,
-                55:F(5,2)**54/3**25*F(15,4),56:F(5,2)**56/29**8,
+                55:F(5,2)**54/3**25*F(9,4),56:F(5,2)**56/29**8,
                 64:F(3**32),72:F(2**72),80:F(7,2)**80/41**12,
                 92:F(2**184,47**14)}
     assert all(benchmarks[n] == v for n,v in expected.items())

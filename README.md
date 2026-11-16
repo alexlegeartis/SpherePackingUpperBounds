@@ -118,11 +118,15 @@ The recent 88D parent's full computational proof has now been freshly
 [reproduced and bound to our catalogue Gram](research/priority_resolution_20261115/REPLAY88.md).
 Research remains capped at **96D**, including parent inputs.
 The [remaining-dimensions review](research/covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md)
-accounts for all 49 dimensions: **40 construction improvements** and
-**nine dimensions with no new construction improvement**.
-In **55D**, [Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
-gives center density **116,783.149646…**, above our earlier 55D section
-control of 55,694.295040…. The complete table now uses that published bound.
+accounts for all 49 dimensions: **40 registered best-known claims** and
+**nine dimensions without a new registered record claim**.
+In **55D**, a [new tilted lattice](research/tilted55_20261116/PROOF.md) has
+minimum10 and center density **91,274.808704…**, 0.900919% above the
+period-repaired lamination. The **116,783.149646…** printed in
+[Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
+is unsupported by its displayed construction, which has a norm6 period
+vector. Our former 55D minimum10/local-optimality claim is withdrawn.
+The printed number remains documented; **no 55D SOTA claim is made**.
 
 The [complete 48D–96D audit](research/range48_96_20261115/TABLE.md)
 now covers **every dimension in that interval**, with named comparisons.
@@ -135,7 +139,7 @@ Leterrier's published **54D** guarantee and stronger nearby section
 controls. [Proofs, source scope and research decisions](research/range48_96_20261115/).
 
 The [remaining-target continuation](research/cm58_20261116/FRONTIER.md) certifies
-local optimality against lattice Gram deformations in 54D–56D, 80D and 92D.
+local optimality against lattice Gram deformations in 54D, 56D, 80D and 92D.
 The proposed 92D deformation is now **rejected by an exact shortest vector**;
 it was never included in the density table.
 

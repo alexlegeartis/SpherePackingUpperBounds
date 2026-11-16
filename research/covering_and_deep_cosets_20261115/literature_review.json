@@ -56,7 +56,8 @@
     "../mw92_sections_20261115/sources.json",
     "../cm58_20261116/sources.json",
     "../creative_sections_20261116/sources.json",
-    "../simplex_normals_20261116/sources.json"
+    "../simplex_normals_20261116/sources.json",
+    "../tilted55_20261116/PROOF.md"
   ],
   "comparison_labels": "Each numerical comparator states whether it is reported by its source or derived from published inputs.",
   "revision_rule": "Revise the best-known claim if a stronger prior published bound is identified.",
@@ -68,7 +69,7 @@
   },
   "derived_classical_controls_not_claimed_as_new_records": [],
   "published_bounds_exceeding_our_old_candidates": {
-    "55": "Leterrier2024, Proposition 3.2.22; delta^2=5^55/(2^56*3^24)",
+    "55": "DISPUTED: Leterrier2024 Prop3.2.22 prints delta^2=5^55/(2^56*3^24), but its displayed construction has a norm6 vector. Not used as a valid guarantee; see ../tilted55_20261116/PROOF.md. No 55D world-record claim.",
     "63": "Elkies lower bound reported by Vardy1999",
     "86": "Classical BCS88 section",
     "87": "Classical BCS88 section"
