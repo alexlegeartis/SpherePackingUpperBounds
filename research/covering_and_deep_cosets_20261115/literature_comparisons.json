@@ -1347,6 +1347,8 @@
     "center_density": "90459.83873955735104191687400854586827278987418325694011671522964108628",
     "comparison_kind": "derived_period_repair_not_the_printed_density",
     "printed_density_squared_not_used_as_guarantee": "277555756156289135105907917022705078125/20351192884068056098161033216",
+    "main_table_challenge_target_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+    "challenge_target_exceeded": false,
     "explicit_counterexample_norm_squared": 6,
     "new_certified_55D_density_squared": "1942890293094023945741355419158935546875/232908096339889975345620713472",
     "world_record_claimed": false,

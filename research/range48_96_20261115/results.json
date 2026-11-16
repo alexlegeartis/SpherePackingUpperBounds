@@ -51,7 +51,7 @@
     96
   ],
   "maximum_parent_dimension": 96,
-  "comparison_scope": "Published lower-bound guarantees and named derived classical controls; best-known claims use the dated source review in covering_and_deep_cosets_20261115/PRIORITY.md",
+  "comparison_scope": "Published lower-bound guarantees and named derived classical controls;55D instead uses the full printed Leterrier2024 claim as a challenge target, not as a proved lower-bound input. Best-known claims use the dated source review in covering_and_deep_cosets_20261115/PRIORITY.md",
   "parent_inputs": [
     {
       "dimension": 48,
@@ -15239,12 +15239,12 @@
       "center_density": "91333.8671435954186710893166665812558055852692",
       "comparison": {
         "dimension": 55,
-        "name": "Leterrier54 / repaired order-three lamination",
-        "density_squared": "55511151231257827021181583404541015625/6783730961356018699387011072",
-        "evidence": "research/tilted55_20261116/PROOF.md",
-        "kind": "derived_repaired_lamination"
+        "name": "Leterrier2024, Proposition3.2.22 (printed claim)",
+        "density_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+        "evidence": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+        "kind": "reported_claim_with_rejected_displayed_construction"
       },
-      "comparison_center_density": "90459.8387395573510419168740085458682727898742",
+      "comparison_center_density": "116783.149646304716660799144046447486725721945",
       "previous_checked": {
         "dimension": 55,
         "name": "Leterrier54 / repaired order-three lamination",
@@ -15253,7 +15253,7 @@
         "kind": "derived_repaired_lamination"
       },
       "previous_center_density": "90459.8387395573510419168740085458682727898742",
-      "ratio_to_comparison": "1.00966206016080218948702890676838161675367155",
+      "ratio_to_comparison": "0.782080868860051584297166580207791075281484216",
       "ratio_to_previous": "1.00966206016080218948702890676838161675367155",
       "improves_previous_checked_envelope": true,
       "literature_status": "certified_new_bound_external_claim_disputed",

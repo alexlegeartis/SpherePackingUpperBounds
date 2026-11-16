@@ -37,8 +37,15 @@ enumerated. The 81D torus shifts remain existential.
 the literature review dated 16 November 2026:** no stronger published
 bound was located. The [current review and comparison table](../covering_and_deep_cosets_20261115/PRIORITY.md)
 name each source and distinguish reported numbers from derived bounds.
-Comparison is between proved guarantees; a prior lattice's unknown
-actual minimum and a previous-record table are not prerequisites.
+Those record comparisons are between proved guarantees; a prior lattice's
+unknown actual minimum and a previous-record table are not prerequisites.
+The separate **55D challenge target** is the full **116,783.149646…**
+printed in Leterrier's 2024 thesis. Our certified 91,333.867143… is below
+it. The displayed source construction has a norm-6 vector, so the printed
+claim is not used as a proved input to propagated bounds. The
+[MW56 projection experiment](../mw56_projection55_20261116/PROOF.md)
+targets that full number and excludes 24 specified families; it adds no
+new lower bound.
 
 ## Decisions across the full range
 
@@ -46,7 +53,7 @@ actual minimum and a previous-record table are not prerequisites.
 | --- | --- |
 | **48** | Classical P48 minimum-6 lattices; no improvement found |
 | **49–52** | New explicit P48 compatible-coset lattices, with full coset enumerations; seek deeper compatible shifts and further external comparisons |
-| **53–56** | New explicit 53D section; retain Leterrier54, Leterrier2024's55D lamination and MW56 |
+| **53–56** | Explicit 53D section; retain Leterrier54 and MW56. Certified 55D cross-coset tilt remains below the full printed Leterrier55 target |
 | **57–58** | Covering-based MW56 extension in 57D; explicit CM plane above MW56 now improves 58D |
 | **59–62** | Retain existing Ne64 antipodes; their comparisons have the scope recorded in the source audit |
 | **63** | Our Ne64 antipode is below Elkies's historical guarantee; do not claim an improvement |

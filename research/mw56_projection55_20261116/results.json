@@ -1,0 +1,397 @@
+{
+  "status": "verified_finite_family_exclusion_against_full_printed_target",
+  "parent": "Published MW56, minimum10 determinant29^8; source-to-Gram audit repeated",
+  "dimension": 55,
+  "printed_target_squared": "277555756156289135105907917022705078125/20351192884068056098161033216",
+  "printed_target_center_density": "116783.14964630471666079914404644748672572194512036995545406069337",
+  "printed_target_used_as_proved_parent": false,
+  "projection_families_checked": 24,
+  "individual_distance_witnesses_checked": 2704,
+  "all_family_upper_bounds_below_target": true,
+  "largest_family_density_upper_squared": "705105258964981851434180203154550142870337644583878408467322105852937086347842692416472969375889603240182322518868134359824956214645107/66282315071663246521988559476018925589817157645831706658930637506930637560343110196348520423843361576269982546561718923821056",
+  "largest_family_center_density_upper": "103140.24115660859823873380547672065092355356094273493126023461192",
+  "rows": [
+    {
+      "case": 0,
+      "normal_norm_squared": "98/29",
+      "quotient_order": 98,
+      "period_gram_determinant": "1690487878282",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/60906244629641244782127742976",
+      "center_density_upper": "67506.284906446913117736682972485894968355477481357809101279366240",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 45
+    },
+    {
+      "case": 1,
+      "normal_norm_squared": "98/29",
+      "quotient_order": 98,
+      "period_gram_determinant": "1690487878282",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/60906244629641244782127742976",
+      "center_density_upper": "67506.284906446913117736682972485894968355477481357809101279366240",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 46
+    },
+    {
+      "case": 2,
+      "normal_norm_squared": "100/29",
+      "quotient_order": 100,
+      "period_gram_determinant": "1724987630900",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "311206062807177685302916761933407776912869525762875381600394929666848304383061064403653518149625036080495400092790676396688423407277750643207833908019293787501979899/55979049105834404725491788195890749023191040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "center_density_upper": "74560.921371445998115883482964280790024142240899300605513245907778",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "979/100",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 40
+    },
+    {
+      "case": 3,
+      "normal_norm_squared": "100/29",
+      "quotient_order": 100,
+      "period_gram_determinant": "1724987630900",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "11102230246251565404236316680908203125/2485969168556785501311336448",
+      "center_density_upper": "66827.812562083570498011303650538552403204559114253656497128680745",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 41
+    },
+    {
+      "case": 4,
+      "normal_norm_squared": "104/29",
+      "quotient_order": 104,
+      "period_gram_determinant": "1793987136136",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/64635198382476423034094747648",
+      "center_density_upper": "65530.061597074069887854518126851373870092317307777838715820287233",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 38
+    },
+    {
+      "case": 5,
+      "normal_norm_squared": "104/29",
+      "quotient_order": 104,
+      "period_gram_determinant": "1793987136136",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/64635198382476423034094747648",
+      "center_density_upper": "65530.061597074069887854518126851373870092317307777838715820287233",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 35
+    },
+    {
+      "case": 6,
+      "normal_norm_squared": "106/29",
+      "quotient_order": 106,
+      "period_gram_determinant": "1828486888754",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/65878182966754815784750415872",
+      "center_density_upper": "64908.909553812952992543762845203913887771422861771791236844987018",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 54
+    },
+    {
+      "case": 7,
+      "normal_norm_squared": "106/29",
+      "quotient_order": 106,
+      "period_gram_determinant": "1828486888754",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "6633141144510815642836371897589098914496989344487888893084479624121561888057670884908887091812202968278374694164022388992130436491390099718046258203685283660888671875/1462695656772049181589863782607378006368118991417209037973338980158319280406680331451802172669074423264826216842321779014833019399076206018987320068091674624",
+      "center_density_upper": "67341.476357653905613322248045216925170187846907693059794364694818",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1035/106",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 54
+    },
+    {
+      "case": 8,
+      "normal_norm_squared": "108/29",
+      "quotient_order": 108,
+      "period_gram_determinant": "1862986641372",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/67121167551033208535406084096",
+      "center_density_upper": "64305.092620121339458444139808017686829158108917809404042141618275",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 38
+    },
+    {
+      "case": 9,
+      "normal_norm_squared": "108/29",
+      "quotient_order": 108,
+      "period_gram_determinant": "1862986641372",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/67121167551033208535406084096",
+      "center_density_upper": "64305.092620121339458444139808017686829158108917809404042141618275",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 40
+    },
+    {
+      "case": 10,
+      "normal_norm_squared": "112/29",
+      "quotient_order": 112,
+      "period_gram_determinant": "1931986146608",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "425532941275714065950738844790530918667783248095231071069195051500537/58397762665732786719227430855279492579846229532509492779344",
+      "center_density_upper": "85362.767810187550688631263848943193610105642164992669367321976130",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "68/7",
+        "translate_count_upper": 3
+      },
+      "thresholds_checked": 41
+    },
+    {
+      "case": 11,
+      "normal_norm_squared": "112/29",
+      "quotient_order": 112,
+      "period_gram_determinant": "1931986146608",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "5949505666653889778877651034824856507034284700407272253149447434052998121279153377374503453296297881761127611525954508693/1056434524859771583677136324040967836105860381952779461648141932576229129915398699756751920194220380552584757248",
+      "center_density_upper": "75044.548384812907503576758592622198922856125137545876454621513578",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "157/16",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 38
+    },
+    {
+      "case": 12,
+      "normal_norm_squared": "114/29",
+      "quotient_order": 114,
+      "period_gram_determinant": "1966485899226",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "705105258964981851434180203154550142870337644583878408467322105852937086347842692416472969375889603240182322518868134359824956214645107/66282315071663246521988559476018925589817157645831706658930637506930637560343110196348520423843361576269982546561718923821056",
+      "center_density_upper": "103140.24115660859823873380547672065092355356094273493126023461192",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "566/57",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 46
+    },
+    {
+      "case": 13,
+      "normal_norm_squared": "114/29",
+      "quotient_order": 114,
+      "period_gram_determinant": "1966485899226",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "184676732579900751002237255212811560122312932129664583612633826991275981596987386294806563486/21091569257419109586679820304807127985463443691704377385059905039092283771611142687",
+      "center_density_upper": "93573.235059914530747117444838593103254541497214197878436123655012",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "188/19",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 46
+    },
+    {
+      "case": 14,
+      "normal_norm_squared": "4",
+      "quotient_order": 116,
+      "period_gram_determinant": "2000985651844",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "277555756156289135105907917022705078125/72093105888146779538028756992",
+      "center_density_upper": "62048.066266743716660010525454126037771630778926330542489175721201",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "10",
+        "translate_count_upper": 1
+      },
+      "thresholds_checked": 7
+    },
+    {
+      "case": 15,
+      "normal_norm_squared": "118/29",
+      "quotient_order": 118,
+      "period_gram_determinant": "2035485404462",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "102557413855470544291548553646538285256496195131745212866967698666281971968165707721803924679470443002223598825738600448/25380410219809301706615790104398206083531186491459157711930829090265907052643625811992175608871111593454094069",
+      "center_density_upper": "63567.365356326426939081801877319441074698379378885603891593202917",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "576/59",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 60
+    },
+    {
+      "case": 16,
+      "normal_norm_squared": "120/29",
+      "quotient_order": 120,
+      "period_gram_determinant": "2069985157080",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "5896974217525622788819448868697896846466357663976663270185873796988906066433158706592484408170415473119631053047574067569772349027957137702674021246921202944326849185851/1521161397071581994520302279893833783159424295480469330158192293866245230213909464211241727179186660966400000000000000000000000000000000000000000000000000000000",
+      "center_density_upper": "62262.559054060092521191010291337299380268236473994710611854442734",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1171/120",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 37
+    },
+    {
+      "case": 17,
+      "normal_norm_squared": "120/29",
+      "quotient_order": 120,
+      "period_gram_determinant": "2069985157080",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "5896974217525622788819448868697896846466357663976663270185873796988906066433158706592484408170415473119631053047574067569772349027957137702674021246921202944326849185851/1521161397071581994520302279893833783159424295480469330158192293866245230213909464211241727179186660966400000000000000000000000000000000000000000000000000000000",
+      "center_density_upper": "62262.559054060092521191010291337299380268236473994710611854442734",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1171/120",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 38
+    },
+    {
+      "case": 18,
+      "normal_norm_squared": "122/29",
+      "quotient_order": 122,
+      "period_gram_determinant": "2104484909698",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "14967417794591614190113550513517789831956201873699391926725961071540161820782805105914476137528289483352030148446990653449711966687200229924482079148017499071165324788951/3838628070244672501222056909180022131230644803532859427443323056113711238460980830391432867742796578101478358211258721786719384107103318584254553221285422301184",
+      "center_density_upper": "62443.239154050415467583121810830680721933186944370424636070836983",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1191/122",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 62
+    },
+    {
+      "case": 19,
+      "normal_norm_squared": "122/29",
+      "quotient_order": 122,
+      "period_gram_determinant": "2104484909698",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "14967417794591614190113550513517789831956201873699391926725961071540161820782805105914476137528289483352030148446990653449711966687200229924482079148017499071165324788951/3838628070244672501222056909180022131230644803532859427443323056113711238460980830391432867742796578101478358211258721786719384107103318584254553221285422301184",
+      "center_density_upper": "62443.239154050415467583121810830680721933186944370424636070836983",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1191/122",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 62
+    },
+    {
+      "case": 20,
+      "normal_norm_squared": "124/29",
+      "quotient_order": 124,
+      "period_gram_determinant": "2138984662316",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "53728387787275951912539031021837310761801307361803603876892977308234870266444189681270209933353644264610828873989064019175270716141646822251940927059382107051266796473099/9542010411418302094075062906559001328030417367913248558871444597225803774532370719167046449454966292943370236904219681588984166362523098659599836491572108591104",
+      "center_density_upper": "75038.122892184257457885994844967587392508151342981333196066215231",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1219/124",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 57
+    },
+    {
+      "case": 21,
+      "normal_norm_squared": "124/29",
+      "quotient_order": 124,
+      "period_gram_determinant": "2138984662316",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "53728387787275951912539031021837310761801307361803603876892977308234870266444189681270209933353644264610828873989064019175270716141646822251940927059382107051266796473099/9542010411418302094075062906559001328030417367913248558871444597225803774532370719167046449454966292943370236904219681588984166362523098659599836491572108591104",
+      "center_density_upper": "75038.122892184257457885994844967587392508151342981333196066215231",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1219/124",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 52
+    },
+    {
+      "case": 22,
+      "normal_norm_squared": "126/29",
+      "quotient_order": 126,
+      "period_gram_determinant": "2173484414934",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "7341993809302063622081176290029295422889080142267270171609075066552926124874936549221739348864596697732397451077341699/768135831771869475096419332411808454091101622636149622371323080738990809144529925177936079790359179685789696",
+      "center_density_upper": "97766.033308049173887999232943186224187653539005401004075984336943",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "139/14",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 46
+    },
+    {
+      "case": 23,
+      "normal_norm_squared": "128/29",
+      "quotient_order": 128,
+      "period_gram_determinant": "2207984167552",
+      "all_translate_subsets_excluded_above_target": true,
+      "density_upper_squared": "223435426463171241117026141865940658493391660601757111304537105176207510628554673962767260826214497557358587553171365792798044164308886271258689229101975353579074586006251/56465583097250765976043478468829295073170338465571550505859900121865696809095224981136041026060856827441693150875564802876254474324843613059764941657829942493184",
+      "center_density_upper": "62904.846645083759790130254047078573925894360853578876449680714788",
+      "maximizing_upper_bound": {
+        "minimum_squared_upper": "1251/128",
+        "translate_count_upper": 2
+      },
+      "thresholds_checked": 48
+    }
+  ],
+  "rejected_record_sized_proposals": [
+    {
+      "case": 1,
+      "translates": 2,
+      "density_if_minimum10": "135012.56981289382623547336594497178993671095496271561820255873248",
+      "nominal_ratio_squared_to_printed_target": "1129718145924/845243939141",
+      "verified_short_vector_squared_norm": "8",
+      "status": "rejected; the displayed nominal density is not a lower bound"
+    },
+    {
+      "case": 5,
+      "translates": 2,
+      "density_if_minimum10": "131060.12319414813977570903625370274774018463461555567743164057446",
+      "nominal_ratio_squared_to_printed_target": "282429536481/224248392017",
+      "verified_short_vector_squared_norm": "8",
+      "status": "rejected; the displayed nominal density is not a lower bound"
+    },
+    {
+      "case": 8,
+      "translates": 3,
+      "density_if_minimum10": "192915.27786036401837533241942405306048747432675342821212642485482",
+      "nominal_ratio_squared_to_printed_target": "94143178827/34499752618",
+      "verified_short_vector_squared_norm": "8",
+      "status": "rejected; the displayed nominal density is not a lower bound"
+    },
+    {
+      "case": 14,
+      "translates": 2,
+      "density_if_minimum10": "124096.13253348743332002105090825207554326155785266108497835144240",
+      "nominal_ratio_squared_to_printed_target": "564859072962/500246412961",
+      "verified_short_vector_squared_norm": "8",
+      "status": "rejected; the displayed nominal density is not a lower bound"
+    },
+    {
+      "case": 17,
+      "translates": 2,
+      "density_if_minimum10": "122010.33469660093607893044710522100142645128641640253226903818379",
+      "nominal_ratio_squared_to_printed_target": "94143178827/86249381545",
+      "verified_short_vector_squared_norm": "6",
+      "status": "rejected; the displayed nominal density is not a lower bound"
+    }
+  ],
+  "scope": "Only the 24 supplied normal directions and subsets of their projected MW56 cosets, with the section lattice as period. Other directions, shifts and constructions remain open.",
+  "new_lower_bound_claimed": false,
+  "maximum_parent_or_target_dimension": 56,
+  "all_proof_checks_exact": true
+}

@@ -66,11 +66,12 @@ source audit checked the density arithmetic and missed that vector.
 That audit is corrected. The printed claim remains documented as disputed
 and is not used as a certified comparison.
 
-Repairing the period gives 90,459.838739557352… . The
-[new cross-coset tilted 55D lattice](../cross_coset55_20261116/PROOF.md) gives
-**91,333.867143595418…**, a 0.966206% improvement over the repaired
-construction. It is below the printed 116,783… claim, so **no 55D
-SOTA claim is made**. The complete table states this distinction.
+The comparison target remains the full printed **116,783.149646…**.
+Our [certified 55D lattice](../cross_coset55_20261116/PROOF.md) gives
+**91,333.867143595418…**, below that target, so **no 55D SOTA claim is made**.
+The complete table now compares against the printed target directly.
+The period repair, 90,459.838739557352…, remains a valid historical
+derivation but is not the main benchmark for new searches.
 The thesis's p.204
 also reports 68D and 74D bounds (`log2(delta)>=23.14` and `>=25.1586`);
 these are below the stronger comparisons already used for our constructions.

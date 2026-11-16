@@ -1,0 +1,37 @@
+{
+  "review_date": "2026-11-16",
+  "scope": "Primary sources for the full 54D-56D challenge targets and the MW56 parent. This experiment makes no new priority claim.",
+  "Leterrier2022": {
+    "title": "On the Mordell-Weil lattice of y²=x³+bx+t^(3^n+1) in characteristic 3",
+    "url": "https://doi.org/10.1007/s40993-022-00321-0",
+    "preprint": "https://arxiv.org/html/2107.03064",
+    "version_reviewed": "v2, 27 March 2022",
+    "locators": [
+      "Corollary 1.4: rank-54 narrow lattice, minimum 10, determinant 3^25",
+      "Comparison table: log2 center density 15.88002 in dimension 54"
+    ],
+    "finding": "The paper supplies the valid 54D parent; it does not claim the later thesis's 55D construction."
+  },
+  "Leterrier2024": {
+    "url": "https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf",
+    "pdf_sha256": "300105a280ff9548950003bdb09e46f5ac3d334b62c6784f0d01108f6a1a521b",
+    "locators": [
+      "Proposition 1.2.9, pp.24-25: lamination statement and proof",
+      "Proposition 3.2.22, pp.155-156: printed 55D density 116783.149646..."
+    ],
+    "finding": "The displayed order-three lamination contains a norm-6 pure period. Its full numerical claim remains the acceptance target, but is not a proved input to propagated bounds.",
+    "exact_correction": "../tilted55_20261116/PROOF.md",
+    "erratum_review": "No erratum resolving this construction defect was located in this source review."
+  },
+  "SchuttShioda": {
+    "title": "Mordell-Weil Lattices, author draft 16 March 2017",
+    "url": "https://web.archive.org/web/20200209144320id_/http://www2.iag.uni-hannover.de/%7Eschuett/BookMWL17.pdf",
+    "pdf_sha256": "5936db29f23cb9f1d29f42a58aa887e5c28ecea2406a52c2cc616e9451fe2e4d",
+    "locators": [
+      "Theorem 6.23, Equation 6.15, p.123: canonical height pairing",
+      "Theorem 13.35, p.357, p=29: rank 56, minimum 10, determinant 29^8",
+      "Section 13.4.2, p.359: unitary polynomial sections"
+    ],
+    "source_to_gram_audit": "../cm58_20261116/verify.py:parent"
+  }
+}

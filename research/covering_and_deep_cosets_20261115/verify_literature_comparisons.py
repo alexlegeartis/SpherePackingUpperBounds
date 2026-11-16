@@ -94,7 +94,8 @@ def audit():
         d55 = d54*F(9, 4)
         reported = d54*F(15,4)
         tilted = json.loads((P.parent/'cross_coset55_20261116/results.json').read_text())
-        assert F(by_dimension[55]['comparison']['density_squared']) == d55
+        assert F(by_dimension[55]['comparison']['density_squared']) == reported
+        assert by_dimension[55]['comparison']['kind']=='reported_claim_with_rejected_displayed_construction'
         assert F(by_dimension[55]['best_checked']['density_squared']) == F(tilted['density_squared'])>d55
         assert F(tilted['reported_external_claim_density_squared'])==reported
         assert not tilted['world_record_claimed']
@@ -115,6 +116,8 @@ def audit():
                 'density_squared': str(d55), 'center_density': d55_decimal,
                 'comparison_kind':'derived_period_repair_not_the_printed_density',
                 'printed_density_squared_not_used_as_guarantee':str(reported),
+                'main_table_challenge_target_squared':str(reported),
+                'challenge_target_exceeded':F(tilted['density_squared'])>reported,
                 'explicit_counterexample_norm_squared':6,
                 'new_certified_55D_density_squared':tilted['density_squared'],
                 'world_record_claimed':False,
@@ -134,5 +137,4 @@ if __name__ == '__main__':
         assert json.loads(path.read_text()) == result, 'Stored literature comparison is stale.'
     for a in result['rows']:
         print(a['dimension'], a['gain_percent_display'], 'comparison verified')
-    print('55D: repaired lamination comparison', result['Leterrier55_source_correction']['center_density'],
-          '; printed claim disputed; no new world-record claim')
+    print('55D: below the full printed Leterrier target; no new world-record claim')

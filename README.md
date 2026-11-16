@@ -120,13 +120,16 @@ Research remains capped at **96D**, including parent inputs.
 The [remaining-dimensions review](research/covering_and_deep_cosets_20261115/REMAINING_DIMENSIONS.md)
 accounts for all 49 dimensions: **40 registered best-known claims** and
 **nine dimensions without a new registered record claim**.
-In **55D**, a [new cross-coset tilted lattice](research/cross_coset55_20261116/PROOF.md) has
-minimum10 and center density **91,333.867143…**, 0.966206% above the
-period-repaired lamination. The **116,783.149646…** printed in
-[Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf)
-is unsupported by its displayed construction, which has a norm6 period
-vector. Our former 55D minimum10/local-optimality claim is withdrawn.
-The printed number remains documented; **no 55D SOTA claim is made**.
+In **55D**, the comparison target is the full **116,783.149646…** printed in
+[Leterrier (2024), Proposition 3.2.22](https://infoscience.epfl.ch/record/307330/files/EPFL_TH10417.pdf).
+Our [best certified construction](research/cross_coset55_20261116/PROOF.md)
+has minimum10 and center density **91,333.867143…**, which is **below this target**.
+The source's displayed construction has a norm6 period vector, so its printed
+claim is a challenge target rather than a proved input. Our former 55D
+minimum10/local-optimality claim is withdrawn. **No 55D SOTA claim is made**.
+The [new MW56 projection search](research/mw56_projection55_20261116/PROOF.md)
+uses that full target. Exact certificates exclude all coset subsets in
+24 tested projection families; this is a search exclusion, not a new bound.
 
 The [complete 48D–96D audit](research/range48_96_20261115/TABLE.md)
 now covers **every dimension in that interval**, with named comparisons.

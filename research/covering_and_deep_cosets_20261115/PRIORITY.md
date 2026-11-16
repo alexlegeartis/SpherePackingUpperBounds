@@ -108,6 +108,8 @@ conclusion. [Source transcription and exact comparison](../../constructions/dim5
   minimum 10/local-optimality claim is withdrawn. A
   [cross-coset tilted lattice](../cross_coset55_20261116/PROOF.md) gives
   center density 91,333.867143… with **no new 55D record claim**.
+  The full printed 116,783.149646… remains the comparison target in the
+  complete range table and the [MW56 projection search](../mw56_projection55_20261116/PROOF.md).
   Its table on p.204 also reports
   weaker 68D and 74D bounds. See [review details](remaining_dimensions_review.json).
 * **Methods:** BCS supplies the P48q parent and its norm-doubler;
