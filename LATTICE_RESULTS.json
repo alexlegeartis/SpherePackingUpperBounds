@@ -1,0 +1,54 @@
+[
+  {
+    "dimension": 14,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.034712755778",
+    "named_lattice_lower_comparison": "0.0216240960824471",
+    "previous_lattice_upper": "0.0352392080",
+    "upper_decrease_percent": "1.49393886",
+    "gap_decrease_percent": "3.866675684988577168356875849220790752826",
+    "package": "verifications/lattice/dim14",
+    "comparison_source": "https://arxiv.org/abs/2610.35830",
+    "comparison_status": "Named published comparisons; not exhaustive worldwide priority",
+    "lower_source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
+  },
+  {
+    "dimension": 15,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.025511135431",
+    "named_lattice_lower_comparison": "0.0168575706567627",
+    "previous_lattice_upper": "0.0256118267",
+    "upper_decrease_percent": "0.39314364",
+    "gap_decrease_percent": "1.150197898058789738644002463867594489928",
+    "package": "verifications/lattice/dim15",
+    "comparison_source": "https://arxiv.org/abs/2610.35830",
+    "comparison_status": "Named published comparisons; not exhaustive worldwide priority",
+    "lower_source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
+  },
+  {
+    "dimension": 16,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.018655117428",
+    "named_lattice_lower_comparison": "0.0147081643974308",
+    "previous_lattice_upper": "0.0187461205771",
+    "upper_decrease_percent": "0.48545057",
+    "gap_decrease_percent": "2.253693330259349608308476703288158043718",
+    "package": "verifications/lattice/dim16",
+    "comparison_source": "https://arxiv.org/abs/2610.35830",
+    "comparison_status": "Named published comparisons; not exhaustive worldwide priority",
+    "lower_source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
+  },
+  {
+    "dimension": 18,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.010343803448",
+    "named_lattice_lower_comparison": "0.00592836871846942",
+    "previous_lattice_upper": "0.0103704834",
+    "upper_decrease_percent": "0.25726816",
+    "gap_decrease_percent": "0.6006137597241664620061959536313809433868",
+    "package": "verifications/lattice/dim18",
+    "comparison_source": "https://arxiv.org/abs/2610.35830",
+    "comparison_status": "Named published comparisons; not exhaustive worldwide priority",
+    "lower_source": "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
+  }
+]

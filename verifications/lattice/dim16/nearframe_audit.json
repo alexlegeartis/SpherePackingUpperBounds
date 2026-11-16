@@ -1,0 +1,88 @@
+{
+  "5": {
+    "unscaled_squared_witness": "42/25",
+    "histograms": 152,
+    "maximizer": [
+      7,
+      9
+    ]
+  },
+  "7": {
+    "unscaled_squared_witness": "74/49",
+    "histograms": 968,
+    "maximizer": [
+      5,
+      5,
+      6
+    ]
+  },
+  "9": {
+    "unscaled_squared_witness": "122/81",
+    "histograms": 4828,
+    "maximizer": [
+      3,
+      4,
+      5,
+      4
+    ]
+  },
+  "11": {
+    "unscaled_squared_witness": "16/11",
+    "histograms": 20348,
+    "maximizer": [
+      3,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "13": {
+    "unscaled_squared_witness": "21/13",
+    "parity_supports": 64,
+    "maximizer_mask": 1
+  },
+  "17": {
+    "unscaled_squared_witness": "27/17",
+    "parity_supports": 256,
+    "maximizer_mask": 1
+  },
+  "19": {
+    "unscaled_squared_witness": "30/19",
+    "parity_supports": 512,
+    "maximizer_mask": 1
+  },
+  "23": {
+    "unscaled_squared_witness": "36/23",
+    "parity_supports": 2048,
+    "maximizer_mask": 1
+  },
+  "29": {
+    "unscaled_squared_witness": "45/29",
+    "parity_supports": 16384,
+    "maximizer_mask": 1
+  },
+  "31": {
+    "unscaled_squared_witness": "48/31",
+    "parity_supports": 32768,
+    "maximizer_mask": 1
+  },
+  "37": {
+    "unscaled_squared_witness": "57/37",
+    "parity_supports": 262144,
+    "maximizer_mask": 1
+  },
+  "41": {
+    "unscaled_squared_witness": "63/41",
+    "parity_supports": 1048576,
+    "maximizer_mask": 1
+  },
+  "summary": {
+    "status": "PASS",
+    "normalized_witness": "21/25",
+    "S_threshold": "16/105",
+    "density_alternative_rho": "4096",
+    "index_upper_rational": "113935126873314421949/2689625554560000000",
+    "rank2_unscaled_witness": "14/9"
+  }
+}

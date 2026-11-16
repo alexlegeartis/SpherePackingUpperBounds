@@ -1,0 +1,38 @@
+{
+  "5": {
+    "cases": 135,
+    "witness": "4/5"
+  },
+  "7": {
+    "cases": 815,
+    "witness": "36/49"
+  },
+  "11": {
+    "cases": 15503,
+    "witness": "8/11"
+  },
+  "13": {
+    "cases": 54263,
+    "witness": "108/169"
+  },
+  "17": {
+    "parity_supports": 256,
+    "witness": "27/34"
+  },
+  "19": {
+    "parity_supports": 512,
+    "witness": "15/19"
+  },
+  "23": {
+    "parity_supports": 2048,
+    "witness": "18/23"
+  },
+  "order6": {
+    "cases": 26720,
+    "witness": "7/9"
+  },
+  "passed": true,
+  "gap": "1/5",
+  "index_max": 16,
+  "rho_low": "1024sqrt2"
+}

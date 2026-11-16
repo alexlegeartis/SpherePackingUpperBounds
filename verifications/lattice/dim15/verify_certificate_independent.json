@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "sha256": "7d3472f862983bc6fd9cdbdd7401cbd78744ebea357d17e5f5ad660adf34c455",
+  "exact_bound": "25511135431/1000000000000",
+  "decimal_upper": "0.025511135431",
+  "duals_checked": 46,
+  "interval_count": 120,
+  "interval_depth": 0,
+  "global_signs": {
+    "fourier": {
+      "positive": true,
+      "leaves": 84,
+      "depth": 16
+    },
+    "tail": {
+      "positive": true,
+      "leaves": 53,
+      "depth": 13
+    }
+  },
+  "low_branch": "rho<=1024sqrt2",
+  "trace_gap": "gap1/5; independently audited in audit15_theorem.py"
+}

@@ -2,6 +2,21 @@
 
 Reproducible certificates for unrestricted sphere packings, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
 
+<!-- lattice-upper-20261116:start -->
+## Lattice-only upper bounds
+
+The following bounds apply only to lattice packings, not arbitrary sphere packings. Earlier upper bounds and known lattice lower comparisons are source-attributed; worldwide priority is not asserted. [Full comparisons, method and exact reproduction](LATTICE_RESULTS.md).
+
+| Dimension | Named lattice lower comparison L | Earlier lattice upper U | New certified upper U′ | Upper decrease | Gap decrease | Certificate |
+|---:|---:|---:|---:|---:|---:|---|
+| 14 | ≈0.0216240960824471 | 0.0352392080 | **≤0.034712755778** | 1.4939% | 3.8667% | [Proof and replay](verifications/lattice/dim14/README.md) |
+| 15 | ≈0.0168575706567627 | 0.0256118267 | **≤0.025511135431** | 0.3931% | 1.1502% | [Proof and replay](verifications/lattice/dim15/README.md) |
+| 16 | ≈0.0147081643974308 | 0.0187461205771 | **≤0.018655117428** | 0.4855% | 2.2537% | [Proof and replay](verifications/lattice/dim16/README.md) |
+| 18 | ≈0.00592836871846942 | 0.0103704834 | **≤0.010343803448** | 0.2573% | 0.6006% | [Proof and replay](verifications/lattice/dim18/README.md) |
+
+Gap reductions use the displayed named lattice lower comparisons. The unrestricted tables below remain unchanged.
+<!-- lattice-upper-20261116:end -->
+
 <!-- lower-return-20261115:start -->
 > [!IMPORTANT]
 > **59D packing certificate — 15 November 2026.** The six-translate Ne64 antipode has packing fraction **2.637602590720003e-12** and center density **274,522.589741…**. A stronger literature-based comparison than the old Elkies guarantee comes from [Nebe's Γ72, §4.2](https://arxiv.org/pdf/1008.2862) and the [classical κ13 section](https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/KAPPA13.html): these imply a 59D packing of center density **269,064.727051…**. Our gain is **2.028457%**. The comparison is derived here from published inputs; it is not a 59D record quoted from those sources. [Proof, source survey and exact replay](constructions/dim59/#literature-derived-comparison).

@@ -1,0 +1,7 @@
+{
+  "mode": "n14_even8",
+  "passed": true,
+  "case_count": 2856,
+  "minimum_bound": "28/15",
+  "target": "12/25"
+}

@@ -1,0 +1,6 @@
+independent Laguerre recurrence matches p,q
+ALL120 INTERVALS PASS 2
+ALL84 PROFILEDUALS AND OBJECTIVE PASS 0.034712755777188985
+GLOBAL fourier {'positive': True, 'leaves': 88, 'depth': 16}
+GLOBAL tail {'positive': True, 'leaves': 52, 'depth': 12}
+FULL INDEPENDENT14D CERTIFICATE AUDIT PASS

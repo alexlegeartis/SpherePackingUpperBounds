@@ -1,0 +1,57 @@
+Exact Fourier/tail signs PASS
+Weighted-class lemma constants PASS
+All spatial intervals PASS
+PASS: lattice density <= 0.018743418752 using the proved weighted-class lemma
+5 {'unscaled_squared_witness': '42/25', 'histograms': 152, 'maximizer': [7, 9]}
+7 {'unscaled_squared_witness': '74/49', 'histograms': 968, 'maximizer': [5, 5, 6]}
+9 {'unscaled_squared_witness': '122/81', 'histograms': 4828, 'maximizer': [3, 4, 5, 4]}
+11 {'unscaled_squared_witness': '16/11', 'histograms': 20348, 'maximizer': [3, 3, 3, 3, 3]}
+13 {'unscaled_squared_witness': '21/13', 'parity_supports': 64, 'maximizer_mask': 1}
+17 {'unscaled_squared_witness': '27/17', 'parity_supports': 256, 'maximizer_mask': 1}
+19 {'unscaled_squared_witness': '30/19', 'parity_supports': 512, 'maximizer_mask': 1}
+23 {'unscaled_squared_witness': '36/23', 'parity_supports': 2048, 'maximizer_mask': 1}
+29 {'unscaled_squared_witness': '45/29', 'parity_supports': 16384, 'maximizer_mask': 1}
+31 {'unscaled_squared_witness': '48/31', 'parity_supports': 32768, 'maximizer_mask': 1}
+37 {'unscaled_squared_witness': '57/37', 'parity_supports': 262144, 'maximizer_mask': 1}
+41 {'unscaled_squared_witness': '63/41', 'parity_supports': 1048576, 'maximizer_mask': 1}
+ALL EXACT FINITE CHECKS PASS
+ALLPASS five 152 min (Fraction(67, 81), [0, 7, 9])
+seven 500 min 29/30
+ALLPASS seven 968 min (Fraction(29, 30), [0, 4, 6, 6])
+nine 500 min 39/20
+nine 1000 min 11/6
+nine 1500 min 11/6
+nine 2000 min 11/6
+nine 2500 min 11/6
+nine 3000 min 11/6
+nine 3500 min 11/6
+nine 4000 min 11/6
+nine 4500 min 11/6
+ALLPASS nine 4828 min (Fraction(11, 6), [0, 4, 4, 4, 4])
+ternary 500 min 186/73
+ternary 1000 min 186/73
+ternary 1500 min 186/73
+ternary 2000 min 186/73
+ternary 2500 min 186/73
+ternary 3000 min 186/73
+ternary 3500 min 186/73
+ternary 4000 min 186/73
+ternary 4500 min 186/73
+ALLPASS ternary 4780 min (Fraction(186, 73), [0, 1, 3, 6, 6])
+13 PASSED 25 supports 177 nodes maxleaf 1.4947129566598594
+17 PASSED 66 supports 322 nodes maxleaf 1.5
+19 PASSED 81 supports 439 nodes maxleaf 1.4970760233918128
+23 PASSED 176 supports 748 nodes maxleaf 1.499856066915118
+29 PASSED 147 supports 357 nodes maxleaf 1.4986087058910142
+31 PASSED 135 supports 165 nodes maxleaf 1.499660418554789
+37 PASSED 171 supports 171 nodes maxleaf 1.4885550820242046
+41 PASSED 210 supports 210 nodes maxleaf 1.4733792090823343
+43 PASSED 231 supports 231 nodes maxleaf 1.4658387092216025
+ALL p13..43 WITNESSES RAW <=3/2 CERTIFIED
+Strong near-frame rational constants PASS
+Exact Fourier/tail signs PASS
+Weighted-class lemma constants PASS
+All spatial intervals PASS
+All 2498 exact profile duals PASS
+PASS: density <=0.018655117428, using the proved near-frame dichotomy
+ALL CHECKS PASS: 16D lattice density <=0.018655117428

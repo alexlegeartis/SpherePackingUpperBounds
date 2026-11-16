@@ -1,0 +1,115 @@
+{
+  "passed": true,
+  "large_primes": [
+    {
+      "p": 13,
+      "physical_witness": "37/39"
+    },
+    {
+      "p": 17,
+      "physical_witness": "16/17"
+    },
+    {
+      "p": 19,
+      "physical_witness": "107/114"
+    },
+    {
+      "p": 23,
+      "physical_witness": "43/46"
+    },
+    {
+      "p": 29,
+      "physical_witness": "27/29"
+    },
+    {
+      "p": 31,
+      "physical_witness": "173/186"
+    },
+    {
+      "p": 37,
+      "physical_witness": "103/111"
+    },
+    {
+      "p": 41,
+      "physical_witness": "38/41"
+    },
+    {
+      "p": 43,
+      "physical_witness": "239/258"
+    },
+    {
+      "p": 47,
+      "physical_witness": "87/94"
+    },
+    {
+      "p": 53,
+      "physical_witness": "49/53"
+    },
+    {
+      "p": 59,
+      "physical_witness": "109/118"
+    },
+    {
+      "p": 61,
+      "physical_witness": "169/183"
+    },
+    {
+      "p": 67,
+      "physical_witness": "371/402"
+    },
+    {
+      "p": 71,
+      "physical_witness": "131/142"
+    },
+    {
+      "p": 73,
+      "physical_witness": "202/219"
+    },
+    {
+      "p": 79,
+      "physical_witness": "437/474"
+    },
+    {
+      "p": 83,
+      "physical_witness": "153/166"
+    },
+    {
+      "p": 89,
+      "physical_witness": "82/89"
+    },
+    {
+      "p": 97,
+      "physical_witness": "268/291"
+    },
+    {
+      "p": 101,
+      "physical_witness": "93/101"
+    },
+    {
+      "p": 103,
+      "physical_witness": "569/618"
+    },
+    {
+      "p": 107,
+      "physical_witness": "197/214"
+    },
+    {
+      "p": 109,
+      "physical_witness": "301/327"
+    },
+    {
+      "p": 113,
+      "physical_witness": "104/113"
+    },
+    {
+      "p": 127,
+      "physical_witness": "701/762"
+    }
+  ],
+  "p5_exception": "only (9,9) fullsupport",
+  "order25_witness": "23/25",
+  "index_upper": 131,
+  "allowed_index_max": 128,
+  "conditional_rho": 32768,
+  "gap": "1/25"
+}

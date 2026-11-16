@@ -1,0 +1,11 @@
+{
+  "source_repository": "https://github.com/AstroNinja389/lattice-packing-bound",
+  "source_commit": "340a0e93bb95942c2b1b80092be43149504970eb",
+  "files": {
+    "prior/taylor.py": "95771ca5ac3a90926e164901e1b1328b75d688bb045351c32fead7ccf1ff35ea",
+    "prior/bernstein.py": "24bcf0ae7cd23a861fc7a3d77bf06e77ad374ae85939cab368283313e8fa007f",
+    "dim14/prior_certificate.json": "476aead6db7a696e9e8a57f65c6652f00a1d63006c6a1228c05fb931bba116d9",
+    "dim15/prior_certificate.json": "55bb601a1d7bf522c07d730664856b88124810973078fcc077c89511a8b123e3",
+    "dim18/prior_certificate.json": "3387f92d6ca59cd95d5d0a42de89f66225d65ca55e8e1ac60e52a425e8ab7f2c"
+  }
+}
