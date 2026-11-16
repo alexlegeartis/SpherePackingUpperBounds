@@ -626,19 +626,20 @@
   {
     "dimension": 48,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000000408175",
+    "certified_density_upper_bound": "0.000000358368032",
     "named_lattice_lower_comparison": "2.31782953E-8",
-    "previous_lattice_upper": "0.0000004084357036",
-    "previous_source_certificate_upper": "0.00000040843570355",
-    "upper_decrease_percent": "0.06382977729471934441335652126",
-    "gap_decrease_percent": "0.06766997710709564569325895037",
-    "package": "verifications/lattice/dim48",
+    "previous_lattice_upper": "0.000000408175",
+    "previous_source_certificate_upper": "0.000000408175",
+    "upper_decrease_percent": "12.2023563422551601641452808231763336804066883077111533043425",
+    "gap_decrease_percent": "12.9369855357102229244093579380706839592853273582837500063413",
+    "package": "verifications/lattice/dim48_cyclic",
     "comparison_source": "https://cohn.mit.edu/sphere-packing/",
-    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "comparison_status": "Prior lattice-only certificate retained unchanged. Earlier unrestricted bound 0.00000040843570355 is a separate comparator, not a proof premise.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
-    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/72ab5c009f4136d59f72123128853606f75bf7d7/verifications/dim48/refinement_larger20261115",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
-    "previous_method_source_url": "verifications/dim48/refinement_larger20261115/"
+    "source_certificate_reference": "verifications/lattice/dim48/README.md",
+    "method": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds",
+    "previous_method_source": "Cross-class pair-sum angular coupling \u2014 Kravatskiy (2026), lattice-only bound",
+    "previous_method_source_url": "verifications/lattice/dim48/README.md",
+    "certificate_sha256": "a03938f8d309fcc2c237bd0df6342f45c44fced0765a1b453a66f85f5f6bad6f"
   }
 ]

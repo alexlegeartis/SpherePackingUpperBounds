@@ -5768,6 +5768,214 @@
       "sha256": "51a1d19f810a350f73a34f00491974d4555ecd6111e3f4fa5e84dbf7ad4bc3e6",
       "stored_sha256": "51a1d19f810a350f73a34f00491974d4555ecd6111e3f4fa5e84dbf7ad4bc3e6",
       "uncompressed_bytes": 8662
+    },
+    {
+      "path": "dim48_cyclic/ALL_SHORT_PROOF.md",
+      "stored_path": "dim48_cyclic/ALL_SHORT_PROOF.md",
+      "gzip": false,
+      "sha256": "e9042fcc554aa7666939e2ac6102b53842e673371c6657a13c798705dfb7718c",
+      "stored_sha256": "e9042fcc554aa7666939e2ac6102b53842e673371c6657a13c798705dfb7718c",
+      "uncompressed_bytes": 2574
+    },
+    {
+      "path": "dim48_cyclic/ANGULAR_PROOF.md",
+      "stored_path": "dim48_cyclic/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "adf07d53aa50554fe30594a60167281f86d08a0a17ea4dd458053047250458a3",
+      "stored_sha256": "adf07d53aa50554fe30594a60167281f86d08a0a17ea4dd458053047250458a3",
+      "uncompressed_bytes": 8506
+    },
+    {
+      "path": "dim48_cyclic/CLASS_PROFILES.md",
+      "stored_path": "dim48_cyclic/CLASS_PROFILES.md",
+      "gzip": false,
+      "sha256": "9e6af0badec0e220586450a43af0159d7f1260c7f50f9fc7529405a07233e693",
+      "stored_sha256": "9e6af0badec0e220586450a43af0159d7f1260c7f50f9fc7529405a07233e693",
+      "uncompressed_bytes": 12370
+    },
+    {
+      "path": "dim48_cyclic/COLLINEAR_CYCLIC_CREDIT.md",
+      "stored_path": "dim48_cyclic/COLLINEAR_CYCLIC_CREDIT.md",
+      "gzip": false,
+      "sha256": "f31002c26a9a3fb69e744380019a61ca731f90598ebd4ac00cb90306e93db1f0",
+      "stored_sha256": "f31002c26a9a3fb69e744380019a61ca731f90598ebd4ac00cb90306e93db1f0",
+      "uncompressed_bytes": 1732
+    },
+    {
+      "path": "dim48_cyclic/COLLINEAR_RESIDUAL.md",
+      "stored_path": "dim48_cyclic/COLLINEAR_RESIDUAL.md",
+      "gzip": false,
+      "sha256": "e7d571ee5c4678b86b938d6ed5fe733c178d9be39b52634deb7227450e457bbc",
+      "stored_sha256": "e7d571ee5c4678b86b938d6ed5fe733c178d9be39b52634deb7227450e457bbc",
+      "uncompressed_bytes": 2040
+    },
+    {
+      "path": "dim48_cyclic/CYCLIC_CLASS_BRIDGE.md",
+      "stored_path": "dim48_cyclic/CYCLIC_CLASS_BRIDGE.md",
+      "gzip": false,
+      "sha256": "1f95e6947e5320c4a5d0c14b942f00aed1d1bab183de4d491c4d07434ac62297",
+      "stored_sha256": "1f95e6947e5320c4a5d0c14b942f00aed1d1bab183de4d491c4d07434ac62297",
+      "uncompressed_bytes": 2873
+    },
+    {
+      "path": "dim48_cyclic/CYCLIC_LATTICE_BRIDGE.md",
+      "stored_path": "dim48_cyclic/CYCLIC_LATTICE_BRIDGE.md",
+      "gzip": false,
+      "sha256": "566faf13551880c491c6112a649e751f8933042192fbf7e033311a081754ab32",
+      "stored_sha256": "566faf13551880c491c6112a649e751f8933042192fbf7e033311a081754ab32",
+      "uncompressed_bytes": 3564
+    },
+    {
+      "path": "dim48_cyclic/FIRST_AUDIT.json",
+      "stored_path": "dim48_cyclic/FIRST_AUDIT.json.gz",
+      "gzip": true,
+      "sha256": "ebfd4d4314bbf2a7cb4e5522d86a1576c625f550540ef2e63bc1ec47a39718c0",
+      "stored_sha256": "17a7323945cd05e067f2933445e53a51348caa05fe9dfd83204ee5d524d8b767",
+      "uncompressed_bytes": 653
+    },
+    {
+      "path": "dim48_cyclic/MEANVALUE_CYCLIC_GATE.md",
+      "stored_path": "dim48_cyclic/MEANVALUE_CYCLIC_GATE.md",
+      "gzip": false,
+      "sha256": "d4596d4220ceb80910b7bb34bbdd8688f45e0281704071efc38f5de22913bc8b",
+      "stored_sha256": "d4596d4220ceb80910b7bb34bbdd8688f45e0281704071efc38f5de22913bc8b",
+      "uncompressed_bytes": 2530
+    },
+    {
+      "path": "dim48_cyclic/ORIGIN_RATIO_PROOF.md",
+      "stored_path": "dim48_cyclic/ORIGIN_RATIO_PROOF.md",
+      "gzip": false,
+      "sha256": "5034543c0d8461f2c5420474e87b9e316307efa666aa2f4850e93b4bffa79137",
+      "stored_sha256": "5034543c0d8461f2c5420474e87b9e316307efa666aa2f4850e93b4bffa79137",
+      "uncompressed_bytes": 1438
+    },
+    {
+      "path": "dim48_cyclic/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim48_cyclic/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "2ff2ffb701d5e5151e3fd45ab5836177854c4b5df548095b9a82d1f329b0c2e8",
+      "stored_sha256": "2ff2ffb701d5e5151e3fd45ab5836177854c4b5df548095b9a82d1f329b0c2e8",
+      "uncompressed_bytes": 2070
+    },
+    {
+      "path": "dim48_cyclic/README.md",
+      "stored_path": "dim48_cyclic/README.md",
+      "gzip": false,
+      "sha256": "42c6256f59696d724e5264fa7b2ca5b6e265baabb0623f830e842b8599cd90d4",
+      "stored_sha256": "42c6256f59696d724e5264fa7b2ca5b6e265baabb0623f830e842b8599cd90d4",
+      "uncompressed_bytes": 2915
+    },
+    {
+      "path": "dim48_cyclic/SECOND_AUDIT.json",
+      "stored_path": "dim48_cyclic/SECOND_AUDIT.json.gz",
+      "gzip": true,
+      "sha256": "c7bed59f69aa70b051075436f36083a19022fb1ae7bff3cc9463143159173d54",
+      "stored_sha256": "aa73c6781292d7c4ab02eb152b5b1a5da514f47a315c838b3dadc705677f141d",
+      "uncompressed_bytes": 468
+    },
+    {
+      "path": "dim48_cyclic/certificate.json",
+      "stored_path": "dim48_cyclic/certificate.json.gz",
+      "gzip": true,
+      "sha256": "a03938f8d309fcc2c237bd0df6342f45c44fced0765a1b453a66f85f5f6bad6f",
+      "stored_sha256": "85503eb407d37beb59c846292f84fea66eb0758a2eb70196a424a667ae6f60aa",
+      "uncompressed_bytes": 531473
+    },
+    {
+      "path": "dim48_cyclic/check_all_short.py",
+      "stored_path": "dim48_cyclic/check_all_short.py",
+      "gzip": false,
+      "sha256": "d4a89852347eee4e28f83cafc7ab3e170b8b3df3877a44e6d1b46cc86c8a3207",
+      "stored_sha256": "d4a89852347eee4e28f83cafc7ab3e170b8b3df3877a44e6d1b46cc86c8a3207",
+      "uncompressed_bytes": 1931
+    },
+    {
+      "path": "dim48_cyclic/check_narrow.py",
+      "stored_path": "dim48_cyclic/check_narrow.py",
+      "gzip": false,
+      "sha256": "56bfafe941fd24758f7bdb00d07bc233f012aeeaefcf638dfbfd814fb5ec201f",
+      "stored_sha256": "56bfafe941fd24758f7bdb00d07bc233f012aeeaefcf638dfbfd814fb5ec201f",
+      "uncompressed_bytes": 1942
+    },
+    {
+      "path": "dim48_cyclic/cyclic/angular.json",
+      "stored_path": "dim48_cyclic/cyclic/angular.json.gz",
+      "gzip": true,
+      "sha256": "c89a694a264a3ebdcff9690a12aba03bca7e6be14c768d5465e10e146c914700",
+      "stored_sha256": "bb5c93b0454cb29136b66ec0f9fb83092d1e197b4f995d5fc5588679e644f120",
+      "uncompressed_bytes": 1928
+    },
+    {
+      "path": "dim48_cyclic/cyclic/certificate.json",
+      "stored_path": "dim48_cyclic/cyclic/certificate.json.gz",
+      "gzip": true,
+      "sha256": "4bb6982c2d1c7747dcfcc0a3b23022faa53f0547273e044122fc48aa975b3cf6",
+      "stored_sha256": "ced0997be6d382cb7efa5d99907d0b7dcd725b3bc9987b7b7c12f065fc875d36",
+      "uncompressed_bytes": 53
+    },
+    {
+      "path": "dim48_cyclic/cyclic/meanvalue_angular.py",
+      "stored_path": "dim48_cyclic/cyclic/meanvalue_angular.py",
+      "gzip": false,
+      "sha256": "54467801f758fe9fb03e78a445f53af2ff1bb0e7584b97221819aa9abd1d80c1",
+      "stored_sha256": "54467801f758fe9fb03e78a445f53af2ff1bb0e7584b97221819aa9abd1d80c1",
+      "uncompressed_bytes": 6670
+    },
+    {
+      "path": "dim48_cyclic/finish.py",
+      "stored_path": "dim48_cyclic/finish.py",
+      "gzip": false,
+      "sha256": "1b987a4da07e3e17a4413a8cb22786c58c1c79accb836028c69e40a2420ca4d5",
+      "stored_sha256": "1b987a4da07e3e17a4413a8cb22786c58c1c79accb836028c69e40a2420ca4d5",
+      "uncompressed_bytes": 2001
+    },
+    {
+      "path": "dim48_cyclic/interval.py",
+      "stored_path": "dim48_cyclic/interval.py",
+      "gzip": false,
+      "sha256": "5c73af33e54e2303f59afb627cd12ce45c1fb2711c5cc28e1dbd3f2cf81d715d",
+      "stored_sha256": "5c73af33e54e2303f59afb627cd12ce45c1fb2711c5cc28e1dbd3f2cf81d715d",
+      "uncompressed_bytes": 1608
+    },
+    {
+      "path": "dim48_cyclic/profiles.py",
+      "stored_path": "dim48_cyclic/profiles.py",
+      "gzip": false,
+      "sha256": "fccea37ed6d2cf20ad97d64e395c0ede43fc05dbdc4f358d92447db389f21dca",
+      "stored_sha256": "fccea37ed6d2cf20ad97d64e395c0ede43fc05dbdc4f358d92447db389f21dca",
+      "uncompressed_bytes": 3841
+    },
+    {
+      "path": "dim48_cyclic/replay.py",
+      "stored_path": "dim48_cyclic/replay.py",
+      "gzip": false,
+      "sha256": "c93077a1d0ed6615d8211aefc703c7dd2be0aa5910fc96e086e95e7bcdc660cb",
+      "stored_sha256": "c93077a1d0ed6615d8211aefc703c7dd2be0aa5910fc96e086e95e7bcdc660cb",
+      "uncompressed_bytes": 4146
+    },
+    {
+      "path": "dim48_cyclic/requirements.txt",
+      "stored_path": "dim48_cyclic/requirements.txt",
+      "gzip": false,
+      "sha256": "bb4f8aebda388ffdedfb18af388a182858b7b7e3da32432152feb80b654c63a3",
+      "stored_sha256": "bb4f8aebda388ffdedfb18af388a182858b7b7e3da32432152feb80b654c63a3",
+      "uncompressed_bytes": 34
+    },
+    {
+      "path": "dim48_cyclic/run_all.py",
+      "stored_path": "dim48_cyclic/run_all.py",
+      "gzip": false,
+      "sha256": "b6e84ed53859afd6fd6079c62a2ea255c9ba223584c2cd67ed6f5950b1a2d590",
+      "stored_sha256": "b6e84ed53859afd6fd6079c62a2ea255c9ba223584c2cd67ed6f5950b1a2d590",
+      "uncompressed_bytes": 692
+    },
+    {
+      "path": "dim48_cyclic/verify_second.py",
+      "stored_path": "dim48_cyclic/verify_second.py",
+      "gzip": false,
+      "sha256": "083abcb3683aa849f5397f887dc91c1512e1888ec7c07fbcb1920e13c9b9adc5",
+      "stored_sha256": "083abcb3683aa849f5397f887dc91c1512e1888ec7c07fbcb1920e13c9b9adc5",
+      "uncompressed_bytes": 8582
     }
   ]
 }
