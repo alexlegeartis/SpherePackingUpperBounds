@@ -5,7 +5,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-Lattice-only results, compared with the supplied Cohn-table snapshot (38D uses the preceding unrestricted repository bound); the 23D, 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
+Lattice-only results, compared with the supplied Cohn-table snapshot (38D–40D use the preceding unrestricted repository bounds); the 23D, 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
 
 | n | Lower | Prior / source | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
@@ -33,6 +33,8 @@ Lattice-only results, compared with the supplied Cohn-table snapshot (38D uses t
 | 36 | 7.33034e-7 | 2.86681e-5<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
 | 37 | 3.21356e-7 | 2.09427e-5<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim37/refinement_profile20261114/) | **≤2.05805e-5** | 1.73% | 1.76% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim37/README.md) |
 | 38 | — | 1.45183e-5<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim38/refinement_profile20261114/) | **≤1.32343e-5** | 8.84% | — | [Cyclic PSD kernel with forced collinear triples + mod-2 class profiles](verifications/lattice/dim38/README.md) |
+| 39 | — | 1.02201e-5<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim39/refinement_profile20261114/) | **≤9.08651e-6** | 11.09% | — | [Cyclic PSD kernel with forced collinear triples + mod-2 class profiles](verifications/lattice/dim39/README.md) |
+| 40 | — | 7.30566e-6<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim40/refinement_profile20261114/) | **≤6.88763e-6** | 5.72% | — | [Cyclic PSD kernel with forced collinear triples + mod-2 class profiles](verifications/lattice/dim40/README.md) |
 | 45 | 2.52315e-8 | 1.26563e-6<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim45/refinement_profile20261114/) | **≤1.26363e-6** | 0.16% | 0.16% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim45/README.md) |
 | 46 | 2.27179e-8 | 8.71245e-7<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim46/refinement_profile20261114/) | **≤8.68002e-7** | 0.37% | 0.38% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim46/README.md) |
 | 47 | 2.1466e-8 | 5.9377e-7<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim47/refinement_profile20261114/) | **≤5.9101e-7** | 0.46% | 0.48% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim47/README.md) |

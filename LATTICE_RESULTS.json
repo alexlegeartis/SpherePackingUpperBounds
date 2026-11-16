@@ -430,6 +430,38 @@
     "certificate_sha256": "42d13a9e04e2714f7768d55bcddbe45c6d3aa6c45e816190fd6cc5b38c89d96c"
   },
   {
+    "dimension": 39,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000009086501484",
+    "strict": true,
+    "named_lattice_lower_comparison": null,
+    "previous_lattice_upper": "0.0000102200707605",
+    "upper_decrease_percent": "11.09159910008824639976914179",
+    "gap_decrease_percent": null,
+    "package": "verifications/lattice/dim39",
+    "comparison_status": "Previous unrestricted repository bound, also valid for lattices; no worldwide-priority guarantee. Lattice lower and gap omitted pending verified source.",
+    "method": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim39/refinement_profile20261114/",
+    "certificate_sha256": "32915e94df222f092af74294917a4896df8a3f85d6c20db17e1ba085e368bc31"
+  },
+  {
+    "dimension": 40,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000006887626280",
+    "strict": true,
+    "named_lattice_lower_comparison": null,
+    "previous_lattice_upper": "0.0000073056578108",
+    "upper_decrease_percent": "5.722024513412349433496135847",
+    "gap_decrease_percent": null,
+    "package": "verifications/lattice/dim40",
+    "comparison_status": "Previous unrestricted repository bound, also valid for lattices; no worldwide-priority guarantee. Lattice lower and gap omitted pending verified source.",
+    "method": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim40/refinement_profile20261114/",
+    "certificate_sha256": "01b7ab491970e717c9dec32f13f42fdf326bb26826518d509dae22f34fb4ff28"
+  },
+  {
     "dimension": 45,
     "scope": "lattice_only",
     "certified_density_upper_bound": "0.000001263630",
