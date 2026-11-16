@@ -5,7 +5,7 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-Lattice-only results, compared with the supplied Cohn-table snapshot; the 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
+Lattice-only results, compared with the supplied Cohn-table snapshot; the 23D, 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
 
 | n | Lower | Prior / source | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
@@ -18,6 +18,7 @@ Lattice-only results, compared with the supplied Cohn-table snapshot; the 37D an
 | 20 | 0.00322586 | 0.00595809<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00595464** | 0.06% | 0.13% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim20/README.md) |
 | 21 | 0.00246588 | 0.00456046<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00455796** | 0.05% | 0.12% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim21/README.md) |
 | 22 | 0.00212766 | 0.00348597<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00348294** | 0.09% | 0.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim22/README.md) |
+| 23 | 0.00190532 | 0.00261354<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim23/refinement_combined20261115/) | **≤0.00260841** | 0.20% | 0.73% | [Conditioned nested Gram-moment class profiles](verifications/lattice/dim23/README.md) |
 | 25 | 6.77212e-4 | 0.00132931<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00132524** | 0.31% | 0.63% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim25/README.md) |
 | 26 | 2.6922e-4 | 9.1512e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤9.0721e-4** | 0.86% | 1.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim26/README.md) |
 | 27 | 1.28675e-4 | 6.31343e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤6.22939e-4** | 1.33% | 1.67% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim27/README.md) |

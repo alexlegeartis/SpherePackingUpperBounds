@@ -162,6 +162,24 @@
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
+    "dimension": 23,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.002608401581",
+    "named_lattice_lower_comparison": "0.0019053281934260",
+    "previous_lattice_upper": "0.0026135387306483",
+    "previous_source_certificate_upper": "0.0026135387307",
+    "upper_decrease_percent": "0.1965591551431000602469465723",
+    "gap_decrease_percent": "0.7253704058751531379346781132",
+    "package": "verifications/lattice/dim23",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/800da5d7ae36f4d3bb4df85b4a3b8cde7213cc85/verifications/dim23/refinement_combined20261115",
+    "method": "Conditioned nested Gram-moment class profiles",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim23/refinement_combined20261115/"
+  },
+  {
     "dimension": 25,
     "scope": "lattice_only",
     "certified_density_upper_bound": "0.001325232433",
