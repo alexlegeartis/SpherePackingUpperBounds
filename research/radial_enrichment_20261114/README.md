@@ -1,8 +1,10 @@
 # Radial enrichment: 14 November 2026
 
-Three newly computed exact certificates improve the current unrestricted
-sphere-packing upper bounds. The complete primary and independent proof
-chains pass for every new witness.
+This is the historical 14 November release. Its three certified improvements
+are now superseded by the profile certificates selected in the
+[current registry](../../RESULTS.json) and [leaderboard](../../RESULTS.md).
+The complete primary and independent proof chains remain available for each
+frozen witness; discovery failures stay in this research package.
 
 | Dimension | Previous repository strict upper | New strict upper | Decrease |
 | --- | --- | --- | --- |

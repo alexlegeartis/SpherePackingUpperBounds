@@ -9,6 +9,7 @@ out=[]
 for n in [45,46,47]:
     D=ROOT/f'verifications/dim{n}/refinement_radial20261114'
     script=D/'verify.py'
+    frozen_bound=Fraction(json.loads(original_read(D/'config.json'))['strict_density_upper_bound'])
     for mode in ['valid','bad_bound','bad_package','bad_hash']:
         calls=[]
         def fake(cmd,**kwargs):
@@ -17,7 +18,10 @@ for n in [45,46,47]:
             s=original_read(path,*args,**kwargs)
             if path==ROOT/'RESULTS.json' and mode in ['bad_bound','bad_package']:
                 rows=json.loads(s);r=next(r for r in rows if r['dimension']==n)
-                r['strict_density_upper_bound' if mode=='bad_bound' else 'package']='0' if mode=='bad_bound' else 'wrong'
+                # Historical certificates accept an already registered stronger
+                # successor. A smaller bound is therefore a valid compatibility
+                # input; use a weaker bound to test the rejection gate.
+                r['strict_density_upper_bound' if mode=='bad_bound' else 'package']=str(2*frozen_bound) if mode=='bad_bound' else 'wrong'
                 return json.dumps(rows)
             if path==D/'source_hashes.json' and mode=='bad_hash':
                 r=json.loads(s);r[next(iter(r))]='0'*64;return json.dumps(r)
@@ -55,7 +59,7 @@ for n in [45,46,47]:
         finally:subprocess.run=original_run
         assert len(calls)==2,(p,calls)
     out.append({'dimension':n,'valid_registry_runs_all_five_proofs':True,
-                'bad_bound_package_and_hash_rejected_before_subprocess':True,
+                'weaker_bound_bad_package_and_bad_hash_rejected_before_subprocess':True,
                 'all_new_entrypoints_reject_optimized_mode':True,
                 'preserved_historical_registration_gates_pass':True,
                 'scope':'Control-flow gates; mathematical replays are recorded separately'})

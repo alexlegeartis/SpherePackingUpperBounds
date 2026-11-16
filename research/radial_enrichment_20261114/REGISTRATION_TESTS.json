@@ -2,7 +2,7 @@
   {
     "dimension": 45,
     "valid_registry_runs_all_five_proofs": true,
-    "bad_bound_package_and_hash_rejected_before_subprocess": true,
+    "weaker_bound_bad_package_and_bad_hash_rejected_before_subprocess": true,
     "all_new_entrypoints_reject_optimized_mode": true,
     "preserved_historical_registration_gates_pass": true,
     "scope": "Control-flow gates; mathematical replays are recorded separately"
@@ -10,7 +10,7 @@
   {
     "dimension": 46,
     "valid_registry_runs_all_five_proofs": true,
-    "bad_bound_package_and_hash_rejected_before_subprocess": true,
+    "weaker_bound_bad_package_and_bad_hash_rejected_before_subprocess": true,
     "all_new_entrypoints_reject_optimized_mode": true,
     "preserved_historical_registration_gates_pass": true,
     "scope": "Control-flow gates; mathematical replays are recorded separately"
@@ -18,7 +18,7 @@
   {
     "dimension": 47,
     "valid_registry_runs_all_five_proofs": true,
-    "bad_bound_package_and_hash_rejected_before_subprocess": true,
+    "weaker_bound_bad_package_and_bad_hash_rejected_before_subprocess": true,
     "all_new_entrypoints_reject_optimized_mode": true,
     "preserved_historical_registration_gates_pass": true,
     "scope": "Control-flow gates; mathematical replays are recorded separately"
