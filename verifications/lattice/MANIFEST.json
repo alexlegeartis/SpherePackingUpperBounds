@@ -906,6 +906,102 @@
       "uncompressed_bytes": 6703
     },
     {
+      "path": "dim25/ANGULAR_PROOF.md",
+      "stored_path": "dim25/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim25/METHOD.md",
+      "stored_path": "dim25/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim25/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim25/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim25/README.md",
+      "stored_path": "dim25/README.md",
+      "gzip": false,
+      "sha256": "e127775d2c3ef3140f5318eff2e8009c05653a8a079b725b8f2b6d8567b45681",
+      "stored_sha256": "e127775d2c3ef3140f5318eff2e8009c05653a8a079b725b8f2b6d8567b45681",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim25/SHA256SUMS",
+      "stored_path": "dim25/SHA256SUMS",
+      "gzip": false,
+      "sha256": "2cf33c3e8b45f99ccf6e38f609259be37ab19dbe20e3a8b361da199e5349f4bd",
+      "stored_sha256": "2cf33c3e8b45f99ccf6e38f609259be37ab19dbe20e3a8b361da199e5349f4bd",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim25/certificate.json",
+      "stored_path": "dim25/certificate.json.gz",
+      "gzip": true,
+      "sha256": "12f13a429a21813a0a28f0f560b23e27d5e603727c977d44e666d51f4438e369",
+      "stored_sha256": "5ace1613882b9e4b2839c7d6bccfd2beedc73dc61caf896ab9268b4606b7a323",
+      "uncompressed_bytes": 595491
+    },
+    {
+      "path": "dim25/comparison_certificate.json",
+      "stored_path": "dim25/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "8f15e6220d5c0700cbf02ed637aefeaf763a894df098b7f7329f3ccbede14fa6",
+      "stored_sha256": "e7d262f70cb8dbc72adf01a9828c65e07206bf871d4f9c188b5d8bddd33e9060",
+      "uncompressed_bytes": 12066
+    },
+    {
+      "path": "dim25/gegenbauer.py",
+      "stored_path": "dim25/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim25/independent_audit.json",
+      "stored_path": "dim25/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "14be56cc60df6de0c3520e2bba58fc0db7c1832b767d1dd88f03db66ae88c139",
+      "stored_sha256": "bd232e2ea6feabe88aca3a7f63f2b19e48136f5981cebc4b7aca27787de83015",
+      "uncompressed_bytes": 391
+    },
+    {
+      "path": "dim25/run_all.py",
+      "stored_path": "dim25/run_all.py",
+      "gzip": false,
+      "sha256": "ff09d380538c9eb1cc5bbbd5000ce610f78a3459791a77123df75025af7d95db",
+      "stored_sha256": "ff09d380538c9eb1cc5bbbd5000ce610f78a3459791a77123df75025af7d95db",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim25/verify_complete.py",
+      "stored_path": "dim25/verify_complete.py",
+      "gzip": false,
+      "sha256": "6dc731cd63f429d6d2372a3fe8a3f33e611c9ae1cf5ab79ddcb0030bd445041e",
+      "stored_sha256": "6dc731cd63f429d6d2372a3fe8a3f33e611c9ae1cf5ab79ddcb0030bd445041e",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim25/verify_sympy.py",
+      "stored_path": "dim25/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
       "path": "dim26/ANGULAR_PROOF.md",
       "stored_path": "dim26/ANGULAR_PROOF.md",
       "gzip": false,
@@ -1010,6 +1106,486 @@
       "uncompressed_bytes": 5700
     },
     {
+      "path": "dim27/ANGULAR_PROOF.md",
+      "stored_path": "dim27/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim27/METHOD.md",
+      "stored_path": "dim27/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim27/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim27/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim27/README.md",
+      "stored_path": "dim27/README.md",
+      "gzip": false,
+      "sha256": "95956012350f755e42dae7ff36d69dc7878c9a41308aded477ee7759f9d1a682",
+      "stored_sha256": "95956012350f755e42dae7ff36d69dc7878c9a41308aded477ee7759f9d1a682",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim27/SHA256SUMS",
+      "stored_path": "dim27/SHA256SUMS",
+      "gzip": false,
+      "sha256": "d4465db5b87bc1b1879902a346732dfc9bc518676515f30a0db24f7a63c70713",
+      "stored_sha256": "d4465db5b87bc1b1879902a346732dfc9bc518676515f30a0db24f7a63c70713",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim27/certificate.json",
+      "stored_path": "dim27/certificate.json.gz",
+      "gzip": true,
+      "sha256": "dba4ba922b74fc1d1ba712a5161db80739ec8fce18af71963d4d7064b0eadb7c",
+      "stored_sha256": "7451b95eb29a44f48ef7ca582456d1b1527024ab01a3db42c6646f5c1699c24f",
+      "uncompressed_bytes": 588380
+    },
+    {
+      "path": "dim27/comparison_certificate.json",
+      "stored_path": "dim27/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "110a7ce9bad1a934270ef9fb946ddf0e4c485164aca7b391d91d22dd889e3bd5",
+      "stored_sha256": "dbeef1ceecab83ba22054cfc6215f40522da1cc42cc26122166b963f4bf02464",
+      "uncompressed_bytes": 12155
+    },
+    {
+      "path": "dim27/gegenbauer.py",
+      "stored_path": "dim27/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim27/independent_audit.json",
+      "stored_path": "dim27/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "a6674834b3761e951f1fb5f425258302e2b0f2aee209db0aabfba031d4c073a8",
+      "stored_sha256": "aefde18cac366ccaa47957c1ed1ef00eac73e6f6385f3f636313e8528f7efd2b",
+      "uncompressed_bytes": 390
+    },
+    {
+      "path": "dim27/run_all.py",
+      "stored_path": "dim27/run_all.py",
+      "gzip": false,
+      "sha256": "0e6bd7b02492e33b872796094b09fc90144ff41bfefc6ac60bf5a526bcbb8714",
+      "stored_sha256": "0e6bd7b02492e33b872796094b09fc90144ff41bfefc6ac60bf5a526bcbb8714",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim27/verify_complete.py",
+      "stored_path": "dim27/verify_complete.py",
+      "gzip": false,
+      "sha256": "5790fd2aa84fc8ad3d6aafa3bbd6b5abce82ec44691de9722a39664b4bb9cd1b",
+      "stored_sha256": "5790fd2aa84fc8ad3d6aafa3bbd6b5abce82ec44691de9722a39664b4bb9cd1b",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim27/verify_sympy.py",
+      "stored_path": "dim27/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim28/ANGULAR_PROOF.md",
+      "stored_path": "dim28/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim28/METHOD.md",
+      "stored_path": "dim28/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim28/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim28/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim28/README.md",
+      "stored_path": "dim28/README.md",
+      "gzip": false,
+      "sha256": "e2c62c74896ec3a2be8eadcc084c7dbb96584392897bf4eca319c51c64ab6880",
+      "stored_sha256": "e2c62c74896ec3a2be8eadcc084c7dbb96584392897bf4eca319c51c64ab6880",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim28/SHA256SUMS",
+      "stored_path": "dim28/SHA256SUMS",
+      "gzip": false,
+      "sha256": "df030de1fa209b3ca017b2da3c2288ca14b6647b808f4c841faa03fd4a59bea6",
+      "stored_sha256": "df030de1fa209b3ca017b2da3c2288ca14b6647b808f4c841faa03fd4a59bea6",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim28/certificate.json",
+      "stored_path": "dim28/certificate.json.gz",
+      "gzip": true,
+      "sha256": "102f608dd7d17a26d583e9d6918a23520077369d6a54db747dc10430884b3418",
+      "stored_sha256": "06f2f66eefc86f069ee09929d451fd4b68c38205b4915f0b49e88f558d2d39a1",
+      "uncompressed_bytes": 538899
+    },
+    {
+      "path": "dim28/comparison_certificate.json",
+      "stored_path": "dim28/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "0bc6afca199f184712c3ebd1c7a41c7c02f9852fcea71dc1d4b1badc02b7b91f",
+      "stored_sha256": "5d68cbce731dc00cc96452f22cddeb6325ac5365fc6ca94bdd7e7a09826e7794",
+      "uncompressed_bytes": 12159
+    },
+    {
+      "path": "dim28/gegenbauer.py",
+      "stored_path": "dim28/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim28/independent_audit.json",
+      "stored_path": "dim28/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "1f1c333b53dbb5db027e60b75209e801210ba131d09cf3042ee244dd6e2d17c3",
+      "stored_sha256": "103bedd00e4e56efd82cf38217f2c738367424b43ed46bcddcf790efb8e26a43",
+      "uncompressed_bytes": 390
+    },
+    {
+      "path": "dim28/run_all.py",
+      "stored_path": "dim28/run_all.py",
+      "gzip": false,
+      "sha256": "cec5a7139545f95fbfe636ba39869e84672e0d50ded9660a153c560f31d24938",
+      "stored_sha256": "cec5a7139545f95fbfe636ba39869e84672e0d50ded9660a153c560f31d24938",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim28/verify_complete.py",
+      "stored_path": "dim28/verify_complete.py",
+      "gzip": false,
+      "sha256": "3c877b1a2186319345ffd194ac90fe65719b210cfa88e2661dc06806c4cbf34a",
+      "stored_sha256": "3c877b1a2186319345ffd194ac90fe65719b210cfa88e2661dc06806c4cbf34a",
+      "uncompressed_bytes": 6467
+    },
+    {
+      "path": "dim28/verify_sympy.py",
+      "stored_path": "dim28/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim29/ANGULAR_PROOF.md",
+      "stored_path": "dim29/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim29/METHOD.md",
+      "stored_path": "dim29/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim29/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim29/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim29/README.md",
+      "stored_path": "dim29/README.md",
+      "gzip": false,
+      "sha256": "ec9398d1993360996dbfc62eeb96e21119ba5405b83c4803fb6a34628570bfaf",
+      "stored_sha256": "ec9398d1993360996dbfc62eeb96e21119ba5405b83c4803fb6a34628570bfaf",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim29/SHA256SUMS",
+      "stored_path": "dim29/SHA256SUMS",
+      "gzip": false,
+      "sha256": "dce901a1686c854468326d0f2d4c5d7b66757cee6f7f2f80d4913e7bc4436e69",
+      "stored_sha256": "dce901a1686c854468326d0f2d4c5d7b66757cee6f7f2f80d4913e7bc4436e69",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim29/certificate.json",
+      "stored_path": "dim29/certificate.json.gz",
+      "gzip": true,
+      "sha256": "a0ee675a01bc4ac521849b7d728044efeefbf10fc74ee59564e8c1a304864c57",
+      "stored_sha256": "0e63093266e9839962beb381123893137c5b0b662df90bd4483e812649643671",
+      "uncompressed_bytes": 602555
+    },
+    {
+      "path": "dim29/comparison_certificate.json",
+      "stored_path": "dim29/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "a5067ce569b1c88de7ca57b5d5d386d9a64fd7521ee3ff46e07146e5326de36f",
+      "stored_sha256": "6489a857ef23d175d8b96c62d4edfc9ea903f215ff3765b1d21f985caa4c8bf2",
+      "uncompressed_bytes": 12158
+    },
+    {
+      "path": "dim29/gegenbauer.py",
+      "stored_path": "dim29/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim29/independent_audit.json",
+      "stored_path": "dim29/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "b9cf92dcd77951d4a864923a89e84a3af0aef31af64f36cf1e35060c7ba94219",
+      "stored_sha256": "6a6ebd09c1ce32ee28f7e2edfd63494c820dd74a22ca508df9d213e78c235479",
+      "uncompressed_bytes": 390
+    },
+    {
+      "path": "dim29/run_all.py",
+      "stored_path": "dim29/run_all.py",
+      "gzip": false,
+      "sha256": "6375fd4baf22e6098f892c8086c0aa20ece770cc20643e6021478403063640b0",
+      "stored_sha256": "6375fd4baf22e6098f892c8086c0aa20ece770cc20643e6021478403063640b0",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim29/verify_complete.py",
+      "stored_path": "dim29/verify_complete.py",
+      "gzip": false,
+      "sha256": "442b68bc26f36a648849fb876264e9d2973dd19f2a268852ddfe237a04d9e758",
+      "stored_sha256": "442b68bc26f36a648849fb876264e9d2973dd19f2a268852ddfe237a04d9e758",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim29/verify_sympy.py",
+      "stored_path": "dim29/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim30/ANGULAR_PROOF.md",
+      "stored_path": "dim30/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim30/METHOD.md",
+      "stored_path": "dim30/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim30/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim30/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim30/README.md",
+      "stored_path": "dim30/README.md",
+      "gzip": false,
+      "sha256": "5c31d85cb6864aa4bb88d3d851c4fa389ab582cce14a31ad47a86b2ce0669b9e",
+      "stored_sha256": "5c31d85cb6864aa4bb88d3d851c4fa389ab582cce14a31ad47a86b2ce0669b9e",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim30/SHA256SUMS",
+      "stored_path": "dim30/SHA256SUMS",
+      "gzip": false,
+      "sha256": "b52ef741086209ca9a6e0976b56ef5a70486ce119e2233d49fb3083218170088",
+      "stored_sha256": "b52ef741086209ca9a6e0976b56ef5a70486ce119e2233d49fb3083218170088",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim30/certificate.json",
+      "stored_path": "dim30/certificate.json.gz",
+      "gzip": true,
+      "sha256": "dd5bb853132587d1a7169ab7bc3afbfdd077e4966336d1073e31d3de81b129db",
+      "stored_sha256": "0712a1632e27fe8a09120a1e17cf44f2be083b1fa8afe4860ece8d1fff83b353",
+      "uncompressed_bytes": 361495
+    },
+    {
+      "path": "dim30/comparison_certificate.json",
+      "stored_path": "dim30/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "71e3bd36eff54737a238f311f520c6e79deb1445bf760af0d6463ff83586d13a",
+      "stored_sha256": "601b31913b7261e867a8fd571182fc7277c544f499e441eb4814df96e2029d6e",
+      "uncompressed_bytes": 12158
+    },
+    {
+      "path": "dim30/gegenbauer.py",
+      "stored_path": "dim30/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim30/independent_audit.json",
+      "stored_path": "dim30/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "9037c5aa990afffc5e3bd912abcfcde7ba536224e3d8eb191aa519a2c1f0ace4",
+      "stored_sha256": "bf86f1337d9413728a13eb9e49f6a5f6a14165c4ffad61fcc6b8f951569289e2",
+      "uncompressed_bytes": 389
+    },
+    {
+      "path": "dim30/run_all.py",
+      "stored_path": "dim30/run_all.py",
+      "gzip": false,
+      "sha256": "2d99ad4711a45259c4c379b3668e6d0798bd612e15b25aa337f476bf24201718",
+      "stored_sha256": "2d99ad4711a45259c4c379b3668e6d0798bd612e15b25aa337f476bf24201718",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim30/verify_complete.py",
+      "stored_path": "dim30/verify_complete.py",
+      "gzip": false,
+      "sha256": "0a5a2f25e011eae146870d08596c6ef2cb72442817066da3cf12984837b55c8d",
+      "stored_sha256": "0a5a2f25e011eae146870d08596c6ef2cb72442817066da3cf12984837b55c8d",
+      "uncompressed_bytes": 6467
+    },
+    {
+      "path": "dim30/verify_sympy.py",
+      "stored_path": "dim30/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim31/ANGULAR_PROOF.md",
+      "stored_path": "dim31/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim31/METHOD.md",
+      "stored_path": "dim31/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim31/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim31/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim31/README.md",
+      "stored_path": "dim31/README.md",
+      "gzip": false,
+      "sha256": "607a62e483d638924a3890b1e357027a66176f7cb76d788cb1becf8cd19f2b71",
+      "stored_sha256": "607a62e483d638924a3890b1e357027a66176f7cb76d788cb1becf8cd19f2b71",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim31/SHA256SUMS",
+      "stored_path": "dim31/SHA256SUMS",
+      "gzip": false,
+      "sha256": "20ca47188711dd8f0abb54f4f068e17f75bb72383f6e9653963f06392fd11577",
+      "stored_sha256": "20ca47188711dd8f0abb54f4f068e17f75bb72383f6e9653963f06392fd11577",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim31/certificate.json",
+      "stored_path": "dim31/certificate.json.gz",
+      "gzip": true,
+      "sha256": "b29a49db41b954edee4fcc93af836f87a9d537e998b3a60fde91b01399119a49",
+      "stored_sha256": "21c10e552c71ff0a0a2079b6f55671d92a1eca90d8ca1ff353510c6ad2ac4b50",
+      "uncompressed_bytes": 611216
+    },
+    {
+      "path": "dim31/comparison_certificate.json",
+      "stored_path": "dim31/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "a68bcefc243f73ae33aeb490f21232815e888f59341a47c1bd0ccfe2c1bf7ac4",
+      "stored_sha256": "b2092f5ceb96bf89b48e4f5987335b1c5f6a6feab818a5343642958f05255ca5",
+      "uncompressed_bytes": 12157
+    },
+    {
+      "path": "dim31/gegenbauer.py",
+      "stored_path": "dim31/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim31/independent_audit.json",
+      "stored_path": "dim31/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "ed7e014a0bc1ede63456872ebba51b09f8c0353d9edab086a42a8378da3579df",
+      "stored_sha256": "009563b0cbb4ccb4ff29428669b1916294c6c4dd2bc2dbb9b5ec5d3fd94ca280",
+      "uncompressed_bytes": 390
+    },
+    {
+      "path": "dim31/run_all.py",
+      "stored_path": "dim31/run_all.py",
+      "gzip": false,
+      "sha256": "2eebd3f045ed9b75acd7d30bf2a37f80bda2f7f45799df764e1fd58cb00622a5",
+      "stored_sha256": "2eebd3f045ed9b75acd7d30bf2a37f80bda2f7f45799df764e1fd58cb00622a5",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim31/verify_complete.py",
+      "stored_path": "dim31/verify_complete.py",
+      "gzip": false,
+      "sha256": "db1ebe2e0acd87443537ae1e10d878c9e24fb97760c6e3ff5391a3a11f4bd757",
+      "stored_sha256": "db1ebe2e0acd87443537ae1e10d878c9e24fb97760c6e3ff5391a3a11f4bd757",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim31/verify_sympy.py",
+      "stored_path": "dim31/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
       "path": "dim32/ANGULAR_PROOF.md",
       "stored_path": "dim32/ANGULAR_PROOF.md",
       "gzip": false,
@@ -1108,6 +1684,390 @@
     {
       "path": "dim32/verify_sympy.py",
       "stored_path": "dim32/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim33/ANGULAR_PROOF.md",
+      "stored_path": "dim33/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim33/METHOD.md",
+      "stored_path": "dim33/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim33/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim33/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim33/README.md",
+      "stored_path": "dim33/README.md",
+      "gzip": false,
+      "sha256": "581e044b2a865c84b8a5ed0acc2feeb6ca96dd8c6488838e013dbe103fc20fbc",
+      "stored_sha256": "581e044b2a865c84b8a5ed0acc2feeb6ca96dd8c6488838e013dbe103fc20fbc",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim33/SHA256SUMS",
+      "stored_path": "dim33/SHA256SUMS",
+      "gzip": false,
+      "sha256": "41247934c96cf8e9059834f354713629fba1ce2c207e30f9af9f1261ab6f1e81",
+      "stored_sha256": "41247934c96cf8e9059834f354713629fba1ce2c207e30f9af9f1261ab6f1e81",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim33/certificate.json",
+      "stored_path": "dim33/certificate.json.gz",
+      "gzip": true,
+      "sha256": "baddc0a1a28dc73f7e2cc9a779a2a2135616c1859aa595afa8bd73760efc14f4",
+      "stored_sha256": "56e928ac795e8f70cebb9bff18df7daa672d001ce01ab2b7f51b385b9d69985c",
+      "uncompressed_bytes": 549759
+    },
+    {
+      "path": "dim33/comparison_certificate.json",
+      "stored_path": "dim33/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "d6e0c4a3edcb020f5cc862ef0f75e009054abcbd19a730562248378dc6568505",
+      "stored_sha256": "2949fd3f7ee9b8385c8f710f816f01caaf2670f8aa64d4b4918abb8100a7fe9f",
+      "uncompressed_bytes": 12181
+    },
+    {
+      "path": "dim33/gegenbauer.py",
+      "stored_path": "dim33/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim33/independent_audit.json",
+      "stored_path": "dim33/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "84f8830eb1ae1818365dad1d204e3279a6bca2ddcadd70a8e4c8b2594092322b",
+      "stored_sha256": "85cf26d6e1e32a5badc3e1b079297518ade5fec27f9ec857004ad27ce62bf423",
+      "uncompressed_bytes": 389
+    },
+    {
+      "path": "dim33/run_all.py",
+      "stored_path": "dim33/run_all.py",
+      "gzip": false,
+      "sha256": "f9a9d6202445ef7561ed2c4118e030e3f74141719145c7100237a9d025620a15",
+      "stored_sha256": "f9a9d6202445ef7561ed2c4118e030e3f74141719145c7100237a9d025620a15",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim33/verify_complete.py",
+      "stored_path": "dim33/verify_complete.py",
+      "gzip": false,
+      "sha256": "3dd8f2af2f1bbbdd6358d058a85f3f9f7fe7d0919c9d668e6b47be816de82854",
+      "stored_sha256": "3dd8f2af2f1bbbdd6358d058a85f3f9f7fe7d0919c9d668e6b47be816de82854",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim33/verify_sympy.py",
+      "stored_path": "dim33/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim34/ANGULAR_PROOF.md",
+      "stored_path": "dim34/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim34/METHOD.md",
+      "stored_path": "dim34/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim34/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim34/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim34/README.md",
+      "stored_path": "dim34/README.md",
+      "gzip": false,
+      "sha256": "7c578d0c0520f44e1637d995c34ada84129178c6665868b17520213dec3ff45b",
+      "stored_sha256": "7c578d0c0520f44e1637d995c34ada84129178c6665868b17520213dec3ff45b",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim34/SHA256SUMS",
+      "stored_path": "dim34/SHA256SUMS",
+      "gzip": false,
+      "sha256": "68a52198aa9c8e5146185de95242e586e5a80dfd9ada971be2738eae56c50c35",
+      "stored_sha256": "68a52198aa9c8e5146185de95242e586e5a80dfd9ada971be2738eae56c50c35",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim34/certificate.json",
+      "stored_path": "dim34/certificate.json.gz",
+      "gzip": true,
+      "sha256": "a82331fdb260af9bc90de5ab0df306c718f8123b71cab81f620c80122d787b9f",
+      "stored_sha256": "b024b6fcab7336bab3883f3c780183cec7d5e94b1c6868e2ba60f62f88f2bd61",
+      "uncompressed_bytes": 446502
+    },
+    {
+      "path": "dim34/comparison_certificate.json",
+      "stored_path": "dim34/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "cfedeb5592c60ad05e621e1fef0eb075fc9449ba3173f77dcf0a01cf6d295049",
+      "stored_sha256": "771e3f1169b6cf02c7134f912bee75c11bd63bbf59d6f6fb2b7057dfd8b1bce3",
+      "uncompressed_bytes": 12192
+    },
+    {
+      "path": "dim34/gegenbauer.py",
+      "stored_path": "dim34/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim34/independent_audit.json",
+      "stored_path": "dim34/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "7cf161224867217cbd0477f244c70c351223958663f1dccb2fc788b154c12274",
+      "stored_sha256": "78a7ee850c79c8ce3013f9ae80726c23aaedd96c55efe3827072a46c9691b00a",
+      "uncompressed_bytes": 389
+    },
+    {
+      "path": "dim34/run_all.py",
+      "stored_path": "dim34/run_all.py",
+      "gzip": false,
+      "sha256": "fed9b2275c1ced4110b05e078ed5693b46c9662afbf6d2c931adde4d8dbbb648",
+      "stored_sha256": "fed9b2275c1ced4110b05e078ed5693b46c9662afbf6d2c931adde4d8dbbb648",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim34/verify_complete.py",
+      "stored_path": "dim34/verify_complete.py",
+      "gzip": false,
+      "sha256": "9b527f3edcaf92e44d965ac9e6c34bd2ca7c499ceb3c188a9a447fcecafbdeb8",
+      "stored_sha256": "9b527f3edcaf92e44d965ac9e6c34bd2ca7c499ceb3c188a9a447fcecafbdeb8",
+      "uncompressed_bytes": 6467
+    },
+    {
+      "path": "dim34/verify_sympy.py",
+      "stored_path": "dim34/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim35/ANGULAR_PROOF.md",
+      "stored_path": "dim35/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim35/METHOD.md",
+      "stored_path": "dim35/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim35/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim35/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim35/README.md",
+      "stored_path": "dim35/README.md",
+      "gzip": false,
+      "sha256": "2e8662037123187a47b7d2086197f32603d80693cd5dd458e194687a7abef605",
+      "stored_sha256": "2e8662037123187a47b7d2086197f32603d80693cd5dd458e194687a7abef605",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim35/SHA256SUMS",
+      "stored_path": "dim35/SHA256SUMS",
+      "gzip": false,
+      "sha256": "7aab0b6bf77d8c5dc7eb1ab12963bec5c91473a0ab2ca24bd870528ee4720c47",
+      "stored_sha256": "7aab0b6bf77d8c5dc7eb1ab12963bec5c91473a0ab2ca24bd870528ee4720c47",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim35/certificate.json",
+      "stored_path": "dim35/certificate.json.gz",
+      "gzip": true,
+      "sha256": "766f55e618c395183f21c42b95b77cf3ba0211179904eaf4593d2ed98f07aa99",
+      "stored_sha256": "53efa5b35cc55090d660d89c1e28f3b5fa37c273e5a979c14ad6f125b71e857d",
+      "uncompressed_bytes": 513595
+    },
+    {
+      "path": "dim35/comparison_certificate.json",
+      "stored_path": "dim35/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "e86c6a956476b5ee13547e4db531e1bc7b8406006386d459d103a35e645f3530",
+      "stored_sha256": "16ba26ee7ba4e99a3ca89eed63aa73e360e4921fcc93dcd25e6515d6169990f8",
+      "uncompressed_bytes": 12199
+    },
+    {
+      "path": "dim35/gegenbauer.py",
+      "stored_path": "dim35/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim35/independent_audit.json",
+      "stored_path": "dim35/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "46e9969621538dab512061978628ad7c5df4de36d03acd321f27863a3cf12933",
+      "stored_sha256": "a29e2211d17031dd6c18e6e7175d4f6e2d4a861654444ced880753209bf10e18",
+      "uncompressed_bytes": 387
+    },
+    {
+      "path": "dim35/run_all.py",
+      "stored_path": "dim35/run_all.py",
+      "gzip": false,
+      "sha256": "fe1b6fe77ccee5125e2910b3a4fab530e2655147598adbe95045008b091f19eb",
+      "stored_sha256": "fe1b6fe77ccee5125e2910b3a4fab530e2655147598adbe95045008b091f19eb",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim35/verify_complete.py",
+      "stored_path": "dim35/verify_complete.py",
+      "gzip": false,
+      "sha256": "1ccdab0903a4c6785cb047a47ede3324213a810c3828dcdd6f8259be8f9a6ad2",
+      "stored_sha256": "1ccdab0903a4c6785cb047a47ede3324213a810c3828dcdd6f8259be8f9a6ad2",
+      "uncompressed_bytes": 6692
+    },
+    {
+      "path": "dim35/verify_sympy.py",
+      "stored_path": "dim35/verify_sympy.py",
+      "gzip": false,
+      "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
+      "uncompressed_bytes": 5700
+    },
+    {
+      "path": "dim36/ANGULAR_PROOF.md",
+      "stored_path": "dim36/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "stored_sha256": "df6685a78a60370d89bc546be8dfd5839863d8db5981c5ce128c6ce0b0b19253",
+      "uncompressed_bytes": 8053
+    },
+    {
+      "path": "dim36/METHOD.md",
+      "stored_path": "dim36/METHOD.md",
+      "gzip": false,
+      "sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "stored_sha256": "302831366dd5f695f0555576ad072ac43c200fb52821f0b8eb357231eac48094",
+      "uncompressed_bytes": 4421
+    },
+    {
+      "path": "dim36/PROJECTIVE_CAP_PROOF.md",
+      "stored_path": "dim36/PROJECTIVE_CAP_PROOF.md",
+      "gzip": false,
+      "sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "stored_sha256": "41568741f9533444f48e9dbba035c0d0eb8d6de10145eb6a4eec752b84ef6584",
+      "uncompressed_bytes": 2069
+    },
+    {
+      "path": "dim36/README.md",
+      "stored_path": "dim36/README.md",
+      "gzip": false,
+      "sha256": "14bd60c8086e0f6c22144358e56debc28cea77688976cf4b5f76d2543d18e891",
+      "stored_sha256": "14bd60c8086e0f6c22144358e56debc28cea77688976cf4b5f76d2543d18e891",
+      "uncompressed_bytes": 2357
+    },
+    {
+      "path": "dim36/SHA256SUMS",
+      "stored_path": "dim36/SHA256SUMS",
+      "gzip": false,
+      "sha256": "af64da1c5d69bc97fcb3318e633554fc9ccf3f04d46b3a66443bb9ade3d0197b",
+      "stored_sha256": "af64da1c5d69bc97fcb3318e633554fc9ccf3f04d46b3a66443bb9ade3d0197b",
+      "uncompressed_bytes": 915
+    },
+    {
+      "path": "dim36/certificate.json",
+      "stored_path": "dim36/certificate.json.gz",
+      "gzip": true,
+      "sha256": "66c5abd1ea57d5343cbc3a3f7d8dedd9699116afde305d219c06d5d5c3d6433c",
+      "stored_sha256": "3bdca067d992f80fe125778f6bf10cef38270c6f7c84845e6956e60e05b3504e",
+      "uncompressed_bytes": 519693
+    },
+    {
+      "path": "dim36/comparison_certificate.json",
+      "stored_path": "dim36/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "063bf600b495ff384b9dce763dd861c9646b1fe4ec25d91989e86266e1c46a7c",
+      "stored_sha256": "e8a1d3796fcc737f389a531afbc99bd9b9ef53be530260c1f63e5873b30bf457",
+      "uncompressed_bytes": 12144
+    },
+    {
+      "path": "dim36/gegenbauer.py",
+      "stored_path": "dim36/gegenbauer.py",
+      "gzip": false,
+      "sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "stored_sha256": "11727c3991a823ee7855856158ebf6586fb69ea8e3390c8586fbd56169e32b61",
+      "uncompressed_bytes": 363
+    },
+    {
+      "path": "dim36/independent_audit.json",
+      "stored_path": "dim36/independent_audit.json.gz",
+      "gzip": true,
+      "sha256": "81283e73ee565cad2f4fe9d6a6c9e67c76df4a3c43f9c3447f2672e409d645e3",
+      "stored_sha256": "4449145adb3d1d5a2d629dbe32d432948747f4813acac8a3de51bcf62e90ba0c",
+      "uncompressed_bytes": 389
+    },
+    {
+      "path": "dim36/run_all.py",
+      "stored_path": "dim36/run_all.py",
+      "gzip": false,
+      "sha256": "ea242a03296ae6dec60519d47e428564622fceb63802faf05d1a2281ab380fcf",
+      "stored_sha256": "ea242a03296ae6dec60519d47e428564622fceb63802faf05d1a2281ab380fcf",
+      "uncompressed_bytes": 731
+    },
+    {
+      "path": "dim36/verify_complete.py",
+      "stored_path": "dim36/verify_complete.py",
+      "gzip": false,
+      "sha256": "16b0465fede239a02c7739103c46c36ab12598d1d7f1a28e68827c8f7207748c",
+      "stored_sha256": "16b0465fede239a02c7739103c46c36ab12598d1d7f1a28e68827c8f7207748c",
+      "uncompressed_bytes": 6458
+    },
+    {
+      "path": "dim36/verify_sympy.py",
+      "stored_path": "dim36/verify_sympy.py",
       "gzip": false,
       "sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",
       "stored_sha256": "8a39d4a2ad0183c66f3276b51affab6ffb8e066a721ac947b6def3c1e792f2d0",

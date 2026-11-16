@@ -5,20 +5,30 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-The following bounds apply only to lattice packings, not arbitrary sphere packings. Earlier upper bounds and known lattice lower comparisons are source-attributed; worldwide priority is not asserted. [Full comparisons, method and exact reproduction](LATTICE_RESULTS.md).
+These certified bounds apply only to lattices. Comparisons use the lattice rows of a user-supplied, undated Cohn-table snapshot received 2026-11-16, not a live-site freshness guarantee. [Full comparison scope, methods and exact reproduction](LATTICE_RESULTS.md).
 
-| Dimension | Named lattice lower comparison L | Earlier lattice upper U | New certified upper U′ | Upper decrease | Gap decrease | Certificate |
+| Dimension | Known lattice lower L | Cohn snapshot upper U | New certified upper U′ | Upper decrease | Gap decrease | Method |
 |---:|---:|---:|---:|---:|---:|---|
-| 14 | ≈0.0216240960824471 | 0.0352392080 | **≤0.034712755778** | 1.4939% | 3.8667% | [Proof and replay](verifications/lattice/dim14/README.md) |
-| 15 | ≈0.0168575706567627 | 0.0256118267 | **≤0.025511135431** | 0.3931% | 1.1502% | [Proof and replay](verifications/lattice/dim15/README.md) |
-| 16 | ≈0.0147081643974308 | 0.0187461205771 | **≤0.018655117428** | 0.4855% | 2.2537% | [Proof and replay](verifications/lattice/dim16/README.md) |
-| 17 | ≈0.008811319182321186 | 0.0138839313 | **≤0.013832417384** | 0.3710% | 1.0155% | [Proof and replay](verifications/lattice/dim17/README.md) |
-| 18 | ≈0.00592836871846942 | 0.0103704834 | **≤0.010343803448** | 0.2573% | 0.6006% | [Proof and replay](verifications/lattice/dim18/README.md) |
-| 19 | ≈0.004120806279768666 | 0.00782447361 | **≤0.007808430327** | 0.2050% | 0.4332% | [Proof and replay](verifications/lattice/dim19/README.md) |
-| 26 | ≈0.0002692200504338088 | 0.000915119176 | **≤0.000907209997** | 0.8643% | 1.2245% | [Proof and replay](verifications/lattice/dim26/README.md) |
-| 32 | ≈0.000011040749308859847 | 0.000105764483 | **≤0.000104134823** | 1.5408% | 1.7204% | [Proof and replay](verifications/lattice/dim32/README.md) |
+| 14 | ≈0.0216240960824471 | 0.0352392079482642 | **≤0.034712755778** | 1.4939% | 3.8667% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim14/README.md)) |
+| 15 | ≈0.0168575706567626 | 0.0256118266556343 | **≤0.025511135431** | 0.3931% | 1.1502% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim15/README.md)) |
+| 16 | ≈0.0147081643974308 | 0.0187461205770637 | **≤0.018655117428** | 0.4855% | 2.2537% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim16/README.md)) |
+| 17 | ≈0.0088113191823211 | 0.0138839312698563 | **≤0.013832417384** | 0.3710% | 1.0155% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim17/README.md)) |
+| 18 | ≈0.0059283687184694 | 0.0103704833569080 | **≤0.010343803448** | 0.2573% | 0.6006% | Near-frame arithmetic + mod-2 class budgets ([proof/replay](verifications/lattice/dim18/README.md)) |
+| 19 | ≈0.0041208062797686 | 0.0078244736036902 | **≤0.007808430327** | 0.2050% | 0.4332% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim19/README.md)) |
+| 25 | ≈0.0006772120097731 | 0.0013293080953711 | **≤0.001325232433** | 0.3066% | 0.6250% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim25/README.md)) |
+| 26 | ≈0.0002692200504338 | 0.0009151191756312 | **≤0.000907209997** | 0.8643% | 1.2245% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim26/README.md)) |
+| 27 | ≈0.0001286752812026 | 0.0006313421536495 | **≤0.000622938953** | 1.3310% | 1.6717% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim27/README.md)) |
+| 28 | ≈0.0000697587366165 | 0.0004370005973032 | **≤0.000429639101** | 1.6846% | 2.0045% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim28/README.md)) |
+| 29 | ≈0.0000278789874568 | 0.0003038425430867 | **≤0.000298025039** | 1.9146% | 2.1081% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim29/README.md)) |
+| 30 | ≈0.0000144286438425 | 0.0002124025969562 | **≤0.000207932946** | 2.1043% | 2.2577% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim30/README.md)) |
+| 31 | ≈0.0000118377651859 | 0.0001494085876507 | **≤0.000146087217** | 2.2230% | 2.4143% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim31/README.md)) |
+| 32 | ≈0.0000110407493088 | 0.0001057644820174 | **≤0.000104134823** | 1.5408% | 1.7204% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim32/README.md)) |
+| 33 | ≈0.0000041406882896 | 0.0000755167889394 | **≤0.000073827123** | 2.2375% | 2.3673% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim33/README.md)) |
+| 34 | ≈0.0000017669738891 | 0.0000543081490854 | **≤0.000053148401** | 2.1355% | 2.2073% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim34/README.md)) |
+| 35 | ≈9.461904151E-7 | 0.0000393266736309 | **≤0.000038509364** | 2.0783% | 2.1295% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim35/README.md)) |
+| 36 | ≈7.330347783E-7 | 0.0000286680608768 | **≤0.000028235617** | 1.5085% | 1.5480% | Global cross-class coupling + mod-2 class budgets ([proof/replay](verifications/lattice/dim36/README.md)) |
 
-Gap reductions use the displayed named lattice lower comparisons. The unrestricted tables below remain unchanged.
+Gap reductions use the displayed lattice lower comparisons. The unrestricted tables below remain unchanged.
 <!-- lattice-upper-20261116:end -->
 
 <!-- lower-return-20261115:start -->
