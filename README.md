@@ -5,32 +5,36 @@ Reproducible certificates for unrestricted sphere packings, organized by dimensi
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
 
-Lattice-only results, compared with the supplied Cohn-table snapshot; the 37D comparator was also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
+Lattice-only results, compared with the supplied Cohn-table snapshot; the 37D and 45D–48D comparators were also checked live on 2026-11-16. [Scope and reproduction](LATTICE_RESULTS.md).
 
-| n | Lower | Prior | New | Gain ≈ | Gap ≈ | Method |
+| n | Lower | Prior / source | New | Gain ≈ | Gap ≈ | Method |
 |---:|---:|---:|---:|---:|---:|---|
-| 14 | 0.0216240 | 0.0352393 | **≤0.0347128** | 1.49% | 3.87% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim14/README.md) |
-| 15 | 0.0168575 | 0.0256119 | **≤0.0255112** | 0.39% | 1.15% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim15/README.md) |
-| 16 | 0.0147081 | 0.0187462 | **≤0.0186552** | 0.49% | 2.25% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim16/README.md) |
-| 17 | 0.00881131 | 0.0138840 | **≤0.0138325** | 0.37% | 1.02% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim17/README.md) |
-| 18 | 0.00592836 | 0.0103705 | **≤0.0103439** | 0.26% | 0.60% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim18/README.md) |
-| 19 | 0.00412080 | 0.00782448 | **≤0.00780844** | 0.21% | 0.43% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim19/README.md) |
-| 20 | 0.00322586 | 0.00595809 | **≤0.00595464** | 0.06% | 0.13% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim20/README.md) |
-| 21 | 0.00246588 | 0.00456046 | **≤0.00455796** | 0.05% | 0.12% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim21/README.md) |
-| 22 | 0.00212766 | 0.00348597 | **≤0.00348294** | 0.09% | 0.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim22/README.md) |
-| 25 | 6.77212e-4 | 0.00132931 | **≤0.00132524** | 0.31% | 0.63% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim25/README.md) |
-| 26 | 2.6922e-4 | 9.1512e-4 | **≤9.0721e-4** | 0.86% | 1.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim26/README.md) |
-| 27 | 1.28675e-4 | 6.31343e-4 | **≤6.22939e-4** | 1.33% | 1.67% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim27/README.md) |
-| 28 | 6.97587e-5 | 4.37001e-4 | **≤4.2964e-4** | 1.68% | 2.00% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim28/README.md) |
-| 29 | 2.78789e-5 | 3.03843e-4 | **≤2.98026e-4** | 1.91% | 2.11% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim29/README.md) |
-| 30 | 1.44286e-5 | 2.12403e-4 | **≤2.07933e-4** | 2.10% | 2.26% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim30/README.md) |
-| 31 | 1.18377e-5 | 1.49409e-4 | **≤1.46088e-4** | 2.22% | 2.41% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim31/README.md) |
-| 32 | 1.10407e-5 | 1.05765e-4 | **≤1.01512e-4** | 4.02% | 4.49% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim32_threewindow/README.md) |
-| 33 | 4.14068e-6 | 7.55168e-5 | **≤7.38272e-5** | 2.24% | 2.37% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim33/README.md) |
-| 34 | 1.76697e-6 | 5.43082e-5 | **≤5.31485e-5** | 2.14% | 2.21% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim34/README.md) |
-| 35 | 9.4619e-7 | 3.93267e-5 | **≤3.76648e-5** | 4.23% | 4.33% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim35_threewindow/README.md) |
-| 36 | 7.33034e-7 | 2.86681e-5 | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
-| 37 | 3.21356e-7 | 2.09427e-5 | **≤2.05805e-5** | 1.73% | 1.76% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim37/README.md) |
+| 14 | 0.0216240 | 0.0352393<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.0347128** | 1.49% | 3.87% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim14/README.md) |
+| 15 | 0.0168575 | 0.0256119<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.0255112** | 0.39% | 1.15% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim15/README.md) |
+| 16 | 0.0147081 | 0.0187462<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.0186552** | 0.49% | 2.25% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim16/README.md) |
+| 17 | 0.00881131 | 0.0138840<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.0138325** | 0.37% | 1.02% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim17/README.md) |
+| 18 | 0.00592836 | 0.0103705<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.0103439** | 0.26% | 0.60% | [Near-frame index exclusion + weighted mod-2 class profiles](verifications/lattice/dim18/README.md) |
+| 19 | 0.00412080 | 0.00782448<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00780844** | 0.21% | 0.43% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim19/README.md) |
+| 20 | 0.00322586 | 0.00595809<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00595464** | 0.06% | 0.13% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim20/README.md) |
+| 21 | 0.00246588 | 0.00456046<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00455796** | 0.05% | 0.12% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim21/README.md) |
+| 22 | 0.00212766 | 0.00348597<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00348294** | 0.09% | 0.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim22/README.md) |
+| 25 | 6.77212e-4 | 0.00132931<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤0.00132524** | 0.31% | 0.63% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim25/README.md) |
+| 26 | 2.6922e-4 | 9.1512e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤9.0721e-4** | 0.86% | 1.22% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim26/README.md) |
+| 27 | 1.28675e-4 | 6.31343e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤6.22939e-4** | 1.33% | 1.67% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim27/README.md) |
+| 28 | 6.97587e-5 | 4.37001e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤4.2964e-4** | 1.68% | 2.00% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim28/README.md) |
+| 29 | 2.78789e-5 | 3.03843e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤2.98026e-4** | 1.91% | 2.11% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim29/README.md) |
+| 30 | 1.44286e-5 | 2.12403e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤2.07933e-4** | 2.10% | 2.26% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim30/README.md) |
+| 31 | 1.18377e-5 | 1.49409e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤1.46088e-4** | 2.22% | 2.41% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim31/README.md) |
+| 32 | 1.10407e-5 | 1.05765e-4<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤1.01512e-4** | 4.02% | 4.49% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim32_threewindow/README.md) |
+| 33 | 4.14068e-6 | 7.55168e-5<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤7.38272e-5** | 2.24% | 2.37% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim33/README.md) |
+| 34 | 1.76697e-6 | 5.43082e-5<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤5.31485e-5** | 2.14% | 2.21% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim34/README.md) |
+| 35 | 9.4619e-7 | 3.93267e-5<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤3.76648e-5** | 4.23% | 4.33% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim35_threewindow/README.md) |
+| 36 | 7.33034e-7 | 2.86681e-5<br>[Lattice class-profile LP — Zubrilina (2026)](https://arxiv.org/abs/2610.35830) | **≤2.74287e-5** | 4.32% | 4.44% | [Multiwindow cross-class pair-sum coupling + mod-2 profiles](verifications/lattice/dim36_threewindow/README.md) |
+| 37 | 3.21356e-7 | 2.09427e-5<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim37/refinement_profile20261114/) | **≤2.05805e-5** | 1.73% | 1.76% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim37/README.md) |
+| 45 | 2.52315e-8 | 1.26563e-6<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim45/refinement_profile20261114/) | **≤1.26363e-6** | 0.16% | 0.16% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim45/README.md) |
+| 46 | 2.27179e-8 | 8.71245e-7<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim46/refinement_profile20261114/) | **≤8.68002e-7** | 0.37% | 0.38% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim46/README.md) |
+| 47 | 2.1466e-8 | 5.9377e-7<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim47/refinement_profile20261114/) | **≤5.9101e-7** | 0.46% | 0.48% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim47/README.md) |
+| 48 | 2.31782e-8 | 4.08436e-7<br>[Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound](verifications/dim48/refinement_larger20261115/) | **≤4.08175e-7** | 0.06% | 0.07% | [Cross-class pair-sum angular coupling + mod-2 profile bounds](verifications/lattice/dim48/README.md) |
 
 Upper bounds rounded **up**, lower bounds **down**, to 6 significant digits. [Exact values](LATTICE_RESULTS.json); method links open the proofs. Gain and Gap are percentage reductions.
 

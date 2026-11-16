@@ -1,0 +1,11 @@
+Full exact replay; Fourier method: Bernstein (public python-flint)
+Independent angular+cap PASS 0
+Independent angular+cap PASS 1
+Independent angular+cap PASS 2
+Independent angular+cap PASS 3
+Independent angular+cap PASS 4
+Independent Fourier Mobius Bernstein PASS 93 12
+Independent radial tail Bernstein PASS 441/4 800 49 9
+Independent all radial intervals PASS 120
+ALL INDEPENDENT CHECKS PASS {'passed': True, 'n': 47, 'density': '59101/100000000000', 'improvement_fraction': None, 'sha256': 'd1ea47251eb7d77ab1a7d3b119be1e8ae6515a0cd25db8c511e41b1495031ef8', 'angular_cuts': 5, 'radial_intervals': 120, 'gap': 0, 'low_density_branch_required': False}
+COMPLETE 47D PASS <=0.000000591010; verifier exit 0

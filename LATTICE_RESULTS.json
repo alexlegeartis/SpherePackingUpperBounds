@@ -13,7 +13,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 15,
@@ -29,7 +31,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 16,
@@ -45,7 +49,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 17,
@@ -61,7 +67,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 18,
@@ -77,7 +85,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Near-frame index exclusion + weighted mod-2 class profiles"
+    "method": "Near-frame index exclusion + weighted mod-2 class profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 19,
@@ -93,7 +103,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 20,
@@ -109,7 +121,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 21,
@@ -125,7 +139,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 22,
@@ -141,7 +157,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 25,
@@ -157,7 +175,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 26,
@@ -173,7 +193,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 27,
@@ -189,7 +211,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 28,
@@ -205,7 +229,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 29,
@@ -221,7 +247,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 30,
@@ -237,7 +265,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 31,
@@ -253,7 +283,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 32,
@@ -269,7 +301,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 33,
@@ -285,7 +319,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 34,
@@ -301,7 +337,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 35,
@@ -317,7 +355,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 36,
@@ -333,7 +373,9 @@
     "comparison_status": "User-supplied undated Cohn lattice-table snapshot received 2026-11-16; no current-live-site or exhaustive worldwide-priority guarantee",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
-    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles"
+    "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
+    "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
     "dimension": 37,
@@ -341,7 +383,7 @@
     "certified_density_upper_bound": "0.000020580470",
     "named_lattice_lower_comparison": "3.213562007E-7",
     "previous_lattice_upper": "0.0000209426592470",
-    "previous_source_certificate_upper": null,
+    "previous_source_certificate_upper": "0.000020942659247",
     "upper_decrease_percent": "1.729432937471314623639017756",
     "gap_decrease_percent": "1.756383901573990031431295178",
     "package": "verifications/lattice/dim37",
@@ -349,6 +391,80 @@
     "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/a7919f6890776aa2d3dff1f52b4c93da9d584a8e/verifications/dim37/refinement_profile20261114",
-    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds"
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim37/refinement_profile20261114/"
+  },
+  {
+    "dimension": 45,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000001263630",
+    "named_lattice_lower_comparison": "2.52315067E-8",
+    "previous_lattice_upper": "0.0000012656297919",
+    "previous_source_certificate_upper": "0.0000012656297919",
+    "upper_decrease_percent": "0.1580076506414924571119366047",
+    "gap_decrease_percent": "0.1612217562585195357217831794",
+    "package": "verifications/lattice/dim45",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/72ab5c009f4136d59f72123128853606f75bf7d7/verifications/dim45/refinement_profile20261114",
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim45/refinement_profile20261114/"
+  },
+  {
+    "dimension": 46,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000000868002",
+    "named_lattice_lower_comparison": "2.27179803E-8",
+    "previous_lattice_upper": "0.0000008712449980",
+    "previous_source_certificate_upper": "0.00000087124499791",
+    "upper_decrease_percent": "0.3722257238141411975142266470",
+    "gap_decrease_percent": "0.3821914838717103114818119951",
+    "package": "verifications/lattice/dim46",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/72ab5c009f4136d59f72123128853606f75bf7d7/verifications/dim46/refinement_profile20261114",
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim46/refinement_profile20261114/"
+  },
+  {
+    "dimension": 47,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000000591010",
+    "named_lattice_lower_comparison": "2.14660782E-8",
+    "previous_lattice_upper": "0.0000005937695380",
+    "previous_source_certificate_upper": "0.00000059376953797",
+    "upper_decrease_percent": "0.4647490016572726235073379598",
+    "gap_decrease_percent": "0.4821809046837427488849159671",
+    "package": "verifications/lattice/dim47",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/72ab5c009f4136d59f72123128853606f75bf7d7/verifications/dim47/refinement_profile20261114",
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim47/refinement_profile20261114/"
+  },
+  {
+    "dimension": 48,
+    "scope": "lattice_only",
+    "certified_density_upper_bound": "0.000000408175",
+    "named_lattice_lower_comparison": "2.31782953E-8",
+    "previous_lattice_upper": "0.0000004084357036",
+    "previous_source_certificate_upper": "0.00000040843570355",
+    "upper_decrease_percent": "0.06382977729471934441335652126",
+    "gap_decrease_percent": "0.06766997710709564569325895037",
+    "package": "verifications/lattice/dim48",
+    "comparison_source": "https://cohn.mit.edu/sphere-packing/",
+    "comparison_status": "Live Cohn table fetched 2026-11-16; matches supplied snapshot; prior upper is Alex Kravatskiy unrestricted packing result, also valid for lattices",
+    "lower_source": "https://cohn.mit.edu/sphere-packing/",
+    "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/72ab5c009f4136d59f72123128853606f75bf7d7/verifications/dim48/refinement_larger20261115",
+    "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
+    "previous_method_source_url": "verifications/dim48/refinement_larger20261115/"
   }
 ]
