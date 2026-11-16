@@ -642,6 +642,78 @@
       "uncompressed_bytes": 387
     },
     {
+      "path": "dim17/ANGULAR_PROOF.md",
+      "stored_path": "dim17/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "uncompressed_bytes": 8037
+    },
+    {
+      "path": "dim17/METHOD.md",
+      "stored_path": "dim17/METHOD.md",
+      "gzip": false,
+      "sha256": "dfb938d79308332d86ef830140c0835446863d4e8d794f994e5999e03c208c58",
+      "stored_sha256": "dfb938d79308332d86ef830140c0835446863d4e8d794f994e5999e03c208c58",
+      "uncompressed_bytes": 3931
+    },
+    {
+      "path": "dim17/README.md",
+      "stored_path": "dim17/README.md",
+      "gzip": false,
+      "sha256": "1762ff707d167420ddb75869c71bf19ba3258373108368e71a090ea4e81788dc",
+      "stored_sha256": "1762ff707d167420ddb75869c71bf19ba3258373108368e71a090ea4e81788dc",
+      "uncompressed_bytes": 2269
+    },
+    {
+      "path": "dim17/SHA256SUMS",
+      "stored_path": "dim17/SHA256SUMS",
+      "gzip": false,
+      "sha256": "89cc2aa6543f4b5873dff1e1caa1697c2c6f24cf4091ca3862804ffeb353b687",
+      "stored_sha256": "89cc2aa6543f4b5873dff1e1caa1697c2c6f24cf4091ca3862804ffeb353b687",
+      "uncompressed_bytes": 665
+    },
+    {
+      "path": "dim17/certificate.json",
+      "stored_path": "dim17/certificate.json.gz",
+      "gzip": true,
+      "sha256": "4eeb6ebef7e74c1f4a5d26af00f949411cfb57a8a468516cdf644778d346b626",
+      "stored_sha256": "49f9be8c947d0f208fc8b1adae3df42851ac9f754314cd569400aa4ef64228ec",
+      "uncompressed_bytes": 439605
+    },
+    {
+      "path": "dim17/comparison_certificate.json",
+      "stored_path": "dim17/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "362bbe44ef80bd7195c67fd90198cdf890d247ad8fcf21f28ced220da0e912ae",
+      "stored_sha256": "d35edf0827fc93799095c23bc459fdff590ef0d08390a75b3d105087cdc8295b",
+      "uncompressed_bytes": 11782
+    },
+    {
+      "path": "dim17/run_all.py",
+      "stored_path": "dim17/run_all.py",
+      "gzip": false,
+      "sha256": "33edcb14967dcaace090c511672cb75b9409a9eb9acff3f6243e402a5a1e37cf",
+      "stored_sha256": "33edcb14967dcaace090c511672cb75b9409a9eb9acff3f6243e402a5a1e37cf",
+      "uncompressed_bytes": 682
+    },
+    {
+      "path": "dim17/verify_certificate.py",
+      "stored_path": "dim17/verify_certificate.py",
+      "gzip": false,
+      "sha256": "1784891d734f088fe25892b6e9fa1de973a82e93780c94a06fa67c20fcd7c487",
+      "stored_sha256": "1784891d734f088fe25892b6e9fa1de973a82e93780c94a06fa67c20fcd7c487",
+      "uncompressed_bytes": 5455
+    },
+    {
+      "path": "dim17/verify_independent.py",
+      "stored_path": "dim17/verify_independent.py",
+      "gzip": false,
+      "sha256": "15ca4bf43f0fbdcd4f3d787009199386c6ad8127ae85b86c30f4054b569e422a",
+      "stored_sha256": "15ca4bf43f0fbdcd4f3d787009199386c6ad8127ae85b86c30f4054b569e422a",
+      "uncompressed_bytes": 6295
+    },
+    {
       "path": "dim18/DETERMINANT_PROOF.md",
       "stored_path": "dim18/DETERMINANT_PROOF.md",
       "gzip": false,
@@ -760,6 +832,78 @@
       "sha256": "e0ce38e533622908d0bb265b0684ec39f3fdaba717ab3d3a574d237fae1f9f91",
       "stored_sha256": "e0ce38e533622908d0bb265b0684ec39f3fdaba717ab3d3a574d237fae1f9f91",
       "uncompressed_bytes": 973
+    },
+    {
+      "path": "dim19/ANGULAR_PROOF.md",
+      "stored_path": "dim19/ANGULAR_PROOF.md",
+      "gzip": false,
+      "sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "stored_sha256": "f75751e953ccb8e8a5e4e3a396c01c4bf75fa764afa92170c66ea2754bff793d",
+      "uncompressed_bytes": 8037
+    },
+    {
+      "path": "dim19/METHOD.md",
+      "stored_path": "dim19/METHOD.md",
+      "gzip": false,
+      "sha256": "dfb938d79308332d86ef830140c0835446863d4e8d794f994e5999e03c208c58",
+      "stored_sha256": "dfb938d79308332d86ef830140c0835446863d4e8d794f994e5999e03c208c58",
+      "uncompressed_bytes": 3931
+    },
+    {
+      "path": "dim19/README.md",
+      "stored_path": "dim19/README.md",
+      "gzip": false,
+      "sha256": "d151528a4be9c53fb0831bdead01c4d943c20dcb767993e89662f75beecf2946",
+      "stored_sha256": "d151528a4be9c53fb0831bdead01c4d943c20dcb767993e89662f75beecf2946",
+      "uncompressed_bytes": 2270
+    },
+    {
+      "path": "dim19/SHA256SUMS",
+      "stored_path": "dim19/SHA256SUMS",
+      "gzip": false,
+      "sha256": "929a7d7d66a269b2e2ecc0f1afe494fa03ffa99842c1efdd36a17f800abb4a70",
+      "stored_sha256": "929a7d7d66a269b2e2ecc0f1afe494fa03ffa99842c1efdd36a17f800abb4a70",
+      "uncompressed_bytes": 665
+    },
+    {
+      "path": "dim19/certificate.json",
+      "stored_path": "dim19/certificate.json.gz",
+      "gzip": true,
+      "sha256": "7196d4c4c1b0e33896413ca2ef064cef6c0ffecd77049b49532010964ec07447",
+      "stored_sha256": "5bfdea0e49981df6e88776922c2c58baef091e09277b7b5712ed3042e1fce2b4",
+      "uncompressed_bytes": 465362
+    },
+    {
+      "path": "dim19/comparison_certificate.json",
+      "stored_path": "dim19/comparison_certificate.json.gz",
+      "gzip": true,
+      "sha256": "655eb8bc5ca2cdc55e2911b5da031a41c50fb3058fee4ae828f7a4fb9c5e688b",
+      "stored_sha256": "f0c7c5f46591eb2a7a5270642d66eb8b12dc9e22a86de17e130bf6d531a14400",
+      "uncompressed_bytes": 11857
+    },
+    {
+      "path": "dim19/run_all.py",
+      "stored_path": "dim19/run_all.py",
+      "gzip": false,
+      "sha256": "ad5c1e729e0564654fffa38d5a888728a99be882caeb765cac83fea466e56c58",
+      "stored_sha256": "ad5c1e729e0564654fffa38d5a888728a99be882caeb765cac83fea466e56c58",
+      "uncompressed_bytes": 682
+    },
+    {
+      "path": "dim19/verify_certificate.py",
+      "stored_path": "dim19/verify_certificate.py",
+      "gzip": false,
+      "sha256": "c569c7a9b3773310438c0ff946773ea42abacefdbdb4a53e4c5e70a5c0a7ee5c",
+      "stored_sha256": "c569c7a9b3773310438c0ff946773ea42abacefdbdb4a53e4c5e70a5c0a7ee5c",
+      "uncompressed_bytes": 5615
+    },
+    {
+      "path": "dim19/verify_independent.py",
+      "stored_path": "dim19/verify_independent.py",
+      "gzip": false,
+      "sha256": "713887441121ffdeadc2403b80a32b407c2d6aabd921ce0564c8345865231bf7",
+      "stored_sha256": "713887441121ffdeadc2403b80a32b407c2d6aabd921ce0564c8345865231bf7",
+      "uncompressed_bytes": 6703
     },
     {
       "path": "prior/NOTICE.md",
