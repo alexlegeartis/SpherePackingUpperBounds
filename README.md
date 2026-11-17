@@ -1,5 +1,7 @@
 # Sphere-packing density bounds and constructions
 
+> **17 November stronger unrestricted 52D bound:** density **<9.7440293e-8**, an **8.5210%** improvement over the preceding repository certificate. [Complete proof and independent 512-bit replay](verifications/general52_pc29_geomfix_20261117/). The comparison with the attributed external numerical benchmark is **8.6032%**, not a certification of that benchmark.
+
 > **17 November stronger 45–48D lattice bounds:** **<1.1728551765e-6**, **<7.721596228e-7**, **<5.130033534e-7**, and **<3.4559190288e-7**, respectively. [Three-feature compact kernels, exact dimensional transfers, and complete independent audit](verifications/lattice/compact_power6_45_48_20261117/). The 48D result improves the preceding repository bound by 1.23137%; table comparisons remain against attributed external results.
 
 > **17 November 94/95D packing update:** verified density floors **7.84434540405174e-21** and **2.06770138493108e-21** from anisotropic torus-offset flags. [Exact proofs and independent source replay](research/mw92_flags9495_verified_20261117/). These are periodic existence constructions, not explicit offsets or lattice claims.
