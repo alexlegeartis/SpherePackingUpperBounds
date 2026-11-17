@@ -1,0 +1,30 @@
+{
+  "status": "INDEPENDENT COMPLETE AUDIT PASS",
+  "coset_minimum_squared": "20/3",
+  "parent_minimum_squared": 10,
+  "extension_minimum_squared": 10,
+  "search": {
+    "status": "EXHAUSTIVE_NO_VECTOR",
+    "nodes": 3647514565,
+    "leaves": 0,
+    "long_double_digits": 64,
+    "seconds": 969.195632481
+  },
+  "input_sha256": "0f892d0ce87ab91a1d0faf4f9b08a16c072ea9af748bf86baad61d2319d8af99",
+  "independent_source_sha256": "cd311834fd1fffbb5cc996c54edb8a428e1673da0b5774654387b2955985c5a9",
+  "density_floors": [
+    {
+      "dimension": 57,
+      "density_floor": "3832677775531/250000000000000000000000",
+      "floor_decimal": 1.5330711102124e-11,
+      "conditional_on_complete_exclusion": false
+    },
+    {
+      "dimension": 58,
+      "density_floor": "502419365648403/100000000000000000000000000",
+      "floor_decimal": 5.02419365648403e-12,
+      "conditional_on_complete_exclusion": false
+    }
+  ],
+  "arithmetic_scope": "Separately written long-double traversal with analytically bounded center error and exact128-bit leaves; IEEE/basic sqrt assumptions remain"
+}

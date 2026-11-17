@@ -4,7 +4,7 @@ Comparison method: **Afkhami-Jeddi, Cohn, Hartman, de Laat and Tajdini (2020), n
 
 These values are **numerical benchmarks, not certified sphere-packing upper bounds and not achieved packing densities**. They are converted from the authors' highest available truncation order N in `dataminusone.txt`. The source supplies optimized spectra, not sign-certified Cohn–Elkies functions; the general same-radius lift is conjectural (paper Section 2.3). They are useful as expected Cohn–Elkies comparison targets, with that distinction intact.
 
-For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed density is `(pi*Delta1/2)^(n/2)/Gamma(n/2+1)`. Digits are approximate, not outward-rounded rigorous inequalities. Changes between truncation orders are not error certificates. This standalone table supplies external benchmarks first; it introduces no new repository upper-bound claim or improvement percentage. The lattice-only table remains restricted to dimensions at most 48.
+For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed density is `(pi*Delta1/2)^(n/2)/Gamma(n/2+1)`. Digits are approximate, not outward-rounded rigorous inequalities. Changes between truncation orders are not error certificates. The numerical rows below remain separate from the certified results listed after the table. The lattice-only table remains restricted to dimensions at most 48.
 
 | Dimension | Numerical density benchmark ≈ | Truncation N |
 |---:|---:|---:|
@@ -58,3 +58,10 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 | 96 | 7.9452530317283e-15 | 678 |
 
 [Machine-readable values, source checksums and reproducible conversion checks](research/cohn_bootstrap_baseline_20261117/). The full original dataset was checksum-checked and independently re-extracted; arithmetic verification of this conversion is not certification of the underlying numerical optimization.
+
+## Certified results compared with these numerical benchmarks
+
+- **49D:** certified density **<2.85041752e-7**, versus numerical benchmark ≈3.1579639678630e-7 (N=463), a9.7387573447% decrease from that numerical value.
+- **50D:** certified density **<2.04993038e-7**, versus numerical benchmark ≈2.2003929580188e-7 (N=460), a6.8379867092% decrease from that numerical value.
+
+[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. No new51D result or improvement is claimed here.

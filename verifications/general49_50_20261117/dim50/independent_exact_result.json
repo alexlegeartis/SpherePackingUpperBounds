@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "dimension": 50,
+  "scope": "unrestricted sphere packings",
+  "strict_upper": "2.06573053e-7",
+  "density_decimal": 2.0657305245195506e-07,
+  "budget_decimal": 0.007625053714811626,
+  "annuli": 632,
+  "nodes": 261044,
+  "max_cap_degree": 785,
+  "angular_sha256": "bd74cc41103f2d32400be4f32217fcfea74926606a31e80759af5e998a69bbe4"
+}

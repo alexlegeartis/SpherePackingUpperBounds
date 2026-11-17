@@ -1,0 +1,13 @@
+# Independent binary MW56 extension audit: PASS
+
+The independently written ascending-integer long-double exhaustive solver completed with EXHAUSTIVE_NO_VECTOR, 3,647,546,156 nodes, zero leaves, 1006.053 seconds. It did not reach its 6-billion-node cap. The denominator-two input SHA256 is ad7610e62d751424f833dd8ab779f3153363c10a55c413eeef29454bd9ee7cf1. It excludes every numerator norm at most24, separately from the producer's binary64 implementation. Forty exact small brute-force controls passed (18 nonempty,22 empty).
+
+The implementation is the previously independently reviewed ascending solver, with explicit denominator3->2, squared denominator9->4, cutoff54->24 and target-range0..2->0..1 changes only. Its conservative center enclosure2^-16 remains valid: coefficient error <2^-19 total and long-double arithmetic <2^-24 under checked coordinate/coefficient bounds. Lower partial quadratic terms, outward remaining radii and complete enclosing integer intervals prevent pruning an eligible vector. Exact128-bit leaf arithmetic is range-guarded. IEEE arithmetic and correctly rounded square root are assumptions; this is not formal or integer-only verification.
+
+check_setup.py separately checks exact rational LDL identity, every binary64 enclosure against its rational coefficient, target and mod4 congruence, CM integrality/isometry/order, exact norm28 contact, contact transport, literal extension Gram matrices, determinant and independent200/201-term rational Machin density floors. The unchanged parent minimum10/determinant29^8 and basis provenance are inherited from the completed cm57_independent_20261117 audit; no new parent enumeration is claimed.
+
+All numerator norms (r-2z)G(r-2z)^T are0 modulo4 because rGr is0 modulo4. Absence through24 and the norm28 contact prove exact depth7. Let C be the integral isometry satisfying I+C+C²=0. Nonzero classes x,Cx,x+Cx modulo2 are distinct and all have depth7: x+Cx=-C²x. If Cx=x modulo2, the polynomial identity would imply x=0, contradiction.
+
+57D adjoins(x,sqrt3). Odd layers have minimum7+3=10, nonzero even layers have vertical norm at least12, and the zero layer has parent minimum10. Determinant is3*29^8. 58D adjoins(x,a),(Cx,b), where vertical Gram is[[3,3/2],[3/2,3]]. Nonzero coefficient classes modulo2 have horizontal minimum7 and vertical minimum3. A nonzero even coefficient pair has vertical norm at least12; the parent attains10. Determinant is(27/4)*29^8. The full Gram cross entry is-2, consistent with horizontal inner product-7/2 and vertical3/2.
+
+Rigorous ordinary density floors:57D >=1.61599884109140e-11;58D >=5.58243739609337e-12. No global-priority claim or publication authorization is implied. Separate optional local-extremality certificates have NOT been audited here.

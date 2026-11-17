@@ -1,0 +1,13 @@
+[
+  {
+    "dimension": 49,
+    "status": "PASS",
+    "strict_upper": "57423983/200000000000000",
+    "safe_decimal": 2.87119915e-07,
+    "annuli": 632,
+    "nodes": 205008,
+    "budget": 0.004684183465320949,
+    "angular_sha256": "7290498a35b08c90d8b0222bcb5c57a5a2e63f464f7ecb6f03a5e7e516c81b18",
+    "odd_normalization": "independent exact square and200/201-term Machin lower pi"
+  }
+]

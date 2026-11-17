@@ -1,0 +1,27 @@
+{
+  "scope": "Two verified lattice packing constructions; no exhaustive priority claim",
+  "rows": [
+    {
+      "dimension": 57,
+      "rigorous_density_floor": "1.61599884109140e-11",
+      "minimum": 10,
+      "gram_determinant": "1500739238883",
+      "center_density_squared": "6938893903907228377647697925567626953125/216279317664440338614086270976",
+      "external_center_density_squared": "1387778780781445675529539585113525390625/144186211776293559076057513984",
+      "external_gain_percent_approx": "82.57418583505537115232326093360071131758156499932775140896481657749770",
+      "external_comparison_kind": "derived consequence of published inputs, not a printed dimension-specific record",
+      "method": "Exact depth-7 Mordell\u2013Weil half-coset extension"
+    },
+    {
+      "dimension": 58,
+      "rigorous_density_floor": "5.58243739609337e-12",
+      "minimum": 10,
+      "gram_determinant": "13506653149947/4",
+      "center_density_squared": "34694469519536141888238489627838134765625/973256929489981523763388219392",
+      "external_center_density_squared": "68719476736/3",
+      "external_gain_percent_approx": "24.74900170133645889863235944525024384040660665670421892665951250870120",
+      "external_comparison_kind": "derived consequence of published inputs, not a printed dimension-specific record",
+      "method": "Exact depth-7 Mordell\u2013Weil half-coset extension with complex-multiplication triangular layers"
+    }
+  ]
+}

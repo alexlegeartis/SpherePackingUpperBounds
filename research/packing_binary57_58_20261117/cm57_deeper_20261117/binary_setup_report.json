@@ -1,0 +1,12 @@
+[
+  {
+    "dimension": 57,
+    "rigorous_density_floor": "8079994205457/500000000000000000000000",
+    "status": "Primary complete exclusion and exact construction pass; independent audit pending"
+  },
+  {
+    "dimension": 58,
+    "rigorous_density_floor": "558243739609337/100000000000000000000000000",
+    "status": "Primary complete exclusion and exact construction pass; independent audit pending"
+  }
+]

@@ -1,0 +1,1 @@
+{"status": "EXACT_SETUP_AND_DENSITY_PASS", "enumeration_status": "Requires separate complete run and independent audit", "results": [{"dimension": 57, "rigorous_density_floor": "3832677775531/250000000000000000000000", "determinant": "5002464129610/3"}, {"dimension": 58, "rigorous_density_floor": "502419365648403/100000000000000000000000000", "determinant": "12506160324025/3"}]}

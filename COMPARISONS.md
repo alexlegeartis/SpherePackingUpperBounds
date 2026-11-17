@@ -1,5 +1,9 @@
 # Comparison sources and conventions
 
+**17 November49D/50D unrestricted bounds:** <2.85041752e-7 and<2.04993038e-7, compared with the attributable Afkhami-Jeddi,Cohn et al.(2020) numerical spinless-bootstrap benchmarks, not with our own predecessors. The numerical reductions are9.7387573447% and6.8379867092%; the benchmark caveats remain explicit. [Complete proof and comparison](verifications/general49_50_20261117/).
+
+**17 November57D/58D packing update:** the new half-coset constructions compare with MW56 × A1 (Schütt–Shioda) and a Γ72 rank14 Leech-block section (Nebe), respectively. These are derived consequences, not numerical records printed in those sources. Exact center-density-square comparisons give82.5741858351% and24.7490017013%; internal predecessors are not used in these percentages. [Proof, source formulas and independent audit](research/packing_binary57_58_20261117/).
+
 [Numerical comparison benchmarks for dimensions 49–96](NUMERICAL_BENCHMARKS49_96.md): Afkhami-Jeddi, Cohn et al. (2020), highest-order spinless-bootstrap spectra. These are numerical estimates, **not certified upper bounds**; they are kept separate from the proof tables.
 
 **17 November 2026, general upper bounds:** 45D <1.2613300683e-6 and 48D <4.0691468600e-7. The registered table keeps its attributable external comparators; reductions of 0.3397299611% and 0.3724007321% against our own predecessors are reported separately in the [complete proof and audit package](verifications/general_angular_20261117/). Review and higher-precision replay share FLINT/Arb and are not an independent arithmetic backend. No global priority claim follows.

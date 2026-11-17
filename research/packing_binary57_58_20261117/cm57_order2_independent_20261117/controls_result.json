@@ -1,0 +1,242 @@
+[
+  {
+    "test": 0,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 1,
+    "dimension": 2,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 2,
+    "dimension": 3,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 3,
+    "dimension": 4,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 4,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 5,
+    "dimension": 2,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 6,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 7,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 8,
+    "dimension": 1,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 9,
+    "dimension": 2,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 10,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 11,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 12,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 13,
+    "dimension": 2,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 14,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 15,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 16,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 17,
+    "dimension": 2,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 18,
+    "dimension": 3,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 19,
+    "dimension": 4,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 20,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 21,
+    "dimension": 2,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 22,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 23,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 24,
+    "dimension": 1,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 25,
+    "dimension": 2,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 26,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 27,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 28,
+    "dimension": 1,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 29,
+    "dimension": 2,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 30,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 31,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 32,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 33,
+    "dimension": 2,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 34,
+    "dimension": 3,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 35,
+    "dimension": 4,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 36,
+    "dimension": 1,
+    "expected_vector": true,
+    "status": "VECTOR"
+  },
+  {
+    "test": 37,
+    "dimension": 2,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 38,
+    "dimension": 3,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  },
+  {
+    "test": 39,
+    "dimension": 4,
+    "expected_vector": false,
+    "status": "EXHAUSTIVE_NO_VECTOR"
+  }
+]

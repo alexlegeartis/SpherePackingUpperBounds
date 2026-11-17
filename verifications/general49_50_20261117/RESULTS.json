@@ -1,0 +1,22 @@
+[
+  {
+    "dimension": 49,
+    "strict_density_upper_bound": "2.85041752e-7",
+    "numerical_benchmark": "0.000000315796396786303425874263402438806100275585579",
+    "benchmark_N": 463,
+    "decrease_vs_numerical_benchmark_percent_approx": "9.738757344693459780762438186500832780648538791423640775530530987454980",
+    "benchmark_status": "numerical spinless-bootstrap estimate, not certified upper bound",
+    "method": "Positive-factor Fourier witness + cyclic PSD kernel + exact Levenshtein annular neighbor budgets",
+    "proof": "verifications/general49_50_20261117/"
+  },
+  {
+    "dimension": 50,
+    "strict_density_upper_bound": "2.04993038e-7",
+    "numerical_benchmark": "0.000000220039295801878669842151343022998611917353644",
+    "benchmark_N": 460,
+    "decrease_vs_numerical_benchmark_percent_approx": "6.837986709167702511814661211484833195882664447480278688479095793396310",
+    "benchmark_status": "numerical spinless-bootstrap estimate, not certified upper bound",
+    "method": "Positive-factor Fourier witness + cyclic PSD kernel + exact Levenshtein annular neighbor budgets",
+    "proof": "verifications/general49_50_20261117/"
+  }
+]
