@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDIT PASS",
+  "dimension": 81,
+  "density_floor": "2.87777416803990e-17",
+  "minimum": 8,
+  "determinant": 2,
+  "coset_depth": 6,
+  "nodes": 5877535660,
+  "leaves": 100,
+  "glues": 16,
+  "source_sha": "badccf16033cf14906897cff00e10f4d51d99b41c39af080118b038380c932a2",
+  "input_sha": "5cb83cfe951a5b4968aa6e32d817fa2952c3a1668017fb5d7a3e0f4bcda76d32"
+}

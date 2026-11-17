@@ -1,0 +1,16 @@
+{
+  "108": {
+    "target_norm": "2636",
+    "norm_mod4": 0,
+    "cutoff_numerator": 640,
+    "input_sha256": "2897f03905141efca64dc9ae020ecf03461f13d65cf222caae84cbdf1a5697cf"
+  },
+  "203": {
+    "target_norm": "2098",
+    "norm_mod4": 2,
+    "cutoff_numerator": 576,
+    "input_sha256": "285b8494417ff1e7ba5c63676adc81fa182a7ce1d22ada9bf4d6367b03cb91ca"
+  },
+  "automorphism": "exact integral unimodular Gram isometry; sum class verified",
+  "status": "PASS target, all common decoder inputs, congruence, and automorphism"
+}

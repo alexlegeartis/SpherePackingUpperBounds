@@ -1,0 +1,10 @@
+{
+  "status": "PASS exact Gram, parity minima and density conditional on completed frozen exclusions",
+  "dimension": 82,
+  "minimum_squared": 8,
+  "determinant": "55/16",
+  "density_floor": "42834561831719/5000000000000000000000000000000",
+  "center_density_squared": "77371252455336267181195264/55",
+  "external_comparator": "Pinned derived MW80 x A2, not strongest-previous claim",
+  "external_gain_percent": "237.039233263139767212555708275741444379594792591110965035768"
+}
