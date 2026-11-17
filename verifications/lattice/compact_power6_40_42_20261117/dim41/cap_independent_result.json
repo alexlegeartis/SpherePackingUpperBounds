@@ -1,0 +1,8 @@
+{
+  "status": "INDEPENDENT EXACT CAP PASS",
+  "polynomials": 153,
+  "controls": 17,
+  "cosine_interval": "[0,1/2]",
+  "margin": "1/10000000",
+  "frozen_sha256": "312bb8e9c7bb637505048a7b28516b48dbc15add44494159552e7bc7e9535680"
+}

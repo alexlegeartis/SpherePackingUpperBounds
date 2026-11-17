@@ -528,15 +528,15 @@
   {
     "dimension": 40,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000006157949542",
+    "certified_density_upper_bound": "0.0000059777359372",
     "strict": true,
     "named_lattice_lower_comparison": "0.0000001479833993134267670269835311956182",
     "previous_lattice_upper": ".00000782816106",
-    "upper_decrease_percent": "21.3359370763891768982075593626071868276046941732187610355579",
-    "gap_decrease_percent": "21.7470427350855139673643940353867534891098359637071969368159",
-    "package": "verifications/lattice/collinear38_40_20261117",
+    "upper_decrease_percent": "23.6380563534291922195070421813727986838329051957446567917191",
+    "gap_decrease_percent": "24.0935197667625353135430682769834190968496222978572144148340",
+    "package": "verifications/lattice/compact_power6_40_42_20261117",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
-    "method": "Dimension-adapted PSD angular kernels + sharp primitive-line Gaussian decay + optimized origin block + mod-2 class profiles",
+    "method": "Dimension-specific three-feature compact harmonic PSD kernels + universal rank-two lattice-plane geometry + exact Fourier and mod-2 annular closure",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "previous_local_lattice_upper": "0.000006159890437",
@@ -548,24 +548,29 @@
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/collinear38_40_20261117/RESULTS.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_40_42_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/rank_two_20261117",
-      "comparison_commit": "4d0fa61"
+      "previous_repository_bound": "0.000006157949542",
+      "previous_repository_package": "verifications/lattice/collinear38_40_20261117",
+      "comparison_commit": "6caf1ed66e4b2eafe5246a9cf308f77719be2bb9",
+      "earlier_metadata": {
+        "previous_repository_package": "verifications/lattice/rank_two_20261117",
+        "comparison_commit": "4d0fa61"
+      }
     }
   },
   {
     "dimension": 41,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000004493661175",
+    "certified_density_upper_bound": "0.0000043927514316",
     "strict": true,
     "named_lattice_lower_comparison": "0.000000086368303579508263682954666249428",
     "previous_lattice_upper": ".00000553064643947781393827465524604",
-    "upper_decrease_percent": "18.7498021402308767300630640881199844727605863996421210943350",
-    "gap_decrease_percent": "19.0472499492664404649622112221759867028274444604130462148025",
-    "package": "verifications/lattice/rank_two_20261117",
+    "upper_decrease_percent": "20.5743581754839199042432591797203335752809260504789654428720",
+    "gap_decrease_percent": "20.9007508337018734532973883175998506257646567674653285976036",
+    "package": "verifications/lattice/compact_power6_40_42_20261117",
     "comparison_status": "Published numerical comparator, not a certified upper-bound witness; highest-N primary dataset values. No certified literature-priority claim.",
-    "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
+    "method": "Dimension-specific three-feature compact harmonic PSD kernels + universal rank-two lattice-plane geometry + exact Fourier and mod-2 annular closure",
     "previous_method_source": "Numerical spinless bootstrap \u2014 Afkhami-Jeddi, Cohn et al. (2020)",
     "previous_method_source_url": "https://hdl.handle.net/1721.1/125646",
     "previous_source_certificate_upper": null,
@@ -576,25 +581,30 @@
     "comparison_source": "https://hdl.handle.net/1721.1/125646",
     "source_certificate_reference": null,
     "external_comparator_certified": false,
-    "precise_bound_evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_40_42_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim41",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_bound": "0.000004493661175",
+      "previous_repository_package": "verifications/lattice/rank_two_20261117",
+      "comparison_commit": "6caf1ed66e4b2eafe5246a9cf308f77719be2bb9",
+      "earlier_metadata": {
+        "previous_repository_package": "verifications/lattice/dim41",
+        "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      }
     },
     "external_numerical_estimate": ".00000553064643947781393827465524604"
   },
   {
     "dimension": 42,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000003521717941",
+    "certified_density_upper_bound": "0.000003473037643",
     "strict": true,
     "previous_lattice_upper": ".00000387809709067400932749629726155",
     "previous_source_certificate_upper": null,
     "named_lattice_lower_comparison": "0.000000057516899055409684372481767125146",
-    "gap_decrease_percent": "9.32788036895067210023525874197961356498222157420871824433464",
-    "upper_decrease_percent": "9.18953655211533123275565787825590795805647786867793934319723",
-    "package": "verifications/lattice/rank_two_20261117",
-    "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
+    "gap_decrease_percent": "10.6020401969996275017019816984154192423211439782153369701436",
+    "upper_decrease_percent": "10.4447990394075050795710485981853591963949428503975963311239",
+    "package": "verifications/lattice/compact_power6_40_42_20261117",
+    "method": "Dimension-specific three-feature compact harmonic PSD kernels + universal rank-two lattice-plane geometry + exact Fourier and mod-2 annular closure",
     "previous_method_source": "Numerical spinless bootstrap \u2014 Afkhami-Jeddi, Cohn et al. (2020)",
     "previous_method_source_url": "https://hdl.handle.net/1721.1/125646",
     "comparison_status": "Published numerical comparator, not a certified upper-bound witness; highest-N primary dataset values. No certified literature-priority claim.",
@@ -606,10 +616,15 @@
     "comparison_source": "https://hdl.handle.net/1721.1/125646",
     "source_certificate_reference": null,
     "external_comparator_certified": false,
-    "precise_bound_evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_40_42_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim42_own",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_bound": "0.000003521717941",
+      "previous_repository_package": "verifications/lattice/rank_two_20261117",
+      "comparison_commit": "6caf1ed66e4b2eafe5246a9cf308f77719be2bb9",
+      "earlier_metadata": {
+        "previous_repository_package": "verifications/lattice/dim42_own",
+        "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      }
     },
     "external_numerical_estimate": ".00000387809709067400932749629726155"
   },

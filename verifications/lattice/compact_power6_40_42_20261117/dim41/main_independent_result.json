@@ -1,0 +1,11 @@
+{
+  "status": "PASS all accepted leaves independently replayed; exact complete trace coverage",
+  "mode": "main",
+  "nodes": 184501,
+  "leaves": 92251,
+  "precision": 384,
+  "maxupper": "[-1.000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000e-7 +/- 5.80e-123]",
+  "maxupper_note": "conservative -1e-7 ceiling after prefix resume; not measured worst leaf",
+  "input_sha": "312bb8e9c7bb637505048a7b28516b48dbc15add44494159552e7bc7e9535680",
+  "trace_sha": "86ec39b414fcd0ab1866329cf732eeccd6a706a85169ff31bf6b71f33e2d1d97"
+}

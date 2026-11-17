@@ -1,0 +1,38 @@
+{
+  "dim40/input/main_trace.bin": {
+    "stored_path": "dim40/input/main_trace.bin.gz",
+    "stored_sha256": "6b5f3d23c4359a821283b72c544cd5b49e865a736656b81dc7495db3551a641a"
+  },
+  "dim40/input/root_repair/annular_final_certificate.json": {
+    "stored_path": "dim40/input/root_repair/annular_final_certificate.json.gz",
+    "stored_sha256": "123176fafc99d72b96ec716493e5f5dbf0ecfbcc6526fb525841c2a689deb536"
+  },
+  "dim40/input/root_repair/repaired.json": {
+    "stored_path": "dim40/input/root_repair/repaired.json.gz",
+    "stored_sha256": "d980b4e6c277dd548a11d35cd1d2be483f3880c9deb47711f4860f2c7f1188f1"
+  },
+  "dim41/input/main_trace.bin": {
+    "stored_path": "dim41/input/main_trace.bin.gz",
+    "stored_sha256": "d3d91c0b8dd8007c1877e9d2d33ea069bd3fc4fe4839860066a7bc462c4740b0"
+  },
+  "dim41/input/root_repair/annular_final_certificate.json": {
+    "stored_path": "dim41/input/root_repair/annular_final_certificate.json.gz",
+    "stored_sha256": "4844107735c0b7ccdf10f4e756e8f86ddc8490cfbb90778b77ddffa01577ee96"
+  },
+  "dim41/input/root_repair/repaired.json": {
+    "stored_path": "dim41/input/root_repair/repaired.json.gz",
+    "stored_sha256": "8531481d12807520004ec071e4487ade82cf4c2e6b969cb07acce19d499f1f44"
+  },
+  "dim42/input/main_trace.bin": {
+    "stored_path": "dim42/input/main_trace.bin.gz",
+    "stored_sha256": "efd9e3ba5d928f9f7e11780fe94e0965aa7227fbc1cd7b9c981cc7f2b329fe50"
+  },
+  "dim42/input/root_repair/annular_final_certificate.json": {
+    "stored_path": "dim42/input/root_repair/annular_final_certificate.json.gz",
+    "stored_sha256": "507a1a97b731b2e127f3f20e81fa2b44e3ac994c9e73d0d3cb031d3080f8ae72"
+  },
+  "dim42/input/root_repair/repaired.json": {
+    "stored_path": "dim42/input/root_repair/repaired.json.gz",
+    "stored_sha256": "901dc608d5d0fae348662cb8e5c86c218e1f71f7c67faf05361196eb75a59be3"
+  }
+}
