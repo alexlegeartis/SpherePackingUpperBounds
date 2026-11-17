@@ -1,0 +1,14 @@
+{
+  "source37/input/main_trace.bin": {
+    "stored": "source37/input/main_trace.bin.gz",
+    "sha256": "b42815fd2e425a300504e2a44c35eae48f12a2bcb50e41ad5d098e912cec25cf"
+  },
+  "replay/repaired.json": {
+    "stored": "replay/repaired.json.gz",
+    "sha256": "d49b35109e41f30aee9a4212044c1dc45faca837adddda64e452b67614a1fc6a"
+  },
+  "replay/annular_final_certificate.json": {
+    "stored": "replay/annular_final_certificate.json.gz",
+    "sha256": "17a05766f5955dfefe0f065139c7bf35e96138b0fa35fbf946dfde3bd34973fa"
+  }
+}

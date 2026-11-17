@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE INDEPENDENT PASS",
+  "scope": "lattice_only",
+  "dimension": 36,
+  "safe_density_upper": "2.727705e-5",
+  "previous_repository_upper": "0.000027402464246",
+  "improvement_percent": "0.45767506481942405",
+  "geometry": {
+    "status": "PASS all accepted leaves independently replayed; exact complete trace coverage",
+    "mode": "main",
+    "nodes": 216069,
+    "leaves": 108035,
+    "precision": 384,
+    "maxupper": "[-0.0009853352846723561138903785696849032995341606622907504487051659140248080028183176720528989608095107108820510287032168 +/- 2.66e-119]",
+    "maxupper_note": "maximum of replayed leaf upper bounds",
+    "input_sha": "78f99a960215ea1d0c44e2e93faf0cb1e06c4be1dba99cb14495433c2b09c550",
+    "trace_sha": "25a774562f44e2899695bb1101d856c1ee100fdf91f4079aa6470127ba349974"
+  },
+  "radial": {
+    "status": "PASS fresh complete Arb replay matches producer exactly",
+    "annuli": 653,
+    "nodes": 2605,
+    "precision": 1024,
+    "producer_certificate_sha256": "eae69f49815a6f2abd32828c54f84d97a799a4113db90309f4029c6d9a6cf031"
+  },
+  "exact_audit": "check.py",
+  "theorem_review": "THEOREM_REVIEW.md"
+}

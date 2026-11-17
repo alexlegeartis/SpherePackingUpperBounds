@@ -1,0 +1,7 @@
+{
+  "status": "PASS fresh complete Arb replay matches producer exactly",
+  "annuli": 653,
+  "nodes": 2605,
+  "precision": 1024,
+  "producer_certificate_sha256": "eae69f49815a6f2abd32828c54f84d97a799a4113db90309f4029c6d9a6cf031"
+}
