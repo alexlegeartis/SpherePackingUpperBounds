@@ -1,0 +1,25 @@
+{
+  "dimension": 51,
+  "strict_density_upper_bound": "1.38612634E-7",
+  "method": "Three-feature compact cyclic harmonic-matrix kernel with intermediate radial powers 12,18,24 and exact Fourier-factor repair",
+  "external_numerical_comparison": "1.5321362440043E-7",
+  "external_source": "https://doi.org/10.1007/JHEP12%282020%29066",
+  "external_dataset": "https://hdl.handle.net/1721.1/125646",
+  "external_source_status": "Numerical spinless-bootstrap estimate, N=457; not a certified upper bound",
+  "decrease_from_external_numerical_percent": "9.52982507761171515773258453431753024080437760",
+  "previous_published_repository_bound": "1.39812853E-7",
+  "previous_published_package": "verifications/general51_pc29_geomfix_20261117",
+  "decrease_from_previous_repository_percent": "0.858446826773501288897952751168020296388630300",
+  "scope": "All sphere packings in R^51; no lattice, antipodal or mod-2 premise",
+  "audit": "Full independent 512-bit trace replay with all nine matrix entries; exact principal minors, six Bernstein controls, scalar reconstruction and odd-dimensional normalization",
+  "nodes": 78425,
+  "leaves": 39213,
+  "radial_annuli": 633,
+  "radial_profiles": [
+    12,
+    18,
+    24
+  ],
+  "compact_correction_degree": 48,
+  "gaussian_fourier_degree": 71
+}
