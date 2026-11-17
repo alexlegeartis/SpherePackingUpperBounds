@@ -16,3 +16,11 @@ OPENBLAS_NUM_THREADS=1 python refit.py 6
 ```
 
 Do not put candidate values in the certified tables.
+
+## Guarded reconstruction
+
+`refit_guarded.py` uses a shifted-Legendre radial basis and positive PSD margins. The saved power-six iteration 1 passed its sampled/optimized triangle screen and had positive matrix eigenvalues, but an exact support-crossing angular audit found a positive interior extremum (about 0.09738 before normalization). It is rejected and is not a bound.
+
+`cap_extrema.py` isolates all derivative roots of the six exact rational angular controls. `refit_capguarded.py` incorporates these critical points as additional SDP cuts and records resumable cut sets. `prepare_producer.py` rounds a numerical candidate to exact rationals, checks all block principal minors, sets the origin Schur complement exactly, and prepares new producer checks without copying historical PASS receipts. Candidate geometry and radial inequalities still require fresh proofs and independent audits.
+
+A failed solver now stops rather than reusing stale variable values. Earlier saved candidates retain their explicit numerical-only status. No lost historical power-six result is claimed recovered.

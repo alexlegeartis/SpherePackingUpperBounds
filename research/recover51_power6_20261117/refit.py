@@ -35,7 +35,8 @@ for step in range(10):
  cons=[X>>1e-10*np.eye(4)]+[b>>1e-10*np.eye(3)for b in Bs[1:]]+[tr@vec<=-2e-8,cap@vec<=-2e-8,(diag/radscale[:,None])@vec+2*(H/radscale[:,None])@z+(fv-allow)*q/radscale<=-1e-8]
  pr=cp.Problem(cp.Minimize(s),cons);start=time.time()
  try:pr.solve(solver='CLARABEL',max_iter=250,max_threads=2,tol_gap_abs=1e-9,tol_feas=1e-9,tol_gap_rel=1e-9)
- except Exception as e:print(repr(e),flush=True)
+ except Exception as e:
+  print(repr(e),flush=True);break
  if X.value is None:print(pr.status,flush=True);break
  test=np.r_[rng.random((30000,3)),xs];res=trirows(test)@vec.value;bad=np.argsort(res)[-30:];record=dict(status='NUMERICAL_ONLY_NOT_A_BOUND',dimension=n,powers=[p,p+4,p+8],iteration=step,solver_status=pr.status,s=float(s.value),z=z.value.tolist(),B=[b.value.tolist()for b in Bs],q=q,co=co.tolist(),R='19/13',maximum_sampled_triangle=float(res.max()),minimum_eigenvalue=min(np.linalg.eigvalsh(X.value).min(),*[np.linalg.eigvalsh(b.value).min()for b in Bs]),seconds=time.time()-start,source_commit='34f59648d034e92a52768c95af96221a8f589ac9',old_s=float(F(v['s'])))
  (D/f'refit_p{p}_step{step}.json').write_text(json.dumps(record,indent=2));print({key:val for key,val in record.items()if key not in ['B','z','co']},flush=True)
