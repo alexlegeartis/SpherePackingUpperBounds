@@ -13,6 +13,9 @@ def replay_collinear_transfer():
 adapted4042=p/'compact_power6_40_42_20261117'
 if a.dimension in [40,41,42]:
  subprocess.run([sys.executable,str(adapted4042/'run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
+adapted3739=p/'compact_power6_37_39_20261117'
+if a.dimension in [37,38,39]:
+ subprocess.run([sys.executable,str(adapted3739/'run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
 adapted=p/'compact_power6_adapted_20261117'
 adapted_dims=list(map(int,json.loads((adapted/'VERIFIED_RESULTS.json').read_text())['bounds']))
 if a.dimension in adapted_dims:
@@ -49,4 +52,5 @@ with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
   subprocess.run([sys.executable,str(p/'compact_power6_45_48_20261117/run_all.py')],check=True)
   subprocess.run([sys.executable,str(adapted/'run_all.py')],check=True)
   subprocess.run([sys.executable,str(adapted4042/'run_all.py')],check=True)
+  subprocess.run([sys.executable,str(adapted3739/'run_all.py')],check=True)
  print('ALL REQUESTED LATTICE REPLAYS PASSED',flush=True)

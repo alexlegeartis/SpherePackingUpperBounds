@@ -1,0 +1,8 @@
+{
+  "status": "EXACT TRANSLATED-COEFFICIENT TAIL PASS",
+  "n": 39,
+  "negative_from": 180,
+  "degree": 81,
+  "all_shifted_coefficients_strictly_negative": true,
+  "input_sha256": "f24674f33a5b202b12d3c4762bfcf9f2a81ebb3aef754acd697f18a152232097"
+}

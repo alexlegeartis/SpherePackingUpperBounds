@@ -1,0 +1,14 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDIT PASS",
+  "dimension": 37,
+  "frozen_sha256": "78f99a960215ea1d0c44e2e93faf0cb1e06c4be1dba99cb14495433c2b09c550",
+  "annuli": 653,
+  "radial_nodes": 3381,
+  "exact_algebra_caps_radial_and_both_tails": "PASS",
+  "unconditional_bound_certified": true,
+  "safe_upper": "1.8268708324e-5",
+  "main_nodes": 216069,
+  "main_leaves": 108035,
+  "main_bits": 384,
+  "trace_sha256": "25a774562f44e2899695bb1101d856c1ee100fdf91f4079aa6470127ba349974"
+}

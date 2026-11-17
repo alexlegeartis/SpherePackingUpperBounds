@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDITS AND FRESH FULL PORTABLE REPLAYS PASS",
+  "scope": "lattice-only sphere-packing upper bounds",
+  "bounds": {
+    "37": "1.8268708324e-5",
+    "38": "1.23521549304e-5",
+    "39": "8.4799401622e-6"
+  },
+  "independent_replay_bits": 384,
+  "shared_interval_backend": "Arb/Jet shared with producer; separate exact algebra, cap and coverage checks"
+}
