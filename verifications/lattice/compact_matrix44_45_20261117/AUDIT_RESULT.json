@@ -1,0 +1,17 @@
+{
+  "status": "INDEPENDENT AUDIT PASS",
+  "bounds": {
+    "44": "1.776548487e-6",
+    "45": "1.1735752753e-6"
+  },
+  "fresh_checks": [
+    "exact PSD and geometry/scalar correspondence",
+    "Fourier positive-factor reconstruction and Laguerre transform",
+    "complete scalar tail root accounting",
+    "633 annuli per dimension at1024bits",
+    "44D complete112335node56168leaf geometry trace at384bits",
+    "45D exact Gegenbauer restriction from pinned46D geometry",
+    "exact volume comparison and outward rounding"
+  ],
+  "scope": "Shared reviewed producer Jet/Arb and scalar routines; independent exact link/budget code and fresh complete replay, not independent interval backend."
+}

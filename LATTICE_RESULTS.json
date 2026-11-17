@@ -648,15 +648,15 @@
   {
     "dimension": 44,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000001779651377",
+    "certified_density_upper_bound": "0.000001776548487",
     "strict": true,
     "previous_lattice_upper": ".00000186230595",
     "previous_source_certificate_upper": ".00000186230595",
     "named_lattice_lower_comparison": "0.0000000320085352655056342054972210802435",
-    "gap_decrease_percent": "4.51590940000262164456057131772317214124736323126628840942242",
-    "upper_decrease_percent": "4.43829183921148939034426647243434946873256781464935984337053",
-    "package": "verifications/lattice/rank_two_20261117",
-    "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
+    "gap_decrease_percent": "4.68543867841501069258929383179447529352854470802092427987465",
+    "upper_decrease_percent": "4.60490731933708314683739264217031578511575930904371540025418",
+    "package": "verifications/lattice/compact_matrix44_45_20261117",
+    "method": "Dimension-specific compact harmonic-matrix kernel + exact angular-corner signs + repaired Fourier and mod-2 annular profiles",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
@@ -671,34 +671,36 @@
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "precise_bound_evidence": "verifications/lattice/compact_matrix44_45_20261117/input44/density_result.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim44",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_package": "verifications/lattice/rank_two_20261117",
+      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e",
+      "previous_repository_bound": "0.000001779651377"
     }
   },
   {
     "dimension": 45,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.000001180784470",
+    "certified_density_upper_bound": "0.0000011735752753",
     "named_lattice_lower_comparison": "2.52315067E-8",
     "previous_lattice_upper": ".00000128034519",
     "previous_source_certificate_upper": ".00000128034519",
-    "upper_decrease_percent": "7.77608419804349794136376612622725594806194413867403992824779",
-    "gap_decrease_percent": "7.93240654808499768030534704632679547172298762874940604991809",
-    "package": "verifications/lattice/rank_two_20261117",
+    "upper_decrease_percent": "8.33915068638637991056146350657200500749333076340139177622872",
+    "gap_decrease_percent": "8.50679234244947857624874322011942963891994404169364536159862",
+    "package": "verifications/lattice/compact_matrix44_45_20261117",
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
-    "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
+    "method": "Exact harmonic-matrix dimension restriction + compact rank-two kernel + repaired Fourier and mod-2 annular profiles",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "precise_bound_evidence": "verifications/lattice/compact_matrix44_45_20261117/input45/root_repair45/density_result.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim45_cyclic",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_package": "verifications/lattice/rank_two_20261117",
+      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e",
+      "previous_repository_bound": "0.000001180784470"
     }
   },
   {

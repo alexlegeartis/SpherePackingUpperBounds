@@ -4,6 +4,8 @@ from pathlib import Path
 if not __debug__:raise RuntimeError('Assertions required; do not run with -O')
 p=Path(__file__).resolve().parent
 ap=argparse.ArgumentParser();ap.add_argument('--dimension',type=int,choices=[14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48]);a=ap.parse_args()
+if a.dimension in [44,45]:
+ subprocess.run([sys.executable,str(p/'compact_matrix44_45_20261117/run.py'),'--mode','full'],check=True);sys.exit(0)
 if a.dimension is not None and a.dimension>=36:
  subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
 m=json.loads((p/'MANIFEST.json').read_text())
@@ -23,5 +25,7 @@ with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
   print('REPLAY lattice dimension',n,flush=True)
   folder=f'dim{n}_cyclic_strong' if n in [37,48] else f'dim{n}_cyclic' if n in [45,46,47,48] else 'dim42_own' if n==42 else f'dim{n}_tight' if n in [38,39,40] else f'dim{n}_threewindow' if n in [32,35,36] else f'dim{n}'
   subprocess.run([sys.executable,str(root/folder/'run_all.py')],cwd=root/folder,check=True)
- if a.dimension is None:subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py')],check=True)
+ if a.dimension is None:
+  subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py')],check=True)
+  subprocess.run([sys.executable,str(p/'compact_matrix44_45_20261117/run.py'),'--mode','full'],check=True)
  print('ALL REQUESTED LATTICE REPLAYS PASSED',flush=True)
