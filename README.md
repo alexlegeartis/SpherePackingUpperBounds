@@ -20,6 +20,7 @@ Latest verified values from this week:
 
 | Scope | Current release | Proof and comparison |
 | --- | --- | --- |
+| Unrestricted upper, 58D | **<1.073633e-8** | [Complete audit](verifications/general58_pc29_geomfix_20261117/); comparison unresolved, no SOTA claim |
 | Unrestricted upper, 57D | **<1.5718326e-8** | [Complete audit](verifications/general57_pc29_geomfix_20261117/); comparison unresolved, no SOTA claim |
 | Unrestricted upper, 54D | **<4.8695034e-8** | [Complete audit](verifications/general54_pc29_geomfix_20261117/); [numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md) |
 | Unrestricted upper, 53D | **<6.8841195e-8** | [Complete audit](verifications/general53_pc29_geomfix_20261117/); 7.0662% below the previous repository certificate |
