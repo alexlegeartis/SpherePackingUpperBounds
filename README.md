@@ -2,6 +2,8 @@
 
 > **17 November 44D/45D lattice update:** density **<1.776548487e-6** in 44D and **<1.1735752753e-6** in 45D, with [complete proof and independent replay](verifications/lattice/compact_matrix44_45_20261117/). Comparisons below retain Zubrilina’s external bounds.
 
+> **17 November stronger unrestricted 50D bound:** density **<1.99548924e-7**, with [complete exact proof and independent interval replay](verifications/general50_pc29_20261117/). This is 9.3121% below the attributed external numerical benchmark, not a certification of that benchmark.
+
 > **17 November dimension-specific update:** lattice-only 46D **<7.766101459e-7**, with [complete independent proof and replay](verifications/lattice/compact_matrix46_new_20261117/). The earlier transferred result remains preserved below and in its proof package.
 
 > **Earlier 17 November lattice transfer:** 46D **<7.790880151e-7** and 47D **<5.186745468e-7**, with [complete independent audit and replay](verifications/lattice/compact_matrix46_47_20261117/). These retain the certified compact 48D plane geometry and use separate target-dimensional scalar proofs.
@@ -10,7 +12,7 @@
 
 > **17 November 51D/52D unrestricted update:** density **<1.52983244e-7** and **<1.06516626e-7**, with [complete independently audited proofs](verifications/general51_52_20261117/). The comparison remains explicitly numerical, not a certified prior bound.
 
-> **17 November unrestricted49D/50D update:** certified density **<2.85041752e-7** in 49D and **<2.04993038e-7** in 50D. [Complete proof and audit](verifications/general49_50_20261117/) · [Numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md#certified-results-compared-with-these-numerical-benchmarks). These do not extend the lattice-only table.
+> **Earlier 17 November unrestricted49D/50D update:** certified density **<2.85041752e-7** in 49D and **<2.04993038e-7** in 50D. [Complete proof and audit](verifications/general49_50_20261117/) · [Numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md#certified-results-compared-with-these-numerical-benchmarks). These do not extend the lattice-only table.
 
 [Numerical comparison benchmarks for dimensions 49–96](NUMERICAL_BENCHMARKS49_96.md): Afkhami-Jeddi, Cohn et al. (2020), highest-order spinless-bootstrap spectra. These are numerical estimates, **not certified upper bounds**; they are kept separate from the proof tables.
 

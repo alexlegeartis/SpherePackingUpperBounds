@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE INTERVAL COVERAGE PASS",
+  "mode": "main",
+  "nodes": 32905,
+  "leaves": 16453,
+  "precision_bits": 384,
+  "threshold": "-1/10000000",
+  "maximum_upper": "[-2.998247653117687746667013803044706536363009905006671552028074628825594179465288025021647428159025885878550906412872e-6 +/- 3.17e-121]",
+  "input_sha": "2d4ffd3c113149707bf2b55aff7986c666c75666c62bd5ad9b797ac005a849c2",
+  "trace_sha": "9bd90f1ca7a000e30ab3866a6ef83fdf4308243f7f6c86ac021fee1d1dbfa5c3"
+}

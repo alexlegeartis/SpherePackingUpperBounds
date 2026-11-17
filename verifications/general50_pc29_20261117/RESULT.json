@@ -1,0 +1,14 @@
+{
+  "dimension": 50,
+  "strict_density_upper_bound": "1.99548924e-7",
+  "method": "Degree-29 compact cyclic harmonic-matrix kernel with two radial features and exact Fourier-factor repair",
+  "external_numerical_comparison": "2.2003929580188e-7",
+  "external_source": "https://arxiv.org/abs/2006.02560",
+  "external_source_status": "Numerical spinless-bootstrap estimate, N=460; not a certified upper bound",
+  "decrease_from_external_numerical_percent": "9.3121420550",
+  "previous_published_repository_bound": "2.04993038e-7",
+  "previous_published_package": "verifications/general49_50_20261117",
+  "scope": "All sphere packings in R^50; no lattice or antipodal premise",
+  "audit": "Full interval replay at higher precision plus exact algebraic checks; reviewed shared FLINT/Arb backend",
+  "safe_upper_rational": "49887231/250000000000000"
+}
