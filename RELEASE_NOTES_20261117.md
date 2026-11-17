@@ -169,3 +169,7 @@ The current best-known claims and external comparisons are collected in the
 ## Independently verified unrestricted 53D improvement
 
 Density <6.8841195e-8, 7.06624096% below the previous repository certificate and 7.1441135129% below the attributed external numerical benchmark (not a certified prior bound). [Self-contained proof](verifications/general53_pc29_geomfix_20261117/) includes the full independent 132,889-node, 512-bit replay, exact PSD and angular signs, Fourier/tail proof, 629 radial annuli and independent odd-dimensional Gamma/pi normalization. The earlier 53D certificate and all other results are preserved.
+
+## Independently verified unrestricted 54D upper bound
+
+Density <4.8695034e-8, 5.4884765414% below the attributed external numerical spinless-bootstrap estimate (N=484), not a certified prior bound. [Self-contained proof](verifications/general54_pc29_geomfix_20261117/) includes the full independent 95,299-node, 512-bit replay, exact PSD and angular signs, Fourier/tail proof, 905 radial annuli from contact 24 through cutoff 250, and exact rational density normalization. The fast Arb polynomial shift is independently reviewed and checked against exact rational compositions. Existing results and the weekly README layout are preserved.

@@ -14,12 +14,13 @@ Reproducible certificates for unrestricted sphere packings, lattice-only upper b
 <details>
 <summary><strong>Week of 16 November 2026</strong> · stronger upper bounds and new packing constructions</summary>
 
-**17 November:** unrestricted 49–53D certificates were followed by stronger compact-kernel refinements, while three-feature kernels and dimensional transfers tightened lattice-only bounds. Packing work added advances in 57–58D, 81–90D and 94–95D; explicit constructions and existence results remain distinguished in their tables. [Chronological release notes and exact comparisons](CHANGES_20261117.md).
+**17 November:** unrestricted 49–54D certificates were followed by stronger compact-kernel refinements, while three-feature kernels and dimensional transfers tightened lattice-only bounds. Packing work added advances in 57–58D, 81–90D and 94–95D; explicit constructions and existence results remain distinguished in their tables. [Chronological release notes and exact comparisons](CHANGES_20261117.md).
 
 Latest verified values from this week:
 
 | Scope | Current release | Proof and comparison |
 | --- | --- | --- |
+| Unrestricted upper, 54D | **<4.8695034e-8** | [Complete audit](verifications/general54_pc29_geomfix_20261117/); [numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md) |
 | Unrestricted upper, 53D | **<6.8841195e-8** | [Complete audit](verifications/general53_pc29_geomfix_20261117/); 7.0662% below the previous repository certificate |
 | Unrestricted upper, 51D | **<1.39812853e-7** | [Complete audit](verifications/general51_pc29_geomfix_20261117/); 8.6090% below the previous repository certificate |
 | Unrestricted upper, 52D | **<9.7440293e-8** | [Complete audit](verifications/general52_pc29_geomfix_20261117/); 8.5210% below the previous repository certificate |
