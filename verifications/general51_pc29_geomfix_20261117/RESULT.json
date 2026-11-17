@@ -1,0 +1,18 @@
+{
+  "dimension": 51,
+  "strict_density_upper_bound": "1.39812853E-7",
+  "method": "Degree-29 compact cyclic harmonic-matrix kernel with two radial features and exact Fourier-factor repair",
+  "external_numerical_comparison": "1.5321362440043E-7",
+  "external_source": "https://doi.org/10.1007/JHEP12%282020%29066",
+  "external_dataset": "https://hdl.handle.net/1721.1/125646",
+  "external_source_status": "Numerical spinless-bootstrap estimate, N=457; not a certified upper bound",
+  "decrease_from_external_numerical_percent": "8.74646197612722893950588699444677107052620500",
+  "previous_published_repository_bound": "1.52983244E-7",
+  "previous_published_package": "verifications/general51_52_20261117",
+  "decrease_from_previous_repository_percent": "8.60904152352789695059675947256027594760639280",
+  "scope": "All sphere packings in R^51; no lattice, antipodal or mod-2 premise",
+  "audit": "Independent512-bit full trace replay and exact odd-dimensional Gamma/pi normalization; reviewed scalar algorithms rerun with FLINT/Arb",
+  "nodes": 98507,
+  "leaves": 49254,
+  "radial_annuli": 633
+}

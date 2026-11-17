@@ -1,0 +1,5 @@
+# Cohn table citation check, 17 November 2026
+
+The current [sphere-packing page](https://cohn.mit.edu/sphere-packing/) was fetched directly by HTTPS. Reference 25 names A. Kravatskiy and links this repository. The two tables, identified as `data` and `lattice-data`, both contain dimensions 1–48 in this response. `snapshot.json` records the source digest and cited rows. Older search-engine caches and the data index can describe an earlier table including 56,64,72; they were not used for this check.
+
+The repository is cited for unrestricted upper bounds in 4–7,9–23,25–48, lattice-only upper bounds in 14–23,25–48, and the 36D lower bound in both tables. The36D center density displayed there is 2^24/(3^3·7^6), equal to our 16777216/3176523. This check records citation coverage, not a fresh audit of all historical proofs or an implication that Cohn has independently verified each certificate. Some newer repository refinements are not yet reflected there. Dimensions 49+ are not claimed listed.
