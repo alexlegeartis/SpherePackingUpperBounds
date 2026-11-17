@@ -13,6 +13,7 @@ Reproducible certificates for unrestricted sphere packings, lattice-only upper b
 
 | Scope | Current release | Proof and comparison |
 | --- | --- | --- |
+| Unrestricted upper, 53D | **<6.8841195e-8** | [Complete audit](verifications/general53_pc29_geomfix_20261117/); 7.0662% below the previous repository certificate |
 | Unrestricted upper, 51D | **<1.39812853e-7** | [Complete audit](verifications/general51_pc29_geomfix_20261117/); 8.6090% below the previous repository certificate |
 | Unrestricted upper, 52D | **<9.7440293e-8** | [Complete audit](verifications/general52_pc29_geomfix_20261117/); 8.5210% below the previous repository certificate |
 | Unrestricted upper, 50D | **<1.99548924e-7** | [Complete audit](verifications/general50_pc29_20261117/) |

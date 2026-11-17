@@ -71,4 +71,4 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 
 [51D/52D verification and audit scope](verifications/general51_52_20261117/). The same numerical-versus-certified distinction applies to these comparisons.
 
-- **53D:** certified density **<7.40755520e-8**, versus numerical benchmark ≈7.4137674631496e-8, a 0.0837936067% decrease. [Complete verification and independent audit](verifications/general53_20261117/). The benchmark is numerical, not a certified upper bound.
+- **53D:** certified density **<6.8841195e-8**, versus numerical benchmark ≈7.4137674631496e-8 (N=469), a **7.1441135129%** decrease from that numerical value. [Complete proof and independent replay](verifications/general53_pc29_geomfix_20261117/). The previous certified <7.40755520e-8 remains preserved in its original package. The benchmark is numerical, not a certified upper bound.

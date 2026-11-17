@@ -165,3 +165,7 @@ adds counting-based **existence proofs in 73–78D and 81–85D** and explicit
 product comparison and distinguish existence bounds from explicit packings.
 The current best-known claims and external comparisons are collected in the
 [dated literature review](research/covering_and_deep_cosets_20261115/PRIORITY.md).
+
+## Independently verified unrestricted 53D improvement
+
+Density <6.8841195e-8, 7.06624096% below the previous repository certificate and 7.1441135129% below the attributed external numerical benchmark (not a certified prior bound). [Self-contained proof](verifications/general53_pc29_geomfix_20261117/) includes the full independent 132,889-node, 512-bit replay, exact PSD and angular signs, Fourier/tail proof, 629 radial annuli and independent odd-dimensional Gamma/pi normalization. The earlier 53D certificate and all other results are preserved.
