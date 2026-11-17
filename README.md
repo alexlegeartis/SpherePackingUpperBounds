@@ -221,21 +221,15 @@ The separate 36D lower-bound replay is `python constructions/dim36/verify_all.py
 
 ## Layout
 
-- `verifications/dim17/`: solid-harmonic cyclic witness, explicit finite-sum proof and independent exact-domain audit.
-- `verifications/dim18/`: exact degree-31 continuum witness, independent audit and two full-domain verification paths.
-- `verifications/dim5/`: count-enhanced cyclic witness, proof, independent audit and global replay.
-
-- `verifications/dim4/`: cyclic kernel, published neighbor-count inputs, exact witness and global verification.
-- `verifications/dim19/`: exact witness, proof and two verification paths.
-- `verifications/dim20/`: exact witness, proof and two verification paths.
-- `verifications/dim21/`: exact witness, proof and two verification paths.
-- `verifications/dim48/`: current cyclic witness, complete proof dependencies and independent angular, triangle-domain and radial audits.
-- `RESULTS.json`: machine-readable registry.
-- `run_all.py`: full certificate replay, failing on any unsuccessful subprocess.
+- [verifications/](verifications/): unrestricted and lattice-only upper-bound certificates, with package-specific proofs and replay instructions.
+- [RESULTS.json](RESULTS.json) and [LATTICE_RESULTS.json](LATTICE_RESULTS.json): separate machine-readable registries. [Additional high-dimensional releases](NUMERICAL_BENCHMARKS49_96.md#certified-results-compared-with-these-numerical-benchmarks) link their self-contained certificates.
+- [constructions/](constructions/) and [research/](research/): packing constructions, source audits and experiments. A research directory alone is not a verified result; consult its stated status and proof.
+- [Root replay suite](run_all.py) and [lattice replay suite](verifications/lattice/replay.py): separate entry points. Later releases may have their own runners; follow each package’s README rather than assuming the root suite covers everything.
+- [Release history](RELEASE_NOTES_20261117.md): chronology, superseded witnesses and detailed audit notes.
 
 The referenced continuum theorem and standard positive-definite Gegenbauer addition theorem are mathematical inputs, not independently formalized theorems in this repository.
 
-The [origin-coordinate refinements](verifications/origin_slack/) tighten the existing 4D, 5D, 19D, 20D and 21D certificates. All earlier witnesses remain available; full source replays and independent exact Schur/Arb audits passed. Dimension 18 is newly registered separately below.
+[Origin-coordinate](verifications/origin_slack/) and [cyclic-origin refinements](verifications/cyclic_origin_slack/) remain available as earlier proof stages. Use the registries and current release links for the latest certificates.
 
 ## Research tools
 
