@@ -40,7 +40,7 @@ The resulting certified center-density-square floors are:
 |90|133919321295115171411465916890|
 |89|5298367406746324075995062827|
 
-Multiplying their square roots by the unit-ball volumes gives approximately7.200357004613e−20 in90D and5.435520207304e−20 in89D. These are achieved lower guarantees (existence of sections), not Rogers-style upper endpoints. Our comparison gains use these exact floors, not the rounded decimals. The fixed rational angles and degree are not asserted globally optimal. Stronger published numerical Euclidean LP bounds may further strengthen this external-derived comparison.
+Multiplying their square roots by the unit-ball volumes gives approximately7.200357004613e−20 in90D and5.435520207304e−20 in89D. These are achieved lower guarantees (existence of sections), not Rogers-style upper endpoints. Our comparison gains use these exact floors, not the rounded decimals. The fixed rational angles and degree are not asserted globally optimal. Published numerical bootstrap spectra suggest stronger expected CE comparisons, subject to the qualifications below.
 
 ## Replay
 
@@ -52,4 +52,6 @@ Requires Python and SymPy. All three checks passed on17 November2026. No packing
 
 ## Stronger numerical data are not silently treated as certificates
 
-The authors' [MIT dataset](https://hdl.handle.net/1721.1/125646), dataminusone.txt, includes numerically optimized scaling gaps for90–92D. The highest-N values are approximately5.737208410825264,5.792122865905022 and5.847008716053789. Under the paper's normalization these suggest Hermite bounds twice those numbers, stronger than the fixed-angle certificates above. They are numerical spectra, not the verified auxiliary-function positivity certificates needed for an exact section guarantee. The paper's §2.4 distinguishes that positivity step. We do not claim to have certified these stronger numerical values or optimized the external baseline. Their existence is disclosed rather than calling the weaker analytic evaluation globally strongest.
+The authors' [MIT dataset](https://hdl.handle.net/1721.1/125646), dataminusone.txt, records numerical bootstrap / −1 Fourier-eigenfunction spectra, not certified Cohn–Elkies (CE) auxiliary functions. Its highest-N gaps for90–92D are approximately5.737208410825264,5.792122865905022 and5.847008716053789. Twice these gaps suggests stronger Hermite comparisons only if suitable CE functions are established.
+
+[Afkhami-Jeddi et al., §2.3](https://arxiv.org/html/2006.02560v2) explicitly describes the same-radius lift from an optimal −1 eigenfunction to a CE auxiliary function as conjectural in general. Separately, §2.4 requires checking the relevant function inequalities. Neither step is supplied by numerical spectra alone. We therefore call these **numerical bootstrap / expected CE comparisons**, not certified CE upper bounds or rigorous section guarantees. None enters the exact comparison table. The certified spherical-LP calculations above are unaffected.
