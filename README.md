@@ -9,7 +9,14 @@
 
 Reproducible certificates for unrestricted sphere packings, lattice-only upper bounds and packing constructions are separated below. Comparisons remain source-attributed; derived guarantees, numerical benchmarks and certified bounds are not interchangeable, and no exhaustive worldwide-priority claim is made.
 
-## Latest verified releases
+## Recent updates
+
+<details>
+<summary><strong>Week of 16 November 2026</strong> · stronger upper bounds and new packing constructions</summary>
+
+**17 November:** unrestricted 49–53D certificates were followed by stronger compact-kernel refinements, while three-feature kernels and dimensional transfers tightened lattice-only bounds. Packing work added advances in 57–58D, 81–90D and 94–95D; explicit constructions and existence results remain distinguished in their tables. [Chronological release notes and exact comparisons](CHANGES_20261117.md).
+
+Latest verified values from this week:
 
 | Scope | Current release | Proof and comparison |
 | --- | --- | --- |
@@ -22,7 +29,20 @@ Reproducible certificates for unrestricted sphere packings, lattice-only upper b
 
 [49–96D numerical benchmark comparisons](NUMERICAL_BENCHMARKS49_96.md) are explicitly **not certified prior upper bounds**. [Release history](RELEASE_NOTES_20261117.md) preserves earlier announcements, superseded values and proof links; [17 November changes](CHANGES_20261117.md) records exact updates.
 
+</details>
+
+<details>
+<summary><strong>Week of 9 November 2026</strong> · initial constructions and successive upper-bound refinements</summary>
+
+- **12 November:** added the explicit 36D packing improvement over KP36 and upper-bound certificates in 9D, 10D and 16D. [Original releases and proofs](RELEASE_NOTES_20261117.md).
+- **14 November:** strengthened upper bounds in 16 dimensions, using signed logarithmic profiles and radial enrichment. [Exact before/after values](CHANGES_20261114.md).
+- **15 November:** extended the attributed 4D certificate, added further upper-bound refinements, and verified an explicit 59D packing with a stronger literature-derived comparison. [Chronology, attribution and replay](CHANGES_20261115.md).
+
 Proof dependencies remain in each package. In particular, the 9D certificate retains external average-neighbor bound 373; the 36D minimum proof uses outward-rounded binary64 enumeration under documented compiler/arithmetic assumptions, with an independent rerun of the same audited implementation. The 4D result extends the attributed pinned Felpix-Studios certificate. Packing constructions are lower bounds, not optimality claims.
+
+</details>
+
+[Full release history and archived research notes](RELEASE_NOTES_20261117.md). Historical values may be superseded; the current result tables and linked certificates govern.
 
 <!-- lattice-upper-20261116:start -->
 ## Lattice-only upper bounds
