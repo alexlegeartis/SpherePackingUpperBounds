@@ -1,0 +1,9 @@
+# Independent unrestricted 53D audit
+
+PASS: sphere-packing density <7.40755520e-8. This is unrestricted, not lattice-only. No global-priority assertion is made.
+
+The kernel is zero. For a Schwartz Fourier-positive function, a uniform upper bound E on the sum over nonzero neighbors gives density <= V_n(1/2)(f(0)+E)/fhat(0). Universal spherical-code caps on contiguous thin squared-radius annuli give E; no mod-2 classes or antipodal assumptions are used. Squared annular width <=1 makes the angular upper bound monotone in each radius. The first annulus uses the separately checked exact contact polynomial at s=501/1001, cap 5,238,397,451. Later factored Levenshtein polynomials have exact nonnegative Gegenbauer expansions and global sign on their required intervals. All upper heights are nonnegative and charged at their actual certified values.
+
+Independent 1024-bit replay completed 1309 annuli and 1,810,331 nodes. The degree-151 Fourier witness has an exact positive factorization and a separately reconstructed half-integer Fourier transform. All 151 spatial roots were counted; all possibly real roots lie below x=350, and the polynomial is negative beyond that cutoff. Exact cap reconstruction and interval coverage checks passed. The refined rational budget is approximately 0.02861524256568341. The odd-dimensional volume conversion and upward-safe bound were checked by a squared rational inequality using an alternating Machin lower bound for pi.
+
+The interval replay shares FLINT/Arb and the radial implementation with the producer; it is not a separate interval backend. Contact Sturm proof, Fourier reconstruction, cap expansion, coverage and final rational density checks are separately authored. Producer numerical optimization is not trusted. No publication approval is assumed.

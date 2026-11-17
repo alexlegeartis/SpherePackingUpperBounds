@@ -1,0 +1,8 @@
+{
+  "status": "EXACT PSD, FOURIER, CAP, COVERAGE, NORMALIZATION AND ROUNDING PASS",
+  "safe_bound": "1749502303/5000000000000000",
+  "density_approx": 3.499004605917446e-07,
+  "budget_approx": 1.780088452994722e-05,
+  "annuli": 633,
+  "radial_nodes": 7147
+}

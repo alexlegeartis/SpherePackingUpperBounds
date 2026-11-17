@@ -1,5 +1,7 @@
 # Sphere-packing density bounds and constructions
 
+> **17 November update:** unrestricted53D density **<7.40755520e-8** ([proof](verifications/general53_20261117/)); lattice-only48D density **<3.499004606e-7** ([proof](verifications/lattice/compact_matrix48_20261117/)). These are different problems and are compared with their respective external sources.
+
 > **17 November 51D/52D unrestricted update:** density **<1.52983244e-7** and **<1.06516626e-7**, with [complete independently audited proofs](verifications/general51_52_20261117/). The comparison remains explicitly numerical, not a certified prior bound.
 
 > **17 November unrestricted49D/50D update:** certified density **<2.85041752e-7** in 49D and **<2.04993038e-7** in 50D. [Complete proof and audit](verifications/general49_50_20261117/) · [Numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md#certified-results-compared-with-these-numerical-benchmarks). These do not extend the lattice-only table.
@@ -52,7 +54,7 @@ Comparison sources must predate this work and be external to it. Zubrilina’s T
 | 45 | 2.52315e-8 | 1.28034519e-6<br>[Lattice class-profile LP — Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1) | **≤1.180784470e-6** | 7.78% | 7.93% | [Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles](verifications/lattice/rank_two_20261117/README.md) |
 | 46 | 2.27179e-8 | 8.80676408e-7<br>[Lattice class-profile LP — Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1) | **≤7.858622654e-7** | 10.77% | 11.05% | [Nonnegative quadratic Fourier multiplier + scalar rank-two PSD kernel + conditioned mod-2 profiles](verifications/lattice/rank_two_20261117/README.md) |
 | 47 | 2.14660e-8 | 6.07126117e-7<br>[Lattice class-profile LP — Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1) | **≤5.258790757e-7** | 13.38% | 13.87% | [Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles](verifications/lattice/rank_two_20261117/README.md) |
-| 48 | 2.31782e-8 | 4.19948220e-7<br>[Lattice class-profile LP — Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1) | **≤3.527782891e-7** | 15.99% | 16.93% | [Additive Fourier sum-of-squares + nonnegative quadratic multiplier + scalar rank-two PSD kernel + conditioned mod-2 profiles](verifications/lattice/rank_two_20261117/README.md) |
+| 48 | 2.31782e-8 | 4.19948220e-7<br>[Lattice class-profile LP — Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1) | **<3.499004606e-7** | 16.68% | 17.65% | [Compact two-feature harmonic PSD matrices + full rank-two plane inequalities + mod-2 annular profiles](verifications/lattice/compact_matrix48_20261117/) |
 
 Upper bounds rounded **up**, lower bounds **down**, to6 significant digits. [Exact registered values](LATTICE_RESULTS.json). Gain is the reduction from the named upper; Gap is the reduction in its additive gap to the named lattice lower bound.
 

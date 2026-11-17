@@ -1,0 +1,2 @@
+EXACT FACTOR POSITIVITY AND INDEPENDENT HALF-INTEGER FOURIER TRANSFORM PASS
+{'status': 'SEPARATE EXACT FACTORS, TRANSFORM, FULL SPATIAL TAIL PASS', 'precision': 1024, 'dimension': 53, 'degree': 151, 'tail_cut_x': 350, 'total_root_multiplicity': 151, 'possibly_real_root_multiplicity': 47, 'all_possible_real_roots_below_cut': True}

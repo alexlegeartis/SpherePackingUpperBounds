@@ -1,0 +1,1 @@
+Producer-complete unrestricted53D certificate, degree151. Safe upper7.40755520e-8. No lattice assumptions;K=0. Fourier exact positive factors and separate transform pass; all151 spatial roots below350;1309 annuli1810331nodes768bits; exact contact and Levenshtein caps. Independent audit pending. Previous degree111 certificate remains preserved unchanged.
