@@ -1,0 +1,3 @@
+base/
+*.log
+__pycache__/

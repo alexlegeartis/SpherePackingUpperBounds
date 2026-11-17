@@ -1,0 +1,17 @@
+{
+  "status": "REJECTED_POSITIVE_CYCLIC_VALUE",
+  "cube_point": [
+    "0",
+    "0",
+    "5/8"
+  ],
+  "squared_sides": [
+    "1",
+    "1",
+    "67/52"
+  ],
+  "raw_cyclic_value": "[7.1910538823832729273617185384268674102354212202447790074514163994575527541921094941688890319609905869356571870944606975374185730698342546496440895 +/- 8.12e-146]",
+  "precision": 512,
+  "frozen_sha256": "166963f7f6c8511a11ab9ab40ccce01f5cbc5edc12a32feb4557dba05a6192d8",
+  "method": "independent direct nine-entry feature contraction, no Jet or gate code"
+}

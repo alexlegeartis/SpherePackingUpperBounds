@@ -5,7 +5,7 @@ import json,sys,shutil,itertools
 import sympy as s
 D=Path(__file__).parent;candidate=Path(sys.argv[1]);v=json.load(open(candidate));assert v['status']=='NUMERICAL_ONLY_NOT_A_BOUND' and v['minimum_eigenvalue']>0
 p=v['powers'][0];assert v['powers']==[p,p+4,p+8]
-out=D/f'producer_p{p}';out.mkdir(exist_ok=True)
+out=D/(sys.argv[2] if len(sys.argv)>2 else f'producer_p{p}');out.mkdir(exist_ok=True)
 base=D/'base';ker=json.load(open(base/'geometry/dim51/frozen.json'));ker['powers']=v['powers'];rat=lambda x:str(F(format(float(x),'.16g')))
 ker['B']=[[[rat((b[i][j]+b[j][i])/2)for j in range(3)]for i in range(3)]for b in v['B']];ker['z']=list(map(rat,v['z']))
 for b in ker['B']:

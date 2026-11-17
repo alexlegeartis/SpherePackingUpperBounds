@@ -24,3 +24,11 @@ Do not put candidate values in the certified tables.
 `cap_extrema.py` isolates all derivative roots of the six exact rational angular controls. `refit_capguarded.py` incorporates these critical points as additional SDP cuts and records resumable cut sets. `prepare_producer.py` rounds a numerical candidate to exact rationals, checks all block principal minors, sets the origin Schur complement exactly, and prepares new producer checks without copying historical PASS receipts. Candidate geometry and radial inequalities still require fresh proofs and independent audits.
 
 A failed solver now stops rather than reusing stale variable values. Earlier saved candidates retain their explicit numerical-only status. No lost historical power-six result is claimed recovered.
+
+## Exact edge rejection and broader reconstruction
+
+The next cap-guarded candidate passed all six exact angular controls but failed full cyclic geometry. An independent direct nine-entry contraction certifies a positive value about7.19105388238 at squared sides(1,1,67/52). See `independent_p6/edge_counterexample.py` and its exact frozen input; run that script to reproduce the rejection. Its conditional scalar value1.3598002e-7 is not a bound.
+
+`refit_edgeguarded.py` adds all12 edge extrema to the cutting-plane loop; `separate_candidate.py` also searches all6 faces and multiple full-cube starts. These remain numerical screens, not proof substitutes.
+
+`refit_joint.py` additionally optimizes a72-term normalized Laguerre perturbation of the Gaussian scalar function, together with the PSD compact kernel. Fourier normalization, sampled Fourier positivity, physical tail signs and annular residual targets are imposed. Any candidate still requires exact positive-factor repair and independent full-domain certification. This joint route addresses the fixed-scalar limitation; no result is claimed here.
