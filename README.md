@@ -1,5 +1,7 @@
 # Sphere-packing density bounds and constructions
 
+[Numerical comparison benchmarks for dimensions 49–96](NUMERICAL_BENCHMARKS49_96.md): Afkhami-Jeddi, Cohn et al. (2020), highest-order spinless-bootstrap spectra. These are numerical estimates, **not certified upper bounds**; they are kept separate from the proof tables.
+
 Reproducible certificates for unrestricted sphere packings and lattice-only upper bounds, organized by dimension on the model of KissingNumbers. Upper-bound certificates and packing constructions are separated below. Neither establishes optimality or a kissing-number result. Comparisons are source-attributed; literature searches are not exhaustive priority guarantees.
 
 > **17 November general upper update:** 45D **<1.2613300683e-6** and 48D **<4.0691468600e-7**, with [complete proof and audit scope](verifications/general_angular_20261117/).

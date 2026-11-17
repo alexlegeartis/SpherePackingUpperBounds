@@ -1,5 +1,7 @@
 # Comparison sources and conventions
 
+[Numerical comparison benchmarks for dimensions 49–96](NUMERICAL_BENCHMARKS49_96.md): Afkhami-Jeddi, Cohn et al. (2020), highest-order spinless-bootstrap spectra. These are numerical estimates, **not certified upper bounds**; they are kept separate from the proof tables.
+
 **17 November 2026, general upper bounds:** 45D <1.2613300683e-6 and 48D <4.0691468600e-7. The registered table keeps its attributable external comparators; reductions of 0.3397299611% and 0.3724007321% against our own predecessors are reported separately in the [complete proof and audit package](verifications/general_angular_20261117/). Review and higher-precision replay share FLINT/Arb and are not an independent arithmetic backend. No global priority claim follows.
 
 **Later 15 November 2026 campaign:** six new certificates improve the preceding

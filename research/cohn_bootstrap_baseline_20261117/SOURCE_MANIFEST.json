@@ -1,0 +1,9 @@
+{
+  "source_url": "https://dspace.mit.edu/server/api/core/bitstreams/8651d342-73d4-4b91-bba8-7074de435e4a/content",
+  "source_handle": "https://hdl.handle.net/1721.1/125646",
+  "source_md5": "2c062199a2305ae17f512dc00f68d735",
+  "source_sha256": "373e3885c601bb29bd8e8d61abe1cc72427199e79c2edeaff035d129301c7db3",
+  "selection": "highest N per integer c_total49..96",
+  "formula": "(pi*Delta1/2)^(n/2)/gamma(n/2+1)",
+  "status": "published numerical estimates; not new independently certified CE witnesses"
+}
