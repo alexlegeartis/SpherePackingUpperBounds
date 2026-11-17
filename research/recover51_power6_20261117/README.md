@@ -32,3 +32,9 @@ The next cap-guarded candidate passed all six exact angular controls but failed 
 `refit_edgeguarded.py` adds all12 edge extrema to the cutting-plane loop; `separate_candidate.py` also searches all6 faces and multiple full-cube starts. These remain numerical screens, not proof substitutes.
 
 `refit_joint.py` additionally optimizes a72-term normalized Laguerre perturbation of the Gaussian scalar function, together with the PSD compact kernel. Fourier normalization, sampled Fourier positivity, physical tail signs and annular residual targets are imposed. Any candidate still requires exact positive-factor repair and independent full-domain certification. This joint route addresses the fixed-scalar limitation; no result is claimed here.
+
+## New joint candidate: verification pending
+
+`joint_p6_step2.json` is a different candidate from the rejected cap-guarded input. Exact rational block PSD, recomputed origin Schur constant, all6 angular controls, all12 edges, Fourier positivity/tail,633 annuli and cap budgets pass. The scalar expression is conditionally below1.37012082e-7. Full three-dimensional cyclic coverage and independent full audit are pending; this is **not yet a bound**.
+
+Reconstruct its exact producer inputs with `python prepare_producer.py joint_p6_step2.json producer_joint_p6`, then `python repair_joint_scalar.py joint_p6_step2.json`; run the generated scalar repair and replace the new producer's `scalar/repaired.json` with that result before running any scalar proof. The previous scalar source must not be used for this joint candidate. `PENDING_STATUS.json` records the kernel digest and pending obligations.

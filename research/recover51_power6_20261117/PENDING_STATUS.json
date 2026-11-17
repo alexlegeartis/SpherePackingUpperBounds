@@ -1,0 +1,19 @@
+{
+  "status": "PRODUCER_PARTIAL_NOT_A_BOUND",
+  "candidate": "joint_p6_step2.json",
+  "conditional_scalar_upper": "1.37012082e-7",
+  "passed": [
+    "exact harmonic block PSD",
+    "exact origin Schur complement",
+    "six full angular control intervals",
+    "12 complete edge interval proofs",
+    "exact Fourier positivity and full spatial tail",
+    "633 annuli and exact cap budgets"
+  ],
+  "pending": [
+    "full 3D triangle coverage",
+    "independent full audit"
+  ],
+  "frozen_sha256": "0fd59e67c3c9b213cfdb03bfd9002063405bb0640e2b785b67217fd95eb3ae5f",
+  "earlier_candidate": "capguarded_p6_step1 rejected at squared sides(1,1,67/52), not the current candidate"
+}

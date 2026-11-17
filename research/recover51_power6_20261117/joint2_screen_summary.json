@@ -1,0 +1,15 @@
+{
+  "status": "NUMERICAL_ONLY",
+  "candidate": "joint_p6_step2.json",
+  "worst": {
+    "type": "edge",
+    "point": [
+      0.0,
+      0.0,
+      0.6511207498301388
+    ],
+    "value": -0.005023175711929895
+  },
+  "tested_stationary_candidates": 538,
+  "report_sha256": "0477f47439e9a89145ab405b29633e3b495278c17e6d94c3965963eaf7a6fda3"
+}

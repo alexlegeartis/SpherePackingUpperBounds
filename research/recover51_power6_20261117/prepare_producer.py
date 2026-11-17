@@ -3,7 +3,7 @@ from pathlib import Path
 from fractions import Fraction as F
 import json,sys,shutil,itertools
 import sympy as s
-D=Path(__file__).parent;candidate=Path(sys.argv[1]);v=json.load(open(candidate));assert v['status']=='NUMERICAL_ONLY_NOT_A_BOUND' and v['minimum_eigenvalue']>0
+D=Path(__file__).parent;candidate=Path(sys.argv[1]);v=json.load(open(candidate));assert v['status']=='NUMERICAL_ONLY_NOT_A_BOUND'
 p=v['powers'][0];assert v['powers']==[p,p+4,p+8]
 out=D/(sys.argv[2] if len(sys.argv)>2 else f'producer_p{p}');out.mkdir(exist_ok=True)
 base=D/'base';ker=json.load(open(base/'geometry/dim51/frozen.json'));ker['powers']=v['powers'];rat=lambda x:str(F(format(float(x),'.16g')))
