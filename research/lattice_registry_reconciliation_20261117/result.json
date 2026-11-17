@@ -1,0 +1,206 @@
+[
+  {
+    "dimension": 14,
+    "upper": "17356377889/500000000000",
+    "evidence": "verifications/lattice/dim14/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 15,
+    "upper": "25511135431/1000000000000",
+    "evidence": "verifications/lattice/dim15/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 16,
+    "upper": "4663779357/250000000000",
+    "evidence": "verifications/lattice/dim16/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 17,
+    "upper": "1729052173/125000000000",
+    "evidence": "verifications/lattice/dim17/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 18,
+    "upper": "1292975431/125000000000",
+    "evidence": "verifications/lattice/dim18/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 19,
+    "upper": "7808430327/1000000000000",
+    "evidence": "verifications/lattice/dim19/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 20,
+    "upper": "1488657679/250000000000",
+    "evidence": "verifications/lattice/dim20/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 21,
+    "upper": "182318367/40000000000",
+    "evidence": "verifications/lattice/dim21/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 22,
+    "upper": "1741466167/500000000000",
+    "evidence": "verifications/lattice/dim22/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 23,
+    "upper": "2608401581/1000000000000",
+    "evidence": "verifications/lattice/dim23/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 25,
+    "upper": "1325232433/1000000000000",
+    "evidence": "verifications/lattice/dim25/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 26,
+    "upper": "907209997/1000000000000",
+    "evidence": "verifications/lattice/dim26/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 27,
+    "upper": "622938953/1000000000000",
+    "evidence": "verifications/lattice/dim27/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 28,
+    "upper": "429639101/1000000000000",
+    "evidence": "verifications/lattice/dim28/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 29,
+    "upper": "298025039/1000000000000",
+    "evidence": "verifications/lattice/dim29/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 30,
+    "upper": "103966473/500000000000",
+    "evidence": "verifications/lattice/dim30/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 31,
+    "upper": "146087217/1000000000000",
+    "evidence": "verifications/lattice/dim31/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 32,
+    "upper": "101511777/1000000000000",
+    "evidence": "verifications/lattice/dim32_threewindow/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 33,
+    "upper": "73827123/1000000000000",
+    "evidence": "verifications/lattice/dim33/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 34,
+    "upper": "53148401/1000000000000",
+    "evidence": "verifications/lattice/dim34/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 35,
+    "upper": "7532949/200000000000",
+    "evidence": "verifications/lattice/dim35_threewindow/certificate.json.gz",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 36,
+    "upper": "13701232123/500000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/REGISTERED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 37,
+    "upper": "18560390957/1000000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/REGISTERED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 38,
+    "upper": "254396303/20000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 39,
+    "upper": "4381534979/500000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 40,
+    "upper": "6159890437/1000000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 41,
+    "upper": "179746447/40000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": false
+  },
+  {
+    "dimension": 42,
+    "upper": "3521717941/1000000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": false
+  },
+  {
+    "dimension": 43,
+    "upper": "2554917283/1000000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 44,
+    "upper": "1779651377/1000000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 45,
+    "upper": "118078447/100000000000000",
+    "evidence": "verifications/lattice/rank_two_20261117/VERIFIED_RESULTS.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 46,
+    "upper": "7766101459/10000000000000000",
+    "evidence": "verifications/lattice/compact_matrix46_new_20261117/proof/exact_result.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 47,
+    "upper": "1296686367/2500000000000000",
+    "evidence": "verifications/lattice/compact_matrix46_47_20261117/dim47/density_result.json",
+    "comparison_certified": true
+  },
+  {
+    "dimension": 48,
+    "upper": "1749502303/5000000000000000",
+    "evidence": "verifications/lattice/compact_matrix48_20261117/input/density_result.json",
+    "comparison_certified": true
+  }
+]

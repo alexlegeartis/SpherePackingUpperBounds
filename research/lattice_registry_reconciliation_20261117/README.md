@@ -1,0 +1,9 @@
+# Machine-readable lattice registry reconciliation
+
+The 34 existing rows of `LATTICE_RESULTS.json` now reference their precise published proof results, rather than rounded Markdown displays. Bounds in 47D and 48D were stale and have been synchronized with their already published compact-matrix proofs. The new dimension-specific 46D result is retained. Dimensions 14–45 preserve their exact registered decimal bounds, checked against the referenced certificate or verified-results file.
+
+Principal comparisons are attributable external work predating this repository's results: [Zubrilina (2026), Table 1](https://arxiv.org/html/2610.35830v1#S4.T1), except dimensions 41 and 42, whose [Afkhami-Jeddi, Cohn et al. numerical spinless-bootstrap dataset](https://hdl.handle.net/1721.1/125646) comparisons are explicitly uncertified. For those two rows, `previous_source_certificate_upper` and `source_certificate_reference` are null; `external_numerical_estimate` and `external_comparator_certified: false` record the distinction. The legacy field `previous_lattice_upper` contains the principal comparison value, not necessarily a certified bound: always read its certification flag. Numerical source decimals are not a rigorous accuracy guarantee, and a same-radius Cohn–Elkies lift is conjectural in general.
+
+Historical repository paths/commits, when retained, are isolated in `internal_predecessor_metadata` and are not principal comparisons. Percentage changes use full exact decimal values, not rounded display strings. No worldwide-priority assertion is made.
+
+Run `python research/lattice_registry_reconciliation_20261117/check.py` from any directory. It checks all 34 precise bound references, safe rounding where certificate values are rational, exact comparison arithmetic, and numerical/certified labels. This is a registry consistency check, not a substitute for each proof package's complete replay.
