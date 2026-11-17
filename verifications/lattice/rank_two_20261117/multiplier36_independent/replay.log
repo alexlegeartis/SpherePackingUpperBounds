@@ -1,0 +1,30 @@
+exact multiplier basis, PSD blocks, radial tail coupling and rho PASS
+old Fourier factor PASS 27
+new spatial tail PASS 19
+radial 0 cells 1
+radial 10 cells 11
+radial 20 cells 21
+radial 30 cells 31
+radial 40 cells 41
+radial 50 cells 51
+radial 60 cells 61
+radial 70 cells 71
+radial 80 cells 89
+radial 90 cells 99
+radial 100 cells 109
+radial 110 cells 119
+radial 120 cells 129
+radial 130 cells 139
+radial 140 cells 149
+radial 150 cells 159
+radial 160 cells 169
+radial 170 cells 179
+radial 180 cells 189
+radial 190 cells 199
+radial 200 cells 209
+radial 210 cells 219
+radial 220 cells 229
+radial 230 cells 239
+all radial bins PASS 240 248
+PROFILE and DENSITY PASS 2.740246424596642e-05 objective 0.1157832315686787 cells 248
+INDEPENDENT SAFE ROUNDING PASS

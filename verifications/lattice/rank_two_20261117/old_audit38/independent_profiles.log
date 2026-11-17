@@ -1,0 +1,5 @@
+AA cut PASS 1
+AA cut PASS 1
+AA cut PASS 1
+AA cut PASS 1
+{'status': 'PASS', 'sha256': '34888f6e673b2369bf69cd506e6fab0c3cf8612a03c3617ff85ca0d1678a9eda', 'AA_cuts': 4, 'profile_branches': 193, 'normalization': 'even exact rational', 'safe': '0.000013058679142'}

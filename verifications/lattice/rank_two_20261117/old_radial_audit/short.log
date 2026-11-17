@@ -1,0 +1,30 @@
+[
+  {
+    "n": 45,
+    "cutoffs": 96,
+    "checked_cases": 1297,
+    "impossible_by_projected_cap": 2,
+    "pass_exact": true
+  },
+  {
+    "n": 46,
+    "cutoffs": 96,
+    "checked_cases": 1379,
+    "impossible_by_projected_cap": 3,
+    "pass_exact": true
+  },
+  {
+    "n": 47,
+    "cutoffs": 96,
+    "checked_cases": 1466,
+    "impossible_by_projected_cap": 3,
+    "pass_exact": true
+  },
+  {
+    "n": 48,
+    "cutoffs": 96,
+    "checked_cases": 1554,
+    "impossible_by_projected_cap": 1,
+    "pass_exact": true
+  }
+]

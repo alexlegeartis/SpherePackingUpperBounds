@@ -1,0 +1,9 @@
+[
+  {
+    "n": 42,
+    "cutoffs": 96,
+    "checked_cases": 1070,
+    "impossible_by_projected_cap": 3,
+    "pass_exact": true
+  }
+]

@@ -1,0 +1,13 @@
+# Independent 46D Fourier/profile audit
+
+PASS: lattice packing density <= 7.858622654e-7. Exact computed density is recorded as a rational in certificate.json (approximately 7.858622653940124e-7). This improves the prior audited rank-two bound 7.860325628e-7 by approximately 0.02166544%. No unrestricted-packing or worldwide-priority claim is made.
+
+The frozen producer verifier was replayed at 1024-bit Arb precision, independently of its 768-bit run. The entire resulting certificate JSON matches exactly. All 240 radial bins (242 accepted cells), 193 profile branches, global Fourier and spatial-tail signs, multiplier PSD, kernel-origin PSD, full-line correction and rational safe rounding passed. Frozen producer source hash c34e9a52f062d534585b51c0365d0c6736cf9640f68fef94d72aa7a7eee78aa2; basis hash156c35104f19579ce2e335db2d65a730deb732a2f2e064a470b2fc26db6962e8; candidate hash081cae9e27125dbc5320642085da174e028361e7c684b4cebccf49ece5810833.
+
+Changes from the previously audited 48D mechanism were inspected: dimension46, tau48, normalized Laguerre parameter23, even-volume exponent23/factorial23, dimension46/45 cap formulas, and exact restriction of the already-audited Q45 angular polynomial to the46D Gegenbauer basis. Every resulting coefficient is nonnegative, the constant is positive, and Q(1)/constant equals the supplied q. The Q45 frozen hash is checked. Its universal rank-two sign theorem is inherited from the completed independent angular/tail audit.
+
+The Fourier quadratic coefficient is repaired upward to max(input_w,v^2/4+1e-16). This guarantees PSD and is included in the recomputed spatial polynomial and every radial verification, not silently ignored. Cross term z is decreased1e-8, origin is z^2/aZ+1e-20, and rational profile dual repairs are recomputed. Thus the repair changes no unverified mathematical assumption.
+
+A separate exact triangular Laguerre inversion in check_fourier_transform.py verifies the complete degree123 Fourier polynomial equals oldQ*(1+v*y/tau+w*y^2/tau^2), with the Fourier zero unchanged. This does not rely on the producer's differential-operator recurrence.
+
+Full-line kernel normalization, primitive-line geometric-series factor with rho=10^-70, and the proof of the class-profile constraints are identical to the already-audited48D construction. The46D profile grid and its previously audited short/narrow constraints apply; grid endpoints and spacing were rechecked. The density uses (tau/8)^23/23! times the complete objective. Script verify.py explicitly compares the exact rational density against the reported decimal upper bound.

@@ -1,0 +1,80 @@
+[
+  {
+    "dimension": 36,
+    "upper": "0.000027402464246",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 37,
+    "upper": "0.000018560390957",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 38,
+    "upper": "0.00001271981515",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 39,
+    "upper": "0.000008763069958",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 40,
+    "upper": "0.000006159890437",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 41,
+    "upper": "0.000004493661175",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 42,
+    "upper": "0.000003521717941",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 43,
+    "upper": "0.000002554917283",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 44,
+    "upper": "0.000001779651377",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 45,
+    "upper": "0.000001180784470",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 46,
+    "upper": "0.0000007858622654",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 47,
+    "upper": "0.0000005258790757",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  },
+  {
+    "dimension": 48,
+    "upper": "0.0000003527782891",
+    "scope": "lattice_only",
+    "baseline_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "sha256": "8e9cd92e9595e8dfe28e1e19daa468829547119883aa4f7294c5cfa3bb0feb29",
+  "global_signs": true,
+  "radial_intervals": 240,
+  "radial_cells": 267,
+  "independent_taylor_order": 18,
+  "precision": 768
+}

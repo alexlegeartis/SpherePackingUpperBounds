@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "sha256": "6c439b6ee1d2afae624f21587c8ad79cc715985b741b4c7b9c1234e67cb86239",
+  "AA_cuts": 2,
+  "profile_branches": 193,
+  "normalization": "odd exact squared Machin comparison",
+  "safe": "0.000002566728865"
+}

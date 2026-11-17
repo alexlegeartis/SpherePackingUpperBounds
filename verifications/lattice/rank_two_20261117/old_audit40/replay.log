@@ -1,0 +1,5 @@
+polynomial reconstruction PASS
+q global PASS 53
+minus_p global PASS 12
+all mixed radial intervals PASS 240
+{'status': 'PASS', 'sha256': 'bf8854ad2d867488b800cdb710d4db3085a324a012970854ede54866349bb55f', 'global_signs': True, 'radial_intervals': 240, 'radial_cells': 263, 'independent_taylor_order': 18, 'precision': 768}

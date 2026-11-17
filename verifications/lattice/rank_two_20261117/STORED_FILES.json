@@ -1,0 +1,142 @@
+{
+  "certificate48.json": {
+    "stored_path": "certificate48.json.gz",
+    "stored_sha256": "7b9cd0e4e92b9949c9549b78a562215b4fb81debb5ba9610a232de2811692970"
+  },
+  "certificate36.json": {
+    "stored_path": "certificate36.json.gz",
+    "stored_sha256": "dee6fa43284b5054ddd99ea9e88047ba50e3cbc74c249789d43b11436daeebe0"
+  },
+  "certificate40.json": {
+    "stored_path": "certificate40.json.gz",
+    "stored_sha256": "2a01252d4468778424c4028065e6abe7fb40500c73baf1acf606e7508a0f4e9f"
+  },
+  "certificate39.json": {
+    "stored_path": "certificate39.json.gz",
+    "stored_sha256": "f63f624063124a5d7c7320805b47c40ec1006e87a503adf55cffc90e49b3fcd5"
+  },
+  "certificate44.json": {
+    "stored_path": "certificate44.json.gz",
+    "stored_sha256": "8f5b64dd4f70cfa27e00c60c44c35d072103066a2ff6107751ab9216f821aa5b"
+  },
+  "certificate46.json": {
+    "stored_path": "certificate46.json.gz",
+    "stored_sha256": "1b2da877d9ba24a92c4fa40c2c69905b7b4a665e3295136a41bc94f2e06614b4"
+  },
+  "certificate37.json": {
+    "stored_path": "certificate37.json.gz",
+    "stored_sha256": "94b873a49c2604285bb2fe140ef05f5baf46568165fdb0b660c8e279948a2290"
+  },
+  "certificate38.json": {
+    "stored_path": "certificate38.json.gz",
+    "stored_sha256": "fb7320afde1e48e1ec11e205860e0942a829fff707a6f797fcaa4cf06c610439"
+  },
+  "certificate43.json": {
+    "stored_path": "certificate43.json.gz",
+    "stored_sha256": "6d2f56fe0f765eda6b046129ceed5c1971249c2281098d4cf2968264fd9f3023"
+  },
+  "certificate45.json": {
+    "stored_path": "certificate45.json.gz",
+    "stored_sha256": "d4b7cb1e8dab520827dbd463961b405721b341d419591eba38564ab163387e37"
+  },
+  "certificate41.json": {
+    "stored_path": "certificate41.json.gz",
+    "stored_sha256": "45383ac30660f32b00f4f0a4810abe002325a8852294556b3dd1677a46e0ba27"
+  },
+  "certificate47.json": {
+    "stored_path": "certificate47.json.gz",
+    "stored_sha256": "6f3332b156f9d9c4f400a177dc9b645770e9ac1a6093c2e14e30df7ab360d4a4"
+  },
+  "certificate42.json": {
+    "stored_path": "certificate42.json.gz",
+    "stored_sha256": "55aabae18642abd9da5c2b01ff786fa8b382199dfae35bff7a9e34f541e5c5b2"
+  },
+  "old_audit43/certificate.json": {
+    "stored_path": "old_audit43/certificate.json.gz",
+    "stored_sha256": "6d2f56fe0f765eda6b046129ceed5c1971249c2281098d4cf2968264fd9f3023"
+  },
+  "multiplier36_independent/certificate.json": {
+    "stored_path": "multiplier36_independent/certificate.json.gz",
+    "stored_sha256": "f815891c469f666658bcf696544e1c802ddfc8001a0cb5b54fe1b436639540af"
+  },
+  "combined48_independent/certificate.json": {
+    "stored_path": "combined48_independent/certificate.json.gz",
+    "stored_sha256": "22a6576bd63440d4bad015e4ff469c7e7ce7adf559d9dccb773090ba2c40eae0"
+  },
+  "combined48_independent/input_candidate.json": {
+    "stored_path": "combined48_independent/input_candidate.json.gz",
+    "stored_sha256": "1e386a71e1966f381165bb0d43f0113ab53ef049f619595e586f62ce514a9e39"
+  },
+  "old_radial_audit/certificate.json": {
+    "stored_path": "old_radial_audit/certificate.json.gz",
+    "stored_sha256": "7b9cd0e4e92b9949c9549b78a562215b4fb81debb5ba9610a232de2811692970"
+  },
+  "old_audit47/certificate.json": {
+    "stored_path": "old_audit47/certificate.json.gz",
+    "stored_sha256": "6f3332b156f9d9c4f400a177dc9b645770e9ac1a6093c2e14e30df7ab360d4a4"
+  },
+  "old_audit42/certificate.json": {
+    "stored_path": "old_audit42/certificate.json.gz",
+    "stored_sha256": "55aabae18642abd9da5c2b01ff786fa8b382199dfae35bff7a9e34f541e5c5b2"
+  },
+  "old_audit36_independent/certificate.json": {
+    "stored_path": "old_audit36_independent/certificate.json.gz",
+    "stored_sha256": "dee6fa43284b5054ddd99ea9e88047ba50e3cbc74c249789d43b11436daeebe0"
+  },
+  "old_audit46/certificate.json": {
+    "stored_path": "old_audit46/certificate.json.gz",
+    "stored_sha256": "1b2da877d9ba24a92c4fa40c2c69905b7b4a665e3295136a41bc94f2e06614b4"
+  },
+  "old_audit41/certificate.json": {
+    "stored_path": "old_audit41/certificate.json.gz",
+    "stored_sha256": "45383ac30660f32b00f4f0a4810abe002325a8852294556b3dd1677a46e0ba27"
+  },
+  "old_audit39/certificate.json": {
+    "stored_path": "old_audit39/certificate.json.gz",
+    "stored_sha256": "f63f624063124a5d7c7320805b47c40ec1006e87a503adf55cffc90e49b3fcd5"
+  },
+  "old_audit37/certificate.json": {
+    "stored_path": "old_audit37/certificate.json.gz",
+    "stored_sha256": "94b873a49c2604285bb2fe140ef05f5baf46568165fdb0b660c8e279948a2290"
+  },
+  "multiplier46_independent/certificate.json": {
+    "stored_path": "multiplier46_independent/certificate.json.gz",
+    "stored_sha256": "30709aa4af6c1f6bab6f58d142cfb3f95bdae3ed7d13cbde0ba4513b465e95a1"
+  },
+  "multiplier46_independent/input_candidate.json": {
+    "stored_path": "multiplier46_independent/input_candidate.json.gz",
+    "stored_sha256": "386d8ac3ad731979e056ee6105301c938d1ccc2fec857d4984c7976c4ac1f6d7"
+  },
+  "old_audit38/certificate.json": {
+    "stored_path": "old_audit38/certificate.json.gz",
+    "stored_sha256": "fb7320afde1e48e1ec11e205860e0942a829fff707a6f797fcaa4cf06c610439"
+  },
+  "old_audit44/certificate.json": {
+    "stored_path": "old_audit44/certificate.json.gz",
+    "stored_sha256": "8f5b64dd4f70cfa27e00c60c44c35d072103066a2ff6107751ab9216f821aa5b"
+  },
+  "combined48_trial/certificate.json": {
+    "stored_path": "combined48_trial/certificate.json.gz",
+    "stored_sha256": "22a6576bd63440d4bad015e4ff469c7e7ce7adf559d9dccb773090ba2c40eae0"
+  },
+  "combined48_trial/input_candidate.json": {
+    "stored_path": "combined48_trial/input_candidate.json.gz",
+    "stored_sha256": "1e386a71e1966f381165bb0d43f0113ab53ef049f619595e586f62ce514a9e39"
+  },
+  "old_audit45/certificate.json": {
+    "stored_path": "old_audit45/certificate.json.gz",
+    "stored_sha256": "d4b7cb1e8dab520827dbd463961b405721b341d419591eba38564ab163387e37"
+  },
+  "old_audit40/certificate.json": {
+    "stored_path": "old_audit40/certificate.json.gz",
+    "stored_sha256": "2a01252d4468778424c4028065e6abe7fb40500c73baf1acf606e7508a0f4e9f"
+  },
+  "multiplier46_trial/certificate.json": {
+    "stored_path": "multiplier46_trial/certificate.json.gz",
+    "stored_sha256": "30709aa4af6c1f6bab6f58d142cfb3f95bdae3ed7d13cbde0ba4513b465e95a1"
+  },
+  "multiplier46_trial/input_candidate.json": {
+    "stored_path": "multiplier46_trial/input_candidate.json.gz",
+    "stored_sha256": "386d8ac3ad731979e056ee6105301c938d1ccc2fec857d4984c7976c4ac1f6d7"
+  }
+}
