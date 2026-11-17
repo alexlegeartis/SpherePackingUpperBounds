@@ -1,0 +1,10 @@
+{
+  "status": "INDEPENDENT EXACT TRANSFORM AND GLOBAL SPATIAL TAIL PASS",
+  "precision": 1024,
+  "cut_x": "180",
+  "degree": 71,
+  "total_root_multiplicity": 71,
+  "possibly_real_root_count": 33,
+  "all_possibly_real_roots_below_cut": true,
+  "negative_at_cut": true
+}

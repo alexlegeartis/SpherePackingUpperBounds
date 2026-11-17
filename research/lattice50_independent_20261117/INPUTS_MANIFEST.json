@@ -1,0 +1,13 @@
+{
+  "replay_annuli.py": "718ef4227bcaf1f85bac4e5de9e5a01d4d83184ca1b424cb46ee63f557247d83",
+  "check_exact.py": "a1aea24d928cea33454ac6f6e7358526691391659f0a1252a3f4ad28b6f662f8",
+  "run_all.py": "ff68a675da6fd8ba94c4383ae25a1a1abb040913ca9ba41e9a9a75b55fcce9f9",
+  "producer/verify_tail_transform.py": "022ecf6dbe8edbf7b79b2ca092a2b05a49ccea1f435f816859a315fdbc9c9b2f",
+  "producer/repaired.json": "023bbce9a9fb2e1848062815e5c226a721de251029ae57ad2e543a3f30d28789",
+  "producer/input_candidate.json": "4655ac59b98a44b24bc63bd1e7bf7e72525f8821bb45278e513eba4b4f763188",
+  "producer/scalar48_kernel_upward_extensions.json": "7762863417bb911cacccabc592d4fbe53be430fa4a6fe11c4e4647d658ec76cf",
+  "producer/original_annular_final_certificate.json": "1af41581244842f3034b2a8bdd9ced98e2971496c1a6f5f5bbe527b24333ee52",
+  "producer/density_result.json": "dc68e8b500ccac904840ca7109a272a9eea38c31b7c1aef300e54f32354d220b",
+  "producer/FROZEN_HASHES.json": "a21bdb654079c92419fc2b7c0896a2cbb9cea04ec9218473cf9cbfd544aa73f4",
+  "dependency/rank2_candidate_B783489561_20261117.json": "119dc3c5ef12da19e6edb01332e87e4c472da94d6c60c23fa438f74b7da147ae"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "dimension": 50,
+  "safe_upper": "175102693/1000000000000000",
+  "density_decimal": 1.7510269247880848e-07,
+  "factor_counts": {
+    "negative_linear": 1,
+    "positive_double": 18,
+    "complex_pair": 17
+  },
+  "annuli": 632,
+  "budget_decimal": 2.1898355137047303e-06,
+  "max_selected_cap_k": 34,
+  "source_kernel_sha256": "119dc3c5ef12da19e6edb01332e87e4c472da94d6c60c23fa438f74b7da147ae",
+  "source_repo_commit": "af863e2014561e060af7ee2b0eecffc468f4eca3",
+  "published_scalar_dependency": true,
+  "standalone_new_rank_two_replay": false
+}
