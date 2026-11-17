@@ -1,0 +1,14 @@
+{
+  "dimension": 57,
+  "strict_density_upper_bound": "1.5718326e-8",
+  "method": "Degree-29 two-feature compact cyclic harmonic-matrix kernel with exact Fourier-factor repair",
+  "scope": "All sphere packings in R^57; no lattice, antipodal, integrality or mod-2 premise",
+  "record_status": "No SOTA claim",
+  "comparison_status": "Comparison against the strongest applicable prior upper bound is unresolved; no improvement percentage asserted",
+  "audit": "Full independent 512-bit complete trace replay, exact PSD and angular signs, Fourier/tail, annuli/caps and odd-dimensional normalization",
+  "nodes": 121409,
+  "leaves": 60705,
+  "radial_annuli": 621,
+  "radial_contact": 25,
+  "radial_tail_cutoff": 180
+}

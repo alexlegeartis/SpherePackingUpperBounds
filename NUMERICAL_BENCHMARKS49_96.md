@@ -64,13 +64,17 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 - **49D:** certified density **<2.85041752e-7**, versus numerical benchmark ≈3.1579639678630e-7 (N=463), a9.7387573447% decrease from that numerical value.
 - **50D:** certified density **<1.99548924e-7**, versus numerical benchmark ≈2.2003929580188e-7 (N=460), a **9.3121420550%** decrease from that numerical value. [Complete degree-29 compact-kernel proof and independent replay](verifications/general50_pc29_20261117/). The earlier certified <2.04993038e-7 remains preserved in its original package.
 
-[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. No new result in dimensions 55 and higher is claimed here.
+[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. The separately certified 57D bound below has unresolved comparison status; no result in other unlisted dimensions is claimed here.
 
-- **51D:** certified density **<1.38612634e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a **9.5298250776%** decrease from that numerical value. [Three-feature proof and independent replay](verifications/general51_rank3mid_20261117/). The preceding rank-two certificate <1.39812853e-7 remains preserved in its original package; the new value improves it by **0.85844683%**.
-- **52D:** certified density **<9.7440293e-8**, versus numerical benchmark ≈1.0661233909836e-7 (N=466), a **8.6031749945%** decrease from that numerical value. [Complete degree-29 compact-kernel proof and independent replay](verifications/general52_pc29_geomfix_20261117/). The previous certified <1.06516626e-7 remains preserved in its original package.
+- **51D:** certified density **<1.37781396e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a **10.0723603797%** decrease from that numerical value. [Three-feature power-8 proof and independent replay](verifications/general51_rank3p8_20261117/). The preceding three-feature certificate <1.38612634e-7 remains preserved; the new value improves it by **0.59968415%**.
+- **52D:** certified density **<9.6610185e-8**, versus numerical benchmark ≈1.0661233909836e-7 (N=466), a **9.3817978134%** decrease from that numerical value. [Three-feature proof and independent replay](verifications/general52_rank3mid_20261117/). The preceding <9.7440293e-8 certificate remains preserved; the new value improves it by **0.85191452%**.
 
 [51D/52D verification and audit scope](verifications/general51_52_20261117/). The same numerical-versus-certified distinction applies to these comparisons.
 
 - **53D:** certified density **<6.8841195e-8**, versus numerical benchmark ≈7.4137674631496e-8 (N=469), a **7.1441135129%** decrease from that numerical value. [Complete proof and independent replay](verifications/general53_pc29_geomfix_20261117/). The previous certified <7.40755520e-8 remains preserved in its original package. The benchmark is numerical, not a certified upper bound.
 
 - **54D:** certified density **<4.8695034e-8**, versus numerical benchmark ≈5.1522853741015e-8 (N=484), a **5.4884765414%** decrease from that numerical value. [Complete proof and independent replay](verifications/general54_pc29_geomfix_20261117/). The benchmark is numerical, not a certified prior upper bound.
+
+## Other certified bounds: comparison unresolved
+
+- **57D:** certified density **<1.5718326e-8**. [Complete independent audit and reproducible proof](verifications/general57_pc29_geomfix_20261117/). Comparison against the strongest applicable prior bound remains unresolved. **No SOTA claim or improvement percentage is asserted.**

@@ -20,10 +20,11 @@ Latest verified values from this week:
 
 | Scope | Current release | Proof and comparison |
 | --- | --- | --- |
+| Unrestricted upper, 57D | **<1.5718326e-8** | [Complete audit](verifications/general57_pc29_geomfix_20261117/); comparison unresolved, no SOTA claim |
 | Unrestricted upper, 54D | **<4.8695034e-8** | [Complete audit](verifications/general54_pc29_geomfix_20261117/); [numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md) |
 | Unrestricted upper, 53D | **<6.8841195e-8** | [Complete audit](verifications/general53_pc29_geomfix_20261117/); 7.0662% below the previous repository certificate |
-| Unrestricted upper, 51D | **<1.38612634e-7** | [Three-feature kernel and complete audit](verifications/general51_rank3mid_20261117/); 0.8584% below the preceding rank-two certificate |
-| Unrestricted upper, 52D | **<9.7440293e-8** | [Complete audit](verifications/general52_pc29_geomfix_20261117/); 8.5210% below the previous repository certificate |
+| Unrestricted upper, 51D | **<1.37781396e-7** | [Three-feature kernel and complete audit](verifications/general51_rank3p8_20261117/); 0.5997% below the preceding certificate |
+| Unrestricted upper, 52D | **<9.6610185e-8** | [Three-feature kernel and complete audit](verifications/general52_rank3mid_20261117/); 0.8519% below the preceding certificate |
 | Unrestricted upper, 50D | **<1.99548924e-7** | [Complete audit](verifications/general50_pc29_20261117/) |
 | Lattice-only upper, 40–42D | 40D: **<5.9777359372e-6**<br>41D: **<4.3927514316e-6**<br>42D: **<3.473037643e-6** | [Dimension-specific compact kernels](verifications/lattice/compact_power6_40_42_20261117/); complete independent audits |
 | Lattice-only upper, 43–44D | 43D: **<2.5363822051e-6**<br>44D: **<1.7676809433e-6** | [Dimension-specific three-feature kernels](verifications/lattice/compact_power6_adapted_20261117/); complete independent audits |

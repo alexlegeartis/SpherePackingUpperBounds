@@ -1,0 +1,18 @@
+{
+  "dimension": 52,
+  "strict_density_upper_bound": "9.6610185E-8",
+  "profiles": [
+    12,
+    18,
+    24
+  ],
+  "previous_repository_bound": "9.7440293E-8",
+  "decrease_from_previous_repository_percent": "0.8519145154869351634646665100",
+  "external_numerical_comparison": "1.0661233909836E-7",
+  "decrease_from_external_numerical_percent": "9.381797813414508869114567570",
+  "external_status": "Numerical spinless-bootstrap estimate N=466, not a certified prior bound or exhaustive priority determination",
+  "nodes": 100505,
+  "leaves": 50253,
+  "radial_annuli": 629,
+  "audit": "Full independent 512-bit geometry replay and exact scalar, PSD, angular, Fourier and normalization checks"
+}
