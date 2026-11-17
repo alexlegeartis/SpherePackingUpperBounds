@@ -64,7 +64,7 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 - **49D:** certified density **<2.85041752e-7**, versus numerical benchmark ≈3.1579639678630e-7 (N=463), a9.7387573447% decrease from that numerical value.
 - **50D:** certified density **<1.99548924e-7**, versus numerical benchmark ≈2.2003929580188e-7 (N=460), a **9.3121420550%** decrease from that numerical value. [Complete degree-29 compact-kernel proof and independent replay](verifications/general50_pc29_20261117/). The earlier certified <2.04993038e-7 remains preserved in its original package.
 
-[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. The separately certified 57D and 58D bounds below have unresolved comparison status; no result in other unlisted dimensions is claimed here.
+[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. The 57D and 58D numerical comparisons are documented below; no result in other unlisted dimensions is claimed here.
 
 - **51D:** certified density **<1.37781396e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a **10.0723603797%** decrease from that numerical value. [Three-feature power-8 proof and independent replay](verifications/general51_rank3p8_20261117/). The preceding three-feature certificate <1.38612634e-7 remains preserved; the new value improves it by **0.59968415%**.
 - **52D:** certified density **<9.6610185e-8**, versus numerical benchmark ≈1.0661233909836e-7 (N=466), a **9.3817978134%** decrease from that numerical value. [Three-feature proof and independent replay](verifications/general52_rank3mid_20261117/). The preceding <9.7440293e-8 certificate remains preserved; the new value improves it by **0.85191452%**.
@@ -75,8 +75,11 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 
 - **54D:** certified density **<4.8695034e-8**, versus numerical benchmark ≈5.1522853741015e-8 (N=484), a **5.4884765414%** decrease from that numerical value. [Complete proof and independent replay](verifications/general54_pc29_geomfix_20261117/). The benchmark is numerical, not a certified prior upper bound.
 
-## Other certified bounds: comparison unresolved
+## 57D and 58D: certified bounds with numerical literature comparisons
 
-- **57D:** certified density **<1.5718326e-8**. [Complete independent audit and reproducible proof](verifications/general57_pc29_geomfix_20261117/). Comparison against the strongest applicable prior bound remains unresolved. **No SOTA claim or improvement percentage is asserted.**
+| Dimension | Certified repository upper bound | Numerical LP benchmark (2020) | Below numerical benchmark |
+| --- | ---: | ---: | ---: |
+| [57D](verifications/general57_pc29_geomfix_20261117/) | <1.5718326e-8 | ≈1.7231960044411017e-8 (N=493) | 8.783876% |
+| [58D](verifications/general58_pc29_geomfix_20261117/) | <1.073633e-8 | ≈1.1947773131075187e-8 (N=496) | 10.139489% |
 
-- **58D:** certified density **<1.073633e-8**. [Complete independent audit and reproducible proof](verifications/general58_pc29_geomfix_20261117/). Comparison against the strongest applicable prior bound remains unresolved. **No SOTA claim or improvement percentage is asserted.**
+Source: [Afkhami-Jeddi, Cohn, Hartman, de Laat and Tajdini's modular-bootstrap dataset](https://hdl.handle.net/1721.1/125646), checked 17 November 2026. [Extraction, formula, checksum and replay](research/literature57_58_20261117/). The source values are numerical, not independently certified prior upper bounds; the paper's optimal eigenfunction-to-LP lifting equivalence is conjectural. These comparisons do not establish global priority or SOTA status.
