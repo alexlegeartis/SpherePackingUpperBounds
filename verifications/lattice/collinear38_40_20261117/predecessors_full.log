@@ -1,0 +1,186 @@
+1000 9 496 13.339698076248169 (3.37890625, 3.390625, 0.298828125, 0.2998046875) -0.00014841200411842828
+2000 7 997 26.14396023750305 (2.69921875, 2.7109375, 0.2705078125, 0.271484375) -0.00023902591504935727
+3000 9 1496 38.712992906570435 (1.140625, 1.15234375, 0.490234375, 0.4921875) -264.5619926770724
+4000 19 1991 52.05728626251221 (1.0002288818359375, 1.0002517700195312, 0.4999961853027344, 0.5) -0.0014510878154863664
+5000 17 2492 69.88351130485535 (1.0000457763671875, 1.000091552734375, 0.49991607666015625, 0.4999237060546875) 0.003484067937509824
+6000 13 2994 82.96320414543152 (1.00054931640625, 1.000640869140625, 0.4996337890625, 0.4996490478515625) -0.028850097414463587
+7000 13 3494 94.65225076675415 (1.000732421875, 1.00146484375, 0.498779296875, 0.4989013671875) 1.0856149452467316
+8000 11 3995 111.03061413764954 (1.00732421875, 1.0087890625, 0.495361328125, 0.49560546875) -3.0087368738170057
+9000 9 4496 125.41581439971924 (1.1171875, 1.140625, 0.470703125, 0.47265625) 179.9272257604248
+10000 7 4997 138.94360256195068 (1.0703125, 1.08203125, 0.44921875, 0.451171875) -118.45213699757117
+11000 5 5498 154.06618547439575 (1.0234375, 1.046875, 0.384765625, 0.38671875) -8.299227615756589
+12000 5 5998 168.75890588760376 (1.0234375, 1.029296875, 0.330078125, 0.3310546875) -0.014344419232669854
+13000 13 6494 183.34673810005188 (2.01953125, 2.03125, 0.232421875, 0.234375) 0.00044061032677447057
+14000 9 6996 195.9366090297699 (1.62109375, 1.626953125, 0.2080078125, 0.208984375) -5.4646882417727137e-05
+15000 5 7498 210.21407628059387 (1.1875, 1.375, 0.15625, 0.1875) 0.24480823184730233
+16000 5 7998 237.43826127052307 (1.01171875, 1.017578125, 0.16455078125, 0.1650390625) -8.188704984105373e-05
+DOMINANT GATE True nodes 16093 pending 0 maxupper -1.256418938608257e-06 seconds 242.1338014602661
+
+PASS exact exponential/rational constants: compact tail <2e-6; anisotropic positive tail <1e-15; q*h(3)<1e-45.
+Requires geometric counting lemmas and completed compact main gate; NOT a standalone density certificate.
+
+[
+  {
+    "n": 39,
+    "cutoffs": 96,
+    "checked_cases": 875,
+    "impossible_by_projected_cap": 5,
+    "pass_exact": true
+  }
+]
+
+[
+  {
+    "n": 40,
+    "cutoffs": 96,
+    "checked_cases": 939,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  }
+]
+
+[
+  {
+    "n": 40,
+    "cutoffs": 96,
+    "checked_cases": 939,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  }
+]
+
+[
+  {
+    "n": 39,
+    "cutoffs": 96,
+    "checked_cases": 875,
+    "impossible_by_projected_cap": 5,
+    "pass_exact": true
+  }
+]
+
+[
+  {
+    "n": 13,
+    "cutoffs": 96,
+    "checked_cases": 30,
+    "impossible_by_projected_cap": 10,
+    "pass_exact": true
+  },
+  {
+    "n": 23,
+    "cutoffs": 96,
+    "checked_cases": 212,
+    "impossible_by_projected_cap": 10,
+    "pass_exact": true
+  },
+  {
+    "n": 38,
+    "cutoffs": 96,
+    "checked_cases": 816,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  },
+  {
+    "n": 39,
+    "cutoffs": 96,
+    "checked_cases": 875,
+    "impossible_by_projected_cap": 5,
+    "pass_exact": true
+  },
+  {
+    "n": 40,
+    "cutoffs": 96,
+    "checked_cases": 939,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  },
+  {
+    "n": 41,
+    "cutoffs": 96,
+    "checked_cases": 1002,
+    "impossible_by_projected_cap": 2,
+    "pass_exact": true
+  },
+  {
+    "n": 42,
+    "cutoffs": 96,
+    "checked_cases": 1070,
+    "impossible_by_projected_cap": 3,
+    "pass_exact": true
+  },
+  {
+    "n": 43,
+    "cutoffs": 96,
+    "checked_cases": 1144,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  },
+  {
+    "n": 44,
+    "cutoffs": 96,
+    "checked_cases": 1213,
+    "impossible_by_projected_cap": 5,
+    "pass_exact": true
+  }
+]
+
+[
+  {
+    "n": 38,
+    "cutoffs": 96,
+    "checked_cases": 816,
+    "impossible_by_projected_cap": 4,
+    "pass_exact": true
+  }
+]
+
+polynomial reconstruction PASS
+q global PASS 68
+minus_p global PASS 14
+all mixed radial intervals PASS 240
+{'status': 'PASS', 'sha256': '34888f6e673b2369bf69cd506e6fab0c3cf8612a03c3617ff85ca0d1678a9eda', 'global_signs': True, 'radial_intervals': 240, 'radial_cells': 259, 'independent_taylor_order': 18, 'precision': 768}
+
+polynomial reconstruction PASS
+q global PASS 46
+minus_p global PASS 15
+all mixed radial intervals PASS 240
+{'status': 'PASS', 'sha256': '34966e32a29f93207c36e1b86018ab0b367a9c56cc5b5695059a6cba3bea8b9e', 'global_signs': True, 'radial_intervals': 240, 'radial_cells': 262, 'independent_taylor_order': 18, 'precision': 768}
+
+polynomial reconstruction PASS
+q global PASS 53
+minus_p global PASS 12
+all mixed radial intervals PASS 240
+{'status': 'PASS', 'sha256': 'bf8854ad2d867488b800cdb710d4db3085a324a012970854ede54866349bb55f', 'global_signs': True, 'radial_intervals': 240, 'radial_cells': 263, 'independent_taylor_order': 18, 'precision': 768}
+
+AA cut PASS 1
+AA cut PASS 1
+{'status': 'PASS', 'sha256': '34966e32a29f93207c36e1b86018ab0b367a9c56cc5b5695059a6cba3bea8b9e', 'AA_cuts': 2, 'profile_branches': 193, 'normalization': 'odd exact squared Machin comparison', 'safe': '0.000009068287259'}
+
+AA cut PASS 1
+AA cut PASS 1
+AA cut PASS 1
+AA cut PASS 1
+{'status': 'PASS', 'sha256': '34888f6e673b2369bf69cd506e6fab0c3cf8612a03c3617ff85ca0d1678a9eda', 'AA_cuts': 4, 'profile_branches': 193, 'normalization': 'even exact rational', 'safe': '0.000013058679142'}
+
+AA cut PASS 1
+AA cut PASS 1
+AA cut PASS 1
+{'status': 'PASS', 'sha256': 'bf8854ad2d867488b800cdb710d4db3085a324a012970854ede54866349bb55f', 'AA_cuts': 3, 'profile_branches': 193, 'normalization': 'even exact rational', 'safe': '0.000006869691783'}
+
+38 0.00001271981515 PASS 2.5949331483558646
+39 0.000008763069958 PASS 3.3657656970567906
+40 0.000006159890437 PASS 10.332360887683496
+41 0.000004493661175 PASS 0.8296831245162162
+42 0.000003521717941 PASS 0.4185731118853864
+43 0.000002554917283 PASS 0.4601803805660774
+44 0.000001779651377 PASS 0.24068085697722622
+45 0.000001180784470 PASS 0.4339499979026167
+46 0.0000007870493008 PASS 0.2506135310485181
+47 0.0000005258790757 PASS 0.3846120349410195
+48 0.0000003529712022 PASS 0.48393055500001986
+
+{'n': 37, 'kernel': 37, 'safe': '18560390957/1000000000000000', 'safe_decimal': '0.000018560390957', 'decrease_percent': 0.07148823686001052}
+Exact transfer, PSD and rounding PASS; independent gate/dependency audit still required.
+
+COMPLETE SELECTED LATTICE PROOF PASS [38, 39, 40]
