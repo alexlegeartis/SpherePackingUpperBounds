@@ -370,3 +370,7 @@ The proof explicitly uses the rigorously checked published average ordered-neigh
 ## Compact lattice48 and general53 update
 
 The lattice-only48D upper <3.499004606e-7 is 16.6800943697% below Zubrilina’s pre-existing lattice bound4.19948220e-7 (Table1), not below an internal predecessor. The general53D upper <7.40755520e-8 is 0.0837936067% below the published numerical spinless-bootstrap benchmark7.413767463149593e-8; the latter is not certified and the comparison does not establish global priority. Both complete independent audit packages are linked in the main tables.
+
+## Compact harmonic-matrix transfers 46–47
+
+The independently verified lattice bounds 46D<7.790880151e-7 and 47D<5.186745468e-7 compare with Zubrilina’s pre-existing Table1 values 8.80676408e-7 and 6.07126117e-7, respectively. All gains in the main table use those external values, not our preceding certificates. [Exact target-dimensional proofs](verifications/lattice/compact_matrix46_47_20261117/).

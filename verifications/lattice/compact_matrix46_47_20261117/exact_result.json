@@ -1,0 +1,16 @@
+[
+  {
+    "n": 46,
+    "status": "PASS separate exact restriction, PSD, Fourier, caps, coverage and volume",
+    "safe_upper": "7.790880151e-7",
+    "radial_nodes": 4903,
+    "budget_approx": 9.36351803917987e-06
+  },
+  {
+    "n": 47,
+    "status": "PASS separate exact restriction, PSD, Fourier, caps, coverage and volume",
+    "safe_upper": "5.186745468e-7",
+    "radial_nodes": 8361,
+    "budget_approx": 5.575914681863198e-05
+  }
+]
