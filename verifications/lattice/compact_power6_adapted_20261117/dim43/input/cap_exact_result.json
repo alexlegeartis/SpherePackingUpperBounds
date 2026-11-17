@@ -1,0 +1,12 @@
+{
+  "status": "EXACT CAP BERNSTEIN-STURM PASS",
+  "control_vectors": 17,
+  "angular_polynomials": 153,
+  "h_subintervals": 8,
+  "angular_square_interval": [
+    "0",
+    "1/4"
+  ],
+  "negative_margin": "1/10000000",
+  "input_sha": "0619be767fbb2d7b15b157af8bd282126425442d1339ce24ec33f250aed61615"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDITS PASS",
+  "scope": "lattice-only sphere-packing upper bounds",
+  "bounds": {
+    "43": "2.5363822051e-6",
+    "44": "1.7676809433e-6"
+  },
+  "independent_replay_bits": 384,
+  "shared_interval_backend": "Arb/Jet shared with producer; algebra, cap and trace coverage separately checked"
+}

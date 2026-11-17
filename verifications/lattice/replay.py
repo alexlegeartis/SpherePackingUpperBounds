@@ -10,6 +10,10 @@ def replay_collinear_transfer():
   for name in ['collinear38_40_20261117','rank_two_20261117']:
    shutil.copytree(p/name,root/name)
   subprocess.run([sys.executable,str(root/'collinear38_40_20261117/verify.py')],check=True)
+adapted=p/'compact_power6_adapted_20261117'
+adapted_dims=list(map(int,json.loads((adapted/'VERIFIED_RESULTS.json').read_text())['bounds']))
+if a.dimension in adapted_dims:
+ subprocess.run([sys.executable,str(adapted/'run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
 if a.dimension in [45,46,47,48]:
  subprocess.run([sys.executable,str(p/'compact_power6_45_48_20261117/run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
 if a.dimension in [38,39,40]:
@@ -40,4 +44,5 @@ with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
   subprocess.run([sys.executable,str(p/'compact_matrix44_45_20261117/run.py'),'--mode','full'],check=True)
   replay_collinear_transfer()
   subprocess.run([sys.executable,str(p/'compact_power6_45_48_20261117/run_all.py')],check=True)
+  subprocess.run([sys.executable,str(adapted/'run_all.py')],check=True)
  print('ALL REQUESTED LATTICE REPLAYS PASSED',flush=True)

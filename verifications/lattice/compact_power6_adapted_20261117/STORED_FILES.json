@@ -1,0 +1,18 @@
+{
+  "dim44/input/root_repair/repaired.json": {
+    "stored_path": "dim44/input/root_repair/repaired.json.gz",
+    "stored_sha256": "1cd52ee4d9127413a53333496a38653235e16165cd9dd347ef9cc3f7e0140bf5"
+  },
+  "dim44/input/root_repair/annular_final_certificate.json": {
+    "stored_path": "dim44/input/root_repair/annular_final_certificate.json.gz",
+    "stored_sha256": "9e53b31e831cf46df3c0e0c34a4d3beabe3871c4d44bc6c352e06f1343ea8b28"
+  },
+  "dim43/input/root_repair/repaired.json": {
+    "stored_path": "dim43/input/root_repair/repaired.json.gz",
+    "stored_sha256": "eb92664ae18831da5dd0d11a828f0a1ab3254ff6f50e203f979921d8a4632192"
+  },
+  "dim43/input/root_repair/annular_final_certificate.json": {
+    "stored_path": "dim43/input/root_repair/annular_final_certificate.json.gz",
+    "stored_sha256": "1c5aac07aad1917c973dd06ac507e0c34fa8555bf54da79ac5fe3bb1ca739b30"
+  }
+}

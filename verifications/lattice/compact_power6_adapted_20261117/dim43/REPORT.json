@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDIT PASS",
+  "dimension": 43,
+  "safe_upper": "2.5363822051e-6",
+  "frozen_sha256": "0619be767fbb2d7b15b157af8bd282126425442d1339ce24ec33f250aed61615",
+  "trace_sha256": "44ee0c9f5c8bbc31782bd2e1ba12a1557e7aa707dc690d495a979754ff0ad9d4",
+  "main_nodes": 212423,
+  "main_leaves": 106212,
+  "main_bits": 384,
+  "annuli": 653,
+  "radial_nodes": 761,
+  "budget": "0",
+  "physical_roots": 81,
+  "cap_polynomials": 153,
+  "shared_backend": "Arb/Jet shared; separate algebra/cap/coverage checks"
+}
