@@ -66,7 +66,7 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 
 [Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. The 57D and 58D numerical comparisons are documented below; no result in other unlisted dimensions is claimed here.
 
-- **51D:** certified density **<1.37781396e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a **10.0723603797%** decrease from that numerical value. [Three-feature power-8 proof and independent replay](verifications/general51_rank3p8_20261117/). The preceding three-feature certificate <1.38612634e-7 remains preserved; the new value improves it by **0.59968415%**.
+- **51D:** certified density **<1.37012082e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a **10.5744789106%** decrease from that numerical value. [Joint scalar/power-six kernel proof and independent full replay](verifications/general51_jointp6_20261117/). The preceding <1.37781396e-7 certificate remains preserved; the new value improves it by **0.5583584%**. The external comparator is numerical, not a certified prior bound; no global SOTA claim is made.
 - **52D:** certified density **<9.6610185e-8**, versus numerical benchmark ≈1.0661233909836e-7 (N=466), a **9.3817978134%** decrease from that numerical value. [Three-feature proof and independent replay](verifications/general52_rank3mid_20261117/). The preceding <9.7440293e-8 certificate remains preserved; the new value improves it by **0.85191452%**.
 
 [51D/52D verification and audit scope](verifications/general51_52_20261117/). The same numerical-versus-certified distinction applies to these comparisons.

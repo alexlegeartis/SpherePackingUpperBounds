@@ -24,7 +24,7 @@ Latest verified values from this week:
 | Unrestricted upper, 57D | **<1.5718326e-8** | [Complete audit](verifications/general57_pc29_geomfix_20261117/); [numerical comparison](NUMERICAL_BENCHMARKS49_96.md#57d-and-58d-certified-bounds-with-numerical-literature-comparisons), no SOTA claim |
 | Unrestricted upper, 54D | **<4.8695034e-8** | [Complete audit](verifications/general54_pc29_geomfix_20261117/); [numerical benchmark comparison](NUMERICAL_BENCHMARKS49_96.md) |
 | Unrestricted upper, 53D | **<6.8841195e-8** | [Complete audit](verifications/general53_pc29_geomfix_20261117/); 7.0662% below the previous repository certificate |
-| Unrestricted upper, 51D | **<1.37781396e-7** | [Three-feature kernel and complete audit](verifications/general51_rank3p8_20261117/); 0.5997% below the preceding certificate |
+| Unrestricted upper, 51D | **<1.37012082e-7** | [Joint scalar/kernel and complete audit](verifications/general51_jointp6_20261117/); 0.5584% below the preceding certificate |
 | Unrestricted upper, 52D | **<9.6610185e-8** | [Three-feature kernel and complete audit](verifications/general52_rank3mid_20261117/); 0.8519% below the preceding certificate |
 | Unrestricted upper, 50D | **<1.99548924e-7** | [Complete audit](verifications/general50_pc29_20261117/) |
 | Lattice-only upper, 36D | **<2.727705e-5** | [Dimension restriction and free-origin optimization](verifications/lattice/compact_restriction36_20261117/); 0.457675% below the preceding certificate |

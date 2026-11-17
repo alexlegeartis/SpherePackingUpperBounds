@@ -1,0 +1,13 @@
+{
+  "status": "EXACT_ALGEBRA_AND_NORMALIZATION_PASS_GEOMETRY_PENDING",
+  "frozen_sha256": "0fd59e67c3c9b213cfdb03bfd9002063405bb0640e2b785b67217fd95eb3ae5f",
+  "scalar_sha256": "b077d0ab4c0baeb804fbb1c261d07abd1e83eb4c750aaf6023c0fabf528e9981",
+  "direct_tail_shift_all_nonpositive": true,
+  "positive_annuli_caps_checked": 11,
+  "radial_correction_degree": 28,
+  "conditional_density": "[1.37012081541418262802154527560750285407488012995557674559972077648545971520301400342589210911275971230455797793239886875653756084065255781245934874613727e-7 +/- 5.24e-160]",
+  "conditional_safe_decimal": "1.37012082e-07",
+  "origin_slack": "1/1000000000",
+  "source_reconstruction": "explicit normalized Laguerre coefficients matched exact input",
+  "fourier": "independent closed coefficient transform and positive-factor identity"
+}

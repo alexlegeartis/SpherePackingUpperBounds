@@ -1,0 +1,10 @@
+{
+  "status": "SEPARATE EXACT FACTORS, TRANSFORM, FULL SPATIAL TAIL PASS",
+  "precision": 1024,
+  "dimension": 51,
+  "degree": 71,
+  "tail_cut_x": 180,
+  "total_root_multiplicity": 71,
+  "possibly_real_root_multiplicity": 17,
+  "all_possible_real_roots_below_cut": true
+}
