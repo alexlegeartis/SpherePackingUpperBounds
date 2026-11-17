@@ -1,0 +1,4 @@
+#46D compact harmonic-matrix lattice upper bound
+Certified safe upper density7.766101459e-7. Requires Python3, python-flint and sympy. Run `python run.py --mode quick` for immutable-file hashes, exact Fourier/PSD/cap/volume checks. Run `python run.py --mode full` to also replay633 annuli at1024bits, full physical tail and75138 main-geometry leaves at384bits. Full mode takes several minutes. Both modes run from any directory and operate on a temporary copy. Assertions must remain enabled.
+
+The cutoff uses an exact Sturm/convex-corner proof, not an incomplete trace. Original frozen geometry and final repaired scalar inputs are included. Final scalar z0 differs from the exploratory geometry-file origin by−1/200000. See proof/THEOREM_REVIEW.md. Audit sources, results and logs are included. Main interval audit uses shared Jet/Arb machinery, with separately reviewed exact algebra and sign conditions.

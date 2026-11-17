@@ -14,7 +14,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Near-frame index exclusion + weighted mod-2 class profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -32,7 +32,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Near-frame index exclusion + weighted mod-2 class profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -50,7 +50,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Near-frame index exclusion + weighted mod-2 class profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -68,7 +68,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -86,7 +86,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Near-frame index exclusion + weighted mod-2 class profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -104,7 +104,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -122,7 +122,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -140,7 +140,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -158,7 +158,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -176,7 +176,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/alexlegeartis/SpherePackingUpperBounds/tree/800da5d7ae36f4d3bb4df85b4a3b8cde7213cc85/verifications/dim23/refinement_combined20261115",
     "method": "Conditioned nested Gram-moment class profiles",
-    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment — Kravatskiy (2026), unrestricted bound",
+    "previous_method_source": "Signed logarithmic profile + degree95 radial enrichment \u2014 Kravatskiy (2026), unrestricted bound",
     "previous_method_source_url": "verifications/dim23/refinement_combined20261115/"
   },
   {
@@ -194,7 +194,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -212,7 +212,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -230,7 +230,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -248,7 +248,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -266,7 +266,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -284,7 +284,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -302,7 +302,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -320,7 +320,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -338,7 +338,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -356,7 +356,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Cross-class pair-sum angular coupling + mod-2 profile bounds",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -374,7 +374,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://github.com/AstroNinja389/lattice-packing-bound/tree/340a0e93bb95942c2b1b80092be43149504970eb/certificates",
     "method": "Multiwindow cross-class pair-sum coupling + mod-2 profiles",
-    "previous_method_source": "Lattice class-profile LP — Zubrilina (2026)",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026)",
     "previous_method_source_url": "https://arxiv.org/abs/2610.35830"
   },
   {
@@ -392,7 +392,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "verifications/lattice/dim36_threewindow/README.md",
     "method": "Nonnegative quadratic Fourier multiplier + rank-two PSD kernel + reoptimized mod-2 angular-cut profiles",
-    "previous_method_source": "Multiwindow cross-class pair-sum coupling + mod-2 profiles — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Multiwindow cross-class pair-sum coupling + mod-2 profiles \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim36_threewindow/README.md",
     "previous_repository_package": "verifications/lattice/dim36_threewindow",
     "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
@@ -412,7 +412,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "verifications/lattice/dim37_cyclic_strong/README.md",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim37_cyclic_strong/README.md",
     "previous_repository_package": "verifications/lattice/dim37_cyclic_strong",
     "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
@@ -429,13 +429,13 @@
     "package": "verifications/lattice/rank_two_20261117",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim38_tight/README.md",
     "previous_local_lattice_upper": "0.000013234279694",
     "lower_center_density_exact": "3^(31/2)/(5*2^19)",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://arxiv.org/html/2607.20359v4",
-    "lower_source_reference": "Dorofeev–Sun–Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
+    "lower_source_reference": "Dorofeev\u2013Sun\u2013Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
     "previous_source_certificate_upper": "0.000013058679142",
     "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim38_tight/README.md",
     "source_certificate_reference": "verifications/lattice/dim38_tight/README.md",
@@ -454,13 +454,13 @@
     "package": "verifications/lattice/rank_two_20261117",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim39_tight/README.md",
     "previous_local_lattice_upper": "0.000009086501484",
     "lower_center_density_exact": "3^16/(2^20*sqrt(5))",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://arxiv.org/html/2607.20359v4",
-    "lower_source_reference": "Dorofeev–Sun–Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
+    "lower_source_reference": "Dorofeev\u2013Sun\u2013Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
     "previous_source_certificate_upper": "0.000009068287259",
     "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim39_tight/README.md",
     "source_certificate_reference": "verifications/lattice/dim39_tight/README.md",
@@ -479,13 +479,13 @@
     "package": "verifications/lattice/rank_two_20261117",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Cyclic PSD kernel with forced collinear triples + mod-2 class profiles (tight envelopes) \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim40_tight/README.md",
     "previous_local_lattice_upper": "0.000006887626280",
     "lower_center_density_exact": "3^16/2^20",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://arxiv.org/html/2607.20359v4",
-    "lower_source_reference": "Dorofeev–Sun–Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
+    "lower_source_reference": "Dorofeev\u2013Sun\u2013Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
     "previous_source_certificate_upper": "0.000006869691783",
     "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim40_tight/README.md",
     "source_certificate_reference": "verifications/lattice/dim40_tight/README.md",
@@ -504,13 +504,13 @@
     "package": "verifications/lattice/rank_two_20261117",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim41/README.md",
     "previous_source_certificate_upper": "0.000004531256243",
     "lower_center_density_exact": "3^17/2^21",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://arxiv.org/html/2607.20359v4",
-    "lower_source_reference": "Dorofeev–Sun–Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
+    "lower_source_reference": "Dorofeev\u2013Sun\u2013Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
     "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim41/README.md",
     "source_certificate_reference": "verifications/lattice/dim41/README.md",
     "previous_repository_package": "verifications/lattice/dim41",
@@ -528,14 +528,14 @@
     "upper_decrease_percent": "0.4185730994072409920852422308",
     "package": "verifications/lattice/rank_two_20261117",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim42_own/README.md",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "previous_local_lattice_upper": "0.000003571509824",
     "lower_center_density_exact": "3^(35/2)/2^21",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://arxiv.org/html/2607.20359v4",
-    "lower_source_reference": "Dorofeev–Sun–Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
+    "lower_source_reference": "Dorofeev\u2013Sun\u2013Wang (2026), Theorem 1 and Table 1: lattice sections of P48p.",
     "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim42_own/README.md",
     "source_certificate_reference": "verifications/lattice/dim42_own/README.md",
     "previous_repository_package": "verifications/lattice/dim42_own",
@@ -553,13 +553,13 @@
     "upper_decrease_percent": "0.4601803548891791498203297760",
     "package": "verifications/lattice/rank_two_20261117",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim43/README.md",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "lower_center_density_exact": "3^19/2^(45/2)",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://doi.org/10.2307/2007025",
-    "lower_source_reference": "Conway–Sloane (1982), Laminated lattices, Corollary 8; lattice sections with complements sqrt(3)D5 (43D) and sqrt(3)D4 (44D).",
+    "lower_source_reference": "Conway\u2013Sloane (1982), Laminated lattices, Corollary 8; lattice sections with complements sqrt(3)D5 (43D) and sqrt(3)D4 (44D).",
     "lower_source_corroboration": [
       "https://arxiv.org/html/2607.20359v4#S5.SS1",
       "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
@@ -581,13 +581,13 @@
     "upper_decrease_percent": "0.2406808518009959198343913509",
     "package": "verifications/lattice/rank_two_20261117",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Reoptimized cyclic PSD kernel + origin-ratio tuning + lattice class profiles \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim44/README.md",
     "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
     "lower_center_density_exact": "3^20/2^23",
     "lower_conversion": "Packing density = center density * pi^(n/2)/Gamma(n/2+1); 512-bit Arb interval verified; decimal comparison rounded down to 40 decimal places; table rounded down to 6 significant digits.",
     "lower_source": "https://doi.org/10.2307/2007025",
-    "lower_source_reference": "Conway–Sloane (1982), Laminated lattices, Corollary 8; lattice sections with complements sqrt(3)D5 (43D) and sqrt(3)D4 (44D).",
+    "lower_source_reference": "Conway\u2013Sloane (1982), Laminated lattices, Corollary 8; lattice sections with complements sqrt(3)D5 (43D) and sqrt(3)D4 (44D).",
     "lower_source_corroboration": [
       "https://arxiv.org/html/2607.20359v4#S5.SS1",
       "https://www.math.rwth-aachen.de/~Gabriele.Nebe/LATTICES/density.html"
@@ -612,7 +612,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "verifications/lattice/dim45_cyclic/README.md",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim45_cyclic/README.md",
     "previous_repository_package": "verifications/lattice/dim45_cyclic",
     "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
@@ -620,22 +620,21 @@
   {
     "dimension": 46,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.0000007858622654",
+    "certified_density_upper_bound": "7.766101459E-7",
     "named_lattice_lower_comparison": "2.27179803E-8",
-    "previous_lattice_upper": "7.88007416E-7",
-    "previous_source_certificate_upper": "7.88007416E-7",
-    "upper_decrease_percent": "0.2722246715505530216989734523",
-    "gap_decrease_percent": "0.2803057901926817359828347621",
-    "package": "verifications/lattice/rank_two_20261117",
-    "comparison_source": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim46_cyclic/README.md",
-    "comparison_status": "Pinned preceding repository lattice-only certificate; no exhaustive worldwide-priority claim.",
+    "previous_lattice_upper": "8.80676408E-7",
+    "previous_source_certificate_upper": "8.80676408E-7",
+    "upper_decrease_percent": "11.816628804254286325789710492619441214780446349824",
+    "gap_decrease_percent": "12.129522683165316262794023020936169306190265423743",
+    "package": "verifications/lattice/compact_matrix46_new_20261117",
+    "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
+    "comparison_status": "External published lattice-only bound from Zubrilina (2026), Table 1; no exhaustive worldwide-priority claim.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
-    "source_certificate_reference": "verifications/lattice/dim46_cyclic/README.md",
-    "method": "Nonnegative quadratic Fourier multiplier + scalar rank-two PSD kernel + conditioned mod-2 profiles",
-    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds — Kravatskiy (2026), preceding lattice-only bound",
-    "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim46_cyclic/README.md",
-    "previous_repository_package": "verifications/lattice/dim46_cyclic",
-    "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+    "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
+    "method": "Dimension-specific compact harmonic-matrix rank-two kernel + exact angular-corner signs + repaired Fourier and mod-2 annular profiles",
+    "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
+    "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
+    "previous_repository_package": "verifications/lattice/dim46_cyclic"
   },
   {
     "dimension": 47,
@@ -652,7 +651,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "verifications/lattice/dim47_cyclic/README.md",
     "method": "Dimension-adapted PSD angular kernels + universal rank-two lattice sums + full collinear-line domination + mod-2 class profiles",
-    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim47_cyclic/README.md",
     "previous_repository_package": "verifications/lattice/dim47_cyclic",
     "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
@@ -672,7 +671,7 @@
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "verifications/lattice/dim48_cyclic_strong/README.md",
     "method": "Additive Fourier sum-of-squares + nonnegative quadratic multiplier + scalar rank-two PSD kernel + conditioned mod-2 profiles",
-    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds — Kravatskiy (2026), preceding lattice-only bound",
+    "previous_method_source": "Optimized cyclic PSD kernel + forced collinear triples + conditioned mod-2 class bounds \u2014 Kravatskiy (2026), preceding lattice-only bound",
     "previous_method_source_url": "https://github.com/alexlegeartis/SpherePackings/blob/20b638f5d5b0bf00a2a4ce8d70c4e062517a502e/verifications/lattice/dim48_cyclic_strong/README.md",
     "previous_repository_package": "verifications/lattice/dim48_cyclic_strong",
     "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
