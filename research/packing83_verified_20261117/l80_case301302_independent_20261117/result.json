@@ -1,0 +1,15 @@
+{
+  "status": "COMPLETE INDEPENDENT AUDIT PASS",
+  "dimension": 83,
+  "density_floor": "2.56962386473426e-18",
+  "exclusions": {
+    "301": {
+      "nodes": 7416859,
+      "leaves": 0
+    },
+    "302": {
+      "nodes": 150439952,
+      "leaves": 0
+    }
+  }
+}

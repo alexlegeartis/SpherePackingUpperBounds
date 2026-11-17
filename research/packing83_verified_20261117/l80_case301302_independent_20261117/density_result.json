@@ -1,0 +1,6 @@
+{
+  "status": "PASS matching independently reconstructed full Gram and rigorous density floor",
+  "density_floor": "2.56962386473426e-18",
+  "external_gain_percent": "501.820882483030883232930612090195704278024405956024017941424",
+  "external_comparator": "Pinned derived MW80 x rescaled A3, not strongest-prior claim"
+}

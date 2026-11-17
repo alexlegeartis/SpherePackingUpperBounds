@@ -1,0 +1,179 @@
+{
+  "status": "PASS exact automorphisms, classrelations, vertical parity minima,83Gram determinant; conditional on independently audited parent/depth premises",
+  "automorphisms": [
+    {
+      "name": "a",
+      "source_case": 101,
+      "determinant": 1,
+      "block_permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "b",
+      "source_case": 101,
+      "determinant": 1,
+      "block_permutation": [
+        1,
+        0,
+        7,
+        3,
+        6,
+        5,
+        4,
+        2,
+        8,
+        9
+      ]
+    },
+    {
+      "name": "c",
+      "source_case": 108,
+      "determinant": 1,
+      "block_permutation": [
+        0,
+        8,
+        3,
+        2,
+        9,
+        5,
+        6,
+        7,
+        1,
+        4
+      ]
+    },
+    {
+      "name": "cross_ac",
+      "source_case": 203,
+      "determinant": 1,
+      "block_permutation": [
+        3,
+        2,
+        1,
+        7,
+        9,
+        6,
+        4,
+        8,
+        0,
+        5
+      ]
+    },
+    {
+      "name": "cross_bc",
+      "source_case": 203,
+      "determinant": 1,
+      "block_permutation": [
+        8,
+        7,
+        0,
+        1,
+        4,
+        9,
+        5,
+        3,
+        2,
+        6
+      ]
+    }
+  ],
+  "case_norm_mod4": {
+    "101": 0,
+    "108": 0,
+    "203": 2,
+    "301": 0,
+    "302": 0
+  },
+  "vertical_gram": [
+    [
+      "2",
+      "0",
+      "3/4"
+    ],
+    [
+      "0",
+      "2",
+      "3/4"
+    ],
+    [
+      "3/4",
+      "3/4",
+      "2"
+    ]
+  ],
+  "vertical_minima": {
+    "000": "8",
+    "001": "2",
+    "010": "2",
+    "011": "5/2",
+    "100": "2",
+    "101": "5/2",
+    "110": "4",
+    "111": "3"
+  },
+  "vertical_attainers": {
+    "000": [
+      -2,
+      0,
+      0
+    ],
+    "001": [
+      0,
+      0,
+      -1
+    ],
+    "010": [
+      0,
+      -1,
+      0
+    ],
+    "011": [
+      0,
+      -1,
+      1
+    ],
+    "100": [
+      -1,
+      0,
+      0
+    ],
+    "101": [
+      -1,
+      0,
+      1
+    ],
+    "110": [
+      -1,
+      -1,
+      0
+    ],
+    "111": [
+      -1,
+      -1,
+      1
+    ]
+  },
+  "parent_depths_required": {
+    "100": "6",
+    "010": "6",
+    "001": "6",
+    "110": "4",
+    "101": "11/2",
+    "011": "11/2",
+    "111": "5"
+  },
+  "gram_determinant": "23/4",
+  "minimum_squared": 8,
+  "center_density_squared": "38685626227668133590597632/23",
+  "scope": "No decoder absence replay here. Requires parent minimum8 and cases101,108 depth6;203 depth11/2;301 depth4;302 depth5."
+}

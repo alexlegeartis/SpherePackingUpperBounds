@@ -1,0 +1,11 @@
+# Case101 exact input-map audit
+
+PASS for the mapping layer, independently implemented from the decoder's preparation script. This does not assert search absence; that is being audited separately.
+
+The checker binds the exact case101 input and metadata to the reconstructed80D Gram and rational block map. It reconstructs every residue state and all16 diagonal shifts from the frozen polarization. It independently derives the binary dual systematic generator, all25 code-column masks, all32 high-code carry parity entries, all256 E8/L1 lookup labels, and the carries for all9121 supplied local-shell vectors. It checks κ(z)=0 for all16 shifts and that doubling each half-diagonal shift belongs L'.
+
+Normalization: if M is twice the80D block-root basis and E is twice the Euclidean E8 basis, the half-lattice target has root coefficients rM/4 and unscaled Euclidean coordinates X/8, where X=rM E blockwise. A local lattice point is s+2t+z/2 in root coordinates. Dividing the unscaled Euclidean difference by2 gives the E8 nearest-point target (X−4sE−2zE)/16. The original lattice metric is half the unscaled block metric, so a local squared-distance numerator over256 contributes that numerator over128 to the full lattice distance. Therefore the decoder cutoff640 corresponds exactly to squared distance5.
+
+Here rGr=2828, so the half-target has squared norm707. For every lattice vector y, its squared distance to r/2 is rGr/4+yGy−rGy, an integer. Thus a separately certified absence of distance≤5 would imply distance≥6. The mapping audit alone does not certify that absence.
+
+Parent source review: Bachoc–Nebe Theorem4.7 on printed page13 explicitly applies to any maximal totally singular complement B of LC/L' in L''/L'; no special catalogue neighbor is required. The supplied reconstruction verifies the exact Lemma4.4 code, both L_i≅√2E8 by explicit integral basis changes, every preimage/index relation and the selected complement. For z a binary sum of diagonal_lifts, ψ(halfdiag z)=5z≡z mod2L1 lies B, hence κ(z)=0. Twice the shift is diag z, which belongs LC since the all-ones word belongs C and belongs L' since its coordinate sum is10z∈2L1. This is a source/hypothesis review of my own reconstruction, separate from the packing decoder author's work; it is not represented as a second independent author audit of that reconstruction.

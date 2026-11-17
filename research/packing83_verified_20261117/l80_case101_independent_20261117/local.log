@@ -1,0 +1,1 @@
+{'status': 'PASS independent complete shell, E8 coordinate basis and nearest-point controls', 'counts': {0: 1, 2: 240, 4: 2160, 6: 6720}, 'controls': 60, 'input_sha': '5cb83cfe951a5b4968aa6e32d817fa2952c3a1668017fb5d7a3e0f4bcda76d32'}
