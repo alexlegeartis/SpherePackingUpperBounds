@@ -1,0 +1,65 @@
+{
+  "scope": "Strongest external comparison located in documented16 November review, rechecked17 November. Not an exhaustive global-priority claim. Derived values are our calculations from external theorems, not numbers claimed printed by those authors.",
+  "rows": [
+    {
+      "dimension": 85,
+      "external_center_density_squared_lower": "1208925819614629174706176",
+      "external_center_density_squared_upper": "1208925819614629174706176",
+      "derived": true,
+      "upper_endpoint_is_achieved": true,
+      "gain_percent_strict_lower": "118.72",
+      "our_density_floor": "3.52219521096589e-19",
+      "preceding_repository_gain_percent": "50.43014542072384376064326789742708965351412596860801955250381329878240"
+    },
+    {
+      "dimension": 86,
+      "external_center_density_squared_lower": "19342813113834066795298816/3",
+      "external_center_density_squared_upper": "19342813113834066795298816/3",
+      "derived": true,
+      "upper_endpoint_is_achieved": true,
+      "gain_percent_strict_lower": "183.82",
+      "our_density_floor": "2.84477266080525e-19",
+      "preceding_repository_gain_percent": "71.26538774476544580199312636932160118826962645595794705714552016887620"
+    },
+    {
+      "dimension": 87,
+      "external_center_density_squared_lower": "38685626227668133590597632",
+      "external_center_density_squared_upper": "38685626227668133590597632",
+      "derived": true,
+      "upper_endpoint_is_achieved": true,
+      "gain_percent_strict_lower": "292.21",
+      "our_density_floor": "2.58037767092447e-19",
+      "preceding_repository_gain_percent": "47.73402486089503908393267364621045556670844154876301928376229585840860"
+    },
+    {
+      "dimension": 88,
+      "external_center_density_squared_lower": "309485009821345068724781056",
+      "external_center_density_squared_upper": "309485009821345068724781056",
+      "derived": false,
+      "upper_endpoint_is_achieved": true,
+      "gain_percent_strict_lower": "388.59",
+      "our_density_floor": "2.42250297455694e-19",
+      "preceding_repository_gain_percent": "38.67692905094627962546503708273883874931038282318753287566970044076970"
+    },
+    {
+      "dimension": 89,
+      "external_center_density_squared_lower": "5104602996031595472989331014",
+      "external_center_density_squared_upper": "5107305916620839496792415007",
+      "derived": true,
+      "upper_endpoint_is_achieved": false,
+      "gain_percent_strict_lower": "271.79",
+      "our_density_floor": "1.98411302345717e-19",
+      "preceding_repository_gain_percent": "16.86426937368564588863502393251736466964653632425698200530119192040410"
+    },
+    {
+      "dimension": 90,
+      "external_center_density_squared_lower": "130525452541473631443444339977",
+      "external_center_density_squared_upper": "130571293881565460587721559077",
+      "derived": true,
+      "upper_endpoint_is_achieved": false,
+      "gain_percent_strict_lower": "127.27",
+      "our_density_floor": "1.61584267273781e-19",
+      "preceding_repository_gain_percent": "4.689636062255772200530497910244950985093272731071148148377591862709000"
+    }
+  ]
+}
