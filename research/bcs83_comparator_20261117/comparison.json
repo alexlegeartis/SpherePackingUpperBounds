@@ -1,0 +1,16 @@
+{
+  "dimension": 83,
+  "source": "Bos\u2013Conway\u2013Sloane (1982), Theorems 1\u20132 and Eq. (15)",
+  "source_url": "https://neilsloane.com/doc/Me103.pdf",
+  "comparison_scope": "Derived classical BCS88 section, not a printed historical 83D record or exhaustive strongest-prior claim",
+  "normal": "sqrt(2) D5",
+  "normal_determinant": 128,
+  "center_density_exact": "2^38",
+  "density_exact": "2^122 * 42! * pi^41 / 84!",
+  "density_lower": "5.446261557231715435975983366073451389262968859e-19",
+  "density_upper": "5.446261557231715435975983366073451389262968861e-19",
+  "new_density_floor": "2.56962386473426e-18",
+  "gain_percent_lower": "371.8142596956",
+  "former_comparator": "MW80 x A3",
+  "former_gain_percent": "501.820882"
+}
