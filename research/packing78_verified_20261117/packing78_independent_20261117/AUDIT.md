@@ -1,0 +1,11 @@
+# Independent78D three-fiber MW80 packing audit: PASS
+
+Rigorous density floor>=1.41519803035180e-16. This is a periodic three-translate packing, not a claimed lattice.
+
+The independent parent proof in packing78_parent_independent_20261117 reconstructs190 sections and all17,955 pair heights using separately authored plain Python F41² polynomial arithmetic. It checks the saved Gram, positive definiteness and determinant41^12; gcd1 of explicit maximal minors proves integral generation. The published Shioda height theorem,42 simple irreducible typeII fibers, smooth infinity andχ7 give minimum14 for all nonzero parent vectors. Equality of the constructed lattice with the entire MW group is unnecessary and not claimed.
+
+The separately authored geometric check here imports neither the producer's HNF routine nor its projection verifier. It verifies the supplied integer kernel rows and two fiber representatives form a unimodular80x80 matrix. This proves both saturation and surjectivity onto labelsZ². It checks the dual-normal Gram exactly[[162,-81],[-81,162]]/41, the period Gram and every rational shift equation. Coarea gives period determinant det(G)det(K)=3^9*41^10. All three nonzero label differences among0,e1,e2 have projection norm82/243, so every projected distance squared is at least14-82/243=3320/243. The explicit parent minimum vector with label e1 attains this loss and hence the minimum. Positive separation prevents distinct translates from colliding.
+
+Center-density square is9*(830/243)^78/(3^9*41^10). A separate200/201-term alternating Machin lower bound proves the stated ordinary density floor by a rational squared inequality. The exact external-derived comparator2^74/3 is the retained Bachoc–Nebe L80 perpendicular-to2A2 section; it is not a numerical record printed by that paper. The ratio increase is approximately48.5963% against that derived comparison and3.58234% against the pinned internal predecessor. No exhaustive external-priority claim or publication permission follows.
+
+Together the independent parent and geometric checks close the proof. FLINT rational matrix arithmetic is shared in some final linear-algebra checks; finite-field polynomial reconstruction is a separate implementation. Run check.py and the included parent audit separately, without -O.

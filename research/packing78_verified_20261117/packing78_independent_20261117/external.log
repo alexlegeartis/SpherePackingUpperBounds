@@ -1,0 +1,11 @@
+{
+  "status": "PASS exact pinned external-derived example; not strongest-prior assertion",
+  "source_sha256": "911e87f145e329a905998f8aa3f961696697e19729acc56ae290043364fb8dbb",
+  "catalogue_url": "https://www.math.rwth-aachen.de/homes/Gabriele.Nebe/LATTICES/L80.html",
+  "published_parent_minimum": 8,
+  "ambient_det": 1,
+  "primitive_normal": "first two catalogue basis vectors, Gram[[8,-4],[-4,8]]",
+  "normal_det": 48,
+  "external_center_density_squared": "18889465931478580854784/3",
+  "increase_percent_approx": "48.59631684817028028431101793643903918471333188514464108717051010918680"
+}

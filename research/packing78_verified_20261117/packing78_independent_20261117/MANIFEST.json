@@ -1,0 +1,17 @@
+{
+  "AUDIT.md": "0780e2ecf1c88f47eb7d79cea88c6c53b5ade16fbf2832be274523f2c30282b1",
+  "check.py": "08d11152dfb9c08c8e5087d81453ca6089586bfc974359f241907eb68dcbee69",
+  "check.log": "357a2ac2a976e94205f2696f20f29ffb8ba3ea06e38d77c4e7f8bdf423ce60c0",
+  "result.json": "6c2beeabcea7a12222b9f15d5434939f5e8c9e17d1f5ef7e41bcc1fa6eae7da3",
+  "input/report78.json": "6a7332151bcc1f0f8c8c39017109f6792954261a4cf0a3fdc36c1aa5cfbd82f0",
+  "input/period78.json": "0cde0e273185bad37792a9b130c2d3d4f8389ddb3f9a2275b7ded882cd42c586",
+  "input/build78.py": "f6d3047dac889a152b3476a3474aa771a13e2e14565538230d5f4e09c78c6d92",
+  "input/candidate78.json": "92d54566de08e66a298997b1f3ee44d34e5d4099b350dd02343091e3ea6433c4",
+  "input/SHA256SUMS.json": "644250ad8431be3407996d1443772fbff0cc0484f00506f44c5821d9f182c2a6",
+  "input/freeze78.log": "5c3d740612729ee7bd139943a91671f830c6bafb202b6042ffa9c04c9588f149",
+  "input/freeze78.py": "2567d12833bd626c572a6042c64e3f4bc847eea7ff23bafbee47bc421272d6ee",
+  "input/PROOF.md": "1514db603c2eec60a4fd3d35c571e8f2d1d90876f1364d92de4729721cef7ceb",
+  "input/parent/unitary_sections80.json": "2d41ad24bb13b430067594063c7786bd89008d1cd2bb75d6254bc33730b9e6fb",
+  "input/parent/verify_parent.py": "7c8bad7a4a2555e8fbf4f41fae4c516a46474cc10e3f7b77f425524c3ae15c3c",
+  "input/parent/parent80.npz": "e88c542d0fe064c3f94450aed2d8685989a322cb6876bcce26eb708ad7486e66"
+}

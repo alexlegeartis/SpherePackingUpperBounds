@@ -1,0 +1,10 @@
+{
+  "angular_sha256": "ec0b022471f3eb27a44dc75b1fc6f8ceed486098fa04911e346495b42b681243",
+  "status": "COMPACT TAYLOR PASS",
+  "precision": 512,
+  "processed": 12568,
+  "leaves": 6285,
+  "maxdepth": 43,
+  "seconds": 12.14185643196106,
+  "domain": "u in[1,8]; t in[-1,0] or t=v/(2u), v in[0,1]"
+}

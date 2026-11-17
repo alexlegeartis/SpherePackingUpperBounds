@@ -1,0 +1,18 @@
+[
+  {
+    "dimension": 51,
+    "strict_density_upper_bound": "1.52983244e-7",
+    "numerical_benchmark": "0.000000153213624400425701847419268269597691169244473",
+    "decrease_vs_numerical_benchmark_percent_approx": "0.150365479132325609808314883229309456002228003803765574060100",
+    "annuli": 633,
+    "nodes": 1099429
+  },
+  {
+    "dimension": 52,
+    "strict_density_upper_bound": "1.06516626e-7",
+    "numerical_benchmark": "0.000000106612339098360928278266859743362987561200379",
+    "decrease_vs_numerical_benchmark_percent_approx": "0.089776754895718992501727359567849816211451809906550622362500",
+    "annuli": 909,
+    "nodes": 1706071
+  }
+]

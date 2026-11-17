@@ -1,8 +1,10 @@
 # Comparison sources and conventions
 
-**17 November49D/50D unrestricted bounds:** <2.85041752e-7 and<2.04993038e-7, compared with the attributable Afkhami-Jeddi,Cohn et al.(2020) numerical spinless-bootstrap benchmarks, not with our own predecessors. The numerical reductions are9.7387573447% and6.8379867092%; the benchmark caveats remain explicit. [Complete proof and comparison](verifications/general49_50_20261117/).
+**17 November 51D/52D general and 78D packing update:** general bounds <1.52983244e-7 and <1.06516626e-7 compare with the named numerical spinless-bootstrap benchmarks (reductions 0.1503654791% and 0.0897767549%). The 78D packing floor ≥1.41519803035180e-16 compares with a pinned Bachoc–Nebe L80/2A2 derived example (+48.5963168482%), not a printed record or proven strongest prior value. [General proof](verifications/general51_52_20261117/) · [Packing proof and external derivation](research/packing78_verified_20261117/).
 
-**17 November57D/58D packing update:** the new half-coset constructions compare with MW56 × A1 (Schütt–Shioda) and a Γ72 rank14 Leech-block section (Nebe), respectively. These are derived consequences, not numerical records printed in those sources. Exact center-density-square comparisons give82.5741858351% and24.7490017013%; internal predecessors are not used in these percentages. [Proof, source formulas and independent audit](research/packing_binary57_58_20261117/).
+**17 November 49D/50D unrestricted bounds:** <2.85041752e-7 and <2.04993038e-7, compared with the attributable Afkhami-Jeddi,Cohn et al.(2020) numerical spinless-bootstrap benchmarks, not with our own predecessors. The numerical reductions are 9.7387573447% and 6.8379867092%; the benchmark caveats remain explicit. [Complete proof and comparison](verifications/general49_50_20261117/).
+
+**17 November 57D/58D packing update:** the new half-coset constructions compare with MW56 × A1 (Schütt–Shioda) and a Γ72 rank14 Leech-block section (Nebe), respectively. These are derived consequences, not numerical records printed in those sources. Exact center-density-square comparisons give 82.5741858351% and 24.7490017013%; internal predecessors are not used in these percentages. [Proof, source formulas and independent audit](research/packing_binary57_58_20261117/).
 
 [Numerical comparison benchmarks for dimensions 49–96](NUMERICAL_BENCHMARKS49_96.md): Afkhami-Jeddi, Cohn et al. (2020), highest-order spinless-bootstrap spectra. These are numerical estimates, **not certified upper bounds**; they are kept separate from the proof tables.
 
@@ -299,23 +301,23 @@ The 29,30,31,33,35,37D upper comparisons are pinned Cohn-table values associated
 
 ## 21D Gaussian refinement
 
-Strict new upper0.004985977000 improves the prior repository upper0.005149549312 by3.176439% and closes7.369051% of its gap to the same known lower. Against the pinned published0.0051596603948176, the reductions are3.366179% and7.789082%. The existing lower formula/source is unchanged. See the [independent comparison](verifications/dim21/refinement_gaussian/independent/comparison.json); source-freshness caveats remain.
+Strict new upper 0.004985977000 improves the prior repository upper 0.005149549312 by 3.176439% and closes7.369051% of its gap to the same known lower. Against the pinned published0.0051596603948176, the reductions are 3.366179% and 7.789082%. The existing lower formula/source is unchanged. See the [independent comparison](verifications/dim21/refinement_gaussian/independent/comparison.json); source-freshness caveats remain.
 
-## Rebuilt angular kernels in 46D and47D
+## Rebuilt angular kernels in 46D and 47D
 
 The radial data are unchanged; new target-dimensional angular kernels reduce the origin cost. Known lower formulas and pinned published upper references remain unchanged. Exact new upper bounds and comparison arithmetic are recorded in [release comparisons](research/angular_border_release/COMPARISONS.json). These are pinned-reference improvements, not exhaustive current-priority claims.
 
-## Joint angular/radial refits in 46D and47D
+## Joint angular/radial refits in 46D and 47D
 
-The new strict bounds are0.0000008868492132 and0.0000006010083731. They improve the pinned published uppers by4.590129% and7.405509%, closing4.735895% and7.673514% of the corresponding additive gaps. Lower formulas and citations are unchanged. [Release comparisons](research/angular_radial_refit_release/COMPARISONS.json) also distinguish gains over the immediately preceding angular-only certificates.
+The new strict bounds are 0.0000008868492132 and 0.0000006010083731. They improve the pinned published uppers by 4.590129% and 7.405509%, closing4.735895% and 7.673514% of the corresponding additive gaps. Lower formulas and citations are unchanged. [Release comparisons](research/angular_radial_refit_release/COMPARISONS.json) also distinguish gains over the immediately preceding angular-only certificates.
 
 ## 15D curved-profile comparison
 
-The pinned newer upper .03372585 is the paper-reported15D entry of [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), checked 2026-11-11; its external certificate is not replayed here. The known lower uses center density2^(-9/2), from the [Cohn table](https://cohn.mit.edu/sphere-packing/) indexed four months earlier, giving ordinary density L=2^12*pi^7*8!/(sqrt(2)*16!)=.0168575706567626... . Multiplication by unit-ball volume is recomputed independently at 70 and100 decimal digits. This is a pinned comparison, not exhaustive worldwide priority verification.
+The pinned newer upper .03372585 is the paper-reported15D entry of [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1), checked 2026-11-11; its external certificate is not replayed here. The known lower uses center density 2^(-9/2), from the [Cohn table](https://cohn.mit.edu/sphere-packing/) indexed four months earlier, giving ordinary density L=2^12*pi^7*8!/(sqrt(2)*16!)=.0168575706567626... . Multiplication by unit-ball volume is recomputed independently at 70 and 100 decimal digits. This is a pinned comparison, not exhaustive worldwide priority verification.
 
 ## Dimensions 11–14
 
-The newer pinned upper values from [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1) are .10672201, .0797066, .06012103 and .04501031 respectively. The table was read on 2026-11-11; those external certificates are not replayed. The [Cohn indexed table](https://cohn.mit.edu/sphere-packing/), crawled four months earlier (live fetch returned 502), gives center densities9/256,1/27,9/256 and1/(16sqrt3). Multiplying unit-ball volumes gives L11=144*pi^5*6!/12!, L12=pi^6/(27*6!), L13=576*pi^6*7!/14!, L14=pi^7/(16*sqrt3*7!). References:11/13 [Leech–Sloane1971](https://doi.org/10.4153/CJM-1971-081-3),12 [Coxeter–Todd1953](https://doi.org/10.4153/cjm-1953-043-4),14 [Leech1964](https://doi.org/10.4153/CJM-1964-065-1). These are sourced construction densities, not lower bounds on an optimization relaxation.
+The newer pinned upper values from [2512.04829v2, Table 1](https://arxiv.org/html/2512.04829v2#S3.T1) are .10672201, .0797066, .06012103 and .04501031 respectively. The table was read on 2026-11-11; those external certificates are not replayed. The [Cohn indexed table](https://cohn.mit.edu/sphere-packing/), crawled four months earlier (live fetch returned 502), gives center densities9/256,1/27,9/256 and 1/(16sqrt3). Multiplying unit-ball volumes gives L11=144*pi^5*6!/12!, L12=pi^6/(27*6!), L13=576*pi^6*7!/14!, L14=pi^7/(16*sqrt3*7!). References:11/13 [Leech–Sloane1971](https://doi.org/10.4153/CJM-1971-081-3),12 [Coxeter–Todd1953](https://doi.org/10.4153/cjm-1953-043-4),14 [Leech1964](https://doi.org/10.4153/CJM-1964-065-1). These are sourced construction densities, not lower bounds on an optimization relaxation.
 
 ## Dimension 16: displayed comparator precision
 

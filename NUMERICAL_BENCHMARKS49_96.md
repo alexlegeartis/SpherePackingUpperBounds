@@ -64,4 +64,9 @@ For Euclidean dimension n = c_total and first scaling gap Delta1, the displayed 
 - **49D:** certified density **<2.85041752e-7**, versus numerical benchmark ≈3.1579639678630e-7 (N=463), a9.7387573447% decrease from that numerical value.
 - **50D:** certified density **<2.04993038e-7**, versus numerical benchmark ≈2.2003929580188e-7 (N=460), a6.8379867092% decrease from that numerical value.
 
-[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. No new51D result or improvement is claimed here.
+[Exact values, method, complete verification and audit scope](verifications/general49_50_20261117/). These comparisons do not certify the external numerical optimizer or establish global priority. No new53D or later result is claimed here.
+
+- **51D:** certified density **<1.52983244e-7**, versus numerical benchmark ≈1.5321362440043e-7 (N=457), a0.1503654791% decrease from that numerical value.
+- **52D:** certified density **<1.06516626e-7**, versus numerical benchmark ≈1.0661233909836e-7 (N=466), a0.0897767549% decrease from that numerical value.
+
+[51D/52D verification and audit scope](verifications/general51_52_20261117/). The same numerical-versus-certified distinction applies to these comparisons.

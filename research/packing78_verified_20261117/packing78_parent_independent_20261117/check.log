@@ -1,0 +1,35 @@
+row 0
+row 40
+row 80
+row 120
+row 160
+{
+  "status": "PASS",
+  "sections": 190,
+  "pair_heights": 17955,
+  "rank": 80,
+  "determinant": "22563490300366186081",
+  "minimum": 14,
+  "finite_intersection_histogram": {
+    "7": 6957,
+    "6": 2505,
+    "10": 580,
+    "11": 287,
+    "5": 2129,
+    "9": 2057,
+    "8": 2484,
+    "4": 607,
+    "3": 334,
+    "0": 8,
+    "14": 5
+  },
+  "infinity_intersection_histogram": {
+    "0": 17887,
+    "1": 66
+  },
+  "source_hashes": {
+    "parent80.npz": "e88c542d0fe064c3f94450aed2d8685989a322cb6876bcce26eb708ad7486e66",
+    "unitary_sections80.json": "2d41ad24bb13b430067594063c7786bd89008d1cd2bb75d6254bc33730b9e6fb"
+  },
+  "scope": "Independent polynomial/height/integral-generation replay. Published Shioda height theorem is an explicit mathematical input; full MW-group equality is neither proved nor needed."
+}
