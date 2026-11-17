@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "dimension": 45,
+      "strict_density_upper_bound": "1.2613300683e-6",
+      "angular_sha256": "ec1212ebad3ffbfcaae6ccff54d7eb61158549c0b2f127cb5e935b60242288d9",
+      "compact_nodes": 9910,
+      "compact_leaves": 4956,
+      "compact_precision": 768,
+      "structure_precision": 1024,
+      "independent_radial_intervals": 15470,
+      "radial_precision": 1024,
+      "status": "PASS independent review and replay"
+    },
+    {
+      "dimension": 48,
+      "strict_density_upper_bound": "4.0691468600e-07",
+      "angular_sha256": "862b3b7a2c472ad666425e1bcff3e5a8d45810c0ac0a1fea54492642889882f2",
+      "compact_nodes": 10146,
+      "compact_leaves": 5074,
+      "compact_precision": 768,
+      "structure_precision": 1024,
+      "independent_radial_intervals": 60838,
+      "radial_precision": 1024,
+      "status": "PASS independent review and replay"
+    }
+  ],
+  "scope": "Independent theorem/code review and higher-precision replay; compact solver shares producer implementation, all arithmetic shares FLINT/Arb. No formal proof or independent arithmetic backend claimed. No publication performed."
+}

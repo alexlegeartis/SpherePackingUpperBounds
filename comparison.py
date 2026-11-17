@@ -104,6 +104,7 @@ for n in [22, 25, 32, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47]:proof_
 for n in [26, 27, 28, 29, 30, 31, 33, 34]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 for n in [23]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 for n in [17,18,19,20,21,48]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
+for n in [45,48]:proof_ideas[n]='Reoptimized nonnegative Gegenbauer cyclic kernel + signed logarithmic profile + retained Fourier witness'
 assert set(proof_ideas) == {row["dimension"] for row in rows}
 header='| Dimension | Known lower density L | Recorded upper U | Comparison method / source | Our upper N | Upper decrease | Additive gap decrease | Our method / proof |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):
@@ -131,7 +132,9 @@ display_note='The 4D comparison uses the pinned Felpix-Studios certificate and i
 text='# Density bounds and pinned comparisons\n\n'+comparison_note+'\n\n'+table+'\n'+display_note+' See [sources and conventions](COMPARISONS.md).\n'
 outputs={'RESULTS.json':json.dumps(rows,indent=2)+'\n','RESULTS.md':text}
 readme=(R/'README.md').read_text();a=readme.index('## Registered results');b=readme.index('These certificates use',a)
-outputs['README.md']=readme[:a]+'## Registered results\n\n'+comparison_note+'\n\n'+table+'\n'+display_note+'\n\n'+readme[b:]
+compact_header='| Dimension / lower L | Recorded upper U / source | Our upper N / method | Upper decrease | Gap decrease |\n|---|---|---|---:|---:|\n'
+compact_table=compact_header+''.join(f"| {x['dimension']}<br>**L:** [{display_lower(x)}]({lower_sources[x['dimension']]}) | {display_upper(x,'previous_upper_density')}<br>[{x['previous_upper_method']} — {x['previous_upper_source_label']}]({x['previous_upper_source']}) | {display_upper(x,'strict_density_upper_bound')}<br>[{proof_ideas[x['dimension']]}]({x['package']}/) · [Sources & formulas](COMPARISONS.md) | {display_percent(x['upper_decrease_percent'],x['dimension'])} | {display_percent(x['gap_decrease_percent'],x['dimension'])} |\n" for x in rows)
+outputs['README.md']=readme[:a]+'## Registered results\n\n'+comparison_note+'\n\n'+compact_table+'\n'+display_note+'\n\n'+readme[b:]
 for name,content in outputs.items():
  if '--write' in sys.argv:(R/name).write_text(content)
  else:assert (R/name).read_text()==content,name+' needs regeneration: python comparison.py --write'

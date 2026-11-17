@@ -36,4 +36,5 @@ a=json.loads((r/'verifications/dim48/continuum_three_point/independent_cyclic40_
 assert Fraction(a['density_upper']) < Fraction('4.13385739314e-7')
 subprocess.run([sys.executable,str(r/'verifications/origin_slack/verify_algebra.py')],check=True)
 subprocess.run([sys.executable,str(r/'verifications/cyclic_origin_slack/verify_algebra.py')],check=True)
+subprocess.run([sys.executable,str(r/'verifications/general_angular_20261117/run_all.py')],check=True)
 print('PASS: all registered proof replays and strict decimal rounding')

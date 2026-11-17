@@ -1,0 +1,2 @@
+TAYLOR 6000 2997 8 1 ['7/8', '29/32', '1045/1024', '263/256'] 6.770132303237915
+{'angular_sha256': '862b3b7a2c472ad666425e1bcff3e5a8d45810c0ac0a1fea54492642889882f2', 'status': 'COMPACT TAYLOR PASS', 'precision': 768, 'processed': 10146, 'leaves': 5074, 'maxdepth': 32, 'seconds': 10.102440595626831, 'domain': 'u in[1,8]; t in[-1,0] or t=v/(2u), v in[0,1]'}

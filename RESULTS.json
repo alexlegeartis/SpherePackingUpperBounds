@@ -1321,27 +1321,27 @@
   },
   {
     "dimension": 45,
-    "strict_density_upper_bound": "0.0000012656297919",
-    "package": "verifications/dim45/refinement_profile20261114",
-    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "strict_density_upper_bound": "1.2613300683e-6",
+    "package": "verifications/general_angular_20261117",
+    "method": "Reoptimized nonnegative Gegenbauer cyclic three-point kernel with signed logarithmic radial profile and unchanged Fourier witness; complete interval-Hessian angular proof",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "3.5582252942557527960e-8",
     "previous_upper_density": "0.0000013300905665",
-    "upper_decrease_percent": "4.846345",
-    "gap_decrease_percent": "4.979557",
+    "upper_decrease_percent": "5.169610",
+    "gap_decrease_percent": "5.311708",
     "old_gap": "0.0000012945083135574424720",
-    "new_gap": "0.0000012300475389574424720",
+    "new_gap": "0.0000012257478153574424720",
     "earlier_repository_upper_densities": [
       "0.000001311423575",
       "0.000001287489137"
     ],
-    "previous_repository_package": "verifications/dim45/refinement_radial20261114",
-    "previous_repository_strict_upper": "0.000001287489137",
-    "source_package": "verifications/dim45/refinement_profile20261114",
+    "previous_repository_package": "verifications/dim45/refinement_profile20261114",
+    "previous_repository_strict_upper": "0.0000012656297919",
+    "source_package": "verifications/general_angular_20261117",
     "current_table_reviewed": "2026-11-14",
     "current_table_source": "https://cohn.mit.edu/sphere-packing/",
     "current_table_upper_display": "0.0000013114235746",
-    "comparison_scope": "Improves the previous repository certificate and the live unrestricted-packing table; no exhaustive priority claim",
+    "comparison_scope": "Historical attributable external numerical comparator retained from the pinned table; internal predecessor separately recorded; no exhaustive worldwide-priority assertion",
     "earlier_repository_packages": [
       "verifications/dim45/refinement_radial20261114",
       "verifications/dim45"
@@ -1357,7 +1357,10 @@
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "preceding_repository_upper_density": "0.0000012656297919",
+    "preceding_repository_package": "verifications/dim45/refinement_profile20261114",
+    "verification_scope": "Independent mathematical/code review and higher-precision replay; shared FLINT/Arb backend, not an independently authored compact solver."
   },
   {
     "dimension": 46,
@@ -1457,24 +1460,24 @@
   },
   {
     "dimension": 48,
-    "strict_density_upper_bound": "4.0843570355E-7",
-    "package": "verifications/dim48/refinement_larger20261115",
+    "strict_density_upper_bound": "4.0691468600e-7",
+    "package": "verifications/general_angular_20261117",
     "known_lower_density": "2.3178295310541237588e-8",
     "previous_upper_density": "4.529067791E-7",
-    "upper_decrease_percent": "9.819035",
-    "gap_decrease_percent": "10.348645",
+    "upper_decrease_percent": "10.154870",
+    "gap_decrease_percent": "10.702594",
     "old_gap": "4.2972848378945876241e-7",
-    "new_gap": "3.8525740823945876241e-7",
+    "new_gap": "3.8373639068945876241e-7",
     "earlier_repository_upper_densities": [
       "4.13385739314e-7"
     ],
     "earlier_repository_packages": [
       "verifications/dim48"
     ],
-    "source_package": "verifications/dim48/refinement_larger20261115",
-    "previous_repository_package": "verifications/dim48",
-    "previous_repository_strict_upper": "4.13385739314e-7",
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "source_package": "verifications/general_angular_20261117",
+    "previous_repository_package": "verifications/dim48/refinement_larger20261115",
+    "previous_repository_strict_upper": "4.0843570355E-7",
+    "method": "Reoptimized nonnegative Gegenbauer cyclic three-point kernel with signed logarithmic radial profile and unchanged Fourier witness; complete interval-Hessian angular proof",
     "radial_profile": {
       "a_exact": "-192",
       "b_exact": "216"
@@ -1485,6 +1488,10 @@
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "preceding_repository_upper_density": "4.0843570355E-7",
+    "preceding_repository_package": "verifications/dim48/refinement_larger20261115",
+    "verification_scope": "Independent mathematical/code review and higher-precision replay; shared FLINT/Arb backend, not an independently authored compact solver.",
+    "comparison_scope": "Historical attributable external numerical comparator retained from the pinned table; internal predecessor separately recorded; no exhaustive worldwide-priority assertion"
   }
 ]

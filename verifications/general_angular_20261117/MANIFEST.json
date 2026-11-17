@@ -1,0 +1,20 @@
+{
+  "AUDIT.md": "cdcdc176d1efcdfb51dba8ad2f082e6cfbfa1b7f9eee9aa593a9545666ca2736",
+  "angular_taylor_standalone.py": "30bd549dff6f67ddc2f70267a7193ad8d871cf1c43228cbe1dc063095be46caf",
+  "angular_structure_verify.py": "5f91deec7960bc9c1dc792dd3269bdde32155a4bfcb7a9ccc0cc2936f55bab8e",
+  "primary_radial.py": "bcaf5edda7b0c9228cb7279d7da59908fbf354537c1a3924fb8b241e8673cfaf",
+  "check_substitution.py": "b2fa76bd192ae94e38ad5763799e3852f22b5b2497d7c3a003fa33cda0cb6533",
+  "AUDIT_RESULT.json": "7237a47bbff8736ecaf474b5010c099b2f4501aec03d37deb8530673df96e7ab",
+  "independent_radial.py": "9e8336a439ebe867ac71558f9c5a32fd08590950ecad528c5605469df30fcf17",
+  "core.py": "ea21c5204cab6de2198a15b630b27cb2d2e8d78423b18acbfd5ec0001b0c9fde",
+  "run_all.py": "791bf25095af6d5447ec11dda8a9f41411a5241f42cf0210f5163d3180a16801",
+  "source/certificate48.json": "47908dcaa2ecb2d36aa004595cc569e5f9e6ccd7f4848c924dcab912502a947e",
+  "source/certificate45.json": "27a353f5bc4fb2e05884c144683ba0dd3cd870519cdfba2d606363eb29b78536",
+  "source/PROOF.md": "51c16c4b32da20ba0b1decd67a170796dc8bbabd86ff714ad246899e15068750",
+  "dim48/angular.json": "862b3b7a2c472ad666425e1bcff3e5a8d45810c0ac0a1fea54492642889882f2",
+  "dim48/config.json": "ede92be215ae234f18af6642f6f172dda6c2035cc53e2829c60862b6f148c305",
+  "dim48/certificate.json": "06bac6cd94c63fa30165a66281fac6a5691fdc185e161976176c4de8c1e28115",
+  "dim45/angular.json": "ec1212ebad3ffbfcaae6ccff54d7eb61158549c0b2f127cb5e935b60242288d9",
+  "dim45/config.json": "2cb5e67430f79a4ed45526876613189571dfb79642a724fd38bdbe1903b7c52d",
+  "dim45/certificate.json": "a59ce7f69e32c4e75a64e0c1107979a5493820f3061d5d6002f5508f8c692397"
+}
