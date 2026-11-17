@@ -1,0 +1,158 @@
+{
+  "status": "PASS",
+  "inherited_source_replay": "Full run_deep --full completed, including original source101 primary and independent searches and source108/203 inherited controls",
+  "new_D4_D5_replay": "Every packaged input84/input85 decoder exclusion freshly rerun after final candidate replacement",
+  "geometry": "Final quick run_deep passes production and independent83/84D4/85D5 exact geometry/source/density checks",
+  "new_replay_results": {
+    "83pub_input85_9.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_7.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_5.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_31.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 6860348,
+      "leaves": 0
+    },
+    "83pub_input85_30.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_29.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_28.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_27.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_26.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 921616,
+      "leaves": 16
+    },
+    "83pub_input85_25.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_24.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 733200,
+      "leaves": 0
+    },
+    "83pub_input85_23.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 921616,
+      "leaves": 16
+    },
+    "83pub_input85_22.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_21.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_20.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_19.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_18.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 800784,
+      "leaves": 0
+    },
+    "83pub_input85_15.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_14.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_13.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 800784,
+      "leaves": 0
+    },
+    "83pub_input85_12.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input85_11.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_9.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_7.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_5.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_15.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_14.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_13.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 800784,
+      "leaves": 0
+    },
+    "83pub_input84_12.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    },
+    "83pub_input84_11.txt.json": {
+      "status": "EXHAUSTIVE_NO_VECTOR_PENDING_AUDIT",
+      "nodes": 849936,
+      "leaves": 0
+    }
+  }
+}

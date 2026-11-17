@@ -9,8 +9,9 @@
   "density_exact": "2^122 * 42! * pi^41 / 84!",
   "density_lower": "5.446261557231715435975983366073451389262968859e-19",
   "density_upper": "5.446261557231715435975983366073451389262968861e-19",
-  "new_density_floor": "2.56962386473426e-18",
-  "gain_percent_lower": "371.8142596956",
+  "new_density_floor": "3.08087078338732e-18",
+  "gain_percent_lower": "465.685424",
   "former_comparator": "MW80 x A3",
-  "former_gain_percent": "501.820882"
+  "former_gain_percent": "501.820882",
+  "new_construction": "../packing83_85_deep_verified_20261117/README_DEEP.md"
 }

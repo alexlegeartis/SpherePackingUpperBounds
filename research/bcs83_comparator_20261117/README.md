@@ -24,3 +24,5 @@ Arb256 verified outward decimal enclosure:
 Against the currently posted new bound2.56962386473426e-18, conservative gain is >371.8142596956%, not501.820882% and not477.852095% (A5 comparison).
 
 Live README fetched through GitHub: content SHA86b8bd747954943bec958b8b4bf2b251de9ac1cf, row83 still uses MW80xA3≈4.269748590531e-19 and501.820882%. This is a derived classical guarantee, not an83D record printed in1982, and does not establish strongest worldwide baseline. The live table now uses this stronger derived comparison; archived construction audits retain their original historical comparator.
+
+The subsequent overlapping deep-coset construction raises the83D floor to3.08087078338732e-18 and the gain over this unchanged comparator to>465.685424%. Earlier percentages above document the comparator correction at that time.

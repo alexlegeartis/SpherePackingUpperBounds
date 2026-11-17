@@ -1,0 +1,84 @@
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82plane_2d4ggwd2/work/run82.py
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82_e0jyoszh/work/run81.py
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing81_0j5471vp/bachoc_nebe80_reconstruction_20261117/verify_frozen.py
+PASS exact80D Gram, all intermediate lattices, two E8 isometries, singular complement,16 diagonal shifts, norm8 witness. Minimum≥8 invokes Bachoc–Nebe Theorem4.7.
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing81_0j5471vp/l80_case101_mapping_audit_20261117/check.py
+{
+  "status": "PASS exact case101 input maps, code masks, carries,16glues and target normalization",
+  "target_parent_norm": 2828,
+  "target_squared_norm": 707,
+  "local_cost_to_global_norm_denominator": 128,
+  "absence_cutoff_numerator": 640,
+  "absence_scope": "No absence proof in this checker; cutoff auditor separately checks local/global search completeness.",
+  "hashes": {
+    "/tmp/packing81_0j5471vp/l80_code_decoder_20261117/case101.txt": "5cb83cfe951a5b4968aa6e32d817fa2952c3a1668017fb5d7a3e0f4bcda76d32",
+    "/tmp/packing81_0j5471vp/l80_code_decoder_20261117/case101.json": "bced37fa26cf53923af5f5fc59379203939f3b96f3692e8945110c6c2351022b",
+    "/tmp/packing81_0j5471vp/bachoc_nebe80_reconstruction_20261117/lattice80.npz": "e157bdeba01155056be8b9f844550353b5bf9a34340649eb62d1ef62ae69ba81"
+  }
+}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing81_0j5471vp/l80_case101_independent_20261117/check_local.py
+{'status': 'PASS independent complete shell, E8 coordinate basis and nearest-point controls', 'counts': {0: 1, 2: 240, 4: 2160, 6: 6720}, 'controls': 60, 'input_sha': '5cb83cfe951a5b4968aa6e32d817fa2952c3a1668017fb5d7a3e0f4bcda76d32'}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing81_0j5471vp/l80_code_decoder_20261117/build81.py
+{'dimension': 81, 'status': 'PRIMARY_COMPLETE_CODE_EXCLUSION; independent audit pending', 'parent_minimum': 8, 'parent_determinant': 1, 'coset_depth': 6, 'vertical_squared_height': 2, 'gram_determinant': '2', 'center_density_squared': '1208925819614629174706176', 'ordinary_density_floor': '28777741680399/1000000000000000000000000000000', 'ratio_to_pinned_repo': 1.0310549574840053, 'ratio_to_derived_MW80_A1': 1.8038947247499995, 'pinned_repo_center_density_squared': '79172296088172630531378644744173191017334418459007976066782137593751953125/69620512594693245636748678160327321048267519688704', 'external_center_density_squared': '40536215597144386832065866109016673800875222251012083746192454448001/109110344018947707718736806055386875663745024'}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing81_0j5471vp/l80_case101_independent_20261117/check_extension.py
+{'status': 'PASS exact integral-distance gap, depth6 contact, layered min8, Gram/determinant, density floor', 'dimension': 81, 'determinant': 2, 'minimum_squared': 8, 'coset_depth': 6, 'density_floor': '28777741680399/1000000000000000000000000000000', 'external_comparison': 'Pinned derived MW80 x A1 example, not asserted strongest', 'center_density_squared': '1208925819614629174706176'}
+PASS exact reconstruction, maps, local coverage, Gram/density and archived completed logs; quick mode does not rerun exclusions
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82_e0jyoszh/work/l80_case108203_independent_20261117/check_maps.py
+{'108': {'target_norm': '2636', 'norm_mod4': 0, 'cutoff_numerator': 640, 'input_sha256': '2897f03905141efca64dc9ae020ecf03461f13d65cf222caae84cbdf1a5697cf'}, '203': {'target_norm': '2098', 'norm_mod4': 2, 'cutoff_numerator': 576, 'input_sha256': '285b8494417ff1e7ba5c63676adc81fa182a7ce1d22ada9bf4d6367b03cb91ca'}, 'automorphism': 'exact integral unimodular Gram isometry; sum class verified', 'status': 'PASS target, all common decoder inputs, congruence, and automorphism'}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82_e0jyoszh/work/l80_code_decoder_20261117/build82.py
+{'dimension': 82, 'status': 'PRIMARY_COMPLETE_MIXED_DEPTH_CONSTRUCTION; independent audit pending', 'parent_minimum': 8, 'minimum_squared': 8, 'half_coset_depth_lower_bounds': ['6', '6', '11/2'], 'vertical_gram': [['2', '3/4'], ['3/4', '2']], 'gram_determinant': '55/16', 'center_density_squared': '77371252455336267181195264/55', 'ordinary_density_floor': '42834561831719/5000000000000000000000000000000', 'ordinary_density_decimal_approx': '8.5669123663438021942076969170632968764e-18', 'pinned_repo_center_density_squared': '6185335631888486760263956620638530548229251442109998130217354499511871337890625/5714934664858416272284567663612103329623072090271776768', 'ratio_to_pinned_repo': 1.1400724956907404, 'external_MW80_A2_center_density_squared': '40536215597144386832065866109016673800875222251012083746192454448001/327331032056843123156210418166160626991235072', 'ratio_to_external_example': 3.3703923326313974}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82_e0jyoszh/work/l80_case108203_independent_20261117/check_extension.py
+{'status': 'PASS exact Gram, parity minima and density conditional on completed frozen exclusions', 'dimension': 82, 'minimum_squared': 8, 'determinant': '55/16', 'density_floor': '42834561831719/5000000000000000000000000000000', 'center_density_squared': '77371252455336267181195264/55', 'external_comparator': 'Pinned derived MW80 x A2, not strongest-previous claim', 'external_gain_percent': '237.039233263139767212555708275741444379594792591110965035768'}
+PASS82 exact target maps, automorphism, congruences, mixed-depth Gram/density, inherited81 proof and archived completed searches; quick mode does not rerun exclusions
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82plane_2d4ggwd2/work/l80_diagonal_automorphisms_20261117/verify_plane.py
+PASS THREE EXACT COMPOSITE TRANSFERS; XOR PLANE RANK2
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82plane_2d4ggwd2/work/l80_diagonal_automorphisms_20261117/build82_plane.py
+{'dimension': 82, 'minimum_squared': 8, 'gram_determinant': '3', 'vertical_gram': [['2', '-1'], ['-1', '2']], 'center_density_squared': '4835703278458516698824704/3', 'ordinary_density_floor': '917033181889403/100000000000000000000000000000000', 'ratio_to_current': 1.070436048222094, 'external_MW80_A2_center_density_squared': '40536215597144386832065866109016673800875222251012083746192454448001/327331032056843123156210418166160626991235072', 'ratio_to_external_example': 3.607789449499999}
+RUN /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python /tmp/packing82plane_2d4ggwd2/work/l80_plane82_independent_20261117/check.py
+{'status': 'COMPLETE INDEPENDENT EXACT TRANSFER/GEOMETRY/DENSITY AUDIT PASS', 'dimension': 82, 'density_floor': '917033181889403/100000000000000000000000000000000', 'minimum_squared': 8, 'determinant': 3, 'source_depths': 'Previously independently certified cases101 and108, bound to published exact input bytes', 'external_gain_percent': '260.778944949999896610609980278827277143920554543717152150784'}
+PASS improved82: independent full symmetry transfers, XOR plane, A2 Gram/parity, exact density floor, inherited complete coset proofs
+83 4 3.0808707833873217e-18 floor 77021769584683/25000000000000000000000000000000
+84 4 1.1880815730662032e-18 floor 5940407865331/5000000000000000000000000000000
+85 4 4.554748715176019e-19 floor 455474871517601/1000000000000000000000000000000000
+mask 1 source 101
+mask 2 source 101
+mask 3 source 101
+mask 4 source 101
+mask 5 source 101
+mask 6 source 101
+{'status': 'PASS exact transfer, new target binding, local shell completeness, vertical geometry; global decoders separately pending', 'vertical_minima': ['8', '2', '2', '2', '2', '2', '2', '4'], 'determinant': '4', 'candidate_sha256': '7ac4c503cbc30a0f323cef57775edd946a4853ded2823594d41423f202426997'}
+mask 1 source 101
+mask 2 source 101
+mask 3 source 101
+mask 4 source 101
+mask 6 source 101
+mask 7 source 101
+mask 8 source 101
+mask 10 source 101
+mask 11 source 101
+mask 13 source 101
+mask 14 source 101
+mask 15 source 101
+{'status': 'PASS exact transfer, new target binding, local shell completeness, vertical geometry; global decoders separately pending', 'vertical_minima': ['8', '2', '2', '2', '2', '4', '2', '2', '2', '4', '2', '2', '4', '2', '2', '2'], 'determinant': '4', 'candidate_sha256': '32561174612588e520eb92903439295a69b126a8312febf394a3e58651cbe9a5'}
+mask 1 source 101
+mask 2 source 101
+mask 3 source 101
+mask 4 source 101
+mask 6 source 101
+mask 7 source 101
+mask 8 source 101
+mask 10 source 101
+mask 11 source 101
+mask 13 source 101
+mask 14 source 101
+mask 15 source 101
+mask 16 source 101
+mask 17 source 101
+mask 19 source 101
+mask 23 source 101
+mask 27 source 101
+mask 28 source 101
+mask 29 source 101
+mask 31 source 101
+{'status': 'PASS exact transfer, new target binding, local shell completeness, vertical geometry; global decoders separately pending', 'vertical_minima': ['8', '2', '2', '2', '2', '4', '2', '2', '2', '4', '2', '2', '4', '2', '2', '2', '2', '2', '4', '2', '4', '4', '4', '2', '4', '4', '4', '2', '2', '2', '4', '2'], 'determinant': '4', 'candidate_sha256': '57c865b443726e914de1d608958712e294a9920e3a16dd9dc4e312b130dbec5a'}
+PASS83–85 deep-plane extension; quick mode inherits archived exclusions
