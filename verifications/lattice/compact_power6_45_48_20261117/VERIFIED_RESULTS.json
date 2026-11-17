@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "scope": "lattice-only sphere-packing density upper bounds",
+  "bounds": {
+    "45": "1.1728551765e-6",
+    "46": "7.721596228e-7",
+    "47": "5.130033534e-7",
+    "48": "3.4559190288e-7"
+  },
+  "source_frozen_sha256": "169ea8d0e2ec662e7d450641894d1e3ba5f280623d2d6a659d1308401d45a728",
+  "main_trace_sha256": "2145900b7ea753d5d711fd896ebca614961a56ae9427bf8b6fe1623185c3d156",
+  "main_nodes": 183451,
+  "main_leaves": 91726,
+  "independent_replay_bits": 384,
+  "interval_backend": "Arb shared with producer; independent traversal and cap algebra"
+}

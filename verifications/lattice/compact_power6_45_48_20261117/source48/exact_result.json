@@ -1,0 +1,8 @@
+{
+  "status": "EXACT PSD, FOURIER, CAP, COVERAGE, NORMALIZATION AND ROUNDING PASS; MAIN GEOMETRY STILL REQUIRED",
+  "safe_bound": "2159949393/6250000000000000",
+  "density_approx": 3.4559190287688374e-07,
+  "budget_approx": 1.3991781198773567e-06,
+  "annuli": 633,
+  "radial_nodes": 3495
+}

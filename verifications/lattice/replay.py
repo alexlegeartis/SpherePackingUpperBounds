@@ -4,7 +4,17 @@ from pathlib import Path
 if not __debug__:raise RuntimeError('Assertions required; do not run with -O')
 p=Path(__file__).resolve().parent
 ap=argparse.ArgumentParser();ap.add_argument('--dimension',type=int,choices=[14,15,16,17,18,19,20,21,22,23,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48]);a=ap.parse_args()
-if a.dimension in [44,45]:
+def replay_collinear_transfer():
+ with tempfile.TemporaryDirectory(prefix='collinear-transfer-') as td:
+  root=Path(td)
+  for name in ['collinear38_40_20261117','rank_two_20261117']:
+   shutil.copytree(p/name,root/name)
+  subprocess.run([sys.executable,str(root/'collinear38_40_20261117/verify.py')],check=True)
+if a.dimension in [45,46,47,48]:
+ subprocess.run([sys.executable,str(p/'compact_power6_45_48_20261117/run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
+if a.dimension in [38,39,40]:
+ subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py'),'--dimension',str(a.dimension)],check=True);replay_collinear_transfer();sys.exit(0)
+if a.dimension ==44:
  subprocess.run([sys.executable,str(p/'compact_matrix44_45_20261117/run.py'),'--mode','full'],check=True);sys.exit(0)
 if a.dimension is not None and a.dimension>=36:
  subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py'),'--dimension',str(a.dimension)],check=True);sys.exit(0)
@@ -28,4 +38,6 @@ with tempfile.TemporaryDirectory(prefix='lattice-proof-') as tmp:
  if a.dimension is None:
   subprocess.run([sys.executable,str(p/'rank_two_20261117/run_all.py')],check=True)
   subprocess.run([sys.executable,str(p/'compact_matrix44_45_20261117/run.py'),'--mode','full'],check=True)
+  replay_collinear_transfer()
+  subprocess.run([sys.executable,str(p/'compact_power6_45_48_20261117/run_all.py')],check=True)
  print('ALL REQUESTED LATTICE REPLAYS PASSED',flush=True)

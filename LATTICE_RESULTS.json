@@ -681,97 +681,117 @@
   {
     "dimension": 45,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.0000011735752753",
+    "certified_density_upper_bound": "1.1728551765e-6",
     "named_lattice_lower_comparison": "2.52315067E-8",
     "previous_lattice_upper": ".00000128034519",
     "previous_source_certificate_upper": ".00000128034519",
-    "upper_decrease_percent": "8.33915068638637991056146350657200500749333076340139177622872",
-    "gap_decrease_percent": "8.50679234244947857624874322011942963891994404169364536159862",
-    "package": "verifications/lattice/compact_matrix44_45_20261117",
+    "upper_decrease_percent": "8.39539323766272750241675059520471975217870736875264084055332",
+    "gap_decrease_percent": "8.56416553577700924424301509804119908601748569591106456866400",
+    "package": "verifications/lattice/compact_power6_45_48_20261117",
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
-    "method": "Exact harmonic-matrix dimension restriction + compact rank-two kernel + repaired Fourier and mod-2 annular profiles",
+    "method": "Exact dimension restriction of optimized three-feature compact harmonic kernels + separately certified Fourier and mod-2 annular closure",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/compact_matrix44_45_20261117/input45/root_repair45/density_result.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_45_48_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/rank_two_20261117",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e",
-      "previous_repository_bound": "0.000001180784470"
+      "previous_repository_package": "verifications/lattice/compact_matrix44_45_20261117",
+      "previous_repository_bound": "0.0000011735752753",
+      "comparison_commit": "19de4a7d34bb4691492ca3dc2c9a3d606da1e180",
+      "earlier_history": {
+        "previous_repository_package": "verifications/lattice/rank_two_20261117",
+        "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e",
+        "previous_repository_bound": "0.000001180784470"
+      }
     }
   },
   {
     "dimension": 46,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.0000007766101459",
+    "certified_density_upper_bound": "7.721596228e-7",
     "named_lattice_lower_comparison": "2.27179803E-8",
     "previous_lattice_upper": ".000000880676408",
     "previous_source_certificate_upper": ".000000880676408",
-    "upper_decrease_percent": "11.8166288042542863257897104926194412147804463498243273027475",
-    "gap_decrease_percent": "12.1295226831653162627940230209361693061902654237427452919931",
-    "package": "verifications/lattice/compact_matrix46_new_20261117",
+    "upper_decrease_percent": "12.3219816284666501478486295502081849795617552184956452245511",
+    "gap_decrease_percent": "12.6482568031775043545038190432592215446804451268868863399825",
+    "package": "verifications/lattice/compact_power6_45_48_20261117",
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
-    "method": "Dimension-specific compact harmonic-matrix rank-two kernel + exact angular-corner signs + repaired Fourier and mod-2 annular profiles",
+    "method": "Exact dimension restriction of optimized three-feature compact harmonic kernels + separately certified Fourier and mod-2 annular closure",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/compact_matrix46_new_20261117/proof/exact_result.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_45_48_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim46_cyclic"
+      "previous_repository_package": "verifications/lattice/compact_matrix46_new_20261117",
+      "previous_repository_bound": "0.0000007766101459",
+      "comparison_commit": "19de4a7d34bb4691492ca3dc2c9a3d606da1e180",
+      "earlier_history": {
+        "previous_repository_package": "verifications/lattice/dim46_cyclic"
+      }
     }
   },
   {
     "dimension": 47,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.0000005186745468",
+    "certified_density_upper_bound": "5.130033534e-7",
     "named_lattice_lower_comparison": "2.14660782E-8",
     "previous_lattice_upper": ".000000607126117",
     "previous_source_certificate_upper": ".000000607126117",
-    "upper_decrease_percent": "14.5688956088838457924550130990329312418625535755036543749937",
-    "gap_decrease_percent": "15.1028863743605653020695732672549896364894343206125539736928",
-    "package": "verifications/lattice/compact_matrix46_47_20261117",
+    "upper_decrease_percent": "15.5030002769589304292768548449711973105581290616756649920234",
+    "gap_decrease_percent": "16.0712285907118988498076095814376058467726891801039166273402",
+    "package": "verifications/lattice/compact_power6_45_48_20261117",
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
-    "method": "Exact harmonic-matrix dimension restriction + compact rank-two kernel + reoptimized Fourier and mod-2 annular profiles",
+    "method": "Exact dimension restriction of optimized three-feature compact harmonic kernels + separately certified Fourier and mod-2 annular closure",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/compact_matrix46_47_20261117/dim47/density_result.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_45_48_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim47_cyclic",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_package": "verifications/lattice/compact_matrix46_47_20261117",
+      "previous_repository_bound": "0.0000005186745468",
+      "comparison_commit": "19de4a7d34bb4691492ca3dc2c9a3d606da1e180",
+      "earlier_history": {
+        "previous_repository_package": "verifications/lattice/dim47_cyclic",
+        "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      }
     }
   },
   {
     "dimension": 48,
     "scope": "lattice_only",
-    "certified_density_upper_bound": "0.0000003499004606",
+    "certified_density_upper_bound": "3.4559190288e-7",
     "named_lattice_lower_comparison": "2.31782953E-8",
     "previous_lattice_upper": ".000000419948220",
     "previous_source_certificate_upper": ".000000419948220",
-    "upper_decrease_percent": "16.6800943697296776254939239890098831708347281481512173096007",
-    "gap_decrease_percent": "17.6545032875068617820568394507649536068780568034823129324751",
-    "package": "verifications/lattice/compact_matrix48_20261117",
+    "upper_decrease_percent": "17.7060679338038389590030885236279844215079659106544135369832",
+    "gap_decrease_percent": "18.7404116318093501909017047027203773340837594992239591994458",
+    "package": "verifications/lattice/compact_power6_45_48_20261117",
     "comparison_source": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "comparison_status": "Certified published external upper bound; Table 1 decimal, not a preceding SpherePackings result.",
     "lower_source": "https://cohn.mit.edu/sphere-packing/",
     "source_certificate_reference": "https://arxiv.org/html/2610.35830v1#S4.T1",
-    "method": "Compact two-feature harmonic PSD matrices + full rank-two plane inequalities + mod-2 annular profiles",
+    "method": "Optimized three-feature compact harmonic kernels + universal rank-two geometry + separately certified Fourier and mod-2 annular closure",
     "previous_method_source": "Lattice class-profile LP \u2014 Zubrilina (2026), Table 1",
     "previous_method_source_url": "https://arxiv.org/html/2610.35830v1#S4.T1",
     "external_comparator_certified": true,
-    "precise_bound_evidence": "verifications/lattice/compact_matrix48_20261117/input/density_result.json",
+    "precise_bound_evidence": "verifications/lattice/compact_power6_45_48_20261117/VERIFIED_RESULTS.json",
     "internal_predecessor_metadata": {
-      "previous_repository_package": "verifications/lattice/dim48_cyclic_strong",
-      "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      "previous_repository_package": "verifications/lattice/compact_matrix48_20261117",
+      "previous_repository_bound": "0.0000003499004606",
+      "comparison_commit": "19de4a7d34bb4691492ca3dc2c9a3d606da1e180",
+      "earlier_history": {
+        "previous_repository_package": "verifications/lattice/dim48_cyclic_strong",
+        "comparison_commit": "20b638f5d5b0bf00a2a4ce8d70c4e062517a502e"
+      }
     }
   }
 ]

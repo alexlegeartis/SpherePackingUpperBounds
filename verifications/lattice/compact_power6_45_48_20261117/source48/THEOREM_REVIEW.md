@@ -1,0 +1,29 @@
+# Independent theorem review: powers6,9,12 compact lattice kernel
+
+**Status: COMPLETE PASS. Source main geometry, complementary cap, scalar closure, tail, normalization, and exact dimensional transfers have all passed the described independent audit.** The only source candidate reviewed here has SHA256 `169ea8d0e2ec662e7d450641894d1e3ba5f280623d2d6a659d1308401d45a728`. The rejected older three-feature candidate is not an input.
+
+## Arbitrary feature count
+Let R=19/13, b(t)=max((19−13t)/6,0), H(t)=(b(t)^6,b(t)^9,b(t)^12), for nonzero lattice vectors with t=|v|²≥1. With c0=1, ck≥0, q=Σck, and positive-semidefinite3×3 matrices Bk, define K(x,y)=q^−2 Σck G_(2k)(cos(x,y))H(|x|²)^T Bk H(|y|²). Each harmonic term is PSD by its tensor-feature realization; no theorem requires exactly two radial features. Define K(0,x)=q^−1 z^T H(|x|²), K(0,0)=s. The constant-harmonic origin block is PSD precisely when [[s,z^T],[z,B0]] is PSD. The checked rational Schur slack is1e−12. Nonconstant harmonics have no origin cross term.
+
+The repair subtracts1e−4 only from B0[0,0] and5e−6 only from z0. All final coefficients are exact chosen rationals, and all final matrices and the origin Schur condition are directly checked. Numerical closeness to an unrepaired candidate is not a premise.
+
+## Full plane decomposition and exponents
+Every saturated lattice plane admits a Gauss-reduced basis with squared lengths1≤a≤b and0≤d≤a/2. Set c=a+b−2d≥b. Except for the three signed root pairs ±e1,±e2,±(e2−e1), every vector has squared length≥2a≥2>R. Thus there are no unbounded omitted-vector tails.
+
+For all three supported pairs, parameterize1≤a≤b≤c≤R by a=1+ex, b=a+e(1−x)y, c=b+e(1−x)(1−y)z, e=6/13, and x,y,z∈[0,1]. After factoring b(a)^6 b(b)^6 from the three pair terms, the feature arguments are (1−x)^3, (1−x)^3(1−y)^3 and (1−x)^3(1−y)^3(1−z)^3. The other two outer factors are (1−z)^6 and((1−y)(1−z))^6. These exactly match the new gate. Substituting the old outer exponent12 here would be a different, invalid test; it is not used.
+
+Exactly two supported pairs give the complementary interval0≤d≤(a+b−R)/2 and hence |cos|≤1/2. The normalized kernel is quadratic in each of its two feature arguments. On each subinterval[a,b] of[0,1], its quadratic Bernstein vectors are (1,a,a²),(1,(a+b)/2,ab),(1,b,b²). There are17 distinct vectors for eight equal subintervals and153 unordered pairs. A separate implementation verifies the corresponding153 exact angular polynomials are below−1e−7 throughout[−1/2,1/2] using evenness and Sturm counts. This covers the whole cap, not just sample corners.
+
+At a zero profile, the actual pair contribution vanishes; the normalized formulas extend continuously and never divide by a vanishing profile. All independent ordered pairs partition by their real plane; compact support makes the lattice sums finite. The three-supported-root main cube has now passed complete 384-bit interval replay: 183,451 preorder nodes, 91,726 accepted leaves, and an empty final stack. An independently replayed immutable 80,000-node prefix was resumed only after verifying its SHA and the frozen-input SHA. The full trace SHA is `2145900b7ea753d5d711fd896ebca614961a56ae9427bf8b6fe1623185c3d156`. Every leaf satisfies the strict negative margin 1e-7. Trace parsing and coverage are independently checked; interval evaluation shares the reviewed Jet/Arb implementation.
+
+## Exact scalar closure
+At most one opposite pair on each primitive line is supported. With W=ΣckBk/q, the complete collinear plus origin-cross correction is G(t)=2/q(H(t)^T W H(t)+z^T H(t)). Summing over both signs accounts for all four ordered collinear terms and all four origin-cross terms. Once independent plane sums are nonpositive, PSD implies ΣG≥−s.
+
+The scalar physical function is P(x)e^−x, x=22|v|². The base profile is therefore19/6−13x/132, with exact cutoff418/13. Fresh interval replay checked633 contiguous annuli through x=180, including the cutoff as a boundary, and3495 subdivisions. Every stored height is nonnegative and bounds the actual function, even if a cell was accepted at the minimum-width limit rather than the initial target. The Taylor exponential remainder is rigorously bounded on the entire annulus. This replay shares the producer's Arb/Taylor implementation; it is not presented as a different interval backend.
+
+For vectors in one mod2 class, both half-sum and half-difference are lattice vectors. Below squared radius2 only one unoriented pair is possible. On a squared-radius annulus of width≤4 and upper radius-squared T, directions satisfy |cos|≤1−2/T. The antipodal polynomial t^(2k)(t²−s²), with its verified positive constant harmonic and nonnegative other harmonics, gives the recorded pair cap. The minimum over k=0,…,500 is recomputed exactly, and multiplication by2·2^48 safely counts both signs and all classes. The resulting full finite budget is exact.
+
+The Fourier polynomial is rebuilt from positive linear, square and complex-conjugate quadratic factors. Independent exact Laguerre inversion verifies its relation to P. All71 physical roots were freshly enclosed; every possibly real root is below180 and P(180)<0, proving the infinite negative tail. The exact scalar quantity (22/4)^24/24!·(P(0)+s+budget) is below3.4559190288e−7. The main geometric sign proof is now complete, so this bound is established by the full certificate.
+
+## Transfers to45D,46D and47D
+The separate audit reconstructs the source angular matrix polynomial in the target normalized Gegenbauer bases and checks coefficientwise equality, positive-definite target blocks, and a positive global scalar multiplier. The source geometry has passed, so its sign theorem transfers without a new geometry search. The target radial and origin proofs remain separate requirements. Odd45D/47D normalization is squared and checked against an exact Machin-formula lower bound for pi; no floating rounding is trusted.
