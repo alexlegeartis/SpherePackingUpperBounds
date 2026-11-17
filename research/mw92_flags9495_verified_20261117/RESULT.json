@@ -1,0 +1,32 @@
+{
+  "external_derived_comparator_center_squared": "6129982163463555433433388108601236734474956488734408704/770000958563002228003107",
+  "external_gain_percent_interval": [
+    "65476682257/312500000",
+    "83810153289/400000000"
+  ],
+  "status": "PASS exact covering depths, complete vertical parity minima, all color cases, density and rounding; published parent/covering premises retained",
+  "dimension": 94,
+  "safe_occupied_lower": "392217270202587/50000000000000000000000000000000000",
+  "safe_decimal": "7.84434540405174e-21",
+  "determinant": "20040506276476283221/1000000000000000000",
+  "center_density_squared": "392318858461667547739736838950479151006397215279002157056000000000000000000/5143736347658200209471907671194342733322549",
+  "parity_minima": {
+    "(1, 1)": "1051728431/200000000",
+    "(1, 0)": "2499509857/500000000",
+    "(0, 1)": "1051728431/200000000",
+    "(0, 0)": "2499509857/125000000"
+  },
+  "gain_over_public_percent_interval": [
+    "8651/5000",
+    "173021/100000"
+  ],
+  "baseline_commit": "d2e55b3cd56c553beeb1d635aac5dbfd26b887dd",
+  "input_sha256": {
+    "FLAG95_PROOF.md": "41ebe18cec5e442d0dcc9d1bf2c0bb202e5423ad969cb19b0ce5dd0a4c4c0e37",
+    "PROOF.md": "99a7fd270d4808ff333d8bba7c4e41e55955fcd5e1740185e589736230d3bdc1",
+    "flag95.json": "f6e67c7f9cee1f097da9e161577e556ad63aeecabae47ac09e1349517aeab8f1",
+    "flag95.py": "1e045b21de6aec5ced2f18854abb7638611bb1e076d0d4f430edf5e7e3ca7616",
+    "results.json": "a7608134416525af4b8bf87c353c10af43dc754348b9541aa0b4034c1b2c62d4",
+    "test.py": "4a2c414c648d5000e62ca0e2505b471c29d4876a456f275d65fe550b75ff4ab0"
+  }
+}

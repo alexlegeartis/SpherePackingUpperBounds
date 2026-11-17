@@ -1,0 +1,10 @@
+{
+  "explicit_polynomial_sections": 180,
+  "curve_equations_checked": 180,
+  "pairwise_heights_checked_by_direct_polynomial_gcd": 16110,
+  "coordinates_generate_the_full_integer_module": true,
+  "gram_determinant": "256666986187667409334369",
+  "minimum_squared_inherited": 16,
+  "source": "Schutt-Shioda Theorems6.23 and13.35; Section13.4.2",
+  "no_new_parent_minimum_enumeration_claimed": true
+}
