@@ -1,0 +1,13 @@
+{
+  "status": "PASS exact case101 input maps, code masks, carries,16glues and target normalization",
+  "target_parent_norm": 2828,
+  "target_squared_norm": 707,
+  "local_cost_to_global_norm_denominator": 128,
+  "absence_cutoff_numerator": 640,
+  "absence_scope": "No absence proof in this checker; cutoff auditor separately checks local/global search completeness.",
+  "hashes": {
+    "/workspace/scratch/941a2e823e69/research/l80_code_decoder_20261117/case101.txt": "5cb83cfe951a5b4968aa6e32d817fa2952c3a1668017fb5d7a3e0f4bcda76d32",
+    "/workspace/scratch/941a2e823e69/research/l80_code_decoder_20261117/case101.json": "bced37fa26cf53923af5f5fc59379203939f3b96f3692e8945110c6c2351022b",
+    "/workspace/scratch/941a2e823e69/research/bachoc_nebe80_reconstruction_20261117/lattice80.npz": "e157bdeba01155056be8b9f844550353b5bf9a34340649eb62d1ef62ae69ba81"
+  }
+}
