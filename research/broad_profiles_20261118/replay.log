@@ -1,0 +1,85 @@
+EXACT PSD/CAP/TRANSITION/TAIL PASS 17 0 17 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 17, "degree": 13, "profile_a_exact": "0", "profile_b_exact": "17", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 3385, "discarded_sorting_rectangles": 166, "max_depth": 15, "processed": 7101, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.5462043285369873, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+EXACT PSD/CAP/TRANSITION/TAIL PASS 19 0 17 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 19, "degree": 13, "profile_a_exact": "0", "profile_b_exact": "17", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 4129, "discarded_sorting_rectangles": 173, "max_depth": 15, "processed": 8603, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.6018564701080322, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+EXACT PSD/CAP/TRANSITION/TAIL PASS 18 0 16 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 18, "degree": 13, "profile_a_exact": "0", "profile_b_exact": "16", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 4614, "discarded_sorting_rectangles": 181, "max_depth": 15, "processed": 9589, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.6308066844940186, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 17 0.018035045894 8337 25
+
+INDEPENDENT ANGULAR PASS 17 2982 15
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 19 0.0092288097048 9931 25
+
+INDEPENDENT ANGULAR PASS 19 3558 15
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 18 0.012944843717 12356 25
+
+INDEPENDENT ANGULAR PASS 18 3984 15
+
+INDEPENDENT RADIAL PASS 17 0.018035045894 8380 25
+
+FULL CERTIFICATE PASS 17 0.018035045894
+EXACT PSD/CAP/TRANSITION/TAIL PASS 20 0 18 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 20, "degree": 13, "profile_a_exact": "0", "profile_b_exact": "18", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 3686, "discarded_sorting_rectangles": 170, "max_depth": 16, "processed": 7711, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.5837478637695312, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+INDEPENDENT RADIAL PASS 19 0.0092288097048 9997 25
+
+FULL CERTIFICATE PASS 19 0.0092288097048
+EXACT PSD/CAP/TRANSITION/TAIL PASS 21 0 19 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 21, "degree": 13, "profile_a_exact": "0", "profile_b_exact": "19", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 3386, "discarded_sorting_rectangles": 165, "max_depth": 16, "processed": 7101, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.46533894538879395, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+INDEPENDENT RADIAL PASS 18 0.012944843717 12412 25
+
+FULL CERTIFICATE PASS 18 0.012944843717
+EXACT PSD/CAP/TRANSITION/TAIL PASS 22 0 20 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 22, "degree": 14, "profile_a_exact": "0", "profile_b_exact": "20", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 3449, "discarded_sorting_rectangles": 168, "max_depth": 16, "processed": 7233, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.585322380065918, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 21 0.0048577138817 9667 25
+
+INDEPENDENT ANGULAR PASS 21 2953 16
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 22 0.0035915037512 10068 25
+
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 20 0.0066415952331 21809 27
+
+INDEPENDENT ANGULAR PASS 22 2967 16
+
+INDEPENDENT ANGULAR PASS 20 3185 15
+
+INDEPENDENT RADIAL PASS 21 0.0048577138817 9717 25
+
+FULL CERTIFICATE PASS 21 0.0048577138817
+EXACT PSD/CAP/TRANSITION/TAIL PASS 23 0 21 tail_u 8
+FULL ANGULAR PASS {"pass": true, "dimension": 23, "degree": 14, "profile_a_exact": "0", "profile_b_exact": "21", "tail_u": 8, "strict_cap_delta": "1/100000", "complete_domain_t": "[-1,1/2]", "certified_rectangles": 3186, "discarded_sorting_rectangles": 163, "max_depth": 16, "processed": 6697, "tail_exponential_rational_lower_check": true, "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1", "seconds": 0.4424474239349365, "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"}
+
+INDEPENDENT RADIAL PASS 22 0.0035915037512 10122 25
+
+FULL CERTIFICATE PASS 22 0.0035915037512
+PRIMARY fourier global ray PASS
+PRIMARY physical global ray PASS
+PRIMARY RADIAL PASS 23 0.0026052022978 10776 25
+
+INDEPENDENT ANGULAR PASS 23 2781 16
+
+INDEPENDENT RADIAL PASS 20 0.0066415952331 21848 27
+
+FULL CERTIFICATE PASS 20 0.0066415952331
+INDEPENDENT RADIAL PASS 23 0.0026052022978 10814 25
+
+FULL CERTIFICATE PASS 23 0.0026052022978
+PASS: all seven registered broader-profile certificates

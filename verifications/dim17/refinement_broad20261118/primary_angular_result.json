@@ -1,0 +1,18 @@
+{
+  "pass": true,
+  "dimension": 17,
+  "degree": 13,
+  "profile_a_exact": "0",
+  "profile_b_exact": "17",
+  "tail_u": 8,
+  "strict_cap_delta": "1/100000",
+  "complete_domain_t": "[-1,1/2]",
+  "certified_rectangles": 3385,
+  "discarded_sorting_rectangles": 166,
+  "max_depth": 15,
+  "processed": 7101,
+  "tail_exponential_rational_lower_check": true,
+  "all_scale_hypothesis": "a+b>0,b>0 imply v*phi_prime(v)=a+b*v is nonnegative and nondecreasing on v>=1",
+  "seconds": 0.5462043285369873,
+  "scope": "Angular and cyclic only; radial signs/coupling and density normalization required"
+}

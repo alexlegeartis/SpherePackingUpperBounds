@@ -1,0 +1,62 @@
+{
+  "baseline_remote_commit": "a23b290130f96e6bb842c5cda0cd5a23ce6a2f88",
+  "integration_base_commit": "1b95e84",
+  "results": [
+    {
+      "dimension": 17,
+      "previous_repository_upper": "0.018140145562",
+      "new_strict_upper": "0.018035045894",
+      "upper_decrease_percent": "0.579376101",
+      "gap_decrease_percent": "1.126611899",
+      "package": "verifications/dim17/refinement_broad20261118"
+    },
+    {
+      "dimension": 18,
+      "previous_repository_upper": "0.013077495192",
+      "new_strict_upper": "0.012944843717",
+      "upper_decrease_percent": "1.014349255",
+      "gap_decrease_percent": "1.919814914",
+      "package": "verifications/dim18/refinement_broad20261118"
+    },
+    {
+      "dimension": 19,
+      "previous_repository_upper": "0.0093653907401",
+      "new_strict_upper": "0.0092288097048",
+      "upper_decrease_percent": "1.458359177",
+      "gap_decrease_percent": "2.617486970",
+      "package": "verifications/dim19/refinement_broad20261118"
+    },
+    {
+      "dimension": 20,
+      "previous_repository_upper": "0.0067425778508",
+      "new_strict_upper": "0.0066415952331",
+      "upper_decrease_percent": "1.497685602",
+      "gap_decrease_percent": "3.714763930",
+      "package": "verifications/dim20/refinement_broad20261118"
+    },
+    {
+      "dimension": 21,
+      "previous_repository_upper": "0.0049104292815",
+      "new_strict_upper": "0.0048577138817",
+      "upper_decrease_percent": "1.073539538",
+      "gap_decrease_percent": "2.661587153",
+      "package": "verifications/dim21/refinement_broad20261118"
+    },
+    {
+      "dimension": 22,
+      "previous_repository_upper": "0.0036110963151",
+      "new_strict_upper": "0.0035915037512",
+      "upper_decrease_percent": "0.542565531",
+      "gap_decrease_percent": "1.688923465",
+      "package": "verifications/dim22/refinement_broad20261118"
+    },
+    {
+      "dimension": 23,
+      "previous_repository_upper": "0.0026135387307",
+      "new_strict_upper": "0.0026052022978",
+      "upper_decrease_percent": "0.318971087",
+      "gap_decrease_percent": "1.180222475",
+      "package": "verifications/dim23/refinement_broad20261118"
+    }
+  ]
+}

@@ -374,3 +374,7 @@ The lattice-only48D upper <3.499004606e-7 is 16.6800943697% below Zubrilina’s 
 ## Compact harmonic-matrix transfers 46–47
 
 The independently verified lattice bounds 46D<7.790880151e-7 and 47D<5.186745468e-7 compare with Zubrilina’s pre-existing Table1 values 8.80676408e-7 and 6.07126117e-7, respectively. All gains in the main table use those external values, not our preceding certificates. [Exact target-dimensional proofs](verifications/lattice/compact_matrix46_47_20261117/).
+
+## 18 November broader-profile refinement
+
+Dimensions 17–23 now use the independently verified broader-profile certificates. Main-table percentages continue to use the previously pinned external comparators; the immediately preceding repository bounds and their incremental upper/gap reductions are separately listed in [CHANGES_20261118.md](CHANGES_20261118.md). Historical certificates remain available. No global-priority claim follows from these comparisons.

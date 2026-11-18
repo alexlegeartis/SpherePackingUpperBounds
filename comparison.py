@@ -105,6 +105,7 @@ for n in [26, 27, 28, 29, 30, 31, 33, 34]:proof_ideas[n]='Signed logarithmic pro
 for n in [23]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 for n in [17,18,19,20,21,48]:proof_ideas[n]='Signed logarithmic profile + degree95 radial enrichment'
 for n in [45,48]:proof_ideas[n]='Reoptimized nonnegative Gegenbauer cyclic kernel + signed logarithmic profile + retained Fourier witness'
+for n in range(17,24):proof_ideas[n]='Broader Gaussian radial profile + degree95 Fourier enrichment'
 assert set(proof_ideas) == {row["dimension"] for row in rows}
 header='| Dimension | Known lower density L | Recorded upper U | Comparison method / source | Our upper N | Upper decrease | Additive gap decrease | Our method / proof |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n'
 def display_density(value):

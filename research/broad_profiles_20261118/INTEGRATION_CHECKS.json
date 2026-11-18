@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "integration_base_commit": "1b95e84",
+  "all_seven_new_registered_wrappers_replayed": true,
+  "mathematical_gate_count": 28,
+  "strict_upper_bounds": {
+    "17": "0.018035045894",
+    "18": "0.012944843717",
+    "19": "0.0092288097048",
+    "20": "0.0066415952331",
+    "21": "0.0048577138817",
+    "22": "0.0035915037512",
+    "23": "0.0026052022978"
+  },
+  "comparison_generator_and_70_100_digit_checks": true,
+  "historical_selected_wrapper_registry_and_hash_prefixes_pass": true,
+  "all_non_target_registry_rows_unchanged": true,
+  "full_historical_repository_aggregate_replayed": false,
+  "hosted_actions_used": false
+}

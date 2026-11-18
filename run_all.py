@@ -18,6 +18,7 @@ jobs.append(('dim5','refinement_lens/verify.py'))
 jobs.append(('dim5','refinement_spherical_lens/verify.py'))
 jobs.append(('dim4','refinement_energy20261115/verify.py'))
 jobs += [(f'dim{n}','refinement_larger20261115/verify.py') for n in [17,18,19,20,21,48]]
+jobs += [(f'dim{n}','refinement_broad20261118/verify.py') for n in range(17,24)]
 def replay(chain):
  for directory,script in chain:
   print(directory,script,flush=True)

@@ -1,0 +1,26 @@
+{
+  "pass": true,
+  "dimension": 19,
+  "strict_density_upper_bound": "0.0092288097048",
+  "complete_primary_and_independent_replay": true,
+  "executed": [
+    {
+      "script": "primary_angular",
+      "returncode": 0
+    },
+    {
+      "script": "primary_radial",
+      "returncode": 0
+    },
+    {
+      "script": "independent_angular",
+      "returncode": 0
+    },
+    {
+      "script": "independent_radial",
+      "returncode": 0
+    }
+  ],
+  "external_neighbor_counts_required": false,
+  "arithmetic_backend": "Independent implementations sharing FLINT/Arb"
+}

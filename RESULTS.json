@@ -308,8 +308,8 @@
   },
   {
     "dimension": 17,
-    "strict_density_upper_bound": "0.018140145562",
-    "package": "verifications/dim17/refinement_larger20261115",
+    "strict_density_upper_bound": "0.018035045894",
+    "package": "verifications/dim17/refinement_broad20261118",
     "known_lower_density": "0.0088113191823211898698",
     "previous_upper_density": "0.0184640903350649",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
@@ -317,36 +317,40 @@
     "known_lower_formula": "pi^(17/2)/(16 Gamma(19/2))",
     "previous_upper_status": "Pinned Cohn indexed-table value; index four months old, no worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
-    "upper_decrease_percent": "1.754458",
-    "gap_decrease_percent": "3.355977",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
+    "upper_decrease_percent": "2.323670",
+    "gap_decrease_percent": "4.444780",
     "old_gap": "0.0096527711527437101302",
-    "new_gap": "0.0093288263796788101302",
+    "new_gap": "0.0092237267116788101302",
     "earlier_repository_upper_densities": [
       "0.018335552",
-      "0.018204096"
+      "0.018204096",
+      "0.018140145562"
     ],
-    "previous_repository_package": "verifications/dim17/refinement_repaired",
+    "previous_repository_package": "verifications/dim17/refinement_larger20261115",
     "earlier_repository_packages": [
-      "verifications/dim17/refinement_repaired"
+      "verifications/dim17/refinement_repaired",
+      "verifications/dim17/refinement_larger20261115"
     ],
-    "source_package": "verifications/dim17/refinement_larger20261115",
-    "previous_repository_strict_upper": "0.018204096",
+    "source_package": "verifications/dim17/refinement_broad20261118",
+    "previous_repository_strict_upper": "0.018140145562",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120"
+      "a_exact": "0",
+      "b_exact": "17"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "0.579376101",
+    "repository_gap_decrease_percent": "1.126611899"
   },
   {
     "dimension": 18,
-    "strict_density_upper_bound": "0.013077495192",
-    "package": "verifications/dim18/refinement_larger20261115",
+    "strict_density_upper_bound": "0.012944843717",
+    "package": "verifications/dim18/refinement_broad20261118",
     "known_lower_density": "0.0061678981253312565897",
     "previous_upper_density": "0.0134853404450862",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
@@ -354,61 +358,67 @@
     "known_lower_formula": "pi^9/9! * (3/4)^9",
     "previous_upper_status": "Pinned Cohn indexed table, reported crawl age four months; live retrieval unavailable; no worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-10",
-    "upper_decrease_percent": "3.024360",
-    "gap_decrease_percent": "5.573604",
+    "upper_decrease_percent": "4.008032",
+    "gap_decrease_percent": "7.386416",
     "old_gap": "0.0073174423197549434103",
-    "new_gap": "0.0069095970666687434103",
+    "new_gap": "0.0067769455916687434103",
     "earlier_repository_upper_densities": [
       "0.013408931",
       "0.013284728",
-      "0.013224473"
+      "0.013224473",
+      "0.013077495192"
     ],
-    "source_package": "verifications/dim18/refinement_larger20261115",
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
-    "previous_repository_package": "verifications/cyclic_origin_slack",
+    "source_package": "verifications/dim18/refinement_broad20261118",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
+    "previous_repository_package": "verifications/dim18/refinement_larger20261115",
     "earlier_repository_packages": [
-      "verifications/cyclic_origin_slack"
+      "verifications/cyclic_origin_slack",
+      "verifications/dim18/refinement_larger20261115"
     ],
-    "previous_repository_strict_upper": "0.013224473",
+    "previous_repository_strict_upper": "0.013077495192",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120"
+      "a_exact": "0",
+      "b_exact": "16"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "1.014349255",
+    "repository_gap_decrease_percent": "1.919814914"
   },
   {
     "dimension": 19,
-    "strict_density_upper_bound": "0.0093653907401",
-    "package": "verifications/dim19/refinement_larger20261115",
+    "strict_density_upper_bound": "0.0092288097048",
+    "package": "verifications/dim19/refinement_broad20261118",
     "known_lower_density": "0.0041473691458627257748",
     "previous_upper_density": "0.0098179551395438",
-    "upper_decrease_percent": "4.609559",
-    "gap_decrease_percent": "7.980911",
+    "upper_decrease_percent": "6.000694",
+    "gap_decrease_percent": "10.389498",
     "old_gap": "0.0056705859936810742252",
-    "new_gap": "0.0052180215942372742252",
+    "new_gap": "0.0050814405589372742252",
     "earlier_repository_upper_densities": [
       "0.009618351",
       "0.009618343139",
       "0.009557491",
-      "0.009521000"
+      "0.009521000",
+      "0.0093653907401"
     ],
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
-    "previous_repository_package": "verifications/cyclic_origin_slack",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
+    "previous_repository_package": "verifications/dim19/refinement_larger20261115",
     "previous_upper_reviewed": "2026-11-11",
     "earlier_source_package": "verifications/dim19",
     "earlier_repository_packages": [
-      "verifications/cyclic_origin_slack"
+      "verifications/cyclic_origin_slack",
+      "verifications/dim19/refinement_larger20261115"
     ],
-    "source_package": "verifications/dim19/refinement_larger20261115",
-    "previous_repository_strict_upper": "0.009521000",
+    "source_package": "verifications/dim19/refinement_broad20261118",
+    "previous_repository_strict_upper": "0.0093653907401",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120"
+      "a_exact": "0",
+      "b_exact": "17"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
@@ -416,36 +426,40 @@
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "1.458359177",
+    "repository_gap_decrease_percent": "2.617486970"
   },
   {
     "dimension": 20,
-    "strict_density_upper_bound": "0.0067425778508",
-    "package": "verifications/dim20/refinement_larger20261115",
+    "strict_density_upper_bound": "0.0066415952331",
+    "package": "verifications/dim20/refinement_broad20261118",
     "known_lower_density": "0.0040241650630681997943",
     "previous_upper_density": "0.0071270536033763",
-    "upper_decrease_percent": "5.394596",
-    "gap_decrease_percent": "12.390898",
+    "upper_decrease_percent": "6.811488",
+    "gap_decrease_percent": "15.645369",
     "old_gap": "0.0031028885403081002057",
-    "new_gap": "0.0027184127877318002057",
+    "new_gap": "0.0026174301700318002057",
     "earlier_repository_upper_densities": [
       "0.006979502",
       "0.006979497272",
       "0.006977702",
-      "0.006936042"
+      "0.006936042",
+      "0.0067425778508"
     ],
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
-    "previous_repository_package": "verifications/cyclic_origin_slack",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
+    "previous_repository_package": "verifications/dim20/refinement_larger20261115",
     "previous_upper_reviewed": "2026-11-11",
     "earlier_source_package": "verifications/dim20",
     "earlier_repository_packages": [
-      "verifications/cyclic_origin_slack"
+      "verifications/cyclic_origin_slack",
+      "verifications/dim20/refinement_larger20261115"
     ],
-    "source_package": "verifications/dim20/refinement_larger20261115",
-    "previous_repository_strict_upper": "0.006936042",
+    "source_package": "verifications/dim20/refinement_broad20261118",
+    "previous_repository_strict_upper": "0.0067425778508",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120"
+      "a_exact": "0",
+      "b_exact": "18"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
@@ -453,33 +467,37 @@
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "1.497685602",
+    "repository_gap_decrease_percent": "3.714763930"
   },
   {
     "dimension": 21,
-    "strict_density_upper_bound": "0.0049104292815",
-    "package": "verifications/dim21/refinement_larger20261115",
+    "strict_density_upper_bound": "0.0048577138817",
+    "package": "verifications/dim21/refinement_broad20261118",
     "known_lower_density": "0.0029298291067157025989",
     "previous_upper_density": "0.0051596603948176",
-    "upper_decrease_percent": "4.830378",
-    "gap_decrease_percent": "11.177129",
+    "upper_decrease_percent": "5.852062",
+    "gap_decrease_percent": "13.541227",
     "old_gap": "0.0022298312881018974011",
-    "new_gap": "0.0019806001747842974011",
+    "new_gap": "0.0019278847749842974011",
     "earlier_repository_upper_densities": [
       "0.005149554",
       "0.005149549312",
-      "0.004985977000"
+      "0.004985977000",
+      "0.0049104292815"
     ],
-    "source_package": "verifications/dim21/refinement_larger20261115",
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
-    "previous_repository_package": "verifications/dim21/refinement_gaussian",
+    "source_package": "verifications/dim21/refinement_broad20261118",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
+    "previous_repository_package": "verifications/dim21/refinement_larger20261115",
     "earlier_repository_packages": [
-      "verifications/dim21/refinement_gaussian"
+      "verifications/dim21/refinement_gaussian",
+      "verifications/dim21/refinement_larger20261115"
     ],
-    "previous_repository_strict_upper": "0.004985977000",
+    "previous_repository_strict_upper": "0.0049104292815",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120"
+      "a_exact": "0",
+      "b_exact": "19"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
@@ -487,83 +505,91 @@
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "1.073539538",
+    "repository_gap_decrease_percent": "2.661587153"
   },
   {
     "dimension": 22,
-    "strict_density_upper_bound": "0.0036110963151",
-    "package": "verifications/dim22/refinement_profile20261114",
-    "method": "Signed logarithmic radial profile, new dimension-specific angular kernel and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "strict_density_upper_bound": "0.0035915037512",
+    "package": "verifications/dim22/refinement_broad20261118",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.0024510340441211825243",
     "previous_upper_density": "0.0037259419689206",
-    "upper_decrease_percent": "3.082325",
-    "gap_decrease_percent": "9.008153",
+    "upper_decrease_percent": "3.608167",
+    "gap_decrease_percent": "10.544935",
     "old_gap": "0.0012749079247994174757",
-    "new_gap": "0.0011600622709788174757",
+    "new_gap": "0.0011404697070788174757",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "pi^(22/2)/Gamma(22/2+1) * (2^(-23) * 3^(-21/2) * 11^11)",
     "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
-    "source_package": "verifications/dim22/refinement_profile20261114",
-    "previous_repository_package": "verifications/dim22",
-    "previous_repository_strict_upper": "0.003653383161",
+    "source_package": "verifications/dim22/refinement_broad20261118",
+    "previous_repository_package": "verifications/dim22/refinement_profile20261114",
+    "previous_repository_strict_upper": "0.0036110963151",
     "earlier_repository_upper_densities": [
-      "0.003653383161"
+      "0.003653383161",
+      "0.0036110963151"
     ],
     "earlier_repository_packages": [
-      "verifications/dim22"
+      "verifications/dim22",
+      "verifications/dim22/refinement_profile20261114"
     ],
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120",
-      "q_exact": "1"
+      "a_exact": "0",
+      "b_exact": "20"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "0.542565531",
+    "repository_gap_decrease_percent": "1.688923465"
   },
   {
     "dimension": 23,
-    "strict_density_upper_bound": "0.0026135387307",
-    "package": "verifications/dim23/refinement_combined20261115",
-    "method": "Signed logarithmic radial profile and degree95 Laguerre enrichment; complete primary and independent continuum proofs",
+    "strict_density_upper_bound": "0.0026052022978",
+    "package": "verifications/dim23/refinement_broad20261118",
+    "method": "Broader Gaussian radial profile and degree95 Laguerre enrichment; complete independent continuum verification",
     "previous_upper_source": "https://arxiv.org/abs/2006.02560v2",
     "previous_upper_status": "Pinned indexed Cohn table; no exhaustive worldwide-priority assertion",
     "previous_upper_reviewed": "2026-11-11",
     "known_lower_density": "0.0019071945388448748253",
     "previous_upper_density": "0.0026842798864291",
-    "upper_decrease_percent": "2.635387",
-    "gap_decrease_percent": "9.103396",
+    "upper_decrease_percent": "2.945952",
+    "gap_decrease_percent": "10.176178",
     "old_gap": "0.00077708534758422517474",
-    "new_gap": "0.00070634419185512517474",
+    "new_gap": "0.00069800775895512517474",
     "known_lower_source": "https://cohn.mit.edu/sphere-packing/",
     "known_lower_formula": "pi^(23/2)/Gamma(23/2+1) * (2^(-34) * 3^(-12) * 23^(23/2))",
     "known_lower_construction_reference": "https://annals.math.princeton.edu/1982/116-3/p07",
     "earlier_repository_upper_densities": [
-      "0.002642540089"
+      "0.002642540089",
+      "0.0026135387307"
     ],
     "earlier_repository_packages": [
-      "verifications/dim23"
+      "verifications/dim23",
+      "verifications/dim23/refinement_combined20261115"
     ],
-    "source_package": "verifications/dim23/refinement_combined20261115",
-    "previous_repository_package": "verifications/dim23",
-    "previous_repository_strict_upper": "0.002642540089",
+    "source_package": "verifications/dim23/refinement_broad20261118",
+    "previous_repository_package": "verifications/dim23/refinement_combined20261115",
+    "previous_repository_strict_upper": "0.0026135387307",
     "radial_profile": {
-      "a_exact": "-96",
-      "b_exact": "120",
-      "q_exact": "1"
+      "a_exact": "0",
+      "b_exact": "21"
     },
     "external_neighbor_counts_required": false,
     "previous_upper_method": "Cohn\u2013Elkies LP / modular bootstrap",
     "previous_upper_source_label": "Afkhami-Jeddi et al. (2020)",
     "previous_upper_source_title": "High-dimensional sphere packing and the modular bootstrap",
     "previous_upper_source_locator": "arXiv:2006.02560v2; numerical comparator retained from the pinned Cohn table",
-    "previous_upper_source_kind": "published_table_decimal"
+    "previous_upper_source_kind": "published_table_decimal",
+    "repository_upper_decrease_percent": "0.318971087",
+    "repository_gap_decrease_percent": "1.180222475"
   },
   {
     "dimension": 25,
